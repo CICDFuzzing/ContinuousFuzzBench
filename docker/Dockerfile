@@ -10,6 +10,9 @@ RUN apt-get update && apt-get install -y sudo
 # The Docker image must be built in the root of the magma directory
 ARG magma_root=./
 
+# avoid interactive installation
+ENV DEBIAN_FRONTEND=noninteractive 
+
 ## Path variables inside the container
 ENV MAGMA_R /magma
 ENV OUT		/magma_out
@@ -34,6 +37,11 @@ RUN	echo "magma:amgam" | chpasswd && usermod -a -G sudo magma
 RUN mkdir -p ${SHARED} ${OUT} && \
 	chown magma:magma ${SHARED} ${OUT} && \
 	chmod 744 ${SHARED} ${OUT}
+
+RUN chown magma:magma /usr/include/
+RUN chown magma:magma /usr/local/
+RUN mkdir -p /usr/lib/bfd-plugins/ && \
+	chown magma:magma /usr/lib/bfd-plugins/
 
 ARG magma_path=magma
 ENV MAGMA 	${MAGMA_R}/${magma_path}
