@@ -257,7 +257,8 @@ for FUZZER in "${FUZZERS[@]}"; do
         for PROGRAM in "${PROGRAMS[@]}"; do
             export PROGRAM
             export ARGS="$(get_var_or_default $FUZZER $TARGET $PROGRAM 'ARGS')"
-
+            export CORPUS="$(get_var_or_default $FUZZER $TARGET $PROGRAM 'CORPUS')"
+            echo_time "The corpus is $CORPUS"
             echo_time "Starting campaigns for $PROGRAM $ARGS"
             for ((i=0; i<$REPEAT; i++)); do
                 export NUMWORKERS="$(get_var_or_default $FUZZER 'CAMPAIGN_WORKERS')"
