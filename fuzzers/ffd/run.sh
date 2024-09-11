@@ -16,5 +16,5 @@ mkdir -p "$SHARED/findings"
 export AFL_SKIP_CPUFREQ=1
 export AFL_NO_AFFINITY=1
 
-"$FUZZER/repo/afl-fuzz" -m 1000M -t 10000 -i "$TARGET/corpus/$PROGRAM" -o "$SHARED/findings" -p\
+"$FUZZER/repo/afl-fuzz" -m none -t 10000 -i "$TARGET/corpus/$CORPUS" -o "$SHARED/findings" -p\
     $FUZZARGS -- "$OUT/$PROGRAM" $ARGS 2>&1

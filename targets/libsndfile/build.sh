@@ -20,4 +20,7 @@ make -j$(nproc) clean
 make ossfuzz/sndfile_fuzzer
 
 cp -v ossfuzz/sndfile_fuzzer $OUT/
-cp ossfuzz/sndfile_fuzzer.0.0.*.bc $OUT/
+#cp ossfuzz/sndfile_fuzzer.0.0.*.bc $OUT/
+if ls ossfuzz/sndfile_fuzzer.0.0.*.bc > /dev/null 2>&1; then 
+    cp ossfuzz/sndfile_fuzzer.0.0.*.bc $OUT/
+fi

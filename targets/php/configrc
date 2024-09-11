@@ -1,4 +1,4 @@
-PROGRAMS=(exif)
+PROGRAMS=(json exif unserialize parser)
 #json exif unserialize parser
 
 PATCHES="PHP001"
