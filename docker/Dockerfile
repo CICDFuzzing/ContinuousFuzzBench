@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 # TODO remove sudo for user "magma" to avoid unwanted priv escalation from
 # other attack vectors.
 
-RUN apt-get update && apt-get install -y sudo
+RUN apt-get update && apt-get install -y sudo vim
 
 ## Magma directory hierarchy
 # magma_root is relative to the docker-build's working directory
