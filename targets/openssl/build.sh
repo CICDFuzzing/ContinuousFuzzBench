@@ -16,10 +16,10 @@ fi
 # build the libpng library
 cd "$TARGET/repo"
 
-CONFIGURE_FLAGS=""
-if [[ $CFLAGS = *sanitize=memory* ]]; then
-  CONFIGURE_FLAGS="no-asm"
-fi
+#CONFIGURE_FLAGS=""
+#if [[ $CFLAGS = *sanitize=memory* ]]; then
+CONFIGURE_FLAGS="no-asm"
+#fi
 
 # the config script supports env var LDLIBS instead of LIBS
 export LDLIBS="$LIBS"
@@ -30,6 +30,22 @@ export LDLIBS="$LIBS"
     enable-ssl3-method enable-nextprotoneg enable-weak-ssl-ciphers \
     $CFLAGS -fno-sanitize=alignment $CONFIGURE_FLAGS
 
+echo "Check the flags"
+grep -w "CFLAGS=" Makefile
+grep -w "CXXFLAGS=" Makefile
+
+replacedCFLAG=$(grep -w "CFLAGS=" Makefile | awk '{for (i=1;i<=NF;i++) if (!a[$i]++) printf("%s%s",$i,FS)}{printf("\n")}')
+replacedCXXFLAG=$(grep -w "CXXFLAGS=" Makefile | awk '{for (i=1;i<=NF;i++) if (!a[$i]++) printf("%s%s",$i,FS)}{printf("\n")}')
+replacedCFLAG=$(echo $replacedCFLAG | sed s/" -include"//)
+replacedCXXFLAG=$(echo $replacedCXXFLAG | sed s/" -include"//)
+
+sed -i '/CFLAGS=-include/c\'"$replacedCFLAG"'' Makefile
+sed -i '/CXXFLAGS=-include/c\'"$replacedCXXFLAG"'' Makefile
+
+echo "Should be correct now"
+grep -w "CFLAGS=" Makefile
+grep -w "CXXFLAGS=" Makefile
+
 make -j$(nproc) clean
 make -j$(nproc) LDCMD="$CXX $CXXFLAGS"
 
@@ -37,4 +53,7 @@ fuzzers=$(find fuzz -executable -type f '!' -name \*.py '!' -name \*-test '!' -n
 for f in $fuzzers; do
     fuzzer=$(basename $f)
     cp $f "$OUT/"
+    if [ -f $f.0.0.*.bc ]; then 
+        cp $f.0.0.*.bc "$OUT/"
+    fi
 done

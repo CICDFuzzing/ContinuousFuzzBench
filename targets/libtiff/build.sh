@@ -25,8 +25,14 @@ make -j$(nproc) clean
 make -j$(nproc)
 make install
 
-cp "$WORK/bin/tiffcp" "$OUT/"
 $CXX $CXXFLAGS -std=c++11 -I$WORK/include \
     contrib/oss-fuzz/tiff_read_rgba_fuzzer.cc -o $OUT/tiff_read_rgba_fuzzer \
     $WORK/lib/libtiffxx.a $WORK/lib/libtiff.a -lz -ljpeg -Wl,-Bstatic -llzma -Wl,-Bdynamic \
     $LDFLAGS $LIBS
+
+cp $TARGET/repo/tools/tiffcp "$OUT/"
+
+if [ -f $TARGET/repo/tools/tiffcp.0.0.*.bc ]; then 
+    echo "copying the file $TARGET/repo/tools/tiffcp.0.0.*.bc to $OUT"
+    cp $TARGET/repo/tools/tiffcp.0.0.*.bc "$OUT/"
+fi

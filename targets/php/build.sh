@@ -62,4 +62,8 @@ done
 for fuzzerName in `ls sapi/fuzzer/corpus`; do
     mkdir -p "$TARGET/corpus/${fuzzerName}"
     cp sapi/fuzzer/corpus/${fuzzerName}/* "$TARGET/corpus/${fuzzerName}/"
+    if [ -f sapi/fuzzer/$fuzzerName.0.0.*.bc ]; then 
+        export bytecodeName=$(ls sapi/fuzzer/$fuzzerName.0.0.*.bc | xargs basename)
+        cp sapi/fuzzer/$bytecodeName "$OUT/${bytecodeName/php-fuzz-/}"
+    fi
 done

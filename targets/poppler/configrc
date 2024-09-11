@@ -2,3 +2,7 @@ PROGRAMS=(pdf_fuzzer pdfimages pdftoppm)
 
 pdfimages_ARGS="@@ /tmp/out"
 pdftoppm_ARGS="-mono -cropbox @@"
+
+PATCHES="PDF001"
+AUTOMATIC=1
+COMMIT_FILES=(poppler/SplashOutputDev.cc)
