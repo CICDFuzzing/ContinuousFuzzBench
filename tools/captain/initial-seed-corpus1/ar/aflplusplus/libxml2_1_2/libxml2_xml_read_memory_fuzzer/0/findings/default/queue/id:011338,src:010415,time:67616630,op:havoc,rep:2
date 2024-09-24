@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTITY entExt SYSTEM "eartheeeeeeeeeeVeeeeeeeeeeeeeeeeee.exeello">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTITY entExt SYSTEM "eartheeeeeeeeee">
+]>
+<doc attrExtEnt="entExt">
+   &en&ent2;!
+</doc>
+
+<! world.txt contain "world" (excluding the quotes) -->

@@ -1,0 +1,24 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDAT%[<!ENTITY % pub    "&#xc9;ditiÿÿÿGallimard" >
+<-ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947%pub;. &righert Camus, 
+&#xA9; 194e reNlacement text for the entit<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="'ISO-8859-1#?>
+<rec>
+<eg><![CemaTTTTTTTTTTTTTTTTTTTTT name="barType">
+	<xsd:restriction base="xsd:string">	
+			<xsd:maxLength value="10" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<€sdattribut† name="bar" type="barType" fixed="o"/>
+
+	<xsd:elemntit<?xml version="1.0#all" nillcblZ="true" final="restriction extension"/>
+	
+	<xsd:elemX" >]]></eg>
+then the reN[plexType>
+&		<xsd:sequence>
+				<xsd:element name

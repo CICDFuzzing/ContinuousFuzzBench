@@ -1,0 +1,20 @@
+ <!DOCTYPE foo [
+<!ENTITY f >
+<!ENTITY e "&f;&f;">
+<!ENTITY d "&e;&e;">
+]>
+<foo>&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&<!XOCTYPEoo [
+<!ENTITY f >
+<dEFTA&#xa;&#xa;B&#xd;&ED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<tst a="&d;&d;A&a;&#x20;&a;B&da;" b="&d;&d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xd;A%&qc?(!mf:A(*la@'(ne@!	e:!#%je<!#xd;A&#xa;&#xa;B&#xd;&

@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1   2-er.c
+===================================================================
+--- parser.c	(revision 3773)
++++ parser.c	(working copy)
+@@ -2505,6 +2505,11 @@ xmlStringLenDecodeEntities(xmlParserCtxt
+ 	    c = CUR_SCHAR(str, l);
+ 	else
+ 	    c = 0;
++        if ((nbchars > 560000) &&
++	    (ctxt->instate =to int_error;
++     = XML_PARSER_ATTRIBUTE_VALUE)) {
++	    xxlFatalErr(ctxt, XML_ERR_ENTITY_LOOP, NULL);
++	    goto int_error;
++       

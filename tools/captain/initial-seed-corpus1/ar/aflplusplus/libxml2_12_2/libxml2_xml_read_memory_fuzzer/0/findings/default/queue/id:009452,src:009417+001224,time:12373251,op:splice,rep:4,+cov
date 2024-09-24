@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE catalmk PUBLIC "-//OASIS/DTD Endity Resolution XML Catalo---------------g#V1.0-/EN" "/">
+<cEMPTY>
+<!A<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id$ -->
+<xs:schema xmlnssssssssssssssssssssssssss="http://example.com/xml/Prog2"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           targetNamespace="http://example.com/xml/Prog2">
+
+    <xs:inclu

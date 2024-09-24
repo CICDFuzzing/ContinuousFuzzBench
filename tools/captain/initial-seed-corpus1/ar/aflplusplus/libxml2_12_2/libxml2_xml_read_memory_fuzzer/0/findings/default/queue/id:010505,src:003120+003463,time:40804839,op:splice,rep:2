@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1:::::::::::::::::::::::::::::::   2-      ">
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     defatt  (0k1)   "0"
+     xmljs:tst CDATA #FIXED "http:

@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attß ßßßßßßßßßßßßßßßßßßßrExta1 NMTOKENS " 1 ? [
+<!ATTLITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM	"world.txt">
+<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
+<!NOTATION  coc>
+
+<!-- Lct world.txt contaonuotes ) --è

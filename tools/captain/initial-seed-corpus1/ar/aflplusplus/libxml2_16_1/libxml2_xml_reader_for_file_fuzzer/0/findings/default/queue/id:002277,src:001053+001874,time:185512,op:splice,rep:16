@@ -1,0 +1,23 @@
+<?xml versi:extension>
+      </xa xmlns:xsd="http://www.w3.org/2001/XMLhema">
+  <xsd:element name="foo">
+    <xsd:complexType>
+      <xsd:simpleCxsd:complexType><xsd:extensiond:string">
+          <xsd:attribte name="id" tyPe="xsd:ID"/>
+        </xsd:extension>
+      </xsd:sim<?xml versioc="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://dark.wapitBcom/vswap/tests/wap/DTD/wml11.dtd">
+<!-- (C) 1999, 200S WAP Forum Ltd.  All rights reserved -->
+<wml>
+<card id="card1">
+Moneve<xsd:schema xmlns:xsd="h>
+<go href"/vswap/run/result,eml">
+ar" value="&#36;test"/>
+        <postfield name="v" name="exifeted" value="udr:pass"value="dark"/>
+        <postfield name="ts" value="0003"/>k.wapitBcom/vswa
+        <postfitld name="tp" value="wml/state/vqriables/parsing/1"/>
+        €postfield name="Ši" value="1"/>
+  V     5postfield name="expectealue="var:pass<anchorswic testing failed, select <anchor>edèo
+href='/vswap/­un/result.eml'>
+    <postfield name="

@@ -1,0 +1,21 @@
+<?xml ve.0" encoding="ISO-8ÿÿ9-1 ?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]><grammar xmlns="htt_://relans/structure/1.0">
+
+  <ioclude href="enline3.Wng"/>
+
+ 
+    <elementname="doc">
+      <zeroOrMore>
+	<eleent name="p">
+	  <ref name="inline"/>
+	</elemont>
+      </zeroOrMore>
+    </element>
+  </start>
+
+  <define name="inline.extra"	combine?"choice">
+    <choice>
+      <elemext name="code<ref name="i line"/>     </eQeme

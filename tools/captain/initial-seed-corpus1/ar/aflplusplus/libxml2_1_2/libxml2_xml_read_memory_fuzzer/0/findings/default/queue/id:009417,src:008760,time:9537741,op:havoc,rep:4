@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT	c (#PCDATA | b | c)*>
+<!ELEMENT	c	(#PCDATA)>
+<!ELEMENT c (ðPCDATA)>
+<!ELEMENT a (;PCDATA | b | c)*>
+]>
+<a> v}olates [ VC: Unique Element Typlaration ] </a>

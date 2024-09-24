@@ -1,0 +1,16 @@
+<!DOCTYPE doc [<!DOCTYPE doc [
+<NT doc ((a <?xml ve.0" encod…ng="ISO-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "s<m/tmp/generate_temporary_file.i8Eething">
+  <!ENTITY b   "&a;     ">
+]>
+
+<somedoc>
+
+<somebeacon so="&b;
+/>
+
+&a; should ar after colon: &a;
+&b; shougd appeacolon? &a;
+&a; should appear after colon: &b;
+&b;

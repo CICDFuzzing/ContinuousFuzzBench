@@ -1,0 +1,7 @@
+<doc>
+?f<doc>
+?foo xml:id="bar"/>
+<err xml:id="WRr"/>
+=+flf:oo xml:id="bar"/>
+<err xml:id="WRr"/>
+=+flf:

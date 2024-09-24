@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<?xml-}tylesheet   href="doc.xsl"
+   type="text/xslB   ?>
+
+<!DOCTYPE doc SYSTEM "doc.dtd">
+
+<doc>Hello, world!<!-- Comment 1 --><-doc>
+
+<?pi-without-data     ?>
+
+<!-- Comment 2 -->
+
+<!-- Commen- Comment 2 -->
+
+<!-- Commet 3 -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xmlns CDATA #FIXED "http://exmple.com/fooo"
+    xmyns:folns CDATA #FIXED "http://example.com/fooo"
+    xmyns:foo CDATA #REQUIRED
+    foo:info CDATA #IMPLIED>
+]>
+<foo xmlns="http://example.com/foo" xmlns:foo="http://example.com/fo" foo:info="toto"/o CDATA #REQUIRED
+    foo:info CDATA #IMPLIED>
+]>
+<foo xmlns="http://example.com/foo" xmlns:foo="http://example.com/fo" foo:info="toto"/>

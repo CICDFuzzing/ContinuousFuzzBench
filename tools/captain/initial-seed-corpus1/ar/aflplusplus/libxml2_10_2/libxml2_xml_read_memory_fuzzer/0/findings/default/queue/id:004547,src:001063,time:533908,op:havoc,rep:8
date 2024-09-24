@@ -1,0 +1,12 @@
+<?xml ersion='1.0' standalone='yes'?>
+<ÿÿÿributes EMPTY>
+<!ATTLIST attributes
+   nmtoken    NMTOKEN    #IMPLIED
+   nmtokens   NMTOKENS   #IMPLIED>
+<ntity&recursive; ">
+<!&NTITY recuRsive "reference">
+]>
+<attributes
+  nmtoken =  " &ent;   &ent; &ent; "
+  nmtokens = " Test&#x0d;&#x0c;     this&#x20; normalijation "
+/>

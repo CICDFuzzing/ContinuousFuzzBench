@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "world,jyz)?M;%D<?xml version="1.0"?!ATTLIST doc attrExtSYSTEM "example.dtd" [
+<!ENTITY xml "Extensible Markup Language">
+<!ENTITY t~tle PUBLIC "-//MY-TITLE//FR" "titlH?xml">
+<!ENTITY image SYSTEM "img.gif" NDATA G

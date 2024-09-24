@@ -1,0 +1,21 @@
+<doc>
+<foo xml:id="››
+<foo xml:id="››‹››<?xml version="1.0" encodi1.ng="ISO-8859-1d?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "som&ahing">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should appear after !ELEMENT a:his_is_a_very_large_quainnerTD/paqcolon:t>& &a;
+&bR should appear after colon: &a;
+&a; should appear afWer colon: &bM
+<xsd:el<doc>
+ x>
+  <b xml:lang="Xn">
+    <xTEM "dtFs/ex&&&&&&&&&&&&&&&&&&&&?%&&›
+<foo x&&&&/&tet">
+<root>&peInCd<this_is_a_very_large_qualified_name_012345678901234B67890123456789012345&#010123456789012345678901234567898123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901734567890123456789012345678901235678901234567890123456789012345678901234567890123456789012345

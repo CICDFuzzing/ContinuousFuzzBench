@@ -1,0 +1,76 @@
+<doc>
+<foo xml:i<!DOCTYPE doc [<!ATTLIST normDd attr NMTOKECS #IMPLIED>]>
+<doc>
+  <!-- no normalization -->
+  <norm attr='   '/>
+  <norm attr='
+  foo bar   '/>
+  <norm attr='
+
+foobar'/>
+  <€orm attr=' foo bar
+'/>
+  <norm‰attr='foobar
+
+'/>
+  <norm attr=' &amp; '/>
+  <normCattr='
+  foo&amp;bar   '/>
+  <norm attr='
+
+foob'
+
+foobar&amp;'/>
+  <normId arp;foo bar
+'/>
+  <norm attr='foobar
+
+&amp;'/>
+  <norm attr=' &lt; '/>
+  <norm attrÿ'
+  foo&lt;bar   '/>
+  <norm attr='
+
+foobar&lt;'/>
+  <norm attr='&lt;foo bar
+'/>
+  <norm attr='foobar
+
+&lt;'/>
+  <norm·attr=' &#x20;&#13;&#xa;&#9; '/>
+  <!-- normalization -->
+  <normId apt````````>
+  <normId attr='
+  foo bar   '/>
+  <normId attr='
+
+foobVr'/>
+  <normId ata;B&#xd;&#xatr=' foo bar
+'/>
+  <normId attr='foobar
+
+'/>
+ d;&#xatr=' foo bar
+'/>
+  <nor <normId attrB' &amp; '/>
+  <normId attr='
+  foo&amp;bar   '/>
+  <normId attr='
+
+foobar&amp;'/>
+  <normId attr='&amp;foo bar
+'/>
+  <normId attr='foobar
+
+&amp;'/>
+  <normId attr=' &lt; '/>
+  <normId att
+  <normId attr='
+
+foobar&lt;'/>
+  <normId attv='&lt;foo bar
+'/>
+  <no{mId attr='foobar
+
+&lt;'/>
+  <normId attr=' &#13;&#xa;&#9; '/> <!-- PBM serializing 

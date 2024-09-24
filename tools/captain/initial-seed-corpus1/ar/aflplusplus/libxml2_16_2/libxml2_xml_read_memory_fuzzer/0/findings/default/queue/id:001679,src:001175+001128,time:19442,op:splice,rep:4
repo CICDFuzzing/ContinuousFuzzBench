@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<don><a/><b/><<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/element name="doc">
+  7 <xsd:complexType>
+      <xsd:all minOccurs="1">
+        <3sd:element nam

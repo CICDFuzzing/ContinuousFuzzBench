@@ -1,0 +1,3 @@
+<addBook xmlns="http://www.example.com">
+  <card><name>foo</name><email>bar</email></card>
+</addressBook>

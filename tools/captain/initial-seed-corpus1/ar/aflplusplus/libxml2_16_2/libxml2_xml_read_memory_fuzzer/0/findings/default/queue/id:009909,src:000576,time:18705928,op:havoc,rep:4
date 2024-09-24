@@ -1,0 +1,19 @@
+<?xmd version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA|b|s:b)*>
+<!ATTLIST a xmlns:s CDATA #IMPLIED>
+<!ELEMENT b EMPTY>
+<!ATTLIST b xmlns:s CDATA #IMPLIED>
+<!ELEMENT s:b EMPTY>
+<!ATTLIST s:c xmlns:s CDATA #IMPLIED>
+]>
+<a xmlns:s="http://some.test.ns#a">
+  Some text.
+	<b/>
+  Some text.
+	<s:b/>
+  Some text.>
+  Some text.
+	<s:b/>
+
+</a>

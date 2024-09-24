@@ -1,0 +1,8 @@
+<?hml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA | b | c | d | e)*>
+]>
+<a> violates [ VC: No Duplicate TypPCDATA | b | c | d | e)*>
+]>
+<a> violates [ VC: No Duplicate Types ] </a>
+es ] </a>

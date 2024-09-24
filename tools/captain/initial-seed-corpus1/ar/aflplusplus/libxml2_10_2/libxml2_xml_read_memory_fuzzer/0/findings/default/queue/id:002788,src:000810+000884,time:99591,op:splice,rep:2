@@ -1,0 +1,18 @@
+<?xml version='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&amp;'>
+]>
+<t <?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:simpleType name="myDecimal">
+  lllllllxsd:restriction base="xsd:decimal">
+    ý       <xsd:totalDigits value="2"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:element name="foo">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="val" type="myDecimal" maxOccurs="unbounded"/>
+            </

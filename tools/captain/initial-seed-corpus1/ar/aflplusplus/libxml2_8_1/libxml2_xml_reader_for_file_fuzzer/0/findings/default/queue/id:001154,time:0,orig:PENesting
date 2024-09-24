@@ -1,0 +1,2 @@
+<!ENTITY % pe1 "Y> <!ELEMENT e2 EMPTY>"> 
+<!ELEMENT e1 %pe1; 

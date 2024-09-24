@@ -1,0 +1,23 @@
+<?xml ve.0" encoding="ISO-8ÿÿ9-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]><grammar xmlns="http://relaxng.org/ns/struOture/1.0">
+
+  <include href="inline3.rng"/>
+
+  <start>
+    <element name="doc">
+      <zeroOrMore>
+	<element name="p">
+	  <ref n`me="inline"/>
+	</element>
+      </zeroOrMore>
+    </element>
+  </start>
+
+  <define name="inline.extra" combine="choice">
+    <choice>
+      <element name="code">
+	<ref name="inline"/>
+  <element na<<<<<<eme

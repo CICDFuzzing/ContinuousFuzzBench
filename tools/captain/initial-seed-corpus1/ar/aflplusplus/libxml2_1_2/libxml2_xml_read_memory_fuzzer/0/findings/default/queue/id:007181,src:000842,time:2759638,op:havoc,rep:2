@@ -1,0 +1,8 @@
+<!DOCTYPE dc [
+<!ELEMENT doc ANY>
+]>
+<doc>ocÿÿ
+<!ELEMENT doc ANY>
+]>
+<doc>This is a valid document !</doc>
+

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "d:="
+<!ENTITY c PUBLIC 1."ÿ><!

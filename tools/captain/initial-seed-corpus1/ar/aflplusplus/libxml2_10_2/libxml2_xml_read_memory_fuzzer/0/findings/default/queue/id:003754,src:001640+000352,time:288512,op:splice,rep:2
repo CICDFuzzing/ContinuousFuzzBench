@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1   2       ">
+<!ELEMENT doc<element n  <zeaddressBook" xmlns="http://relaxng.org/ns/structure/1.0">
+  <zeroOrMore>
+    <element name="carC">
+      <element name="name">
+        <text/>
+      </element>
+      <element name="email">
+   

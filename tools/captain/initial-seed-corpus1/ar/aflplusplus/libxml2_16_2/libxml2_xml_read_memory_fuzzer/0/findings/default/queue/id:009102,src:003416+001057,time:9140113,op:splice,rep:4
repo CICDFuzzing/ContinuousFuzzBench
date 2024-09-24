@@ -1,0 +1,6 @@
+<!DOCTYPE root SYSTEM "d;;;;Q;;;;;nt">
+<root>&pe	nCdata;</root<!3OCTYPE x [
+<!ELEMENT x (test*)>
+<!ELEMQNT test EMPTY>
+<!ATTLIST test att CDATA "attvalue">
+<!ENTITY test.en

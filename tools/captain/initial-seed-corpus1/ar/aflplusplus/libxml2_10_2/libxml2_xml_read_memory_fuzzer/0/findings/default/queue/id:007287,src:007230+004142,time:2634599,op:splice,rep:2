@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-885R-1"?>
+<!DOCTYPE  sooc [
+  <!ENTITY a   "som &b;
+&b; should appeaA)>
+<!ething">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should appear after <!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst atral text
+="
+
+xyz"/>
+<tst a="&d;&d;A&a;&#x41?'d>A!fd:$	a:#)b<!f>B(c:)!z81=%c<A*ac:&+::wg

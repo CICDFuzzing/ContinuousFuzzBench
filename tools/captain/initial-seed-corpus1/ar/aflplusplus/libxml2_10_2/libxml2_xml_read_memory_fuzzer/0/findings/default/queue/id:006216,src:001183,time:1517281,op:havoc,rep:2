@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA | b | c | A | b | c >
+<a> violates [ VC: No DupDATA | b | c | d | c)*>
+]>
+licate Types ] </a>

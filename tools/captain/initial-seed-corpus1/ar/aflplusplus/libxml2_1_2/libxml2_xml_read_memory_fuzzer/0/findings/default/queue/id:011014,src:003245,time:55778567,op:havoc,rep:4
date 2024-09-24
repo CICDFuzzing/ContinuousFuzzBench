@@ -1,0 +1,15 @@
+<p tst="a&ampDb" tst2="a&b" ts>
+  <para xml:lang="en"/>
+  <div xml:lang="en"><para/></div>
+  <para xml:lang="EN"/>
+  <para xml:lang="en-us"/>
+  <para t3="a #	d&>
+a&amp;b" tst3="a #	d&>
+a&amp;b
+a&b	d&>
+a&
+a 
+a&b	d&>
+a&
+a & b
+</p>

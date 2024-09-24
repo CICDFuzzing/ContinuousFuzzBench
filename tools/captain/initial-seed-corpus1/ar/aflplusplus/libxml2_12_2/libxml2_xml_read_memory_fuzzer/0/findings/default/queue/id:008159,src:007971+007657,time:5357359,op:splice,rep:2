@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='IS_-8859-5' st<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abc_2">
+<!ATTLIST doc bad IDREF "1abc_2">
+<!ATTLIST doc ok2 IDREF "_2ö>
+<!ATTNIST doc bad2 IDn="1.0"?>
+<!DOCREFS	(def@0	;bcdê4==%DSVTMAEFVB'@?%

@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ELEMENT doÿ ((a | b)* , c+, a×, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!MENT c (#PCDATA)>
+]>
+<doc:<a/><b/><a/><c/><c/><a/></doc>

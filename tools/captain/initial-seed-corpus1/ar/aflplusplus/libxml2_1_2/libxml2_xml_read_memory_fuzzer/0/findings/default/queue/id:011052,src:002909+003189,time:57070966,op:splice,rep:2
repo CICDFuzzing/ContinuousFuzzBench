@@ -1,0 +1,26 @@
+<!DOCTYPE doc [
+<!ELEMENT ddc (TY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST urc ref IDREF #IMPLIED>
+<!ATTLIST des<?xml version="1.0"?>
+<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlnsl:lang="en-ie">
+    (//. | //@* | //namespac 
+    [ 
+ê             <!-- only9namespace nodes -->,              ancestor-or-self::bar:Somethin<!DOCTYPE doc [
+<?xml version="1.0" encoding="UTF-8" ?> 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.tempuri.org/MainSchema"
+           xmlns:me="MyMinType">
+    <xs:sequentns["http://www.tempuri.org/MainSchema"
+           xmlns:ns="http://www.tempuri.org/ImportedSchema"
+           elementFormDefault="qualified" >
+           
+  <xs:import namespace="ht?>
+<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlnsl:lang="en-ie">
+    tp:/(www.tempuri.org/ImportedSchema" schemaLocation="./import-455953.xsd" />
+  
+  <xs:complexType name="MyMainType">
+    <xs:sequence>
+     :<xs:element name="MainA">
+        <xs:complexType>
+      B   <

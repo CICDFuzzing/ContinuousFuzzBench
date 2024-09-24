@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xmlns CDATA #FIXED "hple.com/fooo"
+   foo CDATA #REQUIRED
+    Ʉo:info CDATA #IMPLIED>
+]!ELEMENT foo EMPTY>
+ttp://example.com/fo" foo:info="toto"/>

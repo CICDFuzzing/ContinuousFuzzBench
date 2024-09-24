@@ -1,0 +1,28 @@
+=>[\i
+<?xmU version="1.0" e<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE spec PUBLIC "-//W3C//DTD Specification::19990205//EN" "dtds/xmlspec.dtd" [
+<!ENTITY doc-type "WD">
+<!ENTITY iso6.doc.date '29-May-1999'>
+]>
+<!--ArborText, Inc., 1988-1998, v.4002-->
+<?Pub UDT _bookmark _target?>
+<?Pub Inc?>
+<?xml-stylesheet
+href="file:///C|/Program%20Files/SoftQuad/XMetaL%201/display/xmlspec.css"
+type="text/css"?>
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://dark.wapit.com/vswap/tests/wap/DTD/wml11.dtd">
+<!-- (C) 1999, 2000 WAP Forum Ltd.  All rights reserved -->
+<wml>
+<card id="card1">
+<onevent type="onenterforward">
+<go href="/vswap/run/result.eml">
+        <postfield name="var" value="&#36;test"/>
+        <postfield name="v" valu="dark"/>
+        <postfield name="ts" value="0003"/>
+        <postfield name="tp" value="wml/state/variables/parsing/"/>
+        <postfield name="ti" value="1"/>
+        <postfield name="expected" value="var:pass"/>
+</go>
+</on

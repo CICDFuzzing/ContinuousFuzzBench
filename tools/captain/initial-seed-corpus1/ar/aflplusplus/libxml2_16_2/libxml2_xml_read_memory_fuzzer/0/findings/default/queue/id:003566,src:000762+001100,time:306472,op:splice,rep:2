@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/etc/doesnotexist">
+]>
+<root><?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="urn:test:foo"
+	elementFormDefault="„ualified">
+	<xsd:element name="foo">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="boo"/>
+		ë	<xsd:any namespace="##other" maxOccurs="5" p

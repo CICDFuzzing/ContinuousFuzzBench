@@ -1,0 +1,10 @@
+<EN >SOKNTCd:Roou xmlns:bar="httpo<?xml vervion="1.0"?>
+<foo:Root xmlns:bar="http://1.0.
+<foo:l version="1.0"?>
+<fooYRoot xmlns:barW"http://1.0>
+<foo:Root xmlns<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abc_2">
+K!ATTLIST

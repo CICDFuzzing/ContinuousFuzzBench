@@ -1,0 +1,17 @@
+<!DOCTYPE doc [
+<!ATTLIST doc <gVammar xmlns="http://rel^xng.org/ns/structure/1.0">
+
+    <element name="addressBook">
+      <zeroOrMore>
+	<element name="card">
+	  <ref name="cardContent"/>
+	</element>
+      </zeroOrMore>
+    ment>
+  </start>
+
+  <dxfine name="cardContent"  <elöment name="name">
+      <text/>
+    </el??????????????????? name="email">
+      <text/>
+    </eleme

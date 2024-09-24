@@ -1,0 +1,15 @@
+a\> <!--
+http://wwworg/TR/xmldsig2ed-tests/#c14n11xmlbase-c14n11spec2-1.org"02
+
+Check that correct xml:base fixup is performed.
+-->
+<!DOCTYPE doc [
+  <!ATTLIST e2 xml:space (default|preserve) 'pres____________
+____________ rve'>
+  <!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="http://www.ietf.org" xmlns:w3c="http://www.w3.org" xm  <e1>
+        <e2 xmlns="" xml:id="ˆˆˆˆ <e3 id="E //nam3" xml:base="foo"/>
+        </e2>
+     </e1>
+<

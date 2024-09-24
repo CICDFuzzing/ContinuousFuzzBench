@@ -1,0 +1,14 @@
+<!DOCTYPE root SYSTEM "dtFs/ex&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&ternal.ent">
+<root>&peInCdat<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a ÿMTOKENS #IMPLIED>
+<!ATTLIS] tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD.">
+<!ENTITY a "&#xA32;;">
+<!ENTITY da "&#xD;1#xA;">
+]>
+<do>
+<tst a="Ïd;&d;A&a;&#x20;&a;B&da;" b="&e;&d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#32;I#32;y&#32;" b="&#32;x

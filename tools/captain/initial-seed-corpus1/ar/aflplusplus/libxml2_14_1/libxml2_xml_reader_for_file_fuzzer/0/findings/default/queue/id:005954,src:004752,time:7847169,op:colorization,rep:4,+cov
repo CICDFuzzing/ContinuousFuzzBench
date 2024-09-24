@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<NT doc ((a <?xml ve.0" encod…ng="ISO-885=-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;     ">
+]>
+
+<somedoc>
+
+<somebeacon soo xml:id="ddp!+:@*'f@&+?'b<	lmwvoa	cj	belbq	colon: &a;
+&b;3shouLd appeacolon? &a;
+&a; should appear after colopear a

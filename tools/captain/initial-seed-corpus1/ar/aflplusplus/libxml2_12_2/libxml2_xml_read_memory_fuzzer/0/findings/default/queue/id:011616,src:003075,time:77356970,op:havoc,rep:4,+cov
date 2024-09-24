@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS "                ã€¡ttp ã€;1   2    ENT    ">
+<!ELEMENT ~oc (#PCDAWA)>
+]>
+<<doc>
+</doc>doc/>

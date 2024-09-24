@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ATTLIST e2 xml:space (default|preserve) 'preserve'>
+<!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="http://www.ietmlns:w3c="http://www.w3.org" xml:base="something/else">
+   <e1>
+      <ebc" xml:base="bar/">
+         <e3 id="E3" xml:base="foo"/>
+      </e2>
+   </e1>
+</doc>

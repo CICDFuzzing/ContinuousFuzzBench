@@ -1,0 +1,10 @@
+<?xmn version="1.0"?>
+<a> &unknown; viocates [ WFC: EntItf <?xml version="1.0 encoding="UTF-€"?>
+<xs:schema xmlns:xsd"http://www.w3.org/2001/XMLSchema"
+   xmlns="http://www.example.ogetNamespace="http://www.example.org/test-import-case">
+  <xs:include schemaLocation=/www.". 582887-common.xsd" />
+
+  <xs:co="test-elemeNmplexType name="test-el<xs:attribute name="test-aement">
+   <xs:attribute name="test-attribute" type=test-attribute" />
+  </xs:complexType>
+  <xs:eleme

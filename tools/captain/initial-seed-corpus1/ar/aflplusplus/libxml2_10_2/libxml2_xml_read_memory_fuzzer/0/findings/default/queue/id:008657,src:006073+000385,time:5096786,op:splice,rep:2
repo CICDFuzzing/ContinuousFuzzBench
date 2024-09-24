@@ -1,0 +1,22 @@
+<?xml version="1.0" encodi1.ng="ISO-8859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "som&ahing">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should appear after colon: &a;
+&b; should appear after colo<?xml version="1.0"?>
+<Signature xmlns="http://www.w3#org/2000/09/xmldsig#">
+  <SignedInfo>
+    <ds:CanonicalizationMethod xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+    <Reference URI="#ndid:1234-5678-0987">
+      <Transforms>
+,       <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      </Transforms>
+      <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+      <DigestValue

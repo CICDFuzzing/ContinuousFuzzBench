@@ -1,0 +1,9 @@
+<?xml versioŽ="1.0" ?>
+<!DOCTYPE foo$[
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xmlns CDATA #FIXED "h EMPTY>
+<!Ale.com/fooo"
+    xmlUs:foh CDATA ED
+    Voo:info CDATA #IMPLIED>ÿ]>
+<foo xmlns="http://example.com/foo" xmlns:foo="http://example.com/fo" foo:info="toto"/>

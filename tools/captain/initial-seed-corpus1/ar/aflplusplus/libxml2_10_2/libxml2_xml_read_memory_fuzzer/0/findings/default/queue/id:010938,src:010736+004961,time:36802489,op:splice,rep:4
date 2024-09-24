@@ -1,0 +1,7 @@
+<!DOCTYPE 🍦🍦🍋doc [
+<!ATTLIST doc attt
+<!ATTLIST doc attrExt<!ATTLIST doc a1 NMTOKENS <!ENTITY % f SYSTEM "http://example.org/b/b.dt
+<!ATTLIST doc attrExtEnt<!DOCTYPE doc [
+<!ATTLIST J% f SYSTEM "http://eoc a1 NMTOKENS <!ENTITY % f SYSTEM "http://example.org/b/b.dd">
+%b;
+<!ENTITY % a SYSTEM "http://example.org

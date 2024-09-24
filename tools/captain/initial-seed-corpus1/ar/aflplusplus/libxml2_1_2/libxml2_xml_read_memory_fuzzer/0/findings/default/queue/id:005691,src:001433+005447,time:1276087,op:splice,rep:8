@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ELEMENT doc<p tst="a&amp;b" tst2="a&b" tst3="a & b">
+a&amp;b
+a&ba &<?xml version="1.0" enCoding="ISO-8859-1"?>
+<foo
+	xmlns="//tp://FOO" 
+	xmlns:foo="http:%AR" 	
+	xmns:xsi="httl://eÿeeeeeeeeeeeeeewww.w3.org/"001/XMLSc‚ema-ia&amp;b
+a&b
+a &<?xmnstance" 
+	xson="htdp://FOO any¨ttr-†rocessCon²ents1hemxsO">
+	<eJem?lm.la

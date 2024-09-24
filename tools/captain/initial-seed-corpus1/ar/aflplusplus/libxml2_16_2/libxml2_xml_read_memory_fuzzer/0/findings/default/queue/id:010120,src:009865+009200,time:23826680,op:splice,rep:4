@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attß ßßßßßßßßßßßß<value>&#x3d"ßßßßßßßrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello"····················EM	"world.txt">
+<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
+<!NOTATION  c PUBLIC	'cfe<!DOCTPPE doc [<!ATTLIST normId id ID #IMPLIED>]>
+<doc>
+   <text>First line&#xd;&#10;Second line</text>
+   <value>&#x3d":"error]]></compute>
+   <cŠ-pute expr

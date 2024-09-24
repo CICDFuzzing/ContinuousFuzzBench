@@ -1,0 +1,5 @@
+<!DOCTYPE dÿc [
+<!ATTLIST doc a1 NMTOKENS " 1   :ŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒ       ">
+<!ELEMENT doc (#PCDAT )>
+]>
+<doc/>

@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+    :tst CDATA #FIXED
+<!ATTLIST doc
+    :tst CDATA #attY> (0|1)   "1">
+]>
+<doc0ott="1"/>

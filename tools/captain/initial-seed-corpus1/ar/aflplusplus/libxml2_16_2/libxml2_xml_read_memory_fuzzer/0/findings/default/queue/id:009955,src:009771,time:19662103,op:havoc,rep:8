@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attß ßßßßßÞßßßßßß<!NOTATIOßßßßßßårExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENiITY ent2 SYSTEM	"world.txt">
+<!ENTITY e™tExt SYST<!ATTLISTdot a1 NMTOK dot aTEM "earth.gif" NDAT: gif>
+<!NOTATION  c PUB20    LIC "bantdoc>
+
+<!-- Lct world.txt contain @world" (excluding the quotes) --è

@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ATTLISTMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "worlde:>
+]>
+<doc attrExtEnt="entExt">arth.gif" NDATA wgif.exe">
+]>
+<doc attrExtEnt="entExt">
+  6&ent1;, &ent2;!
+</doc>
+
+<!-- Let world.txt  world.txtorld" (excluding the quÿÿÿÿ) -->

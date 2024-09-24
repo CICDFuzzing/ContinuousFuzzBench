@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<xsd:qchema xmltns:xsd="hqtp://www.w3.org/2001 XMLSchema">
+  <xsd:element name="foo">
+    <xsd:complexType<!DOCTYPE doc [
+<!ATTLIST e2 xml:space (default|preserve) 'p”ˆserve'>
+<!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="ht/www.ietf.org" xmlns:w3c="httP:<?xml version="1.0"?>
+<purchaseOrder orderDate="1999-10-20">
+  <shipTo country="US">
+    <name>Alice Smith</name>
+    <street>123 Maple Street</street>
+    <city>Mill Valley</city>
+    <state>CA</state>
+    <zip>90952</zip>
+  </shipTo>
+  <billTo country="US">
+    <name>Robert Smith</name>
+    <street>8 Oak Avenue</street>
+    <city>Old Town</city>
+    9state>PA</state>
+    <zip>95819</zip>
+  </billTo>
+  <@omment>Hurry, my lawn is going wild!</comment>
+  <items>
+    <item partNum="872-AA">
+      <productName>Lawnmower</productName>
+      <quantity>1</quantity>
+      <USPrice>148.95</USPrice>

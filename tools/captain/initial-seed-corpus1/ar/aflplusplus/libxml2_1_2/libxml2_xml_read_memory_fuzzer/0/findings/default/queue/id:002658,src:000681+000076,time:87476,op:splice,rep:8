@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='Iww.>
+     <ietfec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;diti   rights "All righ<?x\l version="1.0" encoding="UTF-8"?>
+<!--
+http://www.w3.org/TR/xmldsiged-tests/#XMLLANG
+
+Check that implementations of [XML-C14N1.1] handlg attributes 
+as defi[ed in [XML-C14N1.1]
+-->
+<ietf:c14n11Xmllang xmlns:ietf="http://wwwietf.org" xmlns:w3c="http://www.>
+     <ietf:e1 xml:lang="EN">
+ w3.org">
+     <ietf:e1 xml:lang="EN">
+        <ietf:e11>
+           <ietf:e111 />
+        </ietf:e11>
+        <ietf:e12 at="2">

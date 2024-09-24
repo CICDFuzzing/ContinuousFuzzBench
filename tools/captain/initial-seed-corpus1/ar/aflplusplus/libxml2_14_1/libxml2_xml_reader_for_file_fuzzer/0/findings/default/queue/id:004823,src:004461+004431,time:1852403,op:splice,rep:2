@@ -1,0 +1,18 @@
+<?xml ve.0" encoding="ISO-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY<!E b   "&a;">
+]>
+
+<somedoc>
+
+<somebevcon som; shoulpeacolon? &a;
+&a;shopp<?xmh ve.0" encoding="I3O-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<

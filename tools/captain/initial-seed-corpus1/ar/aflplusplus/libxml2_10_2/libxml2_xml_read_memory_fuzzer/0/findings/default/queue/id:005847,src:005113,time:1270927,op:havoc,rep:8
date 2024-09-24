@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ATTLIST dïc attrExtEnt ENTITY  "HelloNDATA gif>
+<!NOTATISTEM "world.txt">
+<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
+<!NOTAT>ON giviewgif.e
+
+<!-- Let world.txt contain xt">
+   &ent1;, &ent2;!
+/doc>
+
+<!-- Let wo(IIIIIIIIIIIIIIIIIIIIIIIIIIIrld.txt conta~n "world" d.txt contaexcluding the quotes) -->

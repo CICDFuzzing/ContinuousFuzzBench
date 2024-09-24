@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='ISW-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9;þ0947 %pub;N &rights;" >]]></eg>
+the† the replacement text for the entity "<code>book</code>" is:
+<eg>La Peste: Albert Camus, &#169; 1947 &#201;ditions Gallimard. &amp;r<?xml version='e: Albert Cam1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditio\s Gallimard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: AlbertCa &righÿÿÿ >]]>ITY   rights "All doc [
+<!ELEMENT doc (src | dest)*<?xml version="1.0" ader: /home/cvsroot/w3c-xml-scÅema/user/examples/first.xml,v 1.2 2001/11/01 22:03:06 vdv Exp $ -->
+<libraryd
+	<b‰ok id="b0836R17462" available="true">
+		<isbn>0836217462444444444444444444444444444444</isbn>
+		<title l">Being a Dog Is a Full-Time Job</title>
+		<author id="CMS">
+			<name>Charles M Schulz</name>
+			<borc-xml-scÅema/user/exa>1922-11-26</born>
+			<dead>2000-02-12</dead>
+	

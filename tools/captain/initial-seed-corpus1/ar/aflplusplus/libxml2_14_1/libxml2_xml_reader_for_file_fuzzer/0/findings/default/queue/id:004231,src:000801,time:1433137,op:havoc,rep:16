@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8851-1"?>
+<!D6CTYPE  somedcolon: &b;
+TITY a   "somZthing">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<gomoc>
+
+<ebeacon someattribute="&b:"/>
+DO\TYPE  s/medcolon: cOlon: &a;
+&b= should appeacolon: &a;
+&ad should apiear after colon: &P;
+&b; should appear after colon: &b;
+
+</somedoc>

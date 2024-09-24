@@ -1,0 +1,10 @@
+<!DOC101<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbgse-ÓÓÓÓÓÓÓÓÓÓÓÓÓÓ2
+
+Check that coml:base fixup i3 performed.
+-->
+<!DOCTYPE doc [
+  <!ATTLIST e2 xml:space (default|preserve) 'preserveml:bas---..c	apypm	s7 performed.' id ID #IMPLIED>
+]>tp://w xml1b
+<doc xmlns="htQp?++nur,otnb,ygn!	w?(lmit?ddvb?%mpyfssfedfebfcceefbfcfbcddddbdfaaíííííííííí:!fcb&	ung@a"bar/">
+           <e3/=ñ

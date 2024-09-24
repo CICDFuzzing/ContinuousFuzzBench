@@ -1,0 +1,16 @@
+<!DOCTYPE doc [
+<NT doc ((a odeeeeeeeeeeeeeeeeeeeeeeeee859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "&b; shE doc [
+<NT doc ((aoug">
+  <!ENTITY b   "&a;     ">
+]>
+
+<somedoc>
+
+<somebeacon so="&b;"/>
+
+&a; should ar after colon: &a;
+&b; shouLd appeacolon? &a;
+&a; should appear after colon: &b;
+&b; shoulo appear a

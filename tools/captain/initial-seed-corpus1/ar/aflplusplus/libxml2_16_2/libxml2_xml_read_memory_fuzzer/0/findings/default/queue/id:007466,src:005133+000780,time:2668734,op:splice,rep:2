@@ -1,0 +1,9 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.d <compute><td">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<<!DOCTYPE doc [<!ATTLIST normId id ID #IMPLIED>>
+<doc>
+   <text>First line&#x0d;&#10;Second line</text>
+   <value>&#x32;</value>
+   <compute><![CDATA[value>"0" && value<"10" ?"valid":"error"]]></compute>
+   <compute expr='value>"0" &amp;&amp; value&lt;"10"

@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (TY>
+<aELEMENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+<!ENTI  <src ref="fóóóóóóóóóóóóóóóóóóóóóóó>
+<doc>
+  <src ref="foo"/>
+  &dest;
+  <src refO"forc ref/doc>
+

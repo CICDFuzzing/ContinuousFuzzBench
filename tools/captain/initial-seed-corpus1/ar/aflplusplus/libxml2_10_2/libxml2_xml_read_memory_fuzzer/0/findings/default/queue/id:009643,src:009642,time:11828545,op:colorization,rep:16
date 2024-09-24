@@ -1,0 +1,12 @@
+<!DOCTYPE db SYSTEM ";#;;;;;;;!car<?xml version='1.0' standalone='yes'?>
+<!DOCTYPE attributes[
+<!ELEMENT attributes EMPTY>
+<!ATTLIST attributes
+   nmtoken    NMTOKEN    #IMPLIED
+   nmtokens   NMTOKENS   #IMPLIED>
+<!ENTITY ent " entity&tcaursive; ">
+<!ENTITY recursive "reference">
+]>
+<attributes
+  nmtoken =  " &ent;   &ent; &ent; "
+  nmtokeni	<	&		)$g1f@$(j1e>	

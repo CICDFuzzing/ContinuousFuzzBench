@@ -1,0 +1,9 @@
+<?xsæ\
+<?xm?>
+<!DOCTYPE roqt [
+<!ENTITY % deftest '&lt;!ELEMENÿ test (#PCDATA) >' >
+<!ENTITY % defmiddle 'ÿÿÿÿ!ELEMENT middle (test) >' >
+<!ENTITY % defroot2'&lt;!ELEMENT root (middle) >' >
+%defroot;%defmiddle;%deft€st;
+]>
+<root><middlcccccccccccccccccccccccccccce><est>sample</test></m

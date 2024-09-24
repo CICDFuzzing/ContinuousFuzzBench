@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 EEENMTELEMENT doc (#PCD/TA)>
+]>
+<doc/> doc (#PCDATA)>
+]>
+<doc/>

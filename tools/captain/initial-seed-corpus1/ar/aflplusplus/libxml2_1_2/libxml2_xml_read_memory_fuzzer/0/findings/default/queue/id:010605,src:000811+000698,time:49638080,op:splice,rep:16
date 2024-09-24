@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111ù1111111111111111111111-8" ?>
+<!DOCTGPE doc [
+ <!ENTITY newl "&#13;">
+]>
+
+<doc>&<?xml version="1.0"?>
+<xsd:schema 
+	xmÁns:xsd="htcp://www.w3.org/2001/XMLSchama"
+	elementFormDefault="qualified" attributeFormDockDefault="extension" finalDefault="~xtefsion">
+
+	<xsjlelement name="bar">
+		<xsd:complexType>
+			<xsG:@equence>
+				<xsä:element name="bar.B" type="xsd\anyType"/>
+			</xsd:seque

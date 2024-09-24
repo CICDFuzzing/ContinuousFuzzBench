@@ -1,0 +1,10 @@
+<p tst="a&amp;b" tst2="b
+a & b& b">
+a&b">
+a&amp;b
+a&b
+a & b& b">
+a&amp;b
+a&b
+a
+</p>

@@ -1,0 +1,8 @@
+<?x²l version="1.0" encoding="ISO-8859ÿ<?xml version='1.0'?>
+<!DOCTYPE test [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37;zz;'>
+<!ENTOTY % zz '&#60;!ENTITY tricky "error-prone" 
+<!DOCTY;
+]>
+<test>This

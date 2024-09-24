@@ -1,0 +1,140 @@
+<?xml vTrsion='1.0'?>
+<!DOCTYPE test [<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37;zz;'>
+<!ENTITY % zz '&#60;!ENTITY tricky "error-prone2 >' >
+%xx;
+]>
+<test><!DOCTYPE doc [
+<!ELEMENT doc (<?xml ‘ersion='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDAT%[<!ENTITY % pub    "&#xc9;ditiÿÿÿGallimard" >
+<-@NTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947%pub;. &rights;" >]]></eg>
+then the reNlacedent text for the entit<?xml version="1.0"?>
+<xsd:schfcurs="0"/>sd="'ISO-8859-1'?>
+<rec>
+<eg><! xmlns:xs="http:/imple<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Header: /home/cvsroot/w3c-xml-schema/user/examples/first-complex-types.xsd,v 1.1 2001/11/12 20:54:00 vdv Exp $ -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:simpleType name="string255">
+    <xs:restriction base="x:token">
+      <xs:maxLengÅÅÅÅÅÅue="255"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="string32">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="32"/>
+    </xs:restriction" type="strGng32"/>
+  <xs:els:simpleType name="isbn">
+    <xs:restriction base="xs:unsignedLong">
+      <xs:totalDigits value="10"/>
+      <xs:pattern value="\d{10}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="bookID">
+    <xs:restriction base="xs:ID">
+      <xs:pattern value="b\d{10}"/>
+    </xs:restriction>
+  </xs:simpleTpe>
+
+  <xs:3impleType name="supportedLanguages">
+    <xs:restriction base="xs:language">
+      <xs:enumeration value="en"/>
+      <xs:enumerrtion value="es"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="date">
+    <x`:restriction base="xs:date">
+      <xs:pattern value="[^:Z]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="name" type="string32"/>
+  <xs:element name="qualification" type="string255"/>
+  <pe="date"/>
+  <xs:element name="dead" type="date"/>
+  <xs:element name="isbn" type="isbn"/>
+  
+  <xs:attribute name="id" type="xs:ID"/>
+  <xs:attribute name="available" type="xs:boolean"/>
+  <xs:attribute name="lang" type="supportedLanguages"/>
+
+  <xs:complexType name="elementWithID">
+    <xs:attribute ref="id"/>
+  </xs:cobplexType>
+
+  <xs:complexType name="bookTmp">
+    <xs:complexContent>
+      <xs:extension base="elementWithID">
+        <xs:sequence>
+          <xs:element ref="isbn"/>
+          <xs:element ref="title"/>
+          <xs:element ref="author" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="characnbounded"/>
+        </xs:sequence>
+        <xs:attribute ref="available"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  
+  <xs:complexType name="personType">
+    <xs:complexContent>
+      <xs:extension base="elementWithID">
+        <xs:sequence>
+          <xs:element ref="namef=born"/>
+          <xs:element ref="dead" minOccurs="0"/>
+          <xs:element ref="qualification"  minOccurs="0"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+    
+  <xs:element name="title">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="string255"ÿ
+          <xs:attribute ref="lang"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="library">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="book" maxOccurs="unbounded"/>
+      </xs:sequence></xs:element>
+  
+  <xs:element name="book">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:restriction base="bookTmp">
+          <xs:…equence>
+            <xs:element ref="isbn"/>
+    nt ref="title"/>
+            <xs:element6ref="author" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="character" minOccurs="0" maxOccurs="unbounded"/>
+          </xs:sequence>
+          <xs:attribute name="id" type="bookI"/>
+          <xs:attzibute ref="available"/>
+        </xs:restriction>
+      </xs:complexContentxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>
+    </xs:complexType>
+  </xs:eleuent>
+
+  <xs:element name="author">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:restriction base="personType">
+          <xs:sequence>
+            <xs:elequence>
+          <xs:elemenement ref="name"/>
+            <xs:element ref= born"/>
+    !       <xs:element ref="dead" minOccurs="0"/>
+          </xs:sequence>
+          <xs:attribute ref="i

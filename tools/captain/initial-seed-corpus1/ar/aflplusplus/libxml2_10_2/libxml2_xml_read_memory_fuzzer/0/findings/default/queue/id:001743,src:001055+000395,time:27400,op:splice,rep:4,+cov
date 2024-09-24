@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ATTLIST doNT middle (test) ersion='1.0'?>
+<!DOCTYPE root [
+<!ENTITY % dftest '&lt;!ELEMENT test (#PCDATA)>
+<!ENTITY % defmiddle d&lt;!ELEMENT middle (test) >' >
+<!ENTITY % defroot '&lt;!ELEMENT root (middle) >' >
+%defroot;%defmiddle;%deftest;
+]>
+<root><middle

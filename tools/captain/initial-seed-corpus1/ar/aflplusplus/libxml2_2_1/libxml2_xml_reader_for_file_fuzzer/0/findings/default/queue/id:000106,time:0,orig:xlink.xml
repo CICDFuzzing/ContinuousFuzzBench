@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE spec PUBLIC "-//W3C//DTD Specification::19990205//EN" "dtds/xmlspec.dtd" [
+<!ENTITY doc-type "WD">
+<!ENTITY iso6.doc.date '29-May-1999'>
+]>
+<!--ArborText, Inc., 1988-1998, v.4002-->
+<?Pub UDT _bookmark _target?>
+<?Pub Inc?>
+<?xml-stylesheet
+href="file:///C|/Program%20Files/SoftQuad/XMetaL%201/display/xmlspec.css"
+type="text/css"?>
+<spec>
+
+<!-- Last edited: 27 May 1999 by bent -->
+<header><?Pub Dtl?>
+	<title>XML Linking Language (XLink)</title>
+	<version>Version 1.0</version>
+	<w3c-designation><!-- &doc-type;-&iso6.doc.date; --> WD-xlink-19990527</w3c-designation>
+	<w3c-doctype>World Wide Web Consortium Working Draft</w3c-doctype>
+	<pubdate><day>29</day><month>May</month><year>1999</year></pubdate>
+	<notice>
+	<p>This draft is for public discussion.</p>
+	</notice>
+	<publoc><loc href="http://www.w3.org/XML/Group/1999/05/WD-xlink-current">http://www.w3.org/XML/Group/1999/05/WD-xlink-current</loc></publoc>
+	<prevlocs>
+	<!--Check: was it actually August?-->
+	<loc hre"http://www.w3.org/TR/1998/WD-xlink-19980303">http://www.w3.org/TR/1998/WD-xlink-19980303</loc>
+	<loc href="http://www.w3.org/TR/WD-xml-link-970630">http://www.w3.org/TR/WD-xml-link-970630</loc></prevlocs>
+
+	<authlist>
+		<!--Updated author hrefs  dorchard-nt@exemplary.net">bent@exemplary.net</email>
+		</author>
+		<!-- I suggest we move Eve and Tim down to the Acknowledgements section. We
+		also ought to add Gabe Beged-Dov there, as well. bent
+		how shall we cite Tim? sjd What about with an Acknowledgments section?
+		-elm <AUTHOR> <NAME>Tim Bray</NAME> <AFFILIATION>Textuality</AFFILIATION>
+		<EMAIL>tbray@textuality.com</EMAIL> </AUTHOR>-->
+	</authlist>
+
+	<status>
+		<p>This is a W3C Working Draft for review by W3C members and other interested parties. It is a ork remaining is described in <specref ref="unfinished"/>. </p>
+		<p>This work is part of the W3C XML Activity (for current status, see <loc href="http://www.w3.org/MarkUp/SGML/Activity">http://www.w3.org/XML/Activity 		  </loc>). For information about theinciples </loc> for additional background on the design principles informing XLink.</p>
+		<p>Also see <loc href="http://www.w3.org/TR/NOTE-xlink-req/">http://www.w3.org/TR/NOTE-xlink-req/</loc> for the XLink requirements that this document attempts to satisfy.</p>
+	</status>
+
+	<abstract>
+		<!-- edited the abstract for further clarity - bent -->
+		<p>This specification defines constructs that may be inserted into XML DTDs, schemas and document instances to describe links between objects. It uses XML syntax tcs. bent</sitem>
+			<sitem>1999-05-23: Edited for grammar and clarity. bent</sitem>
+			<sitem>1999-05-27: Final once-over before sending to group. Fixed sjd's email address. bent</sitem>
+		</slist>
+	</revisiondesc>
+</header>
+
+<body>
+	<div1><?Pub Dtl?>
+		<head>Introduction</head>
+		<p>This specification defines constructs that may be inserted into XML DTDs, schemas, and document instances to describe links between objects. A <termref def="dt-link">link</termref>, as the term is used here, is an explicit relationship between two or more data objects or portions of data objects. This specification is concerned with the syntax used to assert link existence and describe link characteristics. Implicit (unasserted) relationships, for example that of one word to the next or that of a word in a text to its entry in an on-line dictionary are obviously important, but outside its scope.</p>
+		<p>Links are asserted by <xtermref href="WD-xml-lang.html#dt-element">elements </xtermref> contained in <xtermref href="WD-xml-lanalso informed this design, especially Dexter, FRESS, MicroCosm, and InterMedia.</p>
+</div2>
+
+<div2>
+	<head>Terminology</head>
+	<p>The following basic terms apply in this document. <!--<IMG
+	SRC="local://./linkdiag.gif">(figure to be inserted)-->
+		<glist>
+			<gitem>
+			<label><termdef id="dt-arc" term="Arc">arc</termdef></label>
+			<def><p>A symbolic representation of traversal behavior in links, especially the direction, context and timing of traversal.</p></def>
+			</gitem>
+			<gitem>
+				<label><termdef id="dt-eltree" term="Element Tree">element tree</termdef></label>
+				<def><p>A representation of the relevant structure specified by the tags and attributes in an XML document, based on "groves" as defined in the ISO DSSSL standard. </p></def>
+			</gitem>
+			<gitem>
+				<label><termdef id="dt-inline" term="In-Line Link">inline link</termdef></label>
+				<def><p>Abstractly, a <termref def="dt-link">link</termref> which serves as one of its own <termref def="dt-resource">resources</termref>. Concretely, a lirmdef id="dt-linkel" term="Linking Element">linking element </termdef></label>
+				<def><p>An <xtermref href="WD-xml-lang.html#dt-element">element</xtermref> that asserts the existence and describes the characteristics of a <termref def="dt-link"> link</termref>.</p></def>
+			</gitem>
+			<gitem>
+				<label><termdef id="dt-local-resource" term="Local Resource">local resource</termdef></label>
+				<def><p>The content of an <termref def="dt-inline">inline</termref>linking element. Note that the content of the linking element could be explicitly pointed to by means of a regular <termref def="dt-locator">locator</termref> in the same linking element, in which case the resource is considered <termref def="dt-remote-resource"> remote</termref>, not local.</p></def>label><termdef id="dt-multidir" term="Multi-Directional Link">multidirectional link</termdef></label>
+				<def><p>A <termref def="dt-link">link</termref> whose <termref def="dt-traversal"> traversal</termref> can be initiated from more than one of its <termref	def="dt-particip-resource"> participating resources</termref>. Note that being able to "go back" after following a one-directional link does not make the link multidirectional.</p></def>
+			</gitem>
+			<gitem>
+				<label><termdef id="dt-outofline" term="Out-of-line Link">out-of-line link</termdef></label>
+				<def><p>A <termref def="dt-link">link</termref> whose content does not serve as one of the link's <termref def="dt-particip-resource">participating resources </termref>. Such links 						presuppose a notion like <termref def="dt-xlg">extended link groups</termref>, which instruct application software where to look for links. Out-of-line links are generally required for supporting multidirectional <termref def="dt-traversal">traversal</termref> and for allowing read-only resources to have outgoing links.</p></def>
+			</gitem>
+			<gitem>
+				<label><termdef id="dt-parsedq" term="Parsed">parsed</termdef></label> <def><p>In the context of link behavior, a parsed link is any link			whose content is transcluded into the document where the link originated. The	use of the term "parsed" directly refers to the concept in XML of a
+				parsed entity.</p></def>
+			</gitem>
+			<gitem>
+				<label><termdef id="dt-particip-resource" term="Participating Resource"> paruments and portions of documents, a locator value may contain either a <xtermref href="http://www.w3.org/Addressing/rfc1738.txt"> URI</xtermref> or a fragment identifier, or both. Any fragment identifier for pointing into XML must be an <xtermref href="htt may or may not be desirable to exercise fine control over the distribution of work between local and remote processors. 
+		<scrap id="locator" lang="ebnf">
+			<head>Locator</head>
+			<prod id="nt-locator">
+				<lhs>Locator</lhs>
+				<rhs><nt def="nt-uri">URI</nt></rhs>
+				<rhs>| <nt def="nt-connector">Connector</nt> (<xnt href="http://www.w3.org/TR/WD-xptr">XPointer</xnt> | <xnt href="WD-xml-lang.html#NT-Name">Name</xnt>)</rhs>
+				<rhs>| <nt def="nt-uri">URI</nt> <nt def="nt-connector">Connector</nt> (<xnt href="http://www.w3.org/TR/WD-xptr">XPointer</xnt> | <xnt href="WD-xml-lang.html#NT-Name">Name</xnt>)</rhs>
+			</prod>
+			<prod id="nt-connector">
+				<lhs>Connector</lhs><rhs>'#' | '|'</rhs>
+			</prod>
+			<prod id="nt-uri">
+				<lhs>URI</lhs><rhs><xnt href="WD-xml-lang.html#NT-URLchar">URIchar*</xnt></rhs>
+			</prod>
+		</scrap>
+	</p>
+	<p><termdef id="dt-designated" term="Designated Resource">In this discussion, the term <term>designated resource</term> refers to the resource which an entire locator serves to locate.</termdef> The following rules apply:
+		<ulist>
+			<item>
+				<p><termdef id="dt-containing-resource" term="Containing Resource">		  The URI, if provided, locates a resource called the <term>containing resource</term>.</termdef></p>
+			</item>vided, the designated resource is a <term>sub-resource</term>
+				of the containing resource; otherwise the designated resource is the
+				containing resource.</termdef></p>
+			</item>
+			<!--Is this now incorrect, given the nature of the switch from here() to origin()? -elm 
+			Oy, yes, i think so. it will require some fun wording, though, so i haven't fixed it yet here -sjd-->
+			<item>
+				<p>If the <nt def="nt-connector">Connector</nt> is followed directly by a <xnt href="http://www.w3.org/TR/REC-xml#NT<code>|</code>", no intent is signaled as to what processing model is to be used to go about accessing the designated resource.</p>
+			</item>
+		</ulist>
+	</p>
+	<p>Note that the definition of a URI includes an optional query component. </p>
+	<p>In the case where the URI contains a query (to be interpreted by the server), information providers and authors of server software are urged to use queries as follows: 
+		<scrap id="querysyntax" lang="ebnf">
+			<head>Query</head>
+			<prod id="nt-query">
+				<lhs>Query</lhs><rhs>'XML-XPTR=' (<xnt href="http://www.w3.org/TR/WD-xptr"> XPointer</xnt> | <xnt href="http://www.w3.org/TR/REC-xml#NT-Name">Name</xnt>)</rhs>
+			</prod>
+		</scrap>
+	</p>
+	<!-- fixed link to XML recommendation - bent -->
+</div1>
+
+<div1><?Pub Dtl?>
+	<head>Link Recognition</head>
+	<p>The existence of a <termref def="dt-link">link</termref> is asserted by a <termref def="dt-linkel">linking element</termref>. Linking elements must be recognized reliably by application software in order to provide approp
+
+<eg>&lt;xlink:extended role="address book" title="Ben's Address Book" showdefault="replace" actuatedefault="user"&gt; ... &lt;/xlink:extended&gt;</eg>
+
+	And the second shows how the link might appear, using an arbitrary element:
+
+<eg>&lt;foo xlink:type="extended" xlink:role="address book" xlink:title="Ben's Address Book" xlink:showdefault="replace" xlink:actuatedefault="user"&gt; ... &lt;/foo&gt;</eg>
+	</p>
+
+</div2>
+
+<div2 id="xlink-arcs">
+	<head>Arc Elements</head>
+	<p><termdef id="dt-arc" term="Arc">An -- More here? -bent -->
+</div2>
+
+</div1>
+<div1>
+<head>Conformance</head>
+<p>An element conforms to XLink if:  <olist>
+<item><p>The element has an <code>xml:link</code> attribute whose value is
+one of the attribute values prescribed by this specification, aR">Eve Maler and Steve DeRose, editors. <titleref>
+XML Pointer Language (XPointer) V1.0</titleref>. ArborText, Inso, and Brown
+University. Burlington, Seekonk, et al.: World Wide Web Consortium, 1998.
+(See <loc href="http://www.w3.org/TR/WD-xptr">http://www.w3.org/TR/WD-xptr
+ </loc>.)</bibl>
+<bibl id="iso10744" key="ISO/IEC 10744">ISO (International Organization for
+Standardization). <titleref>ISO/IEC 10744-1992 (E). Information technology
+- Hypermedia/Time-based Structuring Language (HyTime).</titleref> [G>. 1995. (See  <loc
+href="http://www.w3.org/Addressing/rfc1808.txt">http://www.w3.org/Addressing/rfc
+1808.txt </loc>).</bibl>
+<bibl id="tei" key="TEI">C. M. Sperberg-McQueen and Lou Burnard, editors.
+<titleref>
+Guidelines for Electronic Text Encoding and Interchange</titleref>. Association
+for Computers and the Humanities (ACH), Association for Computational
+Linguistics
+(ACL), and Association for Literary and Linguistic Computing (ALLC). Chicago,
+Oxford: Text Encoding Initiative, 1994. <!-- add cite to DOM tleref>,
+ed. Nancy Ide and Jean ronis <!-- fix this name -->, ISBN 0-7923-3704-2. </bibl>
+</blist></div1>
+</back></spec>
+<?Pub *0000052575?>

@@ -1,0 +1,10 @@
+<!DOCTYPE ns:doc [
+<!ELEMENT ns:ooc (#PCDATA | ns:a | n| ns:b)*>
+<!ATTLIns:doc
+          ns:attr mlns:ns CDATA #IMPLIED>
+<!ELEMENT ns:a EMPTY>
+<!ELEMENT ns:b (#PCDATA)>
+]>
+<ns:doc <!ELEME="val" xmlns:ns="http://www.exa   <ns:b>first/ns:b>
+</ns:doc><ns:b>second line</ns:b>
+</ns:doc>

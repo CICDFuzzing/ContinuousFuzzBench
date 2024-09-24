@@ -1,0 +1,299 @@
+<!-- ............................................................... -->
+<!-- XML specification DTD ......................................... -->
+<!-- ............................................................... -->
+
+<!--
+TYPICAL INVOCATION:
+#  <!DOCTYPE spec PUBLIC
+#       "-//W3C//DTD Specification::19980323//EN"
+#       "http://www.w3.org/XML/Group/DTD/xmlspec.dtd">
+
+PURPOSE:
+  This DTD was developed for use with the XML family of W3C
+  specifications.  It is an XML-compliant DTD based in part on
+  th gets updated to reflect the
+  date of the most recent changes.
+
+  Search this file for "#" in the first column to see change himal character
+#                   references.
+#                   Merged charent.mod file back into main file.
+-->
+
+<!ENTITY lt     "&#38;#60;">
+<!ENTITY gt     "&#62;">
+<!ENTITY amp    "&#38;#38;">
+<!ENTITY apos   "&#39;">
+<!ENTITY quot   "&#34;">
+<!ENTITY mdash  "--">
+<!ENTITY nbsp   "&#160;">
+<!ENTITY ldquo  "#x201C;">
+<!ENTITY rdquo  "#x201D;">
+
+<!-- ............................................................... -->
+<!-- Entities for classes of standalone elements ................... -->
+
+<!--
+#1997-10#1998-03-10: maler: Removed SGML Open-specific %illus.class;.
+#                   Added "local" entities for customization.
+-->
+
+<!ENTITY % local.p.class        "">
+<!ENTITY % p.class              "p
+                                %local.p.class;">
+
+<!ENTITY % local.statusp.class  "">
+<!ENTITY % statusp.class        "statusp
+                                %local.statusp.class;">
+
+<!ENTITY % local.list.class     "">
+<!ENTITY % list.class           "ulist|olist|slist|glist
+                                %local.list.class;">
+
+<!ENTITY % local.speclist.class "">
+<!ENTITY % speclist.class       "orglist|blist
+                                %local.speclist.class;">
+
+<!ENTITY % local.note.class     "">
+<!ENTITY % note.class           "note|wfcnote|vcnote
+                                %local.note.class;">
+
+<!ENTITY % local.illus.class    "">
+<!ENTITY % illus.class          "eg|graphic|scrap|htable
+                                %local.illus.class;">
+
+<!-- ............................................................... -->
+<!-- Entities for classes of phrase-level elements ................. -->
+
+<!--
+#1997-12-29: maler: Added xspecref t<!ENTITY % loc.class            "loc
+                                %local.loc.class;">
+
+<!ENTITY % local.tech.class    "">
+<!ENTITY % tech.class           "kw|nt|xnt|code
+                                %local.tech.class;">
+
+<!ENTITY % local.ednote.classef.att; is for optional
+        def attributes, and %def-req.att; is for required def
+        attributes. -->
+<!ENTITY % def.attENTITY % ref.att
+        'ref                    IDREF           #IMPLIED'>
+<!ENTITY % ref-req.att
+        'ref                 ml-link               CDATA           #FIXED "simple"
+        href                    CDATA           #IMPLIED
+        show                    CDATA           #FIXED "embed"
+        actuate                 CDATA           #FIXED "auto"'>
+
+<!ENTITY % href-req.att
+        'xml-link               CDATA           #FIXED "simple"
+        href                    CDATA           #REQUIRED
+        show                    CDATA           #FIXED "embed"
+        actuate                 CDATA           #FIXED "auto"'>
+
+<!ENTITY % source-req.att
+        'xml-link               CDATA           #FIXED "simple"
+        xml:attributes          NMTOKST spec %common.att;>
+
+<!ELEMENT front (div1+)>
+<!ATTLIST front %common.att;>
+
+<!ELEMENT body (div1+)>
+<!ATTLIST body %common.att;>
+
+<!--
+#1997-09-30: maler: Added inform-div1 to back content.
+-->
+
+<!ELEMENT back ((div1+, inform-div1*) | inform-div1+)>
+<!ALIST day %common.att;>
+
+<!ELEMENT month (#PCDATA)>
+<!ATTLIST month %common.att;>
+
+<!ELEMENT year (#PCDATA)>
+<!ATTLIST year %common.att;>
+
+<!--    Example of notice: "This draft is for public comment..." -->
+<!ELEMENT notice (%hdr.mix;)+>
+<!ATTLIST notice %;>
+
+<!ELEMENT latestloc (loc+)>
+<!ATTLIST latestloc %common.att;>
+
+<!--      loc (defined in "Phrase-level elements" below) -->
+em %common.att;>
+
+<!ELEMENT glist (gitem+)>
+<!ATTLIST glist %common.att;>
+
+<!ELEMENT gitem (label, def)>
+<!ATTLIST gitem %common.att;>
+
+<!ELEMENT label (%label.pcd.mix;)*>
+<!ATTLIST label %common.att;>
+
+<!ELEMENT def (%obj.mix;)*>
+<!ATTLIST def %common.attion?, role?)>
+<!ATTLIST member %common.att;>
+
+<!--      name (defined in "Specification header" above) -->
+<!--      affiliation (defined in "Specification header" above) -->
+
+<!ELEMENT role (#PCDATA)>
+<!ATTLIST role %common.att;>
+
+<!-- Notes .............T wfcnote
+        %common-idreq.att;>
+
+<!ELEMENT vcnote (head, (%obj.mix;)+)>
+<!--    ID attribute:
+        vcnote must have an data must reside at the location pointed to.
+        This is a hypertext reference, but for practical purposes,
+        for now ns of nonterminals (nt) can link to
+        it. -->
+<!ATTLIST prod
+        %common-idreq.att;>
+
+<!ELEMENT lhs (#PCDATA)>
+<!ATTLIENT vc EMPTY>
+<!--    def attribute:
+        Each validity tagline in a production must link to the vcnote
+        that defines it. -->
+<!ATTLIST vc
+        %def-req.att;
+        %common.att;>
+
+<!--
+#1998-03-23: maler: Added xml:space attribute.
+-->
+
+<!--    bnf: Un-marked-up production -->
+<!ELEMENT bnf (%eg.pcd.mix;)*>
+<!ATTLIST bnf
+        %common.att;
+        %xmlspace.att;>
+
+<el elements ......................................... -->
+
+<!--    bibref: Should generate, in square brackets, "key" on bibl -->
+<!ELEMENT bibref EMPTY>
+<!--    ref attribute:
+        A bibliography reference must link to the bibl element that
+        desST code %common.att;>
+
+<!--
+#1998-03-10: maler: Declared ednote and related elements.
+-->
+
+<!ELEMENT ednote (name?, date?, edtext)>
+<!ATTLIST ednote %common.att;>
+
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date %common.att;>
+
+<!ELEMENT edtext (#PCDATA)>
+<!ATTLIST edtext %common.att;>
+
+<!ELEMENT emph (#PCDATA)>
+<!ATTLIST emph %common.att;>
+
+<!--    footnote: Both footnote content and call to footnote -->
+<!ELEMENT footnote (%obj.mix;)+>
+<!ATTLIST footnote %common.att;>
+
+<!ELEMENT kw (%tech.pcd.mix;)*>
+<!ATTLIST kwext
+        link to a resource.  (Ideally, the content of loc will also
+        mention the URI of the resource, so that readers of the
+        printed version will be able to locate the resource.) -->
+<!ATTLIST loc
+        %common.att;
+        %href-req.att;>
+
+<!ELEMENT nt (#PCDATA)>
+<!--    def attribute:
+        The nonterminal must link to the production that defines
+        it. -->
+<!ATTLIST nt
+        %common.att;
+        %def-req.att;>
+
+<!--
+#1998-03-10: maler: Declared quote.
+-->
+
+<!--    quote: Scare quotes and other purely presentational quotes -->
+<!ELEMENT quote (%p.pcd.mix;)*>
+<!ATTLIST quote %common.att;>
+
+<!--    specref: Should generate italic "[n.n], Section Title" for
+        div, "n" for numbered item, or "[n]" for production -->
+<!ELEMENT-->
+<!ATTLIST xtermref
+        %common.att;
+        %href-req.att;>
+
+<!-- ......................................................ared but never
+        referenced.  Declaring them allows them to be pasted from
+        an HTML document into a document using y well. -->
+
+<!ELEMENT div
+        (head?, (%div.mix;|ul|ol|h1|h2|h3|h4|h5|h6|div)*)>
+<!ELEMENT h1 (%head.pcd.mix;|em|a)*>
+<!ELEMENT h2 (%head.pcd.mix;|em|a)*>
+<!ELEMENT h3 (%head.pcd.mix;|em|a)*>
+<!ELEMENT h4 (%head.pcd.mix;|em|a)*>
+<!ELEMENT h5 (%head.pcd.mix;|em|a)*>
+<!ELEMENT h6 (%head.pcd.mix;|em|a)*>
+<!ELEMENT pre (%eg.pcd.mix;|em)*>
+<!ELEMENT ul (item|li)*>
+<!ELEMENT ol (item|li)*>
+<!ELEMENT li (#PCDATA|%obj.mix;)*>
+<!ELEMENT em (#PCDATA)>
+<!ELEMENT a (#PCDATA)>
+
+<!-- ................................maler
+#- Did a major revision.
+#1997-09-10: maler
+#- Updated FPI.
+#- Removed namekey element and put key attribute on name element.
+#- Made statusp element and supporting entities.
+#- Added slist element with sitem+ content.
+#- Required head on scrap and added new bnf subelement.
+#- Added an xnt element and allowed it and nt in regular text and rhs.
+#- Removed the ntref element.
+#- Added back the com element to the content of rhs.
+#- Added a key attribute to bibl.
+#- Removed the ident element.
+#- Added a term element to be used inside termdef.
+#- Added an xtermref element parallel to termref.
+#- Beefed up DTD comments.
+#1997-09-12: maler
+#- Allowed term element in general text.
+#- Changed bibref to EMPTY.
+#- Added ref.class to termdef.pcd.mix.
+#1997-09-14: maler
+#- Changed main attribute of xtermref from def to href.
+#- Added termdef.class to label contents.
+#1997-09-30: maler
+#- Added character entity module and added new entities.
+#- Removed p from appearing directly in self; created %p.mix;.
+#- Added inform-div (non-normative division) element.
+#- Fixed xtermref comment to mention HREF, not ref.
+#- Extended orglist model to allow optional affiliation.
+#- Modified author to make affiliation optional.
+#- Added %speclist.class; and %note.class; to %obj.mix; and %p.mix;.
+#- Added %note.class; and %illus.class; to %termdef.pcd.mix;.
+#- Added unused HTML elements.
+#- Put empty system ID next to public ID in entity declarations.
+#1997-10-14: maler
+#- Fixed "unused" div content model to move nested div to mixture.
+#1997-10-16: maler
+#- Added SGML Open Exchange tables.
+#1997-11-28: maler
+#- Added support for prodgroup and its attributes.
+#- A#- Parameterized several content models to allow for customization.
+#1997-03-23: maler
+#- Cleaned up some comments and removed some others.
+#- Added xml:space semi-common attribute to eg and bnf elements.
+#- Added show and embed attributes on all the uses ...... -->
+<!-- ............................................................... -->

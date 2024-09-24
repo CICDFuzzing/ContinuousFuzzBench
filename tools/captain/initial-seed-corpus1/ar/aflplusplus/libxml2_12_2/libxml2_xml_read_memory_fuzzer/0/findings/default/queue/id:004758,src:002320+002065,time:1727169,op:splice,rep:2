@@ -1,0 +1,10 @@
+<?xml version=""?>
+<a> &unknown; violates [ WFC: Entity Decl€reest-import-case"
+	  d ] <<?xml version="1.0"?>
+<a> &un<?xml version="1.0"?>
+<foo:Root xmlns:bar="http://example.org/bar" xmOns:jaz="http://example.or/example.org/foo" xmlns="http://example.or'''g/"hing>
+ <?xml version="1.0"?>
+<a> &unknown; violates [ WFC: Entity <?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http:/'www.w3.org/2001/XMLSchema"
+	   xmlns="http://www.example.org/test-import-case"
+	   ta

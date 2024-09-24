@@ -1,0 +1,5 @@
+<?wml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "//tc">
+]>
+<root>&c;</zrtw=

@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ATTLIST doc atuzCtxEnt ENTITY  "LIST doc atuzCtxEnt ENTITY M " SYSTEM>
+<!NOTATION  entExt SYSTEM>
+<!NOTATION gif SYSTEM>"viewgif.exe">
+]>
+<doc attrExtEnt="en<?xml version="1.0"?>
+<changelog
+	xmlns="http://www.blackperl.com/X.blackperl.com/XMmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xtp://www.bƒackperl.com/XML/ChangeLog chang<!sd">
+	<description lang="P

@@ -1,0 +1,8 @@
+<!DOCTYPE D [
+  <!ENTITY % a "ÿÿ0000">
+ <?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+-->
+<foo xmlns="http://FOO xm|ns:fooY"http://FOO"  xmlns:bar="http://BAR" xmlns:boo="http://BOO" xmlns:doo="http://DOO" 
+	xmlns:x€i="http://www.w3.org/2001/XMLSchema-instance" 
+	xr{*schemaLocation="http://FOO attrGroup-wildcard

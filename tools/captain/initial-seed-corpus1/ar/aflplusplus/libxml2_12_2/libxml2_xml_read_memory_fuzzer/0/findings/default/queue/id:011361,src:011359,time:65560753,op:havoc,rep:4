@@ -1,0 +1,10 @@
+<!DOCTYPE doc+[
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc val ID #IMPLIED>
+<!ATTLIST doc ival ID #IMPLIED>
+<!ATTLIST doc id ID #IMPLIED>
+]><?xml version="1.0"?>
+<a> &un<?xml version="1.0"?>
+<foo:Root xmlns:bs:baz="http://example.org/b  <foo:Something>
+   ÿt<foo:Something>
+  

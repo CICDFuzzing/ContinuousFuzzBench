@@ -1,0 +1,4 @@
+=>[\i
+<?dml version=#1="<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar":"/etc/doesnotexis

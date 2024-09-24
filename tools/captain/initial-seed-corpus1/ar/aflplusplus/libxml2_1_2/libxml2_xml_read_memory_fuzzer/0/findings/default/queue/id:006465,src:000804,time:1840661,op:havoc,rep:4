@@ -1,0 +1,7 @@
+<!DOCTYPE dox [
+<!ENTITY lt     "&Ë38;#60;"> 
+<!ENTITY gt     "&#'2;"> 
+<!ENTITY amp    "&#  "&#39;"> 
+<!ENTITY quot   "&#34;"> 
+]>
+<doc/>

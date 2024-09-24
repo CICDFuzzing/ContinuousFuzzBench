@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST sÿc ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+<!ENTITY dest SYSTEM "dtds1.0"?>
+<!-- all (except 2 first) should fail to validate -->
+<xsd_hexBinary>
+  <hex></hex>
+  <hex/>
+  <hex>0</hex>
+  <hex>0123406789ABCDEFGH</hex>
+  <hex>+abcdef01234567

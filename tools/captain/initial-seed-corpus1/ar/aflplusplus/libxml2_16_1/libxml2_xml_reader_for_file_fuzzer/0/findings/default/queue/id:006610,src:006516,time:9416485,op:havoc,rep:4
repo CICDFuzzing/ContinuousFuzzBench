@@ -1,0 +1,11 @@
+?xslê\
+<?xml version="1.0"?>
+<!DOCTYPE Ooc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abc_2">
+<!ATTLIST doc bad IDREF "1abc_2">
+<!ATTLIST doc ok2 IDREF "abc_2">
+<!ATTLIST doc bad2 IDREFS "Qbc doc ok3 IDREFS  a1bc_2">
+]>
+<doc vaS=

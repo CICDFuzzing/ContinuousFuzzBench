@@ -1,0 +1,8 @@
+<?xsl \
+<!DOCTYPE dyc [
+<!ELEMENT doc (a? | b?	 >
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!/LEMENT c EMPY>
+]>
+<doc

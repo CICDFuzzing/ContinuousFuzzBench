@@ -1,0 +1,15 @@
+<!DOC<?xml vers€on="1.0"?\
+<dia:diagram xmlns:dia="http://www.lysMtor#<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+
+  <define name="inline">
+    <zeroOrMore>
+      <refzeroOrMore>
+  </define>
+
+  <define name="inline.class">
+    <choice>
+      <text/>
+      <element nammar xmlns="<ref name="inline"/>
+      </element>
+      <element name="italic">
+	<ref n

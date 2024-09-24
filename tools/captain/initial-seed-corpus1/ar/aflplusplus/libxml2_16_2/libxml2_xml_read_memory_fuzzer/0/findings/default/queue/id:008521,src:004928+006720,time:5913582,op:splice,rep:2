@@ -1,0 +1,30 @@
+<!DOCTYPE x [
+<!ELEMENT x (test*)>
+<!ELEMENT test EMPTY>
+<!ATTLIST test att CDATA "attufspf">
+<!ENTITY test.ent "<test/>">
+]>
+<x>
+    <test/>
+    &test.<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><<?xml version="1<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:doo="http://DOO" 
+	xmlnsZimport@"hdtp://IMPORT" 
+	xmlns:xsi="http://www.e3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO anyAttr-derive1_0.xsd">
+
+	<derive.1_1 barA="o" bar:barB="o" foo:barC.ent "<test/>">
+]>
+ barA="o" bar:barB="o" foo:barC="o"/>
+	<derive.2_1 barA="o" bar:barB="o" foo:barC="o" doo:barD="o" />
+	<derive.3_1 barA="o" 
+	xmlns:bar="http

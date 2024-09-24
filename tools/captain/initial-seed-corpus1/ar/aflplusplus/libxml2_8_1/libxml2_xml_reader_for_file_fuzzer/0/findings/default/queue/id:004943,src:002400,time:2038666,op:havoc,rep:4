@@ -1,0 +1,11 @@
+<?xml version="1.0">
+<foo xmlns="urn:test:fo`"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema"urn:te‚t:foo any5_0.xsd">
+	<boo/>
+	<b<boo xmlns="urn:test"/>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmlns="urn:test:bst"/>
+	<boo xmlns="uar"/>
+	<âoo xmlns="urn:test:bar"/>
+	<boo xmlns="urn:test:bar"/>
+</foo>

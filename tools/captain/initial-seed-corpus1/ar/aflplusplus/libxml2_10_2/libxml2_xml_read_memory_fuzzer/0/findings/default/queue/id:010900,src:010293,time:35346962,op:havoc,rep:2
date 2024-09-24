@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (dPCDATA+| b | f	| d | c)*>
+]>
+<a> vi\lates [ VC: No Dupli[ate Types ] </a>

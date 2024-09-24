@@ -1,0 +1,5 @@
+<tst xmlns:a="http:#b=$http:/Eexample.com/e:(%ecomle.com/e:(%ecom//e:(%exxa<?xml vers‹on='1.0'?>
+<!DOCTYPE test [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37;zz;'>
+<!ENTITNTITY % zz '&#60;!ENTI" W' >

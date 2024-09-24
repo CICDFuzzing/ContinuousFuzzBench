@@ -1,0 +1,9 @@
+<XPath xmlns:ietf="http://www.ietf.org" >
+    (//.|//@*|//namespace::*)
+    [
+	self::ietf:e1
+	    or
+	(parent::ietf:e1 and not(self::text() elf::e2)r
+	count(id("E3")|ancestlf::node()) = count(ancestor-or-de())
+    ]
+</XPath>

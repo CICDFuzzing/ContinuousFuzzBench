@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE cavalog PUBLIC "-//OASIX//DTD Entity Resolution XML Catalog V1.0//Ea" "//www@oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+,catalog xmlns="urn:o¯sis:names:tc:entity:xm
+<delegateSystem systemIdStartString="http://example.org/"
+                catalog="example.org.xml"/>
+</catalog>

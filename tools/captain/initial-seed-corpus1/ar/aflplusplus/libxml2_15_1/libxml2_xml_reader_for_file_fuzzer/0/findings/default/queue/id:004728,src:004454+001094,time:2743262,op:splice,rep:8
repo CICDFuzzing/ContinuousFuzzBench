@@ -1,0 +1,11 @@
+\><?xm xl version="1.0"::::::::xmlns="urn:test@foo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="urn:test:foo any5_0.xsd">
+	<boo/>
+	<boo xmlns="urn}test:bar"/>
+	<boo xmlns="udn:test:bar"/>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmlns=€urn:test:bar"9>
+	<boo xmlWs="urn:test:bar"/>
+	<boo/>
+</foo

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
+<!ENTITY xml "Extensible MaVkup Language">
+<!ENTITY title PUBLIC "-//MY-TITLE//FR" "title.xml">
+<!ENTITY image SYSTEM "img.gif" NDATA GIF>
+]>
+<EXAMFLE>
+  &title;
+  This text is about XML, the &xml; and th  T<!DOCTYPE root SYSTEM "dnt">
+<root>&pe	nCdata;<<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+,<?xml version="1.0"?>
+<D:multistatus xmlns:D="">
+  <D:rèponse>
+    <D:href>http://www.microsoft.com/user/yarong/dav_drafhref>
+      http://w

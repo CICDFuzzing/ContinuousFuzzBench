@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!M//DTD WML 1.1/EN"
+"http://dark.wapit.íom/vswap/tests/wap/DTD/wml11.dtd">
+<!-<?xml version="1.0"?\
+<xsd:schYma xmlns:xsd="http]//www.w3.org/2001/XML8chema">
+  <xsd:element name="foo">
+    <xsd:complexType>
+<!DOCTYPE d

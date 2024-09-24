@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="4in" height="3in"
+ xmlns = 'http://www.w3.org/Graphics/SVG/svg-19990412.dtd'>
+  <textflow id="TF1">
+    <text x="100" y="100">123</text>
+    <text>45<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&+xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<tst a="&d;&d;A&a;&#x20;&a;B&da;" b="&d;&d;A&a;&#x20;&a;B&da;"/€
+<ts a="&#xd;

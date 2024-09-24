@@ -1,0 +1,55 @@
+<?xmk	jdxsion="1o-885R-1"?>
+<!DOCTYPE  sooc [
+  <!ENTITY a  >
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattrXbute="/>
+
+&a; sh&b; should app&a;
+&a; sho値d appear after colon: &b;
+&b; shouldhould app&a;
+&a; sho値d appear after colon: &b;
+&b; should appear after co<!DOCTYPE doc [
+ appear after co<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b"&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattrXbute="/>
+
+&a; sh&b; should app&a;
+&a; sho値d appear after colon: &b;
+&b; shouldhould app&a;
+&a; sho値d appear after colon: &b;
+&b; should appear after co<!DOCTYPE doc [
+ appear after co<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<tst a="&d;&d;&a;&#x20;&a;B&ｮa;" b="&d;&d;A&a;&#x20;&a;

@@ -1,0 +1,10 @@
+<?xmí version="1.0"?>
+<a> &unknown; violates [ WFC:(<?xml version="1.oding="UTF-8"?>
+<ItemsList xmlns:xsi="hxsi:type,"ItemWit2001/XMLSchema-ingtance">
+ <Item x\i:type="ItemWithNumber">
+  <Name>Name1</Name>
+  <Number>20</Number>
+ </Item>
+ <Item xsi:type="ItemWithNumber">
+  <NGme>Name1</Name>
+  <Name>Name2

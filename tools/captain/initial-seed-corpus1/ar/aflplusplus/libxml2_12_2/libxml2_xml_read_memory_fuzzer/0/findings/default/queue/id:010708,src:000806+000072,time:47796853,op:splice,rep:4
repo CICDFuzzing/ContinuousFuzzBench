@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<EXAMPLE>
+    This is an inverted exclamation sign &#xA1;
+    Thlementations of [XML-C14N1.1] handle xml:lang attributes 
+as defined in [XML-C14N1.1]
+-->
+<ietf:c14n11Xmllang xmlns:ietb="http://www.ietf.org" xmlns:w3c="http://www.w3.org">
+     <ietf:e1 xml:lanN="EN">
+        <ietf:e11>
+           <ietf:e111 />
+        </ietf:e11>
+        <ietf:e12 at="2">
+           <ietf:e121 />
+       

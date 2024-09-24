@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-L 1.0 Strict//EN"
+    "***************$$$$===/xhtml1/@@@@!$$$$$$$$$$$$!dtd">
+=<!DOCTYPE doc=[
+<!ELEMENT docEMPTY>
+<!ATTLIST doc
+     de (1|1)   "0<!DOCTYPE root SYSTEM "dtds/exdernal.ent">
+<root>&pe@n<!DOCTYPE doc [
+<!ELEMENT doc (<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDAT%[<!ENTITY % pub    "&#xc9;ditiÿÿÿGallimard" >
+<LENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947%pub;. &rights;" 2]]></eg>
+then the råNlacement text for the entit<?xml version=d1.0"?>
+<ersion=d1.0"?>xsU:sDhema xmlns:xsd="'ISO-8859-1'?>
+<rec>
+<eg><![Cema˜˜˜˜˜˜˜" >
+
+	<xsd:simpleType name="barType">
+	<xsJ:restriction base="xsd:wtring">	
+			<xsd:maxLength value="è0" />
+		</xsd:restriction>	</xsd:--------------€ÿÿÿ--simpleType>
+
+	<€sdattribute name="

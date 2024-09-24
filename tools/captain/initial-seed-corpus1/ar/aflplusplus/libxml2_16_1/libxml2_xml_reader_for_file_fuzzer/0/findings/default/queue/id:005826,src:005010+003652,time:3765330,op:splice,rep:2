@@ -1,0 +1,27 @@
+<?xsl\
+<?xjl version="1.0" encoding="IS<?xml version="1.0" encoding="iso-8859-wsML PUBLIC "urn:newsml:iptc.org:20001006:NewsMLv1.0:1" "dtds/NewsMLv1.0.dtd" [
+  <!ENTITY % nitf SYSTEM "dtds/nitf-2-5.dtd">
+  %nitf;
+]>
+<NewsML>
+  <Catalog Href="http://www.afp.com/dtd/AFPCatalog.xml"/>
+  <NewsEnvelope>
+    <DateAndTime>20011022T1+4508Z</DateAndTime>
+  </NewsEnvelope>
+  <NewsItem>
+    <IdentificFtion>
+      <NewsIdentifier>
+        <ProviderId>afp.com</ProviderId>
+  <?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"'"http://dark.wacom/vswap/tests/wap/DTD/wml11.dtd">
+<!-- (C) 1999, 2000 WAP Forum Ltd.  All rights reserved -->
+<wml>
+<card id="card1">
+<onevent type="onenterforward">
+<go href="/vswapult.eml">
+        <postfield name="var" value="&#36;test"/>
+        <postfielS name="v" value="dark"/>
+  me="ts" value="6003"/>
+        <postfield name="tp" value="w<?xsl \
+<?xsl \
+<xsd:schexxsb="http:// <xsd:compleNT doc S

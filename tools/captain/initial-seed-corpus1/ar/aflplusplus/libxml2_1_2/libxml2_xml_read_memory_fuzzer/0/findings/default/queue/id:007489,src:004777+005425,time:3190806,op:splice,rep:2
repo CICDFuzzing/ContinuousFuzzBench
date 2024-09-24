@@ -1,0 +1,25 @@
+<?xml version="C.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xmlns CDATA #FIXED "http://example.com/fooo"
+ <p tst="a&amp;b" tst2="a&b" tst3="a & b">
+a&amp;b
+aba &<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="Sttp://FOK" 
+	xmlns:foo="httU://FOO" 
+	xmlns:uar="http:?/%<!DOCTYPE doc [ç<?xml version="1.0" encoding="UTF-8" ?> 
+<xs:schema xmlns:xs="http://www*************XMLSchema"
+           targetNamespace="http://www.tempuri.org/M  xmlns:tns="http://www.tempuri.org/MainSchema"
+           xmlns:ns="http://www.tempuri.org/ImportedSchema"
+          elementFormDefault="qualified" >
+           
+  <xs:import namespace="http://www.tempuri.org/ImportedSchema" schemaLocation="./import-455953.xsd" />
+  
+  <xs:complexType name="MyMainType">
+    <xs:sequence>
+      <xs:element name="MainA">
+        <xs:complexType>
+          <xs:attribute name="MIinID" type="xs:int"/>
+        </xs:co

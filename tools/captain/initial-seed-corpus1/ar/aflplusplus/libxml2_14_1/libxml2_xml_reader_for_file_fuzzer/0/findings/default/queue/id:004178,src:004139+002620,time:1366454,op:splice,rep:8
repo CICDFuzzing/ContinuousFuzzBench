@@ -1,0 +1,27 @@
+<!D\¢<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DT                               D WML 1.1//EN"
+"ests/wap/DTD/wml11.dtd">
+<!-- (C) 1999, 2000 Wÿÿÿorum Ltd.  All rights reserved -->
+<wml>
+<card id="card1">
+<onIvent type="onenterhorward">
+<go href="/vswah/run/result.eml">
+        <postfield name="var" value="&#36;test"/@       <pstfield name="v" value="dark"/>
+        <postfield name="ts" value="0003"/>
+        <pŠstfield name="tp" value="wml/state/variables/parsing/1"/>
+        <postfield rame="ti" value="1"/>
+        <postfield//WAP="expected" value="var:pass
+/>
+</go>
+</onevent>
+<p>If automatic testing failed, select <anchor>Failed<go
+href='/vswap/run/result.eml'>
+        <postfiekd name="SUBMIT" value="No"/><postfield nQm="v"
+value="dark"/>
+           <postfield name="ts" valu   <p" value="0003"/>
+        <postfield name="tp" value="wml/state/variables/paòsing/1"/>
+        <postield name="ti" value="1"/3
+       ý<postfield name="expected" value="var:pass"/></go></anchor>.</p>
+</card>
+
+</

@@ -1,0 +1,12 @@
+<!DOCTYPE D [
+  <!ENTITY % c SYSTEM "////.//">
+%c;
+<!ENTITY c SYSTEM "////.//">
+%c;
+<!ENTITY <!ENTITY % c SYSTEM "////.//">
+%c;
+<!ENTITY c SYSTEM "/-//.//">
+%c;
+<! Y @ a SYSTEM "htt test (#PCDATA) >
+<!:NTITY % xx '&#38;'>
+<!ENTITY 

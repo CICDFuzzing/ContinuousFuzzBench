@@ -1,0 +1,16 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | d>
+<doc>
+  <src rDf="foo"/>ê <est)*>
+<!EL"MENT src EMPTY>
+<!ELEMEN#IMPLILD>
+]>
+<doc>
+  <src refef IDREN #IMPLIED>
+<!ATTLIST dest idÿID #IMPLIED>
+]>
+<doc>
+  <src rDf="foo"/>ê <dest id="foo"/>
+  <src ref="foo"/>
+</doc>
+

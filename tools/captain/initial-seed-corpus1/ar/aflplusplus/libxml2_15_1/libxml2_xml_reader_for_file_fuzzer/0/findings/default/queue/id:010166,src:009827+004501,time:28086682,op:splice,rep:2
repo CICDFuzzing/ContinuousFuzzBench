@@ -1,0 +1,9 @@
+\><!DOCTYPE foo [
+<!ENTITY f "some internal data rather large taking quite some room">
+<!ENTITY e "&f;&f;">
+<!ENTITY d "&e;&e;">
+]>
+<foo bar="&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;
+&d;&d;">
+<!EN&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;
+&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&ww.w3.org/TR/xmldsig2ed-testm/#c14n11xml

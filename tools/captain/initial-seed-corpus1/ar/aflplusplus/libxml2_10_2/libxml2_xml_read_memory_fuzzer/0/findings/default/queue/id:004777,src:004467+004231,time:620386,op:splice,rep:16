@@ -1,0 +1,18 @@
+<!DOCTYPE root SYSTEM "dtF;;;;;s/ex&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&ternal.ent">
+<root>&peInCdatS!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELET tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDADA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY xd;&#xa;" b="&#>
+]>
+<doc>
+<tst a="
+
+‘z" b="
+
+xyz"/>ÿtst a="Ïd;&d;A&a;&#x20;&a;B&daTEM "dtFs/ex&&&&&&&&&&6a;?&da;"/>
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#vd;&#xa;" b="&#x
+/ex&&&&&&&&&&&&&&&&&&/&&&&xd;&#xa;"/>
+<tst a="&#32;x&#32;&#32;y&#32;" b="&#32;x

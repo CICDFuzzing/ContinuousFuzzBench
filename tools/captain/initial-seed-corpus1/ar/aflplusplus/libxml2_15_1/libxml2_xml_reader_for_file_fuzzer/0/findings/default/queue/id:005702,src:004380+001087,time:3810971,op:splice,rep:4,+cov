@@ -1,0 +1,12 @@
+\> <!--
+httpww.w3.or/xmldsig2ed-s/#c14n11xml"httpV//wwexaotne.com"
+ ð¦¦¦¦¦¦-102
+
+Check that correct oix@base fixup is per@ormed.
+-<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="entFormDefault="qualified">
+	<xs:elemvdt name="foo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name=

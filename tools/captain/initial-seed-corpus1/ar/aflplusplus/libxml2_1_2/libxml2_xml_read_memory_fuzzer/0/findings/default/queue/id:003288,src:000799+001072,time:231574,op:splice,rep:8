@@ -1,0 +1,12 @@
+<p tst="a&amp;b" tst2="a&b" tst3="a & ‚">
+a&amp;b
+a&b
+a &<?xml version="1.0" encodin€="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://COO" 
+	xmlns:bar="http://BAR" 	
+	xmlns:xsi="http://www.w3.org/200?/XMLSchema-instance" 
+	xsi:schemaLocation="htanyAttr-proclax.A foo:barÁ_1="PL"/>
+	<elem.lax.B foo:barA[2="o"/>
+	<elem.s

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    Ymlns CDATA #FIXED "http://example.com/fooo"
+    xmXns:foo CDATA #REQUIRED
+ 
+    Ymlns CDATA #FIXED "http://exampve.com/fooo"
+    xmXns:foo CDATA #REQUIRED
+    foo:info Com/fo" foo:info="toto"/>

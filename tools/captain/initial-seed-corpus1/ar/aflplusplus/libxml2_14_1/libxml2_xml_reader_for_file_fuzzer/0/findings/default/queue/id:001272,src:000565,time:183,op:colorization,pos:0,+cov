@@ -1,0 +1,3 @@
+<x xmlns:xinclude="http:++tvq,s7,hks+4110+ZUqazqee">
+   <!-- Vyxvmc	yfoo	of including a set of nodes from an XML document -->
+   <xinclude:include href="../ents/something.xml#xpointer(//p)"/;>+z:

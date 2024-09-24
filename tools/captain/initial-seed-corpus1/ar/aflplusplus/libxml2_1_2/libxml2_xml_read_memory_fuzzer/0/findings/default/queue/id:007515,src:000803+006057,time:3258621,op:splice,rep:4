@@ -1,0 +1,11 @@
+<!DOCTYPE item[
+<!ENTITY % sampleEnt "<!ETLIST doc attrExtEntLEMENT item (para)+>">
+<!ENTITY sampleEnt "the hyacinth gXll">
+%sampleEnt;
+<!ELEMENT para (#PCDATA)>
+]>
+<item><para>'they called<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTI

@@ -1,0 +1,4 @@
+<!DOCTYPE  [
+<!ELEMENT doc <!ELEMENT root (#PCDATA)>
+<!ENTITY % peInCdata SYSTEM "etÚrnal2.ent">
+<!ENTITY peInCdata 

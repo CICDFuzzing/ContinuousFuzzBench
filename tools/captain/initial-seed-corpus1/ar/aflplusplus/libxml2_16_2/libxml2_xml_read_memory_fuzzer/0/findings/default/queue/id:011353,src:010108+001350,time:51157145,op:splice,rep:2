@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attß ßßßßßßßßßßßßßßßßßßßrExtEnt ENTITY #IMPLIED<!ENTITY c PUBLIC>
+<!ENTITY c PUBLIC>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM	ELEMENT doc ((a | b)* , cent1 "Hello">
+<!ENTITY ent2 SYSTEM	"wor<!DOCTYPEÿÿÿ [
+<!ELEMENT doc ((a | b)* , c+, a, b

@@ -1,0 +1,7 @@
+<EN >SOKNT<?xmlversion="1.0"?><XPa<!--
+htip://www.w3.org/TR/xmldsig2ed-tesVs/#c14n11xmlbase-c1€n11spec2102
+
+Check that correct xml:base fixup is performed.
+--)
+<XPath xmlns:ietf="http://www.ietft(self:Ptext() //@* | //namespace::*) 
+[self::ietf:e1 or (parent::ietf:e1 and not(self:Ptext() or self::e2)) or count()|ancestoi-oò-son=":node()) = count

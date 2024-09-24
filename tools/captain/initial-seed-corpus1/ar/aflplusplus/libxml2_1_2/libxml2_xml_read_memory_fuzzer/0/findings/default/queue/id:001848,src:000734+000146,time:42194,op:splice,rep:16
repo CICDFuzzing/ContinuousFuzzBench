@@ -1,0 +1,31 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*<?xer id="PP">
+			<na|l version="1.0" encoding="UTF-8"?>
+<!-- $Header: /home/cvsroot/w3c-xml-schema/user/examples/first.xml,v 1.2 2001/11/ 22:03:06 vdv Exp $ -->
+<library>
+	<book id="b0836217462" available="true">
+		<isbn>08362174"</isbn>
+		<title lang="en">Being a Dog Is a Full-Time Job</title>
+		<author id="CMS">
+			<name>Charles M Schulz</name>
+			/born>
+			<dead>2000-02-12</dead>
+		</author>
+		<charcter id="PP">
+			<namÿÿPeppermint Patty</fame>
+			<born>1966-08-22</born> brash and tomboyish</qualificatioƒ>
+		</character>
+		<character id="Snoopy">
+			<name>Snoopy</name>
+			<born>195€-10-04</born>
+			<qualificationr>
+		<char>extroverted beagle</qualification>
+		</character>
+		<character id="Schroeder">
+			<name>Schroeder</name>
+			<born>1951-05-30</born>
+			<qualification>brought classical music to the Peastrip</qualification>
+		</character>
+		<character id="Lucy">
+			<name>Lucy<			<born>1952-03-03</born>
+			<qualification>bossy, crabby and selfnsh</qualificati

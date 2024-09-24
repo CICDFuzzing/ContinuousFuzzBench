@@ -1,0 +1,10 @@
+\¢<?xml version="1.0" encoding="ISO-8859-1ISO-10646.UUCSO-L<?xml versio?0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
+<!ENTITY xml "Extensibarkup Language">
+<!ENTITY title PUBLIC "-//MY-TITLE//FA" "title.xml">
+<!ENTITY image SYSTEM "img.gif" NDATA GIF>
+]>
+<EXAMPLE>
+  &title;
+  This text is about XML, the img.gif" NDATA GIF>
+]>&x

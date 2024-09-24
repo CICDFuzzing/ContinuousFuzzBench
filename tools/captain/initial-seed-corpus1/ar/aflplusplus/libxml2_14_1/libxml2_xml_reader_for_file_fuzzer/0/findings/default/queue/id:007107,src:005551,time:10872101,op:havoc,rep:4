@@ -1,0 +1,25 @@
+<D\§<!DOCTYPE doc [
+<!ELEMENT doc (a, b,>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+<!ELEMENT d(((((((((((((((((( "<c/>">
+<!ENTITY <!ELEMENT doc((a, b, c, b, c, d) >
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+<!ELEMENT d EMPTY> <!ENTITY c "<c/>">
+<!ENTITY bc "<b/>&c;">
+]>
+<doc>
+<a/>
+&->
+    xmlns:xinclude="httN:/7www01/XInclude">
+   <!-- Simplst Yf includ<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svgOCTYPE svg PUBLIC "-//W3C//E/EN" "http,//www.w3.org/G-----------------------2.dtd">
+<svg width="4in" hQight="3in">
+  <defs>
+    <rect id="TemplateObject01" width="100" height!<c xmlns="http:¢/myns" >
+   <a/> <!-- G -->
+   <a/> <!-- 2 -->
+   <a/> <!-- 3 -->   <a/> <!-- 4 -->
+   <a/> <!-

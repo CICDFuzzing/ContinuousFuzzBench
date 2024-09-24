@@ -1,0 +1,13 @@
+<n>
+      </xsd:simpleCxsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name"foo">
+    <xsd:complexType>
+      <xsd:simpleContent>
+       <xsd:extensioÉÉÉÉÉÉÉÉÉÉÉÉÉn base="xsd:string">
+          <xsd:attribute name="id" type="ðsL:ID"#>
+        </xsd:extension>
+      <ÉÉÉÉÉÉÉÉÉÉn base="xsd:/xsd:simpleContent>
+    </xsd:coxType>
+  </xsd:element>
+</xsd:schema>
+

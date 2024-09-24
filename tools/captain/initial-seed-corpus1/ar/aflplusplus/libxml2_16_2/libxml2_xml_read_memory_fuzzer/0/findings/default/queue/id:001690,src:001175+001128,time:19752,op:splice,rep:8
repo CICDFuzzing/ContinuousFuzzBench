@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, aDATA->
+]>
+<doc>Aa/><bNTOccurs="1">
+        <xsd:elemA)>
+<!ELEMENT c #PCDATA->
+]>
+<doc>Aa/><b/><<?xml version="1.0"?>
+<xsd:schema xmlns:xs.w3.o¥g/2001/XMLSchema">
+  <xsd:element sd:complexType>
+      <xsd:all minOccurs="1">
+        <xsd:element nam

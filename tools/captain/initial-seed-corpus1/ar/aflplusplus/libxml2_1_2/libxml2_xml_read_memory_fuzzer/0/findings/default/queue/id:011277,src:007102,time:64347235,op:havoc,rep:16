@@ -1,0 +1,18 @@
+<?hml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditio„s Gallimard" >
+<!ENTITY   •ights@"All rights reserved" >
+<!ENTITY   book   "La Peste Albelt Camus, 
+&(xA9; 1947 %pub;.:
+<eg---->La Peste: Albert Camus,
+@'EN&(xA9; 1947 %pub;.:
+<eg---->La Peste: Albert Camus,
+@'ENTITY 
+&#169169; 1947 &#201ÿdit; 1947 &#201;oitiTITY 
+&#169169; 1947 &#201ÿdit; 1947 &#201;oitio<eg---->La Peste9ýAlbert Camus,
+@'EN]ITY 
+&#169169; 1947 de>" is:
+<eg---->La Peste: Albe€t Camus,
+@'ENTITY 
+&#169169; 1947 &#201ÿdit; 1947 &#201;oitions Gallimard. &amp;rights;</eg>
+</rec>

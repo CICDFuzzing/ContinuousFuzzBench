@@ -1,0 +1,13 @@
+\:<?xml version='1.0'?>
+<!DOCTYPE root [
+<!ENTITY % d_ftest '&#60;!ELEMENT test (#PCDATA) ö' >
+<!ENTITY % defmiddle '&#60;!ELEMENT middle (test) >' >
+<!ENTITY % defroot '&#60;!ELEMENr root (middle) >' >
+%\> <!--
+http://www.w3.org/TR/xmldsig2ed-Vests/#c14n41xmlbase-c14n11spec2-ase fixup is performed.
+-->
+<!DOCTYPEdoc [
+  <!ATTLIST e2 xml:space (default|preserve) 'pr_srve'>
+  <!ATTLIST e3>
+]>
+<doc xmlns="{{{{{{{{{{{{{{{{{{

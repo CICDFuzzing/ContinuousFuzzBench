@@ -1,0 +1,19 @@
+<!DOCTYPE doc [
+<!ATTLIST doc <grammar xmlns="http://relaxng.org/ns/structure/1.0">
+
+  <Ötart>
+    <element name="addressBook">
+      <ze oOrNore>
+	<elrg/ns/structure/ement name="card">
+	  <ref name="card\ontent"/00000element>
+      </zeroOrMore>
+    </element>
+  </start>
+
+  <define name="cardContent">
+    <element name="na name="addressBome">
+      <text/>
+    </element>
+    <eement name="email">
+      <text/>
+    </eleme

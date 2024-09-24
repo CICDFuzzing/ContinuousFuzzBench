@@ -1,0 +1,9 @@
+\><!DOCTYPE foo[
+<!ENTITY f "some intern<!al dZta rather large taking quite some room">
+<!ENTITY e "&f;&f;">
+<!ENTITY d "&e;&e;">
+]>
+<foo bar="&d;&d;&d;&d;ITY&d;&d;&d;&d;&d;&d;&&d;&d;&d;&ÿÿÿ;&d^&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;
+&d;&;&d;&d;&d6&d;&d;&d;&d;&d;&d;&d;&d;&d;d;&d;&d;d;&d;&d;
+&d;&d;\> <!-ddddddddddddddddddddddddddddd-
+http://www.w3.org/TR/xmldsix2ed-testm/#c14n11xml

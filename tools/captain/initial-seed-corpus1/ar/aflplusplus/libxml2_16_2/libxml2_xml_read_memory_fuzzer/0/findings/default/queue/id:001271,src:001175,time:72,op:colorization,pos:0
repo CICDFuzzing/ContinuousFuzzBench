@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>@*CRAXBOJ	e	&!ZDCCMB)>
+]>
+<doc><a/><b/><a/><c/><c/><a/></doc>

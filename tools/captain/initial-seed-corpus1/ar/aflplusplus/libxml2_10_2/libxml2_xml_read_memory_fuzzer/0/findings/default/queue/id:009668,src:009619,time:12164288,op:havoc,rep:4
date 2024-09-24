@@ -1,0 +1,15 @@
+<?xmk	jdxsion="1o-885R-1"?>
+<!DOCTYPE  sooc [
+  <!ENTITY a  >
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattrXbute="/>
+
+&a; sh&b; should app&a;
+&a; sho’ld appear after colon: &b;
+&b; should appear after colon: &b;
+
+</somedoc>

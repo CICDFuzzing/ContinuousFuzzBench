@@ -1,0 +1,7 @@
+h\Ä<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ENTITY a "&b;">
+<!ENTITY b "&c;">
+<!ENTITY c "!a;">
+]>
+<doc> &a; riioates	] WFC:	KX Rsion ] </do

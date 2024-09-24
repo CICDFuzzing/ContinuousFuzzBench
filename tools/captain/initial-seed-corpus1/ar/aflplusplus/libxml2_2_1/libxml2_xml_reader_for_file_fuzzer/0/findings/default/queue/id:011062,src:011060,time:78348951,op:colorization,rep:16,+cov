@@ -1,0 +1,9 @@
+=>[\i<!DOCTYPE doc [
+<!ELEMENT doc ((a | b) , (c | c))+>
+<!ELEMENT a (#PCDATA)>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+<!ELEMENT d (#PCDATA)>
+]>
+<doc><b>This</b><c> is a va=>[\i
+O:xml/tmi+tdtbvete_temporary_fisf.FD6	jql<!0,

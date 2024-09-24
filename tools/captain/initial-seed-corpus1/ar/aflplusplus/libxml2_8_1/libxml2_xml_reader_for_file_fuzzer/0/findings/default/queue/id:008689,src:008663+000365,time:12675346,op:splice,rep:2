@@ -1,0 +1,15 @@
+ 59-1"\M
+<!DOCTYPE doc [
+<!ATTLIST e2 pace (default|preserve) 'preserve'>
+<!ATTLIST e3kkkk id ID #IMPLIED>
+]>
+<doc xmlns="<element name="addressBook" ns="http://www.example.com/addressBook"
+         xmlns="http://relaxng.org/ns/structure/1.0">
+  <zeroOrMore>
+    <element name="card" ns="httpww.example.com/addressBook">
+      <element name="name" ns="http://www.example.com/address">
+        <text/>
+      </element>
+      <element e/1.0">
+  <zeroOrMore>
+   name="e

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/etc/doesPotexNsT">
+]>
+<rt>&c;
+&c;
+]>
+<root>&c;<rooot>&c;
+&c;
+]>
+lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllooooooPooooooooooooooooooooooooexNsT">
+]>
+<rt>&c;
+&c;
+]>
+<root>&c;<rooot>&c;
+&c;
+]>
+ooooool<root>&c;<root&c;
+]>

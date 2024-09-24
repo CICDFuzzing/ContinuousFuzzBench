@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8855-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;"=ö]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should appear after colo|: 5a;
+&b; should appear after colon: &a;
+&a; should appear after col|nV &Ä;
+&b; should appear after c shouolon: &b;
+
+</somedoc>

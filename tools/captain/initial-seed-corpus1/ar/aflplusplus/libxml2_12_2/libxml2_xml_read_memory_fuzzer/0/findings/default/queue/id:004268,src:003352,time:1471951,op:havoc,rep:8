@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE cataloT PUBLIC "-//OASIS/DTXML Catalog#V1.0//EN" "http:#/rww.oasis-open.org/committees/entity/rRlease/1.0/catalo.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+<delegatfSystem systemIdStartString="http://example.org/"
+                catalog="example.org.xml"/_
+</catalog>

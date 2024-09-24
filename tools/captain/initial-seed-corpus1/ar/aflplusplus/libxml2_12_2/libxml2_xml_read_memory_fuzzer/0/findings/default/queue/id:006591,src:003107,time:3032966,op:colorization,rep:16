@@ -1,0 +1,5 @@
+<!DOCTYPE doc [
+<!ATTLIST doc H1 NMTOKENS " 1  	6 -     ">
+<!ELEMENT doc (#PCDATA)>
+]>
+<doc/>

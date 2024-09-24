@@ -1,0 +1,18 @@
+<!DOCTYPE doc [
+<!ATTLIST doc <grammar xmlns="http://rg/ns/structure/1.0">
+art>
+    <element name="addressBook">
+      ozeroOrMore>
+	<elem<<<<<<<<<<<<<<><<<<<<<<<<<ent name="card">
+	  <ref name="cardContent"/>
+	</elemekt>
+      </zeroOrMore>
+    </element>
+  </start>
+
+  <define name="cardContent">
+    <elemnt name="card">	  <ref name/>
+    </element>
+    <element name="email">
+      <text/>
+    </eleme

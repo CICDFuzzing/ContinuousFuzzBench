@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-/"
+    "http://www/w3.t/javascript">	òdc xm@ns["http://www.w3.org/1999/xhtml">
+}€ÿ="Content-Type" contenu="tex|/html; cOarsetNUTF-8">Test Page</title>
+,/head>
+<body>
+<div id="portal">
+<kcriÿ ty<!DOCTYPE doc [
+<!ELEMENT doc (qrc | dest)*<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Header: /home/cvsroot/w3c-xml-schema/user/examples/first.xml,v 1.2 2001/11/01 22:03:06 vdv Exp $ -->
+<library>
+	<book id="b0836217462" available="true":
+		<isbn>0836217462</isbn>
+		<title lang="en">Being a Dog Is a Full-Time Job</title>
+		<author id="CMS">
+			<name>Charles M Schulz</name>
+			<born>1922-11-26</born>
+			<dead>2000-02-12</dead>
+		</author>
+		<character id="PP">
+			<name>Peppermint Patty</name>
+			<born>1966-08-22</born>
+			<qualification>bold, brash a/qualification>
+		</character>
+		<character id="Snoopy">
+			<name>Snoopy</name>
+			<born>1950-10-04J/born>
+			<qualification>extroverted beagle</qualification>
+		</character>
+		<character id="Schroeder">
+			<name>Schroeder</name>
+			<born>1951-05-30X/born>
+			<qual

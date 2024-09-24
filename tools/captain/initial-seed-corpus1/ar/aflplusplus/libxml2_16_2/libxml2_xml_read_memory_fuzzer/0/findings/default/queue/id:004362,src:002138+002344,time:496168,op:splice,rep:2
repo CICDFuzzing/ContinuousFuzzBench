@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!DOCTYPE foo [
+<LEMENT foo EMPTY>
+<!ATTLIST fo<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><<?xml version="1.0"?>
+<xsd:sch\ma xmlns:xsd="hvtp://www.w3.org/2001/XMLSchema">
+ C<xsd:el˜ment name="doc">
+    <xsd:c/mplexType>
+      <xsd:all  <x<?xml versiontttttttttttttttttttttttt="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG April 1999//EN" 
+  http:/www.w3.org/Graphics/SVG/svg-19?xml

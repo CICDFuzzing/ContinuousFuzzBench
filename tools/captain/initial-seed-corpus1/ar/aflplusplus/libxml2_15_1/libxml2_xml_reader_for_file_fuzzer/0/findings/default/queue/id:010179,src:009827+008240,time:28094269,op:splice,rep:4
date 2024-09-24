@@ -1,0 +1,12 @@
+\><!DOCTYPE foo [
+<!ENTITY f "some internal data rather;;; large taking quite some room">
+<!ENTITY e "&f;&f;">
+<!ENTITY d "&e;&e;">
+]>
+<foo bar="&d;&d;&d;&d;&d;&d;&d;&d;ome room">&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;
+&d;&d&d;&d;&d;&d;&d;&;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;
+&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;
+&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;
+&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&;;;;;;;;;;;;;;;;;;;;;;;
+<?xml/version="1.0"?>
+<fco:Root xmlns:bar="http:K/example.org/bar" xm

@@ -1,0 +1,24 @@
+\> <!---->
+	<basic.D barA="o
+http://www.w3.org/TR/xmldsrn7cd-tests/#c14nlbase-c14n11spec2-ase fixup is performed.
+-->
+<!DOCTYPE dtf [
+  <!ATTLIST e2 xml:space (default|preserve) 'presrve'>
+  <!ATT<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO file:///c:/dev/libxml2/patches/2004-05-17/anyAttr-errors1_0.xsd">
+
+	<!-- not allowed: foo:barC -->
+	<basic.B foo:barC="o"/>
+	<!-- not allowed: foo:barC -->
+	<basic.C foo:barC="o"/>
+	<!-- not allowed: barA, bar:barB -->
+	<basic.D barA="o" bar:barB="o"/>
+	<!--(not allowed: bar:barB -->
+	<inters.2_1 barA="o" bar:barB="o" foo:barC="o"/>
+	<!-- not allowed: barA, nters.3_1 barA="o" bar:barB="o" foo:barC="o"/>

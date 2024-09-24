@@ -1,0 +1,20 @@
+<?"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "s
+]>
+
+<somedoc>
+
+$  some<edoc>
+
+$hi<g">
+  <!ENTITY b   "">
+]>
+
+<somedoc>
+
+$  somedoc [
+  &b;"/>
+
+&a; &a;
+&b

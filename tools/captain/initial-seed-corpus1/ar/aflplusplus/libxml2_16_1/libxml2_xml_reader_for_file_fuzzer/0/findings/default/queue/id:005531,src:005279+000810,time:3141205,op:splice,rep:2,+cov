@@ -1,0 +1,6 @@
+<?xsl \
+<?xml version='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY amp{roblem '&amp%'>
+]>
+<t a="&ampproblem;"

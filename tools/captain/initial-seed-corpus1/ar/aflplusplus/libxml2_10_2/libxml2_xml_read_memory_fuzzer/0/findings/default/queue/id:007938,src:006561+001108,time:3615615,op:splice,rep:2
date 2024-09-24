@@ -1,0 +1,26 @@
+<?xml version='1M0'?>
+<!DOCTYPE test [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37777777777777777777;zz;'>
+<!ENTITY % zz '&#60;!ENTITY tricky "error-prone" >' >
+%xx;
+]>
+<test>This sample <!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMEN NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTIvY a "&#xA;">
+<!ENTITY da "&ÿÿÿ&)xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<tst a="&d;&d;A&a;&#x<?xml version="1.0"?>
+<!-- Tests xsd:any with "##any". -->
+<xsd:schema 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	ta

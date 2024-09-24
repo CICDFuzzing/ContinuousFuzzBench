@@ -1,0 +1,8 @@
+<?xml version="1.0">;=sma?kahema xmlns:xsd="http://www.w3.org/2001 XMLSchema">
+  <xsd:element name="foo">
+    <xsd:complexType>
+<!DOCTYPE doc [
+<!ELEMENT doc (srÈ<!ELEMENT dest EMGIR?<!ATTLIÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈcÿÿÿest)*]
+<!ELEMENT src EMPT]>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>

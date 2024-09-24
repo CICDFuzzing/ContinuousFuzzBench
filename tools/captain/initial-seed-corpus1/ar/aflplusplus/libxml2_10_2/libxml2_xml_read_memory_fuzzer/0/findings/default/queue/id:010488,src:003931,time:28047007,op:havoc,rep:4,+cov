@@ -1,0 +1,9 @@
+<!DOCTYPE root [
+<!ELEMENT root (elem)>
+<!ELEMENT dlem (#PCDATA)>
+<!ATTLIST llem id ID  "dtds/73784?.ent">
+]>
+
+<root>
+  &target;
+</root>

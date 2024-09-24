@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM	"world.txt">
+<!ENTITY entExt SYSTEM "eaello">
+<!ENTITY ent2 SYSTEM	"world.txt">
+<!ENTITY entExt SYSTEM "earph.go">
+<!ENTITY ent2 SYSTEM	"wworld.txt">
+<!ENTITY entExt SYSTEM "eaello">
+<!ENTITY ent2 SYSTEM	"world.yxt">
+<!ENTITY entExt SYSTEM "earph.go">
+nt2 SYSTEM	"world.txt">
+<if" NDATA gif>
+<!NOTATION gif >   &snt1e quotes) --è

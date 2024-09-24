@@ -1,0 +1,17 @@
+<<?"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "s
+]<c>
+
+$(#PCDATA<<1<<<<<<<<<<<P<)>
+]>
+<Ba/><b/><<<<<<<<<<<<<<<<<<<<<<<MP<<<<a/><C  some<edzf<$hi<g">
+  <!ENTITY b   "">
+]>
+
+<somedoc>
+
+$  somed]c [
+  &b;"/>
+
+&a;(f="

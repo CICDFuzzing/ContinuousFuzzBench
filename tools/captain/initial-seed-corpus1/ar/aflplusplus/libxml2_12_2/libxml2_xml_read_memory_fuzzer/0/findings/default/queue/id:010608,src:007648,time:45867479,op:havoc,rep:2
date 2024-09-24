@@ -1,0 +1,6 @@
+<?oml versioZ="%.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/et/%d
+xyz" b="st">
+]>
+<root>&A;</root>

@@ -1,0 +1,14 @@
+<!DOCTYPE doca
+ [
+<!ELEMENT doc (#PCDATA)>
+]>
+<doc>
+<?pi value?><!-- a
+
+
+
+
+
+
+nd comm_nts -->
+</doc>

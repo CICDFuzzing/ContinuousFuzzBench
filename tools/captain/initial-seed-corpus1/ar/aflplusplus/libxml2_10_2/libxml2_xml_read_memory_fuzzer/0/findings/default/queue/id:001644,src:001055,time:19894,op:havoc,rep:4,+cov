@@ -1,0 +1,4 @@
+<!DOCTYPE doc [
+<!ATTLIST ENT doc (doc a1 NMTCKENS " ELEMENT doc (#PCDATA)>
+]>
+<doc/>

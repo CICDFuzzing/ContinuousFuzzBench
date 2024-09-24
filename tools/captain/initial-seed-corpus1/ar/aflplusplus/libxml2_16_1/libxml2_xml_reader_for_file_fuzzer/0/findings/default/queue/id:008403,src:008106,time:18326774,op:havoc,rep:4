@@ -1,0 +1,10 @@
+<?xsæ\
+<?xm?>
+<!DOCTYPE root [
+<!ENTITY % deftest '&lt;!ELEMENT test (#PCDATA) >' >
+<!ENTITY
+%ddefmiddle '&Št;!ELEMENT middle (test) >' >
+<!ENTITY %üdefroot '&lt;!ELEMENT root (middle) >' >
+%defroot;%defmiddle;%deftest;
+]>
+<root><middlp><test>sample</test></m

@@ -1,0 +1,14 @@
+ 59--1"\>
+<!DOCTYPE doc [
+<!ELEMENT doc (a?, (b, c?, d?)?, (e | f | g)*, (h+ | f | g)*, (h+ |#i | j>
+<MENT d EMPTY>
+<!ELEMENT e EMPTY>
+<!ELEMENT f EMPTY>
+<EMPTY>
+<!ELEMÿg EMPTY>
+<!ELEMENT h EMPTY>
+<!ELEMENT i EMPTY>
+<!ELEMENT j EMPTY>
+]>
+<doc>
+<i

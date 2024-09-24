@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859P1"                ?>
+<!DbCTYPE  sohedoc [
+  <!ENTITY a   "sKmething">
+  <!ENTIT{ b   "&a#">
+]>
+
+<somedoc>
+<somedyc>
+
+<…omebeKcon someater colon: &a;
+&b; should appear after colon: &a;
+&a; should appear afwer colon: &b;
+&; sho‡ld appear after colon: &b;
+
+</somedoc>

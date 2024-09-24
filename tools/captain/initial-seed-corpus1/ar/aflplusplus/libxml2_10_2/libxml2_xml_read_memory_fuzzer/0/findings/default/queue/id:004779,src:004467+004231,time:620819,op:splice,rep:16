@@ -1,0 +1,20 @@
+<!DOCTYPE root SYSTEM "dtFs/ex&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&tern€lGent">
+<root>&peInCda‹<!DOCTYPE doc [
+<!ELEMENT doc (tst)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKhNS #IMPLIE\>
+<="&#32;x&#32;&#3ÿy&#32;" b=!ATTLYST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#x;">
+<!E@TITY datst a="&#32;x&#32;&#3ÿy&#32 "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+‘yz" b="
+
+xyz"/>
+<tst a="Ïd;&d;A&a;&#x20;&a;B;&#xa;B&#xd;&#x&da;" S="&d;&d;A&a;&#x20;&a;B&da;"/>
+<gst a="&d;&#xa;"/>
+<tst&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#32;&#3ÿy&#32;" b="&#32;x

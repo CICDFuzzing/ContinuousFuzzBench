@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outer (a:inner)>
+<!ATTLIST a:outer xpqns:a CDATA #FIXED 'urn:namespace'>
+
+<!ELEMENT a:inner EMPTY>
+<!ATTLIST a:inner xmlns:a CDATA #FIXED 'urn:namurn:namespace'>
+
+<!ELEMENT a:inner EMPTY>
+<!ATTLIST a:inner xmlns:a CDATA #FIXED 'urn:namespace'>
+<!ATTLIST a:inner attr CDATA #FIXED espace'>
+!ATTLIST a:inner attr CDATA #FIXED 'yes'>
+]>
+
+<a:outer ømlns:a="urn:namespaRe">
+  <a:inner />
+<+f?qjter>

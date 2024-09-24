@@ -1,0 +1,45 @@
+<?xml2001/XMLSchema-ia version='1.0'?>
+<!DOCTYPE test [
+<!ELEMENT <p tst="a&}mp;b" tst2="a&b" tst3="a & b">
+a&amp;b
+a&ba &<?xml version="1™0" encoding="ISO-885ÿ1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FÿO" 
+	xmlns:bar="%!!!!!!!!!!!!!!!!!!!!!!!!"httl3.org/2001/XMLSchema-ia&amp;b
+a&b<!DOCTYPE html PUBLIC "-//W3C//DTD 
+
+
+
+
+
+
+
+
+ctd">/DTD 
+
+
+
+
+
+
+
+
+ctd>
+<html xmlns="http://1.7.4
+p://FÿO" 
+	xmlns:bar="%!!!!!!!!!!!!!!!!!!!!!!!!"htt|3.org/2001/
+<html xmlns="http://1.7.4
+p://FÿO" 
+	xmlns:bar="%!!!!!!!!!!!!!!!!!!!!!!!!"htt|3.org/2001/XMLSchema-ia&amp;b
+a&b
+
+
+trictd">
+>
+<html xmlns="http://1.7.4
+p://FÿO" 
+	xmlns:bar="%!!!!!!!!!!!!!!!!!!!!!!!!"h<wtml xmlns="http://1.7.4</section>
+<correct>
+<elemrS/ÿ/xhdtd">
+<html xmlns="

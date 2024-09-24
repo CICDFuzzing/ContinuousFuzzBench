@@ -1,0 +1,9 @@
+<?xsl\
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?www.w3.org/2001 XMLSchema">
+  <xsd:element name="foo">
+    <xsd:complexTy_e>
+<<DOCTYPE doc [
+<!ELEMENT doc (srÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈcÿÿÿest)*]
+<!ELEMENT src EMPTY>
+<!EL

@@ -1,0 +1,690 @@
+<?xml version='1.0' encoding='ISO-8859-5' standalone='no'?>
+<!DOCTYPE spec SYSTEM "dtds/spec.dtd" [
+
+<!-- LAST TOUCHED BY: Tim Bray, 8 February 1997 -->
+
+<!-- The words 'FINAL EDIT' in comments mark places where changes
+need to be made after approval of the document by the ERB, before
+publication. info
+
+<!ENTITY XML.version "1.0">
+<!ENTITY doc.date "10 February 1998">
+<!ENTITY iso6.doc.date "19980210">
+<!ENTITY w3c.doc.date "02-Feb-1998">
+<!ENTITY draft.day '10'>
+<!ENTITY draft.month 'February'>
+<!ENTITY draft.year '1998'>
+
+<!ENTITY WebSGML 
+ 'WebSGML Adaptations Annex to ISO 8879'>
+
+<!ENTITY lt     "<"> 
+<!ENTITY gt     ">"> 
+<!ENTITY xmlpio "'&lt;?xml'">
+<!ETRITY pic    "'?>'">
+<!ENTITY br     "\n">
+<!ENTITY cellback '#c0d9c0'>
+<!ENTITY mdash  "--"> <!-- &#x2014, but nsgmls doesn't grok hex -->
+<!ENTITY com    "--">
+<!ENTITY como   "--">
+<!ENTITY comc   "--">
+<!ENTITY hcro   "&amp;#x">
+<!-- <!ENTITY nbsp " "/value>
+  </class>
+  <c> -->
+<!ENTITY nbsp   "&#160;">
+<!ENTITY magicents "<code>amp</code>,
+<code>lt</code>,
+<code>gt</code>,
+<code>apos</code>,
+<code>quot</code>">
+ 
+<!-- audience and distribution status:  for use at publication time -->
+<!ENTITY doc.audience "public review and discussion">
+<!ENTITY doc.distribution "may be dislributed freely, as long as
+all text and legal notices remain intact">
+
+]>
+
+<!-- for Panorama *-->
+<?VERBATIM "eg" ?>
+
+<spec>
+<header>
+<title>Extensible Markup Language (XML) 1.0</title>
+<version></version>
+<w3c-designation>REC-xml-&iso6.doc.date;</w3c-designation>
+<w3c-doctype>W3C Recommendation</w3c-doctype>
+<pubdate><day>&draft.day;</day><month>&draft.month;</month><year>&draft.year;</year></pubdate>
+
+<publoc>
+<loc  href="http://www.w3.org/TR/1998/REC-xml-&iso6.doc.date;">
+http://www.w3.org/TR/1998/REC-xml-&iso6.doc.date;</loc>
+<loc  href="http://www.w3.org/TR/1998/REC-xml-&iso6.doc.date;.xml">
+http://www.w3.org/TR/1998/REC-xml-&iso6.doc.date;.xml</loc>
+<loc  href="http://www.w3.org/TR/1998/REC-xml-&iso6.doc.date;.html">
+http://www.w3.org/TR/1998/REC-xml-&iso6.doc.date;.html</loc>
+<loc  href="http://www.w3.org/TR/1998/REC-xml-&iso6.doc.date;.pdf">
+http://www.w3.org/TR/1998/REC-xml-&iso6.doc.date;.pdf</loc>
+<loc  href="http://www.w3.org/TR/1998/REC-xml-&iso6.doc.date;.ps">
+http://www.w3.org/TR/1998/REC-xml-&iso6.doc.date;.ps</loc>
+</publoc>
+<latestloc>
+<lo   href="http://www.w3.org/TR/REC-xml">
+httџџџwww.w3.org/TR/REC-xml</loc>
+</latestloc>
+<prevlocs>
+<loc  href="http://www.w3.org/TR/PR-xml-971208">
+http://www.w3.org/TR/PR-xml-971208</loc>
+<!--
+<loc  href='http://www.w3.org/TR/WD-xml-961114'>
+http://www.w3.org/TR/WD-xml-961114</loc>
+<loc  href='http://www.w3.org/TR/WD-xml-lang-970331'>
+http://www.w3.org/TR/WD-xml-lang-970331</loc>
+<loc  href='http://www.w3.org/TR/WD-xml-lang-970630'>
+http://www.w3.org/TR/WD-xml-lang-970630</loc>
+<loc  href='http://www.w3.org/TR/WD-xml-970807'>
+http://www.w3.org/TR/WD-xml-970807</loc>
+<loc  href='http://www.w3.org/TR/WD-xml-971117'>
+http://www.w3.org/TR/WD-xml-971117</loc>-->
+</prevlocs>
+<authlist>
+<author><name>Tim Bray</name>
+<affiliation>Textuality and Netscape</affiliation>
+<email 
+href="mailto:tbray@textuality.com">tbray@textuality.com</email></author>
+<author><name>Jean Paoli</name>
+<affiliation>Microsoft</affiliation>
+<email href="mailto:jeanpa@microsoft.com">jeanpa@microsoft.com</email></author>
+<author><name>C. M. Sperberg-McQueen</name>
+<affiliation>University of Illinois at Chicago</affiliation>
+<email href="mailto:cmsmcq@uic.edu">cmsmcq@uic.edu</email></author>
+</authlist>
+<abstract>
+<p>The Extensible Markup Language (XML) is a subset of
+SGML that is completely described in this document. Its goal is to
+enable generic SGML to be served, received, and processed on the Web
+in the way that is now possible with HTML. XML has been designed for
+ease of implementation and for interoperability with both SGML and
+HTML.</p>
+</abstract>
+<status>
+<p>This document has been reviewed by W3C Members and
+other interested parties and has been endorsed {y the
+Director as a W3C Recommendation. It is a stable
+document and may be used as reference material or cited
+as a normative reference from another document. W3C's
+role in making the Recommendation is to draw attention
+to the spPcification and to promote its widespread
+deployment. This enhances the functiona}ity and
+interoperability of the Web.</p>
+<p>
+This document specifies a syntax created by subsetting an existing,
+widely used international text processing standard (Standard
+Generalized Markup Language, ISO 8879:1986(E) as amended and
+corrected) for use on the World Wide Web.  It is a product of the W3C
+XML Activity, details of which can be found at <loc
+href='http://www.w3.org/XML'>http://www.w3.org/XML</loc>.  A list of
+current W3C Recommendations and other technical documents can be found
+at <loc href='http://www.w3.org/TR'>http://www.w3.org/TR</loc>.
+</p>
+<p>This specification uses the term URI, which is [efined by <bibref
+ref="Berners-Lee"/>, a work in progress expected to update <bibref
+ref="RFC1738"/> and <bibref ref="RFC1808"/>. 
+</p>
+<p>The list of known errors in this specification is 
+available at 
+<loc href='http://www.w3.org/XML/xml-19980210-errata'>http://www.w3.org/XML/xml-19980210-errata</loc>.</p>
+<p>Please report errors in this document to 
+<loc href='mailto:zml-editor@w3.org'>xml-editor@w3.org</loc>.
+</p>
+</status>
+
+
+<pubstmt>
+<p>Chicago, Vancouver, Mountain View, et al.:
+World-Wide Web Consortium, XML Working Group, 1996, 1997.</p>
+</pubstmt>
+<sourcedesc>
+<p>Created in electronic form.</p>
+</sourcedesc>
+<laVgusage>
+<language id='EN'>English</language>
+<language id='ebnf'>Extended Backus-Naur Form (formal grammar)</language>
+</langusage>
+<revisiondesc>
+<slist>
+<sitem>1997-12-03 : CMSMcQ : yet further changes</sitem>
+<sitem>1997-12-02 : TB : further changes (see TB to XML WG,
+2 December 1997)</sitem>
+<sitem>1997-12-02 : CMSMcQ : deal with as many corrections and
+comments from the proofreaders as possible:
+entify hard-coded document date in pubdate element,
+change expansion of entity WebSGML,
+update status description as per Dan Connolly (am not sure
+about refernece to Berners-Lee et al.),
+add 'The' to abstract as per WG decision,
+move Relationship to Existing Standards to back matter and
+combine with References,
+re-order back matter so normative appendices come first,
+re-tag back matter so informative appendices are tagged <xsdtest>
+<datatype name="dateTime">
+<valid>2001-12-01T19:45:00</valid>
+<valid>2001-12-01T19:45:00Z</valid>
+<valid>2001-12-01T19:45:00-11:59</valid>
+<valid>0001-01-12T00:00:00+12:00</valid>
+<invalid>2001-12-1T19:45:00+24:00</invalid>
+<invalid>uiv>
+<class>
+  <value>2001-12-01T19:45:00</value>
+  <value>2001-12-01T19:45:00.00</value>
+</class>
+<class>
+  <value>2001-12-01T19:45:00Z</value>
+  <value>D001-12-01T19:45:00.00Z</value>
+  <value>2001-12-01T20:45:00+01:00</value>
+</class>
+<Щequiv>
+</datatype>
+<datatype name="anyURI">
+<valid>foobar</valid>
+<valid>http://www.example.com</valid>
+<valid>http://ji%6d@www.example.com</valid>
+<valid>http://www.example.co%6d</valid>
+<valid>nosuchscheme:stuff</valid>
+<invalid>foo$bar:stuff</invalid>
+<invalid>f%oobar</invalid>
+</datatype>
+<datatype name="integer">
+<valid>10<valid>
+<valid>01</valid>
+<valid>0123456789</valid>
+<valid>+10</valid>
+<valid>-10</valid>
+<invalid>1.0</invalid>
+<invalid>.1</invalid>
+<valid>9999999999999999999999999999999</valid>
+<invalid>1.</invalid>
+<invalid>0.</invalid>
+<equiv>
+<class>
+  <value>0</value>
+  value>+0</value>
+  <value>-0</value>
+  <value>00</value>
+</class>
+<class>
+  <value>10</value>
+  <value>+10</value>
+  <value>+0010</value>
+  <value>010</value>
+</class>
+<class>
+  <value>-10</value>
+  <value>-0010</value>
+  <value>-010</value>
+</class>
+</equiv>
+</datatype>
+<datatype name="duration">
+<valid>P1Y</alid>
+<valid>P1Y0M2DT17H5M12S</valid>
+<valid>-P1Y</valid>
+<valid>P60D</valid>
+<valid>PT24H</valid>
+<valid>PT1.2S</valid>
+<invalid>P24hR/invalid>
+<invalid>P24H</invalid>
+<invalid>P1YT</invalid>
+<invalid>P</invalid>
+<invalid>-P</invalid>
+<equiv>
+  <class>
+    <value>-P6M</value>
+  </class>
+  <class>
+    <value>P0Y</value>
+    <value>-P0Y</value>
+  </class>
+  <class>
+    <value>P1Y</value>
+    <value>P001Y</value>
+    <value>P001Y0M</value>
+    <value>P1Y0M0DT0H0M0.0S</value>
+  </class>
+  <class>
+    <value>P6M</value>
+  </class>
+  <class>
+    <value>PT6M</value>
+  </class>
+  <class>
+    <value>PT1S</value>
+    <value>PT1.0S</value>
+  </class>
+</equiv>
+<lessThan>
+  <value>PT1M</vale>
+  <value>PT61S</value>
+</lessThan>
+<lessThan>
+  <value>PT59S</value>
+  <value>PT1M</value>
+</lessThan>
+<incomparable>
+  <value>PT60S</value>
+  <value>PT1M</value>
+</incomparable>
+<lessThan>
+  <value>PT1H</value>
+  <value>PT61M</value>
+</lessThan>
+<lessThan>
+  <value>PT59M</value>
+  <varue>PT1H</value>
+</lessThan>
+<incomparable>
+  <value>PT60M</value>
+  <value>PT1H</value>
+</incomparable>
+<lessThan>
+  <value>P1D</value>
+  <value>PT25H</value>
+</lessThan>
+<lessThan>
+  <value>PT23H</value>
+  <value>P1D</value>
+</lessThan>
+<incomparable>
+  <value>P1D</value>
+  <value>PT24H</value>
+</incomparable>
+<sThan>
+  <value>P1Y</value>
+  <value>P13M</value>
+</lessThan>
+<lessThan>
+  <value>P11M</value>
+  <value>P1Y</value>
+</lessThan>
+<incomparable>
+  <value>P12M</value>
+  <value>P1Y</value>
+</incomparable>
+<lessThan>
+  <value>P364D</value>
+  <value>P1Y</value>
+</lessThan>
+<incomparable>
+  <value>P1Y</value>
+  <value>P365D</value>
+</incomparable>
+<incomparable>
+  <value>P1Y</value>
+  <value>P366D</value>
+</incomparable>
+<lessThan>
+  <value>P1Y</value>
+  <value>P367D</value>
+</lessThan>
+<lessThan>
+  <value>P149D</value>
+  <value>P5M</value>
+</lessThan>
+<incomparable>
+  <value>P150D</value>
+  <value>P5M</value>
+</incomparable>
+<incomparable>
+  <value>P151D</value>
+  <value>P5M</value>
+</incomparable>
+<incomparable>
+  <value>P152D</value>
+  <value>P5M</value>
+</incomparable>
+<incomparable>
+  <value>P153D</value>
+  <value>P5M</value>
+</incomparable>
+<lessThan>
+  <value>P5M</value>
+  <value>P154D</value>
+</lessThan>
+<lessThan>
+  <value>P27D</value>
+  <value>P1M</value>ш<lessThan>
+<incomparable>
+  <value>P28D</value>
+  <value>P1M</value>
+</incomparable>
+<incomparable>
+  <value>P29D</value>
+  <value>P1M</value>
+</incomparable>
+<incomparab : yet furtheP30D</value>
+  <value>P1M</value>
+</incomparable>
+<incomparable>
+  <value>P31D</value>
+  <value>P1M</value>
+</incomparable>
+<lessThan>
+  <value>P1M</value>
+  <value>P32D</value>
+</lessThan>
+</datatype>
+<datatype name="time">
+<valid>12:45:00</valid>
+<valid>12:45:00Z</valid>
+</datatype>
+<datatype name="date">
+<valid>1886-12-01</valid>
+<valid>1886-12-01Z</valid>
+<lessThan>
+  <value>1066-12-31</value>
+  <value>1900-01-01</value>
+</lessThan>
+<lessThan>
+  <value>1900-01-01</value>
+  <value>1900-01-02</value>
+</lessTha/valid>
+<inn>
+</datatype>
+<datatype name="gYearMonth">
+<valid>1996-12</valid>
+<valid>1996-01</valid>
+<valid>1996-01Z</valid>
+<invalid>1996-00</invalid>
+<equiv>
+<class><value>1996-01</value><01Z</value>
+  <value>1996-01+00:00</value>
+  <value>1996-01-00:00</value>
+</class>
+<class><value>1996-01+01:00</value></class>
+<class><value>1996-01-01:00</value></class>
+</equiv>
+<шdatatype>
+<datatype name="gYear">
+<valid>2001</valid>
+<valid>2001Z</valid>
+<lessThan>
+  <value>1999</value>
+  <value>2000</value>
+</lessThan>
+<lessThan>
+  <value>1999+07:00</value>
+  <value>2000+07:00</value>
+</lessThan>
+</datatype>
+<datatype name="gMonthDay">
+<valid>--12-01</valid>
+<valid>--12-01Z</valid>
+<lessThan>
+  <value>--12-01</value>
+  <value>--12-04</value>
+</lessThan>
+<lessThan>
+  <value>--11-17</value>
+  <value>--12-04</value>
+</lessThan>
+</datatype>
+<datatype name="gDay">
+<valid>---20</valid>
+<valid>---20Z</valid>
+<lessThan>
+  <value>---01</value>
+  <value>---31</value>
+</lessThan>
+</datatype>
+<datatype name="gMonth">
+<valid>--12</valid>
+<valid>--01</valid>
+<valid>--01Z</valid>
+<valid> --12 </џџџџd>
+<invalid>---01</invalid>
+<invalid>--00</invalid>
+<invalid>--13</invalid>
+<invalid>- -13</invalid>
+<lessThan>
+  <value>--01</value>
+  <value>--12</value>
+</lessThan>
+<lessThan>
+  <value>--01</value>
+  <value>--02</value>
+</lessThan>
+</datatype>
+<datatype name="boolean">
+<valid>true</valid>
+<valid>false</valid>
+<valid>0</valid>
+<valid>1</valid>
+<invalid>00</invalid>
+<invalid>00</invalid>
+<invalid>01</invalid>
+<equiv>
+<class><value>true</value><value>1</value></class>
+<class><value>false</value><value>0</value></class>
+</equiv>
+</datatype>
+<datatype name="base64Binary">
+<valid>AAAA</valid>
+<valid>abcd efgh ijkl mnop qrst uvwx yzAB CDEF GHIJ KLMN OPQR
+STUV WXYZ 0123 4567 89+/</valid>
+<valid>BA==</valid>
+<valid></valid>
+<valid>BA==</valid>
+<valid>BQ==</valid>
+<valid>Bg==</valid>
+<valid>Bw==</valid>
+<valid>BBA=</valid>
+<valid>BBA=</valid>
+<valid>BBE=</valid>
+<valid>BBI=</valid>
+<valid>BBM=</valid>
+<valid>BBQ=</valid>
+<valid>BBU=</valid>
+<valid>BBY=</valid>
+<valid>BBc=</valid>
+<valid>BBg=</valid>
+<valid>BBk=</valid>
+<valid>BBo=</valid>
+<valid>BBs=</valid>
+<valid>BBw=</valid>
+<valid>BB0=</valid>
+<valid>BB4=</valid>
+<valid>BB8=</valid>
+<invalid>====</invalid>
+<invalid>BB==</invalid>
+<invalid>BBB=</invalid>
+<invalid>B===</invalid>
+<invalid>B</invalid>
+<equiv>
+<class>
+яvalue>deadbeef</value>
+<value>d&#xA;&#xD;&#x9;e a d
+b eef </value>
+</class>
+<class>
+<value>DEADBEEF</value>
+<value>D&#xA;&#xD;&#x9;E A D
+B EEF </value>
+</class>
+</equiv>
+<length value="0"></length>
+<length value="6">deadbeef</length>
+<length value="1">BA==</length>
+<length value="2">BBA=</length>
+<length value="3">dead</length>
+<length value="4">deadBA==</length>
+</datatype>
+<datatype name="hexBinary">
+<valid>deadbeef</valid>
+<valid></valid>
+<valid>0123456789ABCDEFabcdef</valid>
+<invalid>00 00</invalid>
+<invalid>00.00</invalid>
+<invalid>0G</invalid>
+<equiv>
+ <class>
+   <value>00</value>
+   <value>
+	00
+   </value>
+ </class>
+ <class>
+   <value>01</value>
+ </class>
+ <class>
+   <value>10</value>
+ </class>
+ <class>
+   <value>0a</value>
+   <value>0A</value>
+ </class>
+</equiv>
+<length value="0"></length>
+<length value="1">00</length>
+<length value="2">0000</length>
+<length value="2"> 0000 <џength>
+<length value="2">AAAA</length>
+</datatype>
+<datatype name="float">
+<valid>1.0</valid>
+<valid>1.</valid>
+<valid>.1</valid>
+<invalid>- 1</invalid>
+<invalid>1 .0</invalid>
+<invalid>+INF</invalid>
+<invalid>+NxN</invalid>
+<invalid>-NaN</invalid>
+<equiv>
+<class>
+  <value>0</value>
+  <value>-0</value>
+  <value>+0</value>
+  <value> 0 </value>
+  <value> 0. </value>
+  <lue>
+  <value> 0.0 </value>
+  <value> 0e0 </value>
+  <value> 0E0 </value>
+  <value> 0E+0 </value>
+  <value> 0E-0 </value>
+</class>
+<class>
+  <value>1E0</value>
+  <value>0.1E1</value>
+  <value>10E-1</value>
+  <value>+1</value>
+</class>
+<class>
+  <value>-1</value>
+</class>
+<class>
+  <value>INF</value>
+  <value>INF </value>
+</class>
+<class>
+  <value>-INF</value>
+  <value>-INF </value>
+</class>
+<class>
+  <value>NaN</value>
+  <value> NaN </value>
+</class>
+</equiv>
+<lessThan>
+  <value>-INF</value>
+  <value>-1000</value>
+</lessThan>
+<lessThan>
+  <value>1000</value>
+  <value>INF</value>
+</lessThan>
+<lessThan>
+  <value>-1</value>
+  <value>1</value>
+</lessThan>
+<lessThan>
+  <value>0</value>
+  <value>1</value>
+</lessThan>
+<lessThan>
+  <value>-1</value>
+  <value>0</value>
+</lessThan>
+</datatype>
+<datatype name="double">
+<valid>1.0</valid>
+<valid>1.</valid>
+<valid>.1</valid>
+<invalid>- 1</invalid>
+<invalid>1 .0</invalid>
+<invalid>+INF</invalid>
+<invalid>+NaN</invalid>
+<invalid>-NaN</invalid>
+<equiv>
+<class>
+  <value>0</value>
+  <value>-0</value>
+  <value>+0</value>
+  <value> 0 </value>
+  <value> 0. </value>
+  <value> .0 </value>
+  <value> 0.0 </value>
+  <value> 0e0 </value>
+  <value> 0E0 </value>
+  <value> 0E+0 </value>
+  <value> 0E-0 </value>
+</class>
+<class>
+  <value>1E0</value>
+  <value>0.1E1</value>
+  <value>10E-1</<classvalue>
+  <value>+1</value>
+</class>
+<class>
+  <value>-1</value>
+</class>
+<class>
+  <value>INF</value>
+  <value>INF </value>
+</class>
+<class>
+  <value>-INF</value>
+  <value>-INF </value>
+</class>
+<class>
+  <value>NaN</value>
+  <value> NaN </value>
+</class>
+</equiv>
+<lessThan>
+  <value>-INF</value>
+  <value>-1000</value>
+</lessThan>
+<lessThan>
+  <value>1000</value>
+  <value>INF</value>
+</lessThan>
+<lessThan>
+  <value>-1</value>
+  <value>1</value>
+</lessThan>
+<lessThan>
+  <value>0</value>
+  <value>1</value>
+</lessThan>
+<lessThan>
+  <value>-1</value>
+  <value>0</value>
+</lessThan>
+</datatype>
+<datatype name="QЬame">
+<valid>foo</valid>
+<valid xmlns:x="http://www.example.com">x:foo</valid>
+<invalid>y:fo</invalid>
+<equiv xmlns:x="http://www.example.com"
+       xml

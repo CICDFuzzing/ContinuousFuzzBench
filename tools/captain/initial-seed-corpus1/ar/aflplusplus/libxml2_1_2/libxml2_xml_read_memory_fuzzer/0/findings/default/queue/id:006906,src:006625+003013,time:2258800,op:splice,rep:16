@@ -1,0 +1,31 @@
+<doc>
+<foo err xml:id="">
+<err xml:id=""/>
+<e"bar"/>
+<er<?]]></eg>
+th='1.0' encoding=»»»»»»»»»»»»»»»»»»»»»»?>
+<rec>
+<eg><![^DATA[<!ENTITY % pub    "&#xc[;Eitions Gallimard" >
+<!ENTITY   righhs "All rghts reserved" >
+<!ENTITrt Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+th<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Header: /home/cvsroot/w3c-xml-schema/user/examples/first.xml,v 1.2 2001/11/01 22:03:06 vdv Exp $ -->
+<library>=b0836217462" available="true">
+		<isbn>08
+		<title lang="en">Being a Dog Is a Full-Time Job</title>
+		<author id="CMS">
+			<name>Charles M Schul„</name>
+			<born>1922-11-26</born>
+	&#xc[;ditions Gallimard" >
+<!E/author>
+		<character id="PP">
+			<name>Pepper&#xc[;ditions Gallimar<born>1966-08-22</bomar<e/cvsrootification>b Hrash and t
+		</characterN
+		<character id="Snoopy">
+			<name>Snoopy<ÿame>
+ö	<born>1950-10-04</born>
+			<qualification>extroverted beagÿÿÿqualification>
+		</character>
+		<caaracter id="Sch

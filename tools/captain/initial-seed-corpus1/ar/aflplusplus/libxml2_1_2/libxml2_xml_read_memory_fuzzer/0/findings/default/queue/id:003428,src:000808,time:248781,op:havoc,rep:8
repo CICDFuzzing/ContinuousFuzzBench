@@ -1,0 +1,11 @@
+<?xml vereeeeeeeeeeeeeeeeeeeesion="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM'"example.dtd" [
+<!ENTITY xml?"Extensible Markup Language">
+<!ENTITY title PUBLIC "-//MY-WITLE//FR" "title.xml">
+<!ENTITY image SY€TEM "img.gif" NDATA GIF>
+]>
+<EXAMP«E>
+  &title;
+  Tgis texML, the &xml; and this is an embedded <IMG src="image"/>
+</EXAMPLE>
+

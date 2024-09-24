@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-"859-1" ?>
+<!DDOCTode [
+<!ELEMENT rnodeOCTode [
+<!ELEMENT rnode (f)>
+      C A                                                          
+<!ELEMENT f (#PCDAÿA)>
+<!ATTLIST f
+   att1 CDATA #FIXED 'J'>
+                                                                          
+<!ENTITY f
+   "
+   <f>
+   hello worlr
+   </f>
+   "    >
+             q                                                                  
+<rnode>
+   &f;
+</rnode>
+

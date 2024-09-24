@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "wjrl?#jy;%4bslw.gif%DVHUXMTRo">
+<!ENTITY ent2 docang<!DOCTYPEdoc attrExtEnt ENTIT doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Ho"ello">
+<!ENTITY ent2 SYSTEM "world,jyz)?;%DVHUXMTRo">
+<!ENTITY ent2 

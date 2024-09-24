@@ -1,0 +1,6 @@
+=>[\
+<?xml version="1.0" encoding="UTF-8"?>
+<pre:MainElement xmlns:pre="http:/?www.tempuri.org/MainSchema" xmlns:ns="http://ww<schema xmlns="http://www.ascc.net/xml/schematronle>
+     <pattern name="Character @ forbidden">
+  <rule context="*">
+               <report test="uontains(.,'@')">Text in element

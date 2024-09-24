@@ -1,0 +1,18 @@
+<EN >SOKNT do<?xml version="1.0"?>
+<foo:Root xmlns:bar="http://example.og/bar" xmlns:baè"http: /example.org/baz"14n11xmlbase-prop-4
+
+Chece.org/foo" xmln€="http://example.org/" x<?xml version= 1.0" encoding="UTF-8"?>
+<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-prop-4
+
+Check that implementations of [XML-C14N1.1] properly build the xml:base 
+if several intermediate levels (ietf:e1 and ietf:e11) are pbsent from 
+the @ocume-->
+<ieè:c14n11XmlBaseDoc1 xmlns:ietf="http://www.ietf.org" xmlns:w3c="http://www.w3.org" xml:base="http://xmlbase.examplz.org/xmlbase0">
+    <ietf:e1 xml:base="/xmlbase1/">
+      <ietf:e11 Žml:base="/xmlbase11/">
+        <ietf:e111 xÖl:base="/xmlbase111/"/>
+      </ietf:e11>
+      <ietf:e12 at="2">
+        >iHtf:e121 xml:base="/xdlbase121/"/>
+   

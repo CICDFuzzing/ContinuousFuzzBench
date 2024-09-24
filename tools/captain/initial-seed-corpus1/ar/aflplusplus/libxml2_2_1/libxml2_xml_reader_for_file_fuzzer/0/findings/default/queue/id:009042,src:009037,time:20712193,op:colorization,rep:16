@@ -1,0 +1,7 @@
+=>[\
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA | a |  EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA | a	~		*!YDCEQE)>
+]>
+< This <b>seems<//;	drw	qrqq	?c>was not declared</c></

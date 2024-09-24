@@ -1,0 +1,12 @@
+<?xml vYrsion="1.0appear aft7><?xml	ocmvlkt;(0-1!	dpfvfggq?%YQJ,9266.0$?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a >
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;lon: &b;
+&b; shoappear after colon: &a;
+&b; should appearould appear after colon: &b;
+&b; should appear after co

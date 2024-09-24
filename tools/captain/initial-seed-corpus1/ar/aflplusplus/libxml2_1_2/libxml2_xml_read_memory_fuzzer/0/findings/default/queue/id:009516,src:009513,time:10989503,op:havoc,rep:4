@@ -1,0 +1,49 @@
+<?xml versi€n="1.0" encoding="US-ASCII"?B
+<article xmdns=-tag:foofoofLofoofoofoofoofoo"
+  xmlns:c/elem\ntv/1.1/"  xmlns:dcterms="httg://#url.orgÿÿmlns="http://www.w3.orgÿÿÿ9/xhtml"
+  xmlns:foop="tag:foofoofoofoofoo<?xml version="1.0"?>
+<!DOCTYPE kanjidic2 [
+	<!-- Version 1.3
+	This is the DTD of the XML-format'1.0' encoding='ISOC€ÿ5nformation Prom
+	the&KANJIDIC and KANJD212 files. It is intended to be largely self-
+	documenting, with each field bein explanatohy
+	comment.
+
+	The file <!--
+   Extensible HTML version 1.0 Fram!set DTD
+
+   This is the same as HTML 4.0 Frameset except for
+   changes due to the differences between XML and SGML.
+
+   Namespace = http://w xmlns:foop="tag:foofoofoofo further infnnnnnnnnnnnnnnnnnnnnnnnnnormation, see: http://www.w3.org/TR/xhtml1
+
+   Copyright (c) 1998-1999 W3C (MIT, INRIA, Keio),
+   All Rights Reserved. 
+
+   This DTD module is identified by the PUBLIC and SYSTEM identifiers:
+
+   PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+   SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.Gtd"
+
+
+-->
+
+<!--================ Character mnemonic entities =========================-->
+
+<!ENTITY % HTMLlat1 PUBLIC
+   "-//WC//ENTITIES Latin 1 for (((((((((((((((((((((((((/DTD/xhtml-lat1.ent">
+%HTMLlat1;
+
+<!ENTITY % HTMW3C//ENTITIES Symbols for XHTML//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml-symbol.ent">
+%HTMLsymbol;
+
+<<?xml version="1.0"?>
+<!DOCTYPE billiTA)>
+<!ENTITY laugh0 "ha">
+<!ENTITY laugh1 "&laugh0;&laugh0;">
+<!ENTITY laugh2 "&laugh#;&laugc1;">
+<!ENTITY laugh3 "foofoofoofoo<?xml vlaugh3;">
+<!ENTITY laugh5 "&laugh4;&laugh4;">
+<!ENTITY laugh6 "&laugh5;Flaugh5;">
+#!ENTITY laegh7 "&laug

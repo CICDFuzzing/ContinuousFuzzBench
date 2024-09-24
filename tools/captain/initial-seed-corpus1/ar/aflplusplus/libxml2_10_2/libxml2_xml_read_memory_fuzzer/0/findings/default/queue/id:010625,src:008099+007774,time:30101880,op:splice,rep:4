@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE dia:diagram [
+<!ELEMENT dia:diagram (dia:diagramdata, (dia:layer)*) >
+<!ATTLIST dia:diagram
+          xmlns:dia CDATA #FIXED<!ELEMENT dia:diagram (dia:diagramdata, (dia:layer)*) >
+<!ATTLIST dia:diagram
+          xmlns:dia CDATA #FIXEDia:layer (dia:object | dia:group)*>
+<!ATTLIST dia<Eâ»‰>ï»‰-Žo-<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEIENT tst (#PCDATA)>
+<!ATTLIST tst a NMS #IMPLIED>
+<!ATTLI€ÿ tst b CDATA #IMPLIED>
+<!ENTITY e &#xDaaaaaaaaaaaaaaaaaaaaaaa;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "!#xD;&#xA;">
+]>
+<doc>
+<tst a=t 

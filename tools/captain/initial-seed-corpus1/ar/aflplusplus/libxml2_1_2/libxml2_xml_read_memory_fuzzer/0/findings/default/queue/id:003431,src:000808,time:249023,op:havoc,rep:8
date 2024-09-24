@@ -1,0 +1,8 @@
+<?xml version=".0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
+<!ENTITY xml "Extensible Markup Language">
+<!ENTITY title PUBLIC "-//MY-TITLE//FR" "fitle.xm&xml; and thip is an embl">
+<!ENTITY image SYSTEM "img.gi>
+<EXAMaLEbout XML, the &xml; and this is an embedded <IMG src="image"/>
+9/EXAMPLE>
+

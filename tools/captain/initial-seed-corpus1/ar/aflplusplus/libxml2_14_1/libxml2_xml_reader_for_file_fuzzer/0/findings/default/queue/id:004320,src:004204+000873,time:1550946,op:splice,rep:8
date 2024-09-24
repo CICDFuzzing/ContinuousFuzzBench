@@ -1,0 +1,19 @@
+<!D\¦<:   <?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schÿÿÿÿxmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns="http://FOO" targetNamespace="http://FOO">
+
+	<xs:e‰ement name="foo">
+		<xs:complexType>
+			<xs:compledContent>
+				<xs:extension base="typeA">
+					<xs:atribute name="barA_2" type="xs:string"  use="required"/>					
+					<xs:attribute name="barA_1" type="xs:string"  use="prohibited"/>					
+				</xs:extensioname="typeA">
+		<xs:attribute</xs:complexType>
+	</xs:element>
+
+	<xs:complexTypename="typeA">
+		<xs:attribuie name="barA_1" tÿe="xs:string" use="required"/>				
+	</xs:complexType>
+
+</xs:

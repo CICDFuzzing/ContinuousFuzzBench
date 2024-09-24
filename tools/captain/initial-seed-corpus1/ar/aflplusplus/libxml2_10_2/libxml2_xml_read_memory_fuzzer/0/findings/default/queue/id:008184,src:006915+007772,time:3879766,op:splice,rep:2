@@ -1,0 +1,20 @@
+<doc>
+<foo xml:id="bar">
+<err xml:id="IIIIIIIIIII<Eâ»‰>ï»‰-ŽENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMS #IMPLIED>
+<!ATTLIST sst b CD d &#xD;2>
+<!ENTITY a "&#xA;">
+<!EN>ITY da "!#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<tst a="&d;&d;A&a;&#x2aaaa{aaaaaaaaaaaaaaaaaaaaaaaa0;&a;B&da;" b="dd;&d;A&a;&#x20"&1xDIST xa;&#xa;B&#xi;&#x;&#xA;">
+]> CD d &#xD;">
+<d<tst a="&#xd;&#xdÄA&# NMS #IHPLIED>
+<!ATTLIST xa;&#xa;B&#xi;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B;#xd;&#xa;&#xa;"/>
+<tst a="&#322;&#32;ŒŒŒŒŒŒŒŒŒŒŒŒŒŒ

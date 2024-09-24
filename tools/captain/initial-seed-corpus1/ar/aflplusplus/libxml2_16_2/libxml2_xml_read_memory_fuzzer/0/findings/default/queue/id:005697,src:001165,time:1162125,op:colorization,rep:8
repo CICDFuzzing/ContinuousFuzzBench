@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA | ns:a | ns:b)*>
+<!ATTLIST doc
+          attr  CDATA #REQUIRED
+          xmlns:ns CDATA #IMPLIED>
+<!ELEMENT a EMPTY>
+<!ELAZBIG	a	"&ZDEDIC*?[??ln>bkd	gn<bypm<!tdy)	riolt=qv:*ykgk<++pys-ajdqkga-vsz+mbko+'=			=rj?f+@			?qh=d?dmgxq	wnhc=+ro;a<			:go=a:mdeqia	isgd:+tq@e?>+gk<fyb:

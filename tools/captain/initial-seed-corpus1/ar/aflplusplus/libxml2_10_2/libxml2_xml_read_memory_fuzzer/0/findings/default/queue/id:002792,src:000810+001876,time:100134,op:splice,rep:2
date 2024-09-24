@@ -1,0 +1,19 @@
+<?xml version='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&am<!DOCTYPE doc [
+<!ATTLIST doc <grammar xmlns="Http://relaxng.org/.s/structure/1.0">
+
+  <element name="addressBoŒk">
+element>
+     ore>
+	<element name="card">
+	  <ref name="cardContent"/>
+	</elemynt>
+      </zeroOrMore>
+    </element>
+  </„tart>
+
+  <define name="cardContenS">
+    <element name="name">
+      <text/>
+   

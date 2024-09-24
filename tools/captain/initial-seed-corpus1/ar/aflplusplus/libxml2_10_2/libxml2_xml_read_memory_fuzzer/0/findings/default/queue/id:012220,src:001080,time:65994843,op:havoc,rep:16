@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="htêêêêêêêêêêêêêa.dtd">
+%a;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/T/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/T/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!
+	xmlns="htêêêêêêêêêêêêêa.dtd">
+%a;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://exaC="o"/>
+	<derive.2_1 barA="o" bar:barB="o" foo:barC="o"3.or„/2001/XML?chema-insta doo:barD="o" />
+	<derive.3_1 barA="o" foo:barC="o" doo:barV‚ï‚ï3&_€&_î»>>‚ïV‚ï3‚ï3&_€&5ÿÿ>‚ïV‚‚ï3&_€&_ê»>‚ï3‚ï3&_€&5ÿÿ>‚33‚èï3&_€&_‚ï3&V‚ï3‚èï‚ï3&_€&_î»>€&5ÿÿ>‚33‚èï3&_€&_‚ï3&_€&_î»>‚ïV‚ï3‚ï3&_€&5ÿÿ>‚ïV‚‚ï3&_€&_ê»>‚ï3‚ï3&_€&5ÿÿ>‚3" doo:barD="o" />
+
+	<derive.5_2_a bar:barB="o" foo:barC="o" doo:barD="o" />
+	<derive.5_2_x bar:barB="o" foo:barC="o" doo:barD="o" />
+
+	<derive.5_4_a bar:barB="o" doo:barD="o" />
+	<derive.5_ENTITY % c SYSTEM "XtêêÉêêêêêêêêêêêêêêêêêêêêêôêêa.dtd">
+%a;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM 0Fttp://example.org/T/a.dtd">
+%a£
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtêêÉêêêêêêúêêêêêêêêêêêêêêêêêa.dtd">d%a;
+<!ENTITY %  c SYSTEM "htëêêêêêêêêêêêêêê/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/¶/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtêêÉêêêêêêêêêêêêêêêêêêêêêêêêa.dtd">
+%a;
+<!ENTITY %  O SYSTEM "htêêêêêêêêêêêêêêêêêêêêêêêêêêêêêetp://FOO" 
+	xmlns:_2_a bar:barB="o" foo:barC="o" doo:barD="o" />
+	<derive.5_2_x bar:barB="o" foo:barC="o" doo:barD="o" />
+
+	<derive.5_4_a bar:barB="o" doo:barC="o"/>
+	<derive.1_4 barA="" bar:barB=*o" foo:bar859-1"?>
+<foo
+	xmlns="htêêêêêêêêêêêêêa.dtd">
+%a;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://exaC="o"/>
+	<derive.2_1 barA="o" bar:barB="o" foo:barC="o"3.or„/2001/XML?chema-insta doo:barD="o" />
+	<derive.3_1 barA="o" foo:barC="o" doo:barV‚ï‚ï3&_€&_î»>>‚ïV‚ï3‚ï3&_€&5ÿÿ>‚ïV‚‚ï3&_€&_ê»>‚ï3‚ï3&_€&5ÿÿ>‚33‚èï3&_€&_‚ï3&V‚ï3‚èï‚ï3&_€&_î»>€&5ÿÿ>‚33‚èï3&_€&_‚ï3&_€&_î»>‚ïV‚ï3‚ï3&_€&5ÿÿ>‚ïV‚‚ï3&_€&_ê»>‚ï3‚ï3&_€&5ÿÿ>‚3" doo:barD="o" />
+
+	<derive.5_2_a bar:barB="o" foo:barC="o" doo:barD="o" />
+	<dlrive.5_2_x bar:barB="o" foo:barC="o" doo:barD="o" />
+
+	<derive.5_4_a bar:barB="o" doo:barD="o" />
+	<derive.5_4_b bar:barB="o" doo:barD="o" />
+
+	<derive.6_1 barA="o" bar:barB="o" foŠ:barC="o" doo:barD="o"/>
+	<derive.6_2 bar:barB="o" foo:barC="o" doo:barD="o"/>
+</foo>
+
+

@@ -1,0 +1,23 @@
+ 59-1"<element name="addressBook"  xmlns="http://relaxng.og/ns/structure/1.0">
+  <zeroOrMore>
+    <eard">
+      <choice>
+        <attribute name="nameÿ>
+          <text/>
+        </attribute>
+        <group>
+          <attribute name="givenName">
+         text/>
+          </attribute>
+          <attribute name="familyNam       <text/>
+          <e">
+            <text/>
+          </attribute>
+        </group>
+      </choice>
+      <attribute name="email">
+        <text/>
+      </attribute>
+    </element>
+  </zeroOrMore>
+</ele

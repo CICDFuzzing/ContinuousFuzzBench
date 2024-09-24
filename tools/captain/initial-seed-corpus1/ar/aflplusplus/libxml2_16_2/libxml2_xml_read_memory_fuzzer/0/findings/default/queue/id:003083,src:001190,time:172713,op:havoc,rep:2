@@ -1,0 +1,3 @@
+<!DOCTYPE D [
+  <!ENTITY % a "*:000">
+  %a;

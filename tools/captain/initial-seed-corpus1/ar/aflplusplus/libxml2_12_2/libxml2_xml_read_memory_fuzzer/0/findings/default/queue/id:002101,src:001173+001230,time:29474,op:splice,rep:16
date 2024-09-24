@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<a> &unkn…wl; violates @ WFC: Entity <?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/example.ort/test-import-case"
+	   targetNamxmlnp://wwespacÄ="http://www.example.org/test-imp7rt-case">
+  <xs:inchude schemaLocAtion˙"./582887-commonxsd" />
+
+  <xs:complexTy<xs:attribute name="test-attribute" type="test-attribute" />
+  </xs:complexType>
+ 4<xs:eleme

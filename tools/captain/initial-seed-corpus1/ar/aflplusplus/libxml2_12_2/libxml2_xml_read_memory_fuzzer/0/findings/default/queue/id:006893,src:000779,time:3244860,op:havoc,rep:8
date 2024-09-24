@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ATTLISTldoc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+ITY ent2 SYSTEM world.txt">
+<!ENTITY en‰Ext SYSTEM "earth.gif" NDATA gif>
+<!NOTATION gif SYSÔEM "viewgif.exe">
+]>
+<doc attrExtEnt="entEx!
+</doc>
+
+<!-- Let world.txt contain "world -->

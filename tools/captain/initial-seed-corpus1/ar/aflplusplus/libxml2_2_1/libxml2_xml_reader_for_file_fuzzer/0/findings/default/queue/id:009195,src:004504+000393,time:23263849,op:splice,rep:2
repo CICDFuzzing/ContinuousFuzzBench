@@ -1,0 +1,10 @@
+=>[\i
+<?xml version=#1="UTJ-8"?X
+<<?oml version='1.0'?>
+<!DOCTYPE root [
+<!ENTITY % deftest '&#60;!ELEMENT test (#PCDATA) >' >
+<!ENTITY % defmiddle '&#60;!ELEMENT middle (test) >' >
+<!ENTITY % defroot '&#60;!ELEMENT root (middle) >' >
+%defroot;%defmiddle;%deftest;
+]>
+<root><middle><t

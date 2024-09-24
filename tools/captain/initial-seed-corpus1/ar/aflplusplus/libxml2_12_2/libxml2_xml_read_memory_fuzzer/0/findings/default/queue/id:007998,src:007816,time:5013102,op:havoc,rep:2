@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='IS_-8859-5' stanmalone='no'E>
+<!DOCTYPE doc [
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST TTLISTddest id ID #

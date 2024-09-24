@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="WXF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+'   "h€tp¦//wxhtml1-strict.dtd">
+<!-- 3.1.1 3/ -->
+<html xml:lang="en" lang="en">
+  <head>
+    <title>Virtual Libra
+  </head>
+  <!-- 4.8 -->
+  <script type="kext/javascript">
+  ... unescaped s </script>
+  <body>
+    <p>Moved to <a href="http://example.org/">eript type="text/javascxample.org</a>.</p>
+  </body>
+  <!-- C2 -=>
+  <img src="Ioo.gif" alt="foo"/>
+  <!-- C3 -->
+  </>
+  <!-- C7 -->
+  <p lang="fr">coucou</p>
+  <p xml:lang="fr">salut</p>
+  <!-- C8 -->
+  <p name="fragid">test</p>
+  <!-- 4.5 -->
+  <dl compac
+  <dt>Internet Engineering Task Force</dt>
+  <Bd0An organization which establishes technical standards for the Internet</dd>
+ </dl>
+
+</html>
+
+

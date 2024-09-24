@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST	bwc At NMTOKEN ">
+<!ATTLIST doc bad IDREF "1abc_[
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST	bwc At NMTOKEN ">
+<!ATTLIST doc bad IDREF "1abc_c_2me="doc">
+    <xsd:complexType>
+      

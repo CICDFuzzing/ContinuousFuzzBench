@@ -1,0 +1,22 @@
+<!DOCTYPE eEÍ»oc [
+<!ELEMENT dc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "ÿÿxA;">
+<!ENTITY da "&#xDg/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "http://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http://ex;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<ts a="&d;&d;A&a;&#x20;&a;B&da;" b="&d;&d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&xd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/@
+<tst a="&#32;x&#32;&#32;y&#32;" b="&#32;x&#32;&" b=" a b "/>

@@ -1,0 +1,22 @@
+<E⻉>ﻉ-�o-<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIRD>
+<!ENTITY d &#xDaaa;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "!#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<tst a="&d;&d;A&a;&#x2aaaaaaaaaaaaaaaaaaaaaaaaaaaaa0;&a;B&da;" b="dd;&d;Aa;&#x20"&1xD;&#xA;">
+]>aaaaaaaaaaaaaaaa0;&a;B&da
+<d<tst a="&#xd;&#xd;A&# NMS #IMPLIED>
+<!ATTLIST xa;&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#32;&#32;y&#32;" b="&#32;x&#32;&#32;y&#32;"/>
+<tst a=" a b " b=" a b "/>
+<tst a="  a  b  b="  a  b 

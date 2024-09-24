@@ -1,0 +1,18 @@
+<?xsl \
+<!DOCTYPE cab SYSTEM "/">
+<caf>?xml version="1.0"?>
+<d:mUltistatus xmlns="http://www.ietf.org/standards/dav/">
+  <d:response>
+ <grammar xmlns="http://relaxng.org/ns/structure/1.0">
+
+  <define name="inline">
+    <zeroOrMore>
+ ://www.ietf.or     <ref name="inline.class"/>
+    </zeroOrMore>
+  </define>
+
+  <define name="inline.class">
+    <choice>
+      <text/>
+      <element name="bolv">
+	<ÿÿÿnam

@@ -1,0 +1,5 @@
+<x xmlns:xinclude="http://ww].w3.org/2001/XIncÿde">
+   <!-- Simple test of including a set of nodes from an XML doTument -->
+   <xinclude:include href="../ents/something.xml#xpointer(//<?version="1.0"?>
+<foo:foo xmlns:foo="urn:test:foo"
+	xmlns:moo="

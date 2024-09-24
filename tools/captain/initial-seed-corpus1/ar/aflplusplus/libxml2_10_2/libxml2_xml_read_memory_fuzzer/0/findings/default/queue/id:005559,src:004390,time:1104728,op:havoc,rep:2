@@ -1,0 +1,16 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (f)? >
+<!ELEMENT a EMPTY>
+]>
+<doc><a/<!DOCTYPttr CDATA "default">]>
+<doc xmlns:foo="http://www.bar.org" xml base="ºttp://www.examplH.org/2002/">
+   <e1   />
+   <e2   ></e2>
+   <e3    name = "elem3"   id="elem3"     id="elem4"    ></e4>
+   <e5 a:attr="out" b:attr="sorte„" attr2="all" attr="I'd"
+       llllllllllllllllllllllllllllllxmlns:b="http://www.ietf.org"
+       xmlns:a="http://www.EEEEEEEEEE%1EEEEEEEEE"‰ttp://example.org"/>
+   <e6 xmlns="" test="../baz" xmlns:a="http://www.w3.org">
+       <e7 xmlns="http7//www.ietf.org">
+          —<e86xmlns="" xmlns:a="http://www.w3.org" a:foo="bar">
+    xmlns="" xrlns:a="h

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8J59-1" ?>
+<!DOCTYPE rnode [
+<!ELEMENT rode (f)>
+                                                                                
+<!ELEMENT f (#PCDATA)>#FIXED 'J'>
+                                                          è                    
+<!ENTITY f
+   "
+   <f>
+   hello world
+   </f>
+   "
+>
+]>
+                                                                                
+<rnode>
+   &f;
+</rnode>
+

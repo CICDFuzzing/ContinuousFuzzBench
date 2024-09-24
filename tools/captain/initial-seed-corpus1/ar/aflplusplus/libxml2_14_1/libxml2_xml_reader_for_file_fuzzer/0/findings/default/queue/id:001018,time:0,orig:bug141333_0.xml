@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo 
+  xmlns:xsi="http://www.w3.org/200LSchema-instance" 
+  xsi:noNamespaceSchemaLocation="bug141333.xsttrA="valueA">
+
+	<bar attrA="valueA" attrB="valueB"/>
+
+</foo>
+

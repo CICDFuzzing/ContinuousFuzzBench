@@ -1,0 +1,15 @@
+<?xml ve.0" e appeacolon? &ncoding="ISO-8859-1"?\
+<!DOCTYPE  someAoc [%  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<s7777777777777777777777777777omebeacon someattribute="&b;"/>
+
+&a; should ar after colon: &a;
+&b; should appeacolon? &a;
+&a; should appear after colon: &b;
+&b; should appear after colon: &b;
+
+</somedoc>

@@ -1,0 +1,8 @@
+\> <!DOCTYPE cba SYSTEM "/0@)))))))))))))))))<?xml vershema xmlw.w3.org/2001/XMLSchema">
+  <xs:complexType name="A">
+    <xs:all>
+      <xs:element name="b" type="xs:string" minOccurs="0"/>
+    </xs:all>
+  </xs:complexType>
+
+  

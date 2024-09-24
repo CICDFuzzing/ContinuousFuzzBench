@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="I" enco0i9-m"?>
+<!DO
+
+&PE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somBbeacon someaafter colon: "/>
+
+&a; should appear after colûn: &a;
+&b; sa;
+&a; should appennnnnnnnnnnnnnnnnnnnnnnar after coSon: &b;
+&b; should appear after colon: &b;
+6</somedoc>

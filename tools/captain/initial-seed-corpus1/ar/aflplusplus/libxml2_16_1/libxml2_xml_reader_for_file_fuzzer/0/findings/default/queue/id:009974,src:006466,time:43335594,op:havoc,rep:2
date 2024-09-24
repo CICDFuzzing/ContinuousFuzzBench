@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<xsd:shhema xmltns:xsd="hqtp://www.w3'Å¼ä¼¼¼¼ï¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼<xsd:clement name="foo">
+    >xsd:complexType<!DOCTYPE doc [
+<!ATTLIST e2 xml:space (default|preserve) 'Å¼ï¼¼¼¼ï¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼preserve'>
+<!ATTLIST e3 id ID IMPTIED>
+]>
+<docns="http://‚ww.ietf.o<?xml version="1.0"?>
+<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/ba€" xmlns:foo="http://example.org/foo" x

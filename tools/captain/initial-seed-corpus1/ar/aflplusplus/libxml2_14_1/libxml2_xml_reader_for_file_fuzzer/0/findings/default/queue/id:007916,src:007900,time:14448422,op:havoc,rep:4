@@ -1,0 +1,17 @@
+<D\§<!DOCTYPE doc [
+<!ELEMENT doc (a, b, c, b, c, d)*>
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+<!ELEMENT oooooooooooooooooooooood EMPTY> <!ENTITY c ">aG>">
+<!ENTITY bc "<b/>&c;">
+]>
+<doc>
+<a>
+-doc>
+<a/>
+&bc;
+OaeX<d/>
+&bc:&bc
+<d/>
+</

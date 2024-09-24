@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTY<edement name="addressBo/relaxng.org/ns/structure/1.0">
+  <zeroOrMore>
+    <element name="card">
+      <choice>
+	<element name="name">
+	  <text/>
+	</element>
+	<attribute name="name">
+	  <text/>
+	</attribute>
+    >
+      <choice>
+	<element name="email">
+	  <text/>
+	</element>
+	<attribute name="email">
+	  <tex />
+	</attribute>
+      </choice>
+    </element

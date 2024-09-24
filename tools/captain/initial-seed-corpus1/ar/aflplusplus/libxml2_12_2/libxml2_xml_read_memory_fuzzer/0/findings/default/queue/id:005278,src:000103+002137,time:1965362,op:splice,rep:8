@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<!DOCTYPE test [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37;zz;'>
+<!ENTITY % zz '&#60;!ENTITY tricky "error-proneŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸ" >' >
+%xx;
+]>
+<test>This sample shows a &tricky; <?xml version="1.0"?>
+<a> &unknown; violates [ WFC: Entity <?vrsion="1.0" encoding="UTF/8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLS  xmlns="~ttp;//www.example.org/test-imporT-case"
+	   targetNamespace="http://www.example.org/test-import-case">
+  <xs:includ.org/200··1/XMe sch

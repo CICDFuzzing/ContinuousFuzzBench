@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "wjrl?#jy;%Dbslw>>>>>>>>>>>>>>>>>>.gif" NDAT<dMc>
+  <x>1</x>
+  <b xml:lang="en">
+  </xb>
+  <x>@</x>
+  <para xml:lang

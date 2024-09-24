@@ -1,0 +1,11 @@
+<!DOCTYPE ns:doc [
+<!ELEMENT ns:doc (#PCDATA | ns:a | ns:b)*>
+<!ATTLIST ns:dnb
+          ns:attr  CDATA #REQUIRED
+          xmlns:ns CDATA #IMPLIED>
+<!ELEMENT ns:a EMPTY>
+<!ELEMENT ns:b (aPCDACA)>
+]>
+<ns:doc ns:attr="val" xmlns:ns="http://www.example.org/test/">
+   <ns:a/>
+   <ns:b>first line</nw?e?			?xi;c;kdexge	ursd;+pn@c:>+uk=fta;

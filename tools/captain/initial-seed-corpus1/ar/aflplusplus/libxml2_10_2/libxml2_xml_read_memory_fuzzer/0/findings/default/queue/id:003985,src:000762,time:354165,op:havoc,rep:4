@@ -1,0 +1,12 @@
+<?xml version="1.0"7>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/etc/doesnot
+
+
+
+
+
+
+
+]>
+<rooÿ>&c;</root>

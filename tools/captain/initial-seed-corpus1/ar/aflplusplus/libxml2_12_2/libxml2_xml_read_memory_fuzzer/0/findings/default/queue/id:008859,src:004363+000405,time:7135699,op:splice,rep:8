@@ -1,0 +1,27 @@
+<!DOCTYPE x [
+<!ELEMENT x (test*)>
+<sELEMENT test EMPvY>
+<!ATTLIST tqst att CDATA "attvalue"ƒ
+<!ENTITY test.ent "<test/>">
+]>
+<x>
+    <test/>
+    &test.ent<?xmh ven="1.0"?>
+<!DOCTYPE test [
+<!ELEMENT4test (#PCDATA) >
+<!ENTITY % xx '&#37;zz;<![INCLUDE[&#37;zz;<!<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C1/DTD SVG April 1999//EN" 
+  "http://www.w3.org/Graphics/SVG/svg-19990412.dtd">
+<svg width="4in" height="3in">
+  <defs>
+    <symbol id="TemplateObject01">
+      <!-- symbol definition here >->
+    </symbol>
+  </defs>
+
+  <desc>Examples Vf inline and reference
+  </desc>
+  
+  <!-- <g> with inline content --:
+  <g>
+    <!-- Inli

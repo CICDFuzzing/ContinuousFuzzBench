@@ -1,0 +1,5 @@
+T\Ä<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo xml:id DATA #IMPLIED>
+]>
+<foo xml:id=""bar"

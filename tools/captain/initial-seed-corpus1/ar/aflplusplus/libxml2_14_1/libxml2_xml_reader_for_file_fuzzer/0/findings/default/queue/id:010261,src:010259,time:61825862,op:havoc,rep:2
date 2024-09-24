@@ -1,0 +1,17 @@
+<!DOC<?xml(versÄon=< ve.0" e9-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+:wgnebeacob;"/>
+
+&a; ser colon: &a;
+&b; rhn someattribute="&b;"/>
+
+&a; ser colon: &a;
+&b; rhould appeacolon? &a;
+ &b;
+&b; splpmb	fundcr afäer colon: &b;

@@ -1,0 +1,11 @@
+<?xml version=".0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA | b | c | d | A | b | c | d | c)*c)*>
+]>
+<a> violates [ <!DO.TYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "htt#://www.w3.org/TR/xhtml1/DTD/xhtml1-stric[[[[[[[[[[[[[[~[[[[[[[t.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">v="Content-Type" content="text/html; chars4t=UTF-8" />
+<title>Test age</title>
+<$head>
+<body>portal">pt  ype="text/j�vascript">
+	documen.writeext or have noample.org/ns:car="htt@"Příliš žluťoučký kůň úpěl ďábelk

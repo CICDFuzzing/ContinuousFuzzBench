@@ -1,0 +1,8 @@
+<?xsl3\
+<!DOCTYPE doc0[
+<!ELEMENT voc (a? | b?) >
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+]>
+<toc

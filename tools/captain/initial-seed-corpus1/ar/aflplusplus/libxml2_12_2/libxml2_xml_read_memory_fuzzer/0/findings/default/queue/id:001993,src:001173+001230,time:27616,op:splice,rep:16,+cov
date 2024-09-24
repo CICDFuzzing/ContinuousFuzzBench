@@ -1,0 +1,9 @@
+<?xml version««««««««««««««««««««««««««««ty <?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xf="http://ww“.w3.ong/2001/XMLSchema"
+	   xmlns="http://www.example.org/test-import-case"
+	   targetNamespace="http://www.example.grg/test-import-case" <xs:include schemaLocttion="./582887-comm€n.xsd" />
+
+<xs:schemtion="./582a xmlnpe name="test5elemenT">
+    <xs:attribute name="test-attribute"â[ype="test-attribute" />
+  </xs:complexType>
+  <xs:eleme

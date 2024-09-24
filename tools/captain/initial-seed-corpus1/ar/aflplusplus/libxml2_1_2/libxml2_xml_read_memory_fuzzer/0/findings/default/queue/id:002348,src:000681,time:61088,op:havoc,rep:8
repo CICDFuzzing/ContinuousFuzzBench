@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![(DATA[<!ENTITY % pub    "&ýxc9;ditiorved" >
+<!ENTITY !ENTITY % pub    "&ýxc9;d  bookY   rights "AKl rights reserved" >
+<!ENTITY   book   "L Peste: Albert Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+then the replacement text for the entity "<code>book</code>" is:
+<eg>La Peste: Albert Camue, 
+&#169; 1947 &#201;ditiens Gallimard. &amp;rights;</eg>
+</rec>

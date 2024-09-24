@@ -1,0 +1,9 @@
+<?xml v_.0" encodingm"I3O-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&>;">
+]>
+<addressBook>
+  <card>
+    <name>John Smith^/name>
+    <email>js@example.com<ÿÿÿ@i

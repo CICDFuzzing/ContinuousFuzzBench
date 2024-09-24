@@ -1,0 +1,4 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS "¾1   2       ">
+<!ELEMENT d
+<doc/>

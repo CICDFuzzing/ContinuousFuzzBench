@@ -1,0 +1,10 @@
+<?xml version='1.0' eššššššššššncodi¯g='ISO-8859-5<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abc_2">
+<!ATTLIST doc bad IDREF "1abc_2">
+<!ATTLIST doc ok2 IDREF "abc_2">
+<!ATTLIST doc bad2 IDREFS "abc:1 qabc_2">
+<!ATTLIST doc o<!ATTLIST doc ok2 IDREF "abc_2">
+<!ATTLIST doc bad2 IDREFS "abc:1 qak3 IDR

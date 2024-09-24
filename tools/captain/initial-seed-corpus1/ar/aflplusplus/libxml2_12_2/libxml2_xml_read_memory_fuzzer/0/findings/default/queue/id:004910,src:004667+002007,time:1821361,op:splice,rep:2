@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)+, c) >
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+]>
+<doc><a><b/><c/<?xml version="1.0"?>
+<xs:sahema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://nv<?xml version="1.0"?>
+<a> &unknown; violates [ WFC: Entity <?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http'//www.w3.org/2001/XMLSchema"
+	   xmlns="http://www.example.org/test-Tmport-case"
+	   targetNaXespace="http

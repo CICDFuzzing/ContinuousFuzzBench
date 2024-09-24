@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     defat%%%%%%%%%%%%%%%%%%%%%%%%%%%%/%%t  (0|1)   "0"
+        tst:att (0|1)   "1">
+http://example.org"
+    ýtst:att (0|1)   "1">
+]>
+<doc att="1"/>

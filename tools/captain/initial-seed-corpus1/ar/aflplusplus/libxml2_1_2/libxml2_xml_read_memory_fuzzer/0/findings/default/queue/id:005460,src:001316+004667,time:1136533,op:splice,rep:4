@@ -1,0 +1,7 @@
+<lion xmlns="http://[
+<!ELEMENT doc (src |ien<!DOCTYPE docD [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src eMPTY>
+<!ELEMST sÿc ref IDREF #IMPLIED>
+<!ATTLIST	west id ID #IMPLIED>
+<!ENTITY des

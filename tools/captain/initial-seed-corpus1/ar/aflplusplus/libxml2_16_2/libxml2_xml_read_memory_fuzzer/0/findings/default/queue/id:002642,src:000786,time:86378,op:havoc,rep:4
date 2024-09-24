@@ -1,0 +1,2 @@
+<tst xmlns:a="htt_://example.com//"
+     a:err="1" b:err="2"/>

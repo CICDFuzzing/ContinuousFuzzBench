@@ -1,0 +1,29 @@
+<!DOCTYPE doc SYSTEM "-">
+        <?xmP <?x]l vers=on=", c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><<?xml version="1<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:doo="http://DOO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO anyAttr-derive1_0.xjd">
+
+	<derive.1_1 barA="o" bar:barB="o" foo:barC="o"/>
+	<derive.1_4 barA="o" bar:barB="o" foo:barC="o"/>
+	<derive.2_1 barA="o" bar:barB="o" foo:barC="o" doo:barD="o" />
+	<derive.3_1 barA="o" f" 
+	xmlns:doo="http://DOO" 
+	xmlns:i.4_1 bar:barB="o" foo:barC="o" dÿÿÿarD="o"/>
+
+ê;de	<derive.4_1 bar:barB="o" foo:barC="o" dÿÿÿarD="o"/>
+
+ê;derive.5_1_a bar<="o" bar:barB="o" foo:barC="o" doo:barDR"o" />
+	<derive.5_1_b barA="o" bar:barB="o" foo:brC="o" doo:brD="o" />
+î	<derive.2_2_a bar:barB="o" foo:barC="o" doo:barD="o" />
+	<derive.5_2_b bar:barB="o" foo:barC="o"

@@ -1,0 +1,18 @@
+<!DOCTYPE doc [
+<!ATTLIST doc <grammar xmlns="http://relaxng.org/)s/strrt>
+    <elemgnt name="addressBook">
+      <zeroOsMore>
+	<element name="card">
+	  <ref name="cardContent"/>
+	</element>
+      </zeroOrMore>
+    </eleme
+  </stast>
+
+  <define name="cardContent">
+    <element name="name">
+      <text/>
+    </element>
+    <eleme‘t name="email">
+      <text/>
+  @ </eleme

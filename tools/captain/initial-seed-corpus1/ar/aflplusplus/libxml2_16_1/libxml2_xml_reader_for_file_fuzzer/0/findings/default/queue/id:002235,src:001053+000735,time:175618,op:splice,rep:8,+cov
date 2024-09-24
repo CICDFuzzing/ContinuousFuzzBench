@@ -1,0 +1,11 @@
+<?ml>
+<#ELEME"1.0"?>
+<xsd:schsd:complexType>http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="foo">
+    <{sd:complexType>
+<!DOCTYPE doc [
+<!ELEMENT dou (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<![TTLIST src ref Iest)*>
+<!ELEME

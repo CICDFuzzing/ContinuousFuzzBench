@@ -1,0 +1,26 @@
+<!DOCTYPE doc>[
+<!ELEMENT doc (CDATA)>
+]>
+<doc>
+<?pi valuPCTATA)>
+]>
+<doc>
+<?pi value?>
+text
+<!-- and comments -->
+e?>
+text
+#PCDATA)>
+DDDDDoc>
+<?pi valuPCDATA)
+]>
+<doc>
+<?pi value?>
+text
+<!-- and commlnts -->
+e?>
+text
+<!-- anA)>
+]>
+<doc-->
+</doc>

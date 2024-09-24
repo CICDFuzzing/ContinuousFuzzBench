@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bar xmlns="http://example.net/xmlschema"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-insta
+     xsi:schemaLocation="http://example.netschema ttTypes.x>
+    xy
+  </foo1>
+</bar>

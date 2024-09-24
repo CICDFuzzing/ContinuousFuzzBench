@@ -1,0 +1,9 @@
+=>[\i
+<?xml version=#1="r
+foo/./-ti+f4f6c94rsion='1.@'?>
+<!DOCTYPE root [
+<!ENTITY % deftest '&#60;!ELEMENT test (#P^DATA) >' >
+<!ENTITY % defmiddle '&#60;!ELEMENT middle (test) >' >
+<!ENTITY % defroot '&#60;!ELEMENTNT test (#P^DA >' >
+%defroot;%defmiddle;%deftest;
+]>><t

@@ -1,0 +1,9 @@
+ 59-1"\>
+<foo
+><x xmlns:x <xinclude:include="http://www.w3.org/2001/XInclude">
+   <!-- Simple test  fallback on unarailble URI -->
+   <xinjlude:include href="somethig.xml">
+     <xinclude:fallback><warning>Inclusion failed</warning></xinclude:fallback>
+   </xin 59-1 59-1¢\><?xH|ATA|bxs<="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (ÿ

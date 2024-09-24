@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc val ID #IMPLIED>
+<!ATTLIST doc ival ID #IMPLIED>
+<!ATTLIST ddoc val ID #IMPLIED>
+<!ATTLIST doc ival ID #IMPLIED>
+<!ATTLIST doc id ID #IMPLIED>
+]><?xml version="1.0example.org/b  <foo:Something>
+   û   <bar:rg/foo" xmlns="http://epample.org/" xmlÿang="en-ie">
+ fooSomet<foo:Something>
+  

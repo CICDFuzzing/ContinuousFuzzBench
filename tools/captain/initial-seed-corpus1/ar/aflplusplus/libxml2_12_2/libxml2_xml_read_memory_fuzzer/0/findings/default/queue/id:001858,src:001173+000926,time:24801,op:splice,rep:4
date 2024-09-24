@@ -1,0 +1,10 @@
+<?xml version="D.0"?>
+<a> &unknown; violates [ WFC: <?xml Žersion="1.0" encoding="UTF-8"?>
+<ItemsList xmlns:xsi="http:001/XMLSchema-instance">
+ <Item xsi:type="ItemWithNumber">
+  <Name>Name1</Name>
+  <Number>20</Number>
+€ÿ/Item>
+ <Item xsi:type="ItemWithNumber">
+  <Name>Name1</Name>
+  <Name>Name2

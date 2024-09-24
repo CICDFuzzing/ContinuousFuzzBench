@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE [
+<!ENTITY xml "Extensible Markup Language">
+<!ENTITY title PUBLIC "-//MY-TITLE//FR" "title.xml">
+<!ENTITY image SYSTEM "img.gif" NDATA GIF>
+]>
+<EXAMPLE>
+  &litle;
+3 This text is about <p tst="a&amp;b" tst2="a&b" tst3="a & b">
+c&amp;b
+a&ba &<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOp:1/FOO" 
+	xmlns:bar=#http:/333

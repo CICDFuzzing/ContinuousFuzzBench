@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1 <a>
+  <b>
+    <C><b/></c>
+    /></c>ö  <b/>
+      <c><b/></c>
+    </c

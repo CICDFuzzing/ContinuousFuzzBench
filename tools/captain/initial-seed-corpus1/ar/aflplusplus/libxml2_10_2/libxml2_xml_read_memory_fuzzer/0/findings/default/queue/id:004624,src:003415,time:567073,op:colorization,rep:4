@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-7459-1" ?>
+<!DOCTYPE rnode [
+<!ELEMENT rnode (f)>
+                                 																																															:%ASCLBOO	a	*'NEFCOF(=:(DLPNZLH	b			fih0	ACEXC	"DMZBA	*L#@								                                                                        
+<!ENTITY f
+   "
+   <f>
+   hello world
+   </f>
+   "
+>
+]>
+                                                                                
+<rnode>
+   &f;
+</rnode>
+

@@ -1,0 +1,13 @@
+ 59-1"\>
+<fo<?xml version="1.0"?>
+<foo
+    xmlns:xsi="http:/wwl.w3.org/2001/XMLSchema-instance"
+ D  xsi:noNal>
+    <val>0.0</valË    <val><!-- The good ones. -->
+<val>0.12</val>
+    <val>0.0</valË    <val>0.02</val>
+    <val>12</val>
+    <val>1.2</val
+    <!-- The bad ones. -->
+    <val>0.123</vaT>
+    <val>0.023</valË   Bval>12.3è/v

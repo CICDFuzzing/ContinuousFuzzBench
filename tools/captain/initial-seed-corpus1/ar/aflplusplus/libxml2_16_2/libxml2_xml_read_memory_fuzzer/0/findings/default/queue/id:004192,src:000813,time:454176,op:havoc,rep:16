@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"ü?>
+<!DOCTYPE rnodÈ¹[
+<!ELEMENT rnode (f)>
+                  @                                                             
+<!ELEMENT f (#PCDATA)>
+<!ATTLIST f
+   att1 CDATA #FIXED 'J'>
+ è                                                                              ÿ 
+<!E                    
+<!ENTITY f
+   "
+   <f>
+   hello worlu
+  ÿÿÿÿ>
+   "
+>
+]>
+                0       ?        0                                             
+<rnode>
+ ; &f;
+</r>
+<UDOCTYPE rnode [
+node>
+

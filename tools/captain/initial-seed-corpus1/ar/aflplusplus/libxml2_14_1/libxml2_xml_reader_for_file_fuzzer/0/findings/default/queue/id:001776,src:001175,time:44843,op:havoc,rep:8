@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ÿ(a | b>* ,9c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (ªPCDATA)>
+<!ELEMENTBcü(PCDATA)>
+]>
+<doc><a/><b/><a/><c/><c/><a

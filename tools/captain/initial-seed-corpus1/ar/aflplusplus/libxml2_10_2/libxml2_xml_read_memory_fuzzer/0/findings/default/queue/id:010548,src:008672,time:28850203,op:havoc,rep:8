@@ -1,0 +1,23 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS  "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+]yz" b"&#38;x&#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>38;&#32;y&#32;"/>
+<;&#x20;&aA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b"&#38;x&#3/Percent>
+     <Perc8;&#32;y&#32;"/>
+<;&#x20;&a;B&da;"2b="&d;&d;A&a;&Üx20;&a;B&da;"/>
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;y&#32;" b="&#38;x&#38;x&#32;&#32;y&#32;" b="&#38;x&#38;&#32;y&#32;"/>
+<tst a=" a b " b=" a b "/>
+<tst aD  a  b  " b="  a  b  "/>
+</doc>
+

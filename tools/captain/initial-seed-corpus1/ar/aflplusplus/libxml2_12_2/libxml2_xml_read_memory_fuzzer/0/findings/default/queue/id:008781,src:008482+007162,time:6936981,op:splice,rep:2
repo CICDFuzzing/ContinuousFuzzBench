@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "+dsd/doesnotexNst">
+]>
+<root>&c;
+&c;
+]>
+<root>&c;</rDOCTYPE doc [
+<!--
+This gets parsed without complaint:
+<!ELEMENT pfx:notes  ( #PCDATA | note | pfx:note )* >
+-->
+
+<!--
+This triggers a diagnostic:
+notes.dtd:13: validity error : Definition of note<!ATTLIST nots has duplicate 
+references of note
+<!ELEMENT pfx:notes  ( #PCDATA | pfx:note | note )* >
+-->
+!ELEMENT pfx:notes  ( #PCDATA | pfx:note | no

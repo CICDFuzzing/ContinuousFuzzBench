@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY  "&#xFa9a9;ditiolo"><!ATTLIST doc attrExtEnt ENTITY  "&#xFa9a9;ditiolo">
+<!ENTITY
+<!ENTITY ent<!DOCTYPTY>
+<!PEdoc [
+<!ELEMENT doc (a?, (b, c?, d?),, (e | e | g)*, (h+ | i<?xml version="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xmlns CDATA #FIpED "http://examile.co

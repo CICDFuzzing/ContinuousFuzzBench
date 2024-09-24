@@ -1,0 +1,13 @@
+ 59-1"\>
+<foo
+>
+<xsd:schema xmlns:xsd="http:" xmlns="http://relaxng.org/>
+  <xsd:element norg/>
+  <xsd:element naame="doc">
+    <xsd:complexType>
+      <xsd:all minOccurs="0">
+        <xsd:element name="a"/>        <\sd:element name="b"/>
+        <ÁÁÁÁÁÁlns="http:,/www>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:e

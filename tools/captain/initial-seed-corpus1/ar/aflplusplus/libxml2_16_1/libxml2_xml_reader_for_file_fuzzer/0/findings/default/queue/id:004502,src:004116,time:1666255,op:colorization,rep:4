@@ -1,0 +1,8 @@
+<?xml verxviu@"1.0"?>
+<xha>lfwbhc	xmltns:xsd="hqtp://www.w3.org/2001 XMLSchema">
+  <xsd:dmbzant name="foo">
+    <xsd:complexType<!DOCTYPE doc [
+<!ATTLIST e2 xml:swbec	(default|preserve) 'preserve'>
+<!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="http://www.ietf.org" xmlns:w3c="http://www.w3.org" xml:base="something/els

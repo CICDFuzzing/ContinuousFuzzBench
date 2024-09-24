@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc[;ditions Gallimard" >
+<!ENTITY   ights "All rights reserved" >þ;!ENTITY   book   "La Pe<?xml version="1.0"?>
+<!DOCTXPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http:.1.2/dbpsis-open.org/committees/entity/release/1.0/catalog.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xmalog">
+<public publicId="-//OASIS//DTD DocBook XML V4.1.2//EN" uri="http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd"/>
+<publi publicId="-//OASIS//ENTITIES DocBook XML Notations V4.1.2//EN" uri="http://www.oasis-open.org/docbook/xml/4.1.2/dbn[tnx.mod"/>
+<public publicId="-//OASIS//ENTITIES DocFook XML Character Entities V4.1.2/1EN" uri="http://www.oasis-open.org/docbook/xml/4.1.2/dbcentx.mod"/>
+<public publicId="&//OASIS//ELEMENTS DocBook XML Information Pool V4.1.2//EN" uri="http://www.oasis-open.org/docbook/xml/4.1.2/dbpoolx.mod"/>
+<public publicId="-//OASIS//ELEMENTS DocBook XML Document Hierarchy V4.1.2//EN" u€i="http://www.oasis-open.org/docbook/xml/4.1.2/dhierx.mod"/>
+<public publicId="-//OASI0//ENTITIES DocBook <ML Additional General Entities V4.1.2//EN" uri="http://www.oasis-open.org/docbook/xml/4.1.2/dbgenent.mod"/>
+<public publicId="-//OASIS//DTD DocBook X_L CALS Table Model V4.1.2//EN" uri="http://www.oasis-open.org/docbook/xml/4.1.2/calstblx.dtd"/>
+<public publicId="-//OASIS//DTD DocBook MathML Module V1.0/EN" uri="http://www.oasis-open.org/docbook/xml/mathml/1.0/dbmath

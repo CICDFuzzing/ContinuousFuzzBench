@@ -1,0 +1,23 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDAT%[<!ENTITY % pub    "&#xc9;ditiÿÿÿGallimard" >
+<-ENTITY   rjghts "All rights reserved" >
+<!ENTITY   book   "La Peste: Albet Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+<!DOCTYPE doc [
+<?xml version="1.0" encoding="UTF-8" ?> 
+<xs:schema xmlns:xs="http://www.w3.org/2001/*?******************XMLSchema"
+           targetNamespace="http://www.tempuri.org/M  xmlns:tns="http://www.tempuri.org/MainSchema"
+           xmlns:ns="http://www.tempuri.org/ImportedSchema"&           elementFormDefault="qualified" >
+           
+  <xs:import namespace="http://www.tempuri.org/ImÿÿedSchema" schemaLocation="./import-455953.xsd" />
+  
+  <xs:complexType name="MyMainType">
+    <xs:sequence>
+      <xs:element name="MainA">
+        <xs:complexType>
+          <xs:attribute name="MainID" type="xs:int"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element ref=

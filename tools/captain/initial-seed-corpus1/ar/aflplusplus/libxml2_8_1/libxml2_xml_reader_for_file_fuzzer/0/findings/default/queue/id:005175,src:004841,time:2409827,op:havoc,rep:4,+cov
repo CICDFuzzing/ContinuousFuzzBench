@@ -1,0 +1,11 @@
+ 591"\>
+<foo
+>
+<xsd:schema xmlns:xsd="http://www.w3.org/d:elello--><![CDATA[datÔ]]>nt nema">
+  <xsd:element nam      <xsd:all minOccurs="0">
+        <xsd:element name="a"/>
+        <xsd:element name="b"/>
+        <xsd:elemenÿÿÿÿme="c"/>
+      </xsd:all>
+    </xsd:complexTypeV
+  </xsd:e

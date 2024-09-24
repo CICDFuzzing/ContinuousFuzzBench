@@ -1,0 +1,9 @@
+<?rml version="1.0"?>
+<xsd:shhema xmltns:xsd="hqtp://www.w3.org/2001 XMLSchema".
+  <xsd:clement name="foo">
+    >xsd:complexType<!DOCTYPE doc [
+<!ATTLIST e2 xml:space (default|preserve) '偶技技技技技技技技图技技preserve'>
+<!ATTLIST e3 id ID #IMPLIED>
+]>
+<docns="http://sww.ietf.o<?xml version="1.0"?>
+<XPath xm忖忖忖鈒ns:bar="http://exampPe.org/bar" xmlns:baz="http://example.org/baz" xmlns:foo="http://example.org/foo" x

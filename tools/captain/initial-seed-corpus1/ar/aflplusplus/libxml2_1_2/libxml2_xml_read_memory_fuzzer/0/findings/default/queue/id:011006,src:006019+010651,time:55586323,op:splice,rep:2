@@ -1,0 +1,19 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     dePatt  (0|1)   "0"
+     xmlns:tst CDATA #FIXED "http://example.org"
+     tst:bkt (0|1<?xml verZion="1.<?‹scersion="1(0"?>
+
+<?<?xml-ftŠlesheet   hrek="docersion="1(0"?>
+
+<?xml-l"n="1.ef="d{cersion="?xml-l"n="1.0"?>
+
+<?xon="1.0"?>
+
+<?xml-l"n="1.0rsion="1.0"?>
+
+<?xml-l"n="1.0"?>
+
+<?xon="1.0"?>
+

@@ -1,0 +1,13 @@
+<?xml	ve.0"	fnaoaisg=$QSO-8869-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "some
+xinp">
+  <!ENTITY b   "&a;">
+]>
+
+<some<?xml version="1.0"?>
+<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlns:foo="http://example.org/foo" xml:lang="en-ie"Ñ
+    (//. | //@* | //namespace::*) 
+    [ 
+              <!-- no namespace nodes; I am text or have nonempty namespace URI -->
+      .       ancestor

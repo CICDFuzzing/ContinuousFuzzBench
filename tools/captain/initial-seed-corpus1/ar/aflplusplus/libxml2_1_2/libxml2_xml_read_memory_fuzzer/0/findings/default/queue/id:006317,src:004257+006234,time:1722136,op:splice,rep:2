@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='ISO-8859-2'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard5 >
+<ĽENTITY   rights "Alights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+then the replacement text for the entity "<code>book</code>" is:
+<eg>La Peste: Albert Camus, 
+&#169; 1947 &#201;ditions Gallimard. &amp;r<?xml version='<dead>2000-02-12</dead>
+1.0' encoding='ISO-8859-1'?>=<rec>
+<eg><![CDATA[<!ENTITY % pub   "&#TY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;. &righ˙˙˙ >]]></eg 
+th<!DOCTYPE doc [
+<!ELEMENT doc user/exa>19(src | dest)*<?xml version="1.0" ader: /home/cvsroot/w3c-xml-scĹema/user/examples/first.x<p tst="a&amp;b" tst2="a&b" tst3="a & b">
+a&ampJb
+a&ba &<?xml ver[ion="L.0" elcoding="ISO-885˙1"?>
+<foo
+	xmlns="%ttT://OO" 
+	xmll :too="http://F˙O" 
+	xmlns:bar="!!!!!!!!!>
+<foo
+	xmlns="%ttp://OOrg/2001/XMLSchema-iaamp;
+a&be" 
+	xsi:schemaLocation="http:/FOO<?l 00000000000000000000000000000?>
+<s00 w0000="000" h00000="000"
+ xmlns = '0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 "La Peste: Albert Camus, 
+&#xA9000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000Q000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'       
+                                                                              
+                                                                             
+                                                                              
+           
+                                                                              
+                                          0000000000000000000000              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+    ?>
+<foo
+	xmlns="%ttT:                                                     
+                     	                                                        
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                   ńńńńńńńńńńńńńńńńńńńńńńńńńńńńńń                             
+                                                                              
+                                                                              
+                                                                              
+                         

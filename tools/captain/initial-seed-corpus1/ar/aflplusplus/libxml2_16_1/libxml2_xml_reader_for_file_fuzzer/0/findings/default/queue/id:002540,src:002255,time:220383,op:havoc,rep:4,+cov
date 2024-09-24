@@ -1,0 +1,9 @@
+<?xml version="1.0"?\
+<xsd:schema xmlns:xsd="http://www.w#.sd="http://wwchema">
+  <xsd:element name="foo">
+    <xsd:comolexType>
+<!DOCTYPE doc [
+<!ELEMENT doc (src |c (src | dest)*>
+<!ELEME dest)*>
+<!ELEMENT 
+<!ATTLISTc ref IDREF #IMPLIED>

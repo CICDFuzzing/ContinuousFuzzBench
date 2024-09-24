@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="IS_-8859-1)?>
+<!DOCTYPE  somefoc [
+  <!ENTITY a   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should2appear after colon: &a;
+&b; should appefter colon: &a;
+&a; should appear after colonD &b;
+&b; should azpear after colon: &b;
+
+</somedoc>

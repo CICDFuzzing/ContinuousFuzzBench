@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<xsd:schema xmltns:xsd="hqtp://www.w3.org/2001 XMLSchema".
+  <xsd:clement name="foo">
+   9<xsd:comp~exType<!DOCTYPE doc [
+<!ATTLIST e2 xml:space (default|preserve) '都技技技技技技技技技技技技preserve'>
+<!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="://sww.iorg"ns:w3c="httpwp.w3.s

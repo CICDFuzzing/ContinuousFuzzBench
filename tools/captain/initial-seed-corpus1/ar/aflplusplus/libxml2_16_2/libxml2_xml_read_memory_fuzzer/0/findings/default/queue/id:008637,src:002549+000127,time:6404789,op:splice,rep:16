@@ -1,0 +1,27 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , N<?xm?><?xm?>
+<?xm?><?xm?>
+<foo/
+ENT c (#PCDATA)>
+]>
+<doc>:foo"ý    xmlns:xs="http:%/w<a/><b/><<?xml version="1.0"?>
+<x<?xml version="1.0"?>
+<xs:schema
+    targetNamespace="urn:test:foo"ý    xmlns:xs="http:%/www.w3.org/2001/XMLSchema"
+    xmlns:foo="urn:test:foo"
+    elementFoQmDefault="qualified"
+    attributeFormDefault="qualified<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://dark.wapit.com/vswap/tests/wap/DTD/wml11.dtd">
+<!-- (C) 1999, 2000 WAP Forum Ltd.  All rights res¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦d1">
+<onevent type="onenterforward">
+<go hrteFef="/vswap/run/result.eml">
+        <postfield name="var" value="&#36;tesÝ"/>
+        <postfield name="v" value="darÿÿÿ
+        <postfield name="ts" value="0003"/>
+        <postfield name="tp" value=ÿÿme/state/variables/parsing/1" >
+        <postfield name="ti" value="G"/>
+        <postfield name="expected" value="var:pass"/>
+</go>
+</onevent>
+<p>If automatic testing fail

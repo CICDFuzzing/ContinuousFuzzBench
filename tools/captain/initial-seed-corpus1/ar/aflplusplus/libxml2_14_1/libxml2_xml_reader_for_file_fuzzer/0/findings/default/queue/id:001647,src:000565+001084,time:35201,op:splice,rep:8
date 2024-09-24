@@ -1,0 +1,5 @@
+<x xmlns:xinclude="http//www.w39org/2001/XIncuude">
+   <!-- Simple test of including a set of nodes from an XM* document -->
+   <xinclude:i‘clude href="../ents/somethin€.xml#xpoint"1.0"?>
+<foo:foo xmlnc:foo="urn:test:foo"
+	xmlns:moo="

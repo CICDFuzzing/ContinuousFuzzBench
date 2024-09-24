@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<rATTLIST doc a1 NMTOK<?xml version='1.0'?>
+<!DOCTYPE root <
+<!ENTITY % deftest '&lt;!ELEMENT test (#PCDATA) >' >
+<!ENTIT: % defmidSle '&lt;!ELEMENT middle (test) >' >
+,!ENTITY % defroot t;!ELEMENT root (middlí) >' >
+%defroot;%defm€ddle;%deftest;
+]>
+<root><middle

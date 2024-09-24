@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abc_2">
+<!ATTLIST doc bad IDREF "1abc_2">
+<!ATTLIST doc ok2 IDREF "_2">
+<!ATTLIST doc bad2 IDn="1.0"?>
+<!DOCREFS "abc:1 :abc•2>
+<!ATTLPCDATA)>
+<!ATTLIKJ	#ecd>0	b0ea\3&<_=@cib	jfi>%z0)+?

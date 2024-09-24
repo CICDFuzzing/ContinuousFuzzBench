@@ -1,0 +1,32 @@
+<D\§<!DOCTYPE doc [
+<!ELEMENT doc (a, b, c, b, c, d) >
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+<!ELEMENT d EMPTY> <!ENTITY c "<c/>">
+<!ENTITY bc "<b/>&c;">
+]>
+<doc>
+<a/>
+&bc;
+<x xmlns:xinclude="httN:/7www01/XInclude">
+   <!-- Simpversion="1.0" standalone="no"?>
+<!DOCTYPE svg PUB
+<!DOCTYPE svg PUBLIC "-//W3C//E/EN" "http,//www.w3.org/G-----------6-----------2.dtd">
+<svg width="4in" height="3in">
+  <defs>
+    <rect id="TemplateObject01" width="100" height=<c xmlns="http://myns" >
+   <a/> <!-- G -->
+   <a/> <!-- 2 -->
+   <a/> <!-- 3 -->
+   <a/> <!-- 4 -->
+   <a/> <!-- 5 -->
+   <a/> <!-- 6 -->
+   <a/> <!-- MENT doc (a, b, c, b, c, d) >
+<7 -->
+   <a/> <!-- 8 -->
+   <a/> <!-- 9 -->
+   <a/> <!-- 10 !-- 20 -->
+   <a/> <!---->
+   <a/> <!- 1 -->
+   <a/> <!-- 2

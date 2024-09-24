@@ -1,0 +1,4 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " ST d1   2       ">ENT doc #3CDATA)>
+]>
+<doc/>

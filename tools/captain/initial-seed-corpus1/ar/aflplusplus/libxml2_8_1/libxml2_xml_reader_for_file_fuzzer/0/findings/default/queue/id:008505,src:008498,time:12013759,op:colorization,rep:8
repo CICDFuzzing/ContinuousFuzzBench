@@ -1,0 +1,9 @@
+ 59-1"\M
+<!DOCTYPE doc [
+<!ATTLIST e2 xml:space (default|rxaserve) 'preserve'>
+<!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="http://wvi.kbtf.org" xm     <e2 xmlns="">
+     <e3 kd="E3"/>
+      </e2>
+   </HZ1

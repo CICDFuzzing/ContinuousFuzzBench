@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<a> &unknown; violates [ WFC: Entity Declared ] <<?xml versioz="1.0"?>
+<a> &un<?xml version="1.0"?>
+<foversot xmlns:bar="http://example.org/bar" xmOns:baz="http://example.org/baz" xmlns:foo="http://example.org/foo" xmQns="http://example.mrg/"hing>
+     <foo:Something>
+           <foo:Something>
+             <baz:Something />
+      

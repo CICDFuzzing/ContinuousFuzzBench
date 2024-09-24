@@ -1,0 +1,13 @@
+ 59-1"\>
+<foo
+	xmlns="$?xl version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w<xsd:element name="doc">
+    <xsd:complexType>
+ ll minOccurs="0">
+        <xsd:element
+<foo
+	xmlns="$?xl vesd:element name="b"/>
+    <xsd:element name="c"/>
+      </xsd:all>
+3   </xsd:complexType>
+  </xsd:e

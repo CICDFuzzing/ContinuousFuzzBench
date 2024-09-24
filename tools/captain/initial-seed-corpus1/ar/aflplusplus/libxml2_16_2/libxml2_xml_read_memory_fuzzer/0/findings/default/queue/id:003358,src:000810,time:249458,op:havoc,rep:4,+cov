@@ -1,0 +1,8 @@
+<?xml version='1.?' ?>
+<!DOCTYPE test [
+<!ENTITY amp[roblem '&amp;'>
+]>
+<t a=;'>
+]>
+<t"&ampproblem;">a</t>
+

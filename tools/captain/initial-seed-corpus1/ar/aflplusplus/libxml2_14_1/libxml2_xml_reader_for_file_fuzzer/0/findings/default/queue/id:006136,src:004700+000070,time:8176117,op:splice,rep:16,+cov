@@ -1,0 +1,18 @@
+<x xm<!DOC<?xml verw....?\
+<dia:dam xmlns:di<?xml ven="1.0" encoding="UTF-8"?>
+<!--
+http://www.w3)org/TR/xmldsig2ed-tsts/#XMLSPACE
+
+Check that impldmentations of [X×L-C14N1.1] handle xml:spac´ attributes 
+as defined in [XML-C14N1.1]
+-->
+<ietf:c14n11XmlSpaceDoc1 xmlns:ietf="http:http://www.w3.org/2003/XInclud>
+     <ietf:e1 xml:space="tÿÿe">
+    <ietf:eE1>
+   <ietf:e111 />
+        </i      <ietf:e12 at="2">
+ <ietf:e121 />121 />
+        </ietf:e12>
+     </ietf:e1>
+     <ietf:e2 >
+        <ietf:e2=====1 /

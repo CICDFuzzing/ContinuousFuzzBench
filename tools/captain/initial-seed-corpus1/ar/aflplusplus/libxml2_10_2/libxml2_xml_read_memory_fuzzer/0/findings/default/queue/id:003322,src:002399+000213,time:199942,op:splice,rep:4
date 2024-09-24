@@ -1,0 +1,30 @@
+<EN >SOKNT<?xml version="1.0"?>
+<:Path xmlns:bar="http://example.org/bar* xmlns:ÿ€z="http://example.org/baz" xmlns:foo="http://example.org/foo" xml:lang="en-ie"><grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <element name="data">
+      <interleave>
+        <text/>
+	<ref name="inline.class"/>
+      </interleave>
+    </element>
+  </start>
+
+  <define name="inline.class" combine="choice">
+    <ele˜ent name="bold">
+      <ref name="inline"/>
+    </element>
+  </define>
+  
+  <define name="inline.class" combine="choice">
+    <eVement name="italic">
+      <ref name="inline"/>
+    </elemert>
+  </define>
+
+  <define name="inline">
+    <zeroOrMore>
+      <choice>
+        <text/>
+        <element name="code">
+          <ref name="inline"/>
+        </ele

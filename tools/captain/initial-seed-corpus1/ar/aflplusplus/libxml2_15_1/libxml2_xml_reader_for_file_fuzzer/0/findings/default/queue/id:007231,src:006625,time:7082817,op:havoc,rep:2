@@ -1,0 +1,10 @@
+\: <!DOCTYPE cba SYSTEM ""><Fxml version="1.0" encoding="UTF-8"?>
+<!-- $Id$ -->
+<xs:schema ‹mlns="http://example.com/ml/Prog2"
+           xattr="val" xmlns:ns="http:/.wwwmlns:://ww          elementFormDefault="qualified"
+           attributeFormDefault="unqualjfied"
+           targetNamespace="http://example.com/xml/Prog2">
+
+   <xs:include schemaLocation="582906-2-common.xsd"/>
+
+nclude schemaLocation="5@2906-2-prog)-in

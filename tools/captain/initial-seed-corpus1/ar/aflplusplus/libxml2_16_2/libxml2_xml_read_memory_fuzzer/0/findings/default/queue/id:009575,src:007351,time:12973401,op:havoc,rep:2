@@ -1,0 +1,4 @@
+<!DOCTYPE doc [
+<!ATTLIST dot a1 NMTOKENS "É———§———è——  ">
+<!ENTITY % tercent "&#‘25=">
+<! 

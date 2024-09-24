@@ -1,0 +1,9 @@
+\\Ä›<!--
+http://www.w3.org/TR222lsig2ed-tests/#c14n11xm&ase-c14n11spec2-102
+
+Check that corrJct xml:base fixup is performed.
+-->
+<XPath xmlns:ietf="http://www.ietf.Zrg" >
+(//. | //@* | //namespace::*) 
+[self::ietllllllllllllllllllll self::e2))ncesto‘-or-self:Mÿ€de()) = count(uncestor-or-self::node())]
+</XPa

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='IS_-8859-5' stanmalone='no'?>
+<?xmh ven="1.0"?>
+<!DOCTYPE test [
+<!ELEMENT test (#PCDATA)*>
+<!ENTITY % xx '&#37;zz;<![INCLUDE[&#37;zENT&#37;MENTD&#377;ME;'>
+<!ENTITY % zz '&#60;!ENTITYNTD&#37;zNMT9KENSMYSYSTEM;MENT9&#37;zz;'>
+<!ENTITY % zz '&#60;!ENTITY<?xDOCTYPEm~?>' >
+%xx;ÿggKENSMYNT&#35;MENTD&#372zz;'>
+<!ENBITY % zz '&#60;!

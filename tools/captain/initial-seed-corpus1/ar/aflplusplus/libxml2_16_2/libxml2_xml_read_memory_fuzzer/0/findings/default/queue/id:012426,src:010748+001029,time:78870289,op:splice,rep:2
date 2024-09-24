@@ -1,0 +1,8 @@
+<!DOCTYPE D [
+  <!ENTITY % r SYSTEM "ht////./2">
+%c;
+<!ENTITY % b SYSTEM "http://example.org/b/b.dtd">
+%b;
+<!ENTITY % c SYSTEM "http://example.org/c/c.dtd">
+%c;
+<!ENTITY % a SYSTEM "http:

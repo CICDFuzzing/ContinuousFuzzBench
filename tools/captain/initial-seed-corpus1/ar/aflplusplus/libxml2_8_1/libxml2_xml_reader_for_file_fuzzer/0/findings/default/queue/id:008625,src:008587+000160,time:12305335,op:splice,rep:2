@@ -1,0 +1,11 @@
+ 1"\M
+<!DOCTYPE doc [
+<!ELEMENT toc (a?, (b, c?)?, d)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+<!ELEME€T d EMPTY>
+]>
+<doc>
+<d/>
+<

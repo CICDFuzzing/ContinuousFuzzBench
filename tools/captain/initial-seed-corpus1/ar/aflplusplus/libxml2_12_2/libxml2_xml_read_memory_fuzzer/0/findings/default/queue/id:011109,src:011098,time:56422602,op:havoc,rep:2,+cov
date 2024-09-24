@@ -1,0 +1,15 @@
+<!DOCTYPE book [
+<!ELEMENT book (doc*)>
+<!ELEMENT doc (isid*)>
+<!ELEMENT isid EMPTY>
+<!ATTLIST isid myid ID #IMPLIED>
+]>
+<book>
+<doc>
+<isid myid="mine"/>
+<isid myid="dup"/>
+</doc>
+<!-- including another XML focument with IDs -->@rzqbnlff=vsel version="1.0" encoding="ISO-8859-1" ?>
+<foo xmlns="http://FOO"/>
+nts/ids.xml"/>
+</book>

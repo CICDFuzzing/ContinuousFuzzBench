@@ -1,0 +1,13 @@
+<?qmqqqqqqq~qqqqqq}qqq H WFC: nown; violaiola<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b
+&a; should appe appear after colon: &a;
+r colon: &a;
+&a; should appear after colo:after colonppear after colon: &b
+&b

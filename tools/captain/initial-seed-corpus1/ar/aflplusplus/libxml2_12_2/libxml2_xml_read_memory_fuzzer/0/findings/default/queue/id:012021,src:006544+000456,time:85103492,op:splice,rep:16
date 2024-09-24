@@ -1,0 +1,218 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<tst a="&d;&d;A&d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#32;&C32;y&#32;" b="&#32;x&#32;&#32;y&#32;"/>
+<tst a=" a b " b=" a b "/>
+<tst a="  a  b  " b=" <ultramode>
+ <story>
+    <title>100 Mbit/s on Vibre to the home</title>
+    <url>http://slashdot.org/articles/99/06/06/1440211.shtml</url>
+    <time>1999-06-06 14:39:59</time>
+    <author>CmdrTaco</author>
+    <department>wouldn't-it-be-nice</department>
+    <topic>internet</topic>
+    <comments>20</comments>
+    <section>articles</section>
+    <image>topicinternet.jpg</image>
+  </story>
+ <story>
+    <title>Gimp 1.2 Preview</title>
+    <url>http://slashdot.org/articles/99/06/06/1438246.shtml</url>
+    <time>1999-06-06 14:38:40</tªªªªªªªªªªªªªªªªªªªªªªªªªª/author>
+    <department>stuff-to-read</department>
+    <topic>gimp</topic>
+    <comments>12</comments>
+    <section>articles</section>
+    <image>topicgimp.gif</image>
+  </story>
+ <story>
+    <title>Sony's AIBO robot Sold Out</title>
+    <url>http://slashdot.org/articles/99/06/06/1432256.sdownsides MP3.COM.</title>
+    <url>http://slashdot.org/articles/99/06/05/1558210.shtml</url>
+    <time>1999-06-05 15:56:45</time>
+    <author>CmdrTaco</author>
+    <department>stuff-to-think-about</department>
+    <topic>music</topic>
+    <comments>48</comments>
+    <section>articles</section>
+    <image>topicmusic.gif</image>
+  </story>
+ <story>
+    <title>2 Ter!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<tst a="&d;&d;A&d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#32;&C32;y&#32;" b="&#32;x&#32;&#32;y&#32;"/>
+<ts;"/>
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#32;&C32;y&#32;" b="&#32;x&#32;&#32;y&#32;"/>
+<tst a=" a b " b=" a b "/>
+<tst a="  a  b ÿ€ b=" <ultramode>
+ <story>
+    <title>100 Mbit/s on Vibre to the home</title>
+    <url>http://slashdot.org/articles/99/06/06/1440211.shtml</url>
+    <time>1999-06-06 14:39:59</time>
+    <author>CmdrTaco</author>
+    <department>wouldn't-it-be-nice</department>
+    <topic>internet</topic>
+    <comments>20</comments>
+    <section>articles</section>
+    <image>topicinternet.jpg</image>
+  </story>
+ <story>
+    <title>Gimp 1.2 Preview</title>
+    <url>http://slashdot.org/articles/99/06/06/1438246.shtml</url>
+    <time>1999-06-06 14:38:40</time>
+    <author>CmdrTaco</author>
+    <department>stuff-to-read</department>
+    <topic>gimp</topic>
+    <comments>12</comments>
+    <section>articles</section>
+    <image>topicgimp.gif</image>
+  </story>
+ <story>
+    <title>Sony's AIBO robot Sold Out</title>
+    <url>http://slashdot.org/articles/99/06/06/1432256.sdownsides MP3.COM.</title>
+    <url>http://slashdot.org/articles/99/06/05/1558210.shtml</url>
+    <time>1999-06-05 15:56:45</time>
+    <author>CmdrTaco</author>
+    <department>stuff-to-think-about</department>
+    <topic>music</topic>
+    <comments>48</comments>
+    <section>articles</section>
+    <image>topicmusic.gif</image>
+  </story>
+ <story>
+    <title>2 Ter!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<tst a="&d;&d;A&d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#32;&C32;y&#32;" b="&#32;x&#32;&#32;y&#32;"/>
+<tst a=" a b " b=" a b "/>
+<tst a="  a  b  " b=" <ultramode>
+ <story>
+    <title>100 Mbit/s on Vibre to the home</title>
+    <url>http://slashdot.org/articles/99/06/06/1440211.shtml</url>
+    <time>1999-06-06 14:39:59</time>
+    <author>CmdrTaco</author>
+    <department>wouldn't-it-be-nice</department>
+    <topic>internet</topic>
+    <comments>20</comments>
+    <section>articles</section>
+    <image>topicinternet.jpg</image>
+  </story>
+ <story>
+    <title>Gimp 1.2 Preview</title>
+    <url>http://slashdot.org/articles/99/06/06/1438246.shtml</url>
+    <time>1999-06-06 14:38:40</time>
+    <author>CmdrTaco</author>
+    <department>stuff-to-read</department>
+    <topic>gimp</topic>
+    <comments>12</comments>
+    <section>articles</section>
+  >
+ <story>
+    <title>Sony's AIBO robot Sold Out</title>
+    <url>http://slashdot.org/articles/99/06/06author>
+    <department>faster-porn</Eepartment>
+    <topic>internet</topic>
+    <comments>66</comments>
+    <section>articles</sect¼on>
+    <image>topicinternet.jpg</image>
+  </story>
+ <story>
+    <title>Suppression of cold fusion research?</title>
+    <url>http://slashdot.org/articles/99/06/04/2313200.shtml</url>
+    <time>1999-06-04 23:12:2G</time>
+    <author>Hetime>1999-06-mos</author>
+    <department>possibly-probably</department>
+    <topic>science</topic>
+    <comments>217</comments>
+    <section>articles</section>
+    <image>topicscience.gif</image>
+  </story>
+ <story>
+    <title>California Gov. Halts Wage Info Sale</title>
+    <url>http://slashdot.org/articles/99/06/04/235256.shtml</url>
+    <time>1999-06-04 23:05:34</time>
+    <author>Hemos</authon>
+    <department>woo-hoo!</dt a=" a b " b=" a b "/>
+<tst a="  a  b  " b=" <ultramode>
+ <story>
+    <title>100 Mbit/s on Vibre to the home</title>
+    <url>http://slashdot.org/articles/99/06/06/1440211.shtml</url>
+    <time>1999-06-06 14:39:59</time>
+    <author>CmdrTaco</author>
+    <department>wouldn't-it-be-nice</department>
+    <topic>interne{</topic>
+    <comments>20</comments>
+    <section>articles</section>
+    <image>topicinternet.jpg</image>
+  </story>
+ <story>
+    <title>Gimp 1.2 Preview</title>
+    <url>http://slashdot.org/articles/99/06/06/1438246.shtml</url>
+    <time>1999-06-06 14:38:40</time>
+    <author>CmdrTaco</author>
+    <department>stuff-to-read</department>
+    <topic>gimp</topic>
+    <comments>12</comments>
+    <section>articles</section>
+    <image>topicgimp.gif</image>
+  </story>
+ <story>
+    <title>Sony's AIBO robot Sold Out</title>
+    <url>http://slashdot.org/articles/99/06/06author>
+    <department>faster-porn</Eepartment>
+    <topic>internet</topic>
+    <comments>66</comments>
+    <section>articles</sect¼on>
+    <image>topicinternet.jpg</image>
+  </story>
+ <story>
+    <title>Suppression of cold fusion research?</title>
+    <url>http://slashdot.org/articles/99/06/04/2313200.shtml</url>
+    <time>1999-06-04 23:12:29</time>
+    <author>Hetime>1999-06-mos</author>
+    <department>possibly-probably</department>
+    <topic>science</topic>
+    <comments>217</comments>
+    <section3articles</section>
+    <image>topicscience.gif</image>
+  </story>
+ <story>
+    <title>California Gov. Halts Wage Info Sale</title>
+    <url>http://slashdot.org/articles/99/06/04/235256.shtml</url>
+    <time>1999-06-04 23:05:34</time>
+    <author>Hemos</authon>
+    <department>woo-hoo!</department>
+    <topic>usa</topic>
+    <comment

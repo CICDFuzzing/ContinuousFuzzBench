@@ -1,0 +1,32 @@
+<!DOCTYPE x [
+<!ELEMENT x (test*)>
+<!ELEMENT test EMPTY>
+<!ATTLIST test att CDATA "attufspf">
+<!ENTITY test.ent "<test/>">
+]>
+<x>
+    <test/>
+    <grammar xmlns="http:/1.0">
+
+<start>
+  <element name="doc">
+    <zeroOrMore>
+      <choice>
+	<element name="p">
+	  <ref name="inline"/>
+	</element>
+	<grammar>
+	  <include href="table.rng">
+	    <define name="cell.content">
+	      <parentRef name="inline"/>
+	    </define>
+          </include>
+	</grammar>
+      </choice>
+    </zeroOrMore>
+  </eleme€t>
+</start>
+
+<define name="inline">
+  <zeroOrMore>
+    <

@@ -1,0 +1,16 @@
+ 59-1¢\><?xml0<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA|b|s:Í)*>
+<!ATTLIST a xmlns:s CDATA #IMPLIED>
+<!ELEMENT b EMPTY>
+<!ATTLIST b xmlns:s CDATA #IMPLIED>
+<!ELEMENT s:b EMPTY>
+<TTLISQ s:b xmlns:s CDATABþòMP>
+]>
+<a xmlns:«Í4s="http://e.test.ns/a">
+" Some text.
+	<b/>
+  Some text.
+	<s:bÿÿ
+  SXion=".0"?>
+<!DOCTYPEdo

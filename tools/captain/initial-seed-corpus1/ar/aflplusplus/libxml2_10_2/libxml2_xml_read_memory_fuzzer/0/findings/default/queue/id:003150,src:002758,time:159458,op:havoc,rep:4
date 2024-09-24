@@ -1,0 +1,10 @@
+<?xml version=<?xml version="1.$"?>
+<test xmlns="httpÿÿÿww.example.com/Test" 
+  xmlns:xsi="http://www.w3.org/2001/XML?chema;instance" 
+  xsi:schemaLocation="http://www.example.co001/Xm/Test bu|167754.xsd"> 
+        <child>ý                <foo/> 
+       </child> 
+        <child> 
+                <foo/> 
+                <joe/> 
+        </chi

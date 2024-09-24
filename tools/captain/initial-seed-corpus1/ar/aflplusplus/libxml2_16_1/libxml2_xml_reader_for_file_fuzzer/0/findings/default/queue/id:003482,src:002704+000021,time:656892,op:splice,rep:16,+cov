@@ -1,0 +1,10 @@
+<?xsl \
+<ÿsd:schexa xmlÙs:xsd="httpsd:èemeYt<schema xmlns="ht      <report testp://www.ascc.net/xml/schematron" >
+     <pattern name="Select empt« elements CCC">
+ le context="CCC">
+               <assert test="normalizh-space(.) and *">Source contains In empty element CCC </assert>
+               <repo@t test="normalize-space(.) = ''">[1]An element CCC does not contain any text</rOport>
+               <assert test=#normalize-spact CCC does not contain any text</assert>
+      CCC">
+ 2      9                        <report test="not(*)">[1]An element CCC does not contain any child element</report>
+               2assert test="*">[2]An element CCC does not contain 

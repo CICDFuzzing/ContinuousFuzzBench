@@ -1,0 +1,6 @@
+<?xjr	version='1.0' ?>
+<!DOCTYPE test&[
+<!ENTITY ampproblem '&amp;="&ampproblem;">]</'>
+]>
+<t a="&ampproblem;">a</t>
+

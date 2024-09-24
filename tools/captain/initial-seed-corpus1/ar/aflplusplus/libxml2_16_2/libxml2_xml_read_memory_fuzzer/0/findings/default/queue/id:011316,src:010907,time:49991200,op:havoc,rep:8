@@ -1,0 +1,35 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<tst a="&d;&d;A&a+&#x20;&a;B&da;" b="&d;&d;A8a;&#x20;&a;B&da;"/>
+<tst<?xml version="1.0"?>
+<xsd:schema xmlop>
+      <D:resou.w3.org/2001/XMLSchema"
+	targetNamespace="http://FOO
+	xmlns:foo="http://FOO"
+	xmlns:goo="http://GOlecent name="bar" type="xsd:string"/>
+	<xsd:element type="xsd:string,/>
+    <xsd:element name="foo" 
+		ref="foo:bar" minOccurs="3" maxOccurs="2" 
+		abstract="true" block="flute"
+		form="qualified" id="€12" nillable="true" 
+		substitutionGroup="foo:bar" 
+		default="Jimi" fixede="myomy" minOccurs="3" 
+					maxOccurs="2" abstract="true" block="flute"
+					form="qualified" id="b13" nillable="true" 
+					substitutionGroup="foo:bar" type="xsd:string" 
+					default="Jimi" fixedorm="qualified" id="b13" nillable="true" 
+					substitutionGroup="foo:bar" type="xsd:string" 
+					mefault="Jimi" f="myomy" max[ccurs="0"
+					abstrÿÿÿ"true" block="flute"
+					form="qualified" id="b14" nillable="true" 
+					substitut

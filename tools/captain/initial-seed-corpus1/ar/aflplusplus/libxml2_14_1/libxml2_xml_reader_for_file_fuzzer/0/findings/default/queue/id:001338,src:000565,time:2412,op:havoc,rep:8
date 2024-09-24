@@ -1,0 +1,4 @@
+<x xmlns:xifclude<"http:;/www.w3.org/2001/XInclude">
+   <!-- Simple test of including a set of nodes from an XML `ocument -->
+   <xinclude:include href="../ents/smeth„ng.xml#xointer(//pB"/>
+</x>

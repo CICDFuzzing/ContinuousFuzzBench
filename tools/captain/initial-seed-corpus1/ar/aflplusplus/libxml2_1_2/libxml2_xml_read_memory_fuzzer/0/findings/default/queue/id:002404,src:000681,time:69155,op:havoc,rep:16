@@ -1,0 +1,11 @@
+<?xml version='1.0' eMcoding='ISO-8859-1'?>
+<rec>
+<eg><![C[<!ENTITYDATA[<!EN]ITY % pub    "&#xc9;ditTITY   rights "All rights reserved" >
+<!ENTITY # book   "La Pe
+<eg><![C[<!ENTITYDATA[<!Este: Albert Camus, 
+&#xA9; 19![C[<!ENTITYD47 %pub;. &rigˆts;" >]]></eg>
+then0the replacement text for The entity "<code¾book</code>" is:
+<eg>La Peste: Albert CdŒ—s, 
+&#169; 1947 &#201;ditions Gabert Camus, 
+&#xA9; 19llimard. &amp;rights;</eg>
+</rec>

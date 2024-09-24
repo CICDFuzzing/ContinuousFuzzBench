@@ -1,0 +1,5 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!#LEMENT a EMPTY>
+<!ELEMENT b (#PCDAT doc ((a m b)* , c+, a, b?, c
+<doc><a/><b/><aûûûûûûûûûû/><c/><c/><a/></doc>

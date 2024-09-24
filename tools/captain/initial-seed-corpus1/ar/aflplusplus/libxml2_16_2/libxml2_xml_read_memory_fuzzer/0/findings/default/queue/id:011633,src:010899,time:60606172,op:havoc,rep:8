@@ -1,0 +1,112 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tsst a="&d;&d;A&a;&#x20;&a;B&da;" b="&d;&d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xdt a="
+
+xyz. b="
+
+xyz"D;&#xA;">
+]>
+<dATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tsst a="&d;&d;A&a;&#x20;&a;B&da;" b="&d;&d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xdt a="
+
+xyz" b="
+
+xyz"D;&#xA;">
+]>
+<doc>
+<tsst a="&d;&d;A&a;&#x20;&a;B"da;" b="&d;&d;A&a;&#xdt a="
+
+xyz" b="
+
+xyz"D;&#xA;">
+]>
+<doc>
+<tsst a="&d;&d;A&a;&#x20;&a;B& a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&"32;&#32;y&#32;" b="&#32;x&#32;&#32;y&#32;"/>
+<tst a=" a b " b=" a b "/>
+<tst a="  a  b  " b="  a  b  "/t SYSTEM "dnt">
+<root>&peoc>
+<tsst a="&d;&d;A&a;&#x20;&a;B&da;" b="&d; b="&d;&d;A&a;&#xdt a="
+
+xyz" b="
+
+xyz"D;&#xA;">
+]>
+<doc>
+<tsst a="&d;&d;A&a;&#x20;&a;B& a="&#xd;&#x&d;A&a;&#/>
+<tst a="&d;&d;A&a;&#x20;&a;B&da;" b="&d;&d;A&"&d;&d;A&a;&#x20;&a;B&da;" b="&d;&d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xdt a="
+
+xyz" b="
+
+xyz"D;&#xA;">
+]>
+<dATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tsst a="&d;&d;A&a;&#x20;&a;B&da;" b="&d;&d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xdt a="
+
+xyz" b="
+
+xyz"D;&#xA;">
+]>
+<doc>
+<tsst a="&d;&d;A&a;&#x20;&a;B"da;" b="&d;&d;A&a;&#xdt a="
+
+xyz" b="
+
+xyz"D;&#xA;">
+]>
+<doc>
+<tsst a="&d;&d;A&a;&#x20;&a;B& a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&"32;&#32;y&#32;" b="&#32;x&#32;&#32;y&#32;"/>
+<tst a=" a b " b=" a b "/>
+<tst a="  a  b  " b="  a  b  "/t SYSTEM "dnt">
+<root>&peoc>
+<tsst a="&d;&d;A&a;&#x20;&a;B&da;" b="&d; b="&d;&d;A&a;&#xdt a="
+
+xyz" b="
+
+xyz"D;&#xA;">
+]>
+<doc>
+<tsst a="&d;&d;A&a;&#x20;&a;B& a="&#xd;&#x&d;A&a;&#/>
+<tst a="&d;&d;A&a;&#x20;&a;B&da;" b="&d;&d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&"32;&#32;y&#32;" b="&#32;x&#32;&#32;y&#32;"/>
+<tst a=" a b " b=" a b "/>
+<tst a="  a  b  " b="  a  b  "/t SYSTEM "dnt">
+<root>&pe'nCied<?xml veCTYJE doc [
+<!ELEMENT doc ((a | b)*>
+a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&"32;&#32;y&#32;" b="&#32;x&#32;&#32;y&#32;"/>
+<tst a=" a b " b=" a b "/>
+<tst a="  a  b  " b="  a  b  "/t SYSTEM "dnt">
+<root>&pe'nCied<?xml veCTYJE doc [
+<!ELEMENT doc ((a | b)*>
+</doc>
+

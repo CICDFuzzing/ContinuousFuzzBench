@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="dUO-8859-1"?>
+<!DOCTYPmmmmmmedoc [
+  <!ENTITY a   "somethiRg">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacoU someattributå=&b;"/>
+
+&a; should appear appear after colon: &Z;
+&a; should appear after colonhoÿd appear af„e} colon: &b;
+
+</so…ed‹c>

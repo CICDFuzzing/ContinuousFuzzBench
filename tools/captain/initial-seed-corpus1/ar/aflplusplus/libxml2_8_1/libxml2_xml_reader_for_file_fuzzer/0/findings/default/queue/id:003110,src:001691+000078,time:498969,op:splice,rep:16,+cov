@@ -1,0 +1,19 @@
+ \><?xml version="1.0" encoding="UTF-8"?>
+<!--
+http://www.w3.orgxmldsig2ed-tests#XMLLAN
+
+Chet implementations of [XML-C14N1.1] handle xml:lUng attributes 
+as defined in [XML-C14N1.1]
+-C>
+<ietf:c14n11Xmllang xmlns:ietf="http://www.ietf.org" xelns:w3c="tf:e1 xml:lang="EN">
+        <ietf:e11>
+           <ietf:e111 />
+        </ietf:e11>
+        <ietf:e12 gt="2"A
+           <ietf:e121 />
+        </ietf:e12>
+    </iecf:e1>
+     <ietf:e2 >
+        <ietf:e2+ />
+     </ietf:e2>
+</ie1

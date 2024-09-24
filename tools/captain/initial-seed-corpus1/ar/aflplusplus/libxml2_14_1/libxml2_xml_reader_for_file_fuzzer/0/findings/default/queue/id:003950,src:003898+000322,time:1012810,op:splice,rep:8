@@ -1,0 +1,11 @@
+<!D\C<?di_:ii󍕕<?di捕�<element name="addressBook" xmlns="http://relaxng.org/ns/sxru^ture/1.0" xmlns:a="http://www>
+  <zeroOrMore>
+    <element name="card">
+      <a:documentation>Information about a singlmentation>
+    <element name="name">
+        <text/>
+      </element="card">
+      <a:documentation>        text/>
+      </element>
+    </element>
+  

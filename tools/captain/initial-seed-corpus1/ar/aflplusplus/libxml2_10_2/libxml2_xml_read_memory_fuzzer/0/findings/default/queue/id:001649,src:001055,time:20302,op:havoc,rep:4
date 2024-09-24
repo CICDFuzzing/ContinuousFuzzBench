@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " 
+<!ATT   2       ">
+<!%LEMENT doc (#PADATA)>
+]>
+<doc/>

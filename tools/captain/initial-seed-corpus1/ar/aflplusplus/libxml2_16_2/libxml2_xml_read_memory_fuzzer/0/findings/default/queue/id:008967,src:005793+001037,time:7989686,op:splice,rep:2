@@ -1,0 +1,5 @@
+<tst xmlns:a="ethn#6Cq++++++++++++++2Czo1/XMw3example%Dox<!ENTITY % b SYSTEM "http://example.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "http://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "h

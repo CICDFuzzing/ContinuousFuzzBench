@@ -1,0 +1,5 @@
+<?xml version= 1.0ÿ>
+<!DOCTYPE foo [
+<!ENTITY K PUBLIC "bar" "/%tc?doesnotexist">
+]>
+<rool:#e:,+vliq@

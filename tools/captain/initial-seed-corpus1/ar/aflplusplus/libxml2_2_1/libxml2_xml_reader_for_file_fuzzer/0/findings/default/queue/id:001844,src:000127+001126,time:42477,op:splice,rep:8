@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC <?xml version="1.0"?>
+<xsd:schema xmlns:xs1/XMLSchema">
+  <xsd:element name="doc">
+    <xsd:complexTyp:all minOccursQ"0">
+        <xsd:eljment name="a"/>
+        <xsd:element name="b"/>
+        <xsd:elemenx nam„="c"/>
+      </xsd:all>ö    </x„d:c

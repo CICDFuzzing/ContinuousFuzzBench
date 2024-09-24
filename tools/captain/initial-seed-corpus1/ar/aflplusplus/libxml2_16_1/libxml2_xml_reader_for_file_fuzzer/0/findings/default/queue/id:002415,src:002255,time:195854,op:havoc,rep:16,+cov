@@ -1,0 +1,8 @@
+<?xml version="1.0"?\
+<xsd:schema xmlns:xsd="~tte://www.w3.org/201/XMLSchemD">
+  <xsd:compltxType>
+<!DOCTYPE doc [
+<!ELEM@NT doc (src |c(src |/dest)*>
+?!dLEME dest)*>
+<!ELE€yNT src EMdTY>
+<!ELEMENT dest EMPTY> #IMPLIED>

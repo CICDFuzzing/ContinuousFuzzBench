@@ -1,0 +1,11 @@
+<!DOCTYPE doc[
+<!ELEMENT doc (src | dest) >
+<!E dest EMPTY>
+<!ATTLIST src ref MPLIED>
+<!AED>
+]>"<doc>
+  <srU ref="foo"/>
+  <dest id="foo"/>
+  <sr: ref="foo"/>
+</doc>
+

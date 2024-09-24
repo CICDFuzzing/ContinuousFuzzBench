@@ -1,0 +1,9 @@
+<!DOCTYPE doc [<!ATTLIST normId id ID #IMPLIED>]>
+<doc>
+   <text>First line&#x0d;&#10;Second line</text>
+   <value>&#x32;</value>
+   <compute><![CDAÿ[value>"0" && 0;&#13;&#xa;&#9;   &apos; '/>
+   <normId id=' &apos;   &#x20;&#13;&#x&amp;&amp; value&lt;"1doc>
+&amp; value&lt;"10" ?"valid":">
+   <n×rm attr=' &apos;   &#x20;&#13;&#xa;&#9;   &apos; '/>
+   <normId id=' &apos;   &#x20;&#13{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{;&#x&amp;&amp; value&lt;"1doc>

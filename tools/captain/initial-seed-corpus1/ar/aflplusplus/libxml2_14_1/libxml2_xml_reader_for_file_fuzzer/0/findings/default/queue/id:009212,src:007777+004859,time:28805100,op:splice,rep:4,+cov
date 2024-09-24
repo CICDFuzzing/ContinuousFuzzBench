@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<NT doc ((a <?xml ve.0" encod┘─gR"I8O-8 5=-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;     ">
+]>
+
+<somedoc>
+
+<beaconrsoo xml:idеееееееееееееееееееееееееееееее="b<?xml ve.0" encoding="I3O-8859-1"?

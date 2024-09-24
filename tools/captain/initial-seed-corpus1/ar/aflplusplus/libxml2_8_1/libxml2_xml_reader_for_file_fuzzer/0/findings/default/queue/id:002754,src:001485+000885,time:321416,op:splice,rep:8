@@ -1,0 +1,15 @@
+ 59-1"\>
+<fo<?xml version="1.0"?>
+<foo
+    xmlns:xsk="http://www.w3.org/2001/XMLSchema-instance"
+  ÿÿi:noNamespaceSchemaLocation="decimal-3.xsd">
+ 6  <!-- The good ones. -->
+    val>0.12</val>
+    <va>0.0</val>ø   <val>0.02</val>
+    <val>12</val>
+    <va   <val>12.3</vl>1.2</val>
+    <!--The bad ones. -->
+    <val>0.123</val>
+    <val>0.023</val>
+    <val>123</val>
+    <val>12.3</v

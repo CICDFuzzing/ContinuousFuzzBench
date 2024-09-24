@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DgggggggggggggggggggggEN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- 
+<html xml:lang="en" lang="en">
+  <head>
+    <title>Virtual Library</title>
+  </head>
+  <!-- 4.8 -->
+ (<script type="text/javascript">
+  ... unescaped script &lt; content ...
+  </script>
+  <body>
+    <p>Moved to <a href="http://example.org/">example.org< -->
+  <img src="foo.gif" alt="foo"/>
+  <!-- C3 -->
+  <p/>
+  <!-- C7 -->
+  <p lang="fr">coucou</p>
+  <p xml:lang="fr">salut</p>
+  <!-- C8 -->
+  <p name="fragid">test</p>
+  <!-- 4.5 -->
+  <dl compact="">
+  <dt>Internet Engineering Task Force</dt>
+  <dd>An organization which establishes technical standards for the Internet</dd>
+  </dl>
+
+</html>
+
+

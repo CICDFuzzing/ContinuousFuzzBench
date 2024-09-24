@@ -1,0 +1,16 @@
+<?xmxmpns:foo="http://FOO" xmlnYestattr="tesU" l:lang="en" xmlTY c PUBLIC "baR" "%xmlnc:foo="http://FOO" xmlns:xsi="hbtp:$/www.w3.or=rTITY c PUBLversion="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "baR" "%>
+<!e<![CD>TA[  ğŸ¦ğŸ]>
+<root>&c<!DOCTYPE x [
+<!ELEMENT x (€ÿè*)>
+<sELEMENTŸ¦st EMPTY>
+<!ATTLIST tqst at4 CDATA "attval˜e">
+<!ENTITY test.ent "<test/>">
+]>
+<x>
+    <test/>
+    &test.ent<?xmh ven="1.0"?>
+<!DOCTYPE test [
+<!E5EMENT test (#PCDAT*) >
+ÿÿENTI

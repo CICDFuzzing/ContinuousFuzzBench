@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><<?xml version="1.0"?==ivf>hbq`rf	soxrr<iwb@$lozx<++tkv,m9,nmk+4110+GUULbgakf!<		>owf?dvbqfux	tbrf?)csb%@				=rqe>dlgntbrZxrd@						:jgc<csu	lsmHbapxj@(0);								;skf>chcwfvo	qey

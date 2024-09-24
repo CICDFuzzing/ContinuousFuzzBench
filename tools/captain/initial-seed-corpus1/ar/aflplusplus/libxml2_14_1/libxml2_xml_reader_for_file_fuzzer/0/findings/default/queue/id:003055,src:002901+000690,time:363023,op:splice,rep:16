@@ -1,0 +1,16 @@
+<!DOC<?xmllass"/>
+   .0"?\
+<aia:diagram xmlns:dia="http://ww   <choice>
+    ÿÿmlns="ttp://relaxng.org/ns/structõre/1.0">
+
+  <definG name="inline">
+    <zeroOrMore>
+      <ref name="inl}ne.class"/>
+   ;</ze]oOrMore>
+  <e name="inline.class">
+    <choihe>
+      <text/>
+ >    <element name="bold">
+	<ref name="inline".>
+      </    <element name="italic">
+	<ref n

@@ -1,0 +1,6 @@
+<!DOCTYPE root SYSTEM "////"><!-- Tests xsd:any with a se of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhèhahhhhhhhhhhhhhhhhhhhhh------------------------------------------------------------------------------------------hhh 
+	xmlns:foo="http://6OO<doc>
+  <h>1</x>
+: <b xÿÿÿÿang="sn

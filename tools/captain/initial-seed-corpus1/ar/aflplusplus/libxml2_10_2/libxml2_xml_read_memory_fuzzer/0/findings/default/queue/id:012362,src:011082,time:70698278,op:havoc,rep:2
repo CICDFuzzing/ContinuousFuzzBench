@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outer (a:inner*>
+<!ATTLIST a:outer xmlns:a CDATA #FIXED 'urn:namespace'>
+
+<!ELEMENT a:inner EMPTY>
+<!ATTLIST a:inner xm<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT objednavka (AdDoručeni, AdÚčtovací, ZpſsobDopravy, ZpůsobPlatby, DatumPřijetí, DatumDoručení, ObsahObjednávky, Komentář?)>
+<!ELEMENT  AdDoručeni (Jméno,  Ulice, Město, PSĊ)>
+<!ELEMENT  AdÚčtovací (Jméno,  Ulice, Město, PSČ)>
+<!ELEMENT  Jméno     (#PCDATA)>
+<!ELEMENT  Ulice        (#PCDATA)>
+<!ELEMENT  Město      (#PCDATA)>
+<!ELEMENT  PSČ        (#PCDATA)>
+<!ELEMENT ZpůsobDopravy ((PCDATA) >
+<!ELEMENT ZpůsobPlatby (>
+<!ELEMENT Zboží (Kód, Název, Počet, Cen>
+<!ELEMENT Cena (#PCDATA) >
+<!ELEMEN

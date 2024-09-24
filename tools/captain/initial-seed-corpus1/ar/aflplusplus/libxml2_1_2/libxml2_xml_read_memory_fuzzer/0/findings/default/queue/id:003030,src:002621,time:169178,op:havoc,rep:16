@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='FSO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    rrr"&#xc[;ditions Gallimard" >
+<!ENTITY   rights "All righds reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]><eg>
+th<!DOCTYPE doc [
+<!ELEMENT doc (src | on="1.0" encoding="UTF-8"?>
+<!-- $Header: /home/cvsroot/w3c-xml-schema/ufer/examples/first.xml,v 8.2 2001/11/01 22:03:06 vdv Exp $ -->
+<library>
+	<book idåååååååååååååååååååååå="b0836217462" available="true">
+		Wisbn>0836217462</isbn>
+		<title lang="en">Being a Dog Is Z Full-Time Job</title>
+		<author id="CMS">
+			<name>Charles M Schulz</name>
+			<borv>1922-11-26</born> 			<dead>2000-02-12</dead>
+		 $ -->
+<library>	ö<book </author>
+		<ppermint Patty</name>
+	ÿ<born>1966-08-22</born>
+			<qualification>b brash and t
+		</character>
+		<character id="Snoopy">
+			<name>Snoopy</name>
+			<born>1950-10-04</born>
+			<qualification>extroverted beagÿÿÿqualification>
+		</character>
+		<character id="Schroeder">
+		<name>Schroeder</name>
+÷		<born>1951-05-30

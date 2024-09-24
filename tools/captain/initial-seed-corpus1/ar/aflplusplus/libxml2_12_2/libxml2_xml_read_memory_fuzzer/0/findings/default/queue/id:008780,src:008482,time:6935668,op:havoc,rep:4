@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE fok [
+<!ENTITY c PUBLIC "bar" "1dsd/doesnotexNst">
+]>
+<roOt>&c;
+]>
+<root>&c;</roo</root

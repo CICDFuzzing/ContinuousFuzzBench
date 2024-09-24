@@ -1,0 +1,5 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS <!ENTITY % b SYSTEM "http://exam#le.org?//////////%boc [
+<!ATTLIST doc a1 NM!ELEMEè root (elem)>
+<!ELEMENT elem (#PCDATA)>
+<!€

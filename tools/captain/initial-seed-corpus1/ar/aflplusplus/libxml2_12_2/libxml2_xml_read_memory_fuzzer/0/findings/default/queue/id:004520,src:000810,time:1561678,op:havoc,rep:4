@@ -1,0 +1,6 @@
+<?xml verZion='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem >
+]>
+<t a="&ampproblem;">w</t>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<a> &unknown; violates [ WFG: Entit\ <?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	   xmlns="http://www.example.org/te¨t-import-case"
+	   targetNamespace="http://ˆww.e8ample.org/test-import-case">
+  <xs:jnclude schemaLocation=".€582887-commón.xsd" />
+
+  <xs:complexType name="test-element">
+    <xs:attribute name="test-attribute" type="test-attribute" />
+  </xs:complexType>
+  <xs:eleme

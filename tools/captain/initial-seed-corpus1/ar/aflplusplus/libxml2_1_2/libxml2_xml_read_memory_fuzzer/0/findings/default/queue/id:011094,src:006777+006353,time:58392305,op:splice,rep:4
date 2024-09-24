@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTW-8"?>
+<!-- This tests that four-byte UTF-8 characters are parsed properly when split aross a buffer boundar length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
+<doc>
+<p><![CDATA[ðŸ¦îŸ¦ðŸ¦ðŸ¦ðŸ¦Ÿ¦ðŸ<?xml version='1.0'?>
+<?xtl version="1.0"?>
+<!DOCTYPE doc 

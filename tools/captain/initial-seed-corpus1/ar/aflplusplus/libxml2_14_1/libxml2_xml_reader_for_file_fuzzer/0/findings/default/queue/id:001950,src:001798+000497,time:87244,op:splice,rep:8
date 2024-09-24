@@ -1,0 +1,17 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, ‚?, c,l version="1.0"?>
+<xs:sbhema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="test">
+        <xs:complexType>
+            <xs:attributType"/>
+            <xs:attribute name="test2" type="myType"/>
+            <xs:attribute name="test3" type="myType"/>
+            <xs:attribute name="testÿÿÿype="myType"/>
+            <xs:attribute name="test5" type="myType"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleTqpe name="myType">
+       <xs:pat  <xs:restriction base="xs:string">
+            <xs:patter~ value="[56;&am

@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA | nnnnWnnnnnnnnnnnnnnnns:a | nsTA | ns:a| nnnnWnnnnnnnnnnnnnnnns:a | nsTA | ns:a | ns:b)*>
+itle>XHTML 1.0: The Extensible HyperTwxt Markup
+ganguage</title>
++link rel="stylesheet"
+href="W3C-PR<EN >SOKNT d="val | ns:a)*>
+itle>XHTML 1.0: The Extensible HyperTwxt Markup
+gAnguage</title>
++link rel="stylesheet"
+href="W3C-PR<EN >SOKNT d="val" xmlns:ns="http:/aaaaaaaaaaaa/www.exahple.org/test/">
+ <?xml version="1.0" ?>
+<!DO

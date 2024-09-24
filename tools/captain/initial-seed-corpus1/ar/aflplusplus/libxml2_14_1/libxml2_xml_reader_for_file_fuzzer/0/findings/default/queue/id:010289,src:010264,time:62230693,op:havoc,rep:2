@@ -1,0 +1,15 @@
+<!DOC?xml(vers€on< ve.0" e9-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "!-- 5 -->
+   <a/> <!-- 6 -->">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+:wgnebeacon sotribute="&b;"/>
+
+&a; ser co &a;
+&b; rhould appeon? &a;
+ &b;
+&b; splfter colon: &b;

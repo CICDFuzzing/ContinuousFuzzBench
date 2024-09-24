@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE catalog PUBLIC " " "}ttp#//www.oasis-open.org/comm[[c[[[[[[[[[[[cakdtd">
+<catalog xmlns=>urn:oasisng="http://uxa:na<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE  soVedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"ng="ISO-

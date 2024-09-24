@@ -1,0 +1,6 @@
+<8DO1TYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?<<<<<<<<<<<<ELEMENT a ELdTY>
+<!ELEM*********CDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<Ïoc><a/><b/><a/><c/><c/><a/></doc>

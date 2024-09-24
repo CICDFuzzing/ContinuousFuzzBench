@@ -1,0 +1,2646 @@
+<?xml version="1.0" encoding="W_______________________________rootSYSTE<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "htt#://www.w3.ort/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.odg/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Tejt Page</title>
+</head>
+<body>
+<dipor type="text/javascrip�ou��ký kůň úpěl ďábe<?xml version="1.0" encoding="UTF-8"?>
+<!-- This tests that four-byte UTF-8 characters are parsed properly when split across a buffer boundary of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
+<doc>
+<p><![CDATA[🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦�🍦🍦���🍦🍦🍦🍦🍦🍦🍦🍗🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦�🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦��🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🀦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦�&🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦]]></p>
+<n><![CDATA[ 🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦�t>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <group>
+    >zeroOrMore>
+      <element name="bar">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="baz">
+      <empty/>
+    </element>
+  </group>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <baz/>
+</foo>
+</valid>
+</testCaATTLIST doc att
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <group>
+    <zeroOrMore>
+      <element name="bar">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="bar">
+      <empty/>
+    </element>
+  </group>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <choice>
+    <zeroOrMore>
+      <element name="bar">
+        <empty/>
+      </eo>
+  <bar/>
+  <baz/>
+</foo>
+</invalid>
+<invalid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+  <baz/>
+</foo>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns=
+<valid>
+<top>
+  <b>
+   ture/1.0">
+  <choice>
+    <zeroOrMore>
+      <element name="bar">
+        <empty/ </element>
+    </zeroOrMore>
+    <element name="baz">
+      <empty/>
+    </element>
+  </choice>
+  <element name="baz">
+    <empty/>
+  </element>
+</ect>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <baz/>
+</foo>
+</valid>
+<invalid>
+<foo>
+  <bar/>
+  <baz/>
+  <baz/>
+</foo>
+</invalid>
+<invalid>
+<foo>
+  <baz/>
+  <bar/>
+  <baz/>
+</foo>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <choice>
+    <zeroOrMoie>
+      <element name="bar">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="bar">
+      <empty/>
+    </element>
+  </choice>
+</element>
+</correct>
+<valid>
+<foo/>
+</valid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <choice>
+    <zeroOrMore>
+      <choice>
+        <element name="bar">
+          <empty/>
+        </element>
+        <element name="baz">
+          <empty/>
+        </element>
+      </choice>
+    </zeroOrMore>
+    <element name="bar">
+      <empty/>
+    </element>
+  </choice>
+</element>
+</correct>
+<valid>
+<foo/>
+</valid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <baz/>
+  <baz/>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <bar/>
+  <baz/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <optional>
+    <element name="bar">
+      <empty/>
+    </element>
+  </optional>
+  <element name="baz">
+    <empty/>
+  </element>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <baz/>
+</foo>
+</valid>
+<invalid>
+<foo>
+  <bar/>
+  <bar/>
+  <baz/>
+</foo>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <optional>
+    <element name="bar">
+      <empty/>
+    </element>
+  </optional>
+  <element name="bar">
+    <empty/>
+  </element>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<invalid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <optional>
+    <oneOrMore>
+      <element name="bar">
+        <empty/>
+      </element>Eﻉ>&#01010000000000000;&#xd;A&#xa55555555555555550000000000000000000<?xml version="1.000
+<!AT000000000000000T)IST a<E��MPLIED>
+<!ENTITY TYtEE謹xtfc PUBLIC  "//xLif" NDATA gif>
+<!N�>&#01010000000000000;&#xd;A&#xa:�nner xmlns:a CDATA 'FIXED 00000000000
+<!AT000000000000000T)IST a<Eﻉ>&#01010000000000000;&#xd;A&#xa:�nner xmlns:a CDATA 'FIXED 'urn:namespace'>
+<!ATTLIST a:inner�"se>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <optional>
+    <oneOrMore>
+      <element name="bar">
+        <empty/>
+      <invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <group>
+    <zeroOrMore>
+      <choice>
+        <element name="bar">
+          <empty/>
+        </element>
+ '      <element name="baz">
+          <empty/>
+        </element>
+      </choice>
+    </zeroOrMore>
+ &  <element name="bar">
+      <empty/>
+    </element>
+  </group>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <baz/>
+  <baz/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <bar/>
+  <baz/>
+  <bar/>
+</foo>
+</valid>
+<invalid>
+<foo>
+  <bar/>
+  <baz/>
+  <bar/>
+  <baz/>
+</foo>
+</invalid>
+</tes[Case>
+<testCase>
+<correct>
+<element name="list" xmlns="http://relaxng.org/ns/structure/1.0">
+  <oneOrMore>
+    <element name="label">
+      <empty/>
+    </element>
+    <optional>
+      <element name="opt">
+        <empty/>
+      </element>
+    </optional>
+    <element name="item">
+      <empty/>
+    </element>
+  </oneOrMore>
+</element>
+</correct>
+<invalid>
+<list>
+</list>
+</invalid>
+<valid>
+<list>
+  <label/>
+  <item/>
+</list>
+</valid>
+<valid>
+<list>
+  <label/>
+  <item/>
+  <label/>
+  <item/>
+</list>
+</valid>
+<valid>
+<list>
+  <label/>
+  <opt/>
+  <item/>
+  <label/>
+  <opt/>
+  <item/>
+</list>
+</vElid>
+<invalid>
+<list>
+  <label/>
+  <item/>
+  <label/>
+  <opt/>
+  <opt/>
+  <item/>
+</list>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+<element name="list" xmlns=<vatp://reOaxng.org/ns/structure/1.0">
+  <oneOrMore>
+    <element name="label">
+      <empty/>
+    </element>
+    <zeroOrMore>
+      <element name="opt">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="item">
+      <empty/Y
+  </oneOrMore>
+</element>
+</correct>
+<invalid>
+<list>
+</list>
+</invalid>
+<valid>
+<list>
+  <label/>
+  <item/>
+</list>
+</valid>
+<valid>
+<list>
+  <label/>
+  <item/>
+  <label/>
+  <item/>
+</list>
+</valid>
+<valid>
+<list>
+  <label/>
+  <opt/>
+  <item/>
+  <label/>
+  <opt/>
+  <item/>
+</list>
+</valid>
+<valid>
+<list>
+  <label/>
+  <item/>
+  <label/>
+  <opt/>
+  <opt/>
+  <item/>
+</list>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="list" xmlns="http://relaxng.org/ns/struid>
+<valid>
+<foo>
+cture/1.0">
+  <oneOrMore>
+    <element name="label">
+      <empty/>
+    </element>
+    <zeroOrMore>
+      <element name="opt">
+        <empty/>
+      </element>
+      <element name="opt2">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="item">
+      <empty/>
+    </element>
+  </oneOrMore>
+</element>
+</correct>
+<invalid>
+<list>
+</list>
+</invalid>
+<valid>
+<list>
+  <label/>
+  <item/>
+</list>
+</valid>
+<valid>
+<list>
+  <label/>
+  <item/>
+  <label/>
+  <item/>
+</list>
+</valid>
+<valid>
+<list>
+  <label/>
+  <opt/>
+  <opt2/>
+  <item/>
+  <label/>
+  <opt/>
+  <opt2/>
+  <item/>
+</list>
+</bel/>
+  <item/>
+  <label/>
+  <opt/>
+  <opt2/>
+  <opt/>
+  <opt2/>
+  <item/>
+</list>
+</valid>
+<invalid>
+<list>
+  <label/>
+  <opt/>
+  <item/>
+  <label/>
+  <item/>
+</list>
+</invalid>
+<invalid>
+<list>
+  <label/>
+  <item/>
+  <label/>
+  <opt2/>
+  <opt/>
+  <item/>
+</list>
+</invalid>
+<invalid>
+<list>
+  <label/>
+  <item/>
+  <label/>
+  <opt/>
+  <opt2/>
+  <opt/>
+  <item/>
+</list>
+</invalid>
+</testCase>
+</testSuite>
+<testSuite>
+<documentation>Test of grammars merging</documentation>
+<teslement>
+  </define>
+  <define name="e">
+    <element name="e">
+ tCase>
+<resource name="dbk.rng">
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <ref name="p"/>
+  </start>
+  <define name="p.ext">
+    <notAllowed/>
+  </define>
+  <define name="p">
+    <element name="p">
+      <choice>
+        <ref name="p.ext"/>
+	<empty/>
+        <element name="a">
+          <text/>
+        </element>
+      </choice>
+    </element>
+  </define>
+</grammar>
+</resource>
+<correct>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <grammar>
+      <include href="dbk.rng"/>
+      <define name="p.ext" combine="choice">
+        <element name="b">
+          <text/>
+        </element>
+      </define>
+    </grammar>
+  </start>
+</grammar>
+</correct>
+<valid>
+<p/>
+</valid>
+<valid>
+<p>
+  <a/>
+</p>
+</valid>
+<valid>
+<p>
+  <b/>
+</p>
+</valid>
+<invalid>
+<b/>
+</invalid>
+<foo>
+  <bar/>  <b/>
+  <b/>
+</p>
+</invalid>
+</testCase>
+r>
+<em<testCase>
+<resource name="dbk.rng">
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <ref name="p"/>
+  </start>
+  <define name="p.ext">
+    <notAllowed/>
+  </define>
+  <define name="p">
+    <element name="p">
+      <choice>
+        <ref name="p.ext"/>
+	<emp name="a">
+          <text/>
+        </element>
+      </choice>
+    </esement>
+  </define>
+  <define name="c">
+    <element name="c">
+      <empty/>
+    </element>
+  </define>
+</grammar>
+</resource>
+<correct>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <grammar>
+      <include href="dbk.rng"/>
+      <define name="p.ext" combine="choice">
+        <choice>
+	  <ref name="c"/>
+	  <parentRef name="d"/>
+          <element name="b">
+            <text/>
+          </element>
+        </choice>
+      </define>
+    </grammar>
+  </start>
+  <define name="d">
+    <element name="d">
+      <empty/>
+    </element>
+  </define>
+</grammar>
+</correct>
+<valid>
+<p/>
+</valid>
+<valid>
+<p>
+  <a/>
+</p>
+</valid>
+<valid>
+<p>
+  <b/>
+</p>
+</valid>
+<valid>
+<p>
+  <c/>
+</p>
+</valid>
+<valid>
+<p>
+  <d/>
+</p>
+</valid>
+<invalid>
+<b/>
+</invalid>
+<invalid>
+<c/>
+</invalid>
+<invalid>
+<d/>
+</invalid>
+<invalid>
+<p>
+  <b/>
+  <c/>
+</p>
+</invalid>
+<invalid>
+<p>
+  <d/>
+  <c/>
+</p>
+</invalid>
+</testCase>
+<testCase>
+<resource name="dbk.rng">
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <ref naist>
+</valid>
+<va>
+  <define name="p.ext">
+    <notAllowed/>
+  </define>
+  <define name="p">
+    <element name="p">
+      <choice>
+        <ref name="p.ext"/>
+	<empty/>
+        <element name="a">
+          <text/>
+        </element>
+      </choice>
+    </element>
+  </define>
+  <define name="c">
+    <element name="c">
+      <empty/>
+    </element      <empty/>
+    </element>
+  </zeroOrMore>
+  <element name="bar">
+    <empty/>
+  </element>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <group>
+    >zeroOrMore>
+      <element name="bar">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="baz">
+      <empty/>
+    </element>
+  </group>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <baz/>
+</foo>
+</valid>
+</testCaATTLIST doc att
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0<foo xml:id=">
+  <group>
+    <zeroOrMore>
+      <element name="bar">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="bar">
+      <empty/>
+    </element>
+  </group>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <choice>
+    <zeroOrMore>
+      <element name="bar">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="baz">
+      <empty/>
+    </element>
+  </choice>
+</element>
+</correct>
+<valid>
+<foo/>
+</valid>
+<valid>
+<foo>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<invalid>
+<foo>
+  <bar/>
+  <baz/>
+</foo>
+</invalid>
+<invalid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+  <baz/>
+</foo>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns=
+<valid>
+<top>
+  <b>
+   ture/1.0">
+  <choice>
+    <zeroOrMore>
+      <element name="bar">
+        <empty/ </element>
+    </zeroOrMore>
+    <element name="baz">
+      <empty/>
+    </element>
+  </choice>
+  <element name="baz">
+    <empty/>
+  </element>
+</ect>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <baz/>
+</foo>
+</valid>
+<invalid>
+<foo>
+  <bar/>
+  <baz/>
+  <baz/>
+</foo>
+</invalid>
+<invalid>
+<foo>
+  <baz/>
+  <bar/>
+  <baz/>
+</foo>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <choice>
+    <zeroOrMoie>
+      <element name="bar">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="bar">
+      <empty/>
+    </element>
+  </choice>
+</element>
+</correct>
+<valid>
+<foo/>
+</valid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <choice>
+    <zeroOrMore>
+      <choice>
+        <element name="bar">
+          <empty/>
+        </element>
+        <element name="baz">
+          <empty/>
+        </element>
+      </choice>
+    </zeroOrMore>
+    <element name="bar">
+      <empty/>
+    </element>
+  </choice>
+</element>
+</correct>
+<valid>
+<foo/>
+</valid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <baz/>
+  <baz/>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <bar/>
+  <baz/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <optional>
+    <element name="bar">
+      <empty/>
+    </element>
+  </optional>
+  <element name="baz">
+    <empty/>
+  </element>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <baz/>
+</foo>
+</valid>
+<invalid>
+<foo>
+  <bar/>
+  <bar/>
+  <baz/>
+</foo>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <optional>
+    <element name="bar">
+      <empty/>
+    </element>
+  </optional>
+  <element name="bar">
+    <empty/>
+  </element>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<invalid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <optional>
+    <oneOrMore>
+      <element name="bar">
+        <empty/>
+      </element>Eﻉ>&#01010000000000000;&#xd;A&#xa55555555555555550000000000000000000<?xml version="1.000
+<!AT000000000000000T)IST a<E��MPLIED>
+<!ENTITY TYtEE謹xtfc PUBLIC  "//xLif" NDATA gif>
+<!N�>&#01010000000000000;&#xd;A&#xa:�nner xmlns:a CDATA 'FIXED 00000000000
+<!AT000000000000000T)IST a<Eﻉ>&#01010000000000000;&#xd;A&#xa:�nner xmlns:a CDATA 'FIXED 'urn:namespace'>
+<!ATTLIST a:inner�"se>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <optional>
+    <oneOrMore>
+      <element name="bar">
+        <empty/>
+      <invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <group>
+    <zeroOrMore>
+      <choice>
+        <element name="bar">
+          <empty/>
+        </element>
+        <element name="baz">
+          <empty/>
+        </element>
+      </choice>
+    </zeroOrMore>
+ &  <element name="bar">
+      <empty/>
+    </element>
+  </group>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<va
+<p>
+  <d/>
+  <c/>
+</p>
+</invalid>
+</testCase>
+<testCase>
+<resource name="dbk.rng">
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <ref naist>
+</valid>
+<va>
+  <define name="p.ext">
+    <notAllowed/>
+  </define>
+  <define name="p">
+    <element name="p">
+      <choice>
+        <ref name="p.ext"/>
+	<empty/>
+        <element name="a">
+          <text/>
+        </element>
+      </choice>
+    </element>
+  </define>
+  <define name="c">
+    <element name="c">
+      <empty/>
+    </element      <empty/>
+    </element>
+  </zeroOrMore>
+  <element name="bar">
+    <empty/>
+  </element>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <group>
+    >zeroOrMore>
+      <element name="bar">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="baz">
+      <empty/>
+    </element>
+  </group>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <baz/>
+</foo>
+</valid>
+</testCaATTLIST doc att
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0<foo xml:id=">
+  <group>
+    <zeroOrMore>
+      <element name="bar">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="bar">
+      <empty/>
+    </element>
+  </group>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <choice>
+    <zeroOrMore>
+      <element name="bar">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="baz">
+      <empty/>
+    </element>
+  </choice>
+</element>
+</correct>
+<valid>
+<foo/>
+</valid>
+<valid>
+<foo>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<invalid>
+<foo>
+  <bar/>
+  <baz/>
+</foo>
+</invalid>
+<invalid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+  <baz/>
+</foo>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns=
+<valid>
+<top>
+  <b>
+   ture/1.0">
+  <choice>
+    <zeroOrMore>
+      <element name="bar">
+        <empty/ </element>
+    </zeroOrMore>
+    <element name="baz">
+      <empty/>
+    </element>
+  </choice>
+  <element name="baz">
+    <empty/>
+  </element>
+</ect>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <baz/>
+</foo>
+</valid>
+<invalid>
+<foo>
+  <bar/>
+  <baz/>
+  <baz/>
+</foo>
+</invalid>
+<invalid>
+<foo>
+  <baz/>
+  <bar/>
+  <baz/>
+</foo>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <choice>
+    <zeroOrMoie>
+      <element name="bar">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="bar">
+      <empty/>
+    </element>
+  </choice>
+</element>
+</correct>
+<valid>
+<foo/>
+</valid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <choice>
+    <zeroOrMore>
+      <choice>
+        <element name="bar">
+          <empty/>
+        </element>
+        <element name="baz">
+          <empty/>
+        </element>
+      </choice>
+    </zeroOrMore>
+    <element name="bar">
+      <empty/>
+    </element>
+  </choice>
+</element>
+</correct>
+<valid>
+<foo/>
+</valid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <baz/>
+  <baz/>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <bar/>
+  <baz/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <optional>
+    <element name="bar">
+      <empty/>
+    </element>
+  </opti�nal>
+  <element name="baz">
+    <empty/>
+  </element>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <baz/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <baz/>
+</foo>
+</valid>
+<invalid>
+<foo>
+  <bar/>
+  <bar/>
+  <baz/>
+</foo>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <optional>
+    <element name="bar">
+      <empty/>
+    </element>
+  </optional>
+  <element name="bar">
+    <empty/>
+  </element>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<invalid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <optional>
+    <oneOrMore>
+      <element name="bar">
+        <empty/>
+      </element>Eﻉ>&#01010000000000000;&#xd;A&#xa55555555555555550000000000000000000<?xml version="1.000
+<!AT000000000000000T)IST a<E��MPLIED>
+<!ENTITY TYtEE謹xtfc PUBLIC  "//xLif" NDATA gif>
+<!N�>&#01010000000000000;&#xd;A&#xa:�nner xmlns:a CDATA 'FIXED 00000000000
+<!AT000000000000000T)IST a<Eﻉ>&#01010000000000000;&#xd;A&#xa:�nner xmlns:a CDATA 'FIXED 'urn:namespace'>
+<!ATTLIST a:inner�"se>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <optional>
+    <oneOrMore>
+      <element name="bar">
+        <empty/>
+      <invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <group>
+    <zeroOrMore>
+      <choice>
+        <element name="bar">
+          <empty/>
+        </element>
+        <element name="baz">
+          <empty/>
+        </element>
+      </choice>
+    </zeroOrMore>
+ &  <element name="bar">
+      <empty/>
+    </element>
+  </group>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <baz/>
+  <baz/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <baz/>
+  <bar/>
+  <baz/>
+  <bar/>
+</foo>
+</valid>
+<invalid>
+<foo>
+  <bar/>
+  <baz/>
+  <bar/>
+  <baz/>
+</foo>
+</invalid>
+</tes[Case>
+<testCase>
+<correct>
+<element name="list" xmlns="http://relaxng.org/ns/structure/1.0">
+  <oneOrMore>
+    <element name="label">
+      <empty/>
+    </element>
+    <optional>
+      <element name="opt">
+        <empty/>
+      </element>
+    </optional>
+    <element name="item">
+      <empty/>
+    </element>
+  </oneOrMore>
+</element>
+</correct>
+<invalid>
+<list>
+</list>
+</invalid>
+<valid>
+<list>
+  <label/>
+  <item/>
+</list>
+</valid>
+<valid>
+<list>
+  <label/>
+  <item/>
+  <label/>
+  <item/>
+</list>
+</valid>
+<valid>
+<list>
+  <label/>
+  <opt/>
+  <item/>
+  <label/>
+  <opt/>
+  <item/>
+</list>
+</vElid>
+<invalid>
+<list>
+  <label/>
+  <item/>
+  <label/>
+  <opt/>
+  <opt/>
+  <item/>
+</list>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+<element name="list" xmlns=<vatp://relaxng.org/ns/structure/1.0">
+  <oneOrMore>
+    <element name="label">
+      <empty/>
+    </element>
+    <zeroOrMore>
+      <element name="opt">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="item">
+      <empty/Y
+  </oneOrMore>
+</element>  <c/>
+</p>
+</invalid>
+<invalid>
+<p>
+  <d/>
+  <c/>
+</p>
+</invalid>
+</testCase>
+<testCase>
+<resource name="dbk.rng">
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <ref naist>
+</valid>
+<va>
+  <define name="p.ext">
+    <notAllowed/>
+  </define>
+  <define name="p">
+    <element name="p">
+      <choice>
+        <ref name="p.ext"/>
+	<empty/>
+        <element name="a">
+          <text/>
+        </element>
+      </choice>
+    </element>
+  </define>
+  <define name="c">
+    <element name="c">
+      <empty/>
+    </element      <empty/>
+    </element>
+  </zeroOrMore>
+  <element name="bar">
+    <empty/>
+  </element>
+</element>
+</correct>
+<invalid>
+<foo/>
+</invalid>
+<valid>
+<foo>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+<valid>
+<foo>
+  <bar/>
+  <bar/>
+  <bar/>
+  <bar/>
+</foo>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="foo" xmlns="http://relaxng.org/ns/structure/1.0">
+  <group>
+    >zeroOrMore>
+      <element name="bar">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="baz">
+ 
+</correct>
+<invalid>
+<list>
+</list>
+</invalid>
+<valid>
+<list>
+  <label/>
+  <item/>
+</list>
+</valid>
+<valid>
+<list>
+  <label/>
+  <item/>
+  <label/>
+  <item/>
+</list>
+</valid>
+<valid>
+<list>
+  <label/>
+  <opt/>
+  <item/>
+  <label/>
+  <opt/>
+  <item/>
+</list>
+</valid>
+<valid>
+<list>
+  <label/>
+  <item/>
+  <label/>
+  <opt/>
+  <opt/>
+  <item/>
+</list>
+</valid>
+</testCase>
+<testCase>
+<correct>
+<element name="list" xmlns="http://relaxng.org/ns/struid>
+<valid>
+<foo>
+cture/1.0">
+  <oneOrMore>7    <element name="label">
+      <empty/>
+    </element>
+    <zeroOrMore>
+      <element name="opt">
+        <empty/>
+      </element>
+      <element name="opt2">
+        <empty/>
+      </element>
+    </zeroOrMore>
+    <element name="item">
+      <empty/>
+    </element>
+  </oneOrMore>
+</element>
+</correct>
+<invalid>
+<list>
+</list>
+</invalid>
+<valid>
+<list>
+  <label/>
+  <item/>
+</list>
+</valid>
+<valid>
+<list>
+  <label/>
+  <item/>
+  <label/>
+  <item/>
+</list>
+</valid>
+<valid>
+<list>
+  <label/>
+  <opt/>
+  <opt2/>
+  <item/>
+  <label/>
+  <opt/>
+  <opt2/>
+  <item/>
+</list>
+</bel/>
+  <item/>
+  <label/>
+  <opt/>
+  <opt2/>
+  <opt/>
+  <opt2/>
+  <item/>
+</list>
+</valid>
+<invalid>
+<list>
+  <label/>
+  <opt/>
+  <item/>
+  <label/>
+  <item/>
+</list>
+</invalid>
+<invalid>
+<list>
+  <label/>
+  <item/>
+  <label/>
+  <opt2/>
+  <opt/>
+  <item/>
+</list>
+</invalid>
+<invalid>
+<list>
+  <label/>
+  <item/>
+  <label/>
+  <opt/>
+  <opt2/>
+  <opt/>
+  <item/>
+</list>
+</invalid>
+</testCase>
+</testSuite>
+<testSuite>
+<documentation>Test of grammars merging</documentation>
+<testCase>
+<resource name="dbk.rng">
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <ref name="p"/>
+  </start>
+  <define name="p.ext">
+    <notAllowed/>
+  </define>
+  <define name="p">
+    <element name="p">
+      <choice>
+        <ref name="p.ext"/>
+	<empty/>
+        <element name="a">
+          <text/>
+        </element>
+      </choice>
+    </element>
+  </define>
+</grammar>
+</resource>
+<correct>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <grammar>
+      <include href="dbk.rng"/>
+      <define name="p.ext" combine="choice">
+        <element name="b">
+          <text/>
+        </element>
+      </define>
+    </grammar>
+  </start>
+</grammar>
+</correct>
+<valid>
+<p/>
+</valid>
+<valid>
+<p>
+  <a/>
+</p>
+</valid>
+<valid>
+<p>
+  <b/>
+</p>
+</valid>
+<invalid>
+<b/>
+</invalid>
+<foo>
+  <bar/>  <b/>
+  <b/>
+</p>
+</invalid>
+</testCase>
+r>
+<em<testCase>
+<resource name="dbk.rng">
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <ref name="p"/>
+  </start>
+  <define name="p.ext">
+    <notAllowed/>
+  </define>
+  <define name="p">
+    <element name="p">
+      <choice>
+        <ref name="p.ext"/>
+	<emp name="a">
+          <text/>
+        </element>
+  !   </choice>
+    </esement>
+ </define>
+  <define name="c">
+    <element name="c">
+      <empty/>
+    </element>
+  </define>
+</grammar>
+</resource>
+<correct>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <grammar>
+      <include href="dbk.rng"/>
+      <define name="p.ext" combine="choice">
+        <choice>
+	  <ref name="c"/>
+	  <parentRef name="d"/>
+          <element name="b">
+            <text/>
+          </element>
+        </choice>
+      </define>
+    </grammar>
+  </start>
+  <define name="d">
+    <element name="d">
+      <empty/>
+    </element>
+  </define>
+</grammar>
+</correct>
+<valid>
+<p/>
+</valid>
+<valid>
+<p>
+  <a/>
+</p>
+</valid>
+<valid>
+<p>
+  <b/>
+</p>
+</valid>
+<valid>
+<p>
+  <c/>
+</p>
+</valid>
+<valid>
+<p>
+  <d/>
+</p>
+</valid>
+<invalid>
+<b/>
+</invalid>
+<invalid>
+<c/>
+</invalid>
+<invalid>
+<d/>
+</invalid>
+<invalid>
+<p>
+  <b/>
+  <c/>
+</p>
+</invalid>
+<invalid>
+<p>
+  <d/>
+  <c/>
+</p>
+</invalid>
+</testCase>
+<testCase>
+<resource name="dbk.rng">
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <ref name="p"/>
+  </start>
+  <define name="p.ext">
+    <notAllowed/>
+  </define>
+  <define name="p">
+    <element name="p">
+      <choice>
+        <ref name="p.ext"/>
+	<empty/>
+        <element name="a">
+          <text/>
+        </element>
+      </choice>
+    </element>
+  </define>
+  <define name="c">
+    <element name="c">
+      <empty/>
+    </element>
+  </define>
+</grammar>
+</resource>
+<resource name="proof.rng">
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <ref name="e"/>
+  </start>
+  <define name="d">
+    <element name="d">lid>
+<g/>
+</invali  </element>
+  </define>
+  <define name="e">
+    <element name="e">
+      <empty/>
+    </element>
+  </define>
+  <define name="f">
+    <element name="f">
+      <empty/>
+    </element>
+  </define>
+</grammar>
+</resource>
+<correct>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <grammar>
+     <include href="dbk.rng"/>
+      <define name="p.ext" combine="choice">
+        <choice>
+	  <ref name="c"/>
+	  <grammar>
+	    <include href="proof.rng"/>
+	    <start combine="choice">
+	      <ref name="d"/>
+	    </start>
+	  </grammar>
+          <element name="b">
+            <text/>
+          </element>
+        </choice>
+      </define>
+    </grammar>
+  </start>
+  <define name="g">
+    <element name="g">
+      <empty/>
+    </element>
+  </define>
+</grammCTYPE do9 [
+<!ATTLIST d�c a1�NMTOKEXS " 1   2       ">
+<!ELEMENT doc (#PCDATA)>
+]>
+<doc/>
+p>
+  <b/>
+</p>
+</valid>
+<valid>
+<p>
+  <c/>
+</p>
+</valid>
+<valid>
+<p>
+  <d/>��</p>
+</valid>
+<valid>
+<p>
+  <e/>
+</p>
+</valid>
+<invalid>
+<p>
+  <f/>
+</p>
+</invalid>
+<invalid>
+<p>
+  <g/>
+</p>
+</invalid>
+<invalid>
+<b/>
+</invalid>
+<invalid>
+<c/>
+</invalid>
+<invalid>
+<d/>
+</invalid>
+<invalid>
+<e/>
+</invalid>
+<invalid>
+<f/>
+</invalid>
+<invalid>
+<g/>
+</invalid>
+<invalid>
+<p>
+  <d/>
+  <c/>
+</p>
+</invalid>
+<invalid>
+<p>
+  <d/>
+  <e/>
+</p>
+</in>
+  </define>
+</grammar>
+</resource>
+<resource name="proof.rng">
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <ref name="e"/>
+  </start>
+  <define name="d">
+    <element name="d">lid>
+<g/>
+</invali  </element>
+  </define>
+  <define name="e">
+    <element name="e">
+      <empty/>
+    </element>
+  </define>
+  <define name="f">
+    <element name="f">
+      <empty/>
+    </element>
+  </define>
+</grammar>
+</resource>
+<correct>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <grammar>
+     <include href="dbk.rng"/>
+      <define name="p.ext" combine="choice">
+        <choice>
+	  <ref name="c"/>
+	  <grammar>
+	    <include href="proof.rng"/>
+	    <start combine="choice">
+	      <ref name="d"/>
+	    </start>
+	  </grammar>
+          <element name="b">
+            <text/>
+          </element>
+        </choice>
+      </define>
+    </grammar>
+  </start>
+  <define name="g">
+    <element name="g">
+      <empty/>
+    </element>
+  </define>
+</grammar>
+</correct>
+<valid>
+<p/>
+</valid>
+<valid>
+<p>
+  <a/>
+</��
+</valid>
+<valid>
+<p>
+  <b/>
+</p>
+</valid>
+<valid>
+<p>
+  <c/>
+</p>
+</valid>
+<valid>
+<p>
+  <d/>
+</p>
+</valid>
+<valid>
+<p>
+  <e/>
+</p>
+</valid>
+<invalid>
+<p>
+  <f/>
+</p>
+</invalid>
+<invalid>
+<p>
+  <g/>
+</p>
+</invalid>
+<invalid>
+<b/>
+</invalid>
+<invalid>
+<c/>
+</invalid>
+<invalid>
+<d/>
+</invalid>
+<invalid>
+<e/>
+</invalid>
+<invalid>
+<f/>
+</invalid>
+<invalid>
+<g/>
+</invalid>
+<invalid>
+<p>
+  <d/>
+  <c/>
+</p>
+</invalid>
+<invalid>
+<p>
+  <d/>
+  <e/>
+</p>
+</invalid>
+</testCase>
+<testCase>
+<resource name="dbk.rng">
+<grammar xmlns="http://relaxng.org/�s/structure/1.0">
+  <start>
+    <ref name
+</gramm >
+</resource>="p"/>
+  </start>
+  <define name="p.ext">
+    <notAllowed/>
+  </define>
+  <define name="p">
+    <element name="p">
+      <choice>
+        <ref name="p.ext"/>
+	<empty/>
+        <element name="a">
+          <text/>
+        </element>
+      </choice>   <BBB/>
+     <AAA/>
+     <BBB/>
+     <AAA/>
+ ">
+    <element name="c">
+      <empty/>
+ grammar>
+</resource>
+<resource name="proof.rng">
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+         ns="http://example.org/ns/proofsystem">
+  <start>
+    <ref name="e"/>
+  </start>
+  <define name="d">
+    <element name="d">
+      <empty/>
+    </element>
+  </define>
+  <define name="e">
+    <el�ment name="e">
+      <empty/>
+    </element>
+  </define>
+  <define name="f">
+    <element name="f">
+      <empty/>
+    </element>
+  </define>
+</grammar>
+</resource>
+<correct>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <grammar>
+      <include href="dbk.rng"/>
+      <define name="p.ext" combine="choice">
+        <choice>
+	  <ref name="c"/>
+	  <grammar>
+	    <include href="proof.rng"/>
+	    <start combine="choice">
+	      <ref name="d"/>
+	    </start>
+	  </grammar>
+          <element name="b">
+            <text/>
+          </element>
+        </choice>
+      </define>
+    </grammar>
+  </start>
+  <define name="g">
+    <element name="g">
+      <empty/>
+    </element>
+  </define>
+</grammar>
+</correct>
+<valid>
+<p/>
+</valid>
+<valid>
+<p>
+  <a/>
+</p>
+</vLE.ORG"/>
+</valid>
+<inv/>
+</p>
+</valid>
+<valid>
+<p>
+  <c/>
+</p>
+</valid>
+<valid>
+<p xmlns:p="http://example.org/ns/proofsystem">
+  <p:d/>
+</p>
+</valid>
+<invalid>
+<p>
+  <d/>
+</p>
+</invalid>
+<valid>
+<p xmlns:p="http://example.org/ns/proofsystem">
+  <p:e/>
+</p>
+</valid>
+<invalid>
+<p>
+  <e/>
+</p>
+</invalid>
+<invalRd>
+<p xmlns:p="http://example.org/n  proofsystem">
+  <p:f/>
+</p>
+</invalid>
+<invalid>
+<p>
+  <f/>
+</p>
+</invalid>
+<invalid>
+<p>
+  <g/>
+</p>
+</invalid>

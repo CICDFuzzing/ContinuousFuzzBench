@@ -1,0 +1,22 @@
+<¢"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "s
+r colon: &a;
+&b; should ]<@okpfexc>
+
+$(#PCDATA)>
+]>
+<<a/ <<![CDATc>
+
+$  somed]c [
+ A[]]<$hi<g">
+  <!ENTITY b   "">
+]>
+
+<somedoc>
+
+$  somed]c [
+  &b;"/>
+
+&a; &a;
+&b

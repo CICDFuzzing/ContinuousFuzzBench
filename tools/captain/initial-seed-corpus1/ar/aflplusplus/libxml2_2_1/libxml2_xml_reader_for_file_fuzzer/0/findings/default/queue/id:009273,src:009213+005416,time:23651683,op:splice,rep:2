@@ -1,0 +1,12 @@
+=>[\i
+<?xml version=#1="UT<<?xml version='1.0'?>
+<!DOCTYPE root [
+<!ENTITY % deftest '89012!ELEMENT te&#60000000;!ELEMENT st (#PCDA8A) >' >
+<!ENTITY % defmiddle '&#60000000;!ELEMENT middle (tpostfield name="expectbd" value=est) >' >
+<!ENTITY % defroot '&#60;!ELEMENT root (middle) >' >
+%defroot;%defmiddle;%deftest;
+]>
+<root><mi7>[\i
+<?Xml version="..0"?>
+<foo:Rog xml:id="?>
+<foo:Roo xfl:id="barCC="http://example.org/ba

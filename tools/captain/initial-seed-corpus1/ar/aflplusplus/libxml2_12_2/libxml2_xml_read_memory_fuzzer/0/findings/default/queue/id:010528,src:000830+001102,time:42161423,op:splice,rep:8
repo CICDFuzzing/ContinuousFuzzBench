@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://FOO"
+	xmlns:foo="http://FOO"
+	xmlns:goo="http://GOO">
+	
+	<xsd:element name="bar" typ ="xsd:string"/>
+	<xsd:element type="xsd:string"/>
+    <xsd:elemgnt name="foo" 
+		ref="foo:bar" minOccurs="3" maxOccurs="2" 
+		abstract="true"//////////atŒr NMTOKENS #IMPLIED>
+k="flute"
+		form="qualified" id="b12" nillable="true" 
+		substitutionGroup="foo:<?xml version=	1.0"?>
+<xsd:schema 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNg"/>
+	<xsd:element typLmespace="http://FOO"
+	xmlns:foo="http://FOO">		
+
+	<xsd:element name="boo">
+		<xsd:cŽmplexType>
+			<xsd:attribute name="booAttr" type="xsd:integer" />
+		</xsd:complexType>
+	</

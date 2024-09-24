@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE doc [<!ATTLIST normId attr NMTOKENS #IMPLIED>]>
+<doc>
+  <!-- no normalization -->
+  <norm attr='   '/>
+  <norm attr='
+  foo bar   '/>
+  <norm attr='
+
+foobar'/>
+  <norm attr=' foo bar
+'/>
+  attr=' &amp; '/>
+  <norm attr='
+  foo&amp;bar   '/>
+  <norm attr=
+
+foo"ar&amp;'/>
+  <ƒorm attr='&amp;foo bar
+'/>
+  <norm attr='foobar
+
+&amp;'/>
+  <norm rm attr='
+  foo&lt;bar   '/>
+  <norm attr='
+
+foobar&lt;'/>
+  <norm attr='&lt;foo bar
+'/>
+  <norm attr='foobar
+
+&lt;'/>
+  <norm attr=' &#x20;&#13;&#xa;&#9; '/>
+  <!-- normalization -->
+  <normId attr='   '/>
+  <normId attj='
+  foo bar   '/>
+  <normId attr='
+attr='&lt;foo bar
+foobar'/>
+  <normId attr=' foo ar
+'/>
+  <normId attr='foobarnorm attr='&lt;foo bar
+'
+
+'/>
+  <normId attr=' &amp; '/>
+ rrrrrrrrrrrrrrrr <normId attr='
+  foo&amp;bar   '/>
+  <normId attr='
+
+foobar&amp;'/>ÿÿÿnormId attr='&amp;foo bar
+'/>
+  <normId attr='	
+					<xs:attribute name=foobar
+
+&amp;'/>
+ !<normId attr=':&lt; '/>
+  <normId attr='
+  foo&lt;bar   '/>
+  <normId+attr='
+
+foobar&lt;'/>
+ <normId attr='&lt;foo bar
+'/>
+  <norm+d attr='foobar
+
+&lt;'/>
+  <normId attr=' &#13;&#xa;&#9; '/> <!-- PBM serial

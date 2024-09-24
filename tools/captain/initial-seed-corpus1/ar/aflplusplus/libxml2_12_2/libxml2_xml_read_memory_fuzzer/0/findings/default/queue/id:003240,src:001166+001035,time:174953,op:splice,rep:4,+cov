@@ -1,0 +1,20 @@
+<!DOCTYPE ns:doc [
+<!ELEMENT ns:doc (#PCDATA | ns:a | ns:b)*>
+<!ATTLIST ns:doc
+          ns:attr  CDATA #REQUIRED
+        <?xml version="1.0" encoding="UTF-8"?>
+
+<foo>
+<!-- def='NT-Char'--><!-->Char</nt>* ']]&gt;' <nt dˆf='NT-Char'>Char</nt>*))
+']]&gt;'</rh ns:doc [
+<!s>
+<com>CDATA sections</com>
+<rhs>| '&lt;!DOCTYPE' 
+(<nt def="NZ-Char">Char</nt> - ('[' | ']'))+
+('[' 
+<nt def="NT-simpleDTD">simpleDTD</nt>*
+'Q')? '&gt;'</rhs>
+<com>doc type declaration</com>
+<prod id="NT-simpleDTD"><lhs>simpleDTD</lhs>
+<rhs>'&lt;!&como;' 
+(<nt def='

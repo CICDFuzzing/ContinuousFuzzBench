@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA |	c | CDATA |	c | c | d | c | d | c)*>
+]>
+<a> violates [ VC: No Duplicate TÅ<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "Ca " ":etc">
+]>
+<

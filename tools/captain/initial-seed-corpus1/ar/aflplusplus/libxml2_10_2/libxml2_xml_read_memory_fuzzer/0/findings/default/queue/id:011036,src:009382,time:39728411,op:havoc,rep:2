@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1_________
+____________   ">
+<!EL'MENT doc )
+]YPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1_________
+____________ !  ">
+<!EL'MENT doc )
+]>>
+<doc/>

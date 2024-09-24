@@ -1,0 +1,18 @@
+ÿÿD\¢<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA|b|o:b)*>
+<!ATTLIST a xmlns:s CDATA #IMPLIED>
+<!ELEMENT b EMPTY>
+<!ATTLIST b _mlns:s CDATA #IMPLIED>
+<!ELEMENT d:b EMPTY>
+<!ATTLIST s:b xmlns:s CDATA #IMPLIED>
+]>
+<a xmlns:s="http://som/a">
+  Some t.
+	<s:U/>.
+	<s:b/>
+  Sodqt.
+	<c/>
+  Somd	gext.
+	<s:b/>
+  Sxme text.

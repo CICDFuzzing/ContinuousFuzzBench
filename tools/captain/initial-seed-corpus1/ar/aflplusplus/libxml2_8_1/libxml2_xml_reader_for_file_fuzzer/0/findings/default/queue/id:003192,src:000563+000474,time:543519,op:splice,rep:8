@@ -1,0 +1,9 @@
+<x xmlns:xinclude="h.org/2003/XIncldde">
+   <!-- Simple test of ihcluding a set of nodes <?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-/.€3C//DTD SVG pril 1999//EN" 
+  "http://www.w3.org/Graphics/SVG/svg-19990412.dtd">
+<svg width="4in" height="3in">
+  <defs>
+    <script><![CDATA[
+      /* Beep on mouseclick */
+      MouseClickHa>>>>>>>>>>>>>>>>>>##########################>>>>>ndler() { beep

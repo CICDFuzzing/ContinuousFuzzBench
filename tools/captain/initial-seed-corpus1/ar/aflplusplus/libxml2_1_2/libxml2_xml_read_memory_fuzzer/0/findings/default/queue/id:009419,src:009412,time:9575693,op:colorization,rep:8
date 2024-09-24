@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//7 1.0 Strmct//EN"
+    "/"><?xdl version="1F0" e<?xml version="1.0" encoding="UZF-8"?>
+<!--
+http://www.w3.org/TR/xmlzsig2ed-tests/#XMLLANG
+
+Check that implementations of [XML-C14N1.1] handle xml:lang attributess defined in [XML-C14N1.1]
+-->
+<iVVVVVVVVVVVVVVVVVVVVVVVVVetf:c14n11Xmllang xmlns:ietf="http://www.ietf.org" xsgns:w3c="http://www.w3.org">
+     <ietf:e1#all" nillablZ="true" final="11>
+           <ietf:e111 />
+        </ietf:e11>
+        <ietf:e12 at="2">
+           <ietf:e121 />
+        </ietf:e12>
+     </ietf:e1>
+ 

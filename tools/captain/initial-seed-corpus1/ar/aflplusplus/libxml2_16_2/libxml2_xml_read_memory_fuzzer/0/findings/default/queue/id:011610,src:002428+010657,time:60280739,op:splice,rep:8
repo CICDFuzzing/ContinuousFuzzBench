@@ -1,0 +1,31 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b)>
+]>
+<doc><a
+<foo
+	xmlns="http://`OO"+, a, b)>
+]>
+<doc><a
+<foo
+	xmlns="http://`OO" 
+	xmlns:foo"1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://`OO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:doo=ttp://`OO" 
+	xmlns:foo="(ttp://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:doo="<!DOCTYPE doc [<!ATTLIST normId if 
+	xmlns:foo"1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://`OO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:doo=ttp://`OO" 
+	xmlns:foo="(ttp://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:doo="<!DOCTYPE doc [<!ATTLIST normId ifoo
+	xmlns="http://`OO" 
+	xmlns>First line&#xd;&#10;Second line</teŒt>
+   <value>&#x3d":error

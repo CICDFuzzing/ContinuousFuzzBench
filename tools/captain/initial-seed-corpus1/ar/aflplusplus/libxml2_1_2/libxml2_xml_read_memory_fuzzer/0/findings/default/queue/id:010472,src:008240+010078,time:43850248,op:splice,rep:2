@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " Й∙∙ оооооооооооооооооооооооооооооE doc [
+<!ATTLIST doc a1 NMTOKENS " 1   2- --------------     ">
+<!<ELEMENT dest EMPTY>
+<!NT doc (src  ID PLIED>
+<!EN
+]>
+<doc>
+  <src | dest)*>
+<!ELEMENT src EMPTY>
+<!TTLIST doc a1 NMTOKENS " LIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID 

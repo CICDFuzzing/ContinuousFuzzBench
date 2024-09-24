@@ -1,0 +1,22 @@
+<!DOCTYPE doÿÿ[
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+dia:atefkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkÿkkkkkkkkkkkkkkkkkkkkkkkkkkkkatt  (0|1)   "0"
+     xmlns:tst CDATA #FIXED "http://example.org"
+     cst:att<doc>
+<foo xml:id="baæ<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELUMENT tst (#PCDATA)>
+<!ATLIST dest id ID #IMPLIED>
+]>
+<doc>
+  <src ref="foo"/>
+  <dest id="foo"/>
+  <src ref="fooITY a "&#xAdddddddddddddddddddddddddd;">
+]>
+<doc>
+<tst a="
+
+xyz" b=  "0""
+
+xyz"/>dddddddddddd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&

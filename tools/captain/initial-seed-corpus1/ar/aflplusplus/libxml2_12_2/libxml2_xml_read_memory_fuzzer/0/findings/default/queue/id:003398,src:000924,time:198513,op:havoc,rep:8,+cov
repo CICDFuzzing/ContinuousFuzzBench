@@ -1,0 +1,6 @@
+<?xKl version="1.1"?>
+<!DOCTYPE catalog PUBLIC "-//O//////////Entity 6esolution XML Catalog V1.0//EN" "http://www#oasis-open.org/committeus/entity/release/1.0/{atalog.dtd">
+<catalog xmlns="urn:oasis:names:ts:xml:catalog">
+<delegateSystem systemIdStartString="http://example.org/"
+                catalog="example.org.xml"/>
+</catalog>

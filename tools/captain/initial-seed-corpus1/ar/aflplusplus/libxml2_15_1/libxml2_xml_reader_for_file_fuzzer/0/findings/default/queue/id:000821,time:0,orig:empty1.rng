@@ -1,0 +1,18 @@
+<grammar xmlns="http://relaxng.o1.0">
+  <start>
+    <ref name="top"/>
+  </start>
+  <define name="empty">
+    <empty/>
+  </define>
+  <defname="top">
+    <element name="top">
+      <choice>
+        <ref name="empty"/>
+        <element name="a">
+	  <text/>
+        </element>
+      </choice>
+    </element>
+  </define>
+</grammar>

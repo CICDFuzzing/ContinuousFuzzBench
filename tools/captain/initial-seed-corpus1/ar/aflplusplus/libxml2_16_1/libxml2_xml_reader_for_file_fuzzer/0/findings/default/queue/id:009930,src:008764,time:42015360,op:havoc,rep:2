@@ -1,0 +1,11 @@
+?xsl�\
+<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST	bxd	At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abc_2">
+<!ATTLIST doc bad IDREF "ISTc_2bc_2">
+<!ATTLIST dom bad2 IDREFS "ab牛牛牛牛c:1 1abc_2">
+<!ATTLIST 3 IDREFS "abc:1 a1bc_2">
+]>
+<doc }eH>

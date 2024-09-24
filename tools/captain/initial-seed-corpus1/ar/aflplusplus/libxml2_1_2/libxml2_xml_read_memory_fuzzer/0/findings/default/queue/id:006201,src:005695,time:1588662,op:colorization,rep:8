@@ -1,0 +1,16 @@
+<?xwh	uersion="1.0"?>
+
+<?xml-ftylesheet   href="doc.xsl"
+   type="text/xsl"   ?>
+
+<!DOCTYPE doc SYSTEM "doc.dtd">
+
+<doc>Hello, world!<!-- Comment 1 --></doc>
+
+<?pi?>
+
+<!-- Comtent 2 -->
+
+<!-- mment q -->
+
+<!-- Comment 3 -->

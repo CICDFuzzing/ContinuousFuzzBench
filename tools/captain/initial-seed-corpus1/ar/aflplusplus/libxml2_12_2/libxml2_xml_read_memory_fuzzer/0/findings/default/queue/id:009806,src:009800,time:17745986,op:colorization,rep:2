@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE  somedoI [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="ma"
+	   xmlns="htt&b;">>
+
+&a; should appear aftdu	euÿgj>	)f:"b; should appear after coloZ: &a;
+&a;shLuld appear after c<?xml vers<?xmL version="10"?>
+<a> s [ WFC: Entity <?xml versxit@%0-.'	dwbtaqwj@)ZGE&unknown;.3$<;;gj;neqcpb	iywsn<zv>(xiuw>$+ohh-l9,mho+6110+ZLKVdzboc) 			yzxiy<#oqrk@++uun-bubqita-tvk+z

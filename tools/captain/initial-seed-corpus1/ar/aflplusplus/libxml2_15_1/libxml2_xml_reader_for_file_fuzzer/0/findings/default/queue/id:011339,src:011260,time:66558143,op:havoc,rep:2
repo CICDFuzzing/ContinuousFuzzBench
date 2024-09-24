@@ -1,0 +1,8 @@
+\n<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST dqf  defatt  (0|1) 
+<!ATTLIST dqf  defatt  (0|1)     "0"
+     xmlns:tst CDATA #FIXED "h//example.o0g"
+    deft:att (0|1)   "1"ÿ
+]>
+<doc att="1"/

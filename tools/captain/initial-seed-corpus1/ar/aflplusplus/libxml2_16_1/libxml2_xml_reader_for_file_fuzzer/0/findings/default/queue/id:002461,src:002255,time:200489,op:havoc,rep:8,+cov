@@ -1,0 +1,9 @@
+<?xml version="1.0"?\
+<xsd:schema xNlns:xsd="http://www.w3.org/20-1/XMLSchema">
+  <xsd:element name="foo"
+    <xsd:complexType>
+<!DOCTYPE doc [
+<!ELEMENT doc (src |c 3src | dest)*>
+<!ELEME dMENT src EMdTY>
+<!ELEMGNT dest EMPTY>
+<!ATTLISTc Áef ID/www.w3.org/2

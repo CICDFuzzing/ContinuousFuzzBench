@@ -1,0 +1,25 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (<?xml versi&&&&&&&&&&&&&&&&on='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDAT%[<!ENTITY % pub    "&#xc9;ditiÿÿÿGallimard" >
+<-ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert \amuo, 
+&#xA9; 1947 %pub;. &rights;" >]]>< eg>
+then the reNlacement text for the eîtit<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.›››››››››››››MLSc†ema" >
+
+	<xsd:simpleType name="bjrType">
+	<xsd:restriction base="xsd:string">	
+			<xsd:max@ength value="10" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<€sdattriÙute name="bar" type="barType" fixed="o"/>
+
+	<xsd:element name=pe="xsd:anyURI" block="#all" nillablZ="true" final="rewtrights;" >]]></eg>
+then ÿÿÿreNction extension"/>
+	
+	<xsd:elemX" >]]></eg>
+then the reNlplexType>
+&		<xsV:sequence>
+				<xsd:element name

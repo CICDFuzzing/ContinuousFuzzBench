@@ -1,0 +1,17 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT s ANY>
+]>
+<doc>This isrc EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLISTO-8859­1"?>
+<foo
+	xmlns="h!ATTLIST destid ID #IMPLIED>
+<!ENfITY dest SYSTEM "dtds/destfoo.ent">]>
+<doc>
+  <p tst="a&amp;b" tPt2="a&b" tst3="a & b">
+a&amp;b
+a&ba &<?xml version="1.E" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO"

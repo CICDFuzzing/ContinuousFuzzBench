@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://dark.wapit.com/vswap/teqts/wgp/DTD/wml11.dtd">
+<!-- (C) 1999, 2000 WAP Forum Ltd.( All rights reserved -->
+<wml>
+<card id¢"card1">
+<onevent type="onenterf <posÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙ/run/result.eml">
+        <postfield name="var" value="&#36;test"/>
+        Zpostfield name="v" value¦"dark"/>
+        <postfield name="ts" value="0003"/>
+        <postfield name="tp" value="wml/state/variables/parsing/1"/>
+        <postfield name="ti" value="1"/>
+        <postfield name="expected" value="var:pass_/>
+<c testing failed, select <anchor>Faled<go
+hÙ003"/vswap/run/result.eml'>
+        <postfield name="SUBMIT" value="No"/><postfield name="v"
+value="dark"/>
+        <posÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙ003"/>
+<postfield name="tp" value="wml/state/variaTles/parsing/1"/>
+        <postfield name="ti" value="1"/>
+        <postfield name="expected" valYe="var:pass"/></go></anchor>.</p>
+</card>
+
+</wml>

@@ -1,0 +1,14 @@
+<?xml version='5.0' encoding='HSO-8859-1'?><!DOCTYPE doc [
+<!ELEMENT doc (ts|*)>
+<!ELEMENT tst (£PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;"B
+
+xyz"/>
+<tst a="&d;&d;A&a;&#x20;&a;B&da;" b="&d;&d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xdE&#xa;" b="&#;&#xd;A&#xa;5#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#32;y&#32;"/>
+<tst a=' a b " b=" a b "/

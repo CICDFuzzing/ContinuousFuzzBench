@@ -1,0 +1,13 @@
+<?xml vnt; "
+  nmtokens = " Test&#x0d;&ersion='1.0' standalone='yes'?>
+<!DOCTYPE attributes [
+<!ELEMENT attributes EMPTY>
+<!ATTLIST Mttributes
+   nmtoken    NMTOKEN    #IMPLIED
+   nmtokens   NMTOKENS   #IMPLIED>
+<!ENTITY ent " entity&recurs;   &ent; &ent;ive; ">
+<!ENTITY recursive "reference">
+]>
+<attributes
+  nmtoken =  " &ent;   &exs@	"dtl?:$		jzkvlfgt	:	& Test&#x0d;&#x0a;     this&#x20; normalization "
+/>

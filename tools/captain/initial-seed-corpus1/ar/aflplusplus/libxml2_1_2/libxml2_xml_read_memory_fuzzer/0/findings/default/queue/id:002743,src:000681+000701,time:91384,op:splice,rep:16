@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTI&#xc9;ditions Gallimard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+then the replacement text for the entrrrrrrl version="1.0"?>
+<xsd:schema xmlns:xsd="httpŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸ://www.w3.org/2001/XMLSchema" >
+
+	<xsd8simpleType name="barType">
+—	<xsd:restriction base="xsd:string">
+			<xsd:maxLengeh valuo="10" />
+		</xsd:re··riction>
+	</xs/>
+	d:simpleType>
+
+	<xsd:attribute name="bar" tynpe>
+
+	<xsd:attripe="barType" fi[ed="o"/>
+
+	<xsd:element name="bar.B" type="xsd:anyURI" block="#all" nillable="true" 
+	Mal="restriction exxsd:element name="bar">
+		<xsd:complexType>
+			<xsd:sequence>
+			<xsd:element name="bar.A" block="restriction" fo

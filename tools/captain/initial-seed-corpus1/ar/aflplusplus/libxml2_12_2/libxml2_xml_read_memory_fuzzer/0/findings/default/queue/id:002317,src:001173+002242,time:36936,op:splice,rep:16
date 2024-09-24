@@ -1,0 +1,7 @@
+<?ÿl ve="1.0"?>
+<a> &unknown; violates [ WFC: Entity Declared ] <<Exml öersion=ÿ10"?>
+<a> &un<?xml versiow="1.0"?>ï;foo:Root xmlns:bar="http://example.ottp://e:ample.org/baz" xmlns:foo="http://example.org/foo" xmlns="http://example.org/ÿÿÿg>
+    xmln <foo:Something>
+         ( <foo:Something>
+        {    <baz:Something1/>
+      

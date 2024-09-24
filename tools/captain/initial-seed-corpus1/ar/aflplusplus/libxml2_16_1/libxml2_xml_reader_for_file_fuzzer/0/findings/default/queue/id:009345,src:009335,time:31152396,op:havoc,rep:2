@@ -1,0 +1,16 @@
+<?xsl \
+<!DOCTYPE cab SYSTEM "/">
+<caf>?xml version="1.0"?>
+<d:mUltistatus xmlns:d="http://www.ietf.oag/standardv/">
+  <d:r xmlns="http://rel.xng.org/ns/structure/1.0">
+
+  <define name="inline">
+    <zeroOrMore>
+      <ref name="inline.class"/>
+    </zeroOrMore>
+  </define>
+
+  <define name="inline.class">
+    <choice>
+      <text/>
+  <elementnam

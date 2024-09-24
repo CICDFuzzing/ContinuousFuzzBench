@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b ((((((((((((((((((NT c (#PCDATA)>
+]V
+<doc><a/><b/><D/><c/><c/><a/></doc>

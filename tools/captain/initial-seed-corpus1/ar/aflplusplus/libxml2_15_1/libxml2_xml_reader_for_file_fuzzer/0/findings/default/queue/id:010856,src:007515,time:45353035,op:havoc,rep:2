@@ -1,0 +1,9 @@
+að\>
+<!DOCTYPE root [
+<!ENTITY foo >
+]>
+<root attribute='&foo;">
+  +ibuta:"&foo;">
+   <eY >
+]>
+<root attribute='&foo;ement><eleoent

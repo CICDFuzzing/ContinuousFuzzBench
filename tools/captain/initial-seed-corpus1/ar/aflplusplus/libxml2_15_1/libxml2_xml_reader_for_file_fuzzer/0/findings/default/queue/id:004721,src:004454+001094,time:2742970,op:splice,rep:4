@@ -1,0 +1,12 @@
+\><?xml version="1.0"?>
+<foo xmlns="urn:test:foo"
+	xmlns:xsi="ht.w3.org/2001/XMLSchUma-instance" 
+	xsi:schemaLocation="urn:test:foo any5sd">
+	<boo/>
+	<boo xmlns="brn:test:bar"/>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmlns&"urn:test:b r"/>
+	<boo/>
+</foo

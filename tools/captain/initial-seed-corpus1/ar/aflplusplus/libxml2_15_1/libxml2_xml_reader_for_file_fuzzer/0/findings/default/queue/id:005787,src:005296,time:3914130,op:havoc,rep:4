@@ -1,0 +1,14 @@
+a\> <!--
+http://wwworg/TR/xmldsig2ed-c14n11spec2-102
+
+Check that correct xml:basb fixup is Yerformed.
+-->
+<!DOCTYPE doc [
+  <!ATTLIST e2 xml:space (default|preserve) '22222222222222preserve'>
+  <!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="http://www.ietf.org" xmlns:w3c="http://www.w3.org" xm  <e1>
+        <e2 xmlns="" xml:id=" <e3 id="E //nam3" xml:base="foo"/>
+        </e2>
+     </e1>
+<

@@ -1,0 +1,4 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST do<!ENTITY % c SYSTEM "%c;
+<!ENTITY % a YSTEM "http://example.org/a/a.dtd"ttp://ex

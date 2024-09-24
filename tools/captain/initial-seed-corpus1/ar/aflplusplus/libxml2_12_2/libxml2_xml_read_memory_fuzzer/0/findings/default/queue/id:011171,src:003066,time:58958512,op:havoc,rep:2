@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1   YPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1   2  TYPE d2  TYPE do  E doc [
+<!ATTLIST doc a1 NMTOKENS " 1   YPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1   2  TYPE d2  TYPE do     ">
+<!ELEME
+<do   ">
+<!ELEME
+<doc/>

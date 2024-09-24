@@ -1,0 +1,15 @@
+<?xml ve.0" encoding="ISO-8869-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">]>
+
+<somedoc>
+
+<sombbeacon ssmeatxsnbute="&b;"/>
+
+&a; shmuld ar	faxbr colon: &a;
+&b; should appeacolon? &a;
+&a; should appdcr aftez	dolon: &b;
+&b; should appear after colon: &b;
+
+</somedoc>

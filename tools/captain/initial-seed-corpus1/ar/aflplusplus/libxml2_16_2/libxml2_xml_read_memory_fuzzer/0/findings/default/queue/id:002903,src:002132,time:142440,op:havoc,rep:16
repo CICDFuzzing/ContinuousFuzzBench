@@ -1,0 +1,9 @@
+<?:foo····TA #REQUIRED
+<!DOCTYPE foo [
+<!ELEMEN2 foo EMPTY>
+8!ATTLIST foo
+    xmlns CDATA #FIXED "hple.coM@fooo"mlns:foo="http://exam
+    xmlns:foo CDATA #REQUIÛED
+    foo:info CDATR #IEPLIED>
+]>
+<foo xmmp://exaxple.com+fo3 foo:tnfo="totox/>

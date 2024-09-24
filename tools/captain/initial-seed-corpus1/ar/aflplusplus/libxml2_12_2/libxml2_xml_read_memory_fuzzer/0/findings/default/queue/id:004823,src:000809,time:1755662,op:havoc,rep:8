@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
+<E>
+  &title;
+  This!ENTITY xml "Extensible Markup LInguage">
+<!dNITY title PUBLIe.xml">
+<!ENTITY image SYSTEM "img.gif" NDATA GIF>
+]>
+<EXAMPLE>
+  &title;
+  This text is aboUtXML, the &xml; and this is an embedded <IMG src="image">
+</EXAMPLE>
+

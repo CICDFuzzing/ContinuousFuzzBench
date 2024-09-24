@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     defatt  (0|1)   "n; liolates ttp://example.org"
+     tst:att (0m1)   "1">
+]>
+<docatt="1"/>

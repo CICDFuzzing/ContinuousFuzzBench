@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a?| b)+, c) >
+<!ELEMENT a EMPTY>
+<!ELEMENT doc ((a?| b)+, c) >
+<!ELEMENT))))))))))))))))))))))))))))))))LEMENT c EMPTY>
+]>
+<doc><a/><b/><c/<?xml veãƒƒã‚»ãƒ¼€‚¸
+	xmlns="hÎtp://schemas.cordys.com/webapps/1.0/brm

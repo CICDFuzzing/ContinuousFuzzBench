@@ -1,0 +1,6 @@
+<!DOCTYPE foo [
+<!ENTITY K PUBLIC "bar" "($we?exist">
+]>
+:root<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar"

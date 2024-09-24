@@ -1,0 +1,12 @@
+<doc>
+  <x>1</>
+  <b xml:lang="en">
+    <x>en</x>
+    <x>3</x>
+  </b>
+  <x>4</x>
+  <para xml:lang=>
+  <div xml:lang="en"><paraa xml:lang="EN"/>
+  <para xml:lang="en-us"/>
+  <para xml:lang=&EN-US"/>
+</doc>

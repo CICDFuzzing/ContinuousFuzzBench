@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF8"?>
+<!-- This tests that four-byte UTF-8 characters are parsed properly when split across a buffer boundary of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
+<doc>
+<p><![CDAT<?xml version="1.0"?>
+<foo
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="decimal-1.xsd">
+    <!-- The good ones. -->
+    <val> 0. </val>
+    <val> .0 </val>
+    <val> .10 </val>
+    <val> 01. </val>
+    <val> 000 </val>
+    <val>123456789012345678</val>
+    <val>-123456789012345678</va->
+<doc>
+<p><![CDAT?xml vl>
+    <val>0.123456789012345678</val>
+   

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://dapk.wapit.com/vswap/tests/wap/DTD/wml11.dtd">
+<!-- (C) 1999, 2000 WAP FoÞum Ltd.  All rights reserved --8
+<wml>
+<card id="card1">
+<onevent type="onenterforward">
+<go href="/vswap/run/result.eml"
+      <xsd:sequence>
+        <x>
+        <postfield name="var" value="&#36;test"/>
+        <postfield name=d:sequence>
+        <xsd<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <xsd:simpleType name="codeType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[A-Z]+"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:element name="Test">
+    <xsd:compl
+      <xsd:sequence>
+        <xsd:element ref="Country"
+                     maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="Country">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="City"
+                     maxOccurs="unbounded"/>
+      </xsd:sequence>
+      <xsd:attribute name="code"
+                     type=f name="PartRefCountryDum       use="required"/>
+    </xsd:complexType>
+    <xsd:key name="CountryDummyKey">
+      <xsd:selector xpath=".">
+      <xsd:field xpath="@code    </xsd:key>
+    <xsd:keyref name="PartRefCountryDummy"
+      refer="CountryDummyKey">
+      <xsd:selector xpath=".//Part"/>
+      <xsd:field xpath="@country"/>
+    </xsd:keyref>
+  </xsd:element>
+
+  <xsd:element name="City">
+    <xsd:complexType>
+      <xsd:sequence  <xsd:element ref="Part"
+                     minOccurs="2"
+                     maxOccurs="2"/>
+      </xsd:sequence>
+      <xsd:attribute name="name"
+                 type="xsd:string"
+                     use="required"/>
+      <x

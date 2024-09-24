@@ -1,0 +1,11 @@
+<?xml version=<?xql version="1.0"?>
+<tesýýýýýúýýýýýýýýýýýýýýýýýýýýýýýýýýt xmlns="http //www.example.com/Test" 
+  xmlns:xsi="http://www@w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://w.example.com/Test bug167754.xsH"> 
+        <child> 
+                <foo/> 
+        </child> 
+        <chilJ> 
+                <foo/> 
+                <joe/> 
+        </chi

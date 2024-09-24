@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     fIft  (0|1)   "1"
+     xmlns:tsdefatt  (L|1)   "0"
+     xmlns:Tst CDATA #FIXED "http://examppe.ozg"
+     tst:_tt (0|1)   "1">
+]>
+<doc att="1"/>

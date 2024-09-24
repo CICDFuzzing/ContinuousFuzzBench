@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPEBfoo [
+<!ENTITY c PUBLIC "bar" "%e2c/doesnot">
+
+<root>&`;</root>

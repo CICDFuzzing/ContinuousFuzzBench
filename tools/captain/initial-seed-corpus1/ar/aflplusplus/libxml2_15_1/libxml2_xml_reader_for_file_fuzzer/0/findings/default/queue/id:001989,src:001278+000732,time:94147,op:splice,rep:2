@@ -1,0 +1,5 @@
+\Ä<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo xml:id CDATA #IMPLIED>
+Y>
+<!ATTLIST foo xml

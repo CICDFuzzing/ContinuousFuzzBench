@@ -1,0 +1,15 @@
+<D\§<!DOCTYPE doc [
+<!ELEMENT doc (a+ýb, c, b, c, d) >
+<!ET b EMPTY>
+<!ELEMENT c EMPTY>
+<!ELEMENT d EMPTY>
+<!ENTIddddddddddddddTY c "<c/>">
+<!ENTITY bc "<b/>&c;">
+]>
+<doc>
+<a/>
+&bc;
+/xsd:simpleType>
+          </&bc;
+<d/>
+</

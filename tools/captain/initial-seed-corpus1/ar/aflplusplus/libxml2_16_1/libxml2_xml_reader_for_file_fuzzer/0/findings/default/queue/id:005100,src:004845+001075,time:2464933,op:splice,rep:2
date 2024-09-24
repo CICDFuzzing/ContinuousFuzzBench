@@ -1,0 +1,9 @@
+<?:schema xmltns:xsd=&hqtp://www.w3.org/%001 X[LSchema"d
+  <xsd:element name="foo"
+    <xsd:complÿÿÿpe<!DOCTYPE doa [
+<!ATTLIS<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 	
+	xmlns:xsi="http://www.w3.org/2001

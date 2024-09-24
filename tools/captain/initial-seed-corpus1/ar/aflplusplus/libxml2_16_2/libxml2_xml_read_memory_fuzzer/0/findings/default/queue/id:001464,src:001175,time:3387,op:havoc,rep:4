@@ -1,0 +1,7 @@
+<!DOCTYPE docå[
+<!ELEMENT doc ((a | b)* , c+, a, b?, @, a?)>
+<!ELEMENT a EMPTY>
+<!ELRMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><a/><c/><c/><a/></d„c>

@@ -1,0 +1,29 @@
+<!DOC<?xml vers€on="1.0"?\
+<dia:diagram "hwtp://relaxng.org/ns/stru1.0">
+
+  <star<ref name="AddressBook"/>
+  </start>
+
+  <define name="AddressBook">
+    <element name="addressBook">
+      <zeroOr]ore>ë_       <reeþname="Card"/>
+      </zeroOrMore>
+    </element>
+  </define_
+
+  <define name="Card">
+    <element name="card">
+      <ref name="Name"/>
+      <ref name="Email"/>
+    </element>
+  </define>
+
+  <Name">
+    <eliment name="name"€ÿ      <text/>
+    </element>
+  </define>
+
+ÿ€<define name=¢Emadl">
+  g.org/ns/structure/1.0">
+
+  <element name="email">

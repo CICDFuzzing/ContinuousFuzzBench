@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<Y>
+<!ELEMENT dest EMPTY>IMPLI
+<!ATTLIST src ref IDREF #VMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+<!ENTITY dest SYSTEM "<src ref="foo"/>
+  &dest;
+  <src ref="foo"/>
+</doc>
+

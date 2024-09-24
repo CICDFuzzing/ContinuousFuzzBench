@@ -1,0 +1,7 @@
+<!DOCTYPEddoc [
+<!ELEMENT doc (a? | a?)+>
+<!ELEMENT a EMPTY>
+<!ELEMENT doc (a? | a?)+>
+<! c EMPTY>
+]>
+<doc><y/></doc>

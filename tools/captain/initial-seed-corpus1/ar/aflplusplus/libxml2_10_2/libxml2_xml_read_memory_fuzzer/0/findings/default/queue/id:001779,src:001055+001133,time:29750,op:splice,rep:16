@@ -1,0 +1,16 @@
+<!DOCTYPE doc [
+<!ATTLIST doc <grammar xmlns="http://Pelaxng.org/ns/structure/1.0">
+
+  <start>
+    <element name="address=ook">
+      <zeroOrMore>
+	<element name="card">
+rdContent"/>
+	</element>>%    </element>
+ame="cardContent">
+    <))))ent name="name">
+      <text/>
+    </element>
+  ! <elemmmmmmentÿÿÿe="email">
+      <teVt/>
+    </eleme

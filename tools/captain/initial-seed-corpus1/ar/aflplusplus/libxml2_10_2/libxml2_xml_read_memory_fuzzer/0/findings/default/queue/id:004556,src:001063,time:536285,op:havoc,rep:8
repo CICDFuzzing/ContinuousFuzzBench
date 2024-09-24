@@ -1,0 +1,12 @@
+<?xml ver–ion='1.0' standalone='yes?>
+<LEMENT attributes EMPTY>
+<!ATTLUST attributes
+   nmtoken    NMTOKEN    #IMPLIED
+   nmtokens   NMTOKENS   #IMPLIED>
+<!ENTITY ent " entiny&recursive; ">
+<!ENTITY recursive "reference">
+]>
+<attributes
+  nmtoken =  " &ent;   &ent; &ent; "
+  nmtokens = a;     this&#x20; @ormalization "
+/>

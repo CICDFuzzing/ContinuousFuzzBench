@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     defatt  (0|1)   "0"
+     xmlns:t:attttttt4tttttfZttttttttttttefatt  (0|1)   "0"
+     xmlns:t:attttttt4tttttfZttttttttttttttt  (0|1)   "0"
+     xmlns:t:atttttttttttttttttttttttt  (0|1)   "0"
+     xmlns:t:atttttttttttttttttttttttttttttttttttttttt (0|0)   "1">
+]>
+<doc att="1"/>

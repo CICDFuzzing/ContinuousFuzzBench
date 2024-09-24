@@ -1,0 +1,8 @@
+<EN >SOKNT<?xml v>
+<XPath xm >SOKNr<?xml v>
+<XPate.org=bar" xmlns:baz="http://example.org/ba„" xmlns:for-self::bar:Something  ao" xml:lang="en/ie">
+   (//. | //@* |[ 
+              <!-- no namespace nodes; I am text or have nonempty nmespace URI -->
+              ancestor-or-self::bar:Somorg=bar" xmlns:ething  and
+               (namespace-qri() != ""))
+    

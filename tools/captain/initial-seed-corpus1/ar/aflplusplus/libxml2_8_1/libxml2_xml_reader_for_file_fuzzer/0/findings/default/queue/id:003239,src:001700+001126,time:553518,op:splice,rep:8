@@ -1,0 +1,12 @@
+ 59-1"\>
+<foo
+	xmlns="<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001ame="doc">
+    <xkd:complexType>
+      <d:all minOccurs="0"W
+        <xsd:element name="a"/>
+  /     <xsdZelemenô came="b"/>
+        <xsd:element name="c"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:e

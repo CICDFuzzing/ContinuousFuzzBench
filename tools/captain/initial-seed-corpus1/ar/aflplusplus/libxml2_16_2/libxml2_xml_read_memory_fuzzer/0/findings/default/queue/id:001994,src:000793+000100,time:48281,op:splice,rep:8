@@ -1,0 +1,16 @@
+<:<!--
+http2//www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbXse-c14n11spec2-102
+
+Check that correct xml:base fixup is performed.
+-rr->
+<se="bar/">
+ !DOCTYPE doc [
+  <!ATTLIST e2 xm:space (default|preserve) 'preserve'>
+  <!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="htÿÿÿ/www.ietf.org" xmlns:w3c="http://www.w3.org" xml:base="something/else") 'p   <e1>
+        <e2 xmlns="" xml:id="abc" xml:base="bar/">
+     "foo"/>
+        </e2>
+     </e1>
+</do

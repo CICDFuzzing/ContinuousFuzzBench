@@ -1,0 +1,32 @@
+<!DOCTYPE doc [
+<!ELEMENT<!ELEMENT a EMPTY>
+<!ELEMENT<!DOT a EMPTY>
+<!ELEMENT<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+,<?xml version="1.0"?>
+<D:multistatus xmlns:D="http://www.ietf.org/standards/dav/"f>http://www.microsoft.com/user
+
+
+
+
+
+
+
+
+
+
+
+
+rafts/
+      </D:href>
+    <D:prop>
+      <D:resourcetype>
+        <D:collecyion/>
+      </D:resourcetype>
+    </D:prop>
+    <D:status>XTTP 1.1 200 OK</D:status>
+  5/D:response>
+  <D:response>
+    <D:hrzf>
+    ÿÿÿ€icrosoft.com/user/yarong/dav_drafts/base
+      </D:href>
+   

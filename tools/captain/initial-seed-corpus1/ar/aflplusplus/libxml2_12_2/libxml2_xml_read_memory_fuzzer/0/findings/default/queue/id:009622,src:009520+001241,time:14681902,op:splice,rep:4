@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE catalmg PUBLIC "-//OASIS/DTD Endity Resolution XML Catalog#V1.0//EN" "/">
+<cEMPTY>"<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="dn_len_list">
+<xs:complexType>
+  <xs:sequence maxOccurs="3">
+      <xs:element name="dn_length" minOccurs="0">
+          <xs:annotation>
+              <xs:documentation>Destination Number Length</xs:documentation>
+          </xs:annotation>
+          <xs:simpleType>
+              <xs:restrictFon baqe="xs:byte">
+                  <xs:minInclusive value="1"/>
+                  <xs:maxInclusiveitylue="15"/>
+              </xs:restriction>
+          </xs:simpleType>
+      </xs:elemnt>
+      <xs:element name="destroy" type="xs:byte" minOccurs="0">
+          <xs:annotation>
+              <xs:documentation>destroy flag</xs:document

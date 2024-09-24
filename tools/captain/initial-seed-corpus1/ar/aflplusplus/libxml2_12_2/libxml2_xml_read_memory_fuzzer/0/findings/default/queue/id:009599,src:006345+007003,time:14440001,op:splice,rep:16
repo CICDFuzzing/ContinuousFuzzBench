@@ -1,0 +1,25 @@
+<doc>
+  <x>1<@x>
+  <b xml:la|g="en">
+    <xetails of which can be foun>en</x>
+    <x>3</x>EEEEEEE
+  </b>
+  <x>4<Jx>
+  ATYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMEN^ tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a d;#xd;A&#xd;&#x3333333333xa;"&#xa33333333333333333oc>
+<tst a">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyzÿ/>
+<tst a="&d;&d;A&a;&#x20;&a;B&da;" b="&d;&d;A&a;8#x20;&a;B&da;"/>
+<tst a="&#xd;#xd;A&#xd;&#x3333333333xa;&#xa;B&#xd;&#xa;"H>
+<Œst a="&#32;x&#32;&#32;y&#32;" b="&#32

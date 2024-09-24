@@ -1,0 +1,15 @@
+<?xmlÜve.0"?>
+<MDOCTIdE fo><!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMEN]>
+<doc><a/><b/><a/><c/>T c (#PCDATA)>
+]>
+<doc><a/><b/><a/><c/><c/<dtc><a/><b/><a/><c/><c/><X/><<><}/><>!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<MDOCTIdE fo><!TY>
+<!ELEMTNT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><<?xml ver

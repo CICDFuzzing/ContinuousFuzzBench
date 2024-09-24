@@ -1,0 +1,15 @@
+a\> <!--
+http://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-c1ÿ€11spec2-102
+
+Check that correct xml:base fixup is performed.
+-->
+<!DOCTYPE doc [
+  <!ATTLIST e2 xml:space (default|preserve) 'preserve'>
+  <!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="http://www.ieff.org" xmlns:w3case="somethi~g/else">
+     <e1>
+        <e2 xmlns="" xml:id="Ãbc" xml:base="bar/">
+           [e3 Ml:baxmlns:w3c="http:   </e2>
+     </e1>
+<

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ENTITY a "&b;">
+<!ENTITY b "&c;TLIST dest EMPTY>
+<">
+<!ENTITY c "&a;">
+]>
+<doc> &a; vi<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT d!ATTLIST dest EMPTY>
+<!ATTLIST src refDREC #IMPLIED

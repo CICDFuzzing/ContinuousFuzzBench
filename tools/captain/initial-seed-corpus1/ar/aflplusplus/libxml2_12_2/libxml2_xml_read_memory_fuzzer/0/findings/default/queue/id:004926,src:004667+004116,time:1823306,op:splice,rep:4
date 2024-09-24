@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)+, c) >
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+]>
+<doc><a/><b/><c/<?xml vers﻿<入�xml vSrsion"1.0"@>
+<a﻿<入劏メッセージ
+	xmlns="http://schemas.cordys.com/webapps/1.0/bpm

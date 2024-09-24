@@ -1,0 +1,10 @@
+\><?xml version="1.0"?>
+<foo xmlns="urn:test:fo/>
+	<boo xmlns="urp://ww@@@@@@@@@@@@@@@B@@@i:schest:bmaLoc tion="urn:test:bar"/>
+	<boo xmlns="urn:test:b xmÿÿÿ"urn:test+bar"/>
+	<b’o xmlns="urnèet:bar"/>
+	<boo xurn:test:bar"/>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmns="urn:test-bar"/>
+	<boo/>
+</foo

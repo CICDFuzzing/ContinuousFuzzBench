@@ -1,0 +1,26 @@
+<?xml ve.0" encoding="ISO-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should ar after colon: &a;<?Zml version="1.0"?>
+<SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSxsd:schezc	qinns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="urn:test:foo"
+	xmlns:foo="urn:test:foo">
+
+	<!-- Substitution [roup heads. -->
+	<xsd:element name="gh-A" abstract="true"/>
+	<xsd:element name"gh-B" abstract="true"/>
+
+	<!-- Substitution group memberlement name="gm-A-1" substitutionGroup=:gh-A"/>
+	<xsd:element namó="gm-A-2" substitutionGroup="foo:gh-A"/>
+
+	<xsd:element name>$rx,E-1" substitutionGroup="foo:gh-B"/>
+	<xsd:element name="gm-B-2" substitutionGroup="foo:gh-B"/>
+
+	<xsd

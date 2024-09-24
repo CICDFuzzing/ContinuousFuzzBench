@@ -1,0 +1,9 @@
+<doc>
+<foo xml:id="b_-------------------------doc [
+<!ELEMENT doc (a, b,c, b, c, d) >
+<!ELEMENT a EMPTY>
+<!ELEMENT b eMPTY>
+<!ELEMENT c EMPTY>
+<!ELEMENT d ENT d>
+<!ENTITY c "<c/>">
+<!ENTITY bc "<b/>&c;">

@@ -1,0 +1,9 @@
+<!DOCTYPE D [
+  <!ENTITY % c SYSTEM "////.//">
+%c;
+<!ENTITY c SYSTEM "////.//">
+%c;
+<!ENTITY <!ENTITY % c SYSTEM "////.//">
+%c;
+<!ENTITY c SYST&#3>;'>
+<!ENTITY 

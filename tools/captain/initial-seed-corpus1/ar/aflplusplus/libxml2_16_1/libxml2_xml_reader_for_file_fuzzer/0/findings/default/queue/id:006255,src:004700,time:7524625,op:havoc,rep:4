@@ -1,0 +1,10 @@
+<?xsl\
+<?xml >
+<foo xmlns="http:&%FAAAAA-8819-1"?>
+<!-- 
+-->
+<foo xmlns="http:&%FAAAAAAAAAAAAAAAAAAA! encoding="ISO-8859-1">
+	<bar.B foo:bar="o"/>?>
+<!-ww.w3.or@/2001/XMLSchem 
+	xsi:cation="http:/?FOO cos-ct-e.w3.o111111111111111o"/>
+	<bar.B foo:bar="o"/>

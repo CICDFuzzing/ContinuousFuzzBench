@@ -1,0 +1,9 @@
+<x xmlns:xinclude="http://www.w3.orude">
+   <!-- Simple test of including a set of nodes <?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-///DTD SVG April 1999//EN" 
+  "httpg/Graphics/SVG/svg-19990412.dtd">
+<svg width="4in" height="3in">
+  <defs>
+    <script><![CDATA[
+      /* Beep on mouseclick */
+      MouseClickHandler() { beep

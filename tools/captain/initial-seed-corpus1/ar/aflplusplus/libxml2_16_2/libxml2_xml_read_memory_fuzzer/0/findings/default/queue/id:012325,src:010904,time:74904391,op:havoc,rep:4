@@ -1,0 +1,58 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>&#xd;&#xa;" b&!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMET tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS "&#xA;">
+<!ENTITY TYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMT7KENS "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>&#xd;&#xa;" b&!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMET tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>&#xd;&#xa;" b&#32;&#32;y&#32;"/>
+<tst a=" a b " b=" a b "/>
+<tst a="  a  b  " b="  a  b  "/>#32;&#32;y&#32;"/>
+<tst a=" a b " b=" a b "/>
+<tst a="  a  b  " b="  a  b  "/>
+</doc>
+
+da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>&#xd;&#xa;" b&#32;&#32;y&#32;"/>
+<tst a=" a b " b=" a b "/>
+<tst a="  a  b  " b="  a  b  "/>#32;&#32;y&#32;"/>
+<tst a=" a b " b=" a b "/>
+<tst a="  a  b  " b="  a  b  "/>
+</doc>
+

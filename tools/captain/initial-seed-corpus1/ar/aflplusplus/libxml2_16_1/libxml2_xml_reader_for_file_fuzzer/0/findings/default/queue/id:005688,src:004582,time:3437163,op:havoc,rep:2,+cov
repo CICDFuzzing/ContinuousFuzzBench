@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<xsd:schema xmltns:xsd="hqtp://www.w3.org/2001 XMLSchema">
+  <xsd:clement nwme="foo">
+    <xsd:complexType<!DOCTYPE doc [
+<!ATTLIST e2 xml:space (default|preserve) 'preserve'>
+<!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="http://sww.ietf.or XMLSchema">
+  <xsd:clement nwg" xmlns:w3c="http://www.w3.s

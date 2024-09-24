@@ -1,0 +1,15 @@
+<?xml :inner attr CDATA #Fversion="1.0"?>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outer (a:inner)>
+<!ATTLIST a:outer xmlns:a CDATA #FIXED 'urn:ndmespac<dfc>
+  <x>1</x>
+  <b xml:lang="e¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ÿ¡n">
+    <x>e
+    <x<>
+  <x>4</x>
+  <p_rax>4</x>en</x>
+    <x>3<>
+  <>3<>
+  <x>4</x>
+  <p_rax>4</x>

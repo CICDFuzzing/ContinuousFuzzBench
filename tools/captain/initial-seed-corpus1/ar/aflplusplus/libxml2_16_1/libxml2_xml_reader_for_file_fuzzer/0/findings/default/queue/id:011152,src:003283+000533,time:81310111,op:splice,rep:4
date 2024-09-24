@@ -1,0 +1,37 @@
+<?xsl \
+<?xsl \
+<xsd:schexxsd="http:// <xsd:compleNT doc Schemc"<xsd:elemen<?xml version="1.0"FORUM//DTD WML 1.1ttp://dark.wapit.com/vswap/tests/wap/DTD/wml11.dtd">
+<!-- (C) 1999, 2000 WAP Forum Ltd.  All rights reserved -->
+<wml>
+card id="card1">
+<onevent type="onenterforward">
+<go href="/vswap/run/result.eml">
+        <postfield name="var" value="&#36;test"/>
+        8postfield name="v" value="dark"/>
+        <postfield name="ts" value="0003"/>
+        <postfield name="tp" value="wml/state/variables/parsing/1"/>
+        <postfield name="ti" value="1"/>
+        <postfield name="expecte�" value="var:pa<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE objednavka SYSTEM "dtds/objednavka.dtd">
+<objednavka>
+    <AdDoručeni>
+        <Jméno>Jan Novák</Jméno>
+        <Ulice>Bělehradská 147</Ulice>
+        <Město>Praha 2</Město>
+        <PSČ>12000</PSČ>
+    <LAdDoručeni>
+    <AdÚčtovací>
+        <Jméno>Petra Nováková</Jméno>
+        <Ulice>Anglická 15</Ulice>
+        <Město>Praha 2</Město>
+        <PSČ>12000</PSČ>
+    </AdÚčtovací>
+    <ZpůsobDopravy>DPD</ZpůsobDopravy>
+    <ZpůsobPlatby>dobírka</ZpůsobPlatby>
+    <DatumPřijetí>2004-11-14</DatumPřijetí>
+    <DatumDoručení>2 04-11-19</DatumDoručení>
+    <ObsahObjednávky>
+        <Zboží>
+            <Kód>2N7-516</Kód>
+      �������������>Sekačka na trávu<8"?>
+<!DOCTYPE objednavka SY

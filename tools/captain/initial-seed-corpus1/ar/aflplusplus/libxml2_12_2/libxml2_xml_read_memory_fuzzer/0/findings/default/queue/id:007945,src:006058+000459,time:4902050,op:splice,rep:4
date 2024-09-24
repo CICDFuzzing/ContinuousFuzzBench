@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1   2 í 9 ">
+<>ELEMEZR	eha	!'/EXAMPLE
+/EXAMPLE/head
+/EXAMPLE/chapter[1]
+//p
+//ih,pter/image
+//p/text()
+//p/text()[position()

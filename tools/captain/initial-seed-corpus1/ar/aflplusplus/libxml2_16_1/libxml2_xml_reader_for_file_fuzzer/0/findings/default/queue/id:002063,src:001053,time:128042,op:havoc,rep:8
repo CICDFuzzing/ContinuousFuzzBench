@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSnhema">
+  <xsd:element name="foo">
+    <xsd:complexType>
+      <xsd:sicpleContent>
+        <xsd:extension base="xsd:string">
+          <xsd:attrixmlîs:xsd="id" type="xsd:ID"sd:simpleContent>
+    </xsd:coˆType>
+  </xsd:element>
+</xsd:schema>
+

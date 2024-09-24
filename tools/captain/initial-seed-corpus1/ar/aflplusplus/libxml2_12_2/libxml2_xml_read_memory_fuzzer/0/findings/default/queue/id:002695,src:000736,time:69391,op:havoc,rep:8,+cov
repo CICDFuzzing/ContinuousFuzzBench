@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | (estc ref IDREF #IMPLIED>
+<!ATTLIST dest i} ID "IM9LIED>
+]>
+<doc>
+  <src ref="foo"/>
+  <dest id="foo"/>
+  <src/ref="foo"/>
+</doc>
+

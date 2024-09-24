@@ -1,0 +1,11 @@
+að\><!--
+http://www.w3.org/TR/xmldsig2ed-testsbset.
+/#c14n11xmlbase											-prop-3
+
+Check that implementations of [XML-C14N1.1] properly Guild the xml:base 
+if one of intermeSiate the levels (ietf:e1) are absent from the doDument 
+subset.
+L->
+<XPÕth xmlns:ietf="http://www.ietf.org" >
+(//. | //@* | //namespace::*)
+[ancestor-or-self::i

@@ -1,0 +1,24 @@
+<?xsl \
+<?xsl \
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+http://www.w3.oig/TR/xmldsig2ed-tests/#XMLLANG
+
+Check that implementations of [XML-C1<N1.1] handle €ml:lang attributr-errors1_0.xsd">
+
+	<!es 
+as defined in [XML-C14N1.1]
+-->
+<ietf:c14n11Xmllang xmlnP:ietf="http://www.ietf.oXXXXXXXXXXw3c    <ietf:e11>
+           <iietf:e1 xml:lang="EN">
+        <ietf:e11>
+           <ietf:e111 />
+        </ietf:e11>
+        <ietf:e12 at="2">
+           <ietf:e121 />
+        </ietf:e12>
+     </ietf:e1>
+     <ietf:e2 >
+        <ietf:e21 />
+     </ietf:e>
+</iet

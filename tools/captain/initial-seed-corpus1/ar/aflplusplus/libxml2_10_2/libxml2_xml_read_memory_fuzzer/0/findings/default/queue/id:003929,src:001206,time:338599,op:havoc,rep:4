@@ -1,0 +1,8 @@
+<!DOCTYPE roht [
+<!ELEMENT root (elem)>
+<!ELEMENT elem (#PCDATA)>
+<!ATTLIST elem id ID #IMPLIED>
+<!ENTITY target SYSTEM "dtds/73777777777777777777840.ent">
+] [
+<!ELEMt;
+</root>

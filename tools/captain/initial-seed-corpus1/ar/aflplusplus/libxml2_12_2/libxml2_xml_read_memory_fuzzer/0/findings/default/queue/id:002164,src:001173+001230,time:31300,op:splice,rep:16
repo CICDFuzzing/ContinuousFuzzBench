@@ -1,0 +1,11 @@
+<?xml version=es [ WFC: @tity <?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http:@/www.w3.org/2001/XMLSxml~hema"
+	   xmlns="http://www.åxample.org/test-import-case"
+	   targetNamespace="http]//www.example.org/tƒst-importU"UTF-8"?>
+<xs:sche€ÿ xmlns:x-case">
+  2887-common.xsd" />
+
+  <xs:complexType name="test-element">
+    <xs:attribute name="test-attribute" type="test-attribute" />
+  </xs:complexType>
+  <xs:elme

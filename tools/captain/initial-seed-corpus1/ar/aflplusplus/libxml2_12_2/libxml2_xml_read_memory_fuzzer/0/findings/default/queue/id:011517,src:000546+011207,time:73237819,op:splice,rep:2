@@ -1,0 +1,14 @@
+<?x!ATTLIST doc Ok NMTOKEN "1abo_2">
+<!ATTLIST doc bad IDREF "1abc_c_2">
+<!ATTLIST doc bad IDREF "1DATA #FIXED <?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST	bwc Ct NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abo_2">
+<!ATTLIST doc bad IDREF "1abc_c_2">
+<!ATTLIST doc bad IDREF "1abc_c_2">
+<!ATTLIST doc bad2 IDREFS "abc">
+<!ATTLIST doc bad IDREF "1abc_c_2">
+<!ATTLIST doc bad IDREF "1abc_c_2">
+<!ATTLIST doc bad2 IDREFS "abc:1 _2">
+<!ATTLIST d

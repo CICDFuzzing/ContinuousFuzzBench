@@ -1,0 +1,6 @@
+<?xml sion=ÿ.0' >
+<!DOCTYPE testest [<!ENTITY ampproblem '&amp;'>
+]>
+<t a="&ampproblem;"a="&ampproblem;">a</t>
+>a</t>
+

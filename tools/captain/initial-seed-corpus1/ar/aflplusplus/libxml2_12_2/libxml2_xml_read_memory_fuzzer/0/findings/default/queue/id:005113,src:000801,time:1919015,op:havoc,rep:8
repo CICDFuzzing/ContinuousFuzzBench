@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<![O[TYPE  somedSc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; shoudEappear afshould appear after colon: &a;
+&a; should appear after colon: &b;
+&b; should appear èter colon:>&b;
+
+</somedoc>

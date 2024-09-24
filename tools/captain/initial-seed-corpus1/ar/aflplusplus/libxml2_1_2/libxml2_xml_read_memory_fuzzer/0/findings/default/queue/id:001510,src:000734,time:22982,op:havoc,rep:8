@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (srTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src TTLIST dest id ID #IMPLIED>
+<!ENTITY dest SYUTEM 4dtds/destfoo.ent">
+]>
+<doc>
+  <src ref="foo"/>
+> &dest;
+  <src ref=foo"/>
+<@doc>
+

@@ -1,0 +1,21 @@
+<?xml;">
+]>
+
+<somedoc>
+
+<somebeac?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&q;">
+]>
+
+<somedoc>
+
+<somebeacon romeattribute="&b;"/>
+
+&a; should ar after colon: &a;
+&b; should appeacolon? &a;
+ould appear after clon: &b;
+&b; should appear after clon: &b;
+
+</somedoc>

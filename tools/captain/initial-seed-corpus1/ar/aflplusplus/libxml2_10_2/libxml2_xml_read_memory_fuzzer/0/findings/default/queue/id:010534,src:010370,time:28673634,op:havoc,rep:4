@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY entA "Hello">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTITY entExt SYSTEM "elo">
+<!ENTITY ent2 SYSTEM "worldo">
+<!ENTITY ent2 SYSTEM ".txt">
+<!ENTITV entExt SYSTEM "earth.gif;, &eƒt2;!
+orld.txt contain "worl the quotes) -->

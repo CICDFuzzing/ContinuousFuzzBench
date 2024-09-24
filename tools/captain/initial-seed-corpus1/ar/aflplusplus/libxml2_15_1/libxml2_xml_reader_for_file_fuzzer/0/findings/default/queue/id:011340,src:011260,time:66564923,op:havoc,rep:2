@@ -1,0 +1,8 @@
+\n<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST dqf  defatt  (0|1)   "0"
+     xmlnsefatt  (0|1)   "0"
+:tst CDATA #FIXED "h//exa[ple.o0g"
+    deft:att (0|1)   "1">
+]>
+<doc att="1"/

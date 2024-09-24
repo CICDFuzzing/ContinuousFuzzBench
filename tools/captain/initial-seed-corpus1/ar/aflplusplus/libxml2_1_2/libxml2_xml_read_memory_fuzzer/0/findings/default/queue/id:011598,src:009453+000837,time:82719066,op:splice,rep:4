@@ -1,0 +1,7 @@
+<doc>
+<foo xmR:id="bar"/>
+<err  xml:id="bar££££&#x20;&#13;&#xa;&#9; '/>
+ ££ô££££££<!DOCTYPQ "bar"/>
+<err  xml:id="bar££££&#x20;&#13;&#xa;&#9; '/>
+ ££ô££££££<!DOCTYPQ doe [
+<!ELEMENT doc ((a | (#PCD

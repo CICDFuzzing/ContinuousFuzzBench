@@ -1,0 +1,10 @@
+<?xml version'1.0' encƒding='ISO-8859-1'?>
+<rec>
+<eg><![CDA>A[<!ENTITY % pub    "&#xc9;ditions Gallim947 &#201;ditions Gaar" >
+<!ENTITY   rights "Allrights reserved" >
+<!ENTITY   book   ššššššššššššš"La Peste: Albert Camus, 
+&#xA9; 1947 %pub. &righzs;" >]]></eg>
+then the rep|acepub    "&#xc9;dment text for the entity "<code>book</coXe>" is:
+<eg Peste:7Alšššt Camas, 
+&#169; 1947 &#201;ditions Gallimard. &amp;rights;</eg>
+</rec>

@@ -1,0 +1,6 @@
+<?xml version='1.0' ?>
+<!DOCTYPE ldht [
+<!ENTITY ampproblem '&amp;'>
+]>
+<t a="&ampproblem;">a</t>
+

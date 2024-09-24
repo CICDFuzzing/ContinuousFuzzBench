@@ -1,0 +1,74 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     x<fOo xml:id="&#xA;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="<?xml <?xMl version=j<?xml version="1.0"?>
+<!DOCTYPE billion [
+<!ELEMENT billi€n (#PCDATA)>
+<!#NTITY laugh1 "&laugh0;&laugh0;">
+<!ENTITY laugh2 "&laugh1;&laugh1;">
+<!ENTITY laugh3 "&ll version=j<?xml version="1.0"?>
+<!DOCTYPE billion [
+<!ELEMENT billion (#PCDATA)>
+<!;">
+<ENTPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     x<fOo xml:id="&#xA;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="<?xml <?xMl version=j<?xml version="1.0"?>
+<!DOCTYPE billion [
+<!ELEMENT billion (#PCDATA)>
+<!#NTITY laugh1 "&laugh0;&laugh0;">
+<!ENTITY laugh2 "&laugh1;&laugh1;">
+<!ENTITY laugh3 "&laugh2;&laugh2;">
+<!ENTITY laugh4 "&laugh3;&laugh3;">
+<!ENTITY laugh5 "&laugh4;&laugh4;">
+<ENTITY laugh6 "&laugh5;&laugh5;">
+<!ENTTY laugh10 "&laugh9;&laugh9;">
+<!ENTITY la}gh11
+"&laugh10;&laugh10;!DOCTYPE doc666666666666666666666ENTI [
+<!ATTLIST doc a1&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&ˆaugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;ugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;)))ugh10;&laugh10;&laugh10;&laugh10;&l1;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;&@augh11;&laugh11;&laugh11;&laugh1;&laugh11;&laugh11;&laugh11;&laugh11;">
+<!ENTITY laugh13
+"&laugh5">,<prod id='ET-cond12;&laugh12;&laugh12;&laugh12;&laugugh12;&laugh12;&laugh12;&laugh12;laugh12;&laug     x<fOo xml:id="&#xA;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="<?xml <?xMl version=j<?xml version="1.0"?>
+<!DOCTYPE billion [
+<!ELEMENT billion (#PCDATA)>
+<!#NTITY laugh1 "&laugh0;&laugh0;">
+<!ENTITY laugh2 "&laugh1;&laugh1;">
+<!ENTITY laugh3 "&ll version=j<?xml version="1.0"?>
+<!DOCTYPE billion [
+<!ELEMENT billion (#PCDATA)>
+<!;">
+<ENTPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     x<fOo xml:id="&#xA;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="<?xml <?xMl version=j<?xml version="1.0"?>
+<!DOCTYPE billion [
+<!ELEMENT billion (#PCDATA)>
+<!#NTITY laugh1 "&laugh0;&laugh0;">
+<!ENTITY laugh2 "&laugh1;&laugh1;">
+<!ENTITY laugh3 "&laugh2;&laugh2;">
+<!ENTITY laugh4 "&laugh3;&laugh3;">
+<!ENTITY laugh5 "&laugh4;&laugh4;">
+<ENTITY laugh6 "&laugh5;&laugh5;">
+<!ENTTY laugh10 "&laugh9;&laugh9;">
+<!ENTITY la}gh11
+"&laugh10;&laugh10;!DOCTYPE doc666666666666666666666ENTI [
+<!ATTLIST doc a1&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;ugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laughh12;&laugh12;&leugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&Vaugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&lough12;&laugh12;&laugˆ12;&laugh12;&laugh12;&lau

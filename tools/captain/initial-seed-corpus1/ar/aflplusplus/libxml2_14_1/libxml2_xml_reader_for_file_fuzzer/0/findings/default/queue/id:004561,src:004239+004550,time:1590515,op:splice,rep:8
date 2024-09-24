@@ -1,0 +1,43 @@
+<?xml ve.0" encoding}"ISO-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "somethi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should ar after colon: &a;
+&b; should appeacolon? &a;
+&a; should appear after colon: &b;
+&b; shou<?}ml ve.0" encoding="ISO-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should ar after colon: d:element name="gh-A" abstrad:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="urn:test:foo"
+	xmlns:foo="urnstitution group heA" abstract="true"/>
+	<x:element name="gh-B" abstract="true"/>
+
+	<!-- eubstitution grou

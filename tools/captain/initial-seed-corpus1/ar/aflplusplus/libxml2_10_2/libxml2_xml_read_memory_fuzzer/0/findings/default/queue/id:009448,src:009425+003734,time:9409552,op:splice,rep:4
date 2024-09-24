@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ENTITY % b SYSTEM "httple.TTTTTTTTTTTTTTTTTTTTTTTTTTTTTorg/b/b.dtd">
+%b;
+<<!DOCTYPE doc [
+<!ATTLIST d<?xml version="1.0" ?>
+<!PE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xmlns CDATA #FIXED "http://example.com/fooo"
+    xmlnsTYPE doc [
+<!ATTLIST d<:foo CDJTA #RE

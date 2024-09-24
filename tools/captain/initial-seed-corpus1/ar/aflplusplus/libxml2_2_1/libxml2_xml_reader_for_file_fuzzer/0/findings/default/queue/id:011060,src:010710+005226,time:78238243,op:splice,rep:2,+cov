@@ -1,0 +1,9 @@
+=>[\i<!DOCTYPE doc [
+<!ELEMENT doc ((a | b) , (c | d))+>
+<!ELEMENT a (#PCDATA)>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+<!ELEMENT d (#PCDATA)>
+]>
+<doc><b>This</b><c> is a va=>[\i
+O?xml/tmp/generate_temporary_file.FD6 vql<!0,

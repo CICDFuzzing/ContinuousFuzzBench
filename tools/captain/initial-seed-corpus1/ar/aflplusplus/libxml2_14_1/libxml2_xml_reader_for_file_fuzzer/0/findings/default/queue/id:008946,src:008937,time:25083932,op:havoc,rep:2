@@ -1,0 +1,12 @@
+<?"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "<bibref Wef='IANA'/>; xmt=s">
+  <!ENTITY b   "">
+]>
+
+<somedoc>
+
+$ ,komed]c [
+  &b;a   "<bibref Wef='IANA'/>; xmt"/>
+
+&a; (fr$e

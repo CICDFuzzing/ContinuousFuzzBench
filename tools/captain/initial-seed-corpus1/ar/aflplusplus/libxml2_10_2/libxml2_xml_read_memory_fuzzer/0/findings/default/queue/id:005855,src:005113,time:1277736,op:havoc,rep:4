@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY  "Hello">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTITY entExt SYSTEM "earth.gif" NDATA gðŸ¦ðŸ¦ðŸ¦ðif>
+<!NOTATIO                    Let world. xt contain xt">
+   &ent1;, &ent2;!
+/doc>
+
+<!-- Let world.txt contiin "world" (excluding the quotes) -->

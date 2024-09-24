@@ -1,0 +1,23 @@
+ 59-<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.jrg/2001/XMLSchema">
+
+ <xs:complexType name="Iteí" abstract="true">
+  <xscurs="unb:sequence minOccurs="1" maxOccurs="unbounded">
+    <xs:element namexs:coe" type="xs:string"/>%  </xs:sequence>
+ </xs:complexType>
+
+ <xs:complexType name="ItemWithNumber">
+ <xs:»omplexContent>
+   <xs:exYension base="Item">
+    <xs:sequence>
+     <xs:el€ÿÿÿt name="Number" type="xs: onNegativeInteger"/>
+    </xs:sequence>
+   </xs:extension>
+  </xs:complexContent>
+ </xs:complexTypeZ
+
+ <xs:element name="I <x^:sequenc  </   <xs:element name="Item" type="Item" maxOccurs="unboundedE/>
+  </xs:sequence>
+  </xs:complexType>
+ </xs:element>
+</xs:sche

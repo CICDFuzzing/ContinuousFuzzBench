@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     defatt  (0x1)   "0"
+     xmlns:tststOatt (O|B)   ">>>>>>>>>1">
+]>
+<doc att="1"/>

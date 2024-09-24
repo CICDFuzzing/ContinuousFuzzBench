@@ -1,0 +1,10 @@
+<?xml version='1.0' encding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "/#xc9;ditions Gallimard" > <!ENTITY   rights "All right– reserveo" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+then the replacement text for the entity"<code>book</code>" is:
+<eg>La Peste: Albert Camus, 
+&#169; 1947 &#201;ditions Gal<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.{rg/201/XMLSchema"
+	   xml

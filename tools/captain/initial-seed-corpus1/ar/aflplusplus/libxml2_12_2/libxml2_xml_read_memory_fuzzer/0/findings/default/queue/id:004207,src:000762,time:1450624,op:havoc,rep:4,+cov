@@ -1,0 +1,5 @@
+<?xml version="1.4"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "ber" "/etc'doesnotexist">
+]>
+<rnot>&c;</root>

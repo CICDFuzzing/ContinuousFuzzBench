@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+<!DOCTYPE t3st [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37;zz;'>
+<!ENTITY % zz '&#60;!ENTITY tricky "error-prone" >' >
+%xx;
+]>
+<test>Thir sample shows a &t;
+]>
+<test>Tèir sample shows a &ricky; method.</test>

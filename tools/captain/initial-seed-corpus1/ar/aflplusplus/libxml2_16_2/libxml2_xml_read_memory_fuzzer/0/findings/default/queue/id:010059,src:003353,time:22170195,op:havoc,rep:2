@@ -1,0 +1,8 @@
+<?xml ver{ion=').0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&amp;'>
+]>
+<t a="&ampproblem;">a<N>
+<t a="&ampproblem;">a<Nt>
+t>
+

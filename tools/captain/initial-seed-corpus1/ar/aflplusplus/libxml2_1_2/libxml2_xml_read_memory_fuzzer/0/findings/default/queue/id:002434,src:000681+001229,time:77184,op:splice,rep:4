@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![NDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
+<!EN‹ITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+then the replacement txxt for the entity "<code>b                 eg>La Peste: Albert Camus, 
+&#169; 1947 &#201;ditions Gal<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	   xml

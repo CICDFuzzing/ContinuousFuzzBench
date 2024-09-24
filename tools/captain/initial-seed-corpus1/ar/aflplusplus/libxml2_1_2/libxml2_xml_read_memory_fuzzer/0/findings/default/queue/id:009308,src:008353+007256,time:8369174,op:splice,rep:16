@@ -1,0 +1,18 @@
+<_7_ã:87_ã:8doc>
+<tst a="
+ü÷yz" <b"
+ü÷yz" <blala>&Ú01010000&a;&#x000000000002-x&#32;&#3200000000000000000000000000000000060;</bT doc (tst*)>
+<!la<!DOCTYPE dec [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tsƒ a NMTOKENS #IMPLIED>
+<tst b CDATA #IVPLIED>
+<!ENTITY9z "&#xD">
+<!ENTITY a "&@xA;">
+<!ENTITY da "&#xsƒ a ND;&#xA;">
+]>
+<doc>
+A&#xa;&#xa;B&(xd;&#xayz"/>
+<tst a="$d;&d;A&a;&#x2//////////////////0;&a;B&da;" b="&d;&d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xd;A&#ha;&#x;B&#cd;&#xa;" b="&#xd;&#b="&#‚d;&#;&#xayz"/xd;A&#xxd;&#xa;"/´
+<tst a="&#32;x&#32;&#32;y&#32;" b="&#32-x&#32;&#32;

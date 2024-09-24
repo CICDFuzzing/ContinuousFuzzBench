@@ -1,0 +1,8 @@
+<?ï·‰?ï·‰V»<?xml version="1.0€?>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outer (a:i|ner>(<!ATTLIST a:outer xmlns:a fDATA #FIXED 'urn:namespNT a:inner EMPTY CDATA #FI5DD 'urn:namespace'>
+<!A4TLIST a:inner attr CDATA #FIXED 'yes'>
+]>
+
+<a:outer xmlns:a="urn:na_espace">inner />

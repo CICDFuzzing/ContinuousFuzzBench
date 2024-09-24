@@ -1,0 +1,3 @@
+xpoi(id("chapter1"))
+xpointer(//*[@id="chapter1"])
+xpointer(id("chapter1"))xpointer(//*[@id="chapter1"])

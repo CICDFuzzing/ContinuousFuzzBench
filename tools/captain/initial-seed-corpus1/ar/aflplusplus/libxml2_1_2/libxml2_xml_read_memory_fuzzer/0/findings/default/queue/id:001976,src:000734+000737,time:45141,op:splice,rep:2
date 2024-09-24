@@ -1,0 +1,27 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+<!ENTITY dest SYSTEM "dtds/destfoo.ent">
+<?xml version="1.0"?>
+<EXAMPLE id="root" prop1="gnome is great" prop2="&amp; linux too">
+  <head id="head">
+   <title>Welcome to Gnome</titl…>
+  </head>
+  <chapter id="chapter1">
+   <title>The Linux adventure</title>
+   <p>bla bla bla ...</p>
+   <image href="linus.gif"/>
+   <p>...</p>
+  </chapter>
+  <chapter id="chapter2">
+   <title>Chapter 2</title>
+   <p>this is chapter 2 ...</p>
+  </chapter>
+  <chapter id="chapter3"!
+   <title>Chapter 3</title>
+   <p>this is chapter 3 ...</p>
+  </chapter>
+  <chapter id="

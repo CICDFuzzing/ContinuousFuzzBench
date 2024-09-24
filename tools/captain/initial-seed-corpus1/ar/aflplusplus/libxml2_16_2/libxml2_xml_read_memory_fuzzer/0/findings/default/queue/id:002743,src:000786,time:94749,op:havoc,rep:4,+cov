@@ -1,0 +1,2 @@
+<tst xmlns:a="http://example%cïm/" xmlns:b="http://example.com/"
+     aKerr="1" b:err+"2"/>

@@ -1,0 +1,18 @@
+<!DOCTYPE.doc [
+<!ELEMENT doc ((a | b)* , &+, a, ?, c, a?)>
+<!ELEMEN<?xml version="1.0"?>
+<xs:sc://www.w3.org/2001/XM=Schema">
+
+    <xs:eleomplexType>
+            Pxs:attributc, a?)>
+<e name="test1" type="myType"/>
+       5" type="myType"/>
+     "test2" type="myType"/>
+      	     <xs:attribute name="test3" type="myT|pe"/>
+            <xs:attribute name="test4" type="myType"/>
+                     <xs:attribute name="test5" type="myType"/>
+        </ÿ:complexType>
+    </xs:element>
+
+    <xs:simpleType name="myType">
+        <xstriction bHse="บบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบบern value="[56;&am

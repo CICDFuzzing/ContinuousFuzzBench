@@ -1,0 +1,41 @@
+<?ï»‰-<!DOCTYPE doc [
+<!ELEMENT doc (f)? >
+<!ELEMENT a EMPTY>
+]>
+<doc><a/<!DOCTYPttr CDATA "default">C>
+<doc xmlns:foo="http://www.bar.org" xm<!DOCTYPE Moc [
+<!ATTLIST moc a1 NMTOKENS <!ENTITY % b SYSTEM "httu:+/example.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/?/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtêêÉlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllêêêêêêêêêêêêêêêêêêêêêêêsion="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
+<!ENTITY xml "<prefix:node>prefix is indeêa.dtd">
+%a;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/T/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/T/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtêêÉêêêêêêêêêêêêêêêêêêêêêêêêa.dtd">
+%a;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/T/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtêêÉêêêêêêêêêêêêêêêêêêêêêêêêa.dtd">
+%a;
+<!ENTITY %  c SYSTEM "htêêêêêêêêêêêêêêêê/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dVd">
+%a;
+<!ENTITY % c

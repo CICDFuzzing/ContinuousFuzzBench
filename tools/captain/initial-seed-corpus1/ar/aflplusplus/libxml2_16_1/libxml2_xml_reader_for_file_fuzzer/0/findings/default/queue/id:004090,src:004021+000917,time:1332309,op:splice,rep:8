@@ -1,0 +1,10 @@
+<?xs/\
+<?xml version="1.0" encoding="Iencoding="ISO-8859-1"?>
+SO-8859-1"?>
+<!--
+-->
+<foo xmlns="http://FOO" xmlns:foo="http://FOO" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSch}ma-instance" 
+	xsG:schemaLocation="http://FBO cos-ct-extends-1-3_0.xsd"a
+	<bar.A foo:bar=o"/>
+	<bar.B foo:bar="o"/>

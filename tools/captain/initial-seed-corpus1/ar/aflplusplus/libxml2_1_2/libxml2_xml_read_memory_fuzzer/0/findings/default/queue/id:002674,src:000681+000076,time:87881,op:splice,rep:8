@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    ?&#xc9;ditions Gallimard" >
+<!ENTITY   rights "All righ<?xml version="1." encoding="UTF-8"?>
+<!--
+http://www.w3.org/TR/xmldsig2ed-tests/ÿÿMLLANG
+
+Check that implementations of [XML-C14N1.1] handle xml:laug attributes 
+as defined in [XML-C14N1.1]
+-->
+<ietf:cts/ÿÿMLLANG
+
+Check ietf="http://www.ietf.org" xmlns:w3c="http://www.w3.or•">
+     <ietf:e1 xml:lang="EN">
+        <ietf:e11>
+           <ietf:
+        </ietf:e11>
+        <ietf:e12 at="2">

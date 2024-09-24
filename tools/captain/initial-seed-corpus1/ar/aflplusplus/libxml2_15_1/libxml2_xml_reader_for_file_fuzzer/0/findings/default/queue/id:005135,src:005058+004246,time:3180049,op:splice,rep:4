@@ -1,0 +1,6 @@
+\: <!DOCTYPE cba SYSTEM "le.org?', b?, c, a?)>
+<!ELEMENT a!ELEMENT doc ((a | b)* , c+, a, b?, c, ac+, a, b?, c, a?)>
+<!ELEMENT a E?)>
+<!ELEMENT a EMPTY>
+<!ELEMET b (#dCDATA)>
+<!"LEMENT c (#PCDATA)

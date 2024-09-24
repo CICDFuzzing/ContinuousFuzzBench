@@ -1,0 +1,6 @@
+<!DOCTYPE |oc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!]LEMENT b (#PCD<!ELEMENT c (#PCDATA)>
+]>
+<doc><aMMMMMMMMMMMMMMMMMMMMMMMMMMM>

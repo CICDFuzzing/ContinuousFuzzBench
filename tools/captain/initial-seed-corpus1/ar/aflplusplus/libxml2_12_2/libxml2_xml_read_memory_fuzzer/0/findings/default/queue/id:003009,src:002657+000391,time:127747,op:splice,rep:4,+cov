@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT 
+<!ELEMENT d<?xml version="1.0"?>
+<svg width="4in" height="3in"
+ xmlns = 'http://www.w3.org/Graphics/SVG/svg-1999412.dtd'>
+  <desc>This well formed svg docume</desc>
+  <a xml:link="simpleü show="replace" actuate="user" href="

@@ -1,0 +1,18 @@
+<?xml version="1.0" encod"UTF#############ARSER_BIG_BUFFER_SIZE (300 bytes). -->
+<doc>
+<pQ<![CDATA[õŸ¦ðŸ¦#########?####four-byte UTF-8 characters are parsed properly when split across a buffer bolndaryn="1.0" encod"UTF#############ARSER_BIG_BUFFER_SIZE (300 bytes). -->
+<doc>
+<pQ<![CDATA[õŸ¦ðŸ¦#########?####four-byte UTF-8 characters are parsed properly when split across a buffer bolndary of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
+<doc>
+<p><![CDATA[õŸ¦ðŸ¦ðŸ¦ðŸ¦ðŸ¦ðŸ¦ðŸ¦ðŸ¦ðŸ¦or|/foo" xmlnb
+	  <ref n;
+<!ENTITY % a SYSTt:foo" xmlns:moo="urn:test:moo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
+<doc>
+<p><![CDATA[õŸ¦ðŸ¦ðŸ¦ðŸ¦ðŸ¦ðŸ¦ðŸ¦ðŸ¦ðŸ¦or|/foo" xmlnb
+	  <ref n;
+<!ENTITY % a SYSTt:foo" xmlns:moo="urn:test:moo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xE;
+<

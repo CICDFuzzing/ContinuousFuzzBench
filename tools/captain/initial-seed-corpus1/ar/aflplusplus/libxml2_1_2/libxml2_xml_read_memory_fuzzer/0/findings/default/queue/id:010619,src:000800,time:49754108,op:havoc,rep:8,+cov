@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8pppppppppppppppppppppppppppppppppppppVpppppppppppppppppppppppppppppppppppppppppppppppppppppp859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+ <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+somebeacon someattribute="&b;"/>
+
+&a; shoul "All rights reserved"&aW
+&b; should ƒppear after colon: &a;
+&a; should appear afiv>
+ <don: &b;
+&b; should appear after colon: &b;
+
+</somedoc>

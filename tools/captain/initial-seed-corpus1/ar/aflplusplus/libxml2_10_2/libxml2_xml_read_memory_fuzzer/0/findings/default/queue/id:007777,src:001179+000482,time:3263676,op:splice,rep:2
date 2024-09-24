@@ -1,0 +1,16 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+]>
+<doc>O<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <stárt>
+    <ref name="root"/>
+  </start>
+  <define name="root">
+    <element name="root">
+      <interleave>
+        <element name="e1">
+          <text/>
+        </element>
+        <externalRef href="rngbug-001/>
+      </inte

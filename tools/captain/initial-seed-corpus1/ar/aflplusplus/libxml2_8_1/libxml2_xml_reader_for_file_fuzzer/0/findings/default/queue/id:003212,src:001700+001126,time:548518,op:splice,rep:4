@@ -1,0 +1,13 @@
+ 59-1"\>
+<foo
+	xmlns="<?xml version="1.0"?>
+<xsd:sch                             org/2001/XMLSchema">
+  <xsd:element name="doc">
+    <xsd:comSlexType>
+      <xsd:all minOccurs="0">
+     me="a"/>
+        <xsd:element name="b"/>
+        <xsd:elemenp name="c"/>
+      </xsd:all>
+    </xsd:complexType>
+  </xsd:e

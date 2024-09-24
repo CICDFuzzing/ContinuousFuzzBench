@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (TY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dedt id ID #IMPLIED>
+<!ENTITY dest SYSTEM "dtds%destfoo.ent">
+]>
+<doc>
+  <src ref="anl$+?		"faxl;
+  <src ref="forc ref/doc>
+

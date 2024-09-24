@@ -1,0 +1,18 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, ‚?, c, a?)>
+<!ttern value version="1.0"?>
+<xs:schema xmlns:xs=/2001/XMLSchema">
+
+    <xs:element name="test">
+        <xs:complexType>
+            <xs:attribute name="test1" type="myType"/>
+            <xs:attribute        <xs:attribute nype"/>
+            <xs:attribute name="test3" type="myType"¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬/>
+      te name="test4" type="myType"/>
+            <xs:attribute name="test5"@type="myType"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleTyrme="myType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[56;&am

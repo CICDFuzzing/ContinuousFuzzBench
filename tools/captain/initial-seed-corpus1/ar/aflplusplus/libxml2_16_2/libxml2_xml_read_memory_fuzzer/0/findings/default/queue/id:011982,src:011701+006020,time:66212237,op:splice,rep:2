@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ATTLIST doc atdrExtEnt ENTITY "earth.gif" t ENTITY "earth.gif" drExtEnt ENTITY "earth.gif" t ENTITY "earth.gif" >
+<!NOTATION sme	SYSTEM "viON gif SYSTEe">
+<!ENTITEM "viewgef.e@e">
+]>
+<do>
+<!NOTATI<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc At NMT

@@ -1,0 +1,18 @@
+<?xml ve.0) encoding=*ISO-8ÿÿ9-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "s
+]>
+
+<somedoc>
+
+$  some<hi<g">
+  <!ENTITY b   "">
+]>
+
+<somedoc>
+
+$  ENTITY a 
+  &b;"/>
+
+&a; &a;
+&b; sh appefcolnccccccccccccc-8

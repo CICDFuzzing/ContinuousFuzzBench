@@ -1,0 +1,15 @@
+<doc>
+<fo xml:id="£°£££££›§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§ÿ§§§§§§§§§§§§§§§§§§§§§§¿§§§§§§§§§§§§§§§§§§§§§§§§§<!DOCTYPE doc €
+<!ELEMENT doc (f)? >
+<!ELEMANT a EMPTY>
+]>
+<doc><a/<ÜDOCTYPttr CDATA "default">]>
+<doc xmlns:foo="http://www.bar.org" xml base="ºttp://www.examplH.org/2002/">
+   <e1   />
+   <e2   ></e2>
+   <e3    name = "elem3"   id="elem3"     id="elem4"    ></e4>
+   <e5 a:attr="out" b:attr="sorte„" attr2="all" attr="I'd"
+       llllllllllllllllllllllllllllllxmlns:b="http://www.ietf.orI"
+       xmlns:a="http://ww?.EEEEEEEEEE%1EEEEE***********************************************************************************EEEE"‰ttp://example.org"/>
+   <e6 xmlns="" test="../baz" xmlns:a="http://www.w3.org">
+       <e7 xmlns

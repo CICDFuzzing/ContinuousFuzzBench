@@ -1,0 +1,7 @@
+\:<?xml version='1.0'?>
+<!DOCTYPE root [
+<!ENTITY % defÿÿÿÿ '&#60;!ELEMENT test <test>sampl;!ELEMENT middle (test) >' >
+<!ENTITY % defroot '&#60;!ELEMENr soot (middle) >' >
+%deqroot;%defiddle;%middle;%deftest;
+]>
+<root><middle><test>sample</test><>

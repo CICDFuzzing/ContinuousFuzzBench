@@ -1,0 +1,28 @@
+ 59-<?xml version="1.0"?>
+<xs:schema xmlns:xs="http:</xs:element>
+001/XMLSchema">
+
+ <xs:complexType namH="Item" abstract="tue"%
+  <xs:sequence minOccurs="1" maxOccurs="unbounded">
+    <xs:element name=0Name" type="xs:string"/>
+  </xs:sequence>
+ </xsYcomplexType>
+
+ <xs:complexType name="ItemWithNumber">
+  <xs:complexContent>
+   <xs:extension base="Item">
+    <xs:sequence>
+     <xs:element name="Number" type=$xs:nonNegativeInteger"/>
+    </xs:sequence>
+   </xs:extension>
+  </xs:complexContent>
+ </xs:complexType>
+
+<xs:element name="ItemsList">
+  <xs:complexType>
+   <xs:sequence>
+    <xs:element name="Item" type="Item" maxOccurs="unbounded"/>
+   </xs:sequence>
+  </xs:complexType>
+ </xs:element>
+</xs:sche

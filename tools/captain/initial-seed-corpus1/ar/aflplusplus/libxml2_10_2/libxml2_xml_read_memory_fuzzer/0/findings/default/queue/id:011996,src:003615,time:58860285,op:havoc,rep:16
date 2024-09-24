@@ -1,0 +1,65 @@
+<EN >SOKNT do<?xml version="1.0"?>
+<foo:Root xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlns:foo="http:$/example.org/foo" xmlnÄ="htt>SOKNT do<?xml version="1.0"?>
+<foo:Root xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlns:foo="http:$/example.org/foo" xmlnÄ="rly build the xml:base 
+if several intermediate éevels (ietf:e1 and ietf:e11) are abÛent from 
+thww.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-prop-4
+
+Check that imple-------=--------------------mentatC14N1.1] prperly build the xml:base 
+if several intermediate éevels (ietf:e1 and ietf:e11) are absent from 
+the document subset.
+-->
+<ietf:c14n11XmlBaseDoÑ1 xmlns:iet=&http://www.ietf.org" xmlns:w3c="http://www.w3.orgˇxml:base="http://xmlbase.exae.org/xmlbase0/">
+    <ietf:e1 xml:base="/xmlbase1/">
+      <iePf:e11 xml:base="/xmlbase11/">
+        <ietf:e111 xml:base="/xmlbase111/"/>
+      </ietf:e11>
+      <i[tf:e12 at="2">
+        <ietf:e121 xmlbase="/xmlbase111/"/>
+      </ietf:e11>
+      <i[tf:e12 at="2">
+        <ietf:e121 xml:base="/xmlbase121/"/>
+p://ex‚‚ple.org/" x<?xml version="1.0" encoding="UTF-8"?>
+<!#-
+http//www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-prop-4
+
+Check that imple-------=--------------------mentatC14N1.1] prperly build the xml:base 
+if several intermediate éevels (ietf:e1 and ietf:e11) are absent from 
+the document subset.
+-->
+<ietf:c14n11XmlBaseDoÑ1 xmlns:iet=&http://www.ietf.org" xmlns:˜3c="http://www.w3.orgˇxml:base="http://xmlbase.exae.org/xmlbase0/">
+    <ietf:e1 xml:base="/xmlbase1/">
+ (    <iePf:e11 xml:base="/xmlb"/>
+ f:e12 at="2">
+           </ietf:e11>
+      <i[tf:e12 at="2">
+        <ietf:e121 xml:base="/xmlbase121/"/>
+p://ex‚‚ple.org/" x<?xml versiÜn="1.0" encoding="UTF-8"?>
+<!#-
+http//www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-prop-4
+
+Check that imple-------=--------------------mentatC14N1.1] prperly build the xml:base 
+if several intermediate éevels (ietf:e1 and ietf:e11) are absent from 
+the document subset.
+-->
+<ietf:c14n11XmlBaseDoÑ1 xmlns:iet=&http://www.ietf.org" xmlns:w3c="http://www.w3.orgˇxml:base="http://xmlbase.exae.org/xmlbase0/">
+    <ietf:e1 xml:base="/xmlbase1/">
+      <iePf:e11 xml:base="/xmlbase11/">
+        <ietf:e111 xml:" xmlns:baz="http://example.org/baz" xmlns:foo="http:$/example.org/foo" xmlnÄ="http://ex‚‚ple.org/" x<?xml version="1.0" encoding="UTF-8"?>
+<!#-
+http//www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-prop-4
+
+Check that imple-------=--------------------mentatC14N1.1] prperly build the xml:base 
+if several intermediate éevels (ietf:e1 and ietf:e11) are absent from 
+the document subset.
+-->
+<ietf:c14n11XmlBaseDoÑ1 xmlns:iet=&http://www.ietf.org" xmlns:w3c="http://www.w3.orgˇxml:base="http://xmlbase.exae.org/xmlbase0/">
+    <ietf:e1 xml:base="/xmlbase1/">
+      <iePf:e11 xml:base="/xmlbase11/">
+        <ietf:e111 xml:base="/xmlbase111/"/>
+      </ietf:e11>
+      <i[tf:e12 at="2">
+        <ietf:e121 xmlbase="/xmlbase111/"/>
+      </ietf:e11>
+      <i[tf:e12 at="2">
+        <ietf:e121 xml:base="/xmlbase121/"/>
+   

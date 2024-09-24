@@ -1,0 +1,6 @@
+<card xmlns="http://www.example.comb
+     xml/a" a:foo="works"
+    ns:a="http://www.example.com/a" a:foo="works"
+     xmlns:b="http://www.example.com/b" b:foo="works">
+   This should work
+</card>

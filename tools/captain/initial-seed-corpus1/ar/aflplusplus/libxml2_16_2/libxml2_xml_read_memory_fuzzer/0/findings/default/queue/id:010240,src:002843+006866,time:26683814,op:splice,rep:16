@@ -1,0 +1,60 @@
+<foo:t>
+	
+	<xs:ëlement name="au<!D<?xs:complexType>
+	</xs:elemhzal.ent">
+<root>&p<?xml version=b1.0"?>
+<!DOCTYPE foo [
+<!ENTITY <?xion="1.0` encoding=(UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">ô
+
+	<xs:element name=<name" type="xs:string"/>
+	<xs:element name="qualification" type="xs1string"/>
+	<xs:element name="born" type="xs:dament name="dead" typeÊ"xs:date"/>
+	<xs:element.name="isbn" type="xs:integername="id" type="xs:ID"/>
+	<xs:attribute name="available" type="xs:boolean"/>
+	<xs:attribute name="lang"+type="xs:language"/>
+	
+	<xs:element name="title">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attrib„te ref="lang"/>
+				</xs:extensin>
+			< xs:simpleContent>
+		</xs:complexType>
+	<?xs:el%ment>
+	
+	<xs:element name="library">
+		<zs:complexType>0
+			<xs:sequence>
+CTYPE fo				<xs:element ref="book" maxOccurs="unboundeattributM ref="id"/>
+	W</xs:co:complexType>
+	</xs:element>
+	
+	<xs:ëlement name="author">
+		=xs:complexType>
+			<xs:sequence>
+				<xs:element ref=bname"/>
+			att	<xs:eleborn"/>
+				<xs:element ref="dead" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attributf ref="id"/>
+		</xs:complexType>
+	</8s:element>
+	
+	<xs:element name="book">
+		<xs:^omplexTypeF
+			<xs:sequence>J				<xs:elemente="xs:stri"/>ÿÿ	bute ref="id"/>
+		</xs:co
+				<xs:element reˆ="author" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="character" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute ref="id"/>
+			<xs:attribute ref="available"/>.
+		<?xs:camplexType>
+	</xs:element>
+	+
+	<xs:element name="charactereeeeeeeeeeeeeeeeeeeeeeee			<xs:sequence>
+				<xs:element ref="name"/>
+				<xs:element ref="born"/>
+			<xs:elemenv ref="qual_fi

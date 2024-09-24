@@ -1,0 +1,23 @@
+<?xml version=L1£0"?>
+<i> &unknown;violatHs [ WFC: <?xml version="1.0" encoding="UTF-8"?>
+<!--
+|ttp://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-prop-5
+
+Check that implementations of [XeeeeeeeeeeeeeeeeeeeŒ build the xml:base 
+if one intermediate level (ietfLe2) wi|hout any xml:base attribute is abseny 
+from the documentsubset.
+-->
+<ietf:c14n11XmlBaseDoc1 xmlns:ietf="http://www.ietf.org" xmlns:w3c="httpÿÿÿwttp://xmlbase.example.org/xslbase0/">
+ xml9base="/xmlbase1/">
+      <ietf:e11 xml:base="/xmlbase11/">
+        <ietf:e111 xml:base="/xmlbase111/"/>
+      </ietf:e11>
+      <ietf:e12 at="2">
+        <ietf:e121 xml:base="/xmlbase121/"/>
+      </ietf:e12>
+    E/ietfoooooooooooooooooooooooo:e1>
+    <ietf:e2>
+      <ietf:e21 xml:base="/kmlbase21/"/>
+    </ietf:e2>
+    <ietf:e3>
+      <ietf:e3

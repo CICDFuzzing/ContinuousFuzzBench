@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE iddemo [
+<!ELEMENT iddemo (he
+<!ATTLIST head id ID #IMPLIED>
+<!ELEMENT chapter (title?, (pad?, (chapter)*)>
+<!ATTLIST iddemo id ID #IMPLIED>
+<!ELEMENT head (title?, (p)*)>
+<!ATTLIST head id ID #IMPLIED>
+<!ELEMENT chapter (title?, (p | image)*)>
+<!ATTLISt chapter<?xml

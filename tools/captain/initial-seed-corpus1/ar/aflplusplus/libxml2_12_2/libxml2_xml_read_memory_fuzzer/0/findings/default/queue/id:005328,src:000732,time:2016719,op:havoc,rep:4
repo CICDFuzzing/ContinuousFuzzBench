@@ -1,0 +1,8 @@
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<PLIED>
+]>
+<foo xml:id="bar"/>
+LIED>
+]>
+<foo xml:id="bar"/>

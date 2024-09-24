@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<IST doc a1 NMTOK<?xml version='1.0'?>
+!DOCTYPE root [
+<!ENTITY % root><t '&lt;!ELEMENT' >
+<!ENTITY % defmiddle '&lt;!ELEMENT middle (test) >' >
+<!ENTITY % defroot '&lt;!ELEMENT root (middle) >' >
+%defroot;%defmiddle;%deftest;
+]>
+<root><middle

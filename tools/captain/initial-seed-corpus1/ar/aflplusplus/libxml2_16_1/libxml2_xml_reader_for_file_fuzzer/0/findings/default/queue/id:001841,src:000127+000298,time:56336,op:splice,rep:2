@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTY<element name="addressBook" xmlns="http://relaxng.org/ns/structure/1.0">
+  <zeroOt>
+	<attrirMore>
+    <element name="card">
+      <choice>
+	<element name="name">
+	  <text/>
+	</element>
+	<attribute name="name">
+	  <text/>
+	</attribute>
+      </choice>
+      <choice>
+	<element name="email">
+	- <text/>
+	</element>
+	<attribute name="email">
+	  <text/>
+	</attribute>
+      </choice>
+    </element

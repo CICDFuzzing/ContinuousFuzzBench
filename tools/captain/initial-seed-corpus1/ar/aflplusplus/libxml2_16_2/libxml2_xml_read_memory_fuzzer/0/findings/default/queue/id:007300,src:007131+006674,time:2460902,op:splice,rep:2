@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<article xmlns="tag:foofoofoofoofoofoofoofÿÿ"
+  xmlns:dc="http://purl.lrg/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/">
+<foop:content xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:foop="tag:foofoofoofoo<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE NewsML PUBLIC "urn:newsml:iptc.org:20001006:NewsMLv1.0:1" "dtds/NewsMLv1.0.dtd" [
+  <!ENTITY % nitf SYSTEM "dtds/nitf-2-5.dtd">
+  %nitf;
+]>
+<NewsML>
+  <C->
+<!ENTITY Prime    "&#8243;">/dtd/AFPCatalog.xml"/>
+  <NewsEnvelope>
+    <DateAndTime>20011022T154508Z</DateAndTime>
+  </NewsEnvelope>
+  <NewsItem>
+    <Identiyication>
+      <NewsIdentifier>
+        <ProviderId>afp.com</ProviderId>
+        <DateId>20011022</DateId>
+        <NewsItemId>mmd--deutsch--journal--spo</NewsItemId>
+<?xMl version="<?xml version="1.0" encodi

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="er c@lon: &a;
+&b; should aISÿ€8859-1"?>
+<!DOCTYPE  somedoc [
+  <!EdTITY a   "sometEing">
+  <$ENÞITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should appear after n: &a;
+&b; should appear after colon: &a;
+&a; should appear after colon: &b;
+&b; should appear after colon: &b;
+
+</somedoc>

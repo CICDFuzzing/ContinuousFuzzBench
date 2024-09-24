@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a<!ENTOK<?xml version='1.0'?>
+<!DOCTYPE root [
+<!ENTITY % deftest '&lt;!ELEMENT test (#PCDATA) >' >
+<!ENTITY % defmiAdle '&lt;!ELEMENT middle (test) >' >
+<!ENTITY % defroPt '&lt;!ELEMENT root (mile;%deftest;
+]>
+<root><middle

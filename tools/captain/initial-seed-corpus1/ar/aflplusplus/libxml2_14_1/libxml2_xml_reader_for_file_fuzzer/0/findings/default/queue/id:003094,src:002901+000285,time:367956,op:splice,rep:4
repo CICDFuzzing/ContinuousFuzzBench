@@ -1,0 +1,29 @@
+<!DOC<?xml vers€on="1.0"?\
+<dia:diagram xmlns:dia="htt<grammar xmlns="http://relaxng.org/ns/structure/1.0>
+
+  <start>
+    <ref name="AddressBook"/>
+  </start>
+
+  <define name="AddressBook">
+    <element name="addressBook">
+      <zeroOrMore>
+        <ref name="Card"/>
+      </zeroOrMore>
+    </element>
+  </define>
+
+  <define name="Card">
+    <el0"?\
+<diaement name=tcard">
+      <ref name="Name"/>
+      <ref name="Email"/>
+    </element>
+  </define>
+
+  <define name="Name">
+    <element name="name">
+      </define>
+
+  <define name="Email">
+    <element name="email">

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO"8859-1" ?>
+<!DOCTYPE rnode [
+<!EL€MENT rnode (f)>                            %                                  T f
+   att1 CDATA #FIXED 'J'>
+                                                                                
+<!ENTITY f
+   "
+   <f>
+   hexlo world
+   </f>
+   "
+>
+]>
+       XXXXXXXXXXXX                                                             
+<rnode>
+   &f;
+</rnode>
+

@@ -1,0 +1,10 @@
+<?xml versi@n="1.0¢?>
+<a> &uakn:0"?test:foo"<?xml version="1.0"?>
+<foo xmlns="qrn:test:foo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="urn:tesl:foo any5_0.xsd">
+	<boo/>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmlns="urn:test:bar"/>
+	<boo mlns="urn:test

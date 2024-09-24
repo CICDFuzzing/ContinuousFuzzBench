@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY  "&#xIED>
+<!ENTITY Cnt1 "Hello">
+<!ENTITY ent2 SYSTEM "wjrlc-kp:%DED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "wjrlc-kp:%Dbslw.gif" NDATA gif>
+<!NOTATIOn gif ><«««««Þaraml:laang="bslw.gif" NDATA gif>
+<!NOTATIOn gif ><«««««Þaraml:laang="e~-u<<!DOCTYPE book g
+<!EL<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENT4TY   book   "La Peste: Albert Camu

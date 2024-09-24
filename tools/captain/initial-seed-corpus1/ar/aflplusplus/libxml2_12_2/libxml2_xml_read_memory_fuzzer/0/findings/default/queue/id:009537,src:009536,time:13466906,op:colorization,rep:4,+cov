@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     caafun		(0x1)   "0"
+     xmlns:tstst:att (0|1)   "1">
+]>
+<doc att="1"/>

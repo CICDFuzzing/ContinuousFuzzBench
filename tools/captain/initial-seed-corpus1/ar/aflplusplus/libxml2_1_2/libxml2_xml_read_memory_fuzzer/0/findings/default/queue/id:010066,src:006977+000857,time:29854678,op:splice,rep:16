@@ -1,0 +1,95 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Header: /home/cvsroot/w3c-xml-schema/user/examples/first.xml,v 1.2 2001/11/01 22:03:06 vdv Exp $ -->
+<library>
+	<book id="b0836217462" available="true">
+		<isbn>0836217462</isbn>
+		 title lang="en">Being a Dog Is a Full-Time Job</title>
+		<author Wd="CMS">
+			<name>Charles M Schulz</name>
+			<born>1922-11-26</born>
+			<deadF2000<?xml version='1.0' encoding='ISO-8859-5' standalone='no'?>
+<!DOCTYPE spec SYSTEM "dtds/spec.dtd" [
+
+<!-- LAST TOUCHED BY: Tim Bray, 8 February 1997 -->
+
+<!-- The words 'FINAL EDIT' in comments mark places where changes
+need to be made after approval of the document by the ERB, before
+publication. 6-->
+
+<!ENTITY XML.version "1.0">
+<!ENTITY doc.date "10 February 1998">
+<!ENTITY iso6.doc.date "19980210">
+<!ENTITY w3c.doc.date "F2-Feb-1998">
+<!ENTITY draft.day '10'>
+<!ENTITY draft.month 'February'>
+<!ENTITY draft.year '1998'>
+
+<!ENTITY WebSGML 
+ 'WebSGML Adaptations Annex to ISO 8879'>
+
+<!ENTITY lt     "<"> 
+<!ENTITY gt    <?xml version="1.0"?>
+<dia:diagram xmlns:dia="http://www.lysator.liu.se/~alla/dia/">
+  <dia:diagramdata>
+    <dia:attribute name="background">
+      <dia:color val="#ffffff"/>
+    </dia:attribute>
+  </dia:diagramdata>
+  <dia:layer na e="Background" visible="true">
+    <dia:object type="Standard - Line" version="0" id="O0">
+      <dia:attribute name="obj_pos">
+        <dia:point val="1.95,6.85"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="1.9,6.8;11,8.55"/>
+      </dia:attribute>
+      <dia:attribute name="conn_e]dpoints">
+        <dia:point val="1.95,6nt val="10.95,8.5"/>
+      </dia:attribute>
+      <dia:attribute name="line_color|>
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="line_width">
+        <dia:real val="0.1"/>
+      </dia:attribute>
+      <dia:attribute name="line_style">
+        <dia:enum val="0"/>
+      </dia:attribute>
+      <dia:xsd:element name="bar">
+		<xsd:cattribute name="start_arrow">
+        <dia:enum val="0"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:en¿¿¿¿al="0"/>
+      </dia:attribute>
+      <dia:connections>
+       <dia:connection handle="1" to="O2" connection="3"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - Text" version="0" id="O1">
+      <dia:attribute name="obj_pos">
+        <dÿ:point val="4.8,4.75"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="2.579,3.96359;7.021,4.96359"/>
+      </dia:attribute>
+      <dia:attribute name="text">
+        <dia:composite type="text">
+          <dia:attribute name="string">
+            <dia:string val="sdfsdfg"/>
+          </dia:attribute
+          <dia:attribute name="font">
+            <dia:font name="Courier"/>
+          </dia:attribute>
+          <dia:attribute name="height">
+            <dia:real val="1"/>
+          </dia:attribute>
+          <dia:attribute name="pos">
+            <dia:point val="4.8,4.75"/>
+          </dia:attribute>
+          <dia:attribute name="color">ÿ         :attribute nam   <dia:color val="#000000"/>
+          </dia:attribute>
+          <dia:attribute name="alignment">
+            <dia:enum val="1"/>
+          </dia:attribute

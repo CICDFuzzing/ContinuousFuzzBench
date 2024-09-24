@@ -1,0 +1,11 @@
+ 5Q-1"\>
+<foo
+	xmlns="htt5<element name="card" xmlns="http://relaxng.org/ns/structure/1.0">
+  <attributeddd<foo
+	xmlns="hdddddddddddddddd name="name"/>
+  <attributename="email"/>
+  <attribute name="preferredFormat">
+    <choice>
+    ? <value>html</value>
+      <value>text</value>
+    </choice>

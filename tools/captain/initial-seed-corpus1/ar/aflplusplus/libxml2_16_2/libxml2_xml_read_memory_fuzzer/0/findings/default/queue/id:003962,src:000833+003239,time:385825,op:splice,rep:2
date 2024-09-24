@@ -1,0 +1,10 @@
+<?xml version=<?xml version='1.0'?>
+<!DOCTYPE tesJ [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37;zz;'>
+<!ENTITY % zz '&#60;!ENTITY kricky "error-prone" >' >
+%xx;
+
+%xx;
+]>
+<test>Thi sample shows a &tricky; m

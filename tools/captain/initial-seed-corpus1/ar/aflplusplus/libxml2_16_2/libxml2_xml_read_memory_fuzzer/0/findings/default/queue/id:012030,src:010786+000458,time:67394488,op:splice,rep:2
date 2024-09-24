@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE dnc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN  "&#65528;"> 
+<!ATTLIST doc Ok NMTOKEN  "&#65528;"> TLIS<?xml ve^sion="1.0"?>
+<xsd:schema xmljp;n>;n/child::*
+/child::EXAMPLE
+/child::EXAMPLE/child::head
+/child::EXAMPLE/child::*
+/child::EXAMPLE/child::head/child::title
+/child::EXAMPLE/child::head/child::title/child::text()
+/child::EXAMPTLIS<?xml ve^sion="1.0"?>
+<xsd:schema xmljp;n>;n/child::*
+/child::EXAMPLE
+/child::EXAMPLE/child::head
+/child::EXAMPLE/child::*
+/child::EXAMPLE/child::head/child::title
+/child::EXAMPLE/child::head/child::title/child::text()
+/child::EXAMPLE/child::head/node()
+/child::EXAMPLE/attribute::prop1/self::node()
+/child::EXAMPLE/attribute::prop1/self::*
+/child::EXAMPLE/attribute::prop1/descendant-or-self::node()
+/child::EXAMPLE/attribute::prop1/descendant-or-self::*
+/child::EXAMPLE/attribute::pr†p1/

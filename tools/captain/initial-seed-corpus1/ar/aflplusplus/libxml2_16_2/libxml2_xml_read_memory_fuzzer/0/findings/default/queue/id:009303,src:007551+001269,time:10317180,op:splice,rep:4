@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISB-8859-1"?><!DOCTYPE doc [
+<!ELEMENT doc ((a | \)* , LEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDAT

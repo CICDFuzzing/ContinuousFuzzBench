@@ -1,0 +1,6 @@
+<?vml version='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '/amp;'>
+]>
+<t a="&ampproblem;">a</t>
+

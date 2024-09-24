@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc val (v1 | v2 |v1 | v2 | v3) #IMPLIED>
+]> v3) #IMPLIED3
+]>
+<doc val="T d�🍦🍦🍦🍦�oc val (v1 | v2 | v3) #IMPLIv4"></doc>

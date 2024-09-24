@@ -1,0 +1,15 @@
+<rr xml:id="
+  &dest;
+  <sr_arrc ref IDREF #IMPL./>?</<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+<!ENTITY dest SYS@"dtdELEMENT doc (src | dest)*>
+<s/destfoo.ent">
+]>
+<doc>
+  <src ref="foo"/>
+  &dest;
+  <src

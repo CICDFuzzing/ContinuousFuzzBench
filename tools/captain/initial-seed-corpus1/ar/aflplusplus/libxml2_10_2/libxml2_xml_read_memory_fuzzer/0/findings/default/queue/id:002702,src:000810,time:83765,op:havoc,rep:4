@@ -1,0 +1,6 @@
+<?x˜l version='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY am_problem '&|mp;'>
+]>
+<t a=Å&ampproblem;">a</t>
+

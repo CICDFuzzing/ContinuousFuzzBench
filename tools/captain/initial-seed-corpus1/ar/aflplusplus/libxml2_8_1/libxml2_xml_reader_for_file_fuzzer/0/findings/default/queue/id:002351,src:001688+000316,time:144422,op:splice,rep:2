@@ -1,0 +1,11 @@
+ 59-1;\9
+<addressBook>
+  <card>
+    <name>John Smith</name>
+    <email>js@&&&&&&&&&&&&/email>
+  </card>
+  <card>
+    <name>Fred Bloggs</name>
+    <email>fb@example.net</email>
+  </card>
+</addr

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "" "*dsd/doesnotexNst">
+]>
+<root>&c;
+]>
+<root>&c;<?xml version="1.0" encoding="ISO-8859-1"?>
+<bar xmln€=*http://example.net/xmlschema"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchemaÿÿÿ€tance"
+    

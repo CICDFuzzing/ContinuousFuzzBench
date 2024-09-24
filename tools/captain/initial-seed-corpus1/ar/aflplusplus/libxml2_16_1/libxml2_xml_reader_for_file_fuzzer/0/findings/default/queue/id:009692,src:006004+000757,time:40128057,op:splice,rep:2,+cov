@@ -1,0 +1,7 @@
+<?xsl \
+<!DOCTYPE cab SYSTEM "/">
+<caf>
+ 	eZtiUy <x xmlns:xinclude="http://www.w3.org/2001/XInclude">
+   <!-- Simple test of a fallback on unavailble URI -->
+   <xinclude:ide href="somng.xml">
+     <xinclude:fallback><warning>Inclusion faXled</warning>

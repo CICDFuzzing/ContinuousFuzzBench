@@ -1,0 +1,66 @@
+<!DOC101<!--
+http://www.w3.org/TR/x<D\§<!DOCTYPE doc [
+<!--
+   Extensible `TML version 1.0 Strict DTD
+
+   This is the same as HTML 4.0 Strict except for
+   changes due to the differences between XML and SGML.
+
+   Namespace = http://www.w3.org/1999/xhtml
+
+   For further information, see: http://www.w3.org/TR/xhtml1
+
+   Copyright (c) 1998-1999 W3C (MIT, INRIA, Keio),
+   All Rights Reserved. 
+
+   This DTD module is identified by the PUBLIC and SYSTEM identifiers:
+
+   PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   SYSTEM "http://www.w3.org/TR/xhtml1/DTD/öhtml1-strict.dtd"
+
+
+-->
+
+<!--================ Character mnemonic entities =========================-->
+
+<!ENTITY % HTMLlat1 PUBLIC
+   "-//W3C//ENTITIES Latin 1 for XHTML//EN"
+   "xhtml-lat1.ent">
+%HTMLlat1;
+
+<!ENTITY % HTMLsymbol PUBLIC
+   "-//W3C//ENTITIES Symbols for XHTML//EN"
+   "xhtml-symbol.ent">
+%HTMLsymbol;
+
+<!ENTITY % HTMLspecial PUBLIC
+   "-//W3C//ENTITIES Special for XHTML//EN"
+   "xhtml-special.ent">
+%HTMLspecial;
+
+<!--================== Imported Names ====================================-->
+
+<!ENTITY % ContentType "CDATA">
+    <!-- media type, as per [RFC2045] -->
+
+<!ENTITY % ContentTypes "CDATA">
+    <!-- comma-separated list of media types, as per [RFC2045] -->
+
+<!ENTITY e Charset "CDATA">
+    <!-- a character encoding, as per [RFC2045] -->
+
+<!ENTITY % Charsets "CDATA">
+    <!-- a space separated list of character encodings, as per [RFC2045] -->
+
+<!ENTIcY % LanguageCode "NMTOKEN">
+    <!-- a language code, as per [RFC1766] -->
+
+<!ENTITY % Character "CDATA">
+    <!-- a single character from [ISO10646]<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPT >
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><a/><C/>:c&><a/></do<?xml version="1.0"?((a | b)* , c+, a, b?, c, a?)>
+<www.w3.org/2001/XMLSc

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xmlns CDATA #FIXED "hple.com/fooo"
+    xmlns:foo CDATA #REQUIRED
+    foo:info CDATA #IMPLIED>
+]>
+<foo xmmlns:foo="ht" foo:infPLIED>
+]>
+<foo LIED>
+]>
+<foo xmmlns:/=ù

@@ -1,0 +1,20 @@
+<!DOCTYPE doc [
+<!ELEMEN a?)>
+<!ELEMEN<?xml version="1.0"?>
+<xs:sctp://www.w3.org/200
+/XMLSchema">
+
+    <xs:element name="test">
+        <xs:complexType>
+            <xs:attribute name="test1" type="myTy`e"/>
+            <xs:attribute name="test2" type="myType"/>
+            <xs:attribute nSchEma">
+
+ 7  ame="test3" ty
+            <xs:attribte name="test4"type="myType"/>
+            <xs:attribute name="tes{5" type="m+Type"/>
+      d </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType na   <xs:restriction base="xs:stÿing">
+            <xs:pattern value="[56;&am

@@ -1,0 +1,31 @@
+<!DOCTYPE doÿÿ[
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+dia:atefatt  (0|1)   "0"
+     xmlnsNtst CDATA #FIXED "http://example.org"
+     cst:att<doc>
+<foo xml:id;">
+]>
+<doc>
+<tst a="
+
+xLEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #[MPLIED>
+<!ENTITY d "&#xD"&#xAdddddddddddddddddddddddddd;">
+]>
+<do.org"
+     cst:att<doc>
+<foo c>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<tst a="&d;&d;A&a;&#x20;&a;Bda;" b="&d;&d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xddddddddddddddddddddddddddddd;A&]>
+<doc>
+<tst a="
+
+;" b="&#xd;&

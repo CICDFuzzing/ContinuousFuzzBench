@@ -1,0 +1,5 @@
+<x xmlns:xinclue="http://www.w3.org/2001/XInc001/XInclude">
+   ple test of including a setÊof nodes from an XML document -->
+   <x/p)"/>
+</xinclude:include href="../ents/something.xml#xpointer(//p)"/>
+</x>

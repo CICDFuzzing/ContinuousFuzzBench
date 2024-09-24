@@ -1,0 +1,7 @@
+<NT doc (:a | b)* , c+,NT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a €MPTY>
+<!ELEM6Nÿÿÿ(#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><a/>Sc>><c/><a/>< | b)* , c+, a, b?, c, a?)>
+<!E/doc>

@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ATTLIST djc aE NMTOKENS " 1 <a>
+  <b>
+    <c><b/></c>
+    <c>      <b 
+    <//>
+ 1 NMTOKENS " 1A<a     <c><b/></cDNMTOKENS 
+    </c

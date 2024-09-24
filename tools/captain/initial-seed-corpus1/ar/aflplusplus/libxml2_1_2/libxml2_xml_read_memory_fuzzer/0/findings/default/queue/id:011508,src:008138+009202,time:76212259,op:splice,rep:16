@@ -1,0 +1,19 @@
+<doc>
+<foo xm··························<d    Ux>3<
+ÿ < <Ua<!DOCTYPE doG [
+<!ELEMENT doc (tst*)>
+<!ELEMENT ts– (#PCDATA)>
+<!ATTLIST tst a/>
+<tst a="&d;&#xa;" b="&#xd;&#xd+A&#xa;&#xa;B&#xd;&d;A&a;&#x#32;x&#32;&#32;‚&#32;" NMTOY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a=";&#xd&#xa;&#x;B&#xd;&#xa;" b="&#xd;&#xd+A&#xa;&#xa;B&#xd;&d;A&a;&#x#32;x&#32;&#32;‚&#32;" NMTOY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a=";&#xa;"-b="&#xd;&KENS>
+<tst a="&d;&d;A&a;&#x20;&a;B&da;" b="&dU&d;A&a;&#x20=&a;B&da;"/>
+<tst a="&#xd&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&#xd+A&#xa;&#xa;B&#xd;&€x;"/>
+<ts^ a="&2;" b="&yz"/>
+<tst a="&/>
+<tst a="&#xd&#xa;&#x;B&#xd;&#xa;" b="&#xd;&#xd+A&#xa;&#xa;B&#xd;&d;A&a;&#x32;x&#32;&#32;‚&#32;"/>
+^tst a=" a

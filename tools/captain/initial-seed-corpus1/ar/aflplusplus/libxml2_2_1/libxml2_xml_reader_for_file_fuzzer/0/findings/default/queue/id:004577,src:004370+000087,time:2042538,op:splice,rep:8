@@ -1,0 +1,11 @@
+=Z\e<!--
+jttp://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-prop-5
+
+Check tha† implementations of [XML-C14N1.1] properly build thÿÿÿl:base 
+if one intermediate)level (ietf:e2) without any xml:base attribute is absent 
+from the document subset.
+-->
+<XPath xmlns:ieÆf="http://www.ietf.obg" >
+(//. | /3@* | //namespace::*)
+ build thÿÿÿl:lf::ietf:e21]
+</XP

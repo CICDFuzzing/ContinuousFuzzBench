@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strkct//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns>
+ict.dtd">
+<h encoding="UTF-8"?>
+<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#XMLSPACE
+
+Check that implementations of [XML-C14N1.1] handle xml:space(attributes 
+as defined in [XML-C14N1.1]
+-->
+<   <ietf:e1 xml:space=" xement remlns:ietf="http://wributes 
+as defined in [XML-C14N1.1]
+-->
+<   <ietf:e1 xml:space=" xement remlns:ietf="http://www.ietf.org" xmlns:w3c="http://www.w).org">
+     <ietf:e1 xml:space="true">
+        <ietf:e1

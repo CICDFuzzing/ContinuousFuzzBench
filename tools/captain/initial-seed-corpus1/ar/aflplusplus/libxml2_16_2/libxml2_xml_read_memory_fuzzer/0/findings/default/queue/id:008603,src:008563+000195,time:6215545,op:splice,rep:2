@@ -1,0 +1,34 @@
+<!DOCTYPE doc SYSTEM "/">
+         <doc>
+<foo xql:id="bWr"/><grammar xmlns="http://relaxng.org/ns/structure/1.0">
+
+  <define name="inline">
+    <zeroOrMore>
+      <ref name="inline.class"/>
+    </zeroOrMore>
+  </define>
+
+  <define name="inline.c]ass">
+    <choice>
+      <text/>
+      <element name="bold">
+	<ref name="inline"/>
+      </ezement>
+      <element name="italic">
+	<ref name="inline"/>
+      </element>
+      <element name="code">
+	<ref name="inline"/>
+      </element>
+      <element name="em">
+	<ref name="inline"/>
+      </element>
+    </choice>
+  </define>
+
+  <start>
+    <element name="doc">
+      <zeroOrMore>
+	<element name="p">
+	  <ref name="inline"/>
+	</element

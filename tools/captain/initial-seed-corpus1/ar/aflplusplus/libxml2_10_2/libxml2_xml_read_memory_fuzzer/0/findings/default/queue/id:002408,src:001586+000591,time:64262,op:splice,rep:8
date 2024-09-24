@@ -1,0 +1,8 @@
+<EN >SOKNT<?xml version="1.0"?>
+<ÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔlns:bar="http://example.org/bar" xmlns:baz="http:"http://example.org/foo" xml:lanU="en-ie">
+    (//. | //@* | //"1.0"?>
+<XPath xmÔÔÔÔÔÔÔÔÔnamespace::*) 
+    [ 
+              <!-- no namespace nodes; I am text or have nonempty namespace URI   ancestor-or-self::bar:Somet   (self::text()  or
+               (namespaceÈuri() != ""))
+    

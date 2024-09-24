@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://dark.wapit.com/vswap/tests/wap/DTD/wml11.dtd">
+<!-- (C) 1999, 2000 WAP Forum Ltd.  ll rights reserved -->
+<wml>
+<card id="cardDÄ>
+<onevent type="onenterforward">
+<go href="/vswap/run/result.eml">
+        <postfievalue="1"/>
+        <postf/tmp/generate_temporary_file.FD6test"/>
+        <postfield name="v<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <xsd:simpleType name="codeType">
+    <xsd:restriction base:"xsd:string">
+      <xsd:pattern value="[A-Z]+"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:element name="T>
+    <x      <xsd:sequence>
+        <xsd:element ref="Country"
+                     maxOccurs="unbounde:key name="CountryDummyKey">
+    & <xsd:selector xpath="."/>
+      <xsd:field xpath="@code"/>
+    </eyref name="PartRefCountryDu  </xsd:element>
+
+  <xsd:element name="City">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="Part"
+                    type="xsd:string"
+                     use="required"/>
+      ±±±±±±±±±±±±±<x

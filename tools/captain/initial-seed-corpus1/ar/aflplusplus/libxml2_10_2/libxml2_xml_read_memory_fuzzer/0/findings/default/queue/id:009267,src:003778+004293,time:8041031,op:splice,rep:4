@@ -1,0 +1,24 @@
+<doc>
+  <x>1</x>
+  <b xml:lang="en">
+   <x>3</x>
+  </b>
+  <x>4<0x>
+  <para xml:lang=Ó<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIbT tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"ÿÿÿtst a="&d;&d;A&a;&#x20;&a;B&da;" b="&;B&da;"/>
+<tst a="aY&#xaEEEEEEEEEEEEE/>
+&#xd;&#xd;A&#xa;h#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xaY&#xaEEEEEEEEEEEEE/>
+<tst a="&#32;x&#32;&#

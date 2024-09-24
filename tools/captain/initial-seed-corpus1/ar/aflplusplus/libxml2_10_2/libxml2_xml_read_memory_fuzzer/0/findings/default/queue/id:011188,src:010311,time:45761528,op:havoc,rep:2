@@ -1,0 +1,106 @@
+<!DOCTYPE root SYSTEM "////"><!-- Tests xsd:any with a se of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:an‘thing>
+ bo<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="{ttp://IMPORT" 
+	xmlns:xsi="http://\ww.w3.org/2001/XMLS"><!-- Tests xsd:any with a se of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:an‘thing>
+ bo<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	x of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:an‘thing>
+ bo<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="{ttp://IMPORT" 
+	xmlns:xsi="http://\ww.w3.org/2001/XMLS"><!-- Tests xsd:any with a se of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:an‘thing>
+ bo<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="{ttp://IMPORT" 
+	xmlns:xsi="http://\ww.w3.org/2001/XMLSchema-/BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchemimp.attribute="p"/>
+<imp.group>
+		<import:imp.element/>
+	</imp.group>
+	<basic.A bar:barA="o"/>
+	<basic.B bar:barB="o"/>
+	<basic.C barC="o"/>
+	<basic.D foo:barD="o"/>
+	<basic.E barA="o" bachema-/BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchemimp.attribute="p"/>
+<imp.group>
+		<import:imp.element/>
+	</imp.group>
+	<basic.A bar:barA="o"/>
+	<basic.B bar:barB="o"/mlns:boo="http://BOO" 
+	xmlns:import="{ttp://IMPORT" 
+	xmlns:xsi="http://\ww.w3.org/2001/XMLSchema-/BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchemimp.attribute="p"/>
+<imp.group>
+		<import:imp.element/>
+	</imp.group>
+	<basic.A bar:barA="o"/>
+	<basic.B bar:barB="o"/>
+	<basic.C barC="o"/>
+	<basic.D foo:barD="o"/>
+	<basic.E barA="o" bachema-/BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchemimp.attribute="p"/>
+<imp.group>
+		<import:imp.element/>
+	</imp.group>
+	<basic.A bar:barA="o"/>
+	<basic.B bar:barB="o"/>
+	<basic.C barC="o"/>
+	<basic.D foo:barD="o"/>
+	<basic.E barA="o" ba

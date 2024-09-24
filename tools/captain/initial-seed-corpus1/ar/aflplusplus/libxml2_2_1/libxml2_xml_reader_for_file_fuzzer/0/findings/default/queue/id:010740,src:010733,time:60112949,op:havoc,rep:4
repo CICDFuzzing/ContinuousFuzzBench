@@ -1,0 +1,22 @@
+=?_\
+<!DOCTYPE doZ [
+<!ELEMENT doc (b
+<!ELEMENT doc
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST<!ATTLISTRst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#vA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<a="
+
+xyz"	e="
+
+xyz"/>
+<tst a="&d;&d;A&a;&"m31="N=R$cb?' b="&d;&d;A&a;&#x20;&a;B&da;[\i-[:]][\c-[:]]*
+
+abc
+abc1d
+1              #jc;&#xa;Bt a="&#32;x&#32:%#32;y&#32;" b="&#32;x&#32;'!32;y&#32;"/>
+<ÿ tst b CDAT

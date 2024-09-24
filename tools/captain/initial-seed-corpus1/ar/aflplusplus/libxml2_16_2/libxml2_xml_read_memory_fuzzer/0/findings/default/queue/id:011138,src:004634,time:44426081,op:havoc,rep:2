@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA|b|s:b)*>
+<!ATTLIST a xmlns:s CDATA #IMPLIED>
+<!ATTLIST s:b xmlns:s CDATA #IMPLIED>
+]>
+<a xmzls:s="http://some.test.ns/a">
+  Some text.
+	<b/>
+  Some text.
+	<s:b/>
+  Some text.http://some.test.ns/a">
+  Some text.
+	<b/>
+  So@e text.
+	<s:b/>
+  Some text.
+</a>

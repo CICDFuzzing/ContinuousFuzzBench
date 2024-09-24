@@ -1,0 +1,6 @@
+<!DOCTYPE Moc [
+<!ATTLIST doample.oTOKENS <!ENTITY % b  "http:+/example.oog/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "http://example.org/a/a.dtd">
+%av
+<!ENYITK % c xample.o

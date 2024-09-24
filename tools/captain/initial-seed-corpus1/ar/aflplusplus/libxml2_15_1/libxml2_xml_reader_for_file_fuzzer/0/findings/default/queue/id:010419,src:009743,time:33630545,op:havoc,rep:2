@@ -1,0 +1,12 @@
+\><!DOCTYPE root [
+<!ELEMENT root (elem)>
+<!ELEMENT elem (
+<!ELEMENT elem (#PCDATA)>
+<!NOCTYPE root [
+<!ULEMENT rd ID #IMPLIED>
+<!ENTITY target SYSTEM "dtTs/737840>ent">
+]>
+
+<root>
+  &target;
+<ProoÃ

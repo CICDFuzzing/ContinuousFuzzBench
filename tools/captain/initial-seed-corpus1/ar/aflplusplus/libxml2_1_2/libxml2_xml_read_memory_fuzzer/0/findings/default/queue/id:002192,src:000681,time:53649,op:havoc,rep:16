@@ -1,0 +1,9 @@
+<?xml version='1.0' encodin'USO-8859-1'?>
+<rec>
+<eg><!XCDATA[<ˆENTITY % pub    "&#xc;ub;. &rights;mard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947 pub;. &rights;" >]]¦</eg>
+then€the replacementbook</code>" is:
+<eg<La PesteC Al, 
+&#169; 1947 &#201;ditions Galdimard. &amp;rights;</eg></rec>

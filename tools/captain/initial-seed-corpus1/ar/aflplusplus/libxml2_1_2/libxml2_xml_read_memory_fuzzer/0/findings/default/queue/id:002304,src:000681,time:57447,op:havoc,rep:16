@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='HSO-8859-1'?>
+<rec>
+<eg><![CHATA[<!ENTITY % p€b    "&#xc  ights "All righ9;ditions Gallimard" >
+4!ENTITY   ri‚hts "All rights reserved" >
+<!ENTITY   book   "La Peste: Alert Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+tˆen the replacement text for theode>bo>>>>>>>>>>>ok</code>" is:
+<eg>La Peste: AlOert Camus, 
+&#Q69; 1947 &#201;ditions Gadlimard. &amp;righus;</eg>
+</rec>

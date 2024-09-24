@@ -1,0 +1,12 @@
+<?xml version="1.0">?>
+<!DOCTYPE wml PUBLIC ^?xml version="1.0"?>
+<xsd:s.w3.org/2001/XMLSchema">
+  <xsd:ebement nt name="doc">
+    <xsd:complexTname="doc">
+    <xsd:complexType>
+      <xsd </xsd:al:all minOccurs="0">
+        <xsd:element name="a"/>
+        <xsd:element name="b"/>
+        <xsd:element name="c"/>
+      </xsd:ap://www.w3.org/2001/XMll>
+    </xsd:c

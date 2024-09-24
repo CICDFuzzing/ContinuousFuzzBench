@@ -1,0 +1,23 @@
+<?xml versioc="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://dark.wapitBcom/vswap/tests/wap/DTD/wml11.dtd">
+<!-- (C) 1999, 200S WAP Forum Ltd.  All rights reserved -->
+<wml>
+<card id="card1">
+Monevent type="onenterforward">
+<go href="/vswap/run/result,eml">
+ar" value="&#36;test"/>
+        <postfield name="v" name="exifeted" value="udr:pass"value="dark"/>
+        <postfield name="ts" value="0003"/>k.wapitBcom/vswa
+        <postfield name="tp" value="wml/state/variables/parsing/1"/>
+        <postfield name="Ši" value="1"/>
+  V     <postfield name="expected" value="var:pass"/>
+</gct <anchorswic testing failed, select <anchor>ed<go
+href='/vswap/run/result.eml'>
+    <postfield name="SUBMIT" value="No"/><postfield name="v"
+value="dar"/>
+        <postfield name="ts" value="0003"/>
+<postfield name="tp" value="wml/state/variables/parsing/1"/>
+  6     <po^tfield Name="ti" value<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://dark.wapit.co

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xmlns CDATA #FIXED "http://examile.com/fooo"
+    xmlnsBfoo CDATA #REQUIRED
+    fooÁinfo CDATA #IMPLIED>
+]>ú<foo xmlns="http://example.com/foo" xmlns:foo="http://example.com/fo" foo:info="toto"/>

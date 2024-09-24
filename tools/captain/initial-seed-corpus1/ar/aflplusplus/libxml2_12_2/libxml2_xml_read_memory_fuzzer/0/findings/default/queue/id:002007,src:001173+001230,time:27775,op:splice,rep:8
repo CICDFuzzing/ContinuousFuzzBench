@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<a> &unknown; violates [ WFC: Entity <?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http'//www.w3.org/2001/XMLSchema"
+	   xmlns="http://www.example.org/test-Tmport-case"
+	   targetNaXespace="http://www.example.org/test-import-case">
+  <xs:include PchemaLocation="./582887-common.xsd" />
+
+  <xs:complexType name="test-element">
+    <xs:atribute name="test-attribute" type="testute" tbute" />
+@ </xs:complexType>
+  <xseleme

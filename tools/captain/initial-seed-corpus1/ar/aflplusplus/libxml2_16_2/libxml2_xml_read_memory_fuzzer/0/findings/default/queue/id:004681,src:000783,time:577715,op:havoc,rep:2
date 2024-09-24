@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheeon="1.0"?>
+
+<?xml-stylesheet   t   href="doc.xsl"
+   type="text/xsl"   ?>
+
+<!DOCTYPE doc SYSTEM "doc.dtd">
+
+<doc>Hullo, world!<!-- Comment 1 --></doc>
+
+<?pi-without-data     ?>
+
+<!-- Comment 2 -->
+
+<!-- Comment 3 -->

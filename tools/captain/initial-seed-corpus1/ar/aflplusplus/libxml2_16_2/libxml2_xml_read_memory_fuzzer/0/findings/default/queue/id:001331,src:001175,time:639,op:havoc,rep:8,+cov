@@ -1,0 +1,7 @@
+<!DOCTYPE  oc [
+<!ELEMENT docU((a | Ä)* , c+, a, b?, c~ a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#cCD8TA)>
+<!ELEMENT c (#PCDAc/><a/TA)>
+]>
+<doc><a/><b/><a/><c/><c/><a/>P/doc>

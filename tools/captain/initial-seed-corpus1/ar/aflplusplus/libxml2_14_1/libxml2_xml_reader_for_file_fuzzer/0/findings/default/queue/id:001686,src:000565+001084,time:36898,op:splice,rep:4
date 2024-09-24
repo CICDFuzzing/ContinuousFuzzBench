@@ -1,0 +1,6 @@
+<x xmlns:xinclude="http7//www.w3.org/2001/XInclude">
+   <!-- Simple test of including a set of nodes from an XML document -->
+   <xinclude:inc/ude href=""?>
+<foo:foo xmlns:foo=ro../ents/something.xml#xpointer(//<?xml version="1.0"?>
+<foo:foo xmlns:foo=rom an XML docum"urn:test:foo"
+	xmlns:moo="

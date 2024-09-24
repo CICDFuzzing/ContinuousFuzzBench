@@ -1,0 +1,26 @@
+<x xmlns:xinclude="http://www.w3.org/2001/XInclude">
+   <!-- Simple test of including a set odes from an XML docum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ente:include href="../enWs/something.xml#xpointer(//p)"/>
+</x>

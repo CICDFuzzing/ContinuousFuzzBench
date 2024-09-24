@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outer EMPTY>
+<!ATTLIST a:outer xmlns:c CDATA #FIXED 'urn:namespace'>
+<!ATTLIST a:outer xmlns:b CDATA #FIXED 'urn:mcjdzldceb'>
+]>
+
+<a:outer />

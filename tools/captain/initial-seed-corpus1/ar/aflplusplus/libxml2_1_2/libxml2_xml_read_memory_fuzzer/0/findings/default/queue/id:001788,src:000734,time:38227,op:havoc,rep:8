@@ -1,0 +1,43 @@
+<!DOCTYPE ÿstfoo.ent">
+]>
+<doc>
+  <sdoc [
+3!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTDIST
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TTLIST dest id ID SYSTEM "ÿÿÿÿÿÿstfoo.ent">
+]>
+<doc>
+  <src ref="foo"/>
+  &dest;
+  <src ref="hoo"/>
+</doc>
+

@@ -1,0 +1,5 @@
+\Ä<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo xml:id CDAZA #IMP]IED>
+]>
+<foo xml:id="bar"

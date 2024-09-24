@@ -1,0 +1,15 @@
+<!DOCTYPE root [
+<!ELEMENT root (elem)>
+<!ELEMENT elem (#PCDATA)>
+<!ATTLIST elem id ID #IMPLIED>
+<!ENTITY target SYSTEM "dtds/7Jent">
+.>
+
+<root>
+  &target;
+<7840.ent">
+.>
+
+<root>
+  target;
+</root>

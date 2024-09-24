@@ -1,0 +1,8 @@
+<?DOCTYPE dococ ((a | 
+)* , +, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!^L.                               MENT b (#PCDATA)>
+<!ELEMENT c (A)>
+]>(<do`><A/><b/><Y/><c/>A)>
+<!ELEMENT c (AT b (#PCDATA)>
+<!ELEoc>

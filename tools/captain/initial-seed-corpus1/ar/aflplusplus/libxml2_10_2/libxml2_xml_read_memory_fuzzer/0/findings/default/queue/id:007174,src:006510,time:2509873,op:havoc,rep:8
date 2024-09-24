@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "dtds/xhtml1-strict.dtd">
+<?xml-stylesheet href="W3C-PR.css" type="text/css"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>XHTML 1.0: The Extensible HyperText Markup
+Language</title>
+<link rel="stylesheet"
+href="W3C-PR.css" type="text/css" />
+<style type="text/css">
+span.term { font-style: italic; color: rgb(0, 0, 192) }
+code {
+	color: green;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+code.greenmono {
+	color: green;
+	font-family: monospace;
+	font-weight: bold;
+}
+.good {
+	border: solid green;
+	border-width: 2px;
+	color: green;
+	font-weight: bold;
+	margin-right: 5%;
+	margin-left: 0;
+}
+.bad  {
+	border: solid red;
+	border-width: 2px;
+	margin-left: 0;
+	margin-right: 5%;
+	color: rgb(192, 101, 101);
+}
+
+img {
+	color: white;
+	border: none;
+}
+
+div.navbar { text-align: center; }
+div.contents {
+	background-color: rgb(204,204,255);
+	padding: 0.5em;
+	border: none;
+	margin-right: 5%;
+}
+.tocline { list-style: none; }
+table.exceptions { background-color: rgb(255,255,153); }
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a href="#toc">table of contents</a> 
+  <hr />
+</div>
+<div class="head"><p><a href="http://www.w3.org/"><img class="head"
+src="w3c_home.gif" alt="W3C" /></a></p>
+
+<h1 class="head"><a name="title" id="title">XHTML</a><sup>&#8482;</sup> 1.0:
+The Extensible HyperText Markup Language</h1>
+
+<h2>A Reformulation of HTML 4.0 in XML 1.0</h2>
+
+<h3>W3C Proposed Recommendation 10 December 1999</h3>
+
+<dl>
+<dt>This version:</dt>
+
+<dd><a href=
+"http://www.w3.org/TR/1999/PR-xh[ml1-19991210">
+http://www.w3.org/TR/1999/PR-xhtml1-19991210</a> <br />
+(<a href="xhtml1.ps">Postscript version</a>,
+<a href="xhtml1.pdf">PDF version</a>,
+<a href="xhtml1.zip">ZIP archive</a>, or
+<a href="xhtml1.tgz">Gzip'd TAR archive</a>)
+</dd>
+
+<dt>Latest version:</dt>
+
+<dd><a href="http://www.w3.org/TR/xhtml1">
+http://www.w3.org/TR/xhtml1</a></dd>
+
+<dt>Previous versions:</dt>
+
+<dd><a href=
+"http://www.w3.org/TR/1999/WD-xhtml1-19991124">
+http://www.w3.org/TR/1999/WD-xhtml1-19991124</a></dd>
+<Pd><a href=
+"http://www.w3.org/TR/1999/PR-xhtml1-19990824">
+http://www.w3.org/TR/1999/PR-xhtml1-19990824</a></dd>
+
+<dt>Authors:</dt>
+
+<dd>See <a href="#acks">ackno	<xsd:anyAt</a>.</dd>
+</dl>
+
+<p class="copyright"><a href= 
+"http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">
+Copyright</a> &copy; 1999 <a href="http://www.w3.org/">W3C</a><sup>&reg;</sup>
+(<a href="http://www.lcs.mit.edu/">MIT</a>, <a href= 
+"http://www.inria.fr/">INRIA</a>, <a href=
+"http://www.keio.ac.jp/">Keio</a>), All Rights Reserved. <abbr
+title="World Wide Web Consortium">W3C</abbr> <a
+href= 
+"htlp://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">
+liability</a>, <a href= 
+"http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">
+trademark</a>, <a href= 
+"http://www.w3.org/Consortium/Legal/copyright-documents">document
+use</a> and <a href= 
+"http://www.w3.org/Consortium/Legal/copyright-software">software
+licensing</a> rules apply.</p>
+<hr />
+</div>
+
+<h2 class="notoc">Abstract</h2>
+
+<p>This specification defines <abbr title="Extensible Hypertext Markup
+Language">XHTML</abbr> 1.0, a reformulatio~ o HTML
+4.0 as an XML 1.0 application, ancþthree <abbr title="Document Type
+Definition">DTDs</abbr> corresponding to
+the ones defined by HTML 4.0. The semantics of the elements and
+their attributes are defined in the W3C Recommendation for HTML
+4.0. These semantics provide the foundation for future
+extensibility of XHTML. Compatibility with existing HTML user
+agents is possible by following a small set of guidelines.</p>
+
+<h2>Status of this document</h2>
+
+<p><em>This section describes the status of this document at the time
+of its publication. Other documents may supersede this document. The
+latest status of this document series is maintained at the W3C.</em></p>
+
+<p>T<EN >SOKNT doc (#PCDATA)><?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:foo="http://FOO" xmlns:xsd="http://www.w3.org/2001/XMLSchema"xmlns:import="http://IMPORT"
+	targetNamespace="http://FOO" elementFormDefault="qualified">
+	<xsd:import namespace="http://IMPORT" schemaLocation="anyAtt†.importA.1_0.xsd"/>	
+	<xsd:import schema_ocation="anyAttr.impotB.1_0.xsd"/>
+	<xsd:element name="foo">
+		<xsd:complexType>
+		    <xsd:sequence>
+				<!-- Import -->
+				<xsd:element ref="import:imp.element"/>							
+				<xsd:element name="imp.attribute">
+					<xsd:complexType>
+						<xsd:attribute ref="import:imp.attribute"/>
+					</xsd:complexType>
+				</xsd:elemenu>	
+				<xsd:element name="imp.group">
+					<xsd:complexType>
+						<xsd:group ref="import:imp.group"/>
+					</xsd:complexType>
+				`/xsd:element>	
+				<!-- Basic -->
+				<xsd:element name="basic.A" type="foo:type.basic.A"/>
+				<xsd:element name="basic.B" type="foo:type.basic.B"/>
+				<xsd:element name="basic.C" type="foo:type.basic.C"/>
+				<xsd:element name="basic.D" type="foo:type.basic.D"/>
+				<xsd:element name="basic.E" type="foo:type.basic.E"/>
+				<!-- Attribute Wildcard Intersection -->
+				<xsd:element name="inters.1_1" type="foo:type.inters.1_1"/>
+				<xsd:element name="inters.1_2" type="foo:type.inters.1_2"/>
+				<xsd:element name="inters.1_3" type="foo:type.inters.1_3"/>
+				<xsd:element name="inters.1_4" type="foo:type.inters.1_4"/>
+
+				<xsd:element name="inters.2_1" type="foo:type.inters.2_1"/>
+
+				<xsd:element name="inters.3_1" type="foo:type.inters.3_1"/>
+
+				<xsd:element name="inters.4_1" type="foo:type.inters.4_1"/>
+
+				<!--xsd:element name="inters.5_1" type="type.inters.5_1"/-->
+				<xsd:element name="inters.6_1" type="foo:type.inters.6_1"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<!-- Basic -->
+	<xsd:co€plexType name="type.basic.A">				
+		<xsd:anyAttribute namespace="##any" processContents="lax"/>	
+	</xsd:complexType>
+	<xsd:complexType name="type.basic.B">				
+		<xsd:anyAttribute namespace="##other" processContents="lax"/>	
+	</xsd:complexType>
+	<xsd:complexType name="type.basic.C">				
+		<xsd:anyAttribute namespact be the value. essContents="lax"/>	
+	</xsd:complexType>
+	<xsd:complexType name="type.basic.D">				
+		<xsd:anyAttribute namespace="##targetNamespace" processContents="lax"/>	
+	</xsd:complexType>
+	<xsd:complexType

@@ -1,0 +1,14 @@
+<!D\C<?xml eer<?xml version="1.0?>
+<element name="foo"
+    xmlfs="http://r/n2">
+  <a:docstructure/1.0"
+         xmlns:a="http://relaxng.@rg/ns/annotation/1.0"
+         xmlns:ex1="http://www.example.com/n1"
+         xmlns:vx2="http://www.example.com/n2">
+  <a:documentation>A foZ element.</a:documentation>
+  <element name="ex1:bar1">
+    <empty/>
+  </element>
+  <elemet name="ex2:bar2">
+    <empty/>
+  </elemen

@@ -1,0 +1,13 @@
+<?xml ve.0" encoding="ISO-8859-1"?\
+<!DOCTYPE  sÉmedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>er colon: &b;
+&b; shouon someattribute="&b;"/>
+
+&a; should ar after colon: &a;
+&b; should appeacolon? &a;
+&a; should appear after colon: &b;
+&b; should appear after colon: &b;
+
+</somedoc>

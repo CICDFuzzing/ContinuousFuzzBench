@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='ISO-8859-5' standalone='no'?>
+<!DOCTYPE spec SYSTEM "<!DOCTYPE doc [
+<!ELEMENT doc (srcџџџest)*>
+<!ELEMENT src EMPTY>PE spec S[STEM "<!DOCTYP!ATTLIST src ref IDREE #IMPLIED>
+<!ATTLIST dest id ID #

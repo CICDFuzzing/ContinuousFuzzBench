@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ELEMENT ÿÿc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dÿÿt EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+<!ENTITY desc SYSTEM "dtdS/destfoo.ent">
+]>
+<doc>
+ rc | dest)*>
+<!MENT "<<<<S<<<<<<<<<<<<<<ref="foo"/>
+</doc>
+

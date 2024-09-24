@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ELEMENT ioc EMPTY>
+<!ATTLIST doc					ddnj		(0|1)   "‡"
+     xmlns:tsdefatt  (0t1)   "0"
+     xmlns:  (0|1)   "0"
+     xmlns:tsdefat (0|1)   "    xmlNT ioc EMPTYT ioc EMPTY>
+<!ATTLIST doc					ddnj		(0|1)   "‡"
+     xmlns:tsdefatt  (0t1)   "0"
+     xmlns:  (0|1)   "0"
+     xml>
+<!ATTLIST doc					ddnj		(0|1)   ‡"
+     xmlns aX1"/>

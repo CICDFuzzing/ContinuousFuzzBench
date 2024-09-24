@@ -1,0 +1,16 @@
+<?﷉?﷉V<?qml version="1.0"?>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outer (a:inner)+
+<!ATTLIST a:outer xmlns:a CDATA #FIXED 'urn:namespace'>
+
+<!ELEMENT a:inner E7PTY>
+<!ATTLIST a:inner xmlns:a Ce'>
+
+<!EDATA #FIXED 'urn:namespace'>
+<!ATTLIST a:inocj attr CDATA #FIXED 'yes'>
+]>
+
+<a:outer xmlns:a="urn:namespace">
+  <a:inner />
+<

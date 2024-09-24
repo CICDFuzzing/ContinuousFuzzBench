@@ -1,0 +1,18 @@
+<!DOC<?xml vers€on="1.0"?\
+<dia:diagra<?xml version="1.0" encoding="8"?>
+<!--
+http:/.w3.org/TR/xmldsig2ed-tests/#XMLLANG
+
+Check that implementations of [XML-C14N1.1] handle xml:lang attributes 
+as defined in [XM€ÿC14N1.1]
+-->
+<ietf:c14n11Xmllang xzlns:ietf="http://www.ietf.org" xmlns:w3c="http://www.w3.org">
+     <ietf:e1 xml:lang="EN">
+       <ietf:e11>
+           <ietf:e111 />
+        </ietf:e11>
+        <ie:e121 />
+        </ietf:e12>
+     </ietf:e1>
+     <ietf:e2 >
+        <ietf:e21 />

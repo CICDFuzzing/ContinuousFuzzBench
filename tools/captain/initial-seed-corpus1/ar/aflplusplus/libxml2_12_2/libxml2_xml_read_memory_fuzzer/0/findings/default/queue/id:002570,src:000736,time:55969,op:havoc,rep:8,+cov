@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT d!ATTLIST dest EMPTY>
+<!ATTLIST src refIDREC #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+]>
+<doc>
+  Usrc ref="foo"/>
+  <deqt id="foo"/>
+ ÿ<src ref=Efoo"/>	</doc>
+

@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (a, :b | c)*, d*)? >
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!DLEMENT c EMPTY>
+<!ELEMENT d EMPTY>
+]>
+<doc><a/><<EN >SO<?xml version="1.0" standalone="yes"?

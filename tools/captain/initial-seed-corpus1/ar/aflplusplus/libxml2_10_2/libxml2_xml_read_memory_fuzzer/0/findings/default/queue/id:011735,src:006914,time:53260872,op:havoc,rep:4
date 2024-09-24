@@ -1,0 +1,48 @@
+<doc>
+<foo xml:id="bar"/>
+<err xml:id="_ar"/>
+<) }
+code {
+	color: green;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+code.greenmono {
+	color: green;
+	font-family: monospace;
+	font-weight: bold;
+}
+.good {
+	nospace;
+	fontborder: solid green;
+	border-width: 2px;
+	color: green;
+	font-weight: bold;
+	maroc>
+<foo xml:id="bar"/>
+<err xml:id="_ar"/>
+<) }
+code {
+	color: green;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+code.greenmono {
+	color: green;
+	font-family: monospace;
+	font-weight: bold;
+}
+.good {
+	nospace;
+	fontborder: solid green;
+	border-width: 2px;
+	color: green;
+	font-weight: bold;
+	margin-right: 5%;
+	gin-right: 5%;
+	margin-left: 0;
+}
+.bad  {
+	border: soliddEc>

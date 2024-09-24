@@ -1,0 +1,13 @@
+<?xml€ve.0" encoding="ISO-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "so&a;">
+]>
+
+<somewoc>
+
+<som>
+
+&a; sd ar after colon; shuld appear alon: &b;
+&b; ppe
+
+</somedoc"

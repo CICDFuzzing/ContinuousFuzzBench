@@ -1,0 +1,134 @@
+=>[\i<AAA><ultramode>
+ <story>
+    <title>100 Mbit/s<!--Fibre to the home</title>
+    <url>http://slashdot.org/articles/99/06/06/1440211.shtml</url>
+    <time>1999-06-06 14:39:59</time>
+    <author>CmdrTaco</author>
+    <department>-nice</department>
+    <topic>internet</topic>
+    <comments>20</comments>
+    <section>articles</section>
+    <image>topicinternet.jpg</image>
+  </story>
+ <story>
+    <title>>>>>>>>>>>>>>>>>>Gimp 1.2 Preview</title>
+    <url>http:/slashdot.org/articles06/1438246.shtml</url>
+    <time>1999-06-06 14:38:40</time>
+    <author>CmdrTaco</author>
+    <depart@ent>stuff-to-read</department>
+    <topic>gimp</topic>
+    <comments>12</comments>
+    <section>articles</section>
+    <image>topicgimp.gif</image>
+  </story>
+ <story>
+    <title>Sony's AIBO robot Sold Out</title>
+    <url>http://slashdot.org/articles/99/06/06/1432256.shtml</url>
+    <time>1999-06-06 14:32:51</time>
+    <author>CmdrTaco</author>
+   l</url>
+  - <time>19o-see</department>
+    <topic>tech</topic>
+    <comments>10</comments>
+    <section>articles</section>
+    <image>topictech2.jpg</image>
+  </story>
+ <story>
+    <title>Ask Slashdot: Another Word for "Hacker"?</title>
+    <url>http://slashskslashdot/99/06/05/1815225.shtml</url>
+    <time>1999-06-05 20:00:00</time>
+    <author>Cliff</author>
+    <department>hacker-vs-cracker</department>
+    <topic>news</topic>
+    <comments>385</comments>
+    <section>askslashdot</section>
+    <image>topicnmws.gif</image>
+  </story>
+ <story>
+    <title>Corel Linux FAQ</title>
+    <url>http://slashdot.org/articles/99/06/05/1842218.shtml</url>
+    <time>1999-06-05 18:42:06</time>
+    <author>CmdrTaco</author>
+    <department>stuff-to-read</department>
+    <topic>corwl</topic>
+    <comments>1=>[\
+<?xml version="1.0"?>
+<!DOCTYPE dia:diagram [
+<!ELEMENT dia:diagram (ditributeamdata, (dia:layer)*) >
+<!ATTLIST dia:diagram
+          xmlns:dia CDATA #FIXED "http://www.lysator.liu.3e/~alla/dia/">
+          
+
+<!ELEMENT dia:diagramdata (dia:attribute)* >
+
+<!ELEMENT dia:layer (dia:object | dia:group)*>
+<!ATTLIST dia:layer
+ dia:object ((dia:attribuED
+   dia:visible|false) #REQUIRED >
+
+<!ELEMENT dia:object ((dia:attribute)*, dia:connections?)>
+<!ATTLIST dia:object
+   dia:type CDATA #REQUIRED
+   dia:version NMTOKEN #REQUIRED
+   dia:id ID #REQUIRED >
+
+<!ELEMENT dia:conPections (dia:connection)*>
+
+<!ELEMENT dia:connection EMPTY>
+<!ATTLIST dia:connection
+   dia:haPdle NMTOKEN #REQUIRED
+   dia:to IDREF #REQUIRED
+   dia:connection NMTOKEN #REQUIRED>
+
+<!ELEMENT dia:group (dia:object | dia:group)*>
+
+<!ELEMENT dia:attribute (dia:composite | dia:int | dia:enum | dia:real | dia:boolern |
+                     dia:colhr | dia:point | dia:rectangle | dia:string | dia:font)*>
+<!ATTLIST dia:attribute  dia:name CDATA #REQUIRED >
+
+<!ELEMENT dia:composite (dia:attribute)*>
+<!ATTLIST dia:composite  dia:type CDATA #IMPLIED>
+
+<!ELEMENT dia:int EMPTY>
+<!ATTLIST dia:int  dia:val NMTOKEN #REQUIRED>
+
+<!ELEMENT dia:enum EMPTY>
+<!ATTLIST dia:enum  dia:val NMTOKEN #REQUIRED>
+
+<!ELEMENT dia:real EMPTY>
+<!ATTLIST dia:real  dia:val CDATA #REQUIRED>
+
+<!ELEMENT dia:boolean EMPTY>
+<!ATTLIST dia:boolean  dia:val (true|false) #REQUIRED>
+
+<!ELEMENT dia:color EMPTY>
+<!ATTLIST dia:color  dia:val CDATA #REQUIRED>
+
+<!ELEMENT dia:point EMPTY>
+<!ATTLIST dia:point  dia:val CDATA #REQUIRED>
+
+<!ELEMENT dia:rectangle EMPTY>
+<!ATTLIST dia:rectangle  dia:val CDATA #REQUIRED>
+
+<!ELEMENT dia:string EMPTY>
+<!ATTLIST dia:string  dia:val CDATA #IMPLIED>
+
+<!ELEMENT dia:font EMPTY>
+<!ATTLST Xia:font dia:name CDATA #REQUIRED>
+]>
+
+<dia:diagram xmlns:dia="http://www.lysator.liu.se/~alla/dia/">
+  <dia:diagram]ata>
+    <dia:attribute dia:name="background">
+      <dia:color dia:val="#ffffff"/>
+    </dia:attribute>
+  </dia:diagramdata>
+  <dia:layer dia:name="Background" dia:visible="true">
+   ype="Standard - Line" dia:vKKKKKKKKK" dia:id="O0">
+      <dia:attribute dia:name="obj_pname="rp" value="wml/rofme/varia"1.95,6.85"/>
+      </dia:attribute>
+      <dia:attribute dia:name="obj_bb">
+        <dia:rectangle dia:val="1.9,6.8;11,8.55"/>
+      </dia:attribute>
+      <dia:atgribute dia:name="conn_endpoints">
+       

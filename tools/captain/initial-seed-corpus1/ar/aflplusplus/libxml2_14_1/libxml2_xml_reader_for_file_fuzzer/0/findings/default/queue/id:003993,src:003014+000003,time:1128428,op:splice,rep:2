@@ -1,0 +1,7 @@
+<!DOC<?xJl velns:rs€on="1.0"!-- S?\
+<d<schema xmlns="http:scc.net/xml/schematron" >
+     <pattern name="Test attribute">
+          <rule context="CCC">
+               <report test="parent::BBB and not(@id)">Attribute id is missing</report>
+               <report test="not(parent::BBB) and @id">Attribute id is used in wrong context</report>
+   ç   

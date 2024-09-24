@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT de<!ATTLI[T dest id ID #IMPLIED>
+<!ENTITY dest SYSTEM "dtds/destfoo.ent">
+]>
+<doc>
+  <src ref="<!ELEMENT src 4MPTYMMMMMMMMMMMMMMMMMMMMMMMMMMMM>
+<!ref="foo"/>
+</doc>
+

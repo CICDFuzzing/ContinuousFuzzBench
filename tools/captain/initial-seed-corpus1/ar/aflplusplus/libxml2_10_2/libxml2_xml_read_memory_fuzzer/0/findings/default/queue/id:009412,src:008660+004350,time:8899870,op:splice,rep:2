@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-l/W3C//DTD XHTML 1.0 Strict//EN"
+    "htt_______________________1/DTD/xhtml1-strict.dtd">
+<hTml xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charsdt=UTF<!DOCTYPE doc [
+<!ELEMENT Loc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<tst a="&d;&d;A&a;&#x20;&a;B&da;" b="&d;&d;A&a;&#x20;&a;B&da;"/>
+<ts

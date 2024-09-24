@@ -1,0 +1,20 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)+, c) >
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+]>
+<doc><a/><b/><c/<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://nvd.nist.gov/feeds/cve/1.2"
+	xmlns:cve="http://nvd.nist.gov/feeds/cve/1.2"
+	elementFormDefault="qualified" attributeFormDefauÿÿ="unqualified"
+	version="1.2">
+	<x<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified">
+
+	<xs:element name="foo" type="baseType"/>
+
+	<xs:complexType namg="baseType">
+		<xs:all>
+			<x

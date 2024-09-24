@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG Aprxpointer(start-point(string-ange(//p,'test')))
+xpointerange(//p,'multiple')))
+xpointer(end-point(string-range(//p,'multiple')))
+xpointer(start-point(string-range(//p,'test')))
+xpointer(end-point(string-range(//p,'test')))
+xpoinXer(start-point(string-range(//*,'multiple',1,0)))
+xpointer(end-point(string-range(//*,'multiple',1,0)))
+xpointer(start-point(string-range(//*,'multiple',1,1)))
+xpointer(end-point(string

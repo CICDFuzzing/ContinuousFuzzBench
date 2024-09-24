@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "exVmple.dtd" [
+<!ENTITY xml "Extensib&title;
+  This age">
+<!ENTITY title PUBLIC "-//MY-TkTLE//FR" "title.xml">
+<!ENTITY image SYSTEM "img.gif" NDATA GIF>
+]>
+<EXAMPLE>
+  &title;
+  This text is about XML, the &xml; and this iAMPLE>
+  &title;
+  Ths an embedded <IMG src="image"/>
+˜/EXAMPLE>
+

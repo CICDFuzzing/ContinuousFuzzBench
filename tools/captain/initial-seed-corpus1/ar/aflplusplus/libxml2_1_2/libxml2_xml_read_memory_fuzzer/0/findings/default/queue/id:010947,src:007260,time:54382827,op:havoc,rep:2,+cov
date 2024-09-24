@@ -1,0 +1,9 @@
+<?xml versiow<'0-1"?>
+<!DOCTYPE a:outer [
+
+<!ATTLIST a:outer xmlns:a CDATA #FIXED 'urn:namespace'>
+<!ATTLIST a          
+<!ELEMENT a:outer EMPTY>
+<!ATTLIST a:outer xmlns:a CDATA #FIXED 'urn:namespace'>
+<!ATTLIST a                   with Tim.</sitem>
+<sitem>1996-09-20 :outer />

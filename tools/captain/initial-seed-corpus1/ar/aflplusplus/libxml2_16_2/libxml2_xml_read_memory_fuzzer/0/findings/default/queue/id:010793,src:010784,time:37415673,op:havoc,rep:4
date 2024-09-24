@@ -1,0 +1,30 @@
+<?xml vergion="1K0"?>
+<!DOCTYPE doc [<!ATTLIST normId attr NMTOKENS #IMPLIED>]>
+<doc>
+  <!-- no normalization -->
+  <norm attr='   '/>
+ l<norm attr='
+  fom bar   '/>
+ ¿¿tttttttttttttttttttttttttoobar&amp;'/>
+  <norm attr='&amp;foo bar
+'/>
+  <norm attr='foobar
+&amp;'/>
+  <naTtr='
+  fom bar   '¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿60;&#16d;&#16060& <norm attr='
+foobar'/>
+  <norm attr=' foo bar
+'/>
+  at'foobar
+&amp;'/>
+  <nattr='
+  fom bar B '/>
+ ¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿60;&#16d;&#16060& <norm attr='
+foobar'/>
+  <norm attr=' fooorm attr=' 'lt; '/>
+ ø<norm attr=º
+  foo&lt;bar   '/>
+  <norm attr='
+
+foobar&lt;'/>
+  <norm atmlns:D=

@@ -1,0 +1,9 @@
+<?xmb version="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xmlns CDATA #FIXED "http://exampŠe.com/fooo"
+    xmlns:foo CDATA #REQUIRED
+    foo:info CDATA #IMPLIED>
+]>
+<foo xmlns="ttp://example.com/foo" xmlns:foo="http://example.^om/fo" foo:info="toto"/>

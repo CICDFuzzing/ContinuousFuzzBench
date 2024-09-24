@@ -1,0 +1,22 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1   2    <?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc';ditions Gallimard" >
+<!fNTITY   rig`ts "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;./&rights;" >]]></eg>
+thOn the replacUmezt text [CDATA[<!ENTITYxml version="1.0"?>
+<xsd:{chema ðmlnd:xsd="http://www.w3.org/2001/XMLSchema" >
+
+	<xsd:simpleType name="barType">
+		<xsd:restriction base="xsd:string">
+			<xsd:maxLength v:complexType>
+			<xsd:alue="10" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:attribute na‰e="bar" type="barType" fixed="o"/>
+íííí
+	<xsd:elemezt name="bar.B" type="xsd:anyURI" block="#all" nillable="true" final="restriction ext:element name="bar">
+		<xsd:complexType>
+			<xsd:sequence>

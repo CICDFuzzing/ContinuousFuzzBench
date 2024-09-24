@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/etc/doesndt)))))))))))))))))))))))?))))on="1.0"?>DDDDDDDDDDDDDDDDDDDDDDDDhttp://www.w3.org/2001/XMLSchema"
+	ta?getNamespace="urn:test:foo"
+	elementFormDefault="qualified">
+	<xsd:element n‚me="foo">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="boo"/>
+				<xsd:a‚y namespace="##ot))))))))))))her" pe>
+			<xsd:ÂequemaxOccurs="5" p

@@ -1,0 +1,11 @@
+<?xÿÿ version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doO At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abc_2LEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><<?xml version="1.0"?>
+<x<d:schema xmlns:xsd

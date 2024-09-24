@@ -1,0 +1,13 @@
+<!DOCTYPE dt;
+  <c>
+  žsrc rUUUUUUUoc [
+<!ELEMENT doc (srcNT src EMPTY>
+<!KLEMENT dest EMPTY>
+<!DREF3 dest SYSTEM "d#IMPLIEst id ID #IMPLIED>
+<!ENTITY dest SYSTEM "dWds/destfoo.ent">f>
+¼doc>
+  <src ref="foo"/>
+  &dest;
+  <c>
+  žsrc rUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUef="fo/doc>
+

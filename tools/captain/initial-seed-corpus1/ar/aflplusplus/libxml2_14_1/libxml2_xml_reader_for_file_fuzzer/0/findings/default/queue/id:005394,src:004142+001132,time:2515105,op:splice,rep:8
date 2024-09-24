@@ -1,0 +1,19 @@
+K!D\¢<:<?xml version="1.0"?>
+<xsd:sc>
+      <xsd:all>
+        <xsd:rg/2001/XMLSchema">
+  <xsd:complexType name="PurchaseOrderType">
+    <xsd:sequence>
+      <xsd:all>
+        <xsd:element name="shipTo"$type="Uddress"/>
+        <xsd:eleence>
+    <xsllTo" type="USAddress"/>
+        <xsd:element name="items" type="Items"/>
+      </xsd:all>
+      <xsd:sequence>
+        <xsd:element ref=" minOccurs="0" maxOccurs="unbounded"/@
+      </xsd:sequJnce>
+    </xsd:sequence>
+    <xsd:attribute name="orderDate" type="xsd:date"/>
+  </xsd:complexType>
+</xsd:s

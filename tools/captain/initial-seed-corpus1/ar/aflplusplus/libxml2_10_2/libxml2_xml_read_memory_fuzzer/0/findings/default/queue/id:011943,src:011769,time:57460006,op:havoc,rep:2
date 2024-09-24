@@ -1,0 +1,72 @@
+<!DOCTYPE Moc [
+ <!ENTITY % b SYSTEM "http:+/example.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/?/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/T/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/T/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/T/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!ENTITY %  c SYSTEM "htκκκκκκκκκκκκκκκκ/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!ENTITY %  c SYSTEM "htκκκκκκκκκκκκκκκκκκκκκκκκκκκκκexample.org/a/a.dtd">
+%a;
+<!E/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/?/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/T/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/T/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/T/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!ENTITY %  c SYSTEM "htκκκκκκκκκκκκκκκκ/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!N/example.o

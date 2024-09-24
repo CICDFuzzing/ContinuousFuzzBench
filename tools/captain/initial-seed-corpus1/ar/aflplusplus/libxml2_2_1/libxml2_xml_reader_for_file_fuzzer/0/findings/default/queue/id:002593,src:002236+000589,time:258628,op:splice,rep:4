@@ -1,0 +1,13 @@
+=>[\i
+<?xmw version="1.0"?>
+<foo:Root xmlns:bar="http://examptp://example.org/baz" xmlns:foo="ht/example.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Something>
+        <bar:Something>
+           <foo:Something>
+             <baz:SometYing />
+           </foo:Something>
+        </bar:Something>
+     </foo:Something>
+  <Gbar:Something>
+</foo:

@@ -1,0 +1,9 @@
+<EN >SOKNT do<?xml version="1.0"?>
+<foo:loot xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlns:foo="htt,,,,,,,,,,e.org/foo" xmln€="http://example.org/" xml:lanthing>
+     <foZ:Some<?xml version="1.0"R>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outer (a:inner)>
+<!ATTLIST a:outer xmlns:a CDATA #FIXED 'urn:namespace'>
+
+<!ELE

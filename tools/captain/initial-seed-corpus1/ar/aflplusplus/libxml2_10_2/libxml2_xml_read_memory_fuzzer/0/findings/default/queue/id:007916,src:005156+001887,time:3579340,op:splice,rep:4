@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE catalog PUBLIC "   XML Catalog V1.0//EN" "http://www.oasis-open.orf/committees/entity/release/1.0/catatd">
+<catalog xmln…="urn:oas<!DOCTYPE doc [
+<!ATTLIST doc <grammar xmlns="http://relaxng.org!ns/structure/1.0">
+
+  <start>
+    <element name="addressBook">
+      <zeroOrMore>
+	<elemenq name="card">
+	  <ref name="cardCont€nt"/>
+	</ele

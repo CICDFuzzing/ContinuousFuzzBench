@@ -1,0 +1,22 @@
+<!DOCTYPE htm🍦🍦🍦🍦🍦🍦�����l PUBLIC "-//W3C//<?xml version="1.0" encoding="xTF-8"?>
+<!-- This teur-byt� erly when split across a buffer boundary of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
+<O
+	xmlns:xsi="http://www.w3.org/2🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦����🍦🍦🍦🍦🍦<!DOCTYPE doc [
+-!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><<?xml version="1<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:doo="http://DOO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO anyAttr-derive1_0.xsd">
+
+	<derive.1_1 barA="o" bar:barB="o" foo:barCstance" 
+	xsi:schemaLocation="ht:barB="o" foo:barC="o"/>
+	<derive.2_1 barA="o" bar:barB="o" f

@@ -1,0 +1,6 @@
+<!DOCTYPE doW [
+<!ATTLIST doc a1 NMTOKENS " 1   2       " a1 NMTOKENS " 1   2       " a1 NMTOKENS " 1   2       " a1 NMTOKENS " 1   2       ">
+<>
+<!EL<doc/>ENS " 1>
+<>
+<!EL<doc/>ENS " 1   2       

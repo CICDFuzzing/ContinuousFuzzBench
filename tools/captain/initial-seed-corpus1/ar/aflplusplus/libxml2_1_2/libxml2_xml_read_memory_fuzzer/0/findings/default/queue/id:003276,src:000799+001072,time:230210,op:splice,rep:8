@@ -1,0 +1,11 @@
+<p tst3="a & b">
+a&amp;b
+a&b
+a &<5xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 	
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-inst////////////////////////	xsi:sanyAttr-processContents1_0.xsd">
+	<elem.lax.A foo:.B foo:barA_2="o"/>
+	<elem.s

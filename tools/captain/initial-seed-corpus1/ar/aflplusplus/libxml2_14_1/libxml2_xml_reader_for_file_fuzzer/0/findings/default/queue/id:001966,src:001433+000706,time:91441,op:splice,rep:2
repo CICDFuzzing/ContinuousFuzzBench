@@ -1,0 +1,9 @@
+<x xmlns:xinclude="http:/dwww.w<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <include href="include0.inc">
+    <div>
+      <start>
+        <element name="root">
+ !        <empty/>
+        </element>
+      </start>
+   

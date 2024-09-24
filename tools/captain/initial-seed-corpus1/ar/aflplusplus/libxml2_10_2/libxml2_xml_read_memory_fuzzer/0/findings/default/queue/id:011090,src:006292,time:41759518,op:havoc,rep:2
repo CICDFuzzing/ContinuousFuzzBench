@@ -1,0 +1,14 @@
+<!DOCTYPE Moc [
+<!ATTLIST doc a1 NMTOKENS <!ENTITY % b SYSTEM "http:+/td">
+%b;
+<!ENTITY % t SYSTEM "example.org/b/b.dtd">
+%b;
+<!ENTITY % t SYSTEM "http://ep:+/td">
+%b;
+<!ENTITY % t SYSTEM "example.org/b/b.dtd">
+%b;
+<!ENTITY % t SYSTEM "http://exdmple.org/a/a.dtd">
+%a;
+<!ENTITY xample.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http://example.o

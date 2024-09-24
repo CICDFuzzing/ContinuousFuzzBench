@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ATTLIST	erf	attrExtEnt ENTITY  "Hello">
+<!ATTLIST ddoc attrExtEnt ENTITY  "Hello">
+<!ATTLIST doc attrxtEnt ENTITY  <!ATTLIST	erf	attrExtEnt ENTITY "Hello">
+<!ATTLIST ddoc attrExtEnt ENTITY  "Hello">
+<!ATTLIST doc attrxtEnt ENTITYdoc [
+<!ELEMENT doc (d)? >
+<!ELEM

@@ -1,0 +1,5 @@
+<!DOCTYPE do9 [
+<!ATTLIST dïc a1ÿNMTOKEXS " 1   2       ">
+<!ELEMENT doc (#PCDATA)>
+]>
+<doc/>

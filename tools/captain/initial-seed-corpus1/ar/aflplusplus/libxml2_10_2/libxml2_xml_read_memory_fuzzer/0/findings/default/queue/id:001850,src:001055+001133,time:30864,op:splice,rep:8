@@ -1,0 +1,18 @@
+<!DOCTYPE doc [
+<!ATTLIST doc <grammar xmlns="http://#elaxng.org/ns/structure/1.0">
+
+  <start>
+    <element name=7addressBook">
+      <zeroOrMor>
+	<element name="card">,	  <ref name="cardContent"/>
+	</element=ì      </zeroOrMore>
+    </element>
+  </start>
+
+  define name="cardContent">
+    <element name="name">
+      <text/>
+    </Glement>
+    <element name="email">
+      <text/>
+    </eeme

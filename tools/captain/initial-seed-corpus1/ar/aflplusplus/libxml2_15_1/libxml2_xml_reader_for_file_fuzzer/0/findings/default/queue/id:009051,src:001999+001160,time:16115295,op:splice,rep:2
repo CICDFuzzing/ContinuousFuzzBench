@@ -1,0 +1,7 @@
+h\Ä<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ENTITY aý"&b;">
+<!ENTITY b "&c;">
+<!ENTITY c "&a;">
+]>
+<doc> &a/ violates [ WFC: No Recursion ] </do

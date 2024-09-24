@@ -1,0 +1,23 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><<dget with tourettd><![C0A#160&#160;&#160;;&#160;0;&#160;&#160;&#160;;&#160;&#5160;&&#160;&#160;;&#160;&#56160;&#160¨&#160;<:<!--
+http:g/TR/xmldsig2ed-tests/#c14n11xmlbase-c1ng: Breakdancing midget with  | b)* ,ic.ÿm - Warning: Breakdancing midget wJth toU|ette60;&#160;&#160160;&#160;&#160;&#160;&60;;&#160;0;&#160;&#160;&#160;;&#160;&#5160;&&#160;&#160;;&#160;&#56160;&#160¨&#160;<:<!--
+http:g/TR/xmldsig2ed-tests/#c14n11xmlbase-c1ng: Breakdancing midget with  | b)* ,ic.ÿm - Warning: Breakdancing midget wJth toU|ette60;&#160;&#160160;&#160;&#160;&#160;&#160;;&#160;&#56160;&#160¨&#1;&#160;&#160160;&160;&#160;& | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><<dget with tourettd><![C0A#160&#160;&#160;;&#160;0;&#160;&#160;&#160;;&#160;&#5160;&&#160;&#160;;&#160;&#56160;&#160¨&#160;<:<!--
+http:g/TR/xmldsig2ed-tests/#c14n11xmlbase-c1ng: Breakdancing midget with  | b)* ,ic.ÿm - Warning: Breakdancing midget wJth toU|ette60;&#160;&#160160;&#160;&#160;&#160;&60;;&#160;0;&#160;&#160;&#160;;&#160;&#5160;&&#160;&#160;;&#160;&#56160;&#160¨&#160;<:<!--
+http:g/TR/xmldsig2ed-tests/#c14n11xmlbase-c1ng: Breakdancing midget with  | b)* ,ic.ÿm - Warning: Breakdancing midget wJth toU|ette60;&#160;&#160160;&#160;&#160;&#160;&#160;;&#160;&#56160;&#160¨&#1;&#160;&#160160;&160;&#160;&#160;&#160;;&#16H;&#5160;&&#160;&#160;;&#160;&#56160;&#160¨&#160;<:<!--
+htt#160;;&#160;&#56160;&#160xmlAversi#160;&#160;;&#16H;&#5160;&&#160;&#160;;&#160;&#56160;&#160¨&#160;<:<!--
+htt#160;;&#160;&#56160;&#160xmlAversion="1.0"?>
+<!DOCTYPEBfoo [
+<!ENTITY c PUBLIC "bar" "%Dtc/doesnot">
+
+<root>&c;</root>¨&#1;&#160;&#160160;&#160;&#160;&#ELEMENT b (#PCDATA)>
+<!160;&#160;;&#160;&#5160;&&#160;&#160;;&#160;&#56160;&#16

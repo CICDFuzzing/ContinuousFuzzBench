@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ATTLIST doc atuzCtxEnt ENTITY  "©©Hello">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
+<!NOTATIOS	osd	UUVGFY	'nsdzmrd-bjb!?`:;ala	fpxnCzuArk?%amwAho!:			(cig0@-	"fjx9:!
+</doc>
+
+<!-- Let world.txt if>contain "world" (excluding tGe quotes) -->

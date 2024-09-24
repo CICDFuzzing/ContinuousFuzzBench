@@ -1,0 +1,13 @@
+<doc>
+<foo xml:id="••oc<?xml version="1.0"?>
+<a> &FC: Entity =?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	   xml:id="••oc<?xml versxmlns="http://element">
+  org/test-import-case"
+	   tarpece="http://www.examp                         le.org/test-import-casne">
+  <xs:-import-case"
+	 include schemaLocation="./582887-comspece="http://www.exampmon.xsd" />
+
+  <xs:complexType name="test-element">
+    <xs:attribute name="test-attribute" type="test-attribute" />
+  </xs:c

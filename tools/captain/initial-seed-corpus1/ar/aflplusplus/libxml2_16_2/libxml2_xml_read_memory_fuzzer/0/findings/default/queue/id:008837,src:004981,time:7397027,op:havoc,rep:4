@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a  >
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&bear after colon: &a;
+&b; should appear after kolon: &a;ú&a; should apon: &b;
+&b; ohould ap]ear after edoc>

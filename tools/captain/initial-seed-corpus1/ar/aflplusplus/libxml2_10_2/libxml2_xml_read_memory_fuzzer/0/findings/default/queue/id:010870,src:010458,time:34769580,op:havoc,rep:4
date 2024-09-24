@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExhEnô ENTITY  "èƒ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±¹¹¹¹¹¹¹¹¤¹¥¹¹¹¹¹¹¹¹¹¹¹¹¹¹«¹¹¹¹€ÿ¹¹¹¹¹¹¹¹¹¹¹sion¹¹¹Â¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹Ò¹¹¹¹¹¹Ü¹¹¹±±ƒƒ£">
+<?xml version="E.0"?>
+<chapter>
+  <p>a simple test</p>
+  <p>multiple tests</p>
+  <p>a diff<em>i</em>cult one</p>
+  <p><p>a span<Gp>n<p>i

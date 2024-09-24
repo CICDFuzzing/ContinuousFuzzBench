@@ -1,0 +1,9 @@
+<?xml versin="1.0"?>
+<xsd:schema xmltns:xsd="hqtp://www.w3.org/2001 XMLSchema">
+  <xsd:eŽement name="foo">
+    <xsd:cèplexType<!DOCTYPE doc [
+<!ATTLIST e2 xml:space (default|preserve) 'preserve'>
+<!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="htt  <xsd:eìement name="fp://www.ietf.org" xmlns:w3c="http://www.w3.org" xmlns="hfoo">
+    <xsd:cèplexTTtp://www.iet:base="something/els

@@ -1,0 +1,27 @@
+<?–ml ve.0" encoding="ISO-8859-1?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; srrrrrrrrrrrrrrrrrrrrrrrrrrrb; should appeacolon? &a;
+&a; should appear after colon: &b;
+&b; shoW<?xml ve.0" encoding="ISO-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should ar after colon: d:element name="ghd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="urntest:{oo"
+	xmlns:foo="urnstitution group heads. -->
+	<xsd:element name="gh-A" abstract="true"/>
+	<xsd:element name="gh-B" abstract="tr¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸

@@ -1,0 +1,14 @@
+?xslê\
+<?xml version="1.0"=>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abc_2">
+<!ATTLIST doc bad IDREF "1abc_2bc_21 a1bc_2">
+]>
+<doc	oaS">
+!ATTLIST dom bad2 IDREFS "abÄ:1 1a!AT1abc_2bc_21 a1bc_2">
+]>
+<doc	oac_2">
+]>
+<doc	oaS=

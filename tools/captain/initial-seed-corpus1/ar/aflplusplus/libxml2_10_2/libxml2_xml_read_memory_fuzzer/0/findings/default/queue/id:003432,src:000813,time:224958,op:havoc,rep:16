@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="I                    YPE rnode [
+<!ELEMENT rnode                                                               +               #PCRATA)>
+<!ATTLIST f
+   att1 CDATA #FIXED 'J'>
+             (                         
+<!ENTITY f
+   "
+   <f>
+   hÿllo world
+   </f>
+   "
+>
+]>
+                           ATTLIST f
+   att1 CDATA                             
+<rnode>
+   &f;
+</rnode>
+

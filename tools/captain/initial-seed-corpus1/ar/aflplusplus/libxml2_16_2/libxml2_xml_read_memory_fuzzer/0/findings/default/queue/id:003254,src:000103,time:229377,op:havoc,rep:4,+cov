@@ -1,0 +1,7 @@
+<?xml versionT'1.0'?>
+<!DOCTYPE tmst [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY LLLLLLLLLLLLLLLLLLLLLLLLLLLLLz '&#60;!ENTITY tricky "error-pr{{{{{{{{{{{one" >' >
+%xx;
+]>
+<test>This sample shows a &tricky; method.</test>

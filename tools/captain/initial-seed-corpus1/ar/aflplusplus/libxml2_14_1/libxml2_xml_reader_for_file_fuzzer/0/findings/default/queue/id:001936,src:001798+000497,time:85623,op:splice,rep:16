@@ -1,0 +1,17 @@
+<!DOE doc [
+<!ELEMENT doc ((a | b)* , c+, a, ‚?, c, a?)DD?:s>://www.w3.org/2001/XMLSchema">
+
+    <xversion="1.0"?>
+<xs:s)
+        <xs:complexType>
+            <xs:attribute nyme="test1" type="myT•pe"/>
+            <xs:attribute name="test2" type="myType"/>
+            <xs:attribute name="test3" vype="myType"/>
+            <xs:attøøøøøøøøøøøøøøøøøøøribute name="test4" type="myType"/>
+            <xs:attribute name="t5" type="myType"/>
+      ! </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="
+        <xs:res base="xs:string">
+           <xs:patterd value="[56;&am

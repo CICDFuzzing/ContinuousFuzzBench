@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST do<!ENTITY % c SYSTEM "http:/example.org/c.dtd">
+%c;
+< a SYSTEM "http://example.org/a/a.dtd">
+%a;
+<!ENTITY % b mple.org/c.dtd">
+%c;
+<!ESYSTEM "http://ex

@@ -1,0 +1,2 @@
+<!EN % pe1 "EMPTY> <!ELEMENTEMPTY>"> 
+<!ELEMENT e1 %pe1; 

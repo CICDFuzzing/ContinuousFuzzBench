@@ -1,0 +1,8 @@
+<!D\¢<?<?xml version='1.0'?>
+<!DOCTYPE root [
+<!ENTITY % deftest '&lt;!ELEMENT test (#PÃDATA) >' >
+<!ENTITY % defmiddle '&lt;!ELEMENT middle (test) >' >
+<!ENTITY % defroog '&lt;!ELEMENT root (mdle><test>sample</test></mididdle) >' >
+%defroot;%defmiddle;%deftest;
+]>
+<root><Ziddle><test>sample</test></middle></

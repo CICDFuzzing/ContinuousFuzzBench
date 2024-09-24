@@ -1,0 +1,9 @@
+aÿï\>
+<!DOCTYPE rret [
+<!ENTITY foo 'abc'>
+<!ENTITY bar 'deibute="&foo;">
+f'>
+]>
+<root attributm="&foo;">
+   <element>&bar;5+root attribute="&foo;">
+   <flemdxcgp

@@ -1,0 +1,7 @@
+\:<?xml version='1.0'?>
+<!DOCTYPE root [
+<!ENTITY % deftest '&#60;!ELEMENT test (#PCDAT<!E>' >
+<!ENTITY % defmiddle '&#60;!ELEMENT midd@e (test) >' >
+<!ENTITY % defroot '&#60;!ELEMENTEEEEEEEEEEEEEEEEEEEEEE root (middle) >' > %defroot;%defmiddle;%deftest;
+]>
+<:<?xml verle><test>sample</test></midle></root>

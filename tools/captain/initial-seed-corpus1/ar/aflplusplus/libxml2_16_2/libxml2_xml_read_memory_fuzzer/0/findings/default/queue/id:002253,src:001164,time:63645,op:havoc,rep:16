@@ -1,0 +1,10 @@
+<?xml version=1."?>
+<!DOCTYPE foo [
+<!ELEMENT foo 
+<!ATTLIST foo
+ EMPTY>
+<!ATTLIST f xample.com/fooo"
+    xmlns:foÿ CDATA #REQUIRED
+    foo:info CDATA #IMPLIED>
+]>
+< [foo xmlns="http://example.com/foo" xmlns:foo=#http://example.com/fo" fno:info="toto"/>

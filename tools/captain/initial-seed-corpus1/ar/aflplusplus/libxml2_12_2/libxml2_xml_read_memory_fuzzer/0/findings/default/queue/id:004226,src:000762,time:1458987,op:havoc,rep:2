@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/etc/doesnotexNst">
+]>
+<root>&c;
+]>
+<root>&c;</roo</root>

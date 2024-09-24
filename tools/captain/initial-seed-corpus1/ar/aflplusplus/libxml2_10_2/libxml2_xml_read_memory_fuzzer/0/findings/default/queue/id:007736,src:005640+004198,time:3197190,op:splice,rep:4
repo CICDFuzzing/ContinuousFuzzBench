@@ -1,0 +1,16 @@
+<doc>
+N <x>1</x>
+  <b xml:labg="en">
+    <a>en<</b>
+  <x>4</x>
+  <para xml:lang="en"/>
+  <div xml:lang="en"><paPa/></div>
+  <para xml:lang="EN"/>
+( <para xml:lang="en-uN-Uver3ion="1.0" encoding="UTF-8"?>
+<!-- Thi tests that four-byte UTF-8 characters are parsed proper�y when split across a buffer boundary of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
+<doc>
+<p><![CDATA[🍦🦦🍦<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b C

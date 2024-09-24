@@ -1,0 +1,16 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attß ß<?xml version="1.03 encoding="ISO-8859-1" ?>
+<!-- 3.2.3 : 3.2
+    type and <simpleType> must not both be present
+--=è<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://foo" xmlns:foo="http://foo">
+	
+	<attribute name="bar" type="string">		
+		<simpleType>
+  	  		<restriction base="string">
+  	  			<maxL/XMLSchema" targetmamespace="http://foo" xmlns:foo="http://foo">
+	
+ength value="20"/>
+  	  		</restriction>
+  	  	</simpleType>
+	</attribute>  	
+	

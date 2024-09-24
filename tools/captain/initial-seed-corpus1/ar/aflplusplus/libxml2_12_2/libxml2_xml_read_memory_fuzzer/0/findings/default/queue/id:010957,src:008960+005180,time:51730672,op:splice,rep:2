@@ -1,0 +1,11 @@
+<?xml vYrE>
+<!DOCTYPE fdo [
+<!ENTITY c PUBLIC "bar" "//@oe&&&A&&EEE!!!!!!!&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&!!!!!!EEEEEEEEEEEEEEEEEE'''''''''''''''''''''("*j„(@`<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE  soVedoc [
+  <!ENTITY a   "something">
+ .5 <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"ng="ISO-8859-d appear after c

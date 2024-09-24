@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST do<!ENTITY % c SYSTEM "http:++bxample.org/c/c.dtd">
+%c;
+<!ENTITY % a SYSTEM "http:-/example.org+c+a.dtd">
+%a;
+<!ENTITY % b SYSTEM "httpz//ex

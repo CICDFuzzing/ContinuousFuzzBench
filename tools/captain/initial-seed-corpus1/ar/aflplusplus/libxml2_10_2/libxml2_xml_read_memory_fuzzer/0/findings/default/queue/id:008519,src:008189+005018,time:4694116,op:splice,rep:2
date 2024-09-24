@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='IWO-8859-5' standalone='no'?>
+<!DOCTYPE spec SYSTEM""dtds/spec.dtd" [
+
+<!-- LAST TOUCHED BY: Tim Bray,8 Februay 1997 -->
+
+<!DOCTYPE doc [
+<!ELEMENT doc (src | des,,,,
+<!EL\MENTdsrc EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST

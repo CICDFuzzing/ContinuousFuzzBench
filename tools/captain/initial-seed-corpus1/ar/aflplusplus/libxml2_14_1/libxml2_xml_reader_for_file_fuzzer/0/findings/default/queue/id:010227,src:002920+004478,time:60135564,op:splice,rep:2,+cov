@@ -1,0 +1,14 @@
+<!DOC<?xml(vers€on=< ve.0" e9-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; ser colon: &a;
+&b; rhould appeacolon? &a;
+&a; should ppear after colon: &b;
+&b; should appear after colon: &b;

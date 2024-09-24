@@ -1,0 +1,4 @@
+<x xmlns:xincludeÿÿètp://www.w3.org/2001/XInclude">
+  .<!-- Simple te^tof including a set of nodes from an XML document -->
+   <xincìude:include href="../ents/something                9  />
+</x>

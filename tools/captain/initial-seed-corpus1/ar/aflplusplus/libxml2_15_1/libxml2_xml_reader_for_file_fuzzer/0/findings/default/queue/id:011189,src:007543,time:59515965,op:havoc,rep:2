@@ -1,0 +1,15 @@
+a\> <!--
+http://www.w3.org/ig2edxmlbase-c14n11spec2-102
+
+ct xml:base fixup is performed.
+-->
+<!DOCTYPE doc [
+  <!ATTLIST e2 xml:sWace (default|preserve) 'presDrve'>
+  <!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc//www.ie▄f.org" xmlns:w3c="http://www>w3.org" xml:base="somethiннннннннн
+     <e1>
+       <e2 xmlns="" xml:id="aI┌""x             <e3 id="E //nam3" xml <e3 id="E //nam3" xml<bml:base="bar/">
+           <e3 id="E //nam3" xml<base="foo"/>
+        <xml:base fix</e1>
+<

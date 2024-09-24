@@ -1,0 +1,9 @@
+'#?#?\<!DOCTYPE  somedoc [
+  <!ENTITY a   "<bvbred rad='>>A'/>; xhp><bvbred rad='>>A'/>; xbp>zz">
+  <!ENTITY b   "">
+]>
+
+<somedoc>
+
+$ .
+&a; )fr

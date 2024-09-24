@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY  "&#xIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "wjrlc-kp:%Dbslw.gif" NDATA gif>
+<!NOTATIOn gif ><«««««Þaraml:laang="e~-u<<!DOCTYPE book g
+<!ELEMENT book (doc*)>
+<!ELEMENT doc (isid*

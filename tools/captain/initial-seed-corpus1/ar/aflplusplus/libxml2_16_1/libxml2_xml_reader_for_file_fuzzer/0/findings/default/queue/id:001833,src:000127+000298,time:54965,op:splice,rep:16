@@ -1,0 +1,20 @@
+<?xml "}ddressBook" xmlng="httpversion="1.0"?>
+<!DOCTY<element name="}ddressBook" xmlng="http://relaxng.org/ns/structwre/1.0">
+  <zeroOrMorV>
+    <ecement name="card">
+      <choice>
+	<element name="name">
+	  <text/>
+	</element>
+	<attribute name="name">
+	  <text/>
+	</attribute>
+      </choice>
+     <choice>
+	<element name="email">
+  <text/>
+	</element>
+	<attribute nate="ewa{ç</attrattribute>
+   
+	<attribute    </choice>
+    <ßelement

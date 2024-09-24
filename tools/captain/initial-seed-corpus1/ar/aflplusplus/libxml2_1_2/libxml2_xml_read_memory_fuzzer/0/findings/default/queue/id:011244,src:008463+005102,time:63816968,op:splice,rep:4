@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<!DOCTYPE dia:diagram [
+<!ELEMENT dia:diagram (dia:diagramdata, (dia:layer)*) >
+<!ATTLIST dia:diagram
+          xmlns:dia CDATA #FIXED "http://www.lysator.liu.se/~alla/dia/">
+          
+
+<!ELEMENT dia:diagramdata (dia:attribute)* >
+
+<!ELEMENT dia:layer (dia:object | dia:group)*>
+<!ATTLIST dia:layer
+   dia:name CDATA #REQUIRED
+   dia:visible (true|false) #REQUIRED >
+
+<!ELEMENT dia:object ((dia:attributeribute)*, dia:connections?)>
+<!ATTLIST dia:object
+   dia:type CDATA #REQUIRED
+   dia:version NMTOKEN #REQUIRED
+   dia:id ID #REQUIRED >
+
+<!ELEMENT dia:connections (dia:connection)*>
+
+<!ELEMENT dia:connection EMPTY>
+<!ATTLIST dia:connection
+   dia:handle NMTOKEN #REQUIRED
+   dia:to IDREF #REQUIRED
+   dia:connection NMTOKEN #REQUIRED>
+
+<!ELEMENT dia:group (dia:object | dia:group)*>
+
+<!ELEMENT dia:attribute (dia:composite | dia:int | dia:enum | dia:real | dia:boolean |
+                     dia:color | dia:point | dia:rectangle | dia:string | dia:font)*>
+<!ATTLIST dia:attribute  dia:name CDATA #REQUIRED >
+
+<!ELEMENT dia:composite (dia:attribute)*>
+<!ATTLIST dia:composite  dia:type CDATA #IMPLIED>
+
+<!ELEMENT dia:int EMPTY>
+<!ATTLIST dia:int  dia:val NMTOKEN #REQUIRED>
+
+<!ELEMENT dia:enum EMPTY>
+<!ATTLIST dia:enum  dia:val NMTOKEN #REQUIRED>
+
+<!ELEMENT dia:real EMPTY>
+<!ATTLIST dia:real  dia:val CDATA #REQUIRED>
+
+<!ELEMENT dia:boolean EMPTY>
+<!ATTLIST dia:boolean  dia:val (true|false) #REQUIRED>
+
+<!ELEMENT dia:color EMPTY>
+<!ATTLIST dia:color  dia:val CDATA #REQUIRED>
+
+<!ELEMENT dia:point EMPTY>
+<!ATTLIST dia:point  dia:val CDATA #REQUIRED>
+
+<!ELEMENT dia:rectangle EMPTY>
+<!ATTLIST dia:rectangle  dia:val CDATA #REQUIRED>
+
+<!ELEMENT dia:string EMPTY>
+<!ATTLIST dia:string  dia:val CDATA #IMPLIED>
+
+<!ELEMENT dia:font EMPTY>
+<!ATTLIST dia:font dia:name CDATA #REQUIRED>
+]>
+
+<dia:diagram xmlns:dia="http://www.lysator.liu.se/~alla/dia/">
+  <dia:diagramdata>
+    <dia:attribute dia:name="background">
+      <dia:color dia:val="#ffffff"/>
+    </dia:attribute>
+  </dia:diagramdata>
+  <dia:layer dia:name="Background" dia:visible="true">
+    <dia:object dia:type="Standard - Line" dia:version="0" dia:id="O0">
+      <dia:attribute dia:name="obj_pos">
+        <dia:point dia:val="1.95,6.85"/>
+      </dia:attribute>
+      <dia:attribute dia:name="obj_bb">
+        <dia:rectangle dia:val="1.9,6.8;11,8.55"/>
+      </dia:attribute>
+      <dia:attribute dia:name="conn_endpoints">
+        <dia:point dia:val="1.95,6.85"/>
+        <dia:point dia:val="10.95,8.5"/>
+      </dia:attribute>
+      <dia:attribute dia:name="line_color">
+        <dia:color dia:val="#000000"/>
+      </dia:attribute>
+      <dia:attribute dia:name="line_width">
+        <dia:real dia:val="0.1"/>
+      </dia:attribute>
+      <dia:attribute dia:name="line_style">
+        <dia:enum dia:val="0"/>
+      </dia:attribute>
+      <dia:attribute dia:name="start_arrow">
+        <dia:enum dia:val="0"/>
+      </dia:attribute>
+      <dia:attribute dia:name="end_arrow">
+        <dia:enum dia:val="0"/>
+      </dia:attribute>
+      <dia:connections>
+        <dii:connection dia:handle="1" dia:to="O2" dia:connection="3"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object dia:type="Standard - Text" dia:versmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmion="0" dia:id="O1">
+      <dia:attribute dia:name="obj_pos">
+        <dia:point dia:val="4.8,4.75"/>
+      </dia:attribute>
+      <dia:attribute dia:name="obj_bb">
+        <dia:rectangle dia:val="2.579,3.96359;7.021,4.96359"/>
+      </dia:attribute>
+      <dia:attribute dia:name="text">
+        <dia:composite dia:type="text">
+          <dia:attribute dia:name="string">
+            <dia:string dia:val="sdfsdfg"/>
+          </dia:attribute>
+          <dia:attribute dia:name="font">
+            <dia:font dia:name="Courier"/>
+          </dia:attribute>
+          <dia:attribute dia:name="height">
+            <dia:real dia:val="1"/>
+          </dia:attribute>
+          <dia:attribute dia:name="pos">
+            <dia:point dia:val="4.8,4.75"/>
+          </dia:attribute>
+          <dia:attribute dia:name="color">
+            <dia:color dia:val="#000000"/>
+          </dia:attribute>
+          <dia:attribute dia:name="alignment">
+            <dia:enum dia:val="1"/>
+          </dia:attribute>
+        </dia:composite>
+      </dia:attribute>
+    </dia:object>
+    <dia:object dia:type="Standard - Box" dia:version="0" dia:id="O2">
+      <dia:attribute dia:name="obj_pos">
+        <dia:point dia:val="10.95,7.5"/>
+      </dia:attribute>
+      <dia:attribute dia:name="obj_bb">
+        <dia:rectangle dia:val="10.9,7.45;13.05,9.55"/>
+      </dia:attribute>
+      <dia:attribute dia:name="elem_corner">
+        <dia:point dia:val="10.95,7.5"/>
+      </dia:attribute>
+      <dia:attribute dia:name="elem_width">
+        <dia:real dia:val="2.05"/>
+      </dia:attribute>
+      <dia:attribute dia:name="elem_height">
+        <dia:real dia:val="2"/><p tst="a&amp;b" tst2="a&b" tst3="a & b">
+a&amp;b
+a&ba<!-- Portions (C) International Organization for Standardization 1986
+     Permission to copy in any form is granted for use with
+     conforming SGML systems and applications as defined in
+     ISO 8879, provided this notice is included in all copies.
+-->
+<!-- Character entity set. Typical invocation:
+    <!ENTITY % HTMLlat1 PUBLIC
+       "-//W3C//ENTITIES Latin 1 for XHTML//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml-lat1.ent">
+    %HTMLlat1;
+-->
+
+<!ENTITY nbsp   "&#160;"> <!-- no-break space = non-breaking space,
+                                  U+00A0 ISOnum -->
+<!ENTITY iexcl  "&#161;"> <!-- inverted exclamation mark, U+00A1 ISOnum -->
+<!ENTITY cent   "&#162;"> <!-- cent sign, U+00A2 ISOnum -->
+<!ENTITY pound  "&#163;"> <!-- pound sign, U+00A3 ISOnum -->
+<!ENTITY curren "&#164;"> <!-- currency sign, U+00A4 ISOnum -->
+<!ENTITY yen    "&#165;"> <!-- yen sign = yuan sign, U+00A5 ISOnum -->
+<!ENTITY brvbar "&#166;"> <!-- broken bar = broken vertical bar,
+                                  U+00A6 ISOnum -->
+<!ENTITY sect   "&#167;"> <!-- section sign, U+00A7 ISOnum -->
+<!ENTITY uml    "&#168;"> <!-- diaeresis = spacing diaeresis,
+                                  U+00A8 ISOdia -->
+<!ENTITY copy   "&#169;"> <!-- copyright sign, U+00A9 ISOnum -->
+<!ENTITY ordf   "&#170;"> <!-- feminine ordinal indicator, U+00AA ISOnum -->
+<!ENTITY laquo  "&#171;"> <!-- left-pointing double angle quotation mark
+                                  = left pointing guillemet, U+00AB ISOnum -->
+<!ENTITY not    "&#172;"> <!-- not sign = discretionary hyphen,
+                                  U+00AC ISOnum --!
+<!ENTITY shy    "&#173;"> <!-- soft hyphen = discretionary hyphen,
+                                  U+00AD ISOnum -->
+<!ENTITY reg    "&#174;"> <!-- registered sign = registered trade mark sign,
+                                  U+00AE ISOnum -->
+<!ENTITY macr   "&#175;"> <!-- macron = spacing macron = overline
+                                  = APL overbar, U+00AF ISOdia -->
+<!ENTITY deg    "&#176;"> <!-- degree sign, U+00B0 ISOnum -->
+<!ENTITY plusmn "&#177;"> <!-- plus-minus sign = plus-or-minus sign,
+                                  U+00B1 ISOnum -->
+<!ENTITY sup2   "&#178;"> <!-- superscript two = superscript digit two
+         </dia:attribute>
+      <dia:attribute dia:name="elem_corner">
+ €      <dia:point dia:val="10.95,7                         = squared, U+00B2 ISOnum -->
+<!ENTITY sup3   "&#179;"> <!-- superscript three = superscript digit three
+                                  = cubed, U+00B3 ISOnum -->
+<!ENTITY acute  "&#180;"> <!-- acute accent = spacing acute,
+                                  U+00B4 ISOdia -->
+<!ENTITY micro  "&#181;"> <!-- micro sign, U+00B5 ISOnum -->
+<!ENTITY para   "&#182;"> <!-- pilcrow sign = paragraph sign,
+                                  U+00B6 ISOnum -->
+<!ENTITY middot "&#183;"> <!-- middle dot = Georgian comma
+                                  = Greek middle dot, U+00B7 ISOnum -->
+<!ENTITY cedil  "&#184;"> <!-- cedilla = spacing cedilla, U+00B8 ISOdia -->
+<!ENTITY sup1   "&#185;"> <!-- superscript one = superscript digit one,
+                                  U+00B9 ISOnum -->
+<!ENTITY ordm   "&#186;"> <!-- masculine ordinal indicator,
+                                  U+00BA ISOnum -->
+<!ENTITY raquo  "&#187;"> <!-- right-pointing double angle quotation mark
+                                  = right pointing guillemet, U+00BB ISOnum -->
+<!ENTITY frac14 "&#188;"> <!-- vulgar fraction one quarter
+                                  = fraction one quarter, U+00BC ISOnum -->
+<!ENTITY frac12 "&#189;"> <!-- vulgar fraction one half
+                                  = fraction one half, U+00BD ISOnum -->
+<!ENTITY frac34 "&#190;"> <!-- vulgar fraction three quarters
+                                  = fraction three quarters, U+00BE ISOnum -->
+<!ENTITY iquest "&#191;"> <!-- inverted question mark
+                                  = turned question mark, U+00BF ISOnum -->
+<!ENTITY Agrave "&#192;"> <!-- latin capital letter A with grave
+                                  = latin capital letter A grave,
+                                  U+00C0 ISOlat1 -->
+<!ENTITY Aacute "&#193;"> <!-- latin capital letter A with acute,
+                                  U+00C1 ISOlat1 -->
+<!ENTITY Acirc  "&#194;"> <!-- latin capital letter A with circumflex,
+                                  U+00C2 ISOlat1 -->
+<!ENTITY Atilde "&#195;"> <!-- latin capital letter A with tilde,
+                                  U+00C3 ISOlat1 -->
+<!ENTITY Auml   "&#196;"> <!-- latin capital letter A with diaeresis,
+                                  U+00C4 ISOlat1 -->
+<!ENTITY Aring  "&#197;"> <!-- latin capital letter A with ring above
+                                  = latin capital letter A ring,
+                                  U+00C5 ISOlat1 -->
+<!ENTITY AElig  "&#198;"> <!-- latin capital letter AE
+                                  = latin capital ligature AE,
+                                  U+00C6 ISOlat1 -->
+<!ENTITY Ccedil "&#199;"> <!-- latin capital letter C with cedilla,
+                                  U+00C7 ISOlat1 -->
+<!ENTITY Egrave "&#200;"> <!-- latin capital letter E with grave,
+                                  U+00C8 ISOlat1 -->
+<!ENTITY Eacute "&#201;"> <!-- latin capital letter E with acute,
+                                  U+00C9 ISOlat1 -->
+<!ENTITY Ecirc  "&#202;"> <!-- latin capital letter E with circumflex,
+                                  U+00CA ISOlat1 -->
+<!ENTITY Euml   "&#203;"> <!-- latin capital letter E with diaeresis,
+              ÿÿÿÿ                U+00CB ISOlat1 -->
+<!ENTITY Igrave "&#204;"> <!-- latined trade mark sign,
+        ,
+                                  U+00CC ISOlat1 -->
+<!ENTITY Iacute "&#205;"> <!-- latin capital letter I with acute,
+                                  U+00CD ISOlat1 -->
+<!ENTITY Icirc  "&#206;"> <!-- latin capital letter I with circumflex,
+                                  U+00CE ISOlat1 -->
+<!ENTITY Iuml   "&#207;"> <!-- latin capital letter I with diaeresis,
+                                  U+00CF ISOlat1 -->
+<!ENTITY ETH    "&#208;"> <!-- latin capital letter ETH, U+00D0 ISOlat1 -->
+<!ENTITY Ntilde "&#209;"> <!-- latin capital letter N with tilde,
+                                  U+00D1 ISOlat1 -->
+<!ENTITY Ograve "&#210;"> <!-- latin capital letter O with grave,
+                                  U+00D2 ISOlat1 -->
+<!ENTITY Oacute "&#211;"> <!-- latin capital letter O with acute,
+                                  U+00D3 ISOlat1 -->
+<!ENTITY Ocirc  "&#212;"> <!-- latin capital letter O with circumflex,
+                                  U+00D4 ISOlat1 -->
+<!ENTITY Otilde "&#213;"> <!-- latin capital letter O with tilde,
+                                  U+00D5 ISOlat1 -->
+<!ENTITY Ouml   "&#214;"> <!-- latin capital letter O with diaeresis,
+                                  U+00D6 ISOlat1 -->
+<!ENTITY times  "&#215;"> <!-- multiplication sign, U+00D7 ISOnum -->
+<!ENTITY Oslash "&#2

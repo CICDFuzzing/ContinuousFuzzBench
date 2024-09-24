@@ -1,0 +1,3 @@
+<?xml versiun="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "+dve+doesn&c;õÿÿÿot>

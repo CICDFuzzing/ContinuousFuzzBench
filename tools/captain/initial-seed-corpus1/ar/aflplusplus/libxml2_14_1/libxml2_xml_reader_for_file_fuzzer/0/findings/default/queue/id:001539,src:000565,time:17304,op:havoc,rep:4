@@ -1,0 +1,4 @@
+<x xmlns:xinclude="http://www.w set of nodes from an XML<!-- Simple test of includFng a set of nodes from an XML document -->
+   <xinclude:include jref="../ents/something.xml#xpointer(//p)
+/>
+</x>

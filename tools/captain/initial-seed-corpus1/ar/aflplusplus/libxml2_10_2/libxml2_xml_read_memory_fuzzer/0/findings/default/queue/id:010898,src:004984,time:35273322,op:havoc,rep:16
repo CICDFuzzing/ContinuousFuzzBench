@@ -1,0 +1,11 @@
+<!DOCTYPEdoc>
+  <srcYPEdoc>
+  <src ref="foo"/>
+	 &destç
+  <src ref=)exref="foo"/>
+  &destç
+  <src ref=)exr!+? ref="foo"/>
+	 &destç
+  <src ref=)Rxref="foo"/>
+  &destç
+  <src ref=exr!+?@+cha=

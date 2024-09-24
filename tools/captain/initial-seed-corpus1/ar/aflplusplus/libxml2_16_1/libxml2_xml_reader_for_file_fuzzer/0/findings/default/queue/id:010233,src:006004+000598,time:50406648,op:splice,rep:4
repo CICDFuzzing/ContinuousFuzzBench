@@ -1,0 +1,13 @@
+<?xsl \
+<!DOCTYPE cab SYSTEM "/">
+<caf>
+  eZ<?pml version="1.0"?>
+<foo:Root xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlns:foo="http://example.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
+  <bar:Something>
+  '  <zoo:Something>
+        <bar:Something>
+           <foo:Something>
+             <                baz:Something />
+           </foo:Something>
+        </bar:Something>
+     </fo

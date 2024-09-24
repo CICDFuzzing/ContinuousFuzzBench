@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DtD XHTML 1.0 Strict//EN"
+    "//www.w3.org/TR/xhtml1/DTD/xhtml1-trict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Cont="text/html; charset=UTF-8" />
+<title>Test Page</ti�le>
+</head>
+<body>
+<div id="portal">
+<script type="text/javascript">'	documen.write("Příliš žluťou��ký kůň úpěl ďábelksé ódy");
+</script>
+	<p>
+	Příliš žluťoučk�="http://relaxng.org/ns/� kůň úpěl ďábelksé ódy;
+	</p>
+</div>
+</body>
+</html>
+

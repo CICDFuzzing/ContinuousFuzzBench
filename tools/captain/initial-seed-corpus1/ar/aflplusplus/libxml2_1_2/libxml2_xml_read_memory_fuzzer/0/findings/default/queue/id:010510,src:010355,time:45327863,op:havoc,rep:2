@@ -1,0 +1,4 @@
+<!DOCTYPE goc [
+<!ATTLIST do  attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "%cf%c7wwvw3*.%cf%cfif" NDATA gm2laang("e~-5 <€en<

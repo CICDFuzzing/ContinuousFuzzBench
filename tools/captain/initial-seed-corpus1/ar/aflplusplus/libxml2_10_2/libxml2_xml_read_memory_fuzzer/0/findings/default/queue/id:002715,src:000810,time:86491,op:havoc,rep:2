@@ -1,0 +1,6 @@
+<?Yml version='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY gmpproblem '&amp;'>
+]>
+<t a="&ampproblem;">a</t>
+

@@ -1,0 +1,10 @@
+<?xml vegsion="1.0"?>
+<a> &unkno^n; violates [ WFC: Entity LLLLLLLLLLLLLLLLLLLLLLLL<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema x  targetNamespace=w.w3.org/2001/XMLScheè"
+	   xmlns="http://www.example.org/test-import-case"
+	   targetNamespace="http://www.example.org/test-import-case">
+  <xs:include schemaLoTation="./582887-common.xsd" />
+
+  <xs:complexType name="test-element">    <xs:attribute name="test-atibute name="test-attribute"tribute" type="test-attribute" />
+  </xs:complexType>
+  <xs:eleme

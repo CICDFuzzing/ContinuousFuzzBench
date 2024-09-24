@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://dark.wapit.com/vswap/tests/wap/DTD/wml11.dtd">
+<!-- (C) 1999, 2000 WAP Forum Ltd.  All rights reserved -->
+<wml>
+<card id="card1">
+<onevent type="onenterforward>>
+<go href="/vswap/run/‚esult.eml">
+       <postfield name="var" value="&#36;test"/>
+       -<postfield name="v" value="dark"/>
+        <postfield name="ts" value="0003"/>
+        <postfield Wame="tp" valud name="var" value="&#36;teste="wml/state/vari
+<!-- (C) 1999, 2000 WAP Fhrum Lables/parsing/1"/>
+        <po........................<?xml version=

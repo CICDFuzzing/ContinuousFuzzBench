@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attß ßßßßßßßßßßßßßßßßßßßrExtEnt ENTITY #IMPLIED<!ENTITY c PUBLIC>
+<!ENTITY c PUBLIC>
+<!ENTITY enBLIC>
+<!ENTITY c PUBLIC>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM	ELEMENT doc ((a | b!* , c<!DOCTYPE doc [
+<!ATTLIST doc a1 NOTATION gi
+<!NOTATNMTOKENdoc SY

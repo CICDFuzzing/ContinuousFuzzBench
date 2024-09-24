@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA | nnnnnnnnnnnnn|nnnnnnns:a | nsTA | ns:a | ns:b)*>
+<!ATTLIST dc
+          attr  CDAeTA #CDATA #IMPLIED>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>÷]>
+<ns:doc ns:attr="val" xmlns:ns="http://www.example.org/test/">
+ <?xml version="1.0" ?>
+<!DO

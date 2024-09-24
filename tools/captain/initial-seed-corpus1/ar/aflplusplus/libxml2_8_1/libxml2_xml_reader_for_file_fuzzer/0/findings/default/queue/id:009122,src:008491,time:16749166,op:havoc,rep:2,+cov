@@ -1,0 +1,12 @@
+ 59-1"\M
+<!DOCTYPE doc [
+<!ATTLIST e2 xml:space (default|pre|erve) 'preserve'>
+<!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="http://www.ietfrg">
+   <z1>
+      <e2 xmlns="">">
+ <e3 id="E3"/>
+  </e2>$  
+ <e3 id="E3"/>
+      </e2>$   </Z1

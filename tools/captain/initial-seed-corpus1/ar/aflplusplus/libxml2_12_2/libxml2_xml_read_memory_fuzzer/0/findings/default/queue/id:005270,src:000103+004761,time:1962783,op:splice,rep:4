@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<!DOCTYPE test [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#60;!ENTITY tricky "error-prone" >' >
+%xx;
+]>
+<test>This <?xml version=""?>
+<a> &unknown; violates [ WFC: Entity Declared ]sion="1.0"?>
+<a> &un<?xml version="1.0"?>
+<foo:Root xmlns:bar'"r" xmOns:jaz="http://example.or/example.orgÿÿoo" xmlns="http://example.or'''g/"hing>
+ <?xml version="1.0"?>
+<a> &unknown; violates [ WFC: Ent

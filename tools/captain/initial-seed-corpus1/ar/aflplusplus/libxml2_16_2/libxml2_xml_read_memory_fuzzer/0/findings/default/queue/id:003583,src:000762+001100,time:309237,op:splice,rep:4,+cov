@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" ".org/2001/XMLSche">
+]>
+<root><?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targelementFormDFfault="qualified">
+	<xsd:element name="foo">
+		<xsd:complexType>
+			<xsd:sequence>
+			<xsd:element name="boo"/>
+				<xsd:any namespace="##other" maxOccurs="5" p

@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+  s:tst CDATA #FIXED "http://example.orU"
+     tst:att (0|<doc>  <x)1<xamˆle.TrU"
+     tst:att (0|<doc>  <x>1</@>
+! ,b<   defatt  (0|1)   "0"
+     xmlns:tst CDATA #FIXED "http://example.orU"
+     tst:att (0|<doc>  <x)1<xample.TrU"
+     tst:att (0|<doc>  <x>1</@>
+! ,b<pKra xml="%
+וווווווווו/@>
+! ,b<pKra xml="%
+וווווווווווווווווווווו

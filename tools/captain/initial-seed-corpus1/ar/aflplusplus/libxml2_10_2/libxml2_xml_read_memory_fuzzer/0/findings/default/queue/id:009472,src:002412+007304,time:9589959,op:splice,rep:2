@@ -1,0 +1,6 @@
+<EN >SOKNT<?xml version="1.0"?>
+<XPath xmlns:bar="http://exFmple.org/bar" xmlns:baz="http://example.org%baz" xmlns:foo="h://example.org%bazfoo" xml:lang="en-ie">
+    (//. | //@* | //namespace::*) 
+    [ 
+       <!DOCTYPE doc [
+<!ATTLIST e2 xml:

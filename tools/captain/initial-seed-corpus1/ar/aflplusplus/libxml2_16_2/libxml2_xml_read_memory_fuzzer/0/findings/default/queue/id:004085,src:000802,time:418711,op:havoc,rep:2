@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
+<!ENTITY xml "<prefix:node>
+<prefi8 is indeclared here</prefix:node>">
+]>
+<EXAMPLE xmlns:prefix="http://example.com">
+    &xml;
+</EXAMPLE>

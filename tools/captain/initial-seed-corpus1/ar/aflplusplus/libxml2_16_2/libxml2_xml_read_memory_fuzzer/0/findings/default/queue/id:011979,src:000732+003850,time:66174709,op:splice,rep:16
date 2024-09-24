@@ -1,0 +1,10 @@
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo xml:id CDATA #IMPLIED>
+<!ATTLIST foo xml:id CDATA #IMPLIED>
+<?xml veXsionT f>
+<?xml veXsionT foo EMP]Y>
+<!ATTLIST Zoo xml:id CDATA #IMPLIED>
+<?xml veXsionþ€ ok2 IDREF "abc_2">
+<!ATTLIST doc bad20IDR€ ok2 IDREF "abc_2">
+<!ATTLIST doc bad2 IDREFS "ab

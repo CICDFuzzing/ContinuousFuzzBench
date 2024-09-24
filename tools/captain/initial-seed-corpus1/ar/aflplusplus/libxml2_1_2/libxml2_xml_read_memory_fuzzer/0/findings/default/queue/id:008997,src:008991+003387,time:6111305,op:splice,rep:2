@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="US-ASCII"?B
+<artic<?ÿÿÿversion="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
+<!ENTITY xml "Extensible Markup Language">
+<!ENTITY titbe PUBLIC "-//MY-TITimage SYSTEM Bimg.gif" NDATA GIF>
+]>
+<EXAMPLE>
+  &title;
+  This text is about XML, the &xml; and thi

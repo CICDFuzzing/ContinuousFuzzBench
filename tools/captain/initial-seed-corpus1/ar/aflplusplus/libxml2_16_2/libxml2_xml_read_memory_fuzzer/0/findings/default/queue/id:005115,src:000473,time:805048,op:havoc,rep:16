@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "*****************************TD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml	>
+	<head>#		<meta http-equiv="Con{ent-Type" c�tent=!text/html; charset=UTF-8" />
+<title>TestPag�</titl�>
+</head>
+<body>
+�div id="portal">
+?script type="text/javascript">
+	documen.write("Příliš žluťoučký kůň ׺pěl ďábelksé ó`y");
+</script>
+	<p>
+	Příliš žluťoup>
+</div>
+</body>
+</html>
+

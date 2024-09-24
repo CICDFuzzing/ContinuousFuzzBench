@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE catalmg PUBLIC "-//OASIS/DTD Endity Resnlution XML Catalog#V1.0//EN" "/">
+<cEMPTY>
+<!A<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id$ -->
+<xs:schema xmlns="http://example.com/xml/Prog2"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           targe“Namespace="http://example.com/xml/Prog2">
+
+    <xs:inclu

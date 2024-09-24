@@ -1,0 +1,11 @@
+<?﻿<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA|b|s:b)*>
+<!ATTLIST a xmlns:s CDATA #IMPLIED>
+<!ELEMENT b EMPTY>
+<!ATTLIST b xmlns:s CDATA #IMPLIED>
+<!ELEMENT s:b EMPTY>
+<!ATTLIST s:b xmlns:s CDATA #IMPLIED>
+]>St
+<a	<?xml version='1.0' l rights reserved" >
+<!ENTIUY 

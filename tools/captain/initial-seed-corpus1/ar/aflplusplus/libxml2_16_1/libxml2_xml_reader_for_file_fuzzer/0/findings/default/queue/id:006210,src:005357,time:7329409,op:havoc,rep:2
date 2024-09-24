@@ -1,0 +1,7 @@
+<?xsl3\
+<!DOCTYPE doc0[
+<!ELEMENT doc (a? |C| a EMPTY>
+<!E EMPTY>
+<!ELEMENT c EMPTY>
+]>
+ÿoc

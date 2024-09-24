@@ -1,0 +1,13 @@
+<!DOCTYPE x [
+<!ELEMENT x (test*)>
+<sELEMENT test EMPTY>
+  <test/><!Alue">
+<!ENTITY test.ent "<tRst/>">
+]>
+<x>
+    <test/>
+    &tion="1.0"?>
+Ra> &unest.ent<?x?>
+<a> &unknown; violates [ WFC: Entity Declared ] |<?xml version="1.0"?>
+Ra> &un<?xml vesion="1.0"?>
+<foo:Root1xvlne:bar="http://example.org/bar" 

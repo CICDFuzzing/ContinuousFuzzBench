@@ -1,0 +1,12 @@
+<p tst="a&amp;b" tst2="a&b" tst8="a & b">
+a&amp;™
+a&b
+a &<?•mlversion="1.0" encodings="ISO-88$9-1"?>
+<foo
+	xmlns="http:+/FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http:+/BA]" 	
+	xmlns:xsi="http://www.w3.org/24	xsi:schemaLocatio„="http://FOO anyAttrÿÿÿcessContents1_0.x[d">
+	<elem.lax.A foo:barA_1="PL"/>
+	<eleÃ.lax.B foo:barA_2="}"/>
+<elem.s

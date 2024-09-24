@@ -1,0 +1,8 @@
+<!DOCTYPc [
+<!ELEMENT doc ((a | b | c)*) >
+<!ELEMENT>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMP]>
+<
+<b/>
+</doc>

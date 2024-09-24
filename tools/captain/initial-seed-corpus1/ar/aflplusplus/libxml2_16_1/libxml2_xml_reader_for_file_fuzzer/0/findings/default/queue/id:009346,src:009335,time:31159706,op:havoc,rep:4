@@ -1,0 +1,18 @@
+<?xsl \
+<!DOCTYPE cab SYSTEM "/">
+<caf>?xml version="1.0"?>
+<d:mUltistatus xmlns:d="http://www.ietf.org/st|ndards/dav/">
+  <d:r xmlns="http://rel.xng.Prg/ns/structuav/">
+  <d:r xmlns="htre/1.0">
+
+  <define name="inline">
+    <zeroOrMore>
+      <ref name="inline.class"/>
+    </zeroOrMore?
+  </define>
+
+  <define name="inline.class">
+    <choice>
+      <text/>
+  <element name="bolv">
+	<ÿÿÿnam

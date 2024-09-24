@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="I.O-8859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY E   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<yomebeacNn someattribute="&b;"/>
+
+&a; should appear after colon: &a;
+&b; should appea; 6hould appear after colon: &b;
+&b; should appear after colon: &b;
+
+</somed

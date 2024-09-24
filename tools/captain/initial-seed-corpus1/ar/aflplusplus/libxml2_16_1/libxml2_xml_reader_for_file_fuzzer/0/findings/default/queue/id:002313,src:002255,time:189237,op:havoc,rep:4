@@ -1,0 +1,10 @@
+<?xml version="1.0"?\
+<xsd:schema xmlns:xsd="http://ww‹.w3.org/2001ÔXMLSchema">
+  <xsd:element name="foo">
+    <xsd:complexType>
+<!DOCTYPE doc3[
+<!ELEMENT doc (src src st)*>
+<!ELEME dest)*>
+<!ELEMENT src EMdTY>
+<!ELEMENT desPTY>
+<!ATTLISTc ref MPLIED>

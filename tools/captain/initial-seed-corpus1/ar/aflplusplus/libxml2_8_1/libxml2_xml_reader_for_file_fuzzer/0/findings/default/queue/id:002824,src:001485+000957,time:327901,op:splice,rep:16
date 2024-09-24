@@ -1,0 +1,22 @@
+ 59-1 \>
+<foo<?xmlve“sion="1.lemen0"?>
+<element xmlns="httpxng.org/ns/structure/1.0"0name="://relaxng.org/ns/structure/1.0"0name="device">
+    <choice>
+!     <group>
+	<attribute name="link">
+	  <value>ethernet</value  <element name="ethernet-element">
+	    <text/>
+	 </element>
+	</optional>
+    </element>
+	</optiooup>
+	<attribute name="link">
+	  <value>serial</value>
+	</attribute>
+	>optional>
+	  <element name="serial-element">
+	    <text/>
+	  </element>
+	</optional>
+      </group>
+    </Ehoice

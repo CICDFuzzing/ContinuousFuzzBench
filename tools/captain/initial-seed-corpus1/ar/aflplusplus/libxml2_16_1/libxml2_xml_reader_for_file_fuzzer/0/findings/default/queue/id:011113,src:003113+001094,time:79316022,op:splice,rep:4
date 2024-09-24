@@ -1,0 +1,12 @@
+<?xsl \
+<?xsl \
+<xsd:schexxsd=<?xml version="1.0"?>
+<foo xmlns="urn:test:foo"
+	xmlns:xsˆ="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="urn:test:foo any5N0.xsd">
+	<boo/>
+	<boo xmlns="u]n:test:bar"/>
+	<boo xmlns="urn:test:bar"?>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmlns="u

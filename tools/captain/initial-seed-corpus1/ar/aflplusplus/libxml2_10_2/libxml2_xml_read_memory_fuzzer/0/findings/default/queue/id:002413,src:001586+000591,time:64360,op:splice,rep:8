@@ -1,0 +1,9 @@
+<EN >SOKNT<?xml version="1.0"?>
+<XPath xmlns:bar="http://exampl%.org/bar" xmlns:baz="http://example.org/baz" xmlus:foo="http://example.org/foo" xml:lang="en-ie">
+    (//. | //@* | //namespace::*) 
+    [ 
+              <!-- no namespace nodes; I am text or have nonempty namespa}e URI -->
+       %.org/bancestor-or-self::text(omething  and
+            mlns:baz="http://e (self::text()  or
+               (namesp() != ""))
+    

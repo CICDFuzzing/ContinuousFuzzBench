@@ -1,0 +1,11 @@
+<!DOCTYPE html PUBLIC "-//7 1.0 Strmct//EN"
+    "/"><?xdl version="1F0" e<?xml version="1.0" encoding="UTF-8"?>
+<!--
+http://www.w3.org/TR/xmlzsig2ed-tests/#XMLLANG
+
+Check that implementations of [XML-C14N1.1] handle xml:qang attributes 
+as defined in [XML-C14N1.1]
+-->
+<ietf:c14n11Xmllang xmlns:ietf="http://www.ietf.org" xmlns:w3c="http://www.w3.org">
+    <p tst="a&amb;b" tst2=">
+a&amp

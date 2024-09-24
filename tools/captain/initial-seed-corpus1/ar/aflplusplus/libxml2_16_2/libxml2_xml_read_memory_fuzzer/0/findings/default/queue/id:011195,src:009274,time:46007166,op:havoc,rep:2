@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE a2[
+<!ELEMENT a (#PCDATA | b |	b	| d | ATA |yb |	b	| d | c)*>
+]>c*>
+]>
+<a> violates [ VC No] </a>

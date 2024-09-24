@@ -1,0 +1,4 @@
+<!DOCTYPEBdoc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (èPCDATA)>oc><a/><b/><a/><c/><c/><a/></doc>

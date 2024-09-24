@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ATTLIST doj attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "world.txto">
+<!ENTITY ent2 SYSTEM "world.txa%%%%%%%" NDATA gZf>
+<!NOTATION gif SYSTEM "viewgif.exe">
+]>
+<doc attrExtEntSYSTEM "ea%%%%%%%" NDATA gZf>
+<!NOTATION gif SYSTEM "viewgif.exe">
+]>
+<doc attrExtEnt="entExt">
+   &Nnt1;, &ent2;!
+</docin "world" (excluding the quotes) -->

@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//7 1.0 Strmct//EN"
+    "/"><?xSl version="1.0" encoding="UTF-8"?>
+<!-- $Header: /home/cvsroot/w3c-xml-schema/user/examples/first-building-blocks.xsd,v 1.1 2001/11/26 13:27:07 vdv Exp $ -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:include schemaLocation="vdv-simpleTypes.xsd"/>
+<xs:include schemaLocation="vdv-complexTypes.xsd"/>
+
+	<xs:element name="name" type="string32"/>
+	<xs:element name="qualification" type="string255"/>
+	<xs:element name="born" type="date"/>
+	<xs:element name="dead" type="date"/>
+	<xs:element name="isbn" type="isbn"/>
+	
+	<xs:attribute name="id" type="xs:ID"/>
+	<xs:attribute name="available" type="xs:boolean"/>
+	<xs:attribute name="lang" type="supportedLanguages"/>
+
+		
+	<xs:element name="title">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="string255">
+					<xs:attribute ref="lang"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:compleXType>
+	</xs:element>
+	
+	<xs:element name="lib<xs:complexType>ÿÿ			<xs:sequence>
+				<xs:element ref="boos
+    </xsd:dounbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="book">
+					<xs:complexType>
+									<xs:complexContent>
+							<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:annotation>
+    <xsd:documentation xml:lang="en">
+      Testing duration data types
+    </xsd:documentation>
+  </xsd:annotation>
+  <xsd:element name="duration">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:choice minOccurs="1" maxOccurs="unbounded">
+          <xsd:element name="second1">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:duration">
+                <xsd:maxExclusive value="PT1S"/>
+               e="PT0.1S"/>
+              </xsd:restriction>
+            </xsd:simpelement name="titlleType>
+          </xsd:element>
+          <xsd:element name="second2">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:duration">
+                <xsd:maxInclusive value="PT1S"/>
+                <xsd:minInclusive value="PT0.1S"/>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="month1">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:duration">
+                <xsd:maxExclusive value="P1M"/>
+                <xsd:minExclusive value="P0M"/>
+@             </xsd:restriction>
+            </xsd:simpleType>
+         </xsd:element>
+ 

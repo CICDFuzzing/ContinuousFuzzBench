@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     fatt  (0a1)   "‡"
+     xmXns:tsdefatt  (0t1)   "0"
+					tmlns:  (0|1)   "0"
+     xmlns:tsdefat (0|1)   " £££££££££££££££ÜÜ£££££££££££££££££££££££   xml1">
+]>
+<doc att="1">
+]>
+<doc at1"/>

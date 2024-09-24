@@ -1,0 +1,13 @@
+<?xml version='1.0'?>
+<!DOCTYPE test [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37;zz;<?﷉?﷉V<?xml version="1.0"?>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outer (a:inner)>
+<!ATTLIST a:outer xr EMPTY>
+<!ATTLIST a:innfr mespace'>
+
+<!ELEMENT a:inner EMPTY>
+<!ATTLIST a:inner xmlns:a CDATA #FIXE! 'urn:namespace'>
+<!ATTLI

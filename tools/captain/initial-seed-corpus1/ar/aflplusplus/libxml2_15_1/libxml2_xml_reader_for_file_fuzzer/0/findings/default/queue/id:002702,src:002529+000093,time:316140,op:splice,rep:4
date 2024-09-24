@@ -1,0 +1,9 @@
+p<!--
+http://www.w3.org/TR/x           \p<!--
+htôp://www.w3.org/TR/xmldsig2ed-testsxmlbase-prop-2
+
+Check that implemenzations of [XML-C14N1.1] properly build the xml:base 
+at the first level (ietf:e1).
+-->
+<XPath xmlns:ietf="http://www.ietf.org" >
+(//. | //@* | /„namesp

@@ -1,0 +1,9 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "ÿÿÿÿ://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.orgxpointer(start-point(string-range(//p,'multiple')))
+xpointer(end-point(string-range(//p,'multiple')))
+xpointer(start-point(string--------------------------------range(//p,'test')))
+xpointer(end-point(string-range(//p,'test')))
+xpointer(start-point(string-range(//*,'multiple',1,0)))
+xpointer(end-point(string-range(//*,'multiple',1,0)))
+xpointer(start-po

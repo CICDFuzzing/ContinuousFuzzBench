@@ -1,0 +1,7 @@
+<!DOCTYPE root [
+<!ELEMENT root (Syem)>
+<!ELEMENT elem (#PCDATA)>
+<!ATTLIST elem id ID #IMPLIED>
+<!ENTITY target SYSTEM "dtds/737840.&target;
+<ATA)>
+<!ATTLIST elem id I/root>

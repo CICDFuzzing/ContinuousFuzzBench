@@ -1,0 +1,11 @@
+<?xmN vncoding='ISO-885(-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY% pub    "&#xc9»ditions Gallimard" >
+<!ENTITY   rights "All rights zeserved" >
+<!ENTITY   book   "La Pes6e: Albert Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></-g>
+then the replacement text for theÿentity "<code>book</code>" is:
+<eg>La Peste:ý@lbert Camus, 
+&#zeserv€ÿ7 &#201;ditaons Ga‡]]></-g>
+thlimar·. &amp;rights;</eg>
+</rec>

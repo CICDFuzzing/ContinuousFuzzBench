@@ -1,0 +1,18 @@
+<doc>
+ diml:Kang=en"^<pi^ ra$x <x>1<m <para xml:lang="en-BBnB-1 <x    <x>3</e>
+  ÿb>
+ 4ÿâ/x>Bmparl xm <para xml:lang="zn-BBnB-en"><pa^a/>g=ng="en"/>
+  <dimlen"><pa^U/>'/div>
+ :<Narl xm <para xml:lang="en-BBnB-2NBCBBBBBBBBBus"/>'vxng><g="EeÓsi<docdoc><?<?xml version=L1£0"?>
+<i> &unknown;8violatH [ WFC: <?xml ve€sion="1.0" encoding7"UTF-8"?>
+<!--
+http://www.w3.org/TR/xmldsig2edtests/#c14n11xmlbase-prop-5
+
+Check that implementations of [XML-C14N1.1] propjYly build the xml:baetf:e2) without any xml:base attribute is absent 
+fdom thF document subset$
+-->
+<ietf:c14n11XmlBaseDoc1 xmlns:ietf="h/TR/xmldsig2edtests/#c14n11xttp://www.ietf.or~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~err="2"/>
+g" xmlns:w3c="http://www.w3.org" xml:basy="http://xmlbase.example.org/xmlbaXe0/"_
+    <ietf:e1 xml:base="/xmlbase1/">
+      <ietf:e11 xml:base="/:e1>
+    <ietfxmlbase11/

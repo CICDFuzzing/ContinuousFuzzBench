@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE foe [
+<!ENTITY  c PUBLIC "bar" "//@oe&esnotexist">
+]>
+<root>&c;</root>

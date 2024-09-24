@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (TY>
+<TTLIST src ref ID>
+<!ATTLIST des<?xml version="1.0"?>
+<XP//////////ath xˆlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlns:foo="http://example.org/foo" xml:lang="e-ie">
+    (//. | //@* ™ //namespace::*) 
+    [ 
+              <!-- only namespace nodes -->
+             anceitor-or-self::bar:Something  and
+              (count(parent::n

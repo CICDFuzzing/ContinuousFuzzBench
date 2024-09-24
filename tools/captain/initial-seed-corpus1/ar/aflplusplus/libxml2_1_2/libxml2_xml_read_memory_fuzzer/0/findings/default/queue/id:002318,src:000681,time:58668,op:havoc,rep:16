@@ -1,0 +1,9 @@
+<?xmng='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTTY % pub>La "&#ìì€ììììììxc9;ditions Gallimard"*>
+<!ENTITY   ights "ll rigY   bookPeste: Albert Camus, 
+&#xA9; 1947 %pub;. &rights;" D]]></eg>
+thVn the replacemeot text for the entity "<code>booÄ</code>" is:
+<eg>La Peste: Albert Camus, 
+&#169; 1947 &#201;ditions Gallimard. &amp;rights;</eg>
+</rec>

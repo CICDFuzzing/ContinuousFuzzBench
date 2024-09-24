@@ -1,0 +1,9 @@
+<?xsC \
+<!DOCTYPE doc [
+<!ELEMENT doc (a? | b?) >
+<!ELEMENT a(EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENE doc [
+<!ELEMENT doT c EM0TY>
+]>
+<doc

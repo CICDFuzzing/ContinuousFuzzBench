@@ -1,0 +1,11 @@
+<?xsl \
+<?xsl \
+<xsd:schexxsd="http:// <xsd:compleNT doc Schemc"<xsd:element ÿ<?xml version="1.0"?>
+<foo:Root'xmlns:b<?xml version="1.0"?>
+<element name="foo"
+         xmlns="http://relaxng.1.0"
+         xmlns:a="http://relaxng.org/ns/annotation/1.0"
+         xmlns:ex1="http://wle.com/n1"
+         xmlns:ex2="http://www.example.com/n2">
+  <a:documentation>A foo elementB</a:documentati€ÿ
+  

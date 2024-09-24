@@ -1,0 +1,14 @@
+<!DOCTYPE doc [<!ENTITY  b SYSTEM "%b
+	  <ref n;
+<!<?xmlaaaaaaaaaaaaaaaaaaaaalone='yes'?>
+<!DOCTYPE attributes [
+<!ELEMENT attributes EMPTY>
+<!ATTLIST attributes
+   nmtoken    NMTOKEN    #IMPLIED
+ NMTOKENS   #IMPLIED>
+<!ENTITY ent " entity&recursiveP ">
+<!ENTITY recurive "reference">
+]>
+<attributWs
+  nmtoken;   &ent; &ent; "
+  nmtokens = "

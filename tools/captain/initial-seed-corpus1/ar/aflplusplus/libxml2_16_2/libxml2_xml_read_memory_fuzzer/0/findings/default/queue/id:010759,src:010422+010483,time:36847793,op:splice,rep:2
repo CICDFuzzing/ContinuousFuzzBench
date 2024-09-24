@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE dnc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN  "&#65528;"> TLIS<?xml ve^sion="1.0"?>
+<xsd:schema xmlns:x<?xmrsi--------------

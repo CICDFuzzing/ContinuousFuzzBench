@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ATTLIST doc atuzCtxEnt ENTITY  "©©H©©©©©©©©™©¶©©©ppppppppppppppppppppppppppppppppppppppp£££££££££££££££££££££££££pppppppppppppppppppppppppppppppppppppppp¹©©©©©©©¹©©©©©©©orld.txt">
+<!ENTITY e[tExt SYSTEM "earh.gif" NDAT" gif>
+<!NOTATIOA gif SYSTEMattrExtEnt="entExt">
+   &ent1;, &ent2;?
+</drc>
+
+<!-- Let world.txt ie>contain "world" (e<?xml version="1.0"?>
+<a> &unknown; violates [ WFC: Entity Declared ] <

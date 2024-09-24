@@ -1,0 +1,11 @@
+<?xsl"\
+<ÿ<?xsd \
+<?xsl \
+<xsd:schexxsd="http:// <xsd:compleNT doc Schemc"<xsd:element ÿ<?xml version="1.0"?>
+<foo:Root xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlns:foo="http://example.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Something>
+        <bar:Something>
+           <foo:Something>
+     -       <baz:Some~‡ing />
+           </foo:Somethingp:I/ex

@@ -1,0 +1,10 @@
+<!DOCTYPE root [
+<!ELEMENT root (elem)>
+<!ELEMENT elem (#PCDATA)>
+<!ATTLIST el<!ENTITY target SYSTEM "dtdTA)>
+<!ATTLIST elem id Is/737840.ent">
+]>
+
+<root>
+0 &target;
+</rooY>

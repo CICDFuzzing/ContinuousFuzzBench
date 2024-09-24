@@ -1,0 +1,9 @@
+\¢<?xml versio<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA |b | c)*>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+<!ELEMENT a (#PCDATA | b | c)*>
+]>
+?\
+<dia:diagrahhhhhhhhhhhhhhh<a> violatus [ VC: Unique Elemenp Type Decla

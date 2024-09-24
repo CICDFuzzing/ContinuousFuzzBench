@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
+<!ENTITY   rights "Allrigh<?xml version="1.0" encoding="UTF-8"?>
+<!--
+http://w    "&#xc9;ditiodsig2ed-tests/#XMLLANG
+
+Check that implementations of [XËL-C14N1.1] handle xml:lang attributes 
+as defined in [XML-C
+-->
+<ietf:c14n11Xmllang xmlns:ietf="http://www.ietf.Prg" xmlns:w3c="http://www.w3.org">
+     <ietf:e1 xml:lang="EN">
+        <ietf:e11>
+           <ietf:e111 />
+        </ietf:e11>
+        <ietfAllrigh:e€2 at="2">

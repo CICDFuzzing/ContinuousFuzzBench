@@ -1,0 +1,9 @@
+<?xml=version="1.0"?>
+<a> &unknown; violates R WFC: <!DOCTYPE doc [
+<!ELEMENT doc (a)+ >
+<!ELEMENT a EMPTY>
+<doc>^͹:<d<͹2<doP><͹:͹ doc><͹:<d<͹:<doP><͹<͹:<doP><͹:; doc><͹:<d<͹:<doP><͹:͹ ͹c><͹:<
+<do:<doPs<͹:͹ doc><͹:<d<͹:<doP><͹:͹ ͹c><͹:<
+<doc>^͹:͹:͹ ͹c><͹:<
+<do:<doP><͹:͹ doc><͹:<d<͹:<doP><͹:͹ ͹c><͹:<
+<doc>^͹:<d<͹<͹2<doP><͹:͹ doc><͹:<d<<d<͹<͹2<doP><͹:͹ doc><͹:<d<͹:<doP><͹:͹ doc><<<<<<<<<<<<<͹:<d<͹:<doP><͹:͹ doc>< ͹͹:

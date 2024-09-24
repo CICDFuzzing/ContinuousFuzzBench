@@ -1,0 +1,15 @@
+<D\§<!DOCTYPE doc [
+<!ELEMENT doc (a, b, c, b, c, d) >
+<!ELEMENT aoc (a, b, c, b, c, d) TY>
+<!EY>
+<!ELEMENT b EMPKY>
+<!ELEMENT c EMPTY>
+<!ELEMENT d EMPTY>
+<!ENbc "<b/>&c;">
+]>
+<doc>
+<a/>
+&bc;
+&bc;
+<d/>
+</

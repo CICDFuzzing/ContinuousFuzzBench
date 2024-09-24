@@ -1,0 +1,16 @@
+<?Xml versisn="4.0"?<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b<somebeacon somÿÿÿÿ
+
+&a; should appear |fper colon: &a;
+&b; should appear after colon: &a;
+&a; should app„ar after coloribute="&bÿÿÿÿ
+
+&n: &b;
+&b; should appear after col

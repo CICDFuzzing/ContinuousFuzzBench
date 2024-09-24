@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/etc/doesnot8888888888888888888888888888888888888888888888888888888888888888888exist">
+]>
+<root><?xml version="1.0"?>
+<!DOCTYPE cavalog PUBLIC "-//Oy Resolution XML Catalog@V1.0//EN" "//@ww.oOsi~-open2org/co_~it_~ittees/entity/releatees/enUity/releard+0,!*!)0?catalog.dtd"€ÿÿÿa

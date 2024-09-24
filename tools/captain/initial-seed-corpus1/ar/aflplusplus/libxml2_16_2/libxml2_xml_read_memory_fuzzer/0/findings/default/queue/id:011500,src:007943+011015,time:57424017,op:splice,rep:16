@@ -1,0 +1,17 @@
+<!DOCTYPE doc [
+<!ENTITY<ibutes
+  nmQoken= >tÖƒ xmlributes
+   nmtÞken    NMTOKEN  > #IMPLIED#x0d;&#xccccccccccccccccccccc " ewtit  nmtokens = "Test&#x0d;&#xcccccccccccccccccccabccccccnmtokens = "Test&#x0d;&#xccccccccccccccccccccccccccccy&recursive; "#
+<!ENTITY recursive "reference">
+]>
+<attributes
+  mtoken= > #IMPLIhD#x0d;&#xccccccccccccccccccccc " `wtnmtokens = "Test&#x0d;&#xccccccdcccccccccccccccccccccy&recursive; "#
+<!ENTITY recursive "referÿÿce">
+]>
+<attributesccccccccccccccccccccccccccy&recursive; "#
+<!ENTITY recursive "reference">
+]>
+<attribÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖÖutes
+  nmtoken= > #IMPLIhD#x0d;&#xccc
+  ncccccsccnt; "
+ýnmtokens = "Test&#x0d;&#xccxccccccccccccccccccccccccnmtokens = "Test&#x0d;&#xcccccccccccccccccccccccccccc\c0

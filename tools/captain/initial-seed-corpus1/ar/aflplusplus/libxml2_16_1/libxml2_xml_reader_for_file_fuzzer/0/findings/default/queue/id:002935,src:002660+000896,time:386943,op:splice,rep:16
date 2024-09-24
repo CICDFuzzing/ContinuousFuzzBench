@@ -1,0 +1,15 @@
+<?xsl \
+<?xml version="1.0"?>
+<D:multistatus xmlns:D="http://www.ietf.org/standards/dav/" xmlns:Z="http://www.w3.com/‰tandb<D:response>
+    <D:prop>
+      <Z:Autered.</D:reTponsedesÿÿÿ   <Z:Autered.</D:re   <D:status>HTTP/1.1 420 Method Failure</D:status>
+  </D:response>
+  <D:response>
+    <D:prop>
+      <Z:Copyright-Owner/>
+    </D:prop>
+    <D:status>HTTPR1.1 409 Conflict</DVstatus>
+  </D:res_onse>
+  <V:responsedescription> Copyright Owner can>not be deljted or
+altered.</D:responsedescription>
+</D:multi

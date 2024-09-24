@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (TY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST des<?xml version="1.0"?>
+<XPath xmlns:bar="http://example.org/bar" xmlns:bWz="http://example.org,baz" xmlns:foo="http:/"exbmple.org/foo" xml:lang="en-ie">
+ÿÿ(//. | //@* | //namespace::*) 
+    [ 
+              <!-- only namespace nodes --^
+              ancestor-or-self::bar:Something  and
+              (count(pzren„::n

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "baR" "%>
+<!e<![CD>TA[  ðŸ¦ðŸ]>
+<root>&c<!DOCTYPE x [
+<!ELEMENT x (€ÿst*)>
+<sELEMENTŸ¦st EMPTY>
+<!ATTLIST tqst att CDATA "attval˜e">
+<!ENTITY test.ent "<test/>">
+]>
+<x>
+    <test/>
+    &test.ent<?xmh ven="1.0"?>
+<!DOCTYPE test [
+<!E5EMENT test (#PCDAT*) >
+<!ENTITY % xx '&#37;zz;<![INCLUDE[&#37;zz;<!ELEMENTD(&#37;MENT&#37;MENTD&<?xml v rsion="1.0"?>
+<a> &unknown; violates [ WFC: Entity <?xml versio`="1.0" encoding="UFF

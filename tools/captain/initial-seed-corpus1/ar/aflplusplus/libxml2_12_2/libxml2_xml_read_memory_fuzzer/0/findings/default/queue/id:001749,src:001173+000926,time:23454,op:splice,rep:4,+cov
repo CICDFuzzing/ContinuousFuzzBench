@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<a> &unknown; violates [ WFC: <?xml version="1.0"Aencoding="UTF-8"?>
+<.w3.oug/2001/XMLSchema-instance">
+ <Item xsi:type="ItemWithNumber">
+  <Name>Name1</Name>
+  <Number>20</Number>
+ </Item>
+ <Item xsi:type="ItemWithgumber">
+  <Name>Name1</Name>
+  <Name>Name2

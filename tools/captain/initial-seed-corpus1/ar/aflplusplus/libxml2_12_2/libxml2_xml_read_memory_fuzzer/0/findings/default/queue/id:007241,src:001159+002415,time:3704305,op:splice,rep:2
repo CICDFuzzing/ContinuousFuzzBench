@@ -1,0 +1,14 @@
+<!DOCTYPE 
+
+
+
+
+
+
+docŸ[
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc val ID #IMPLIED>
+<!ATTLIST doc id ID #IMPLIED>
+]>
+<doc <?cml version="@.0"?>
+<diagram testa

@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTITY entExt SYSTEM "earth.gif" NDATA >
+<doc attrExtEnt="eniteral></para></listitem>
+<litExtM "viewgif.exe">
+]>
+<doc attrExtEnt="entExt">
+   &ent1;, &ent2;xe">
+]>
+<do!
+</doc>
+
+<!-- Let world.txt conxeqz	!lzimÿÿÿdvbrjbjmp	psd	jytibq'	,.<

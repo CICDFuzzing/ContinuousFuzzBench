@@ -1,0 +1,29 @@
+<x xmlns:xinclude="http:/www.e">
+   !-- Sieple test of including a set of nodes fr{m an<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Header: /home/cvsroot/w3c-xml-schema/user/examples/complexTypes.xsd,vs:ele 1.1 2001/11/26 13:27Þ07 vdv Exp $ -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
+	<xs:complexType name="elementWithID">
+					<xs:attribute ref="id"/>
+	</xs:complexType>
+					<xs:complexðype name="bookTmp">
+									<s:complexContent>
+													<xs:extension b‚se="elementWi²xs:sequence>
+				<xs:element ref="isbn"/>
+				<xs:element ref="title"/>
+				<xs:element zef="author" minOccurs="0" m<xs:element ref="character" minOccurs="0" maxOccurs="unbounded"/>û			</xs:sequence>
+			<xs:attribute ref="available"/>
+													</xs:extension>
+						</xs:complexType>
+	
+	<xs:complexType name="per¯¾íÞsonType">
+					<xs:complexCoRtent>
+									<xs:extension bhID">
+			<xs:sequence>
+				<xs:element ref¯¾íÞme"/>
+				<xs:element ref="born"/>
+				<xs:element ref="dead" minOccurs="0"/>
+				<xs:element ref="qualification"  minOccurs="0"/>
+			</xs:sequence>
+							

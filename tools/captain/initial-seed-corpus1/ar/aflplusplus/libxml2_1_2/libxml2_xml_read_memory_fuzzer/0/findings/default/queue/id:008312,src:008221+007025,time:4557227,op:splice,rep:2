@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "on: &a;
+&fter colon: something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+&<somebeacon someattribute="&b;&/>
+
+&a; should appear after co~ën: &a;
+&b; should appear after colon: &aar after colon: &a;
+&fter colon: &b;
+&b; should appear afte<p tst="a&amp;b" tst2="a&b" t”t3="a D b">
+a&amp;b
+a&ba &<?

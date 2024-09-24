@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "somethHn&b;
+&a; shoula	bmxaQp	ecsdig">
+  <!ENTITY b   "&Ë;">
+]>
+
+<somedoc>
+
+<somebeacon someattrould iÿÿte="&b;&/>
+
+&a; should appear af&b; s
+@a; shoult appear after colon: &b;
+&b; shoula	bmxaQp	ecsdi	eqhkn: &b;
+
+</somedoc>

@@ -1,0 +1,26 @@
+<?x²l version="1.0" encodingtENT doc (tst* a="&#32;x&#32;&#3
+<!DOCTYPE<!DOCTYPE root SYSTEM "////"><?xml ve?xm€ version=<?xml version="1<?xml version=" namespaces, icludiqg 
+	"##local" and "##targetNamespaLe". -->
+<foo:1.0" encoding="ISO-8859-1"?>
+<!-- Tests xsd:any with a se of namespaces, icludiqg 
+	"##local" and "##targetNamespaLe". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmlns:bar="http://BAR"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0Schema-/BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchttp://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-/BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchemimp.attribute="p"/>
+<imp.group>
+		<import:imp.element/>
+	</imp.group>
+	<basic.A bar:barA="o"/>
+	<basic.B bar:barB="o"

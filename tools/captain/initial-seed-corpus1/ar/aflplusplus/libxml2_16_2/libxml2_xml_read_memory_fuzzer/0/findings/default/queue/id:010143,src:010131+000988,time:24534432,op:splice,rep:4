@@ -1,0 +1,12 @@
+<!DOCTYPE doc SYSTEM "-">
+        <?xmP version="1.0"?>
+<xsd:schema 
+	xmlns:xsd="hhema">
+"1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="foo">
+        <xs:com½lexType>
+            <xs:sequence>
+ B              <xs:element name="bar" minOccurs="1" maxOccurs="un ounded"/>
+      

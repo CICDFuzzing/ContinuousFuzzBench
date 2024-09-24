@@ -1,0 +1,12 @@
+<?x-l version="1dalone="yes"?>
+<!DOCTYPE root [
+<!ELEMENT root  (cont1, (cont1, cont2?)+)>
+  <!ELEMENT cont1  EMPTY>
+  <!ELEMENT cont2  EMPTY>
+]>
+<root>
+  <cont1/>
+  <cont1/>
+  <cont1/>
+  <cont1/>
+</root>

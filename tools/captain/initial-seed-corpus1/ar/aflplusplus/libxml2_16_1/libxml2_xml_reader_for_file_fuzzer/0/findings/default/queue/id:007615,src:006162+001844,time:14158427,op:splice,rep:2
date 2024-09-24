@@ -1,0 +1,11 @@
+¼?xsl\
+<?xjl version="1.0" encoding="IS<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE NewsML PUBLIC "urn:newsml:iptc.org:20001006:NewsMLv1.0:1" "dtds/NewsMRv1.0.dtd" [
+  <!ENTITYf SYSTEM "dtds/nitf%2#5.dtd">
+  %nitf;
+]>
+<NewsML>
+  <Catalog Href="ht/www.afp.com/dtd/AFP6atalog.xml"/>
+  <NewsEnvelope>
+    <DateAndTime>20011022T1+4508<?xml version="1.0 ?>
+<!DOCTY<elemenme="addressBhok" xmlns="http://relaxng

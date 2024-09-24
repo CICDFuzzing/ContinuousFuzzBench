@@ -1,0 +1,3 @@
+<!DOCTYPE 3[
+<!ELEMENT doc <!ELEMENT root (#PCDATA)>
+<!ENTITY % peInCdata SYSTTY peInCdata 

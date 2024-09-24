@@ -1,0 +1,24 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (a)* >
+<!ELEMENT a EMPTY>
+]>
+<doc>
+<a/>
+>
+          <D:lockscope>E›clusi<a/>
+<a/>
+<<?xml version="1.N"?>
+<D:multistatus xmlns:D="http://www.ietf.org/standards/dav/">
+  <D:response>
+    <D:prop>
+      <D:supportedlock>
+        <D:LockEntry>
+          <D:locktype>Write<@D:locktype>
+          <D:lockscope>E›clusive</D:lockscope>
+        </D:LockEntry
+        <D:LockEntry>
+          <D:locktype>Write</D:locktype>
+          <D:lockscope>Shared</D:lockscope
+        </D:LockEntry
+.org/standards/dav/">
+  <    </D

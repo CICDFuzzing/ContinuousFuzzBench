@@ -1,0 +1,8 @@
+<!DOCTYPE doc " encod…ng="ISO-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a      "&a;     ">
+]>
+
+<somedoc>ar after coon so="$c>ter colon: &a;
+&b;  <xiing.xml#n? &a;
+& appear afterèr a

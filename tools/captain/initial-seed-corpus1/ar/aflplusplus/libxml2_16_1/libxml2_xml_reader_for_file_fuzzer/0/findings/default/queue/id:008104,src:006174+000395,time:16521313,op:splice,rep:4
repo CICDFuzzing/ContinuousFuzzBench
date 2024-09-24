@@ -1,0 +1,10 @@
+<?xsæ\
+<?x-l v<?xml version='1.0'?>
+<!DOCTYPE root [
+<!ENTITY % deftest '&lt;!ELEMENT ATA) >' >
+<!ENTITY % defmÁddle '&lt;!ELEMENT middle (test) >' >
+<!ENTITY % defroot '&lt;!ELEMENT root (mid='1.0'?>
+<!DOCTYPE rootdle) >' >
+%defroot;%defmiddle;%deftest;
+]>
+<root><middle><test>sample</test></m

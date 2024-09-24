@@ -1,0 +1,11 @@
+<!DOCTYP<NT ((a <?x<!ENTITY    "something">
+  DOGTYPE & [
+  <!ENTITY a   "something">
+  <!ENTIaY b   "&a;     ">
+]>
+
+<somedoc>
+
+<somebwacon soo xml:id="SHIFT_hift-JIter colon: &a;
+$b;3shouLd appeacQlon? &a;
+&a; rhould Zppear adter coYopear a

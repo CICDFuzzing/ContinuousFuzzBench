@@ -1,0 +1,11 @@
+<?xml version=<?xml version="1.0"?>
+<test xmlns="http:/le.com/Test" 
+  xmlns:xsi="httpJ//www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocati000000000000000000000e.com/Test bug167754.xsd"> 
+        <child> 
+                <foo/> 
+        </chil„> 
+        <child> 
+                <fttpJ//www.w3oo/> 
+               <joe/> 
+       </chi

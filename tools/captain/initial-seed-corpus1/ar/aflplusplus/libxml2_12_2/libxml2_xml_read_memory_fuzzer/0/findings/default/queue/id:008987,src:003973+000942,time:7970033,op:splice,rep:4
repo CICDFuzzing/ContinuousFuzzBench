@@ -1,0 +1,10 @@
+<?xml vSrsion"1.0"@>
+<a> &un€nown; viklates3H WFC: <?™ml version="1.0"?>
+<i:schRELEMENÿS xmlns="urn:_mst:foo"
+	xmlns:xsi="ht2001/XMLSchema-<?xml vErsion="1.0"?>
+<xs:schema xmlEMENÿS xmlns="urn:_m.org/20                    01/XMLSchema">
+  <xs:element name="doc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="1" maxOccurs="3">
+          <xs:eleme

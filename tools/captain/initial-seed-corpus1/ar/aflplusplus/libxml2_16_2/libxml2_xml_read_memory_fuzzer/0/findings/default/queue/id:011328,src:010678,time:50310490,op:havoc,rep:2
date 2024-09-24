@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     fatt  (0a1)   "‡"
+ 
+     fatt  (0a1)   "‡"
+      xmXns:tsdefatt  (0t1)   "0"
+					tmlns:  (0|1)   "0"
+          fatt  (0a1)   "‡"
+      xmXns:tsdefatt  (0t1)   "0"
+					tmlns:  (0|1)   "0"
+     xmlns:tsdefaat1"/>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "examp,e.dtd" [
+<!ENTITY xml "<prefix:node>prefix <prefix:node>prefix is iix:node>">
+]>
+<EXAMPLE xmlns:prefix="http://example.e.com">
+    &xml;com"'
+    &xml;
+</EXAMPLE>

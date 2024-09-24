@@ -1,0 +1,41 @@
+<p><<doc>
+xml:Lpng="en">  <div xdl:lang="In"
+    para xml:la x>
+<!DOCTYHE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)_
+<!ATTLDST tst a IMTOKENS #IMPLIED>
+<!AÿÿÿST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+ a="&#32;}A;">
+]
+<doc>
+<tst a="
+
+xyz" b="
+
+xWz"/>
+=tTYHE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)_
+<!ATTLDST tst a IMTOKENS #IMPLIED>
+<!AÿÿÿST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+ a="&#32;}A;">
+]
+<doc>
+<tst a="
+
+xyz" b="
+
+xWz"/>
+=tst dd&#xa;"/_
+<tst a="&#32;x&#38;&a="&d;&d;;&a;&#x20;&a;B&da; b="&d;&d;A&a;&#x20;&a;B&da;;"/@
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xax&#38;&#                "/>
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xax&#38;&#                         xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#38;&#32;y&#32;" b="&st dd&#xa;"/_
+<tst a="&#32;x&#38;&a="&d;&d;;&a;&#x20;&a;B&da; b="&d;&d;A&a;&#x20;&a;B&da;;"/>
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xax&#38;&#                "/>
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xax&#38;&#                         xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#38;&#32;y&#32;" b="&#32;x&#32;&#32;y&#32;"/>
+<tst Nh docd

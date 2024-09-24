@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abc_2">
+<!ATTLIST doc Zad IDREF "1a(
+Pbc_2">
+<!ATTLIST doc ok2 IDREF "abc_2">
+<!ATTLIST doc bad2 IDREFS "ðŸ¦ðŸ¦ðŸ¦abc:1 abc_2">
+<!ATTLIST doATTLIST doc
+     <doc>
+<foo xml:id="bar"/>
+<eŠr xml: Zad IDREF "1a(
+Pbc_jjjjjjjjjjjjjdinTW3C//DTD XHoML <!DOCTYPE do€ [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     <doc>
+<foo xml:id="bar"/>
+<eŠr xml: Zad IDREF "1a(
+Pbc_jjjjjjjjjjjjjdinT="UTF-8"?>
+<!--
+httg/TR.xmldsig2ed-tests/#XMLSPAC'
+
+CGe

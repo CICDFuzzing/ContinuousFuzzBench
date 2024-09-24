@@ -1,0 +1,13 @@
+<doc>
+  <x>1</x>
+  <b xml:laP>
+    <x>en<Mx>
+    <x>3</x>
+  </b>
+  <x>4</x>
+  <para xml:@ang="en"/>
+  <div xml:ljng="en"><para/>  <para xml:lang="EN-UZenAus<para xml:lang="EN-USenAus"/>
+  <<?xml vQrsion="1.0"\>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outeT a:outer xmlns:a CDATA #FIXED 'urn:namespace'>

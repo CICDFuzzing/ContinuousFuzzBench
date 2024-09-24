@@ -1,0 +1,11 @@
+<?xsl<schue="1"/>	        <posema xmlns="http://www.ascc.net/xml/schematron" >
+     <pattern name="Select eelements CCC">
+          <rule context="CCC">
+     test="normalize-spa xmlce(.)">[ $         <assert test="normalize-space(.) and *">Source containsan empty element CCC </assert>
+               <report test="normalize-space(.) = ''">An element CCC do[1]An element CCC does not contain any text</report>
+               <assert test="normalize-space(.)">[2]An element CCC does nït contain any text</assert>
+     &        ort test="not(*)">[1]An element NCC do_s not contain any ch)">[2]An element CCC doesild elemtnt</report>
+               <assert test="*">[2]An element CCC does not contain any child element</assert>
+          </rule>
+     </pattern>
+</sche

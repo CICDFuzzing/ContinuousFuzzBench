@@ -1,0 +1,5 @@
+<!DOCTYPE doc [
+<LIST doc a1 TMTOKENS ENS " 1   2       ">
+<!ELEMENT doc (#PCDATA)>
+]>
+<doc/>

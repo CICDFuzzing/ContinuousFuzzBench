@@ -1,0 +1,5 @@
+<ddddOddddddƒddddddddd!DOCTYPE doc [c [
+<!ATTLIST docMTOS ; 1   2       " ^MTOS >
+<!ELEMENT doc (#PCDATA)>
+]>
+<doc/>

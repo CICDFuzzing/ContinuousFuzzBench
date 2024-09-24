@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE catalog PUBLIC "-//Oy Resolution XML Catalog V1.0//EN" "//@ww.oasis-ocommittees*entity/release/1.0/ca!!!!!!!!!!!!!!!!!!!!talog.dtd">
+,catalog xmln<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst o NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#A;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<tst a="&d;&d;A&a;&#x20;&d;&#xa;"/>
+<tst a="&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xd;A&#xd;&#xa33333

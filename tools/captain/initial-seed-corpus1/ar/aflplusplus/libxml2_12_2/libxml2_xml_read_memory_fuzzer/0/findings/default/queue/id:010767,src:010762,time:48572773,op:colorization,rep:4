@@ -1,0 +1,16 @@
+<!DOCTYPE doÿÿ[
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+dia:atefkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkÿkkkkkkkkkkkkkkkkkkkkkkkkkkkkatt  (0|1)   "0"
+     xmlns:tst CDATA #FIXED "http://example.org"
+     cst:att<doc>
+<foo xml:id="baæ<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELUMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITG	c	)#*rF<'=;)ATlXQS	b	&""uEbebfbacbfafacfffbcbbeefefc@!<\;?ekf@=rst a="
+
+xyz" b="
+
+xyz"/>dddddddddddd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&

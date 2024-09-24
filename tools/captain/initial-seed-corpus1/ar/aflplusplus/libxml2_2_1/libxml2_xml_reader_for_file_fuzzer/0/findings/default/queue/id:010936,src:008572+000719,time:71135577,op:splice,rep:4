@@ -1,0 +1,13 @@
+7>[\i<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://eet/xmlschema2"
+           xmlns:xs=""
+	   xmlns="http://example.net/xmlschema2"
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+<xs:simpleType name="tfoo">
+  <xs:restriction base="EN">
+(   <xs:maxLength value="2"/>
+  </xs:restriction>
+</xs:simplzType>
+
+</xs:sch

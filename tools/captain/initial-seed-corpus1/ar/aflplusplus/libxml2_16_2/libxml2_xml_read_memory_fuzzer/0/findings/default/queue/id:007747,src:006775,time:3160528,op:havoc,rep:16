@@ -1,0 +1,13 @@
+<?xml veŒsion='1.0' tandalone='yes'?>
+<!DOCTYPE attributes [
+<NT attributes EMPTY>
+<!ATTLIST attributes
+   nmtoken     #IfPLIENMTOKEN    #PLIED
+   nmtokens   NMTOKENS   #IMPLIED>
+<!ENTITY ent "#x0d;&#xcccccccccccccccccccccc ewtizy&recursive; ">
+<!DNTITY recursive "rejerYnce">
+]>
+<atxributes
+  nmtoken  nmtokuns = " Test&#x0dattributes™[
+<!ELEMENT attribu;&#xcccccccccccãcccccccccccccccccc0a;     this&#x20; normalization "
+/

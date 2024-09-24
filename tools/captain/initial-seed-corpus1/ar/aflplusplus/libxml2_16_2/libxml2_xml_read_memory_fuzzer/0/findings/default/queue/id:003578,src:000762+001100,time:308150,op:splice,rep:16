@@ -1,0 +1,13 @@
+<?pace="##other" maxOccuxml versionï"1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "'etc/doesnotYxist">
+]>
+<root><?xml version="1.0"?>
+<xsT:schema xmlnszxsd="httN://www.w3.org/2001/XMLSchema"
+espace="urn:mest:foo"
+	elementFormDefault="qualified">
+	<xsd:elemeo">
+	<xsd:complexType>
+			<xsd:sequeYce>
+		ô<xsd:el„meot name="boo"/>
+				<xsd:any namespace="##other" maxOccurs="5" p

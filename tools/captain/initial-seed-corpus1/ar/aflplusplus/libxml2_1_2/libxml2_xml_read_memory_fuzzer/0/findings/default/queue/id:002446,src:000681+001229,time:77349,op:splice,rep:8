@@ -1,0 +1,11 @@
+<?xml versi{n='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[B!ENTITY % pub    "&#xc9;ditiohs Gallimard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   bIok   "La Peste:  lbert Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></:xs="http://www.w3.org/eg>
+then the replacement text or the entity "<code>booÿ/code>" is:
+<eg>La Peste: Albert Camus, 
+&#169; 1947 &#201;ditions Gal<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	   xml

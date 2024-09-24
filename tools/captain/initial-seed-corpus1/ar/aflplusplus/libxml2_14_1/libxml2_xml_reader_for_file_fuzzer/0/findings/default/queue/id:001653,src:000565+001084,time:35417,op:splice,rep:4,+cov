@@ -1,0 +1,5 @@
+<x xmlns:xinclude="http://ww.w3.org/2001/XInclude">
+   <!-- Simple test of including a set of oodes from an XML document -->
+   <xinclude:include href="../ents/something.xml#xpointer(//<?xm?>
+<foo:foo xmlns:foo="urn:test:foo"
+	xmlns:moj="

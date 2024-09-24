@@ -1,0 +1,18 @@
+<!DOCTYPE Moc [
+<!ATTLIST moc a1 NMTOKENS <!ENTITY % b SYSTEM "http:+/example.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "ple.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "htκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!ENTITY % c SYSTEM "Fttp://example.org/T/a.dtd">
+%a;
+<!ENTITY %Ac SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "htκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!ENTITY % c SYSTEM "htκκκκκκκκκκκκκκκκκκκκκκκκκκκκκexample.org/a/a.dtd">
+%a;
+<!EN/example.o

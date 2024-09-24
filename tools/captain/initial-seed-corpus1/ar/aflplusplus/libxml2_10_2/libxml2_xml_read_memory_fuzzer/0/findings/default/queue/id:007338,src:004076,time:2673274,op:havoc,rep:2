@@ -1,0 +1,6 @@
+<?xml …ersion="1
+<!ENTITY c.0"?>
+<!DOCTYPE foÿ[
+<!ENTITY c PUBLIC "bar" "?etc#doesnotex_st">
+]>
+<root>&c;</root>

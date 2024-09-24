@@ -1,0 +1,4 @@
+<oc Kÿÿ>
+<!ELEMENT b (#P | b)* , c+, a, b?,<doc><a/><b/><a/><c/><c/><a/T c (#PCDATA)>
+]>
+<doc><a/><b/><a/><c/><c/><a/></doc>

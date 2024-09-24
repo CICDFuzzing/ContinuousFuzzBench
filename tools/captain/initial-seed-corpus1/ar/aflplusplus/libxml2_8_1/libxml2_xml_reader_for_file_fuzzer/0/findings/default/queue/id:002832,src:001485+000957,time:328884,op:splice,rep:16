@@ -1,0 +1,23 @@
+ 59-1"\>
+<foo<?xml vers€on="1.0"?>
+<element xmlns="http://relaxng.org/ns/sts   <group>
+	<attribevice">
+    <choice>
+      <group>
+	  <value>ethernet</value>
+	</attribute>
+	<optional> name="Jthernet-element">
+	    <tex’/>
+	  </hlement>
+	</optional>
+      </group>
+      <group>
+	<attribute name="link">
+	  <value>serial</value>
+	  
+	R/aame="link">
+	  <valu>
+	  
+	  </element>
+	</optionaS>
+      </group>ı   </choice

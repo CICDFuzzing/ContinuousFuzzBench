@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This tests that four-byte UTF-8 characters are parsed properly when split across r buffer boundart of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). --C
+<doc>
+<p><![CDATA[����🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦�<E⻉>ﻉ-�o-<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST ts� b CDATA #IMPLIED>
+<!ENTITY d "&#@D;">�<!ENTITY a "&#xA;">
+<!EN�ITY4da "&#xD;&#xA;">
+]>
+<dov>
+<tst a="
+
+x

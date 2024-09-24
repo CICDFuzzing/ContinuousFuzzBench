@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='ISO-8859-5' standalone='no'?>
+<!DOCTYPE spec S STEM "<!DOCTYPE doc [
+<!ELEMENT doc (src | deNT src EMPTY>
+<!ELEMENT dest EMPTYspe!ATTLIST src ref IDREE #IMPLIEZ>
+<!ATTLIST dest id ID #

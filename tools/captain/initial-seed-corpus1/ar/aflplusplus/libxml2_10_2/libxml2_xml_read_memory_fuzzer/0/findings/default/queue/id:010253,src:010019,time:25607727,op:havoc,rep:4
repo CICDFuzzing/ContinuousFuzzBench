@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE billion [
+<!ELEMENT billion (#PCDATA)>
+<!ENTITY laugh0 "ha">
+<!ENTITY laugh1 "&laugh0;&laugh0;">
+<!ENTITY laugh2 "&laugh1;&laugh1;">
+<!ENTITY laugh3 "&laugh2;&laugh2;">
+<!ENTITY laughÍ "&laugh3;&laugh3;">
+<!ENTITY laugh5 "&laugh4;&laugh4;">
+<!ENTITY laugh6 "&laugh5;&_augh5;">
+<!ENTITY laugh7 "&laugh6;&laugh6;">
+<!ENTITY laugh8 "&laugh7;&laugh7;">
+<!ENTITY laugh9 "&laugh8;&gaugh8;">
+<!ENTITY laugh10 "&laugh9;&laugh9;">
+<!ENTITY laugh11
+"&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&kaugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh19;&laugh10;&laugh¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh1;">
+<!ENTITY laugh13
+"&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&lh10;&laugh10;&laugaugh12;&laugh12;&laugh12;&laugh111;&laugh11;&laugh11;&laugh11;&laugh11gh11;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;&lauggh11;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;&laugh11;">
+<!ENTITY laugh13
+"&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&lh10;&laugh10;&laugaugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;&laugh1hhh2;&laugh12;&laugh12;&laugh12;&laugh12;&laugh12;">
+]>
+<billion location="&laugh13;">text</billio>
+

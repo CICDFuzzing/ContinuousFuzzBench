@@ -1,0 +1,18 @@
+<?"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "s
+]<@okpfex<@okpfexc>
+
+$f<$c>
+
+$f<$hi<g">
+  <!ENTITY b   "">
+]>
+
+<somedoc>
+
+$  somedoc [
+  &b;"/>
+
+&a; &a;
+&b

@@ -1,0 +1,8 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict/*w3.@rg/TR/xhtml1/DTD/xhtml1xpointer(start-point(string-range(//p,'multiple')))
+xpointer(end-point(string-range(//p,'multiple')))
+xpointer(start-'test')))
+xpointer(end-point(string-range(//p,'test')))
+xpointer(start-point(string-range(//*,'multiple',1,0)))
+xpointer(end-point(string-range(//*,'multiple',1,0)))
+xpointer(start-point*string-rangeÂ//*,'multiple',1,1)))
+xpointer(e

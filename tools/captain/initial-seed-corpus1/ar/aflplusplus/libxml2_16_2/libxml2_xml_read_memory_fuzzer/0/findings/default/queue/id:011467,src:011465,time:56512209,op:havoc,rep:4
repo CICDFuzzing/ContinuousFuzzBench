@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY "earth.gif" >
+<!NOTATION sme	SYSTEM "viON gif SYSTEe">
+<!ENTITY entExt SYSTEM "earth.gif" >
+<!NOTATION gif SYSTEM "vie…gif.e@e">
+]>
+<doc attrExtEnt="entExt">
+   &ent1;, &ent2;!<?doc>
+
+-!-- Let worldudNnƒ the quotes) -->

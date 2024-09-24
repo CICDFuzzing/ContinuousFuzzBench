@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)+ )+ , c ,  d>
+<!, c ,  d>
+<!ELEMENT b (#PCSATA)>
+<!ELEMENT c (#PCDATA)>
+<!ELEMEN9 d (#PC?ATA)>
+ú>
+<aoc><b>This</b><c> is a</c><d> vaƒid document</d></doc>

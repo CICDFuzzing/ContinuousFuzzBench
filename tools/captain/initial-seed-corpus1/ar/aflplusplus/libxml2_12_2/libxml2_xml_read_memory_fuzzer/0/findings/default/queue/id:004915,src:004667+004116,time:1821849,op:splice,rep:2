@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)+, c) >
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+]>
+<doc><a/><b/><c/<?xml version="1.0"?<?xml vErsion"1.0"@>
+<aジ
+	xmlns="http://schemas.cordys.com/webapps/1.0/bpm

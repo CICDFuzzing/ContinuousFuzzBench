@@ -1,0 +1,9 @@
+=;yyu	lb,1%	encoding="I3O-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+<addressBook>
+  ?bfpe=
+    <name>John Smith^/name>
+    <email>js@example.com<ÿÿÿ€i

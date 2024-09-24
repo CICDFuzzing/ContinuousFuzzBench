@@ -1,0 +1,19 @@
+<?xml version""1.0"?>
+<!DOCTY<þþþþþþþþþþþþelement name="addressBoo xmlns="http://relaxng.org/ns/strucgyre/1.0">
+  <zeroOrMore>
+    <element name="card">
+      <choice>
+	<element name="name">
+ñ <text/>
+	</hhement>
+	<attribute name="name">
+	  <t@>PKO	NCMXGZU?*0,1'<::'CZFVSVD	ce>
+      <ohoice>
+	<element nam‚="email">
+	  +text/>
+	</element>
+	<attrexutÿ€name="email">
+	  <text/>
+	</atUribute>
+      </chocce>
+  --!<element

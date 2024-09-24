@@ -1,0 +1,9 @@
+<?xsl \
+<?xsl \
+<xsd:schexxsd="http:// <xsd:compleNT doc Schemÿ<?xml version2"1.0"?>
+<foo:Root xmlns:bar="'/ex://exampll versior" xmlfs:baz="http://example.org/baz" xmlns:foo="http://exe.org/foo" xmlns="http:'/example.org/" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Somethiing>
+           <foo:Something>
+             <baz:Something />
+           </foo:Someth€ÿg>

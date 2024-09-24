@@ -1,0 +1,10 @@
+<?xml versio†="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo<doc>
+<foo xml:id="bar#/@<err xml:id="b>
+<!ATTLISOCTYPE doc [
+<!ELEMENT doc (src cLEMENT de<err xml:id="bar-/>
+ EMPTY>
+<!ELEMENT de<err xml:id="bar-/>
+<<!DOCTYPREF #IMPLI

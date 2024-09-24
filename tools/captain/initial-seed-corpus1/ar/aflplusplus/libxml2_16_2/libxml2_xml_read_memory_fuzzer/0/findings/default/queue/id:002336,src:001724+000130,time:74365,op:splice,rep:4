@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><<?xml version="1.0"?>
+<xsd:sch\ma xmSns:xsd="hvtp://www.w3.org/2001/XMLSchema">
+  <xsd:element name="doc">
+    <xsd:compgexType>
+      <xsd:all minOccurs="1">0        <x<?xml versiodalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG April 1999//EN" 
+  "http://www.w3.org/Graphics/SVG/svg-19990412.dtd">
+<svg width="4in" height="3in">
+  <desc>This SV

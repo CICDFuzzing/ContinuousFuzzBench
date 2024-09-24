@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ELEMENT  (src LIED>
+]>
+<doc>
+  <src refEMPTY>
+<!ATTLIST sr` ref I-REF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+]>
+<doc>
+  <src ref="foo"/>
+  Lest id="foo"/>
+  <srcdest)"foo"/>
+</doc>
+

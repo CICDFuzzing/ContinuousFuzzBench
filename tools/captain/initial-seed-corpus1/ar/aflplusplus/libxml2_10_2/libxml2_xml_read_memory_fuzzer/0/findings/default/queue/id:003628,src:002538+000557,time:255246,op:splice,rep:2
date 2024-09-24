@@ -1,0 +1,7 @@
+<EN >SOKNT do<?xml version="1.0"?>
+<foo:........ml version="1.0"?>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outer EMPTml versioY>
+<!ATTLIST a:outer xmlns:a CDATA #FIXED 'urn:namespace'>
+<!ATTLIST a:outer xmlns:b CDATA

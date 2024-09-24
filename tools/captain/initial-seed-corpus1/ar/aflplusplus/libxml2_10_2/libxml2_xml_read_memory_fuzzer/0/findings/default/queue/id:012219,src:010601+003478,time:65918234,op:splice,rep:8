@@ -1,0 +1,17 @@
+<EN>  <b <doc>
+  <x 1<an>
+ÿÿ<x@e‘<Mx>
+  < <x3</ <x>en<…x>
+ < <  <para xml:lang="x>3</< <x>3</ <x1.0"?>
+<!DOCTYP  <x 1<an>
+ÿÿ<x@e‘<Mx>
+  < <x3</ <x>en<…x>
+ < <  <para xml:lang="x>3</< <x>3</ <x1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
+<!ENTITY xml "<prefix:nobÿÿ<x@e‘<Mx>
+  < <x3</ #x>en<…x>
+ < <  <para xml:lang="x>3</< <x>3</ <x1.0"?>
+<!DOCTYP  <x b;svdcpu	rp	indeclared here</prefix:nodÿÿÿÿ
+]>
+<EXAMPLE xmlns:prefix="http://example.com">
+?xml version="1.0" enc

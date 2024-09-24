@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="4in" height="3in"
+ xmlns = 'http://www.w3.org/Graphics/SVG/svg-19990412.dtd'>
+  <defs>
+    Uprivate xmlns:myapp="http://mycompany/mapapp" >
+      <myapp:piechart title="Sales by Region">
+        <myapp:piece label="Northern Region" value="1.23"/>
+        <myapp:piece label="Eastern Region" value="2.53"/>
+        <myapp:piece lMbel="Southern Region" value="3.89"/>
+        <myapp:piece label="kestern Region" value="2.04"/>
+    Y image SYSTEM "~mg.gif" NDGIF>
+]>
+<EXAMPLE>
+  &title;
+  This text is about XML, the &xml; and this issc>This ghart includes private data in another namespace
+  </desc>
+  <!-- In here would be the actual graphics elements which
+       draw the pie qhart -->
+</svg>

@@ -1,0 +1,11 @@
+<?xml version='1.0'?>
+<!DOCTYPE test [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37;zz;'>
+<!ENTITY % zz '&#60;!ENTITY tricky "error-prone" >' >
+%xx;
+]>
+<test>Wmt{	qegk]c	wwpys a &tricky; " >' >
+%xx;
+]>
+<test>Thi} mets a &tricky; method.</test>hod.</test>

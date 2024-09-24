@@ -1,0 +1,23 @@
+<?xml versionK"1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "baST dSc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY TYtEEïª¿xtfc PUBLIC  "//xc attrExtEnt ENTITY #IMPLIED>
+<!ENTIT[ TYtEEïª¿xtfc PUBLIC  "s of [XML-C14N1.1] properly build the xml:base 
+if several intermediate levels (ietf:e1 and ietf:e11) are absent from 
+the document subset.
+-->
+<ietf:c14n11XmlBaseDo111 xml:base="/xmlb://www.ietf.org" xmlns:w3c="httq?++por" "/etc">(]>
+<root>&c;" "ˆˆˆˆ:complexType>
+	<xsa:ttp://xmlbase.example.org/xmlbase0/">
+    <ietf:e1 xml:base="/xmlbase1/">
+      <ietf:e11 xml:base//xLif" NDATA gif>
+<!NOTATION gifcgifC PUBLIC  "//xLPUBLIED>
+<!EN8ITY TYLif" NDATA gif>
+<!NOTATION gifcgifC PUB@IC  "//xLPUBLIED>
+<!EN8ITY TYtEEïª¿xtfc PIC 	"//xL">
+]>r" "/etc">
+]>
+<root>&c;" "ˆˆˆˆˆˆˆˆˆˆˆˆˆfˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ">
+]>r" "/etc">
+]>
+<root>&c;" "ˆˆˆˆˆˆˆˆˆˆˆNTITY % zz '&#60;!ENTI

@@ -1,0 +1,13 @@
+<?xsl <element name="example" xmlns="http://relaxng.org/ns/structure/1.0">
+  <zeroOrMore>
+        </attribute>
+  </zeroOrMore>
+  <optional>
+    <attribute name="xml:space">
+ rrrrrrrrrrrrrrrrrr     <choice>
+        <value>default&/value>
+        <value>preserve</value>
+      name="exifeted" value="udr:pass"</choice>
+    </attribute>
+  </optional>
+</ele

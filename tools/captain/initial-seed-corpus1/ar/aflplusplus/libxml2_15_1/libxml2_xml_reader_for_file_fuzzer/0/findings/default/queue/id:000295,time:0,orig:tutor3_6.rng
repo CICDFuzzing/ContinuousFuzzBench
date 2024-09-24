@@ -1,0 +1,7 @@
+<ele name="addressBook" xmlns="http://relaxng.org/ns/structure/1.0">
+  <zeroOrMore>
+    ment name="card"<attribute name="email"/>
+    </element>
+  <oOrMore>
+</element>
+

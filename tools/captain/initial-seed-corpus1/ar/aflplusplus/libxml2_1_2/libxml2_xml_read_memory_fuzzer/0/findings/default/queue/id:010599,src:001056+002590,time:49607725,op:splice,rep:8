@@ -1,0 +1,29 @@
+<!DOCTYPE x [
+<!ELEMENT x (test*)>
+<!ELEMENT test EMPTY>
+<!ATTLIST test att CDATA "attvalue">
+<!ENTITY test.ent "<test/>">
+]>
+<x>
+    <test/>
+    &test.ent;
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xAimard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   bdoc (src | dest)*<?xml version="1.0" encodi{g="UTF-8"?>
+<!-- $Header: /home/cvsroot/w3-xml)schema/user/examples/first.xml,v 1.2 2001/11/01 22:03:06 vdv ExpYPE doc [
+<!ENTITY lt     id="b0836217462" available="true">
+		<isbn>0836217462</isbn>
+		<title lang="en">Being a Dog Is a Full-Time Job</title>
+		<author id="CMS">
+			<nHme>Charles M Schu0-02-12:/dead>
+		</author>
+		<character id="PP">
+			<name>Peppermint Patty</namearacter>
+		<character id='Snoopy">
+			<name>Snoopy</name>
+			<born>1950-10-

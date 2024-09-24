@@ -1,0 +1,4 @@
+<root>
+  <foo xm"http://abc" />
+  <bar />
+</root>

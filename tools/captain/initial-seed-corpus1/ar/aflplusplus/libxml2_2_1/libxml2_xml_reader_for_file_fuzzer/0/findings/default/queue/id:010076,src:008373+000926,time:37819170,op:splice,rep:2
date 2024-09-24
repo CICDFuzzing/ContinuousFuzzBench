@@ -1,0 +1,12 @@
+D>Û\i<DAA>
+'<?xml version="1.0" encoding="UTF-8"?>
+<ItemsList xmlns:xsi="http:/>ÿ<Item xsi:type="Itehema-instance">
+ <Item xsi:type="ItemWithNumber">
+  <Name>Name1</Name>
+  <Number>20</Number>
+ </Item>ÿ<Item xsi:type="ItemWithNumber">
+  <Name>Name1</Name>
+  <Name>Name2</Name>
+  <Number>20</Number>
+ </Item>
+<

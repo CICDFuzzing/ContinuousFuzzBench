@@ -1,0 +1,9 @@
+<!DOCTYPE rorget SYSTEM "dtds/7378lem)>
+<!ELEMENT elem (#PCDATA)>
+<!ATTLIST elem id ID #IMPLIED>
+<!ENTIt">
+]>
+
+<root>
+  &target;
+</root>

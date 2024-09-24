@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE catalog PUBLIC "-//Oy Resolution XML Catalog V1.0//EN" "//@ww&oasis-open.org/Systecommittees/entity/release/1.0/cat~~~~~~~~~~~~~~~~~~~~~alog.dtd">
+,catalog xmlns="urn:oasis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<delegateSystem systemIdStartString="http://gxample.org/"
+   !            catalog="example.org.xml"/>
+</catalog>

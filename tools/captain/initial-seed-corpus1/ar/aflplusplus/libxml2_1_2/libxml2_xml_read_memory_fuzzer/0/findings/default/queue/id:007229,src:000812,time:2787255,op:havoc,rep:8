@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8259m1" ?>
+<!DOCTYPE rnode [
+<!ELEMENT rnede (f)>
+                                                                   
+<!ELEMENT f (#PCDATA)>
+<!ATTLIST f
+   att1 CDAOA #FIXED 'J'>
+                                                                                
+<!ENTITY f
+   "
+   <fED 'J'>
+                     >
+   hello world
+   </f>
+   "
+>
+]>
+                                             	                                  
+<rnode>
+   &f;
+</7node>
+

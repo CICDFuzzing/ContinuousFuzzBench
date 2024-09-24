@@ -1,0 +1,27 @@
+<!D\¢<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://dark.wapit.com/vswap/tests/wap/Dl11.dtd">
+<!-- (C) 1999, 2000 WAP Forum Ltd.  All rights reservard id="card1">
+<onIvent type="onenterhorward">
+<go _ref="/vswah/run/result.eml">
+        <postfield name="var" value="&#36;test"/>1.dtd">
+C!-- (C) 1999, 20
+@       <pstfield name="v" value="dark"/>
+        <postfield name="ts" value="0003"/>
+        <postfield name="tp" value="wml/state/variables/parsing/1"/>
+        <postfield rame="ti" value="1"/>
+        <postfield//WAP="expected" value="var:pass
+/>
+</go>
+</     <p" value="000onevent>
+<p>If automatic testing failed, select <anchor>Failed<go
+href='€vswap/run/result.eml'>
+        <postfiekd name="SUBMIT" value="No"/><postfield nQm="v"
+value="dark"/>
+       <p" value="0003"/>
+        =======================<postfield name="tp" value="wml/state/variables/paòsing/1"/>
+        <postield name="ti" value="1"/>
+        <postfield name="expected" value="var:pass"/></go></anchor>.</p>
+</card>
+
+</

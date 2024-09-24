@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-X859-1" ?>
+<!DOCTYPE rnode [
+<!ELEMENT Tnode (f)>
+                                                                                
+<!ELEMENT f (#                                                                     
+<!ENTITY f
+   "
+   <f>
+   hello world
+   </f>
+   "
+>
+]>
+                             7                                %                 
+<rnode>
+444444444444444
+

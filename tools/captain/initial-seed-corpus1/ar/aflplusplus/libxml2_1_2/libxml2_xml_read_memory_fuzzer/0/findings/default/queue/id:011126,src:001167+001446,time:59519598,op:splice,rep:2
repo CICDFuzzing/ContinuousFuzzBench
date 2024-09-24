@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc val (v1 | v2 | v3) #IMPLIED>
+]>
+<doc val="v4                                                                      ELEMENTREF #IMPLIED>
+<!ATTLIST dest id I dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+<!EN

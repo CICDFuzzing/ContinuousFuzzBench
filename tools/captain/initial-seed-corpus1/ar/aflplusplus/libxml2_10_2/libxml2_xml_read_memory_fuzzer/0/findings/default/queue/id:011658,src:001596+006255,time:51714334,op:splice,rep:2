@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1 a1 NMTO_   ust be the value. 
+
+	  This one uses an attribute group from an imported schema with"><!DOCTYPE Moc [
+<!ATTLIST doc a1 NMTOKENS <!ENTITY % b SYSTEM "http:+/example.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM Âhttp://exam

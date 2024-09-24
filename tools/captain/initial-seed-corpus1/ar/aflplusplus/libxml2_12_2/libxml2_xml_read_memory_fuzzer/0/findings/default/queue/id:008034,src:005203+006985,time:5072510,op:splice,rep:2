@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&aÿÿÿ]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should[appear after colon: &a;
+&b; should ap<?xml version="1.0"?>
+<!DOCTYPE catalog PUBLIC "-//Oy Resolution XML Catalog V1.0//EN" "//@ww.oasis-open.oPPPPPPPPPP

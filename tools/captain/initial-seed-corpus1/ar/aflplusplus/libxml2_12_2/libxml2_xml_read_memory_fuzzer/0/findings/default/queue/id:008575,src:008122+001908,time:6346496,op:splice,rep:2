@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "d:;"
+<!ENTITY c PUBLIC 1."ÿ><?xml version="1.0"?>
+<a> &unknown; violates [ WFC:2001/XMLersion="1.0" encoding="UTF-8"?>
+<ItemsList xmlns:xsi="http://w3.org/200A/XMLSchema-instance">
+ <Item xsi:type="ItemWithNumber">
+ <NItemWithNumber">
+ <Name>Name1</ame>Name1</Name>
+  <Numb

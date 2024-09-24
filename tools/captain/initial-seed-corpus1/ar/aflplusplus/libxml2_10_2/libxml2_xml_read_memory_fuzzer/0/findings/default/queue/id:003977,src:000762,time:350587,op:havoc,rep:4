@@ -1,0 +1,6 @@
+<?xml version= [
+<!ENTITY c PUBLIC "bar" "/et"1.0"?>
+<!DOCTYPE foo}[
+<!ENTITY c PUBLIC "bar" "/{tc/doesnotexist">
+A>
+<root>&c;</root>

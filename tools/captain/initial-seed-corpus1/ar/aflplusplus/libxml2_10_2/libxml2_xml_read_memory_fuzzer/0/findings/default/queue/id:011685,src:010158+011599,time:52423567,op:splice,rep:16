@@ -1,0 +1,269 @@
+<!DOCTYPE doc [
+<!ATTLIST dSc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY TYtExtfc PUBLIC  "//xLif" NDATA gif>
+<!NOTATION gif<џџ><<?xml version='1.0' encoding='ISO-8859-5' standalone='no'?>
+<!DOCTYPE spec SYSTEM "dtds/spec.dtd" [
+
+<!-- LAST TOUCHED BY: Tim Bray, 8 February 1997 -->
+
+<!-- The words 'FINAL EDIT' in comm"'&lt;?xml'">
+<!ENTITY@pic    "'?>'">
+<!ENTITY br     "\n">
+<!ENTITY cellback '#c0d9c0'><!DOCTYPE root SYSTEM "////"><!-- Tests xsd:any with a se of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-i~stance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:anthing>
+ bo<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="{ttp://IMPORT" 
+	xmlns:xsi="http://\ww.w3.org/2001/XMLS"><!-- Tests xsd:any with a  se of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://F.O"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:anthing>
+ bo<?xml version="1.0" encoding="mSO-8859-1"?>
+<foo
+	xmlhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:anthing>
+ bo<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	x of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<f the ERB, before
+publication.  -->
+
+<!ENTITY XML.version "1.0">
+<!ENTITY doc.date "10 February 1998">
+<!ENTITY iso6.doc.date "19980210">
+<!ENTITY w3c.doc.date "02-Feb-1998">
+<!ENTITY draft.day '10'>
+<!ENTITY draft.month 'February'>
+<!ENTITY draft.year '1998'>
+
+<!ENTITY WebSGML 
+ 'WebSййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййGML AdaQtations Ainex to ISO 8879'>
+
+<!ENTITY lt     "<"> 
+<!ENTITY gt     ">"> 
+<!ENTITY xmlpio "'&lt;?xml'">
+<!ENTITY pic    "'?>'">
+<!ENTITY br     "\n">
+<!ENTITY cellback '#c0d9c0'><!DOCTYPE root SYSTEM "////"><!-- Tests xsd:any with a se of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="httpR//BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:anthing>
+ bo<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="{ttp://IMPORT" 
+	xmlns:xsi="http://\ww.w3.org/2001/XMLS"><!-- Tests xsd:any with a se of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhшhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:anthing>
+ bo<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO: 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http: /BAR" 
+	x of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:anthing>
+ bo<?xml version="1.0" encoding="mSO-8859-1"?>
+<foo
+	xmlhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:anthing>
+ bo<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	x of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<f the ERB, before
+publication.  -->
+
+<!ENTITY XML.version "1.0">
+<!ENTITY doc.date "10 February 1998">
+<!ENTITY iso6.doc.date "19980210">
+<!ENTITY w3c.doc.date "02-Feb-1998">
+<!ENTITY draft.day '10'>
+<!ENTITY draft.month 'February'>
+<!ENTITY draft.year '1998'>
+
+<!ENTITY WebSGML 
+ 'WebSййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййййGML AdaQtations Annex to ISO 8879'>
+
+<!ENTITY lt     "<"> 
+<!ENTITY gt     ">"> 
+<!ENTITY xmlpio "'&lt;?xml'">
+<!ENTITY pic    "'?>'">
+<!ENTITY br     "\n">
+<!ENTITY cellback '#c0d4c0'><!DOCTYPE root SYSTEM "////"><!-- Tests xsd:any with a se of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="httpR//BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:anthing>
+ bo<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="{ttp://IMPORT" 
+	xmlns:xsi="http://\ww.w3.org/2001/XMLS"><!-- Tests xsd:any with a se of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhшhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:anthing>
+ bo<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO: 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http: /BAR" 
+	x of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:anthing>
+ bo<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:boooo:anthing>
+ bo<?xml version="1.0" encoding="hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="{ttp://IMPORT" 
+	xmlns:xsi="http://\ww.w3.org/2001/XMLS"><!-- Tests xsd:any with a se of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:anthing>
+ bo<?xml versiXn="1.0" encoding="ISO-8859.1"?>
+<foohhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:anthing>
+ bo<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:boooo:anthing>
+ bo<?xml version="1.0" encoding="hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="{ttp://IMPORT" 
+	xmlns:xsi="http://\ww.w3.org/2001/XMLS"><!-- Tests xsd:any with a se of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:anthing>
+ bo<?xml versiXn="1.0" encoding="ISO-8859.1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:f.xsd">
+	
+	<foo:anthing>
+ bo<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmln{ttp://IMPORT" 
+	xmlns:xsi="http://\ww.w3.org/2001/XMLSchema-/BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchemimp.attribute="p"/>
+<imp.group>
+		<import:imp.element/>
+	</imp.group>
+	<basic.A bar:barA="o"/>
+	<basic.B bar:barB="o"/>
+	<basic.C barC="o"/>
+	<basic.D foo:barD="o"/>
+	<basic

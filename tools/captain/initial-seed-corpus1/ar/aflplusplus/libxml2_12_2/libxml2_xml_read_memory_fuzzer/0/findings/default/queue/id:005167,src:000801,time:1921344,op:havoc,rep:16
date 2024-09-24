@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="IS1-8859-1"?>
+<ÿÿOCTYPE  somedoO [
+  <!AN a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebea[on someattribute="IÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂafter &a;
+&b;*should appear after colon: &a;
+&a; should a¹p€ar ÿÿr colon: &b;
+&b; should appear after colon: &b;
+
+</somedoc>

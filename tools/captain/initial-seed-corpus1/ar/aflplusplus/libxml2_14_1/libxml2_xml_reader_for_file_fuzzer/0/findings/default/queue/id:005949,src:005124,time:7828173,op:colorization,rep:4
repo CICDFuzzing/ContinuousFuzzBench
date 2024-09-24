@@ -1,0 +1,10 @@
+<?xml vn.0" encoding="ISO-8ÿÿ9-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "someth&&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&/>
+ &a; &a;
+&b; should appeacolmn? &a?*f<	rd apSO-8663.7WXK.3544,8XYV,6332.9

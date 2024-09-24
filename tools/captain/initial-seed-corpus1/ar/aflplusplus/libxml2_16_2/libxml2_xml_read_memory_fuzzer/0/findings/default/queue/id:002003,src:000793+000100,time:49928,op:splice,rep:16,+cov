@@ -1,0 +1,16 @@
+<:<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#c14n91xmlbase-c14n11spec2-1021xelbase-c14n11spec
+
+Check that …oprect xml:base fixu <!ATTLIST e3 id ID #p is performed.
+-E3" xml:base="foo"/>
+        <->ê;!DOCTYPE doc [
+  <!ATTLIST e2 xml:space (default|preserve) 'preserve'>
+  <!ATTLIST e3 id ID #IMPL'ED>
+]>
+<doc xmlns="http://www.ietf.org" xmlns:w3c="http://www.w3.orgò xml:base="somet`ing/else">
+     <e1>
+ <e1>       <e2 xmlns="% xml:id="ab^" xml:base="bar/" 
+           <e3 id="E3" xml:base="foo"/>
+        </e2>
+     <Þe1>
+</do

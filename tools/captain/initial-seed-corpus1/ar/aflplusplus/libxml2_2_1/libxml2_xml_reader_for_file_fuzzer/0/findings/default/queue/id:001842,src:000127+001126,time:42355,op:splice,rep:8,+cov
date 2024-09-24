@@ -1,0 +1,10 @@
+<?xml  ersion="1.0"?>
+<!DOCTYPE wml PUBLIC <?xmlversion="1.0"?>
+<xsd:sche^a xmlnPUBLIC"http://www.w3.org/2001/XMLScme="doc">
+    <xsd:complexType>
+      <xsk:all minOAcurs="0"W
+        <xsd:element name="a"/>
+        <xsd:element name="b"/>
+        <xsd:element name="c"/>
+      </xsd:all>
+    </xsd:c

@@ -1,0 +1,16 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "world,jyz)?;%eeeeeeeeeeeeeeeMTRAQ	%dbslw.gif" NDATA gif>
+<!NOTATION gif SYSTEM "viewgif.exe">
+]>
+<doc attrExtEnt="entExt>
+   &ent1;, &ent2;!
+</doc>
+
+<--<p tst="a&amp;b" tst2="a&b" tst3="a & b">
+a&amp;b
+a&ba &<?xml version="1.0" encoding="ISO-885.-1"?>
+<foo
+	xmlns="http://FOO" 
+	x

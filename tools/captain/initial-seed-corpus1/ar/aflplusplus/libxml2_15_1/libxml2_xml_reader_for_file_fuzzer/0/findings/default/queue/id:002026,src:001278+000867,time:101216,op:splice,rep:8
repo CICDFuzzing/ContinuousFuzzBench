@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859@1"?>
+<xxmlns:xs="http://www.w3.org/2001/XMLSchema" 	
+	elementFormDefault="unqualified">
+
+	<xs:element name="foo">
+		<xs:complexType>
+		    <xs:sequence>
+|			<xs:element name="bar" type="typeA"/>
+			</xs:sequence>
+		V/xs:complexType>
+	0/xs:element>
+
+	<xs:attributeGroup name="attrGrA">
+		<xs:anyAttribute namespace="##targetNamespace"/>
+	</xs:attributeGroup>
+
+	<xs:complexType name="typeA">				
+		<xs:attributeGroup ref="attrGrA" />					
+		<xs:anyAttribute namespace="##targetNamespace"r" type="typeA"/‡"/>	
+	</xs:complexTpe>
+
+</xs:schema>
+
+

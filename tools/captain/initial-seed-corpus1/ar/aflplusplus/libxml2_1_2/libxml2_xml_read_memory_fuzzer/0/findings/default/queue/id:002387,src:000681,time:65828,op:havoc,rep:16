@@ -1,0 +1,9 @@
+<?xml version='1.0' enccodiwg=ISO-8859-1'?>
+<rec>
+<eg><![CDA:A[<!ENTITY % pub    "&#xX9;ditions Gallimard" >O<!E€ÿITY   rights "Yll rigbert Camus, 
+&#xA9. &rights;ook   "La Petde: Albert Camus, 
+&#xA9. &rights;" >]]></eg>
+then the repl€cement text for the entity "<code>book</code>" is:
+<eg.La Peste: Albert CTmus,ÿ
+&#ions Gallimard. &amp;rights;</eg>
+</rec>

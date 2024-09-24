@@ -1,0 +1,9 @@
+<EN >SOKNT<?xml version="1.0"?>
+<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlns:foo="http://example.org:::::::::::RI -->
+              anc/namespace::*xam) 
+     
+              <!-- no namespace nodes; I am text or havenonempty namesplce URI -->
+              ancestor-or-self::bar:Something  and
+    ÿ        (self::text()  or
+               (namespace-uri() != ""))
+    

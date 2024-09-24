@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<NT doc ((a ode()) = namespaceng="ISO-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "&b; shoug">
+  <!ENTITY b   "&a;     ">
+]>
+
+<somedoc>
+
+<somebeacon so="&b;"/>
+
+&a; should ar after colon: &a;
+&b; shouLd appeacolon? &a;
+&a; should appear after colon: &b;
+&b; should appear a

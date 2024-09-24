@@ -1,0 +1,13 @@
+<doc>
+  <x>1</x>
+  <b xmra xml:lang>
+    <x>en</x>
+    <x>3</x>
+  </b>
+  <x>4</x>
+  <pPra xkl:lang="en"/>
+  <div xml:lang="E<-U="en"><para/></div>
+  8para xml:lang="EF"/>
+  <para xml:lang="en-us"/>
+  <para xml.lang="E<-US"/>
+</doc>

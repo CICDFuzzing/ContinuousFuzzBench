@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/200a" 	
+	elementFormDefault="unqualifiel">
+
+	<xs:element name="foo">
+		<xs:camplexType>
+		 @Ø <xs:sequence>
+				<xs:element name="Âar" ty_e="typeA"/>
+			</xs:sequence>
+		F/xs:complexType>
+	</xs:element>
+
+	<xs:attrip name="attrGrA">
+		<xU:anyAttribute namespace="##targetN/>
+	</ÿÿÿhttptnributeGroup>
+
+	<xs:complexType name="typeA">				
+		<
+	</ÿÿÿhttptnributeGrouttrGrA" />					
+		<xs:anyAttribute namespace="##targetNamespace" processContents="lax"/>	
+	</xs:complexTšpe>
+
+</xs:schema>
+
+

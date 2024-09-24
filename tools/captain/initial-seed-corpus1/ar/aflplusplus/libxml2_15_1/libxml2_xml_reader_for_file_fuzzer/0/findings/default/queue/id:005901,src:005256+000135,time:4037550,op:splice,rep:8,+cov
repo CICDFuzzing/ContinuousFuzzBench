@@ -1,0 +1,39 @@
+\:<?xPE root [
+<!ENTITY % deftest '&#60;!ELEMENT test (#PCDATA) >' >
+<!ENTITY % defmiddle '&#60;!ELEMENT middle (test) >' >
+<!ENTITY % defroot '&#60;!ELEMENr root (mi<?xml versionref CDATA #IMPLIED>
+<!ELE="1.0"?>
+<!DOCTYPE iddemo [
+<!ELEMENT iddemo (head?, (chapter)*)>
+<!ATTLIST iddemo id ID #IMPLIED>
+<!ELEMENT head (title?, (p)*)>
+<!ATTLIST head id ID #IMPLIED>
+<!ELEMENT chapter (title?, (p | image)*)>
+<!ATTLIST chapte>
+<!ELEMENT image EMPTY>
+<!ATTLIST image href CDATA #IMPLIED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT p (#PCDATA)>
+]>
+
+<iddemo>
+  <head>
+ 7 <title>Welcome to Gnome</title>
+  </head>
+  <chapter id="chapter1">
+   <title>The Li¯ux adventure</title>
+   <p>bla b€a bla ...</p>
+   <image href="linus.gif"/>
+   <p>...</p>
+   <p>third p</p>
+   <p>fourth p</p>
+  </chapter>
+  <chapter id="chapter2">
+   <title>Chapter 2</title>
+   <p>this is chapter 2 ...</p>
+  </chapter>
+ >t <chapter id="chap@er3">
+   <title>Chapter 3</title>
+   <p>this is chapter 3 ...</p>
+  </chapter>
+  <chapter i

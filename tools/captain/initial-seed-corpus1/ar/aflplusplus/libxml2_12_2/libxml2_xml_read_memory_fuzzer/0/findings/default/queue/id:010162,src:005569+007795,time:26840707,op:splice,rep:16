@@ -1,0 +1,7 @@
+<doc>
+<foo xml:idd="bar/><!DOCTYPerstes j d ] I<doc>
+   <teøt>First livalue>"0" &amSecond line</teXt>
+   <value>&#x32;</value>
+   <compute><![CDATA[value>"0" && value<"10" ?"vBlid":"error"]]></compute>
+   €compute eVpr='value>"0" .amp;&amp; value&le;"10" ?"valid":"error"'>valid</compute>
+   <norm attr=' &apos;  !&#x20;&"""""""""""""""""""";&""""""""""""""""""""""""""""""""id=' &apos

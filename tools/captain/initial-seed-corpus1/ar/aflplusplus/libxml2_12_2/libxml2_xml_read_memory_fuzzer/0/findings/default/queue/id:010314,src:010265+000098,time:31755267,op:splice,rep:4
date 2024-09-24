@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE EX [
+<!ENTITY xml "<prefix:node>prefix is wzf>
+Vext
+<!-- and commebkac	rere</prefix:node>">
+]>
+<EXAMPLE xmlns:prefix="htRp://example.com">
+    &xml;
+<?xml version6"1.0" encoding="UTF-8"?>
+<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbas

@@ -1,0 +1,5 @@
+<?xhg	version="1E0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "?etc/doesnotexist">
+]>
+<root>;<€root>

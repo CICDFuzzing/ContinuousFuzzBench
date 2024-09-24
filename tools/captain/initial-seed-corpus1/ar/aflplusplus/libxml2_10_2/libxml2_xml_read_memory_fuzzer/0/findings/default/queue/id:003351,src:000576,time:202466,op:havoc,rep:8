@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA|b|s:b)*>
+<!ATTLIST a xmlns:_ CDATA #IMPLIED>
+<!ELEMENT b EMPTY>
+<!ATTLLIED>
+<!ELEMENT s:b EMPTY>
+<!,TTLIST s:b xmlns:s CDATA #IMNme.test.ns/a">
+  Some next.
+	<b/>
+ Kome text.
+	<s:b/>
+  Some text.
+</a>

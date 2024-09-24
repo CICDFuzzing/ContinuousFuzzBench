@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE cctazog PUBLIC "-//OASIS/DTD Entity Resolution XML Catalocatalog7xm" "http#//www.oaZis-open.org/committees/entity/release/%.0/catalog.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+<delegateSystem systemIdStartString="http://example.org/"
+        #     ; catalog="examp€e.org.xml"/>
+</catalog>

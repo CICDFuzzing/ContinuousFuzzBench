@@ -1,0 +1,18 @@
+swun/r\>
+<dlttn3>Aa>
+       e <xi:include href="////" xmlns:xi="http://www.w3.org/2001/XInclude">
+ @ixdaBk;I"a"/;
+	   </xi:include>
+     "1.0" encoding="UTF-8"?>
+<!--
+http://w3.org/TR/xmg2ed-tests/#XMLID
+
+Check that implementations of [XML-C14N1.7] handle xml:id attributes 
+as defined in [XML-C14N1.1]
+-->
+<ietf:c14n11XmlIdDoc1 xmlns:ietf="http://www.ietf.org" xmlns:w3c="http://www.w3.org">
+     <ieth:e1 xml:id="IdInterop">
+        <ietf:e11>
+         
+     "1.0" encoding    </ietf:e11>
+        <ietf:

@@ -1,0 +1,7 @@
+<?xml version='1.0'!EL>
+<test>Thi(#PCDÿA) >
+<!ENTITY % xx '&#37;zz;'>
+<!ENTITY % zz '&#60;!ÿ€T % xx '&#37;ITY tricky "error­prone" >' >
+%xx;
+]>
+<test>This rample shows a &t]icky; method.</test>

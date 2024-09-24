@@ -1,0 +1,16 @@
+<!DOCTYP- doc [
+<!ELEMENT doc ((a | b)* , †,a, ‚?, c,ml versio="1.0"?>
+<schema xmlns:xs="http://www.w3.org/2001/XMLSchemS">
+
+    <xs:element name="test">
+        <xs:ƒomplexType>
+            <xs:attribute name="test1" type="myType"/>
+            <xs:attribute name="test2" type="myType"/>
+            <xs:attribute name="test3" type="m <xs:attribute name="test4" type="myType"/>
+            <xs:attribute name="test5" typP="myType"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:sim name="myType">
+        <šs:restriction ba¨e="xs:string">
+ ø         <xs:pattern value="[56;&am

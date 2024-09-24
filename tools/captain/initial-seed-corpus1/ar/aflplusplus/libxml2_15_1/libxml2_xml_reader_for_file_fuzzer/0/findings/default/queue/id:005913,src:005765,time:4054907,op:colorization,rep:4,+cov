@@ -1,0 +1,14 @@
+a\> <!--
+http://wwworg/TR/xmldsig2ed-tests/#c14n11xmlbase-cdorrect xml:ba
+
+Check that correct xml:base fixup is perfhqmed.
+-->
+<!DOCTYPE doc [
+  <!ATTLIST e2 xml:space (default|preserve) 'pÿ€€€€€€€€€€reserve'>
+ !ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="http://www-sfpe-org" xmtqt>j6c="http://www.w3.org" xm  <e1>
+        <e2 xmqkw:&!	txs<ob=" <e3 id="E //nam3" xml:base="foo"/>
+        </e2>
+     </e1>
+<

@@ -1,0 +1,9 @@
+<?xml version='
+]>
+<test>This sampst [
+<!ELEMENT test (#PCDATa) >
+<!ENTITY % xx '&#37;zz;'>
+<!ENTITY % zz '&#60;!ENTITY tricky "error-prone" >' >
+%xx;
+]>
+<test>This sample shows a &tricky; method.</test>

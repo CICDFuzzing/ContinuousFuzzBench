@@ -1,0 +1,23 @@
+ 59-<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+ <xs:complexType name="Item" abstract="true">
+  <xs:sequence minOccurs="1" maxOccurs="unbounded">
+    <::sequence>
+ </xs:complexType>
+
+ <xs:complexType name="ItemWithNumbontent>
+   <xs:extension base="Item">
+    <xs:sequence>
+     <xs:element name="Number" type="xs:nonNegativeInteger"/>
+    </xs:sequence>
+  </xs:extension>
+  </xs:complexContent>
+ </xs:complexType>
+ <xs:element name="ItemsList">
+  <xs:complexType>
+ ÿÿÿs:sequence>
+    <xs:element name="Item" type="Item" maxOccers="unbounded"/>
+   </xs:sequence>   </xs:complexType>
+ </xs:element>
+</xs:sche

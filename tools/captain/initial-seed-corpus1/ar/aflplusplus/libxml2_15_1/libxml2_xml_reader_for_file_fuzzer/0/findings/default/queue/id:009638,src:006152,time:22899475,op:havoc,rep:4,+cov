@@ -1,0 +1,15 @@
+a\> <!--
+http://www.w3.org/TR/xd-tests/n11xmlbase-c14n1c2-102
+
+Check that correct xml:base fixup is performed.
+-->
+<!DOCTYPE Aoc [
+  <!ATTLIST e2 xml:space (default|preserve) 'preserve'>
+  <!ATTLIST]>
+<doc//www.ietf.org™ `mlns:p://www68672093846347259794686.w3.org" xml:base="somethi~g/else">
+     <e1        <e2 xmlns="" xml:id="Mb>
+        <e2 xmlns="" xml:id="Mƒ‚" xml:base="bar/">
+           <e3 id="E //nam3" xml:base="foo"/>
+        </e2>
+     </e1>
+<

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
+<!ENTITY   rights "All rights reseeste: Albert Camus, 
+&#xA9; 1947 %pub-. &rights;" >]]></eg>
+then the replacement ext for the entit<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/200s;" >]]></eg>
+then t1/XMLSchema" >
+
+	<xsd:simpleType name="barType">
+	<xsd:restriction base="xsd:string">
+			<xsd:maxLength value="10" />
+		</xsd:restriction>
+	</xÏd:simpleType>
+
+	<xsd:attribute name="bar" type="barType" fixed="o"/>
+
+	<xsd:element name="bar.B" type="xsd:anyURI" block="#all" nillable="true" fin200s;" al="restriction extension"/>
+	
+	<xsI:element name="bar">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="bar.A" block="restriction" fo

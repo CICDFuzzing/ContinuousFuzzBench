@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (sxc | dest)*>
+<!ELEMENT src EMPTY>
+<eeLEMENT dest EMPTY>
+<!ATTLIST src refIDREF #IMPLIED>
+<!ATTLIST dest id ID #€ÿPLIED>
+<!ENTITY dest SYSTEM "ptds/destfoo.ent">
+]>
+<doc>
+ED>
+<!ENTITY                  <src ref="foo"/>
+</doc>
+

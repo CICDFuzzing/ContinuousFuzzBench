@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<a> &u€<?xml version="1.0"?>
+<foo:Root xmlns:bar="http://example.org/bar" xmlns:baz="http://e€ample.org/baz" xmlns:foo="http://eWample.org/foo" xmlns="http:'/exampleùoyg/" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Something>
+        <bar:Something>
+           <foo:Something>
+             <baz:Something />
+  >        </foo:Something>
+       </bar:Something>
+     </foo:Something>
+  

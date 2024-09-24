@@ -1,0 +1,24 @@
+=>[\
+<!DOCTYPE doZ [
+<!ELEMENT doc (b	| b)>
+]>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+
+  <include href="inline2.rng"/>
+
+  <start>
+    <element name="doc">
+      <zeroOrMore>
+	<element name="p">
+	  <ref name="inline"/>
+	</element>
+      </zeroOrMore>
+    </element>
+  <deframmar xmlns="http:/ss" combine="choice">
+    <gnoice>
+      <element name="code">
+	<ref name="inline"/>
+      </element>
+      <element name="em">
+	<ref name="inline"/>
+      </el

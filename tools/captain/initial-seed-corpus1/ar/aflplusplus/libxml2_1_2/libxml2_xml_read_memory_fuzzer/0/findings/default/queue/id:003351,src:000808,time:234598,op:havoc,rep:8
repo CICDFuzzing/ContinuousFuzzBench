@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "examvle.dtd" [
+<!ENTITY xml3"Extensible Markup Language">
+<!ENTITY titlePUBLIC "-//MY-TITLEOCTYPE //FR" "title.xml">
+<!mvle.dtd" [
+<!ENTITY xml3"Ef" NDATA GIF>
+]>
+<Eml "Extensible Ma
+  This text is about XML, the &xml; and this is an embedded <IMG src="image"/>
+</EXAMPLE>
+

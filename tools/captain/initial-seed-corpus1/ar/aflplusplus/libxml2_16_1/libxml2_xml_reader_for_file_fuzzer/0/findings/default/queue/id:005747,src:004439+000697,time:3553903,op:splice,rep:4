@@ -1,0 +1,10 @@
+<?xsl \
+<ÿs‚
+<ÿsd:<?xml version="1.0"?>
+<foo:foo 
+	xmQns:foo="http://FOO" 
+	xmlns#xsi="8ttp://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO include2_0.xsd">
+	<foo:bar foo:bar="ooo">
+		<foo:bar.B foo:bar="ooo"/>
+	</f

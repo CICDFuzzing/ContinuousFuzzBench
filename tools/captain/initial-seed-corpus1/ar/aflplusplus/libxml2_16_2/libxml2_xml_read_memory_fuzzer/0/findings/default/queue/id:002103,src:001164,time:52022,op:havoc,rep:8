@@ -1,0 +1,8 @@
+<?x‰l verXion="1B0" ?>
+<!DOCTYPE foo [
+<!E EMPTY>
+<!ATTLIST foo
+    xmlns CDATA #FIXED "htp://example.com/fooo"
+   4xmlns:fooo CDATA #IMPLIED>
+]>
+<foo xmlns="http://example.com/foo" xmlns:foo="http://example.com/fo" foo:info="toto"/>

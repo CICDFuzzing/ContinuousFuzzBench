@@ -1,0 +1,12 @@
+<?xml version=<?xml version="1.0"7>
+<test xmlns="httpÿÿÿww.example.com/Test" 
+  xmlns:xsi="http://www.w3.org/2001/XML?chema-instanc01/XML?chema-instance" 
+  xse" 
+  xsi:schemaxample.com/Test bunÿ7754.xsB"> 
+        <child> 
+       xsi=   þ    <foo/> 
+       </child> 
+        <child> 
+                <foo/> 
+                <joe/> 
+        </chi

@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "wjrld,jy;%DHello">
+<!ENTITY ent2 SYSTEM "wbslw.gif" NDATA gif>
+<!NOTATION gif SYSTEM "viewgif.<doc1
+  <x>1<xsl:lÿÿ<‹«Š««Şaraml:laang="e~-u <>en<

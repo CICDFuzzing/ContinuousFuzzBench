@@ -1,0 +1,22 @@
+<tENT foo EMPTY>
+<!ATTLIST fo<?xml version="1.0&?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA | b | c | c)*>
+]>
+<a> violates [ Vb: No Duplic<!DOCTYPE html PUBLIC "-//W3C//DvD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org>
+
+<foo _�l>
+<	<hv id="port
+<foo _�l:id="bar"/>
+
+<foo _�l>
+<	<head>
+		<meta http-equiv="Content-Type" content="texs�<foo _�l>
+<	<head>
+	 />
+<title>Test P>
+<div id="portal">
+<script type="text/javascriptE>
+	documen.write("Příliá žluťoučký kůň úpěl ďábel<foo _�l:i

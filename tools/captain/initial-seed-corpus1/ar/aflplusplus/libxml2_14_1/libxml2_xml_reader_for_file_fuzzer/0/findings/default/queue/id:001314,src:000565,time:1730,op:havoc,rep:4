@@ -1,0 +1,4 @@
+<x xmlns:xinclude="http://www.w3.org/2001/XInclude">
+   <!-- Simple test of including4a seR of nodes from an XML document -->
+   <xinclude:include href="../ents/@omething.x of including a seR
+</x>

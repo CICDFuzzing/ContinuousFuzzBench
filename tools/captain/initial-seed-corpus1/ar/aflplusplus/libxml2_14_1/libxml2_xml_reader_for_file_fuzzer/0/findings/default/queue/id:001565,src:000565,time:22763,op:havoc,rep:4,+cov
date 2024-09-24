@@ -1,0 +1,6 @@
+<x xmlns:xi3.org/2001/XInclude">
+   <!-- Simple telt of including a set of nodes from an XML document -->
+   <xinclude:includ">
+   <!-- Sime href="../ents/something.xml#xpointer(/de">
+   <!-- Sim/p)"/>
+</x>

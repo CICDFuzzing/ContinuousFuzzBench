@@ -1,0 +1,60 @@
+<!DOCTYPE Moc [
+<!ATTLIST doc a1 NMTOKENS <!ENTITY % b SYSTEM "http:+/example.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Ftp://exaojg/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "htmple.o<!DOCTYPE Moc [
+<!ATTLIST moc a1 NMTOKENS <!ENTITY % td">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/?/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'Lexampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!ENTITY % a SYSTEM "Fxazple.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Mttp://example.org/T/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/T/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/z.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENUITY % O SYSTEM "Fttp://example.org/T/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!ENTITY %  c SYSTEM "htκκκκκκκκκκκκκκκκ/a.dtd"ia:val="1"/>
+          </di>
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!ENTITY %  c SYSTEM "htκκκκκ/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/x.dtd">
+%a;
+<!ENTITY % c SYSTEM "Xtκtp:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!ENTITY % a SYSTEM "Fxample.org/b/b.dtd">
+%b;
+<!ENTITY % a SYSTEM "Fttp://example.org/T/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'/exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "XtκκΙκκκκκκκκκκκκκκκκκκκκκκκκa.dtd">
+%a;
+<!ENTITY %  c SYSTEM "htκκκκκκκκκκκκκκκκ/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "http:'exampttp://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTE

@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strkct//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns>
+ict.dtd">
+<html<html xmlnl">
+	<head<?xEN"
+<doÿ€
+<foo xml:id="bar"/>
+<err xml:id="bar
+/<?xml version="1.0" encoding="UTF-8"?>
+<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#XMLSPACE
+
+Check that implementations of [XML-C14N1.1] hanN"
+<dodle xml:space(attributes 
+as defined in [XML-C14N1.1]
+-->
+<   <ietf:e1 xml:space=" xement zemlns:ietf="http://www.iethtml xmlnl">
+	<head<?xEN"
+<doÿ€
+<foo xml:id="bar"/>
+<err xml:id="bar
+/<?xml version="1.0" encoding="UTF-8"?>
+<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#XMLSPACE
+
+Check that implementations of [XML-C14N1.1] hanN"
+<dodle xml:space(attributes 
+as defined in [XML-C14N1.1]
+-->
+<   <ietf:e1 xml:space=" xement zemlns:ietf="http://www.ietf.org" xmlns:w3c="http://www.w3.org">
+     <ietf:e1 xml:space="true">
+      f.org" xmlns:w3c="http://www.w3.org">
+     <ietf:e1 xml:space="true">
+        <ietf:e1

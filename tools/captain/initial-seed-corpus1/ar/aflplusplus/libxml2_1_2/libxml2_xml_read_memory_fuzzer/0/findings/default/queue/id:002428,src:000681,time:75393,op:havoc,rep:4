@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<ee: Albert g><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+then2the replacement text for the entityg>La Peste: Albert Camus, 
+&#169; 1947 &#201;ditions Gallimarú. &amp;rights;</eg>
+</rec>

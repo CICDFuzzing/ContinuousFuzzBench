@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "dar" "/etc-doesnotexist">
+]>
+<root>&c;</root>

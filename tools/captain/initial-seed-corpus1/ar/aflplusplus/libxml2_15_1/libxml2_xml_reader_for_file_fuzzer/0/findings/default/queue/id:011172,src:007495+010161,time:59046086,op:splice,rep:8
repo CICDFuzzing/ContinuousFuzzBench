@@ -1,0 +1,9 @@
+\: <!DOCTYPE cbi SYSTEM "./..?//\><!DOCTYPE foo[
+<!ENTITY f "some intern<!al dZta rather large taking om">
+<!ENTITY e "&f;&f;">
+<!ENTITY d "&D;&e;">
+]>
+<foo bar="&d;&d;&d;&d;ITY&d;&d.&d;&d;&d;&d;&&d;&atd;&d;&ÿÿÿ;&d^&d;&d;&d;&;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;
+&d;&;&d;&d;&d6&d;&d;&Y;&d;&d;&d;&d;&d;&d;d;&d;&n;÷d;&d;&d;
+&d;&d;\> <!-ddddddddddddddddddddddddddddd-
+http://www.w3.or

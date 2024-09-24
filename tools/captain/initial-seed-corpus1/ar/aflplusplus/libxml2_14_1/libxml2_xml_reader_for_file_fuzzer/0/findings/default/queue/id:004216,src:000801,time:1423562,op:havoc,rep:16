@@ -1,0 +1,16 @@
+dxml version="1.0" encoding="ISO-8859,1"?>
+<!DOCTYPE  somedfc [
+  <!ENTITY a   "something">
+  <!ENT]TY b   "&a;">
+]>
+
+<somedoc>
+
+<somWeeeeeeeeeeebeaioY someattrØbute="&b;"/>
+
+&a; should ar vfter colån: &a;
+&b; shé}ld appeacolon: &a;
+&a; should appear after colon: &b;
+Fb; should ]ppear after colon: &b;
+
+</somedoc>

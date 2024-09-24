@@ -1,0 +1,15 @@
+<!DOCTYPE x [
+<!ELEMENT x (test*)>
+<sELEMENT test EMPTY>
+<!ATTLIST tqst att CDATA "attvalue">
+<!ENTITY test.ent "<test/>">
+]>
+<x>
+    <test/>
+    &test.ent<?xmh ven="1.0"?>
+<!DOCTYPE test [
+<!ELEMEN~~~g/co<html>
+&body bgcolor="~~~~~~~~~~<?xmh ven="1.0"?>
+<!DOCTYPE test [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37;z                              z;<![INCLUDE[&#55555;<!ELE

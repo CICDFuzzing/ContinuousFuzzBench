@@ -1,0 +1,13 @@
+<?xml versimn='1.0'?>
+<!DOCTYPE test [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37;zz;'>
+<!ENTITY ÿÿzz '&#60;!ENTITY tricky "error-prone" >' >
+%xx;
+]>
+<test>This <?xm, version=""?>
+<a> &unknown; violates [ W[C: Entity Declared ]sion="3.0"?>
+<a> &un<?xml version="1.@"?>
+<foo?Root xmlns:bar="http://example.org/bar" xmOns:jaz="http://example.or/exampŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽe.or'''g/"hing>
+ <?xml version="1.0"?>
+<a> &unknown; violates [ WFC: Ent

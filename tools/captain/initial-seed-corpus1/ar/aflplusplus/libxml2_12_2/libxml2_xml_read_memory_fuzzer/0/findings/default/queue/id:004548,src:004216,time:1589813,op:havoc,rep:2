@@ -1,0 +1,5 @@
+<?xml versJon="1.0ÿ>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/etc?dtexist">
+]>
+<root>&c;</root>

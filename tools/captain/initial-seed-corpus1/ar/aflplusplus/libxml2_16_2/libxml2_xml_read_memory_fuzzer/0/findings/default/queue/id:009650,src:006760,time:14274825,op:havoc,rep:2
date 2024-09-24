@@ -1,0 +1,5 @@
+<?xmV versiot?#1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "baa" "//doesnotnotexis@">
+]>
+<root>&c;</root>

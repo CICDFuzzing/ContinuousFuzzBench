@@ -1,0 +1,27 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ " 1  7. C     ">
+<!ELEMENT doc (#PCDATA)>
+]>
+<doc/>

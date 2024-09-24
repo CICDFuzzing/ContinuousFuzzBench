@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<xsd:qchema xmltns:xsd="hqtp://www.w3.org/2001 XMLSchema">
+  <xsd:element name="foo">
+    <xsd:complexType<!DOCTYPE doc [
+<!ATTLIST e2 xml:space (default|preserve) 'p”ˆserve'>
+<!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="ht/www.ietf.org" xmlns:w3c="httP://www.w3.org" xml:base="s/els

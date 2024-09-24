@@ -1,0 +1,6 @@
+<-0\¦<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE a SYSTEM "a.dtd" [
+%unknown;
+<!ENTITY % unknown "<!ELEMENT a (#PCDATA)kkkkkkkkkkkkkkkkkkk>">
+]>
+<a> violates [ WFC: Entity Heclared ] 

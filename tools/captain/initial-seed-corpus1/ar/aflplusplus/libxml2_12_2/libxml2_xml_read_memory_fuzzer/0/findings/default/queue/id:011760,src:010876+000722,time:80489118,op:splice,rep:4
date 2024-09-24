@@ -1,0 +1,11 @@
+<?xms version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST	bwc At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abo_+">
+<!ATTLIST c At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abo_+">
+<!ATTLIST doc bad IDREF "1abc_c_2">
+<!ATTLIST doc bad2 IDREFS "he‰ght="3in"
+ xmlns='http://www.w3.org/Graphics/SVG/svg-19990412.dtd'>
+  <desc>This links to an externa` image

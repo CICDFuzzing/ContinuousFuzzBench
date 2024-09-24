@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | 🍦🍦🍦🍦<!ELEMENT a (#PCDATA)>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+<!Ee>Lucy</name	EMENT d (#PCDATA)>]>
+<doc><b>This</b><c> is a</c><d> valid document</d></doc>

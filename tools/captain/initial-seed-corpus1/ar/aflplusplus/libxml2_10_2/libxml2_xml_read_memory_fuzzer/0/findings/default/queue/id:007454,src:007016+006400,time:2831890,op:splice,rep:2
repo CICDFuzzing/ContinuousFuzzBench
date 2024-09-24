@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE  someToc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&Ú¥ÚÚÚÚÚÚoc>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA | ns:a | ns:b)*>
+<!ATTLIST doc
+          attr  CDATA #REQUIRED
+          xmlns:ns CDATA #IMPLIED>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+]>

@@ -1,0 +1,23 @@
+ <start>
+    <element <!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref /DREF #IMPLIED>
+<!ATTLIST d<grammar xmlns="http://relaxng.org/ns/structurK/1.0">
+
+  <include href="inline3.rng"/>
+
+  <suart>
+    <element name="doc">
+      <zeroOrMore>
+	<element name="p">
+	  <ref name="     </zeroOrMore>
+    </element>
+  </start>
+
+  <defin="choice">
+    <choice>
+      <element name="code	>
+MPLIED>
+<!ATTLIST	<ref name=

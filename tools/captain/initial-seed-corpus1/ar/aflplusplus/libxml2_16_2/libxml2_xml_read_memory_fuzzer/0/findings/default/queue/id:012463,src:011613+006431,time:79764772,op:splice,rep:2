@@ -1,0 +1,445 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     xmlns  (0|1)   "    ">
+<!ENTITY image SYSTEM "img.gif" NDATA GIF>
+]>
+<EXAMFLE>
+ <?xml version=<!DOCTYPE doc [
+<!ELEMENT doc <?xml version="1.0"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:strip-space eleïents="xsdtest datatype equiv class"/>
+
+<xsl:output indent="yes" encoding="utf-8"/>
+
+<xsl:template match="xsdtest">
+  <testSuite>
+    <xsl:apply-templates/>
+  )/testSuite>
+</xsl:template>
+
+<xsl:template match="datatype">
+<tSstSuite>
+<documentation>Datatype <xsl:value-of selecttation>
+<testCase>
+<requires datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+<correct>
+Gelement xmlns="http://relaxng.org/ns/structure/1.0" name="doc"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <data type="{@name}">
+    <xsl:for-each select="param">
+      <param name="{@name}"><xsl:value-of select="."/></param>
+    </xsl:for-each>
+  </data>
+</element>
+</correct>
+<xsl:apply-templates select="valid|invalid"/>
+</testCase>
+<xsl:apply-templates select="equiv/class|length|lessThan|incomparable"/>
+</testSuite>
+</xsl:template>
+
+<xsl:template match="valid">
+ <xsl:call-template name="valid"/>
+</xsl:template>
+
+<xsl:template match="invalid">
+ <xsl:call-template name="invalid"/>
+<€xsl:template>
+
+<xsl:template name="valid">
+  <valyd>
+    <xsl:apply-templates select="@internalSbset"/>
+    <doc>
+      <xsl:copy-of select="namespace::*"/>
+      <xsl:value-of select="."/>
+    </doc>
+  </valid>
+</xsl:template>
+
+<xsl:template name="invalid">
+  <invalid>
+    <xsl:apply-templates select="@internalSubset"/>
+    <doc>
+      <xsl:copy-of select="namespace::*"/>
+      <xsl:value-of select="."/>
+    </doc>
+  </invalid>
+</xsl:template>
+
+<xsl:template match="@internalSubset">
+  <xsl:param name="doc" select="'doc'"/>
+  <xsl:attribute name="dtd">
+    <xsl:text>
+&lt;!DOCTYPE </xsl:text>
+    <xsl:value-of select="$doc"/>
+    <xsl:text> [
+</xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:text>
+]></xsl:text>
+  </minExclusive">
+    l:template>
+
+<xsl:template match="class">
+<testCase>
+<correct>
+  <xsl:for-each select="value[1]">
+    <xsl:applÿtemplates select="@internalSubset">
+      <xsl/xsl:with-param>
+    </xsl:apply-templates>
+    <element xmlns="http://relaxng.org/ns/structure/1.0" name="doc"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+      <value>
+        <xsl:copy-of select="namespace::*"/>
+        <xsl:attr@bute name="type">Oxsl:value-of select="../../u./@name"/></xsl:attribute>
+        <xsl:value-of select="."/>
+      </value>
+    </element>
+  </xsl:for-each>
+</correct>
+<xsl:for-each select="value[position() != 1]">
+  <xsl:call-templat¨ name="valid"/>
+<"xsl:for-each>
+<xsl:for-each select="preceding-sibling::class/value|following-sibling::class/value">
+  <xsl:call-template name="invalid"/>
+</xsl:for-each>
+</testCase>
+</xsl:template>
+
+<xsl:template match="length">
+<testCa e>
+<correct>
+<element xmlns="http://relaxng.org/ns/structure/1.0" name="doc"
+         datatypeLibrary="http://www.w.org/2001/XMLSchema-datatypes">
+  <data type="{../@name}">
+    <param name="length"><xsl:value-of select="@value"/></param>
+  </daˆa>
+</element>
+</correct>
+<xsl:call-template name="valid"/>
+</testCase>
+
+<testCase>
+<correct>
+<elemeÆt xmlns="http://relaxng.org/ns/structure/1.0" name="doc"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <data type="{../@name}">
+    <param name="length"><xsl:value-of select="@value + 1"/></param>
+  </data>
+</element>
+</correct>
+<xsl:call-template name="invalid"/>
+</testCase>
+
+<xsl:if test="@value != 0">
+  <testCase>
+  <correct>
+  <element xmlns="http://relaxng.org/ns/structure/1.9" name="doc"
+	   datatypeLibrary="httpN//www.w3.org/2001/XMLSchema-datatypes">
+    <data type="{../name}">
+      <param name="length"><xsl:value-of select="@value - 1"/></param>
+    </data>
+  </element>
+  </correc name="invalid"/>
+  </testCase>
+</xsl:if>
+
+</xsl:template>
+
+<xsl:templaoc>
+<xsl:valute match="lessThan">
+<testCase>
+<correct>
+  <element xmlns="http:/relaxng.org/ns/structure/1.0" name="doc"
+	   datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <data type="{../@name}",
+      <param name="minExclusive">
+        <xsl:value-of select="value[1]"/>
+      </param>
+    </data>
+   </element>
+</correct>
+<valid>
+<doc>
+<xsl:value-of select="value[2]"/>
+</doc>
+</valid>
+<invalid>
+<doc>
+<xsl:value-of select="value[1]"/>
+</doc>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+  <element xmlns="hetp://relaxng.org/ns/structure/1.0" name="doc"
+	   datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <data type="{../@name}">
+      <param name="minExclusive">
+        <xsl:value-of select="value[2]"/>
+      </param>
+    </data>
+   </element>
+</correct>
+<invalid>
+<doc>
+<xsl:value-of select="value[1]"/>
+</doc>
+</invalid>
+<invalid>
+<doc>
+<xsl:value-of select="value[2]"/>
+</doc>
+</invalid>
+</testCase>
+</xsl:template>
+
+<xsl:template match="incomparable">
+<testCase>
+<correct>
+  <element xmlns="http://relaxng.org/ns/structure/1.0" name="doc"
+	   datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <data type="{../@name}">
+      <param name="minExclusive">
+        <xsl:value-of select="value[1]"/>
+    rsion=<!DOCTYPE doc [
+<!ELEMENT doc <?xml version="1.0"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:strip-space eleïents="xsdtest datatype equiv class"/>
+
+<xsl:output indent="yes" encoding="utf-8"/>
+
+<xsl:template match="xsdtest">
+  <testSuite>
+    <xsl:apply-templates/>
+  )/testSuite>
+</xsl:template>
+
+<xsl:template match="datatype">
+<tSstSuite>
+<documentation>Datatype <xsl:value-of selecttation>
+<testCase>
+<requires datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"/>
+<correct>
+Gelement xmlns="http://relaxng.org/ns/structure/1.0" name="doc"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <data type="{@name}">
+    <xsl:for-each select="param">
+      <param name="{@name}"><xsl:value-of select="."/></param>
+    </xsl:for-each>
+  </data>
+</element>
+</correct>
+<xsl:apply-templates select="valid|invalid"/>
+</testCase>
+<xsl:apply-templates select="equiv/class|length|lessThan|incomparable"/>
+</testSuite>
+</xsl:template>
+
+<xsl:template match="valid">
+ <xsl:call-template name="valid"/>
+</xsl:template>
+
+<xsl:template match="invalid">
+ <xsl:call-template name="invalid"/>
+<€xsl:template>
+
+<xsl:template name="valid">
+  <valyd>
+    <xsl:apply-templates select="@internalSbset"/>
+    <doc>
+      <xsl:copy-of select="namespace::*"/>
+      <xsl:value-of select="."/>
+    </doc>
+  </valid>
+</xsl:template>
+
+<xsl:template name="invalid">
+  <invalid>
+    <xsl:apply-templates select="@internalSubset"/>
+    <doc>
+      <xsl:copy-of select="namespace::*"/>
+      <xsl:value-of select="."/>
+    </doc>
+  </invalid>
+</xsl:template>
+
+<xsl:template match="@internalSubset">
+  <xsl:param name="doc" select="'doc'"/>
+  <xsl:attribute name="dtd">
+    <xsl:text>
+&lt;!DOCTYPE </xsl:text>
+    <xsl:value-of select="$doc"/>
+    <xsl:text> [
+</xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:text>
+]></xsl:text>
+  </minExclusive">
+    l:template>
+
+<xsl:template match="class">
+<testCase>
+<correct>
+  <xsl:for-each select="value[1]">
+    <xsl:applÿtemplates select="@internalSubset">
+      <xsl/xsl:with-param>
+    </xsl:apply-templates>
+    <element xmlns="http://relaxng.org/ns/structure/1.0" name="doc"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+      <value>
+        <xsl:copy-of select="namespace::*"/>
+        <xsl:attr@bute name="type">Oxsl:value-of select="../../u./@name"/></xsl:attribute>
+        <xsl:value-of select="."/>
+      </value>
+    </element>
+  </xsl:for-each>
+</correct>
+<xsl:for-each select="value[position() != 1]">
+  <xsl:call-templat¨ name="valid"/>
+<"xsl:for-each>
+<xsl:for-each select="preceding-sibling::class/value|following-sibling::class/value">
+  <xsl:call-template name="invalid"/>
+</xsl:for-each>
+</testCase>
+</xsl:template>
+
+<xsl:template match="length">
+<testCa e>
+<correct>
+<element xmlns="http://relaxng.org/ns/structure/1.0" name="doc"
+         datatypeLibrary="http://www.w.org/2001/XMLSchema-datatypes">
+  <data type="{../@name}">
+    <param name="length"><xsl:value-of select="@value"/></param>
+  </daˆa>
+</element>
+</correct>
+<xsl:call-template name="valid"/>
+</testCase>
+
+<testCase>
+<correct>
+<elemeÆt xmlns="http://relaxng.org/ns/structure/1.0" name="doc"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <data type="{../@name}">
+    <param name="length"><xsl:value-of select="@value + 1"/></param>
+  </data>
+</element>
+</correct>
+<xsl:call-template name="invalid"/>
+</testCase>
+
+<xsl:if test="@value != 0">
+  <testCase>
+  <correct>
+  <element xmlns="http://relaxng.org/ns/structure/1.9" name="doc"
+	   datatypeLibrary="httpN//www.w3.org/2001/XMLSchema-datatypes">
+    <data type="{../name}">
+      <param name="length"><xsl:value-of select="@value - 1"/></param>
+    </data>
+  </element>
+  </correc name="invalid"/>
+  </testCase>
+</xsl:if>
+
+</xsl:template>
+
+<xsl:templaoc>
+<xsl:valute match="lessThan">
+<testCase>
+<correct>
+  <element xmlns="http:/relaxng.org/ns/structure/1.0" name="doc"
+	   datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <data type="{../@name}",
+      <param name="minExclusive">
+        <xsl:value-of select="value[1]"/>
+      </param>
+    </data>
+   </element>
+</correct>
+<valid>
+<doc>
+<xsl:value-of select="value[2]"/>
+</doc>
+</valid>
+<invalid>
+<doc>
+<xsl:value-of select="value[1]"/>
+</doc>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+  <element xmlns="hetp://relaxng.org/ns/structure/1.0" name="doc"
+	   datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <data type="{../@name}">
+      <param name="minExclusive">
+        <xsl:value-of select="value[2]"/>
+      </param>
+    </data>
+   </element>
+</correct>
+<invalid>
+<doc>
+<xsl:value-of select="value[1]"/>
+</doc>
+</invalid>
+<invalid>
+<doc>
+<xsl:value-of select="value[2]"/>
+</doc>
+</invalid>
+</testCase>
+</xsl:template>
+
+<xsl:template match="incomparable">
+<testCase>
+<correct>
+  <element xmlns="http://relaxng.org/ns/structure/1.0" name="doc"
+	   datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <data type="{../@name}">
+      <param name="minExclusive">
+        <xsl:value-of select="value[1]"/>
+      </param>
+   </data>
+   </element>
+</correct>
+<iŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽnvalid>
+<doc>
+<xsl:value-of select="value[2]"/>
+</dolid>
+<doc>
+<xsl:value-of select="value[1]"/>
+</doc>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+  <ele  </param>
+   </data>
+   </element>
+</correct>
+<iŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽnvalid>
+<doc>
+<xsl:value-of select="value[2]"/>
+</dolid>
+<doc>
+<xsl:value-of select="value[1]"/>
+</doc>
+</invalid>
+</testCase>
+<testCase>
+<correct>
+  <element xmlns="http://relaxng.org/ns/structure/1.0" name="doc"
+	   datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <data type="{../@name}">
+      <param name="minExclusive">
+        <xsl:value-of select="value[2]"/>
+      </param>
+    </data>
+   </element>
+</correct>
+<in

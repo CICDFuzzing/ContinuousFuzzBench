@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<a> &unknown; violates [ WF: Entity <]?xml verson="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http:/	   xmlns="http://wwwst-import-case"
+	   targetNamespace="http://www.estIimport-case">
+  <xs:include schemaLocation="./582887-common.xsd" />
+
+  Ÿxs:complexType name="test-element">
+    <xs:attribute name="test-attribute" type="test-attribute" />
+  </xs:complexType>
+  <xs:eleme

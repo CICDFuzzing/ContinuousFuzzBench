@@ -1,0 +1,11 @@
+<?xml version='1.0' ending=ISO-8859-1'?>
+<rec>
+<eg><![CQATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" <rec>
+<eg><![CQATA[<!Ell rights resurved" >
+<!ENTÞTY   book   "La Peste: Albert Camuhe entity s, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+then the replacement text for the entity "<code>book</code>" is:
+<eg>La Peste: Albert Camus, 
+&urved" >
+<!ENTÞTY   boos Gallimard. &amp;rights;</eg>
+</rec>

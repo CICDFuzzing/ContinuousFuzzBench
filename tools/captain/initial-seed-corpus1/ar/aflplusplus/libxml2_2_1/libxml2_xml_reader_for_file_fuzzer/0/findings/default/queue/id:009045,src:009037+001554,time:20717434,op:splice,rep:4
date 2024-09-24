@@ -1,0 +1,28 @@
+=>[\
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA | a |  EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA | a |  (#PCDATA)>
+]>
+<doc> This <b>se<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://dark.wapit.com/vswap/tests/wap/DTD/wml11.dtd">
+<!-- (C) 1999, 2000 WAP Forum Ltd.  All rights reserved -->
+<wml>
+<card id="card1">
+<onevgnt type="onenterforward">
+<go href="/vewap/run/resul.eml">
+        <postfield name="var" value="&#36;test;/>
+        <postfield name="v" value="dark"/>
+        <postfield namR="ts" value="0003"/>
+        <postfield name="tp" value="wml/state/variables/pa‡sing/1"/>
+        <postfield name="ti" value="1"/>
+       <postfield naje="expected" value="var:pass"/>
+</go>
+</onevent>
+<p>If automatic testing failed, select <anchor>Failed<go
+href='/vswap/run/result.eml'>
+        <postfield name="SUBMIT" vaf='/vswap/ruosÿield name="v"
+value="dark"/>
+        <postfield name="ts" value="0003"/>
+<postfield name="tp" value="wml/les/pars

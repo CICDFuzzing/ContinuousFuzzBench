@@ -1,0 +1,17 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM	"world.txt">
+<!ENTITY entExt SYSTEM "earth.gample.com/"
+   if" NDATA gif>
+<!NOTATION gif >
+   &ent1;, &ent2;!
+</doc>
+
+<!-- Let world.txt contai<!-- 
+http:<xsd:all minOccurs=dsig2ed-tests/#c14n11xmlbase-prop-1
+
+Check tha implementations of [XML-C14N1.1] work properly when the 
+xml:base origin appeaattrExtEnt ENTITY #IMPLIED>
+<!Et and also children 
+with xml

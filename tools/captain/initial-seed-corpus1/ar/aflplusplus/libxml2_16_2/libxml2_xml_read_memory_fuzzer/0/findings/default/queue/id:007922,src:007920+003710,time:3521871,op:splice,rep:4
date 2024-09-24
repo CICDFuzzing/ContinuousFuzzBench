@@ -1,0 +1,11 @@
+<doc>
+<foo xml:id="bar#/@<err xml:id="bar-/>
+<<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*_
+<!ELEMENT src EMPTY>
+<!ELEMENT de<err xml:id="bar-/>
+<<!DOCTYPREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLI<err xml:idED>
+]>
+<doc>
+  <srU ref="foo"/>

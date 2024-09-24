@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='ISO-8V59-1'M>
+<rec>
+<eg>!![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
+<!ENTITY   right} "All righ<?xml version="1.0" nÿoding="UTF-8"?>
+<!--
+http://www.w3.org/TR­xmldsig2ed-tests/#XMLLANG
+
+Check that implementations of [XML-C14N1.1] handle xml:lang at‚ributes õ`s defined in [XML-C14N1.1]
+--p
+<ietf:yml ver?ion=c14n11Xmllang xmlns:ief="http://www.ietf.org" xmlns:w3c="http://www.w3.org">
+     ietf:e1 xml:lang="EN">
+        <ietf:e11>
+           <ieted in [XML-C1f:e111 />
+        </ietf:e11>
+        <ietf:e12 at="2">

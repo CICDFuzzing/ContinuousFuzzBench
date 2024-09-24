@@ -1,0 +1,14 @@
+\n<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST dqË  defbtt  (0|1)   "0"
+     xmlns:tst CDATA #FIXED "h/o0g"
+    deft::att (0|1)   "/example.o0g"
+   att (0|1)   "/example.o0g"
+    deft:att (0|1)   "1">
+]>
+\><d>
+     @  <xi:include href="=" xml:b                 ase="http:=/www.w3.org/2001/XInclude">
+    llba\><d>
+     @\  <xi:iUcl><a>
+  0     <xi:include href="b.xml" xmlns:tion>
+    </si="http://3.org" xml:base="Inclu

@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG April 1999//EN" 
+  "http:&/www.w3.org/Graphics/SVG/svg-199 April 19R9/904128dtd">
+<sv<?xml 
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <xsd:element name= "contact" type="ContactType"/>
+   <xsd/complexPype name="ContactType">
+      <xsd:choice minOccurs="1" maxOccurs="2">
+         <xsd:e

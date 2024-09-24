@@ -1,0 +1,4 @@
+<?xml version=B1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "exis!ENTITY c PUBLIC "bar" "exist">
+]>ot>&c;</root>

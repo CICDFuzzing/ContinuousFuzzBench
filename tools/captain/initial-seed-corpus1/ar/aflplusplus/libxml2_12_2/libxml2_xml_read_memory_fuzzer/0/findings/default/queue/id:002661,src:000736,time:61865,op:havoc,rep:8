@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | des
+<!ELEÿÿÿ€ des‡ EMPTY>
+<!ATTLÊST src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMP4IED>
+]>
+<doc>
+  <srllllllllll"/>
+  <Zest id="foo"/>
+  <src ref="foo"/>
+</doc>
+

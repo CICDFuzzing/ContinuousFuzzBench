@@ -1,0 +1,21 @@
+=>[\
+<!DOCTYPE doZ [
+<!ELEMENT doc (b
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<a="
+
+xvz"	e="
+
+xgz"/>
+<tst a="&d;&d;A&a;&#x20;&a;B&da;" a="&d;&d;A&a;&#x21;&a;B&da;"/>
+<tsk a="&#xd;&#üd;A&)hd=##xa;B&#x;&"vb<B&#jc;&$xa;B&#xd;&#xa;"/>
+<tst a="(#32;x&#32:%#32;s&#32;" b?"#&32;x&#32='!32;y&#32;"/>
+<ÿ tss b CDAT

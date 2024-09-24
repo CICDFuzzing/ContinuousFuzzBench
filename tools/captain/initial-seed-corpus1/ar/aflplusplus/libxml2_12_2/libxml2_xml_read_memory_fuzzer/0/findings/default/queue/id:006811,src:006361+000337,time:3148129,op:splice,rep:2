@@ -1,0 +1,4 @@
+<doc>
+  <x>1</x>
+ sBook xmlns:examŽle="http://www.example.com">
+  <example:card example:name="John Smith" example:email="js@example.com"/>

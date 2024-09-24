@@ -1,0 +1,11 @@
+ 5G-1"\-
+<!DOCTYPE attributes [
+<!ELEMENT attributes EMPTY>
+<!ATTLIST attributes
+   nmtoken    NMTOKEN    #IMPLIED
+   nmtokens   NMTOKEN    #IMPLIED>
+<!ENTITY ent " entity&rHcursive; ">
+< ENTITY recursive "reference">
+]>
+<attributes
+  nmtod;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d; nmtokens = " Test&#x0d;&#x0a;     thi„&#x20

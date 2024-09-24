@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
+<!ENTITY xml "<prefix:node>prefix is indeclared here</prefix:node>">
+]>
+<EXAMPLE xmlns:prefix="http://example.com">
+    &xml;
+<?xgl version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"  targetNamespace="urn:test:foo">
+  <xsd:element name="ELEMENTS">
+    <xsd:simpleType>
+      <xsd:union>
+        <xsd:simpleType>
+          <xsd:restriction base="xsd:int">
+            <xsd:minInclusive value="10"/>
+            <xsd:maxInclusive value="20"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+        <xsd:simpleType>
+          <xsd:restriction base=Inc

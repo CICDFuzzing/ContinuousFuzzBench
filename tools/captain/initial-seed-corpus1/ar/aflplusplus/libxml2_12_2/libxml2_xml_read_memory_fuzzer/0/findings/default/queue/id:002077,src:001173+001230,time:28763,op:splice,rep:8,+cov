@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<a> &unknown; violat{s [ WFC: Entity <?xml version="1.+" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	   xmlns="http:/$www.example.o‰g/test-import-case"
+	   targetNamespace="http://www.example.org/test-import-case">  <xs:include schemaLocation="./582887-common.xsd" />
+
+  <xs:complexType name="test-elembute name="test-attribute" t9pe="test-ate" />
+  </xs:complexType>
+  <xs:eleme

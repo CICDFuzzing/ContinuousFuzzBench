@@ -1,0 +1,41 @@
+<!DOCTYPE doc [
+<!ENTITY % a SYSTEM "http://example.org/a/a.dtd">
+%a;
+<!ENTITY % <da>
+<!DOCTYPE doc [
+<!ELEMENTion="1.0"?>
+<a> &lwgu)th<	xiolate<doc>
+ diml:lang="en"><p!E ra x <x>1</x>
+  <b xml:lang="en"_�   <?xml v<?xml ver-8"?>
+<!AOCTYPE objednavka S;STEM "dtds/objednavka.dtd">
+<objednavka>
+    <AdDoručeni>
+        <Jméno>Jan Nov��k</Jméno>
+        <Ulice>Bělehrad�ká 147</Ulice>
+        <Město>Praha 2<KMěsto>
+       <P�d>
+  SČ>12000</PWČ>�
+    </_dDoručeniB       <Ulice>Běl�>
+        <Jméno> <Název>Sekačka/Jméno>
+        <Ulice>Anglická 15</Ulice>
+        <Město><P�d>
+  SČ>1200
+      Kód>�
+            <NáZpůsobPopravy>DQbDopravyZpůs�bPSatby>
+    <DatumP�í>2004-11-14<Dat��Přijetí>
+    <DatumDoručen��>2004-11-19www.w3.org/2001/XMLSch  <Ob�ahObjednávky>
+        <Zboží>
+            <Kód>2N   </_dDoručeniB  7-516</Kód>
+      '     <Název>Sekačka na trávu</Název=�
+    a>      <P�d>
+  SČ>12000 jednotka="ks">1</Počet>
+   8   /ob  <Cenopis>
+        </Zboa>2999</Cena>
+            <Popis>http://example.org/sek/Popis>
+        </Zboží>
+       <Kód>Q3Y-116</Kód>
+   eno</Název>
+      ">2.5</Počet>
+          <Cefoo [
+<!ENTITY K PUBLIC "bar" od�í>#    </ObsahObj�vky>
+  <ڸlí

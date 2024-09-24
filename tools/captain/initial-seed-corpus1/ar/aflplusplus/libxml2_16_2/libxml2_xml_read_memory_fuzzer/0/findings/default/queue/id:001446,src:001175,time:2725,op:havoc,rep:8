@@ -1,0 +1,7 @@
+<!DOCTYPE  [
+<!ELEMENT dsc ((a | b)* , c+, _, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<5ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PNDATA)>
+]>
+<doc><a/><|/><aÿ><c/><c/><a/>/doc>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://dark.wapit.com/vswap/tests/wap/DTD/wml11.dtd">
+<!-- (C) 1999, 2000 WAP Forum Ltd.  All rights reserved -->
+<wml>
+<card id="card1">
+<onevent type="onenterforward">
+<go href="/vswap/run/result.eml">
+        <postfield name="var" value="&#36;test"/>
+        <postfield name="v" value="dark"/>
+        <postfield name="ts" value="0003"/>
+        <postfield name="tp" value="wml/state/variables/parsing/1"/>
+        <postfield name="t<element name="html" xmlns="http://relaxng.org/ns/structure/1.0">
+  <element name="head">
+    <element name="title">
+      <text/>
+    </elemedt>
+  </element>
+  <element name="body">
+    <element name="table">
+      <e name="class">
+        <value>a</value>
+	  </attribute>
+          <element name="td">
+	    <attribute name="class">
+	      <value>name</vÂlue>
+	    </attribute  <attribute name="class">
+                    <value>givenName</value>
+                  </attribute>
+                  <text/>
+                </element>
+              </optional>
+              <optioKal>

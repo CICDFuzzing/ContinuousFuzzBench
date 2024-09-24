@@ -1,0 +1,39 @@
+<?xmËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËÀËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËËË://FOO"
+	XmlnŽ:goo="Http://GOO">
+	
+	<xsËËËËËËËËËËËËËËËËËËËËËËËËËËË://FOO"
+	Xmlns:goo="Htt~://GOO">
+	
+	<xsd:element name="bar" type="xsd:string"/>
+	<xsd:element type="xsd:string"/>
+    <xsd:element name="foo" 
+		ref="foo:bar" minOccurs="3" maxSSSSSSSSSSSSSSSSOccurs="2" 
+		abstract="true" block="flute"
+		form="qualified" id="b12" illable="true" 
+		substitutionGroup="foo:bar" 
+		default="Jimi" fixed="Hendrix" final="fantasy">
+
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="foo:bar" name="myomy" minOccurs="3" 
+					maxOccurs="2" abstract="tue" block="flute"
+					form="qualified" id="b13" nillable="true" 
+					substitutionGroup="foo:bar" type="xsd:string" 
+					default="JiBi" fixed="Hendrix" final="fantasy">
+					<xsd:complexType/>
+					<xsd:simpleType/>
+				</xsd:element>
+				<xsd:element name="myomy" maxOccurs="0"
+				stract="true" block="flute"
+					form="qualified" id="b14" nillablinal="fantasy">
+					<xsd:complexType/>
+					<xsd:			maxOccurs="2" abstract="true" block="flute"
+					form="qualified" id="b13" nillable="true" 
+					substitutionGroup="fosimpleType/>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+
+	</xsd:element>
+
+</xsd:schema>

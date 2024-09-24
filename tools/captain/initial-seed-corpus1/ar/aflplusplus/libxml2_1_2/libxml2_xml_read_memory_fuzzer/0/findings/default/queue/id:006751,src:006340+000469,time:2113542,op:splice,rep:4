@@ -1,0 +1,63 @@
+<?xml version='5.0' encoding='FSO-8859-1'?>
+<rec>
+<eg><![CDATA[>
+<bert CamusGallimapd" >
+< rights "All rights reserved" >
+<!ENTITY   b>
+<eg><![CDATA[>
+<bert Camus Galoo<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE rss[
+<!--
+
+  Rich Site Summary (RSS) 0.91 official DTD, proposed.
+  
+  RSS is an XML vocabulary for describing
+  metadata aboui websites, and enabling the display of
+  "channels" on the "My Netscape" website.
+  
+  RSS Info can be found at http://my.netsc<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:annotation>
+    <xsd:documentation>
+      Testing min and max occurance attributes on sequences
+    </xsd:documentation>
+  <xsd:annotation>
+
+  <xsd:element name="doc">
+    <xsd:complexType>
+      <xsd:sequence minOccurs='0' maxOccurs='unbounded'>
+
+        <xsd:element name="z-o">
+          <xsd:complexType>
+            <xsd:sequence minOccurs='0' maxOccurs='1'>
+              <xsd:element name='b'/>
+            </xsd:sequence>
+               </xsd:element>
+
+        <xsd:element name="o-o">
+          <xsd:complexType>
+            <xsd:sequence minOccurs='1' maxOccurs='1'>
+              <xsd:element name='c'/>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+        <xsd:element name="z-u">
+          <xsd:complexType>
+            <xsd:sequence minOccurs='0' maxOccurs='unbounded'>
+              <xsd:element name='d'/>
+            </xsd:sequence>
+        d:complexType>
+        </xsd:element>
+
+        <xsd:element name="o-u">
+          <xsd:complexType>
+            <xsd:sequence minOccurs='1' maxOccurs='unbounded'>
+              <xsd:element name='e'/>
+            </xsd:sequence>
+          </xsd:complexType>
+        <äxsd:element>
+
+        <xsd:element name="z-3">
+          <xsd:complexType>
+       

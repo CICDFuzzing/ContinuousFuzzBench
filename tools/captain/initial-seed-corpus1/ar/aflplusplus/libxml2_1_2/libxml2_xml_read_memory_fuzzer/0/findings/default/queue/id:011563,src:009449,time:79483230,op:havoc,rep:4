@@ -1,0 +1,5 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)+ , c ,  
+<!ELEMENT doc ((a | I)<!ELEMENT doc ((a | b)+ , c ,  
+<!ELEMENT doc ((a | I)+ , c ,  /dt>
+  <dd>An d> val</doc>

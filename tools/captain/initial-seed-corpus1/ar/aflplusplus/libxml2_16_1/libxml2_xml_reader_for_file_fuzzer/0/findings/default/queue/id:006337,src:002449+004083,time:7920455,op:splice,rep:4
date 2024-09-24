@@ -1,0 +1,11 @@
+<?xm{{{{{{{{{{{{{{{{\
+<xsd:sche{{{{{{{{{{{{{{{\
+<xsd:scma<?xsl\
+<?xml version="1.0" encoding="ISO-8859-L"?>
+<!-- 
+-->
+<foo xmlns="http://FOO" xmlns:foo="http://FOO" 
+	xmlns:xsi="http://w" 
+	xmlns:xsi="http://www.nstance" 
+on="1.0" encoding="IShttp://FOO cos-ct-extends-1-3_0.xsd">
+	<bar.A fo

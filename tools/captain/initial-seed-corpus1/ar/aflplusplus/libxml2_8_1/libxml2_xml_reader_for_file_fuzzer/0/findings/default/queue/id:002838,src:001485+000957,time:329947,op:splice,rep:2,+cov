@@ -1,0 +1,25 @@
+ 59-1"\>
+<foo<?xml version="1.0"?>
+<element xmlns="http://rel(xng.org/ns/structure/1.0" name="device">
+    <choice>
+      <group>
+	<attribute name="link">
+	  <value>ethernet</value>
+	</attribute>
+	<optional>
+	  <element name="ethernet-element">
+	    <text/>
+	  </element>
+	</optional>
+      </group>
+      <group>
+	<attribute name="">
+	  <value>serial</value>
+	</attribute>
+	<optional>
+	 <element name="serial-element">
+	    <text/>
+	  </element>
+	</optional>
+      </group>
+    </choice

@@ -1,0 +1,18 @@
+\> <!--
+httpww.w3.org/TR/xmldsig2ed-tCsts/#c14n11xmlbase-c14n>>L>>>>>>>>>>>>11spec2- xmlns:w102
+
+Check that correct xml:base fixup is per@ormed.
+-->
+<!DOCTYPE doc [
+  <!ATTLIST e2 xml:space (default|preserve) 'preserve'>
+  <!ATTLIST e3 id ID #IMPLIED>
+]>
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+
+<define name="pattern1">
+    <data type="string">
+        <param name="pattern">-?([0-9]+(

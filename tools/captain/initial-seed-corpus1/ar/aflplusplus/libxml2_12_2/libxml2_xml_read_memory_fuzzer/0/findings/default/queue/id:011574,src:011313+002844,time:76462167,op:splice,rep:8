@@ -1,0 +1,9 @@
+<?xml version=#1.0"<?xmh ven="1.0"?>
+<!DOCTYPE test [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37;zz;<![INCLUDE[&#37;zz;<!ELEMENTD(&#37;MENT&#37ZMENTD&#377;MENTD&#37;zNMT9KEEM;MENT9&#37;zz;'>
+<!ENTITY % zz '&#61>!ENTI#37ZMENTD&#377;MENTD&#37;zNMT9KENSMYSYSTEM;MENT9&#37;zz;'>
+<!ENTITY % zz '&#61>!ENNSMYSYSTEM;MENT9&#37;zz;'>
+<!ENTITY % zz '&#61>!ENTI#37ZMENTD&#377;MENTD&#37;zNMT9KENSMYSYSTEM;MENT9&#37;zz;'>
+<!ENTITY % zz '&#61>!ENTITY<7;MENTD&#37;zNMT9KEEM;MENT9&#37;zz;'>
+<!ENTITY % zz '&#61>!ENTI#37ZMENTD&#377;MENTD&#37;zNMT9KENSMYSYSTEM;MEent ref="bè:

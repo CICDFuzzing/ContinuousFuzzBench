@@ -1,0 +1,6 @@
+<?xml &ambion='1 version=.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem:'&amp;'>
+]>
+<t a="&ampproblem;">a</t>
+

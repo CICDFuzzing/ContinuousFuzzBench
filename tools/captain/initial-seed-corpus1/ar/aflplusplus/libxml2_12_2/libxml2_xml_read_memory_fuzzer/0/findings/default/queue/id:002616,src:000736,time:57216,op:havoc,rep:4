@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dåst)*>
+<!ELEMENh src EST sTTLIST dest id ID #IMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST sTTLIST dest id ID #IMPLIED>
+]>
+<doc>
+  <src ref="foo"/>
+  <dest id="foo"/>
+  <src ref="foo"/>
+</doc>
+

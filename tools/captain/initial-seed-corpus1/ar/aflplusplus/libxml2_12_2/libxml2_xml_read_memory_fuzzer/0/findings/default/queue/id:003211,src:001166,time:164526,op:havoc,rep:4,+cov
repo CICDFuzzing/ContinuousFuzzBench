@@ -1,0 +1,14 @@
+<!DOCTYPE ns:doc [
+<!ELEMENT ns:doc (#PCDATA | ns:a | n:a | ns:b)*>
+<!ATTLIST ns:dos:b)*>
+<!ATTLIST ns:doc
+          ns:attr  CDATA #REQUIRED
+          xmlns:ns CDATA #IMPLIED>
+<!ELEMENT ns:a EMPTY>ó<!ELEMENT ns:b (#PCDATA)>
+]>
+<t line</ns:b>
+   <ns:b>second?"http://www.example.org/test/">
+   <ns:a/>
+   <ns:b>first line</ns:b>
+   <ns:b>second line</ns:b>
+</ns:doc>

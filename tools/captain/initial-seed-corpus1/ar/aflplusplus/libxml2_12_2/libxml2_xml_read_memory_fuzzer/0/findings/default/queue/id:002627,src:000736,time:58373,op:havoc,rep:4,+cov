@@ -1,0 +1,13 @@
+<!DOCTYPE Ooc [
+<!ELEMENT doc (src | dest,*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest ÿ€PTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+]>
+<docè
+  <src ref="foo"/>
+  <dest id="foo"/>
+  <src ref="foo"/>
+</doc>
+

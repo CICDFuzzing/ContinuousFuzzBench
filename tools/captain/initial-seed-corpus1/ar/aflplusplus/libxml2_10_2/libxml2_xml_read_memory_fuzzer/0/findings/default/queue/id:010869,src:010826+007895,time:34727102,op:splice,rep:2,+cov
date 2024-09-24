@@ -1,0 +1,17 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+<!ENTITY dest "<Eâ»‰>ï»‰-Žo-<!DOCTYPE doc [
+<!ELE@EN (tst*)>
+<@ELEMENT tst (#PC&#xdAda;"/>
+<tS6 tst a NMTOKENS #IMPLIED>
+<!ATÿIST ts•b CDAqA #IMPLIED>@NTITY a "&#xA;"=ñ<!ENTITY da "&#xD8&#xA;">
+]>
+<doc2
+<ts="&#xd;&#xd b=AqA #IMPLIED>@NTITY a "&#xA;""
+
+xyz"/>
+<tst a="&d;ÿÿ&a;&#x2;&a;B&dA;" b="dd;&d;A&T dest a;	#x20"&#xD;&#x#xa;&#xa;B&#xdAda;"/>

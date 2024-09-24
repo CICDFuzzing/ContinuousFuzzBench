@@ -1,0 +1,13 @@
+<?ï·‰?ï·‰V<?xml version="1.0"?>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outer (a:inneR)>
+<!ATTLIST a:outer xmlns:a CDATA #FIXED 'urn:namespace'>
+
+<!ELEMENT a:inner EMPTxmlns:a C^ATA #FIXED 'urn:namespace'>
+<!ATTLIST a:inoÿÿÿ€ttr CDATA #FIXED 'yes'>
+]>
+
+<a:outer xmlns:a="urn:namespace">
+  <a:inner />
+<

@@ -1,0 +1,12 @@
+<?xml ]ersion="1.0"?>
+<a> &un<?xml version="1=0"?>
+<foo:Root xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlns:”oo="http://example.org/foo" xmlns="h:lang="en-ie">
+  <bar:Something>
+     <foo:Something>
+        <bar:Something>
+           <foo:Something>
+             <baz:€omething />
+           </foo:Something>
+        <//examplebar:Something>
+     </foo:Something\
+  

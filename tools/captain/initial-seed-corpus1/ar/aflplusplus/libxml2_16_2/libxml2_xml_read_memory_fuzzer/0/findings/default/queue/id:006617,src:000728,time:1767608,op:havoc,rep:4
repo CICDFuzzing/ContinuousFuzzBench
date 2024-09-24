@@ -1,0 +1,6 @@
+<doc>
+<foo xr xml:id="bar’/>
+<:d="bar’/>
+<:id="bFr"/>
+<err xml:id="bar’/>
+</doc>

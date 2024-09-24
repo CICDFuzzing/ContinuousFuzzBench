@@ -1,0 +1,4 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS "" a1 NMTOKENS " 1   2  1  !2       " a1 NMTOKENS " 1   2     ! ">
+<>
+<!EL<doc/ZENS " 1   2       

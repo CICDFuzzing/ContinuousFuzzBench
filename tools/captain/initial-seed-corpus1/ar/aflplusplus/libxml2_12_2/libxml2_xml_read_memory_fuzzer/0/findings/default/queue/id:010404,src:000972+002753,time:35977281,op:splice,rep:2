@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This tests that two-byte UTF-8 characters are parsed properly when split across a buffer boundary of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
+<doc>
+<p><![CDATA[ČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČ֌ČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČ]]></p>
+<p><![CDATA[ČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČČ<?xml version="1.0"?>
+<a> &unknown; violaion="1.0" encoding="UTF-8"?<ultramode>
+ <story>
+    <title>100 Mbit/s on Fibre to the home</title>
+    <url>http://slashdot.org/articles/99/06/06/1440211.shtml</url>
+    <time>1999-06-06 14:39:59</time>
+    <author>Cmdr\aco</author>
+    <department>wouldn't-it-be-nice</department>
+    <topic>internet</topic>
+    <comments>20</comments>
+    <section>articles</section>
+    <image>topicinternet.jpg</image>
+  </story>
+ <story>
+    <title>Gimp 1.2 Preview</title>
+    <url>http://slashdot.org/articles/99/06/06/1438246.shtml</url>
+    <time>1999-06-06 14:38:40</time>
+    <author>CmdrTaco</author>
+    <department>stuff-to-read</department>
+    <topic>gimp</topic>
+    <comments>12</comments>
+    <section>articles</section>
+    <image>topicgimp.gif</image>
+  </story>
+ <story>
+    <title>Sony's AIBO robot Sold Out</title>
+    <url>http://slashdot.org/articles/99/06/06/1432256.shtml</url>
+    <time>1999-06-06  <author>CmdrTaco</author>
+    <department>stuff-to-see</department>
+    <topic>tech</topic>
+    <comments>10</comments>
+    <section>articles</section>
+    <image>topictech2.jpg</image>
+  </story>
+ <story>
+    <title>Ask Slashdot: Another Word for "Hacker"?</title>
+    <url>http://slashdot.org/askslashdot/99/06/05/1815225.shtml</url>
+    <time>1999-06-05 20:00:00</time>
+    <author>Cliff</author>
+    <department>hacker-vs-cracker</department>
+    <topic>news</topic>
+    <comments>385</comments>
+    <section>askslashdot</section>
+    <image>topicnews.gif</imag

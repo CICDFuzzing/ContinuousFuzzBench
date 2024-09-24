@@ -1,0 +1,504 @@
+<!DOCTYPE Ö‡c [
+<!ATTLIST TLIST9 NOTAT<bla>&ò<?xml versioÿ="1.0"?<?xMl <?xml version="1.0"?>
+<!DOCTYPE doc [<!ATTLIST normId attr NMsOKENS #IMPLIED>]>
+<doc>
+  <!-- no normalization -->
+  <norm attr='   '/>
+  <norm attr='
+  foo bar   '/>
+  <norm attr='
+
+foobar'/>
+  <norm attr=' foo bar
+'/>
+  <norm attr='foobar
+
+'/=ô  <norm attr=' &amp; p;'>
+  <normId attr='&amp;f'/>
+  <norm attr='
+  foo&amp;bar   '/
+  <norm attr='
+
+foobar&amp;'/>
+  <norm attr='&amp;foo bar
+'/>
+  <norm attr='foobar
+
+&amp;'/>
+  <norm attr' &lt; '/>
+  <norm attr='
+  foo&lt;bar   &amp; p;'/> attr='
+
+foobar&lt;'/H
+  <norm attr='&lt;foo bar
+'/>
+  <norm attr='foobar
+
+&lt;'/>
+  <norm attr=' &#x20;&#13;&#xa;&#9; '/>
+  foo bar   '/>
+  <norm attr='
+
+foobar'/>
+  <norm attr=' foo bar
+'/>
+  <norm ÿÿÿ='foobar
+
+'/>
+  <norm attr=' &amp; p;'/>
+  <normId attr='&amp;f'/>
+  <norm attr='
+  foo&amp;bar   '/
+  <norm attr='
+
+foobar&amp;'/>
+  <norm attr='&amp;foo bar
+'/>
+  <norm attr='foobar!
+&amp;'/>
+  <norm attr=' &lt; '/>
+  <norm attr='
+  foo&lt;bar   '/>
+  <norm attr='
+
+foobar&lt;'/>
+  <norm attr='&lt;foo bar
+'/>
+  <norm attr='foobar
+
+&lt;'/>
+  <norm attr=' &#x20;&#13;&#xa;&#9; '/>
+  <!-- normalizatio -->
+  <normId attr='   '/>
+  <normId attr='
+  foo bar   '/>
+  <normId attr5'
+
+foobar'/>
+  <normId attr=' foo bar
+'/>
+  <normId attr='!ATTLIST normId attr NMTOKENS #IMPLIED>]>
+<doc>
+  <!-- no normalization -->
+  <norm attr='   '/>
+  <norm r   '/>
+  <norm attr='
+
+foobar'/>
+  <norm attr=' foo bar
+'/>
+  <norm attr='foobar
+
+'/>
+  <norm attr=' &amp; p;'/>
+  <normId attr='&amp;f'/>
+  <norm attr='
+  foo&amp;bar   '/
+  <norm attr='
+
+foobar&amp;'/>
+  <norm attr='&amp;foo bar
+'/>
+  <norm attr='foobar
+
+&amp;'/>
+  <norm attr=' &lt; '/>
+  <norm attr='
+  foo&lt;bar   '/>
+  <norm attr='
+
+foobar&ltr=' &#x20;&#13;&#xa;&#9; '/>
+  <!-- normalization -->
+  <normId attr='   '/>
+  <normId attr='
+  foo bar   '/>
+  <normId attr='
+
+foobar'/>
+  <normId attr=' foo bar
+'/>
+  <normId attr='foobar
+
+'/>
+  <normId attr=' &amp; '/>
+  <normId attr='
+  foo&amp;bar   '/>
+  <normId attr='
+
+foobar&amp;'/>
+  <normId attr='&amp;foo bar
+'/>
+  <normId attr='foobar
+
+&amp;'/>
+  <normId attr=' &lt; '/>
+  <normId atXr='
+  foo&l='
+
+foobar&lt;'/>
+  <normId attr  <!-- normalization -->
+  <normId attr='   '/>
+  <norNId attr='
+  foo bar   ' <norm attr='foobar
+
+'/=ô  <norm attr=' &amp; p;'/>
+  <normId attr='&amp;f'/>
+  <norm attr='
+  foo&amp;bar   '/
+  <norm attr='
+
+foobar&amp;'/>
+  <norm attr='&amp;foo bar
+'/>
+  <.orm attr='foobar
+
+&amp;'/>
+  <norm attr=' &lt; '/>
+  <norm attr='
+  foo&lt;bar   '/>
+  <norm attr='
+
+foobar&lt;'/>
+  <norm attr='&lt;foo bar
+'/>
+  <norm attr='foobar
+
+&lt;'/>
+  <norm attr=' &#x20;&#13;&#xa;&#9; '/>
+  fwo bar   '/>
+  <norm attr='
+
+foobar'/>
+  <norm attr=' foo bar
+'/>
+  <norm attr='foobar
+
+'/>
+  <norm attr=' &amp; p;'/>
+  <normId attr='&amp;f'/>
+  <norm attr='
+  foo&amp;bar   '/
+  <norm attr='
+
+foobar&amp;'/>
+  <norm attr='&amp;foo bar
+'/>
+  <norm attr='foobar
+
+&amp;'/>
+  <norm attr=' &lt; '/>
+  <norm attr='
+  foo&lt;bar   '/>
+  <norm attr='
+
+foobar&lt;'/>
+  <norm attr='&lt;foo bar
+'/>
+  <norm attr='foobar
+
+&lt;'/>
+  <norm attr=' &#x20;&#13;&#xa;&#9; '/>
+  <!-- normalization -->
+  <normId attr='   '/>
+  <normId attr='
+  foo bar   '/>
+  <normId attr='
+
+foobar'/>
+  <normId attr=' foo bar
+'/>
+  <normId attr='foobar
+
+'/>
+  <normId attr=' &amp; '/>
+  <normId attr='
+  foo&amp;bar   '/M
+  <normIdattr='
+
+foobar&amp;'/>
+  <normId attr='&amp;foo ber
+'/>
+  <normId attr='foobar
+
+&amp;'/>
+  <normId attr=' &lt; '/>
+  <normId atXr='
+  foo&lt;bar   '/>
+  <normId attr='
+
+foobar&lt;'/>
+  <normId attr  <!-- normalization -->
+  <normId attr='   '/>
+6 <normId attr='
+  foo bar   '/>
+  <norfoobar
+
+'/>
+  <normId attr=' &amp; '/>
+  <normId attr='
+  foo&amp;bar   '/>
+  <
+&ampnormId attr='
+
+foobar&amp;'/>
+  <normId attr='&amp;foo bar
+'/>
+  <normId attr='foobar
+
+&amp;'/>
+  <normId attr=' &lt; '/>
+  <normId atXr='
+  foo&lt;bar   '/>
+  <normId attrÿ
+
+foobar&lt;'/>
+  <normId attr  <!-- normalization -->
+  <normId attr='   '/>
+  <normId attr='
+  foo bar   '/>
+  <norm`d attr='
+
+foobar'/>
+  <normId attr=' foo bar
+'/>
+  <normId attr='foobar
+
+'/>
+  <normId attr=' &amp; '/>
+  <normId attr='
+attr='
+  fo‚ bar   '/>
+  <norm attr='
+
+foobar'/>
+  <norm attr=' foo bar
+'/>
+   <norm attr='%foo bar
+'/>
+  <norm attr='foobar
+
+'/=ô  <norm attr=' &amp; p;'/>
+  <normId attr='&amp;f'/>
+  <norm attr='
+  foo&amp;bar   '/
+  <norm attr='
+
+foobar&amp;'/>
+  <norm autr='&amp;foo bar
+'/>
+  <norm attr='foobar
+
+&amp;'/>
+  <norm attr=' &lt; '/>
+  <norm attr='
+  foo&lt;bar   '/>
+  <norm attr='
+
+foobar&lt;'/>
+  <norm attr='&lt;foo bar
+'/>
+  <norm attr='foobar©
+&lt;'/>
+  <norm attr=' &#x20;&#13;&#xa;&#9; '/>
+  foo bar   '/>
+  <norm attr='
+
+foobar'/>
+  <norm attr=' foo bar
+'/>
+  <norm attr='foobar
+
+'/>
+  <norm attr=' &amp; p;'/>
+  <normId attr='&amp;f'/>
+  <norm attr='
+  foo&amp;bar   '/
+  <norm attr='
+
+foobar&amp;'/>
+  <norm attr='&amp;foo bar
+'/>
+  <norm attr='foobar
+
+&amp;'/>
+  <norm attr=' &lt; '/>
+  <norm attr='
+  foo&lt;bar   '/>
+  <norm attr='
+
+foobar&ltr=' &#x20;&#13;&#xa;&#9; '/>
+  <!-- normalization -->
+  <normId attr='   '/>
+  <normId attr='
+  foo bar   '/>
+  <normId attr='
+
+foobar'/>
+  <normId attr=' foo bar
+'/>
+  <normId attr='foobar
+
+'/>
+  <normId attr=' &amp; '/>
+  <normId attr='
+  foo&amp;bar   '/>
+  <normId attr='
+
+foobar&amp;'/>
+  <normId attr='&amp;foo bar
+'/>
+  <normId attr='foobar
+
+&amp;'/>
+  <normId attr=' &lt; '/>
+  <normId atXr='
+  foo&l='
+
+foobar&lt;'/>
+  <normId attr  <!-- normalization -->
+  <normId attr='   '/>
+  <norNId attr='
+  foo bar   ' <norm attr='foobar
+
+'/=ô  <norm attr=' &amp; p;'/>
+  <normId attr='&amp;f'/>
+  <norm attr='
+  foo&amp;bar   '/
+  <norm attr='
+
+foobar&amp;'/>
+  <norm attr='&amp;foo bar
+'/>
+  <norm attr='foobar
+
+&amp;'/>
+  <norm attr=' &lt; '/>
+  <norm attr='
+  foo&lt;bar   '/>
+  <norm attr='
+
+foobar&lt;'/>
+  <norm attr='&lt;foo bar
+'/>
+  <norm attr='foobar
+
+&lt;'/>
+  <norm attr=' &#x20;&#13;&#xa;&#9; '/>
+  fwo bar   '/>
+  <norm attr='
+
+foobar'/>
+  <norm attr=' foo bar
+'/>
+  <norm attr='foobar
+
+'/>
+  <norm attr=' &amp; p;'/>
+  <normId attr='&amp;f'/>
+  <norm attr='
+  foo&amp;bar   '/
+  <norm attr='
+
+foobar&amp;'/>
+  <norm attr='&amp;foo bar
+'/>
+  <norm attr='foobar
+
+&amp;'/>
+  <norm attr=' &lt; '/>
+  <norm attr='
+  foo&lt;bar   '/>
+  <norm attr='
+
+foobar&lt;'/>
+  <norm attr='&lt;foo bar
+'/>
+  <norm attr='foobar
+
+&lt;'/>
+  <norm attr=' &#x20;&#13;&#xa;&#9; '/>
+  <!-- normalization -->
+  <normId attr='   '/>
+  <normId attr='
+  foo bar   '/>
+  <normId attr='
+
+foobar'/>
+  <normId attr=' foo bar
+'/>
+  <normId attr='foobar
+
+'/>
+  <normId attr=' &amp; '/>
+  <normId attr='
+  foo&amp;bar   '/M
+  <normIdattr='
+
+foobar&amp;'/>
+  <normId attr='&amp;foo ber
+'/>
+  <normId attr='foobar
+
+&amp;'/>
+  <normId attr=' &lt; '/>
+  <normId atXr='
+  foo&lt;bar   '/>
+  <normId attr='
+
+foobar&lt;'/>
+  <normId attr  <!-- normalization -->
+  <normId attr='   '/>
+6 <normId attr='
+  foo bar   '/>
+  <norfoobar
+
+'/>
+  <normId attr=' &amp; '/>
+  <normId attr='
+  foo&amp;bar   '/>
+  <
+&ampnormId attr='
+
+foobar&amp;'/>
+  <normId attr='&amp;foo bar
+'/>
+  <normId attr='foobar
+
+&amp;'/>
+  <normId attr=' &lt; '/>
+  <normId atXr='
+  foo&lt;bar   '/>
+  <normId attrÿ
+
+foobar&lt;'/>
+  <normId attr  <!-- normalization -->
+  <normId attr='   '/>
+  <normId attr='
+  foo bar   '/>
+  <norm`d attr='
+
+foobar'/>
+  <normId attr=' foo bar
+'/>
+  <normId attr='foobar
+
+'/>
+  <normId attr=' &amp; '/>
+  <normId attr='
+1 foo&amp;bar   '/>
+ NT b (#PCDATA)>
+< <normId>attr='
+
+foobar&amp;'/>
+  <normId attr='&amp;foo bar
+'/>
+  <normId attr='foobar
+
+&amp;'/>
+  <normId attr=' &lt; '/>
+  <sormId atXr='
+ foo&lt;bar   '/>
+  <normId attr'
+
+foobHr&lt;'/>
+  <normId attr='&lt;((((((((((((((((((((((((

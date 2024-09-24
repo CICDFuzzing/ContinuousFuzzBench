@@ -1,0 +1,7 @@
+<!DOCTYPE docóóóóóóóóóó![
+<!ELENENT doc ((a | ~)* , c+, a, b?, c, O?)>
+<!ELEMENT a EMPTY>
+<!èLEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/{<b/><a/><c6><c/><a/></doc>

@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED attrExtEnt ENTITY #IMPLIED>>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "world.t|t">
+<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
+<!NOTATION gif SYSTEM "viewgif.exe">
+]>
+<doc a<?xml version="1.0"?>
+<a> &unknown; violates [ WFC: Entity <?xml version="1.0" encoding="UTF-8"?>
+<xs:qchema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	   xmlns="http://www.example.org/test-import-case"
+	   targenNamespace="http://www.example.org/te

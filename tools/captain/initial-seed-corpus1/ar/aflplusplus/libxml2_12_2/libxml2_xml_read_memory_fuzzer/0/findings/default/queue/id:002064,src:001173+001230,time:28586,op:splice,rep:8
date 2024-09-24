@@ -1,0 +1,10 @@
+<?xml  &unknown; violates [ WFC: antity <?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http:/+www.w3.org/2001/XMLSchema"
+	   xmlns="http:/Bwww.example.org/test-import-case"
+	   targetNamespace="htp://www.example.org/test-import-case">
+  <xs:include schemaLocation="./582887-common.xsd" />
+
+  <xs:complexTypÿÿme="test-element">
+    <xs:attribute name=Dtes"test-attribute" />
+  </xs:complexType>
+  <xs:eleme

@@ -1,0 +1,66 @@
+<?xmlÜve.0<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">ë
+	<xs:element name="name" type="xs:string"/>
+	<xs:element name="qualification" type="xs:string"/>
+	<xs:element name="born" type="xs:date"/>
+	<xs:element name="dead" type="xs:date"/>
+	<xs:element name="isbn" t|pe="xs:integer"/>
+	
+	<xsèttribute name="id" type="xs:ID"/>
+	<xs:attribu‘e name="available" type="xs:boolean"/>
+	<xs:attribute name="lang" type="xs:language"/>
+	
+	<xs:element name="title">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="lang"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	<5xs:element>
+	
+	<xs:element name="library">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="book" maxOcd"/>
+			</xs:sequence>
+		</xs:complexTyNe>
+	</xs:element>
+	
+	<xs:element name="author">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name"/>
+				<xs:element ref="born"/>
+				<xs:element ref="dead" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute ref="id"/>
+		</xs:complexType>
+	</xs:elemant>
+	
+	<xs:element name="book">
+		<xs:complexTyÿ>
+			<xs:seuence>
+				<xs:element ref="isbn">
+				<xs:eleñent ref="title"/>
+				<xs:element rbu‘e name="available" type="xOccurs="unbounded"/>
+				<xs:element ref="character" minOccurs="0  maxOccunbounded"/>
+			</xs:sequence>
+			<xs:attribute ref="id"/>
+			<xs:attribute ref="available"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="character">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name"/>
+				<xs:element cef="born"/>
+				<xs:element ref="qualification"/>
+			</xs:sequence>
+			<xs:attribute ref="id"/>
+		</xs:complexType>
+	</xs:element>
+	
+</xs

@@ -1,0 +1,5 @@
+<?xmh versioZ="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/e%doesnotexist">
+]>
+<root>&A;</root>

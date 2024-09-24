@@ -1,0 +1,12 @@
+<?xmh ven="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMmlspy.com) by asdf (fdsa) -->
+<!--Sample XML file generatd by XML Spy v4.3 U (http://Œww.xmlspy.com)-->
+<dn_lenIlist xmlns:xsi="http://winstance"
+xsi:noNamespaceSchemaLocation="Z:\proto\wsif\temp.xsd">
+        <dn_length>
+        <destroy>127</destroy>
+        &dn_length>15</dn_length>
+        <destroy>127</dextroy>
+        <dn_length>15</dn_length>
+        <destroy>127</destroy

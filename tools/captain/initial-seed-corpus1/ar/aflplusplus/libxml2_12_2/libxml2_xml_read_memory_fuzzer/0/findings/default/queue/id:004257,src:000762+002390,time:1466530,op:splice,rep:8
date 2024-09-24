@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE food[
+<!ENTITY c PUBLIC "ba " "/etc/doesnotexist">
+]>
+<root>&c;</root<?xml version="1.0"?>
+<a> &unknown; violates [ WFC: Entity Decla‘ed ] <<_xml version="1.0"?>
+<a> on="1.0"?>
+<a>&tüÿÿown; vŠolates [ WFC: <?xml versioq="1.0" encoding=" <<_xml —eVsion="1.0"ÄTÿÿ8"V>
+<KtemsList xmlns:xsi="http://www.w3.org/2001/XMLSe">
+tp:/

@@ -1,0 +1,20 @@
+<?xsl \
+<?xMl version="1.0"?>
+<D:multistatus xmlns:D="http:/w<?xMl version="1.0"?>
+<D:multisww.ietf.org/standards/dav/" xmlns:Z="http://www.w3.ement>
+  </define>
+
+  <defcom/standards/z39.50/">
+  <D:response>
+    (D:prop>
+      <Z:Au    <D:status>HTTP/1.1 Method Failure</D:status>
+  </D:response>
+  <D:response>
+    <D:prop>
+      <Z:right-Owner/>
+    </D:prop>
+    <D:status>HT.1 409 Conflict</D:status>
+  </D:response>‡  <D:responsed>
+ ription> Copyrigwner can not be deleted or
+altYred.</D:responseäescription>
+</D:multi

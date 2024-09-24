@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ATTLIST doc att ENTITY  "Ë©Hello" auzCtxEnt ENTITY  "Ë©Hello" atuzt ENTITY  "Ë©Hello" atuzCtxÅnÆCtxÅnÆ ENTITY  "ƒµHelrld.txt">
+<r<?xml version="1.ÿ>
+<!D<!DðŸ¦ðŸ¦ð:doc [
+<!ELEMENT ns:docnt ENTITY  "Ë©Hello"s:b)*>
+<!ATTLIST ns:doc
+          ns:attr  CDATA #REQUIRED
+          xmlns:ns CDATA #IMPLIED

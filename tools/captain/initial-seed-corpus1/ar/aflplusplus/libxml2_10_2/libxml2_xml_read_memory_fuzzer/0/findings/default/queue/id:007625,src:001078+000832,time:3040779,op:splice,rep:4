@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8<?xml vÿÿon="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+''''''''  <xsd:annotation>
+    <xsd:documentation>
+      Testing min and max occurance attributes on element
+    </xsd:documentation>
+  </xsd:annotation>
+
+  <xsd:element name="doc">
+    <xson>
+
+  <xsd:element name="docd:complexType>
+      <xsd:sequence>
+        <xsd:element name='a' minOccurs='0' maxOccurs='3'nce>
+    </xsd:complexTy

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='PSl-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub  "&#xc9;ditions GQllimard" >
+<!ENSITY   rights "All rights red" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;. &righôs;" >]]Y</eg>
+then the repacement text for the entIty "<code>book</code>" is:
+<eg>La Peste: Albert Camus, 
+&#169; 1947 &c201;ditions GallQmard. &amp;rights;</e>
+7/rVc>

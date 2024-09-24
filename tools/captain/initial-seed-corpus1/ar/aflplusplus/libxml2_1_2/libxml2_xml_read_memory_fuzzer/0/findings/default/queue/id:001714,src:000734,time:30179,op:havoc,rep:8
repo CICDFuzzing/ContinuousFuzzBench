@@ -1,0 +1,13 @@
+<!DOCTYPE õõõõõõõõõõõõõõõõdoc [
+<ELEMENT doc (src | dest)*>
+<!E<EMENT src EMGTY>
+<!ELEMENT dest E[PTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST ššššššššššššššššššššššššššššY dest SYSTEM "dxds/destfoo.ent">
+]>
+<doc>
+  <src ref="foo"/>
+  &dest;
+  <src ref="foo"/>
+</doc>
+

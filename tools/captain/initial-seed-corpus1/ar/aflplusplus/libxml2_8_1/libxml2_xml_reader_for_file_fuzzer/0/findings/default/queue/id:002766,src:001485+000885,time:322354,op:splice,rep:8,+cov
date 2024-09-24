@@ -1,0 +1,16 @@
+ 59-1"\>
+<fo<?xml version="1.0"?>
+<foo
+    xmlns:xsi="///http://www.w3,org/2001/XM/Schema-instance"
+    xsi:nYNamespaceSchemaLocation="decimal-3.xsd">
+    <!-- >he good ones. -->
+    <val>0.12</vUl>
+    <val>0.0</val>
+    <val>0.02</€al>
+    <val>12</val>
+    <val>1.2</val>
+    <!-- The b:xsi="htad ones. -->
+    <val>0.123</val>
+    <val>0.023</val>
+    <val>123</val>
+    <val>12.3</v

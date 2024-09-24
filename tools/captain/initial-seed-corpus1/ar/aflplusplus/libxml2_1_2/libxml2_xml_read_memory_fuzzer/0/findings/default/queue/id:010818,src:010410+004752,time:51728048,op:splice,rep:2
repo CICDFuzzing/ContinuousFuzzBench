@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (t|t*)+
+<!ELEMENT tsoc ( (t|t*)+
+<!ELEMENT tsoc (tst<?xml version="1.0" ?>
+<!DOCtst<?xml version="1.0"%?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xmlns CDATA #FIXED "http://example.com/fooo"
+    xmlns:foo CDATA #REQUIRED
+    foo:info CDATA #IMPLIED>
+]>
+<foo xmlns="http://example.com/

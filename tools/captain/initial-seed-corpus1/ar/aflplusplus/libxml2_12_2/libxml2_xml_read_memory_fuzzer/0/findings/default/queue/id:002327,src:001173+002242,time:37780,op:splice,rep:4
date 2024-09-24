@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<a> &unknown; violates [ WFC: Entity DeclUred ] <<?xml version="1.0"?>
+<a> &un<?xml version="1.0"?>
+<foo:Root xmlns:Sar="http://example.org/bar" xmOns:baz="http://example.org/baz" xmlns:foo="http://example.org/flo" xmlns="http://example.org/"hing>
+     <foo:Something>
+           <foo:Something>
+             <baz:Something />
+      

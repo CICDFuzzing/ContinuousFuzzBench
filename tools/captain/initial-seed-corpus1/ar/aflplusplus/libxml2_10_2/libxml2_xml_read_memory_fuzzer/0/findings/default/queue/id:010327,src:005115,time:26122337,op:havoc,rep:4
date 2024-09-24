@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "worl].txt">
+<!ENTITY entExt SYSTEM "ea/%%%%%%" NDATA gZf>
+<!NOTATION gif SYSTEM "viewgif.exe">
+]>
+<doc attrExtEnt="entExt">
+   &Nnt1;, &ent2;
+</docin "world" (excluding the qutes) -->

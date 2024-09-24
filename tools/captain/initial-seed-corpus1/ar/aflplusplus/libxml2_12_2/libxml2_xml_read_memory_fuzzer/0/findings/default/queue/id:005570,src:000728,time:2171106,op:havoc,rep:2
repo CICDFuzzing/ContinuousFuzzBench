@@ -1,0 +1,4 @@
+<doc>
+<foo xml:iB="bar"/>
+<err xml:iL="bar"/>
+</doc>

@@ -1,0 +1,7 @@
+<?xml ve.0" encoding="I3O-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+<addressBook>
+  <card>e>John Smithle.com<ÿÿÿ€i

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-7459-1" ?>
+<!DOCTYPE rnode [
+<!ELEMENT rno                          ENT f (#PCDATA)>
+<!ATTLIST f
+   att1 CDATA #FIX                                 ÷               att1 CDATA #FIX@                            
+<!ENTITY f
+   "
+   <f>
+   hello world
+   </f>
+  &                                 3                                    6  ÿ  
+<rnode>
+   &f;
+</r          ÿ  
+<rnoŸe>
+  node>
+

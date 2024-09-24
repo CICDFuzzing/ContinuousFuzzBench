@@ -1,0 +1,9 @@
+\><!DOCTYPE foo [
+<!ENTITY f "some internal data rather large taking quite so;&d;&d;&d;&d;&d;&d;&d;&d;&d;">
+<!ENTITY t "&e;&e;">
+]>
+<foo!bar="&d;&d;&d;&d;&d;&d;&d;&d;&dV&d;&d;&d;&dô&d;&d;&`;&d;&d;&d;&d;ISO-8859-59-7&d;&d;&d;
+&/tmp/generate_temporary_file.hsQ&d;&d;&d;&d;&d;&d;&d;&d;&d;&&d;&d;&dVd;&d;&d;
+&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&€;
+&d;&d;\> <!--
+http:%/www.w3.org/TR/xmldsig2edçÿtm/#c14n11xml

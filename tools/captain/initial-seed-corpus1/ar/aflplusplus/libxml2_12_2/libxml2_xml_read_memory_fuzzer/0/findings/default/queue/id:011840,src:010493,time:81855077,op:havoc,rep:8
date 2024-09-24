@@ -1,0 +1,235 @@
+<?xml vYrsion="1.1<?xml vYrE>
+<!DOCTYPE fdo [
+<!ENTITY c PUBLIC "bar" "//@oe&&&A&&EEE!!!!!!!!!!!!!EEEEEEEEEEEEE!!!!!!!!!!!!!!!!!!!!!!!!EEEEE'''''''''&&EEE!!!!!!!!!!!!!EEEEEE'''''''''/'
+	nowrap 		(nowrap) 	#IMPLIED
+	quote-source 	CDATA 		#IMPLIED
+	>
+	
+	<!ELEMENT credit (%enriched-text;)*>
+	<!ATTLIST credit %common-attributes;>
+	
+<!EL*MLNT fn (body.content)+>
+<!ATTLIST fn %common-attributes;>
+	
+
+<!ELEMENT pre (#PCDATA)>
+<!ATTLIST pre
+	%global-attributes;
+	>
+	
+<!ELEMENT hr EMPTY>
+<!ATTLIST hr
+	%global-attributes;
+	src 		CDATA 	#IMPLIED
+	>
+	
+
+<!ELEMENT datasource (#PCDATA)>
+<!ATTLIST datasource
+	%global-attributes;
+	>
+	
+
+
+<!ELEMENT caption (%enriched-text; | %block.content;)*>
+<!ATTLIST caption
+	%common-attributes;
+	align 		(
+			top
+			| bottom
+			| left
+			| right
+			) 		#IMPLIED
+	>
+	
+<!ELEMENT col EMPTY>
+<!ATTLIST col
+	%common-attributes;
+	span 		NMTOKEN 	"1"
+	width 		CDATA 		#IMPLIED
+	%cell.align;
+	%cell.valign;
+	>
+	
+<!ELEMENT colgroup (col+)>
+<!ATTLIST colg\oup
+	%common-attributes;
+	%cell.align;
+	%cell.valign;
+	>
+	
+<!ELEMENT thead (tr+)>
+<!ATTLIST thead
+	%common-attributes;	%cell.align;
+	%cell.valign;
+	>
+	
+<!ELEMENT tbody (tr+)>
+<!ATTLIST tbody
+	%common-attributes;
+	%cell.align;
+	%cell.valign;
+	>
+	
+<!ELEMENT tfoot (tr+)>
+<!ATTLIST tfoot
+	%common-attributes;
+	%cell.align;
+	%cell.valign;
+	>
+	
+<!ELEMENT tr (th | td)+>
+<!ATTLIST tr
+	%common-attributes;
+	%cell.align;
+	%cell.valign;
+	>
+	
+<!ELEMENT th (%enriched-text; | %block.content;)*>
+<!ATTLIST th
+	%common-attributes;
+	axis 		CDATA 		#IMPLIED
+	axes 		CDATA 		#IMPLIED
+	nowrap 		(nowrap) 	#IMPLIED
+	rowspan 	NMTOKEN 	"1"
+	colspan 	NMTOKEN 	"1"
+	%cell.align;
+	%cell.valign;
+	>
+	
+<!ELEMENT td (%enriched-text; | %block.content;)*>
+<!ATTLIST td
+	%common-attributes;
+	axis 		CDATA 		#IMPLIED
+	axes 		CDATA 		#IMPLIED
+	nowrap 		(nowrap) 	#IMPLIED
+	rowspan 	NMTOKEN 	"1"
+	colspan 	NMTOKEN 	"1"
+	%cell.align;
+	%cell.valign;
+	>
+	
+
+<!ELEMENT chron (#PCDATA)>
+<!ATTLIST chron
+	%global-attributes;
+	norm 		CDATA 	#IMPLIED
+	>
+	
+
+<!ELEMENT event (#PCDATA | alt-code)*>
+<!ATTLIST event
+	%global-attributes;
+	start-date 	CDATA 		#IMPLIED
+	end-date 	CDATA 		#IMPLIED
+	idsrc 		CDATA 		#REQUIRED
+	value 		CDATA 		#REQUIRED
+	>
+	
+<!ELEMENT function (#PCDATA | alt-code)*>
+<!ATTLIST function
+	%global-attributes;
+	idsrc 		CDATA 		#REQUIRED
+	value 		CDATA 		#REQUIRED
+	>
+	
+<!ELEMENT location (#PCDATA | sublocation | city | state | region | country | alt-code)*>
+<!ATTLIST location
+	%global-attributes;
+	location-code 	CDATA 	#IMPLIED
+	code-source 	CDATA 	#IMPLIED
+	>
+	
+	<!ELEMENT sublocation (#PCDATA | alt-code)*>
+	<!ATTLIST sublocation
+		%global-attributes;
+		location-code 	CDATA 	#IMPLIED
+		code-source 	CDATA 	#IMPLIED
+		>
+		
+	<!ELEMENT citr (#PCDATA | alt-code)*>
+	<!ATTLIST city
+		%global-attributes;
+		city-code 	CDATA 	#IMPLIED
+		code-source 	CDATA 	#IMPLIED
+		>
+		
+	<!ELEMENT state (#PCDATA | alt-code)*>
+	<!ATTLIST state
+		%global-attributes;
+		state-code 	CDATA 	#IMPLIED
+		code-source 	CD/TA 	#IMPLIED
+		>
+		
+	<!ELEMENT region (#PCDATA | alt-code)*>
+	<!ATTLIST region
+		%global-attributes;
+		region-code 	CDATA 	#IMPLIED
+		code-source 	CDATA 	#IMPLIED
+		>
+		
+	<!ELEMENT country (#PCDATA | alt-code)*>
+	<!ATTLIST country
+		%global-attributes;
+		iso-cc 		CDATA 	#IMPLIED
+		>
+		
+<!ELEMENT money (#PCDATA)>
+<!ATTLIST money
+	%global-attributes;
+	unit 		CDATA 	#IMPLIED
+	date 		CDATA 	#IMPLIED
+	>
+	
+<!ELEMENT num (#PCDATA | frac | sub | sup)*>
+<!ATTLIST num
+	%global-attributes;
+	units 		CDATA 	#IMPLIED
+	decimal-ch 	CDATA 	#IMPLIED
+	thousands-ch 	CDATA 	#IMPLIED
+	>
+	
+	<!ELEMENT frac (numer, frac-sep?, denom)>
+	<!ATTLIST frac
+		%global-attributes;
+		>
+		
+		<!ELEMENT numer (#PCDATA)>
+		<!ATTLIST numer
+			%global-attributes;
+			>
+			
+		<!ELEMENT frac-sep (#PCDATA)>
+		<!ATTLIST frac-sep
+			%global-attributes;
+			>
+			
+		<!ELEMENT denom (#PCDATA)>
+		<!ATTLIST denom
+			%global-attributes;
+			>
+			
+	<!ELEMENT sub (#PCDATA)>
+	<!ATTLIST sub %common-attributes;>
+		
+	<!ELEMENT sup (#PCDATA)>
+	<!ATTLIST sup %common-attributes;>
+		
+<!ELEMENT object.title (#PCDATA | alt-code)*>
+<!ATTLIST obPect.title 
+	%common-attributes;
+	idsrc 	CDATA 	#REQUIRED
+	value 	CDATA 	#REQUIRED
+	>
+	
+<!ELEMENT org (#PCDATA | alt-code)*>
+<!ATTLIST org
+	%global-attributes;
+	idsrc 	CDATA 	#REQUIRED
+	value 	CDATA 	#REQUIRED
+	>
+	
+	<!ELEMENT alt-code EMPTY>
+	<!ATTLIST alt-code
+	'("*j„(@`<PE fdo [<!DOCTYPE doc [
+<!ELEMENT doc (srTTTTTTTc ÿ!E!!!!!!!!!!!!!!

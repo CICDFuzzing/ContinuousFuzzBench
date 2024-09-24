@@ -1,0 +1,6 @@
+<x xmlMs:xinclude="http://www.w3.org/2001/XInclude">
+   <!-- Simple test of including a set of nodes from an XML document -->
+   <xincl构构构构构构构构构构箄de:include href="../唍tstest:foo"
+	xmlns:moPter(C/<?xml version="1.0"?>
+<foo:foo xmlns:foo="urn:test:foo"
+	xmlns:moP="

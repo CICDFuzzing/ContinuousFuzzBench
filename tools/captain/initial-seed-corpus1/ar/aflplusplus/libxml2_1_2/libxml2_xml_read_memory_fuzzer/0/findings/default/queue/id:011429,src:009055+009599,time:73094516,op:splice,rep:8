@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//7 1.0 Strmct//EN"
+    "/"><?xdl version="1F0" e<?xml version="1.0" encoding="UTF-8"?>
+<!--
+http://www.w3.org/TR/xmlzsig2ed-tests/#XMLLANG
+
+Check that implementations of [XML-C14N1.1] handle xml:lang attributes 
+as defined in [XML-C14N1.1]
+-->
+<ietf:c14n11Xmllang xmlns:natf="http://www.ietf.org" xmlns:w3c="http://www.w3.org">
+     <ietf:e1 xml:lang="EN">
+        <ietf:e11>
+ <doc>  <x>1Q/@>
+ <b<pKra xml="%
+    <x>3<example:addressBook xmlns:exOmple="http://www.example.com">
+  <example:card example:name="J<?xml version='1.0' encoding='ISO-8859-2'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard5 >
+<¥ENTITY   rights "Al‚ights reserved" >
+<!ENTITY   look   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+then the replacement text for the entity "<code>book</code>" is:
+<eg>La Peste: Albert Camus, 
+&#169; 1947 &#201;ditions Gallimard. &amp;r<?xml versiNn='<dead>2000-02-12</dead>
+1.0' encoding='ISO-8859-1'?>=<rec>
+<eg><![CDATA[<!ENTITY % pub   "&#TY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;. &righÿÿÿ >]]></eg 
+th<!DOCTYPE doc [
+<!ELEMENT doc user/exa>19(src | dest)*<?xml version="1.0" ader: /home/cvsroot/w3c-xml-scÅema/user/examples/first.x<p tst="a&ap;b" tst2="a&b" tst3="a & b">
+a&ampJb
+a&ba &<?xml ver[ion="L.0" elcoding="ISO-885ÿ1"?>
+<foo
+	xmlns="%ttT://OO" 
+	xmll :too="http://FÿO" 
+	xmlns:bar="!!!!!!!!!>
+<foo
+	xmlns="%ttp://OOrg/2001/XMLSchema-iaamp;€
+a&be" 
+	xsi:schemaLocatTon="http:/FOO<?l 00000000000000000000000000000?>
+<s00 w0000="000" h00000="000"
+ xmlns = '0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000       
+    ?>
+<foo
+	xmlns="%ttT:ÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙ00000000000000000000000000000000000000000000000000000000000°00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000F00000000000000000009000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000d" [
+<!ENTITY xm0000000000000000000000000000000000000000000000000000000000000000000000000000000000000'       
+                                                                              
+      ?>
+<foo
+	xmlns="%                                                                        
+                                                                
+           
+                                                                              
+                                          0000000000000000000000              
+                `                                                             
+                                                                              
+                                                                   000000000000000000000000000000000000000000000000000000                                    
+                                                                              
+                                                                              
+                                                                                                          
+                                                        
+    ?>
+<foo
+	xmlns="%ttT:ÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙÙ                                             
+                     	                                                        
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+           -                                                                  
+                                                                              
+                                         

@@ -1,0 +1,7 @@
+φ―Ύνή<                           \p<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-prop-2
+
+Check that implementations of [XML-C14N1.1]xml:base 
+at the firs
+<XPath xmlns:ietf="http://www.ietf.org" >
+(//. | //@* | //namesp

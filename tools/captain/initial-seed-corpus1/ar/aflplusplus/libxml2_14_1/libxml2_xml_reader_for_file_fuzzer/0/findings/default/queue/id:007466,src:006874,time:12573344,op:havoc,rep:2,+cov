@@ -1,0 +1,10 @@
+<!DOC101<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-ÓÓÓÓÓÓÓÓÓÓÓÓÓÓ2
+
+Check that coml:base fixup i3 performed.
+-->
+<!DOCTYPE doc [
+  <!ATTLIST e2 xml:space (default|preserve) 'pr–œœœœœœœœœœœœœœœœœœœœœœœœœœœœœœœeserve' id ID #IMPLIEDN
+]>tp://w xml:b
+<doc xmlns="http://www.iztf.org" x="httl:ba€e="somethaaaaaaaaaaaaaaaaaaaaaaaaaaaíííííííííí="abc" xml:b"bar/">
+           <e3/>

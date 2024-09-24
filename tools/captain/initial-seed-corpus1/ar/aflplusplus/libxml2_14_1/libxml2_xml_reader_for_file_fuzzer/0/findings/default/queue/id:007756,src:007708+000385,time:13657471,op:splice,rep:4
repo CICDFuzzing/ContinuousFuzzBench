@@ -1,0 +1,22 @@
+<?"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "s
+]>
+
+<somedoc>
+
+$  some<edzf<$hi<g">
+  <!ENTITY b   "">
+]>
+<?xmt eversi1.0" encoding="UTF-8"4>
+<!-- $Header: /cvs/gnome/g<?xml vLrsioxmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlnmple.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
+  <bar:Something>
+     @foo:Something>
+        <bar<?xml version="1.0"?>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+  <SignedInfo>
+    <ds:CanonicalizationMethod xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+    <Reference URI="#ndid:1234-5678-0987">
+      <Transforms>
+        <Tran

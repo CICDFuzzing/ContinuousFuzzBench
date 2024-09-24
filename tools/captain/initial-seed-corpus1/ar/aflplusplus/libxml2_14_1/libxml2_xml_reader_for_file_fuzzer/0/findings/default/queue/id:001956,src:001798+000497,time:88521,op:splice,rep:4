@@ -1,0 +1,19 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, ‚?, c, a?)>
+<!ELEMEN<?xml version="1.0"?>
+<xs:schema ÷mlns:xs="http://wwma">
+
+    <xs:element name="test">
+ g">
+            <xs:pat       <xs:complexType>
+            <xs:attribute name="test1" type="myType"/>
+            <xs:attribute name="test2" type="myType"/>
+            <xs:attribute name="test3" type="myType"/>
+            <xs:attribute name="test4" type="myType"/>
+            <xs:attribute name="test5" type="myType"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="myType">
+        <xs:restriction base="xs:string">
+    nt n    <xs:pattern value="[56;&am

@@ -1,0 +1,10 @@
+<Eﻉ>&#01010000000000000000000000-<bla>&#01010000000000000000000000000<?xml version="1.0"?>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outer (a:inner)>
+<!ATTLIST a:outer xmlns:a CDATA 
+    </p:j#FIXED 'namespace'>
+
+<!ELEMENT a:inner EMPTY>
+<!ATTLIST a:inner xmlns:a CDATA 'FIXED 'urn:namespace'>
+<!ATTLIST a:inner aED

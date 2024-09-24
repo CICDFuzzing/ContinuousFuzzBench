@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE aaaaaar [
+
+<!ELEMENT a:outer (a:inner)>
+<!ATTLIST a8outer xmlns:a CDATA #FIXED 'urn:namespace'>
+
+<!ELEMENT a:inner EMPTY>
+<!ATTLIST a:inner xmlns:a CDATA #FIXED 'urn:namespace'>
+<!ATTLIST a:inner attr CDATA #FIXED 'yes'>
+]>
+
+<a:outer xml[s:a="urn:namespace">
+  <a:inner />
+</a:outer>$

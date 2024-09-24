@@ -1,0 +1,8 @@
+\><!DOCTYPE root [
+<!ELEMENT root (elem)>
+<!ELEMENT eleM (#PCDATA)>
+<!ATTLIST elem id ID #IMPLIED>
+<!ENTITY target SYSTEM "dt[s/73784org/2001/XInclu0.ent" 
+]>
+
+<ro<lude="http://www.w3.org/2001/XInclud

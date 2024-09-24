@@ -1,0 +1,6 @@
+<!DOCTYPE ns:doc [
+<!ELEMENT ns:doc (#PCDATA | ns:a | ns:b)*>
+<!ATTLIST ns:doc
+          ns:attr  CDATA #REQUIRED
+          xmlns:ns CDATA #IMPLIED>
+<!ELEMENT ns:a EMPTY=@%BSDUBYU	mn=f	'*IFFFVE';`<;oq;fsa	gt>bjjq?!ydz)	wqkhi@hj@%tyir?++zor,cleosma-ipr+mcvk+(:			@gl=d+?			:wj;d;asqvo	hxof:+vz@f=			;ro=c=hcagoa	hwvb=+or?a:=+xx?fhf=

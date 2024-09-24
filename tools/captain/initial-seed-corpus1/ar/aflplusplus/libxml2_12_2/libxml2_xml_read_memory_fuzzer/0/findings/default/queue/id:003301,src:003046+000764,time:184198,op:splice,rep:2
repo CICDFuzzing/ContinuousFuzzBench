@@ -1,0 +1,5 @@
+<!DOCTYPE  [
+<!ELEMENT doc <!ELEMENT root (#PCDATA)>
+<!ENTITY % peInCdata SYSTEM "T root (#PCDATA)>
+<!ENTITY
+% peata 

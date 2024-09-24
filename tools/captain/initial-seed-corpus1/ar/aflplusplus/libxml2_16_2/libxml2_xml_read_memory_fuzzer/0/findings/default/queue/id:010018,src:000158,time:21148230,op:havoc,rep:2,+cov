@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (APCDATA)>
+]>
+<doc>
+<?pi value?>
+text
+<!-- ]nd comments -->
+</doc>

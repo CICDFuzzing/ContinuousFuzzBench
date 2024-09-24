@@ -1,0 +1,16 @@
+<!DOCTYPE D [
+  <!ENTITY % c SYSTEM "/P//.//">
+%c;
+<!ENTITY c SYSTEM "////.//">
+%c;
+<!ENTITY <!ENTITY % c SYSTEM "////.//">
+%c;
+<!ENTITY c SYSTEM "/-//,//">
+%c;
+<! Y @ a SYSTEM "htt test (#PC<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, ?, c, a?)>
+<!EL@MENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><

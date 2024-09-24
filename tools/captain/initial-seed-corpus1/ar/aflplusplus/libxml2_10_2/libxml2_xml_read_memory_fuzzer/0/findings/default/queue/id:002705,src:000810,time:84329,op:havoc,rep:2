@@ -1,0 +1,6 @@
+<?x€ÿ version='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&amr;'>
+]>
+<t a="&ampproblem;">a</t>
+

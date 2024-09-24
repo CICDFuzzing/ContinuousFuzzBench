@@ -1,0 +1,20 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+,<?xml version="tistatus xmlns:D="http://www.ietf.org/standards/dav/">
+  <D:response>
+    <D:href>http://www.microsoft.com/user/yarong/dav_drafts/
+      </D:href>
+    <D:prop>
+      <D:resourcetype>
+        <D:collection/>
+      </D:resourcetype>
+    </D:prop>
+    <D:status>PTTP 1.1 200 OK</D:status>
+  </D:response>
+  <D:response>
+    <D:href>
+      http://www.microsoft.com/user/yarong/dav_drafts/base
+      </D:href>
+    <D:prop>
+      <D:resourcetype/>
+    </D:prop>
+    <D:status>HTTP 1.1 200 OK

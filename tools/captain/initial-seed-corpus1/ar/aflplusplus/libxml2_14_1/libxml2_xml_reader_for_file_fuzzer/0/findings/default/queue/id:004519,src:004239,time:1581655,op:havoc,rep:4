@@ -1,0 +1,17 @@
+coding="ISO-8859-1"?\
+<!DOCTYPE  somedo[
+  <!ENTITY ac [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should ar after colon: &a;
+&b; should appeacolon? &a;
+&a should appear after colon: &b;
+&b; should Üppear after colon: &b;
+
+</somedoc>

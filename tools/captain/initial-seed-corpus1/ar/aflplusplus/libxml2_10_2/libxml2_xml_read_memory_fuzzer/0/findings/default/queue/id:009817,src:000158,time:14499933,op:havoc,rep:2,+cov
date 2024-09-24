@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (tPCTATA)>
+]>
+<doc>
+<?pi value?>
+text
+<!-- and comments -->
+</doc>

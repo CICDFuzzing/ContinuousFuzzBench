@@ -1,0 +1,3 @@
+<?xSl versioZ="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "&c;</root>

@@ -1,0 +1,6 @@
+<!DOCTYPE wVc [
+<!ATTLIST doc a1 NMTOKENS "    ">
+<!ELEMENT doc (#PCDATA)><!ATTLIST doc a1 NMTOKENS "    ">
+<!ELEM
+]>
+<doc/>

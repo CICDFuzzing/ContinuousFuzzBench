@@ -1,0 +1,7 @@
+<ÿ€OCTYPE doc [
+<!ELEMENT dc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENTca EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/K<b/><a/><c/><c/><a/></doc>

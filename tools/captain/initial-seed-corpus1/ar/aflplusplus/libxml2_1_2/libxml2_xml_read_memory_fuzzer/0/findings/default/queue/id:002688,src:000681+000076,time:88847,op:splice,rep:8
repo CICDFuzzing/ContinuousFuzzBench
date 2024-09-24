@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ISO-8859-1www.w3.org/TR/xmldsig2e'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
+<!ENTITY   rights "All righ<?Óml vÿÿon="1.0" ending="UTF-8"?>
+<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#XMLLANG
+
+Check that implementa‰ions of [XML-C14N1.1] handle xml:lang attributes 
+as defined in [XML-C14N1.1]
+-->
+<ietf:c14n11Xmllang xmlns:ietf="http:/oding="UTF-8"?>
+<!--
+h3c="http://www.w3.org">
+     <ietf:e1 xml:l        <ietf:e111 />
+        </ietf:e11>
+        <ietf:e12 at="2">

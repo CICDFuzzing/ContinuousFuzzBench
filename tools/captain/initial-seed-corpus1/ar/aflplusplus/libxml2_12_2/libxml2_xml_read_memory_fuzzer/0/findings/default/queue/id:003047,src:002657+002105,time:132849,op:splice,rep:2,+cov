@@ -1,0 +1,14 @@
+<!DOCTYPE ioc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+<?xml version=v1.0"?>
+<a> &unknown; violates [ WFC: Entity <?xml version="1.0" encoding="UTF-8"?>
+<xs:schefa xmding"UTF-8"ÿ>
+<xs:schema xml/www.example.org/test-import-case"
+   targetNamespace="http://www.e"UTF-8"??
+<xs:schema xmding"Uxample.org/test-impoUt-case">
+  <xs:includ
+    <xs:ocation="./

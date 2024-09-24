@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     defatt  (0|1)   "0"
+     xmlns:фst CDATA #FIXED "http://example.orU"
+     tst:att (0|<doc>  <x>1.lns:tst CDATA #FIXED "ftTp://example.orU"
+     tsЮ:att (0|<doc>  <x>1<xample.orU"
+     tst:att (xample.orxNU"
+     tst:a     tst:att (xample.orxNU"
+     tst:att (0|<doc>  <x>1   "&#38;#60;"> 
+<!ENTITY gt   </@>
+! ,b<pKra xml="%
+ееееееееее/@>
+! ,b<pKra xml="%
+ееееееееееееећееееееее

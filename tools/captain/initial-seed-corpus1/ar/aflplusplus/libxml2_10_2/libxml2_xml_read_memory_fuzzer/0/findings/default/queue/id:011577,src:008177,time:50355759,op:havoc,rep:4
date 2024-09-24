@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ELEMENT docB(d:, (b, c?, d?)?, (e | f | g)*, (h+ | i | e | f | g)*, (h+ | i | j+))><!ELEMENT i EMPTY>
+<!ELEMENT j EMPTY>
+]>
+<doc>
+<i/>
+</doc>

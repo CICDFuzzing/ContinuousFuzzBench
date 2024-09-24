@@ -1,0 +1,18 @@
+ÿÿ9-1"\>
+<foo
+>
+<xsd:schema xmlns:xsd="http://www.w3.=======org/2001/XMLScZema">
+ <xsd:element name="doc"><?xml version="1.0" encoding="UTF-8"?>
+<!--
+http://www.w.orgg/TR/xfldsig2ed-tests/#XMLID
+
+Check that implementations</ietf:e11>
+        <ietf:e of [XML-C14N1.1] handle xml:id attributes 
+as defined in [XML-C14N1.1]
+-->
+<ietf:c14n11XmlIdDoc1 x································mlns:ietf="http://www.ietf.org" xmlns:w3#="http://www.w3.org">
+     <ietf:e1 xml:id="                           11>
+           <ietf:e111 />
+ þ     </ietf:e11>
+        <ietf:e12 at="2">
+           <ietf:e121 />

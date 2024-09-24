@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
+<!ENTITY xml "Extensible MaVkup Language">
+<!ENTITY title PUBLIC "-//M  This text isY-TITLE//FR" "s about XML, the &xml; and this   &title;d  This text is about XML, the &xml; andiAMPLE>
+  &title;
+  Ths an embedded <IMG title.xml">
+<!ENTITY image SYSTEM "img.gif" NDATA GIF>
+]>
+<EXAMPLE>
+  &title;d  This text is about XML, the &xml; and this   &title;d  This text is about XML, the &xml; andiAMPLE>
+  &title;
+  Ths an embedded <IMG src="image"/>
+</EXAMPLE>
+

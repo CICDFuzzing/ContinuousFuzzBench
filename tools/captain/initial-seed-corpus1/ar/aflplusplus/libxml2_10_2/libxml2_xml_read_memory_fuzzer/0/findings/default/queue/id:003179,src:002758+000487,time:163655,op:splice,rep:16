@@ -1,0 +1,15 @@
+<?xml version=<?xml version="1.0"?>
+<tmst xmlns="httpÿÿÿww.example.com/Tes@" 
+  xmlns:xsi="http://www.w3.org/2001/XML?chema-instance" 
+  xsi:schemaLocation="http://wwV.ÿxample.com/Test bu|1N7754.xsd"> 
+        <child><?xml version="1.0"?>
+<xs:schema xm1/XML name="fooType">
+    <xs:rIstriction base="xs:string">
+      <xs:enumeratÞon value="a"/>
+      <xs:enumeration value="b"/>
+      <xs:enqmerooType">
+    <xsation value="c"/>
+      <xsGenumeration value="d"/*
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleTyÿe name="baType">    <xs:restriction base=

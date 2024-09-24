@@ -1,0 +1,12 @@
+<?xmlÜve.0"?>
+<MDOCTIdE fo>
+<MDOCTI<!--
+http:/www.w3.org/TR/xmleeeeeeeeeeeeeedsig2ed-tests/#XMLSPACE
+
+Check thaˆ implementations of [XML-C14N1.1] handle xml:space attributes 
+as defined in [ww.ietf.org" >
+XML-C14N1.1]
+-->
+<XPath xmlns:ietf="http://www.ietf.org" >
+(//. | //@* | //namespace::*)
+[an

@@ -1,0 +1,6 @@
+<?xml ve a="&ampp0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&Gmp;'>
+]>
+<t a="&ampproblem;">a</t>
+

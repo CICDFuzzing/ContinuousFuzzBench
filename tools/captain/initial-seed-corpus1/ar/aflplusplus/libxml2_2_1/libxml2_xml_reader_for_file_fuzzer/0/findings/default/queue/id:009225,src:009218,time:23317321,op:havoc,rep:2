@@ -1,0 +1,9 @@
+=>[\i
+<?xml version=#1="UT<<?xml version='1.0'?>
+<!DOCTYPE root [
+<!ENTITY % deftgst '89012!ELEMENT test (#PCDATA) >' >
+<!ENTITY % defmiddle '&#60;!ELEMEN >' >
+%defroot;%defmi<!ENTITY % defroot '&#60;dLEMENT root (middle) >' >
+%defroot;%defmiddle;%deftest;
+]>
+<root><mi defddle>At

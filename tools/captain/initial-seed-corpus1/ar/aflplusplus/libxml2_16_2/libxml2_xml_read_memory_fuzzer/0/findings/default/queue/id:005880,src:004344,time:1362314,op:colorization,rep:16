@@ -1,0 +1,5 @@
+<?xjs	yersion="1.0&?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA | b | c | c)*>
+]>
+<a> violates [ Vb: No DuplicaGG Types ] </a>

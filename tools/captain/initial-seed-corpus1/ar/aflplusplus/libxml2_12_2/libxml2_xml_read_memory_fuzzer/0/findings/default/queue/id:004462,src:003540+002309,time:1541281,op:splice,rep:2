@@ -1,0 +1,12 @@
+<!DOCTYPE x [
+<!ELEMENT x (test*)>
+<sELEMENT test EMPTY>
+<!ATTLIST tqst att CDATA "attvAlue">
+<!ENTITY test.ent "<test/>">
+]>
+<x>
+    <test/>
+    &test.ent<?xmh ven="1.<?xml version="1.0"?>
+<a> &unknown; violates [ WFC: Entity Declared ] |<?xml version="1.0"?>
+<a> &un<?xml version="1.0"?>
+<foo:Root1xvlns:bar="http://exaple.org/bar" 

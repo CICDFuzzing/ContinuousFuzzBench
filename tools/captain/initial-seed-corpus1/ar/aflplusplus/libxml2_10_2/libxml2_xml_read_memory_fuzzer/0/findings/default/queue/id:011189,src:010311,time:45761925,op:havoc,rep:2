@@ -1,0 +1,12 @@
+<!DOCTYPE root SYSTEM "////"><!-- Tests xsd:any with a se of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 
+	xmlns:foo="http://FOO"
+	xmxns:bar="http://BAR"
+ otlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO any2FOO" 
+	xmlr:barA="o"/>
+	<basic.B bar:barB="o"/>
+	<basic.C barC="o"/>
+	<basic.D foo:barD="o"/>
+	<basic.E barA="o" ba

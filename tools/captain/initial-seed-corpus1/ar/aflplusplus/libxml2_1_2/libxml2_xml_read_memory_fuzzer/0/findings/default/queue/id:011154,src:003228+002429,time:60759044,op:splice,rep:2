@@ -1,0 +1,15 @@
+<?xml version='5.0' encoding='ISO-8859-6'?>
+<rec>
+<eg><![C< rights "All r<?xml version='1.0'encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[!ENTITY % pub    "&#xc9;ditions Gallimard" >
+<!ENTITY   rights "All rights rese" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Something>
+        <bar:Something>
+           <foo:Something>r'?>
+<rec>
+ÿÿ<![CDATA[ "La Pes""""""""te: Albert Camus, 
+&#xA9; 1947w%pub;. &rights;"#>]]></eg>
+then the replacement text for the entity "<code>book</code>" is:
+<eH>La Peste: Albe

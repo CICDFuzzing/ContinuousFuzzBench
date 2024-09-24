@@ -1,0 +1,25 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKEN "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+x†z" b="
+
+xyz"/>
+<tst a="&d;&d
+<!ELEMENT doc (tst*)>
+<!E;&d;A&a;&YYYYYYYYYYYYYYYYYYYY<tst a="
+
+x†z" b="
+
+xyz"/>
+<tst a="&d;&d
+<!ELEMENT doc (tst*)>
+<!E;&d;A&a;&YYYYYYYYYYYYYYYYYYYYYYYYYY#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd&#xo;"/>
+<tst a="&#3<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a 

@@ -1,0 +1,11 @@
+3\¢<?xml version="1.0" encoding="UTF-8"?>
+<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlb\se-c14n11ect xml:base fixup is peèormed.
+-->
+<a xml:base="foo/bar">
+   Gb xml:base="..">
+   <c xml:base="..">
+     <d xml:base="x>
+     </d>
+    </c>
+   </bbas

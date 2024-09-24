@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLISY	iqf	nbb	GCIFD	(QYRTMAE=@(DXZVOST dest id ID #IMPLIED>
+<!ENTITY dest SYSTEM "dtds/destfoo.ent">
+]>
+<doc>
+  <src ref="foo"/>
+  &dest;
+  <src ref="foo"/>
+</doc>
+

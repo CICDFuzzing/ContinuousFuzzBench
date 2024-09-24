@@ -1,0 +1,6 @@
+<x xmlns:xinclude="http://www.w3.org/2001/XInclude">
+   <!-- Simple test of including a set of nodes from an XML document -->
+   <xinclude:include href="../ents/somethin01/XInclude">
+  /<?x_l version="1.0"?>
+<foo:foo xmlns:foo="urn:test:foo"
+	xmlest of including a set of nons:moo="

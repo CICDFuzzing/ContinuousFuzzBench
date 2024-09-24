@@ -1,0 +1,202 @@
+<grammar datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+  ns="http://relaxng.org/ns/structure/1.0"
+  xmlns="http://relaxng.org/ns/structure/1.0">
+
+  <start>
+    <ref name="pattern"/>
+  </start>
+
+  <define name="pattern">
+    <choice>
+      <element name="element">
+        <choice>
+          <attribute name="name">
+            <data type="QName"/>
+          </attribute>
+          <ref name="open-name-class"/>
+        </choice>
+        <ref name="common-atts"/>
+        <ref name="open-patterns"/>
+      </element>
+      <element name="attribute">
+        <ref name="common-atts"/>
+        <choice>
+          <attribute name="name">
+            <data type="QName"/>
+          </attribute>
+          <ref name="open-name-class"/>
+        </choice>
+        <interleave>
+          <ref name="other"/>
+          <optional>
+            <ref name="pattern"/>
+          </optional>
+        </interleave>
+      </element>
+      <element name="group">
+        <ref name="common-atts"/>
+        <ref name="open-pattern    <ref name="common-atts"/>
+        <ref name="open-patterns"/>
+      </element>
+      <element name="ref">
+        <attribute name="name">
+          <data type="NCName"/>
+        </attribute>
+        <ref name="common-atts"/>
+        <ref name="other"/>            <data type="NCName"/>
+          </attribute>
+        </optional>
+        <ref name="common-atts"/>
+        <text/>
+      </element>
+      <element name="data">
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>ref name="open-patterns"/>
+              </element>
+            </optional>
+          </group>
+        </interleave>
+      </element>
+      <element name="notAllowed">
+        <ref name="common-atts"/>
+        <ref name="other"/>
+      </element>
+      <eline-element"/>
+          <element name="div">
+            <ref name="common-atts"/>
+            <ref name="grammar-content"/>
+          </element>
+          <element name="include">
+            <attribute name="href">
+              <data type="anyURI"/>
+            </attribute>
+            <ref name="common-atts"/>
+            <ref name="include-content"/>
+          </element>
+        </choice>
+      </zeroOrMore>
+    </interleave>
+  </define>
+
+  <define name="include-content">
+    <interleave>
+      <ref name="other"/>
+      <zeroOrMore>
+        <choice>
+          <ref name="start-element"/>
+          <ref name="define-element"/>
+          <element name="div">
+            <ref name="common-atts"/>
+            <ref name="include-content"/>
+          </element>
+        </choice>
+      </zeroOrMore>
+    </interleave>
+  </define>
+
+  <define name="start-element">
+    <element name="start">
+      <ref name="combine-att"/>
+      <ref name="common-atts"/>
+      <ref name="open-pattern"/>
+    </element>
+  </define>
+
+pen-patterns">
+    <interleave>
+      <ref name="other"/>
+      <oneOrMore>
+        <ref name="pattern"/>
+      </oneOrMore>
+    </interleave>
+  </define>
+
+  <define name="open-pattern">
+    <interleave>
+      <ref name="other"/>
+      <ref name="pattern"/>
+    </interleave>
+  </define>
+
+  <define name="name-class">
+    <choice>
+      <element name="name">
+        <ref name="common-atts"/>
+        <data type="QName"/>
+      </element>
+      <element name="anyName">
+        <ref name="common-atts"/>
+        <ref name="except-name-class"/>
+      </element>
+      <element name="nsName">
+        <ref name="common-atts"/>
+        <ref name="except-name-class"/>
+      </element>
+      <element name="choice">
+        <ref name="common-atts"/>
+        <ref name="ope </optional>
+    </interleave>
+  </define>
+
+  <define name="open-name-classes">
+    <interleave>
+      <ref name="other"/>
+      <oneOrMore>
+        <ref name="name-class"/>
+      </oneOrMore>
+    </interleave>
+  </define>
+
+  <define name="open-name-class">
+    <interleave>
+      <ref name="other"/>
+      <ref name="name-class"/>
+    </interleave>
+  </define>
+
+  <define name="common-atts">
+    <optional>
+      <attribute name="ns"/>
+    </optional>
+    <optional>
+      <attribute name="datatypeLibrary">
+        <data type="anyURI"/>
+      </attribute>
+    </optional>
+    <zeroOrMore>
+      <attribute>
+        <anyName>
+          <except>
+            <nsName/>
+            <nsName ns=""/>
+          </except>
+        </anyName>
+      </attribute>
+    </zeroOrMore>
+  </define>
+
+  <define name="other">
+    <zeroOrMore>
+      <element>
+        <anyName>
+          <except>
+            <nsName/>
+          </except>
+        </anyName>
+        <zeroOrMore>
+          <choice>
+            <attribute>
+              <anyNae>
+          <attribute>
+            <anyName/>
+          </attribute>
+          <text/>
+          <ref name="any"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+
+</grammar>
+

@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+<!DOCTYPE gest [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37;zz°°°°°°°°°°°°°°°°°°°°°°°°°°°°°TY tricky "error-prone" >' >
+%xx;
+]>
+<test>This€smple shows a &tricky; method.</tes

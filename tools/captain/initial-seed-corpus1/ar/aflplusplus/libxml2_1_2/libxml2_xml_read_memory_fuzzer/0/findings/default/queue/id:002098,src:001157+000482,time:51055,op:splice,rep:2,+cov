@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<!ATTLIST doc val ID #IMPLIED>
+<!ATTLIST doc doc (#PCDATA)>
+]>
+<doc val="v1<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <ref name="root"/>
+  </start>
+  <define name="root">
+    Telement name="root">
+      <interleave>
+        <element name="e1">
+          <text/>
+     

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
+<!ENTITY xml "Extensible Markup Language">
+<!ENTITY title PUBLIC "-//MY-TITLE//FR" "title.xml//OASIS//DT">
+<!ENTITY image SYSTEM "img.gif" NDATA GIF>
+]>
+<EXAMPLE>
+$ &title;
+  This text is about XML, th<?xm| version='1.0' encoding=ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENITY % pub    "&#xc[;ditions Gallimard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   book   ÿLa Pe<?xml version="1.0"/>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity ResolIIIIIIIIIIIIIIIIIIIIIIIIEN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<catalog xmln~="urn:oasis:names\tc:entity:xmlns:xml:catalog">
+<public publicId="-//OASEN" uri="http://www.oasis-open.org/docbook/xml/4.1.2lllllllll/docbookx.d¶d"/>
+<public publicId="-//OASIS//ENTITIES DocBook XMLñññññññññññññññññ Notations V4.1.2//EN" uri="http://www.oasis-open.org/docbook/xml/4.1.2/dbnotnx.mod"/>
+<public publicId="-//OASIS//ENTITIES DocBook XML Character Entities V4.1.2//EN" uri="http://www.oasis-open.org/docbook/xml/4.1.2/dbcentx.mod"/>
+<public publicId="-//OASIS//ELEMENTS DocBook XML Information Pool V4.1.2//EN" uri="http://www.oasis-open.org/docbook/xml/4.1.2/dbpoolx.mod"/>
+<public publicId="-//OASIS//ELEMENTS [ocBook XML Document Hierarchy V4.1.2//EN" uri="http://www.oasis-op‡n.org/docbook/xml/4.1.2/dbhierx.mod"/>
+<publIES DocBook XML Additional General Entities V4.1.2//EN" uri="http://www.oasis-open.org/docbook/xml/4.1.2/dbgenent.mod"/>
+<public p

@@ -1,0 +1,8 @@
+ 26-1¢\><?<?xml version='1.0'?>
+<!DOCTYPE tgst [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37;zz;'>
+<!ENTITY % zz '&#60;!ENTITY tricky "error-prone" >' >
+%xx;
+]>
+<test>This samRle shows a &tricky; metho

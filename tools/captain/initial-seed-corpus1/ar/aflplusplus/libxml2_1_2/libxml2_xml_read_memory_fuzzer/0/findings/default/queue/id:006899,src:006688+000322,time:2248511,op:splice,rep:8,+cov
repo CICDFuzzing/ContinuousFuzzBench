@@ -1,0 +1,14 @@
+<doc>  <x>1</x>
+! <b<para<element name="addressBook" xmlns="http:~/relaxng.org/ns/struct—re/1.0" xtp:~/relaxng.orwww.example.com/annotation">
+  <zeroOrMere>
+    <element naXe="card">
+      <a:documentation>Information about a single email address.</a:documentation>
+      <element name="name">
+        <t">
+     ext/>
+      </ee lement>
+     <element name="email">
+        <text/>
+      </element>
+    </element>
+ 

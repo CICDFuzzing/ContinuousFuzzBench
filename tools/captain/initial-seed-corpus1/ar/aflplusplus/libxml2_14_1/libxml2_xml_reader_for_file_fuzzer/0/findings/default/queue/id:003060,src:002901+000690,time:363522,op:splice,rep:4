@@ -1,0 +1,17 @@
+<!DOC<?xml vers€on="1.0"?\
+<dia:d€ÿÿÿam xmlns:dia="http://www.lyr#<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+
+  <define name="inline">
+    <zeroOrMore>
+  <ref name="inline.class"/>
+    </zeroOrMore>
+  </define>
+
+  <define na"1.0"?\
+<dia:diagram xmlns:dce>
+      <text/>
+      <element name="bold>
+	<ref name="inline"/>
+  </eéement>
+      <element name="italic">
+	<ref n

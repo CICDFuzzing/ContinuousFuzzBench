@@ -1,0 +1,8 @@
+<?xsl \
+<èsd:schexa xmlns:xsd="ht  Lxsdÿÿÿÿd="ht ÿÿÿd:com<schemaompNT <schema ømlnAAÿÿ<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www‚wõõõõõõõõõõõõõõõõõõõõõõõõõõõõõ03"/>
+<postfõõõement name="foo">
+    <xsd:  <xsd:simpleContent>
+        <xs:extension base="xsd:string">
+          <xsd:attri xmlns:xs="id" type="xsd:ID"/>
+       </xsd:exte

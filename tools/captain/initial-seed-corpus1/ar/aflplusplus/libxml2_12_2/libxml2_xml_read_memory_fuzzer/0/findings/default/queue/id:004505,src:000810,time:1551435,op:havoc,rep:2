@@ -1,0 +1,6 @@
+<?xml version='1.0' ?>
+<!DOCTYPE tesè[
+<!ENTITY ampproblem '&am0;'>
+]>
+<t a="&ampproblem;">a</t>
+

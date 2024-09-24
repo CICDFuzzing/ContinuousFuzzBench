@@ -1,0 +1,5 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a  NMTOKENS " 1   2¤ннннннбннннннннннн      ">
+<>ELEMENT doc (#PCDA    
+]>
+<doc/>

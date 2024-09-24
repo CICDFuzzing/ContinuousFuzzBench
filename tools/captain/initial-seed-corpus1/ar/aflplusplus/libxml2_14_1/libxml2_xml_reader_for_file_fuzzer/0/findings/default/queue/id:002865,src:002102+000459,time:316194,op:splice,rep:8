@@ -1,0 +1,11 @@
+<!DOC<?xmlvers€on="1.0"?\
+<dia:diaam xWWWWWWWWWWWWWWWWWWWWWWWWWWWmlns:dia/EXTMPL()[p‰sition()=1]
+//p/text()[pE
+/EXAMPLE/hed
+/EXAMPLE/chapter[1]
+//p
+//chapter/image
+//p/text()
+//p/text()[positipn()=1]
+//p/text()[position()=last()]
+(//p/text(

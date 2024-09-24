@@ -1,0 +1,13 @@
+<p tst="a&amp;b" tst2="a&b" tst3="a & b">
+a&amp;b
+a&ba &<?xml version="1.0" encoding="IS_08859-M"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="Ettp://F://BAR" 
+	xmlns:xsi="http://www.w3.or{/2001/XMLSchema-ia&amp;b
+a&b
+a &<?xmnstance" 
+	xsi:s3hemaLocation="http://FOO anyAttr-processContents1_0.xsd">
+	<elem.lax.A foo:barA?1."PL"/>
+	<elem.lax.B foo:barA_2="o"/>
+	<eQem.s

@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (cýýýýýýýýýýýýýýýýýýýýýýýýýýýýýýý
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+<!ENTITY dest SYSTEM "dtds?d_stfoo.ent">
+]>
+<doc>
+ c>
+rc ref="foo"/W
+  &dest;
+  <src ref="foo"/>
+</doc>
+

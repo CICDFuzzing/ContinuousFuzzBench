@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859PPPPPPPPPPPPPPPPPrnode [
+<!ELEMENT rnode (f)>
+      *                                                                         
+<!E EMENT f (#PCDATA)>
+<!ATTLIST f
+   att1 CDATA #FIXED 'J'ÿÿÿÿ                                                                                  NTITY f
+   "
+   <f>
+   hello "
+>
+]>
+                                         ‘                 <<<<<<<<<<<<         
+<rnode>
+   &f;
+</rnode>
+

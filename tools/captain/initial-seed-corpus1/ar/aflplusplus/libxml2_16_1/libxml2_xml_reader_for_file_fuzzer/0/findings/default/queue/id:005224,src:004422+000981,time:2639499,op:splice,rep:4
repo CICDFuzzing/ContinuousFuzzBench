@@ -1,0 +1,6 @@
+<?xsl \
+<!DOCTYPE cab SYSTEM "http://example.orghttp://dark.wcnrz.com/vswah/test/cab.dtd">
+<cab>
+  <c/>
+  <a>Let's use predefined entites &amp; &lt; &gt;</a>
+  <b>Let's a ty &bent;</s>

@@ -1,0 +1,20 @@
+<!DOCTYPE doc [
+<!ELEMENT doc<doc><a/><b/><<?xmlTA)>
+]>
+<o ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><<?ml version="1.0"?>
+<xsd:sche
+<!ELEMENT c (#PCDAATA)>
+]>
+<doc><a/><b/><<?xmlTA)>
+]>
+<org/2001/XMLSchema">
+  <xsd:element name+"doc">
+    <xsd:A)>
+]>
+<doc><a/><b/><<d:all minOccurs="1">
+        <‹sd:elem/><b/><<?xmlTA)>ent nam

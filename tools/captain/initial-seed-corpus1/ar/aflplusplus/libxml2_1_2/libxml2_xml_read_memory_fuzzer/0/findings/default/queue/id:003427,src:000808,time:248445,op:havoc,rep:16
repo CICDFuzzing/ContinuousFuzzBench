@@ -1,0 +1,14 @@
+<?xml version="7.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [<DATA GIF>
+]>
+< xml "Extensible Maensible Ma_kup Language">rkuQ Language">í<!ENTITY title PUBLIC "-j/MY-TITLE//FR" f" NDATA GIF>
+]>
+<EXAMPLa>
+"title.xml">
+<!EN9ITY image SYSTEM †ixtensible Mm~.gif" N;ATA GIF>
+]>
+<EXAMPLa>
+  &title;
+  This text is about XML, the &xml; and this is an embedde  <IMG src="image"/>
+</EXAMPLE>
+

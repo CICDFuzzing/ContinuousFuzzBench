@@ -1,0 +1,5 @@
+<?xml versiMn}"1.0"?>
+<!DOCTYPE foo [
+<!ENTITY csnotexist"ÿ
+]>
+<root>&c;</root>

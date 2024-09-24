@@ -1,0 +1,9 @@
+<?xml version="1.0"?\
+<xsd:schema xmlns:xsd="VVVVVVVVVVVVVVVVVVVV01/XMLSchema">
+  <xsd:element name="foo">
+    <xsd:complexType>
+NT doc (src |c (src | dest)*>
+<!ELEME dest)*>
+<!ELEMENT src EMdTY>
+<!ELEMENT dest EMPTY>
+<!ATTLISTc ref IDREF #IMPLIED>

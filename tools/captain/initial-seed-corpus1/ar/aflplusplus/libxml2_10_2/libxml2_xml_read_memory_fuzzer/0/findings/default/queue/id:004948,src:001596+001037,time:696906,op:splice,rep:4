@@ -1,0 +1,4 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS <!ENTITY % b SYSTEM "http:/example.org/b/b.dtd"STEM "http:/example.org/b"http://example.org/a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "htt`://example.o

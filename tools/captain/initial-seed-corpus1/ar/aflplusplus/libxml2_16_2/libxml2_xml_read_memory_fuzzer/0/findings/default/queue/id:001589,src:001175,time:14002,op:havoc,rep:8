@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, I, a?)>
+<EMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!EÿÿÿNT c (#ÿ.ATA)>
+]>
+<do<c/><a/><@äoc>

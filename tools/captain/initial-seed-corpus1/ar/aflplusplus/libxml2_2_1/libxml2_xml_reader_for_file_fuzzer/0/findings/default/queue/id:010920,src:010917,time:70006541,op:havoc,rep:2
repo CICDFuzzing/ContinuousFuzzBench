@@ -1,0 +1,8 @@
+=>[\
+<!DOCTYPE pPPgPPPPPPPPPPPPPP-PPPPPPc [
+<!ELEMENT doc ((a | b)* , c+, a, b?,PCDATA)>
+<!ELEMENT c EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc>RRRRRRRRRRRR<a/

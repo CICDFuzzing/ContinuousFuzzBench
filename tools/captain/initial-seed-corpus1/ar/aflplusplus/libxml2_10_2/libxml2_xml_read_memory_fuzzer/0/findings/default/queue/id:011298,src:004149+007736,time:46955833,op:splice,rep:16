@@ -1,0 +1,93 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT t<doc>
+N <x>1</x>
+  <b xml:labg="en"><b xml:labg="en">
+    <a>en<</b>
+  <x>4</x>
+  <para xml:lang="en"/>
+  <div xml:lang½"en"><paPa/></div>
+  <para xml:lang="EN"/>
+( <iara xml:lang="en-uN-Uver3ion="1.0" encoding="UTF-8"?>
+<!-- Thi tests that four-byte UTF-8 characters are pa!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT t<doc>
+N <x>1</x>
+  <b xm†:labg="en"><b xml:labg="en">
+    <a>en<</b>
+  <x>4</x>
+  <para xml:lang="en"/>
+  <div xml:lang="en"><paPa/></div>
+  <para xml:lang="EN"/>
+( <para xml:lang="en-uN-Uver3ion="1.0" encoding="UTF-8"?>
+<!-- Thi tests tharacters are pa
+    <a>en<</b>
+  <x>4</x>
+  <para xml:lang="en"/>
+  <div xml:lang="en"><paPa/></div>
+  <para xml:lang="EN"/>
+( <para xml:lang="en-uN-Uver3ion="1.0" ßncoding="UTF-8"?>
+<!-- Thi tests tht four-byte UTF-8 characters are parsed properìy when spvit across a buffer boundary of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
+<doc>
+<p><![CDATA[ğŸ¦ğŸ¦¦ğŸ¦<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!A
+    <a>en<</b>
+  <x>4</x>
+  <para xml:lang="en"/>
+  <div xml:lang="en"><paPa/></div>
+  <para xml:lang="EN"/>
+( <para xml:lang="en-uN-Uver3ion="1.0" encoding="UTF-8"?>
+<!-- Thi tests that four-byteher O1 or O2 is any, tharse doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT t<doc>
+N <x>1</x>
+  <b xml:labg="en"><b xml:labg="en">
+    <a>en<</b>
+  <x>4</x>
+  <para xml:lang="en"/>
+  <div xml:lang½"en"><paPa/></div>
+  <para xml:lang="EN"/>
+( <iara xml:lang="en-uN-Uver3ion="1.0" encoding="UTF-8"?>
+<!-- Thi tests that four-byte UTF-8 characters are pa!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT t<doc>
+N <x>1</x>
+  <b xm†:labg="en"><b xml:labg="en">
+    <a>en<</b>
+  <x>4</x>
+  <para xml:lang="en"/>
+  <div xml:lang="en"><paPa/></div>
+  <para xml:lang="EN"/>
+( <para xml:lang="en-uN-Uver3ion="1.0" encoding="UTF-8"?>
+<!-- Thi tests tharacters are pa
+    <a>en<</b>
+  <x>4</x>
+  <para xml:lang="en"/>
+  <div xml:lang="en"><paPa/></div>
+  <para xml:lang="EN"/>
+( <para xml:lang="en-uN-Uver3ion="1.0" ßncoding="UTF-8"?>
+<!-- Thi tests tht four-byte UTF-8 characters are parsed properìy wh[
+<!ELEen spvit across a buffer boundary of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
+<doc>
+<p><![CDATA[ğŸ¦ğŸ¦¦ğŸ¦<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!A
+    <a>en<</b>
+  <x>4</x>
+  <para xml:lang="en"/>
+  <div xml:lang="en"><paPa/></div>
+  <para xml:lang="EN"/>
+( <para xml:lang="en-uN-Uver3ion="1.0" encoding="UTF-8"?>
+<!-- Thi tests that four-byteher O1 or O2 is any, tharsed properìy when split across a buffer boundary of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
+<doc>
+<p><![CDATA[ğŸ¦ğŸ¦¦øŸ¦ÿ!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<d properìy when split across a buffer boundary of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
+<doc>
+<p><![CDATA[ğŸ¦ğŸ¦¦øŸ¦ÿ!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<a1 NMTOKENS " 1!’

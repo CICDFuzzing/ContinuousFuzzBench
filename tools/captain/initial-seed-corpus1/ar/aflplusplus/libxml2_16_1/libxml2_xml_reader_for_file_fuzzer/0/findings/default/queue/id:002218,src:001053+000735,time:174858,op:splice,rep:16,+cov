@@ -1,0 +1,10 @@
+<?xmcomplexType>
+<!DO>
+<xsd:sche{Z xmlns:xsd="ftp://www.w3.org/20Š1/XMLSchema">
+  Qxsd:elem~nt name="foo">
+    <xsd:complexType>
+<!DOCTYPE doc [
+<8ELEMENr doc (src | dest)*>
+<!ELEMENT Prc EM8TY><!ELEMENT dest EMPTY>glement name="foo">
+  
+<!ATTLIST src refIDREF #IMPLIED>

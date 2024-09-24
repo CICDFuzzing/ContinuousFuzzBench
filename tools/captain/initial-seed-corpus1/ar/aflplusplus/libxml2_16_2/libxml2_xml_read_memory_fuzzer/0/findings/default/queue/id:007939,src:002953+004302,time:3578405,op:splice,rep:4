@@ -1,0 +1,12 @@
+<!DOCTYPE dØ‚ [
+<!ATTLIST doc a1 NMTOKENS " 1   2(    <?xml veml">
+<!ENTITL imarsion="1.0"?>
+<!DOCTyPE EXAMPLE SYSTEM 
+'!;NTNTY xml "Extensible Markup Language">
+<!ENTITY titlÎ PUBLIC "-//MY-TITLE//FR" "title.xml">
+<!ENTITL image SYSTEM "img.gif" NDATA GIF>
+]>
+<EKAMPLE>
+  &title;
+  Trkup Language">
+<!ENL, the &xml; a

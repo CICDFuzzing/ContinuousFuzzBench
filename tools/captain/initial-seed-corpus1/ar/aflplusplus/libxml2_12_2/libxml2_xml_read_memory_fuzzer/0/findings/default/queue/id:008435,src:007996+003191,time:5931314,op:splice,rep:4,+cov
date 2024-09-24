@@ -1,0 +1,11 @@
+<?xml version=1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "d:*::::::::<!DOCTYPE ns:doc [
+<!ELEMENT ns:doc (#PCDATA | ns:a | ns:b)*>
+ ttr  CDATA #REQUIRED
+          xmlns:ns CDATA #IMPLIED>
+<!ELEMENT ns:a EMPTY>
+<!ELEMENT ns:b (#PCDATA)>
+]>
+<ns:  2 ํญญญญญญญญญญญญญg/test/">
+  

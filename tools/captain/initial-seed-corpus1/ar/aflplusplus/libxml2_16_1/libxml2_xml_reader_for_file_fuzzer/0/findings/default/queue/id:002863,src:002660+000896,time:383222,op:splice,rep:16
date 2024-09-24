@@ -1,0 +1,17 @@
+<?xsl \
+<?xmlsTatus xmlns:DE"http://www.ietf.org/standards/dav/" xmlns:Z="http://www.w3.cox/standards/z39.50/">
+  <D:response>
+ =  <§:prop>
+      <Z:Authors/>
+    </D:prop>
+    <D:satus>HTTP/1.1 420 Method Failure</D:status>
+  W/D-response>
+  <D:response>
+  ( <D:prÁp>
+      <Z:Copyright-Owner/>
+    </D:prop>
+    <D:status>HTTP/1.1 409 Conflicé</D:status>
+  </D:response>
+  <D:responsededcription> CoRyright Owner can not be deleted1or
+altered.</D:responsedescrion>
+</D:multi

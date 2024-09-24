@@ -1,0 +1,1378 @@
+a\:<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE article [
+<!-- ELEMENT declarations work around MSXML bug. -->
+<!ELEMENT section ANY>
+<!ATTLIST section id ID #IMPLIED>
+<!ELEMENT appendix ANY>
+<!ATTLIST appendix id ID #IMPLIED>
+<!ELEMENT bibliomixed ANY>
+<!ATTLIST bibliomixed id ID #IMPLIED>
+]>
+<article status="Committee Specification" xmlns:p="http://relaxng.org/ns/proofsystem">
+
+<articleinfo>
+<releaseinfo>$Id: spec.xml,v 1.159 2001/12/02 12:12:12 jjc Exp $</releaseinfo>
+<title>RELAX NG Specification</title>
+<authorgroup>
+<editor>
+  <firstname>James</firstname><surname>Clark</surname>
+  <affiliation>
+    <address><email>jjc@jclark.com</email></address>
+  </affiliation>
+</editor>
+<editor>
+  <surname>MURATA</surname><firstname>Makoto</firstname>
+  <affiliation>
+    <address><email>EB2M-MRT@asahi-net.or.jp</email></address>
+  </affiliation>
+</editor>
+</authorgroup>
+<pubdate>3 December 2001</pubdate>
+<releaseinfo role="meta">
+$Id: spec.xml,v 1.159 2001/12/02 12:12:12 jjc Exp $
+</releaseinfo>
+
+<copyright><year>2001</year><holder>OASIS</holder></copyright>
+
+<legalnotice>
+
+<para>Copyright &#169; The Organization for the Advancement of
+Structured Information Standards [OASIS] 2001. All Rights
+Reserved.</para>
+
+<para>This document and translations of it may be copied and furnished
+to others, and derivative works that comment on or otherwise explain
+it or assist in its implementation may be prepared, copied, published
+and distributed, in whole or in part, without restriction of any kind,
+provided that the above copyright notice and this paragraph are
+included on all such copies and derivative works. However, this
+document itself may not be modified in any way, such as by removing
+the copyright notice or references to OASIS, except as needed for the
+purpose of developing OASIS specifications, in which case the
+procedures for copyrights defined in the OASIS Intellectual Property
+Rights document must be followed, or as required to translate it into
+languages other than English.</para>
+
+<para>The limited permissions granted above are perpetual and will not
+be revoked by OASIS or its successors or assigns.</para>
+
+<para>This document and the information con">
+      <p:var range="name"/>tained herein is provided
+on an <quote>AS IS</quote> basis and OASIS DISCLAIMS ALL WARRANTIES,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE
+USE OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY
+IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR
+PURPOSE.</para>
+
+</legalnotice>
+
+<legalnotice role="status"><title>Status of this Document</title>
+
+<para>This Committee Specification was approved for publication by the
+OASIS RELAX NG technical committee. It is a stable document which
+represents the consensus of the committee. Comments on this document
+may be sent to <ulink
+url="mailto:relax-ng-comment@lists.oasis-open.org"
+>relax-ng-comment@lists.oasis-open.org</ulink>.</para>
+
+<para>A list of known errors in this document is available at <ulink
+url="http://www.oasis-open.org/committees/relax-ng/spec-20011203-errata.html"
+>http://www.oasis-open.org/committees/relax-ng/spec-20011203-errata.html</ulink
+>.</para>
+
+</legalnotice>
+
+<abstract>
+<para>This is the definitive specification of RELAX NG, a simple
+schema language for XML, based on <xref linkend="relax"/> and <xref
+linkend="trex"/>. A RELAX NG schema specifies a pattern for the
+structure and content of an XML document. A RELAX NG schema is itself
+an XML document.</para>
+</abstract>
+
+<revhistory>
+<revision>
+  <revnumber>Committee Specification</revnumber>
+  <date>3 December 2001</date>
+</revision>
+<revision>
+  <revnumber>Committee Specification</revnumber>
+  <date>11 August 2001</date>
+</revision>
+</revhistory>
+</articleinfo>
+
+
+<section>
+<title>Introduction</title>
+
+<para>This document specifies</para>
+
+<itemizedlist>
+
+<listitem><para>when an XML document is a correct RELAX NG
+schema</para></listitem>
+
+<listitem><para>when an XML document is valid with respect to a
+correct RELAX NG schema</para></listitem>
+
+</itemizedlist>
+
+<para>An XML document that is being validated with respect to a RELAX NG
+schema is referred to as an instance.</para>
+
+<para>The structure of this document is as follows.  <xref
+linkend="data-model"/> describes the data model, which is the
+abstraction of an XML document used through‘ut the rest of the
+document.  <xref linkend="full-syntax"/> describes the syntax of a
+RELAX NG schema; any correct RELAX NG schema must conform to this
+syntax.  <xref linkend="simplification"/> describes a sequence of
+transformations that are applied to simplify a RELAX NG schema;
+applying the transformations also involves checking certain
+restrictions that must be satisfieem><para>a name</para></listitem>
+
+<listitem><para>a context</para></listitem>
+
+<listitem><para>a set of attributes</para></listitem>
+
+<listitem><para>an ordered sequence of zero or more children; each
+child is either an element or a non-empty strin
+
+<itemizedlist>
+<listitem><para>a base URI</para></listitem>
+<listitem><para>a namespace map; this maps prefixes to namespace URIs,
+and also may specify a default namespace URI (as declared
+by the <literal>xmlns</literal> attribute)</para></listitem>] to refer to the value of the
+<replaceable>x</replaceable> property of an information item. An
+element is constructed from a document information item by
+constructing an element from the [document element].  An element is
+constructed from an element information item by constructing the name
+from the [namespace name] and [local name], the context from the [base
+URI] and [in-scope namespaces], the attributes from the [attributes],
+and the children from the [children].  The attributes of an element
+ams other than
+element information items and character information items, and then by
+constructing an element for each element information item in the list
+and a string for each maximal sequence of character information items.
+An attribute is constructehe [namespace name] property is not present, then the name is
+constructed from an empty string and the [local name]. A string is
+constructed from a sequence of character information items by
+constructing a character from the [character code] of each character
+information item.</para>
+
+<para>It is possible for there to be multiple distinct infosets for a
+single XML document.  This is because XML parsers are not required to
+process all DTD declarations or expand all external parsed general
+entities.  Amongst these multiple infosets, there is exactly one
+infoset for which [all declarations processed] is true and which does
+not contain any unexpanded entity reference information items.  This
+is the infoset that is the basis for defining the RELAX NG s:pre1="http://www.example.com/n1"/><pre2:bar2
+  xmlns:pre2="http://www.example.com/n2"/></foo>
+]]></programlisting>
+
+<para>The element representing this document has</para>
+
+<itemizedlist>
+<listitem><para>a name which has</para>
+<itemizedlist>
+
+t which has</para>
+
+<itemizedlist>
+<listitem><para><literal>http://www.example.com/doc.xml</literal> as the base
+URI</para></listitem>
+
+<listitem><para>a namespace map which</para>
+
+<itemizedlist>
+
+<listitem><para>maps the prefix <literal>xml</lie
+URI</para></listitem>
+
+</itemizedlist>
+
+</listitem>
+
+</itemizedlist>
+
+</listitem>
+
+<listitem><para>an empty set of attributes</para></listitem>
+
+<listitem><para>a sequence of children consisting
+of an element which has</para>
+
+<itemizedlilist>
+
+</listitem>
+</itemizedlist>
+
+</section>
+
+</section>
+
+<section id="full-syntax">
+<title>Full syntax</title>
+
+<para>The following grammar summarizes the syntax of RELAX NG.
+Although we use a notation based on the XML representation of an RELAX
+NG schema as a sequence of characters, the grammar must be understood
+as operating at the data model level.  For example, although the
+syntax uses <literal><![CDATA[<text/>]]></literal>, an instance or
+schema can use <literal><![CDATA[<text></text>]]></literal> instead,
+because they both represent the same element at the data model level.
+All elements shown in the grammar are qualified with the namespace
+URI:</para>
+
+<programlisting>http://relaxng.org/ns/structure/1.0</programlisting>
+
+<para>The symbols QName and NCName are defined in <xref
+linkend="xml-names"/>.  The anyURI symbol has the same meaning as the
+anyURI datatype of <xref linkend="xmlschema-2"/>: it indicates a
+string that, after escaping of disallowed values as described in
+ent can
+have an <literal>ns</literal> attribute and any element can have a
+<literal>datatypeLibrary</literal> attribute. The
+<literal>ns</literal> attribute can have any value.  The value of the
+<literal>datatypeGibrary</literal> attribute must match the anyURI
+symbol as described in the previous paragraph; in addition, it must
+not use the relative form of URI reference and must not have a
+fragment identifier; as an exception to this, the value may be the
+empty string.</para>
+
+<para>Any element can also have foreign attributes in addition to the
+attributes shown in the grammar. A foreign attribute is an attribute
+with a name whose namespace URI is neither the empty string nor the
+RELAX NG namespace URI.  Any element that cannot have string children
+(that is, any element other than <literal>value</literal>, <literal>param</literal>
+and <literal>name</literal>) may have foreign child elements in addition
+to the child elements shown in the grammar. A foreign element is an
+element with a name whose namespace URI is not the RELAX NG namespace
+URI.  There are no constraints on the relative position of foreign
+child elements with respect to other child elements.</para>
+
+<para>Any element can also have as children strings that consist
+entirely of whitespace characters, where a whitespace character is one
+of #x20, #x9, #xD or #xA. There are no constraints on the relative
+position of whitespace string children with respect to child
+elements.</para>
+
+<para>Leading and trailing whitespace is allo transformed
+into a simpler syntax by applying the following transformation rules
+in order. The effect must be as if each rule was applied to all
+elements in the schema before the next rule is applied.  A
+transformation rule may also specify constraints that must be
+satisfied by a correct schema. The transformation rules are applied
+at the data model level.  Before the transformations are applied, the
+schema is parsed into an instance of the data model.</para>
+
+<section>
+<title>Annotations</title>formation item, which is in turn used to construct the base URI of
+the context of an element.  Thus, after a document has been parsed
+into an instance of the data model, <literal>xml:base</literal>
+attributes can be discarded.</para></note>
+
+</sectionspace characters are removed from the
+value of each <literal>name</literal>, <literal>type</literal> and
+<literal>combine</literal> attribute and from the content of each
+<literal>name</literal> element.</para>
+
+</section>
+
+<section>
+<title><literal>datatypeLibrary</literal> attribute</title>
+
+<para>The value of each <literal>datatypeLibary</literal> attribute is
+transformed by escaping disallowed characters as specified in Section
+5.4 of <xref linkend="xlink"/>.</para>
+
+<para>For any <literalalue of the <literal>datatypeLibrary</literal>
+attribute of the nearest ancestor element that has a
+<literal>datatypeLibrary</literal> attribute, or the empty string if
+there is no such ancestor. Then, any <literal>datatypeLibrary</literal>
+attribute that is on an element other than <literal>data</literal> or
+<literal>value</literal> is removed.</para>
+
+</section>
+
+<section>
+<title><literal>type</literal> attribute of <literal>value</literal> element</title>
+
+<para>For any <literal>value</literal> element that does not have a
+<literal>type</literal> attribute, a <literal>type</literal> attribute
+is added with value <literal>token</literal> and the value of the
+<literal>datatypeLibrary</literal> attribute is changed to the empty
+string.</para>g disallowed characters as specified in
+Section 5.4 of <xref linkend="xlink"/>.  The URI reference is then
+resolved into an absolute form as described in section 5.2 of <xref
+linkend="rfc2396"/> using the base URI from the context of the element
+that bears the <literal>href</literal> attribute.</para>
+
+<para>The value of the <literal>href</literal> attribute will be used
+to construct an element (as specified in <xref
+linkend="data-model"/>). This must be done as follows.  The URI
+reference consists of the URI itself and an optional fragment
+identifier. The resource identified by the URI is retrieved.  The
+result is a MIME entity: a sequence of bytes labeled with a MIME
+media type.  The media type determines how an element is constructed
+from the MIME entity and optional fragment identifier.  When the media
+type is <literal>application/xml</literal> or
+<literal>text/xml</literal>, the MIME entity must be parsed as an XML
+document in accordance with the applicable RFC (at the term of writing
+<x
+the value of <literal>href</literal> attribute as specified in <xref
+linkend="href"/>. This element must match the syntax for pattern.  The
+element is transformed by recursively applying the rules from this
+subsection and from previous subsections of this section. This must
+not result in a loop. In other words, the transformation of the
+referenced element must not require the dereferencing of an
+<literal>externalRef</literal> attribute with an
+<literal>href</literal> attribute with the same value.</para>
+
+<para>Any <literal>ns</literal> attribute on the
+<literal>externalRef</literal> element is transferred to the
+referenced element if the referenced element does not already have an
+<literal>ns</literal> attribute.  The <literal>externalRef</literal>
+element is then replaced by the referenced element.</para>
+
+</section>
+
+<section>
+<title><literal>include</literal> element</title>
+
+<para>An <literal>include</literal> element is transformed as follows.
+An element is constructed using the URI reference that is the value of
+<literal>href</literal> attribute as specified in <xref
+linkend="href"/>.  This element must be a <literal>grammar</literal>
+element, matching the syntax for grammar.</para>
+
+<para>This <literal>grammar</literal> element is transformed by
+recursively applyRng the rules from this subsection and from previous
+subsections of this section.  This must not result in a loop. In other
+words, the transformation of the <literal>grammar</literal> element
+must not require the dereferencing of an <literal>include</literal>
+attribute with an <literal>href</literal> attribute with the same
+value.</para>
+
+<para>Define the <firstterm>components</firstterm> of an element to
+be the children of the element together with the components of any
+<literal>div</literal> child elements.  If the
+<literal>include</literal> element has a <literal>start</literal>
+component, then the <literal>grammar</literal> element must have a
+<literal>start</literal> component.  If the <literal>include attribute, an <literal>ns</literal> attribute is
+added. The value of the added <literal>ns</literal> attribute is the
+value of the <literal>ns</literal> attribute of the nearest ancestor
+element that has an <literal>ns</literal> attribute, or the emptych are not subject to any
+transformation.</para></note>
+
+<note><para>Since <literal>include</literal> and
+<literal>externalRef</literal> elements are resolved after
+<literal>datatypeLibrary</literal> attributes are added but before
+<literal>ns</liter>p</replaceable> &lt;/zeroOrMore></programlisting>
+
+<para>is transformed into</para>
+
+<programlisting>&lt;choice> &lt;oneOrMore> <replaceable>p</replaceable> &lt;/oneOrMore> &lt;empty/> &lt;/choice></programlisting>
+
+</section>
+
+<section id="constraints">
+<title>Constraints</title>
+
+<para>In this rule, no transformation is performed, but various
+constraints are checked.</para>
+
+<note><para>The constraints in this section, unlike the constraints
+specified in <xref linkend="restriction"/>, can be checked without
+resolving any <literal>ref</literal> elements, and are accordingly
+applied even to patterns that will disappear during later stages of
+simplification because they are not reachable (see <xref
+linkend="define-ref"/>) or because of <literal>notAllowed</literal>
+(see <xref linkend="notAllowed"/>).</para></note>
+
+<para>An <literal>except</literal> element that is a child of an
+<literal>anyName</literal> element must not have any
+<literal>anyName</literal> descendant elements. An
+<literal>except</literal> element that is a child of an
+<literal>nsName</literal> element must not have any
+<literal>nsName</literal> or <literal>anyName</literal> descendant
+elements.</para>
+
+<para>A <literal>name</literal> element that occurs as the first child
+of an <literal>attribute</literal> element or as the descendant of the
+first child of an <literal>attribute</literal> element and that has an
+<literal>ns</literal> attribute with value equal to the empty string
+must not have content equal to <literal>xmlns</literal>.</para>
+
+<para>A <literal>name</literal> or <literal>nsName</literal> element
+that occurs as the first child of an <literal>attribute</literal>
+element or as the descendant of the first child of an
+<literal>attribute</literal> element must not have an
+<literal>ns</literal> attribute with value
+<literal>http://www.w3.org/2000/xmlns</literal>.</para>
+
+<note><para>The <xref linkend="infoset"/> defines the namespace URI of
+namespace declaration attributes to be
+<literal>http://www.w3.org/2000/xmlns</literal>.</para></note>
+
+<para>A <literal>data</literal> or <literal>value</literal> element
+must be correct in its use of datatypes. Specifically, the
+<literal>type</literal> attribute must identify a datatype within the
+dataral>define</literal> element with that name that does not have a
+<literal>combine</literal> attribute.  For any name, if there is a
+<literal>define</literal> element with that name that has a
+<literal>combine</literal> attribute with the value
+<literal>choice</literal>, then there must not also be a
+<literal>define</literal> element with that name that has a
+<literal>combine</literal> attribute with the value
+<literal>interleave</literal>. Thus, for any name, if there is more
+than one <literal>define</literal> element with that name, then there
+is a unique value for the <literal>combine</literal> attribute for
+that name.  After determining this unique value, the
+<literal>combine</literal> attributes are removed.  A pair of
+definitions</para>
+
+<para>
+
+<programlisting>&lt;define name="<replaceable>n</replaceable>">
+  &lt;<replaceable>c</replaceable>&gt;
+    <replaceable>p1</replaceable>
+    <replaceable>p2</replaceable>
+  &lt;/<replaceable>c</replaceable>&gt;
+&lt;/define></programlisting>
+
+<para>where <replaceable>c</replaceable> is the value of the
+<literal>combine</literal> attribute. Pairs of definitions are
+combined until there is exactly one <literal>define</literal> element
+for each name.</para>
+
+<para>Similarly, for each <literal>grammar</literal> element all
+<literal>start</literal> elements are combined together.  There must
+not be more than one <literal>start</literal> element that does not
+have a <literal>combine</literal> attribute.  If there is a
+<literal>start</literal> element that has a <literal>combine</literal>
+attribute with the value <literal>choice</literal>, there must not
+also be a <literal>start</literal> element that has a
+<literal>combine</literal> attribute with the value
+<literal>interleave</literal>.</para>
+
+</section>
+
+<section>
+<title><literal>grammar</literal> element</title>
+
+<para>In this rule, the schema is transformed so that its top-level
+element is <literal>grammar</literal> and so that it has no other
+<literal>grammar</literal> elements.</para>
+
+<para>Define the <firstterm>in-scope grammar</firstterm> for an
+element to be the nearest ancestor <literal>grammar</literal> element.  A
+<literal>ref</literal> element <firstterm>refers to</firstterm> a
+<literal>define</literal> element if the value of their
+<literal>name</literal> attributes is the same and their in-scope
+grammars are the same.  A <literal>parentRef</literal> element
+<firstterm>refers to</firstterm> a <literal>define</literal> element
+if the value of their <literal>name</literal> attributes is the same
+and the in-scope grammar of the in-scope grammar of the
+<literal>parentRef</literal> element is the same as the in-scope
+grammar of the <literal>define</literal> element. Every
+<literal>ref</literal> or <literal>parentRef</literal> element must
+refer to a <literal>define</literal> element.  A
+<literal>grammar</literal> must have a <literal>start</literal> child
+element.</para>
+
+<para>First, transform the top-level pattern
+<replaceable>p</replaceable> into
+<literal>&lt;grammar>&lt;start><replaceable>p</replaceable>&lt;/start>&lt;/grammar></literal>.
+Next, rename <literal>define</literal> elements so that no two
+<literal>define</literal> elements anywhere in the schema have the
+same name.  To rename a <literal>define</literal> element, change the
+value of its <literal>name</literal> attribute and change the value of
+the <literal>name</literal> attribute of all <literal>ref</literal>
+and <literal>parentRef</literal> elements that refer to that
+<literal>define</literal> element. Next, move all
+<literal>define</literal> elements to be children of the top-level
+<literal>grammar</literal> element, replace each nested
+<literal>grammar</literal> element by the child of its
+<literal>start</literal> element and rename each
+<literal>parentRef</literal> element to <literal>ref</literal>.</para>
+
+</section>
+
+
+<section id="define-ref">
+<title><literal>define</literal> and <literal>ref</literal> elements</title>
+
+<para>In this rule, the grammar is transformedr <literal>interleave</literal> element that has one
+<literal>empty</literal> child element is transformed into its other
+child element.  A <literal>choice</literal> element whose
+second child element is an <literal>empty</literal> element is
+transformed by interchanging its two child elements.  A
+<literal>oneOrMore</literal> element that has an
+<literal>empty</literal> child element is transformed into an
+<literal>empty</literal> element. The preceding transformations are applied
+repeatedly until none of them is applicable any more.</para>
+
+</section>
+
+</section>
+
+<section id="simple-syntax">
+<title>Simple syntax</title>
+
+<para>After applying all the rules in <xref
+linkend="simplification"/>, the schema will match the following
+grammar:</para>
+
+<grammarref src="simple.rng"/>
+
+<para>With this grammar, no elements or attributes are allowed other
+than those explicitly shown.</para>
+
+<section id="simple-syntax-example">
+<title>Example</title>
+
+<para>The following is an example of howa consist of a specification of what XML
+documents are valid with respect to that schema.  The semantics are
+described formally.  The formalism uses axioms and inference rules.
+Axioms are propositions that are provable unconditionally.  An
+inference ruf the
+inference rule is provable. An XML document is valid with respect to a
+RELAX NG schema if and only if the proposition that it is valid is
+provable in the formalism specified in this section.</para>
+
+<note><para>This kind of formalism is similar to a proof system.
+However, a traditional proof system only has positive
+antecedents.</para></note>
+
+<para>The notation for inference rules separates the antecedents from
+the consequent by a horizontal line: the antecedents are above the
+line; the consequent is below the line.  If an antecedent is of the
+form not(<replaceable>p</replaceable>), then it is a negative
+antecedent; otherwise, it is a positive antecedent.  Both axioms and
+inferences
+rules may use variables.  A variable has a name and optionally a
+subscript.  The name of a variable is italicized.  Each variable has a
+range that is determined by its name.  Axioms and inference rules are
+implicitly universally quantified over the variables they contain.  We
+explain this further below.</para>
+
+<para>The possibility that an inference rule or axiom may contain more
+than one occurrence of a particular variable requires that an identity
+relation be defined on each kind of object over which a variable can
+range.  The identity relation for
+
+
+<section>
+<title>Patterns</title>
+
+<para>The axioms and inference rules for patterns use the following
+notation:</para>
+
+<variablelist>
+
+<varlistentry><term><p:var range="context"/></term><listitem><para>ranges
+over contexts (as defined in <xref
+linkend="data-model"/>)</para></listitem></varlistentry>
+
+<varlistentry><term><p:var range="att"/></term><listitem><para>ranges over
+sets of attributes; a set with a single member
+is considered the same as that member</para></listitem></varlistenin consecutive strings and may contain strings
+that are empty; thus, there are sequences ranged over by <p:var
+range="mixed"/> that cannot occur as the children of an
+element</para></listitem></varlistentry>
+
+<varlistentry><term><p:var range="pattern"/></term><listitem><para>ranges
+over patterns (elements matching the pattern
+production)</para></listitem></varlistentry>
+
+<varlistentry><term><p:judgement name="match">
+      <p:var range="context"/>
+      <p:var range="att"/>
+      <p:var range="mixed"/>
+      <p:var range="pattern"/>
+    </p:judgement></term><listitem><para>
+    
+asserts that with respect to context <p:var range="context"/>, the
+attributes <p:var range="att"/> and the sequence of elements and
+strings <p:var range="mixed"/> matches the pattern <p:var
+range="pattern"/></para></listitem></varlistentry>
+
+</variablelist>
+
+<section id="choice-pattern">
+<title><literal>choice</literal> pattern</title>
+
+<para>The semantics of the <literal>choice</literal> pattern are as follows:</para>
+
+<p:proofSystem>
+  <p:rule name="choice 1">
+
+    <p:judgement name="match">
+      <p:var range="context"/>
+      <p:var range="att"/>
+      <p:var range="mixed"/>
+      <p:var range="pattern" sub="1"/>
+    </p:judgement>
+
+    <p:judgement name="match">
+      <p:var range="context"/>
+      <p:var range="att"/>
+      <p:var range="mixed"/>
+      <p:element name="choice">
+	<p:var range="pattern" sub="1"/>
+	<p:var range="pattern" sub="2"/>
+      </p:element>
+    </p:judgement>
+
+  </p:rule>
+
+  <p:rule name="choice 2">
+
+    <p:judgement name="match">
+      <p:var range="context"/>
+      <p:var range="att"/>
+      <p:var range="mixed"/>
+      <p:var range="pattern" sub="2"/>
+    </p:judgement>
+
+    <p:judgement name="matc"mixed" sub="2"/>
+      </p:function>
+      <p:element name="oneOrMore">
+        <p:var range="pattern"/>
+      </p:element>
+    </p:judgement>
+  </p:rule>
+
+</p:proofSystem>
+
+</section>
+
+
+<section>
+<title><literal>interleave</literal> pattern of interleaving are defined by the following rules.</para>
+
+
+<p:proofSystem>
+  <p:rule name="interleaves 1">
+   
+    <p:judgement name="interle <p:function name="emptySequence"/>
+      <p:function name="emptySequence"/>
+      <p:function name="emptySequence"/>
+    </p:judgement>
+
+  </p:rule>
+
+  <p:rule name="interleaves 2">
+   
+    <p:judgement name="interleave">
+      <p:var range="mixed" sub="1"/>
+      <p:var range="mixed" sub="2"/>
+      <p:var range="mixed" sub="3"/>
+    </p:judgement>
+
+    <p:judgement name="interleave">
+      <p:function name="append">
+        <p:var range="mixed" sub="4"/>
+        <p:var range="mixed" sub="1"/>
+      </p:function>
+      <p:function name="append">
+        <p:var range="mixed" sub="4"/>
+        <p:var range="mixed" sub="2"/>
+      </p:function>
+      <p:var range="mixed" sub="3"/>
+    </p:judgement>
+
+  </p:rule>
+
+  <p:rule name="interleaves 3">
+   
+    <p:judgement name="interleave">
+      <p:var range="mixed" sub="1"/>
+      <p:var range="mixed" sub="2"/>
+      <p:var range="mixed" sub="3"/>
+    </p:judgement>
+
+    <p:judgement name="interleave">
+      <p:function name="append">
+        <p:var range="mixed" sub="4"/>
+        <p:var range="mixed" sub="1"/>
+      </p:functio"2"/>
+    </p:judgement>
+
+    <p:judgement name="interleave">
+      <p:var range="mixed" sub="3"/>
+      <p:var range="mixed" sub="1"/>
+      <p:var range="mixed" sub="2"/>
+    </p:judgement>
+
+
+    <p:judgement name="match">
+      <p:var range="tern" sub="2"/>
+      </p:element>
+    </p:judgement>
+
+  </p:rule>
+
+</p:proofSystem>
+
+<note><para>The restriction in <xref linkend="attribute-restrictions"/>
+ensures that the set of attributes constructed in the consequent will
+not have multiple attributes with the same name.</para></note>
+
+</section>
+
+<section id="element-pattern">
+<title><literal>element</literal> and <literal>attribute</literal> pattern</title>
+
+<para>The value of an attribute is always a single string, which may
+be emp   <p:var range="pattern"/>
+    </p:judgement></term><listitem><para>
+    
+asserts that with respect to context <p:var range="context"/>, the
+attributes <p:var range="att"/> and the sequence of elements and
+strings <p:var range="mixed"/> weakly matches the pattern <p:var
+range="pattern"/></para></listitem></varlistentry>
+
+</variablelist>
+
+<para>The semantics of weak matching are as follows:</para>
+
+<p:proofSystem>
+  <p:rule name="weak match 1">
+    <p:judgement name="match">
+      <p:var rang <p:var range="pattern"/>
+    </p:judgement>
+  </p:rule>
+  <p:rule name="weak match 2">
+    <p:judgement name="match">
+      <p:var range="context"/>
+      <p:var range="att"/>
+      <p:function name="emptySequence"/>
+      <p:var range="pattern"/>="name"/>,
+context <p:var range="context"/>,
+attributes <p:var range="att"/>
+and mixed sequence <p:var range="mixed"/> as children
+</para></listitem></varlistentry>
+
+<varlistentry><term><p:judgement name="okAsChildren">
+      <p:var range="mixed"/>
+    </p:judgement></term><listitem><para>
+    
+asserts that the mixed sequence <p:var range="mixed"/> can occur as
+the children of an element: it does not contain any member that is an
+empty string, nor does it contain two consecutive members that are
+both strings</para></listitem></varlistentry>
+
+<varlistentry><term><p:judgement name="bind">
+      <p:var range="ncname"/>
+      <p:var range="nameClass"/>
+      <p:var range="pattern"/>
+    </p:judgement></term><listitem><para>
+    
+asserts thatfers to the context
+of the pattern element
+</para></listitem></varlistentry>
+
+<varlistentry>
+<term>
+  <p:function name="context">
+     <p:var range="uri"/>
+     <p:var range="context"/>
+  </p:function>
+</term>
+<listitem><para>constructs a context which is the same as <p:var range="context"/>
+except that the default namespace is <p:var range="uri"/>; if <p:var
+range="uri"/> is the empty string, then there is no default namespace
+in the constructed context</para></listitem></varlistentry>
+
+</variablelist>
+
+<para>The datatypeEqual function must be reflexive, transitive
+and symmetric, that is, the following inference rules must hold:</para>
+
+<p:proofSystem>
+  <p:rule name="datatypeEqual reflexive">
+    <p:judgement name="datatypeAllows">
+      <p:var range="uri"/>
+      <p:var range="ncname"/>
+      <p:var range="params"/>
+      <p:var range="string"/>
+      <p:var range="context"/>
+    </p:judgement>
+    <p:judgement name="datatypeEqual">
+      <p:var range="uri"/>
+      <p:var range="ncname"/>
+      <p:var range="string"/>
+      <p:var range="context"/>
+      <p:var range="string"/>
+      <p:var range="context"/>
+    </p:judgement>
+  </p:rule>
+  <p:rule name="datatypeEqual transitive">
+    <p:judgement name="datatypeEqual" name="datatypeEqual">
+      <p:var range="uri"/>
+      <p:var range="ncname"/>
+      <p:var range="string" sub="2"/>
+      <p:var range="context" sub="3"/>
+      <p:var range="string" sub="3"/>
+      <p:var range="context" sub="3"/>
+    </p:judgeme3"/>
+    </p:judgement>
+  </p:rule>
+  <p:rule name="datatypeEqual symmetric">
+    <p:judgement name="datatypeEqual">
+      <p:var range="uri"/>
+      <p:var range="ncname"/>
+      <p:var range="string" sub="1"/>
+      <p:var range="context" sub="1"/>
+      <p:var range="string" sub="2"/>
+      <p:var range="context" sub="2"/>
+    </p:judgement>
+    <p:judgement name="datatypeEqual">
+      <p:var range="uri"/>
+      <p:var range="ncname"/>
+      <p:var range="string" sub="2"/>
+      <p:var range="context" sub="2"/>
+      <p:var range="string" sub="1"/>
+      <p:var range="context" sub="1"/>
+    </p:judgement>
+  </p:rule>
+</p:proofSystem>
+
+<para>The semantics of the <literal>data</literal> and
+<literal>value</literal> patterns are as follows:</para>
+
+<p:proofSystem>
+  <p:rule name="value">
+    <p:judgement name="datatypeEqual">
+      <p:var range="uri" sub="1"/>
+      <p:var range="ncname"/>
+      <p:var range="string" sub="1"/>
+      <p:var range="context" sub="1"/>
+      <p:vablelist>
+<varlistentry><term>
+    <p:judgement name="equal">
+      <p:var range="string" sub="1"/>
+      <p:var range="string" sub="2"/>
+    </p:judgement></term>
+<listitem><para>asserts that <p:var range="string" sub="1"/>
+and <p:var range="string" sub="2"/> are identical</para></listitem>
+</varlistentry>
+
+<varlistentry><term>
+      <p:function name="normalizeWhiteSpace">
+        <p:var range="string"/>
+      </p:function>
+</term>
+<listitem><para>returns the string <p:var range="string"/>,
+with leading and trailing whitespace characters removed,
+and with each other maximal sequence of whitespace characters
+replaced by a single space character </para></listitem>
+</varlistentry>
+</variablelist>
+
+<para>The semantics of the two built-in datatypes are as
+follows:</para>
+
+<p:proofSystem>
+
+  <p:rule name="string allows">
+    <p:judgement name="datatypeAllows">
+      <p:function name="emptyString"/>
+      <p:string>string</p:string>
+      <p:function name="emptySequence"/>
+      <p:var range="string"/>
+      <p:var range="context"/>
+    </p:judgement>
+  </p:rule>
+
+  <p:rule name="string equal">
+    <p:judgement name="datatypeEqual">
+      <p:function name="emptyString"/>
+      <p:string>string</p:string>
+      <p:var range="string"/>
+      <p:var range="context" sub="1"/>
+      <p:var range="string"/>
+      <p:var range="context" sub="2"/>
+  html</ulink
+>.</  </p:judgement>
+  </p:rule>
+
+  <p:rule name="token allows">
+    <p:judgement name="datatypeAllows">
+      <p:function name="emptyString"/>
+      <p:string>token</p:string>
+      <p:function name="emptySequence"/>
+      <p:var range="string"/>
+      <p:var range="context"/>
+    </p:judgement>
+  </p:rule>
+
+  <p:rule name="token equal">
+    <p:judgement name="equal">
+      <p:function name="normalizeWhiteSpace">
+        <p:var range="string" sub="1"/>
+      </p:function>
+      <p:function name="normalizeWhiteSpace">
+        <p:var range="string" sub="2"/>
+      </p:function>
+    </p:judgement>
+    <p:judgement name="datatypeEqual">
+      <p:function name="emptyString"/>
+      <p:string>token</p:string>
+      <p:var range="string" sub="1"/>
+      <p:var range="context" sub="1"/>
+      <p:var range="string" sub="2"/>
+      <p:var range="context" sub="2"/>
+    </p:judgement>
+  </p:rule>
+
+</p:proofSystem>
+
+</section>
+
+<section>
+<title><literal>list</literal> pattern</title>
+
+<para>We use the following additional notation:</para>
+
+<variablelist>
+<varlistentry><term><p:function name="split">
+        <p:var range="string"/>
+      </p:function></term><listitem><para>
+      
+returns a sequence of strings one for each whitespace delimited token
+of <p:var range="string"/>; each string in the returned sequence will
+be non-empty and will not contain any
+whitespace</para></listitem></varlistentry>
+
+</variablelist>
+
+<para>The semantics of the <literal>list</literal> pattern are as follows:</para>
+
+<p:proofSystem>
+  <p:rule name="list">
+
+    <p:judgement name="match">
+      <p:var range="context"/>
+      <p:function name="emptySet"/>
+      <p:function name="split">
+        <p:var range="string"/>
+      </p:function>
+      <p:var range="pattern"/>
+    </p:judgement>
+
+    <p:judgement name="match">
+      <p:var range="context"/>
+      <p:function name="emptySet"/>
+      <p:var range="string"/>
+      <p:element name="list">
+	<p:var range="pattern"/>
+      </p:element>
+    </p:judgement>
+
+  </p:rule>
+</p:proofSystem>
+
+<note><para>It is crucial in the above inference rule that the
+sequence that is matched against a pattern can contain consecutive
+strings.</para></note>
+
+</section>
+
+</section>
+
+<section id="validity">
+<title>Validity</title>
+
+<para>Now we can define when an element is valid with respect to a
+schema.  We use the following additional notation:</para>
+
+<variablelist>
+
+<varlistentry><term><p:var range="element"/></term><listitem><para>ranges over elements</para></listitem></varlistentry>
+
+<varlistentry><term><p:judgement name="valid">
+      <p::judgement name="bind">
+    <p:string>foo.element</p:string>
+    <p:element name="name">
+      <p:attribute name="ns"><p:function name="emptyString"/></p:attribute>
+      <p:string>foo</p:string>
+    </p:element>
+    <p:element name="group">
+      <p:element name="ref">
+	<p:attribute name="name">
+	  <p:string>bar1</p:string>
+	</p:attribute>
+      </p:element>
+      <p:elemiiiiiiiiiiiiiiiiiiiiiiitribute name="name">
+	  <p:string>bar2</p:string>
+	</p:attribute>
+      </p:element>
+    </p:element>
+  </p:judgement>
+</p:formula>
+
+<p:formula>
+  <p:judgement name="bind">
+    <p:string>bar1.element</p:string>
+    <p:element name="name">
+      <p:attribute name="ns">
+	<p:string>http://www.example.com/n1</p:string>
+      </p:attribute>
+      <p:string>bar1</p:string>
+    </p:element>
+    <p:element name="empty"/>
+  </p:judgement>
+</p:formula>
+
+<p:formula>
+  <p:judgement name="bind">
+    <p:string>bar2.element</p:string>
+    <p:element name="name">
+      <p:attribute name="ns">
+	<p:/para>
+
+<p:formula>
+  <p:element name="name">
+    <p:attribute name="ns">
+      <p:string>http://www.example.com/n2</p:string>
+    </p:attribute>
+    <p:string>bar2</p:string>
+  </p:element>
+</p:formula>
+
+<para>Then, by the inference rule (name) in <xref
+linkend="name-classes"/>, we have</para>
+
+<p:formula>
+  <p:judgement name="belongs">
+    <p:function name="name">
+      <p:string>http://www.example.com/n1</p:string>
+      <p:string>bar1</p:string>
+    </p:function>
+    <p:var range="nameClass" sub="1"/>
+  </p:judgement>
+</p:formula>
+
+<para>and</para>
+
+<p:formula>
+  <p:judgement name="belongs">
+    <p:function name="name">
+      <p:string>http://www.example.com/n2</p:string>
+      <p:string>bar2</p:string>
+    </p:function>
+    <p:var range="nameClass" sub="2"/>
+  </p:judgement>
+</p:formula>
+
+
+<para>By the inference rule (empty) in <xref linkend="empty-pattern"/>,
+we have</para>
+
+<p:formula>
+  <p:judgement name="match">
+    <p:var range="context" sub="1"/>
+    <p:function name="emptySet"/>
+    <p:function name="emptySequence"/>
+    <p:element name="empty"></p:element>
+  </p:judgement>
+</p:formula>
+
+<para>and</para>
+
+<p:formula>
+  <p:judgement name="match">
+    <p:var range="context" sub="2"/>
+    <p:function name="emptySet"/>
+    <p:function name="emptySequence"/>
+    <p:element name="empty"></p:element>
+  </p:judgement>
+</p:formula>
+
+<para>Thus by the inference rule (element) in <xref
+linkend="element-pattern"/>, we have</para>
+
+<p:formula>
+  <p:judgement name="match">
+    <p:var range="context" sub="0"/>
+    <p:function name="emptySet"/>
+    <p:var range="element" sub="1"/>
+    <p:element name="ref">
+      <p:attribute name="name">
+        <p:string>bar1</p:string>
+      </p:attribute>
+    </p:element>
+  </p:judgement>
+</p:formula>
+
+<para>Note that we have chosen <p:var
+range="context" sub="0"/>, since any context is allowed.</para>
+
+<para>Likewise, we have</para>
+
+<p:formula>
+  <p:judgement name="match">
+    <p:var range="context" sub="0"/>
+    <p:function name="emptySet"/>
+    <p:var range="element" sub="2"/>
+    <p:element name="ref">
+      <p:attribute name="name">
+        <p:string>bar2</p:string>
+      </p:attribute>
+    </p:element>
+  </p:judgement>
+</p:formula>
+
+<para>By the inference rule (group) in <xref
+linkend="choice-pattern"/>, we have</para>
+
+<p:formula>
+  <p:judgement name="match">
+    <p:var range="context" sub="0"/>
+    <p:function name="emptySet"/>
+    <p:function name="append">
+      <p:var range="element" sub="1"/>
+      <p:var range="element" sub="2"/>
+    </p:function>
+    <p:element name="group">
+      <p:element name="ref">
+        <p:attribute name="name">
+          <p:string>bar1</p:string>
+        </p:attribute>
+      </p:element>
+      <p:element name="ref">
+        <p:attribute name="name">
+          <p:string>bar2</p:string>
+        </p:attribute>
+      </p:element>
+    </p:element>
+  </p:judgement>
+</p:formula>
+
+<para>By the inference rule (element) in <xref
+linkend="element-pattern"/>, we have</para>
+
+<p:formula>
+  <p:judgement name="match">
+    <p:var range="context" sub="3"/>
+    <p:function name="emptySet"/>
+    <p:function name="element">
+      <p:function name="name">
+        <p:function name="emptyString"/>
+        <p:string>foo</p:string>
+      </p:function>
+      <p:var range="context" sub="0"/>
+      <p:function name="emptySet"/>
+      <p:var range="mixed"/>
+    </p:function>
+    <p:element name="ref">
+      <p:attribute name="name">
+     f an element has one of
+three content-types: empty, complex and simple.  We use the following
+notation.</para>
+
+<variablelist>
+
+<varlistentry>
+<term><p:function name="empty"/></term>
+<listitem><para>returns the empty content-type</para></listitem>
+</varlistentry>
+
+<varlistentry>
+<term><p:function name="complex"/></term>
+<listitem><para>returns the complex content-type</para></listitem>
+</varlistentry>
+
+<varlistentry>
+<term><p:function name="simple"/></term>
+<listitem><para>returns the simp">
+    <p:element name="attribute">
+      <p:var range="nameClass"/>
+      <p:var range="pattern"/>
+    </p:element>
+    <p:function name="empty"/>
+  </p:judgement>
+</p:rule>
+
+<p:rule name="group">
+  <p:judgement name="contentType">
+    <p:var range="pattern" sub="1"/>
+    <p:var range="contentType" sub="1"/>
+  </p:judgement>
+  <p:judgement name="contentType">
+    <p:var range="pattern" sub="2"/>
+    <p:var range="contentType" sub="2"/>
+  </p:judgement>
+  <p:judgement name="groupable">
+    <p:var range="contentType" sub="1"/>
+    <p:var range="contentType" sub="2"/>
+  </p:judgement>
+  <p:judgement name="contentType">
+    <p:element name="group">
+      <p:var range="pattern" sub="1"/>
+      <p:var range="pattern" sub="2"/>
+    </p:element>
+    <p:function name="max">
+      <p:var range="contentType" sub="1"/>
+      <p:var range="contentType" sub="2"/>
+    </p:function>
+  </p:judgement>
+</p:rule>
+
+<p:rule name="interleave">
+  <p:judgement name="contentType">
+    <p:var range=/p:judgement>
+  <p:judgement name="contentType">
+    <p:var range="pattern" sub="2"/>
+    <p:var range="contentType" sub="2"/>
+  </p:judgement>
+  <p:judgement name="contentType">
+    <p:element name="choice">
+      <p:var range="pattern" sub="1"/>
+1</replaceable> is
+<replaceable>p2</replaceable>, or</para></listitem>
+
+<listitem><para><replaceable>p2</replaceable> is a
+<literal>choice</literal>, <literal>interleave</literal>,
+<literal>group</literal> or <literal>oneOrMore</literal> element and
+<replaceable>p1</replaceable> occurs in one or more children of
+<replaceable>p2</replaceable>.</para></listitem>
+
+</itemizedlist>
+
+<para>Attributes using infinite name classes must be repeated.  More
+precisely, an <literal>attribute</literal> element that has an
+<literal>anyName</literal> or <literal>nsName</literal> descendant
+element must have a <literal>oneOrMore</literal> ancestor
+element.</para>
+
+<note><para>This restriction is necessary for closure under
+negation.</para></note>
+
+</section>
+
+<section id="interleave-restrictions">
+<title>Restrictions on <literal>interleave</literal></title>
+
+<para>For a pattern <literal>&lt;interleave>
+<replaceable>p1</replaceable> <replaceable>p2</replaceable>
+&lt;/interleave></literal>,</para>
+
+<nd
+<replaceable>p2</replaceable>.</para></listitem>
+
+</itemizedlist>
+
+<para><xref linkend="attribute-restrictions"/> defines when one
+pattern is considered to occur in another pattern.</para>
+
+</section>
+
+</section>
+
+<section id="conformance">
+<title>Conformance</title>
+
+<para>A conforming RELAX NG validator must be able to determine for
+any XML document whether it is a correct RELAX NG schema.  A
+conforming RELAX NG validator must be able to determine for any XML
+document and for any correct RELAX NG schema whether the document is
+valid with respect to the schema.</para>
+
+<para>However, the requirements in the preceding paragraph do not
+apply if the schema uses a datatype library that the validator does
+not support.  A conforming RELAreceding paragraph also do not apply if the
+schema includes <literal>externalRef</literal> or
+<literal>include</literal> elements and the validator is unable to
+retrieve the resource identified by the URI or is unable to construct
+an element from the retrieved resource.  A validator that claims
+conformance to RELAX NG should document its capabilities for handling
+URI references.</para>
+
+</section>
+
+<appendix>
+<title>RELAX NG schema for RELAX NG</title>
+
+<rngref src="relaxng.rng"/>
+
+</appendix>
+
+<appendix>
+<title>Changes since version 0.9</title>
+
+<para>The changes in this version relative to version 0.9
+are as follows:</para>
+
+<itemizedlist>
+
+<listitem><para>in the namespace URI, <literal>0.9</literal> has been
+changed to <literal>1.0</literal></para></listitem>
+
+<listitem><para><literal>data/except//empty</literal> has been added
+as a prohibited path (see <xref
+linkend="context-data-except"/>)</para></listitem>
+
+<listitem><para><literal>start//empty</literal> has been added
+a
+removed</para></listitem>
+
+<listitem><para>the treatment of element and attribute values that
+consist on…y of whitespace has been refined (see <xref
+linkend="element-pattern"/> and <xref
+linkend="data-pattern"/>)</para></listitem>
+
+<listitem><para>attributes with infinite name classes are now required
+to be repeated (see <xref
+linkend="attribute-restrictions"/>)</para></listitem>
+
+<listitem><para>restrictions have been imposed on
+<literal>interleave</literal> (see <xref
+linkend="interleave-restrictions"/>); <literal>list//interleave</literal>
+has been added as a prohibited path (see <xref
+linkend="list-restrictions"/>)</para></listitem>
+
+<listitem><para>some of the prohibited paths in <xref
+linkend="contextual-restriction"/> have been corrected to use
+<literal>ref</literal> rather than
+<literal>element</literal></para></listitem>
+
+<listitem><para>an error in the inference rule (text 1) in <xref
+linkend="text-pattern"/> has been corrected</para></listitem>
+
+<listitem><para>the value of the <literal>ns</literal> attribute is
+now unconstrained (see <xref
+linkend="full-syntax"/>)</para></listitem>
+
+</itemizedlist>
+
+</appendix>
+
+<appendix>
+<title>RELAX NG TC (Non-Normative)</title>
+
+<para>This specification was prepared and apprww.w3.org/TR/REC-xml">Extensible Markup
+Language (XML) 1.0 Second Edition</ulink></citetitle>.
+W3C (World Wide Web Consortium), 2000.</bibliomixed>
+
+<bibliomixed id="xml-names"><abbrev>XML Namespaces</abbrev>Tim Bray,
+Dave Hollander,
+and Andrew Laymaxed>
+
+</bibliodiv>
+
+<bibliodiv><title>Non-Normative</title>
+
+<bibliomixed id="xmlschema-2"><abbrev>W3C XML Schema Datatypes</abbrev>Paul V. Biron, Ashok Malhotra, editors.
+<citetitle><ulink url="http://www.w3.org/TR/xmlschema-2/">XML Schema Part 2: itetitle><ulink
+url="http://www.oasis-open.org/committees/relax-ng/tutorial.html">RELAX
+NG Tutorial</ulink></citetitle>.  OASIS, 2001.</bibliomixed>
+
+</bibliodiv>
+
+</bibliography>
+
+</articl

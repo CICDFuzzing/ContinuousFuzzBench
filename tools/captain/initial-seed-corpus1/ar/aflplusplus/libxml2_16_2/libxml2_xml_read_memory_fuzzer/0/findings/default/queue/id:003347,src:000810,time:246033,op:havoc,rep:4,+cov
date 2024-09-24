@@ -1,0 +1,6 @@
+<?xml version='1.0'"?>
+<!DOCTYPE test [
+<!ENTITY qmpproblem '&amp;'>
+]>
+<t a="&ampproblemÿÿ</t>
+

@@ -1,0 +1,6 @@
+<!DOCTYPE dsc [
+<!ATTLIST doc a1 NMTOKENS " 1   2       "<!ATTLIST doc a1 NMTOKENS " 1   2       ">
+<!ELEMENT doc (#PCDATA)*>
+<!ELEMENT doc (#PCDATA)*
+]&
+<doc/>

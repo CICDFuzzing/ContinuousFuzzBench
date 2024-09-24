@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attß ßßß<!ATTLßßßßßßßßßßßßßßßßrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM	"world.txt">
+<!ENTITY entExt SYST<?xml version="/.0" encoding="PSO-8859-1" ?>
+<!DOCTYPE rnode [
+<!ELEMELT rnode (f)>
+                                                                                
+<!ELEMENT f (#PCDATA)>
+<!ATTLIST f
+   att1 CDATA #FIXED 'J'>
+                           þ                                                    
+<

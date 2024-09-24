@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859,0&>:=)CIDHWMB		ujmedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"+:(a; should ar adgcy	eqvpu: &a;
+&b; shouppeacolon:	$d:%c?	khould appear after colon: &b;
+&b;	urmkld appear after colon: &b;
+
+</somedoc>

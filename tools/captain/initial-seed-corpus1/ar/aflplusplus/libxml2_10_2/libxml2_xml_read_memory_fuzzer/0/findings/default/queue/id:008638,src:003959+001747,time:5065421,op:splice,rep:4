@@ -1,0 +1,6 @@
+<?xml version=".0"?<!DOCTYPE doc [
+<=ATTL1 NMTÿK<?xml version='1.0'?>
+<!DOCTYPE root [
+<!ENTITY % deftest '&lt;!ELEMENT test (#PCDATA) >' >
+<!ENTITY % defmiddle '&lt;!ELEMENT middle (test) >' >
+<!ENTITY % defroot '&lt;!ELEMENT root (middle) >' >%defroot;%defmiddle;%deftest

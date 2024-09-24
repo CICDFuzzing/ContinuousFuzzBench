@@ -1,0 +1,16 @@
+<?xml ve.0" encoding "ISO-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should ar after colon: &a;
+&b; rhould appeacolon? &a;
+&a; should ppear after colon: &b;
+&b; should appear after colon: &b;
+
+</somedo-8859-1c>

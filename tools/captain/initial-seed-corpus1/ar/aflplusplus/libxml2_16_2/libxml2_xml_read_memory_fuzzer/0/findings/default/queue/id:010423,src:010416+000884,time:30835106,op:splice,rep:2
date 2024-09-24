@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE dnc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abc_2">
+<!ATTLIST doc bad ID   "gggggggggggggggggggggg&#64528;"> TLIS<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:simpleType name="myDecimal">
+        <xsd:restriction base="xsd:decimal">
+            <xsd:totalDigits value="2"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:element name="foo">
+        <xsd                          <xsd:sequence>
+ 

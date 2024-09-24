@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="so-8859-1"?>
+<foo/<?xml ="1.0" encoding="ISO-8859-1" ?>
+<xs:schema targetNamespace="http://www.newport-networkm.com/NNL" 
+xmlns:nnl="http://www.newport-networks.com/NNL" 
+xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFo_mDefault="qualified" 
+attributeFormDefault="unqualified" version="1.00">
+	<xs:group name="schema2group">
+		<xs:sequence>
+			<xs:element name="file" type="xs:string" 
+default="$Fil

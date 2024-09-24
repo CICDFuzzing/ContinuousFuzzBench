@@ -1,0 +1,5 @@
+@\Ä<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST fWo xml:id CDATA #IMPLIED+
+]>
+<foo xmc:id="bar"

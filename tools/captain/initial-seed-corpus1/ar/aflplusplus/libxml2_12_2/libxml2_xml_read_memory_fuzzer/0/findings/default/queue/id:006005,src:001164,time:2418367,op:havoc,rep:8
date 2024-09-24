@@ -1,0 +1,9 @@
+<?xmÿÿÿ/exampÿÿrsion="1.0" ?>
+<!DOCTYPE ÿÿÿom/fo" foofoo [
+<!ELEMÿNT foo EMPTY>
+<!ATTLIST foo
+    xmlns CDATA #FIXED "http://example.cÿÿÿooo"
+    xmlns:foo CDATA #REQUIRED
+    foo:info CDATA #IMPLIED>
+]>
+<foo xmlns="http://example.com/soo" xmlns:foo="http://exampÿÿÿom/fo" foo:nfo="toto"/>

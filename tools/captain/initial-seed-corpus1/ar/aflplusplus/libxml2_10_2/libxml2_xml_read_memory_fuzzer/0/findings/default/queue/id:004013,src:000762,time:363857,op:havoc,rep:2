@@ -1,0 +1,3 @@
+<?xml veqsion="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/etc/doesnotexist~~~~~~~~~~~~~~~~~~~ot>

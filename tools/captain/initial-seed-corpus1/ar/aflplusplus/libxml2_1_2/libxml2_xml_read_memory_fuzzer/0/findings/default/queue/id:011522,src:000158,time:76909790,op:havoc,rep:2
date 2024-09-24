@@ -1,0 +1,7 @@
+<!DOCTYPE dooc [
+<!ELEMENT doc (#PCDATA)>
+]>
+<doc>
+<?pi value?>
+aext
+<!-- and comments --></doc>

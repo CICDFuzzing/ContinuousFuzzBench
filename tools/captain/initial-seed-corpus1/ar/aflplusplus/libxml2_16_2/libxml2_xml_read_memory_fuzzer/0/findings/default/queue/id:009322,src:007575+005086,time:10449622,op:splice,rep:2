@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISB-8859-1"?<?xml ver‘ion="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xmlns CDATA #FIXED "http://exLmMle.com/fooo"
+    xmlns:foo CDATA #REQUIRED
+    fou:info CDATA #IM>LIED>
+]>
+<foo xmlns="http://exampp<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/D_D/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<headÿÿ		<meta http-equiv="Content-Type" conten">ù<headÿÿ		<me††††="text/htm.org/TR/xhtml1/DTD/xhtml1-strict Page</title>
+</head>

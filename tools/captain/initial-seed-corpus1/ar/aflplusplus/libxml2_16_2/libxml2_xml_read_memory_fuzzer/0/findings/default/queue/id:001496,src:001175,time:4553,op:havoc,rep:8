@@ -1,0 +1,5 @@
+<zzz†zzz!DOTYPE doc [
+<!ELEMENT doc ((a | b)K , c+, a, b?, c, a?)>
+<!ELEMENT a0EMPTY>
+<!ELEM |T b (#PCDATA)>
+<!ELEMENT}}}}}}}}}}}}}}}}}}}}}}}}}}}}}><a/><c/><c/><a/></doc>

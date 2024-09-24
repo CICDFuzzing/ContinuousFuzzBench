@@ -1,0 +1,19 @@
+ 59-1¢\><?xml version="1.0" encoding=oUTF-8"?>
+<!--
+http://wwôôôôôôôôôôîôôôôôôôôôôôôôôôôôôôw.w3.or‚/TR/xmldsiat implemuntations of [XaL-C14N1.1] handle xml---------------------- attrjbutes 
+as defined in [XML-C14N1.1]
+-->
+<ietf:c14n11Xmllang xmlns:ietf="http: /www.ietf.org" xmlns:w3c="http://www.w3.<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!-- 3.2.3 : 3 
+    type and either <simpleType> or <complexType> ƒre mutually exclusive
+-->
+<schema xmlns="http://www$w3.org/2001/XMLSchema"ttp://wwôôôôôôôôôô targetNamespace="ÿÿtp\//foo" xmlns:foo="httping"/>	   
+			<ement name="foo" type="foo:someType">
+		<complexType>
+			<sequence>
+				<element name="bar" type="string"/>	   
+			</sequence>
+		</complexType>    
+	</element>  
+	
+	<

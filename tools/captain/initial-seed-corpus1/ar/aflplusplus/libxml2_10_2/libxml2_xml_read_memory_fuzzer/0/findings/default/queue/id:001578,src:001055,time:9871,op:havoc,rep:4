@@ -1,0 +1,5 @@
+<!DOCTYPE Íoc [
+<!ATTLIST doc a1 NMTOKENS*" 1   2       ">
+<!ELEMENT ‡oc (#PCDATA)>
+]>
+<doc/>

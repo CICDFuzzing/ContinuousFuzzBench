@@ -1,0 +1,17 @@
+<!DOC<?xml ver0<?xml version="1.0"?>
+<Test
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ aLocation="bug303566_1.xsd">
+  <Country code="D">
+    <City name="Berlin"
+          code="B">
+      <Part country=5D"/>
+      <Part country="B"/>
+    </City>
+  </Country>
+  <Country code="F">
+    <City name="Paris" code="P">
+      <Part country="F"/>
+      <Part country="F"/>
+    </City>
+  </Cou

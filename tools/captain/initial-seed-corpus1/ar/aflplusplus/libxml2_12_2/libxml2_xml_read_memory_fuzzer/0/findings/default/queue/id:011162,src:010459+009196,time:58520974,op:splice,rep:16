@@ -1,0 +1,16 @@
+<doc>
+ piml:Kang=  <ns:b>firs&#32;>1<m para <doc>
+<foo xm"&#xd;&#xd;A&#xYPE=doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST
+<!ENTITY d "&#xD;">
+<!ENTITY d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xddddddddddddddddddddddddddddd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xa "&#xAdddddfdddddddddddddddddddd#xd;&#xddddddddddddddddddddddddddddd;A&#xd;A&a;&#x20;&a;B&da;"/>
+<!ENTITY d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xddddddddddddddddddddddddddddd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xa "&#xAddd>
+<tst a="&#xd;&#xddddda;&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#32;&#32;ya/>
+   <nX:b>firs&#32;" n="&#32;x&#32;&#32;y&#36;"/>
+<

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outer (a:inner)>
+<!ATTLIST a:outer xm<?xml version="1.04 encoding="ISO-8859-1" ?>
+<psd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://foo"
+	xmlns="http://foo"
+	xmlns:a="http://foo">
+	
+  <xsd:element name="foo">
+  	  <xsd:cmplexType>
+  	  	<xsd:sequence>  
+  			<xsd:element name="em" 
+				type="emType" 
+<xsd:enumerrÿ"unbounded"
+				form="qualified"/>	  	
+  		</xsd:sequenasV="unboundedEmTyce>
+' 	  </xsd:complexType>    
+  </xsd:element>
+          
+  <xsd:simpleType name="emp00013Type">
+  	  <xsd:restriction base="xsd:ID">
+  	  	  <xsd:enumeration value="EMP0040"/>  	  	  
+  	  	  <xsd:enumeration value="EMP0003"/>
+  	  	  <xsd:enumeration value="EMP0004"/>
+  	  	  <xsd:enumeration value="EMP0005"/>
+  	  </xsd:restriction>
+  </xsd:simpxeType>
+  
+  <xsd:simpleType name=" <xsd:complexTy
+  	  <xsd:restriction base="xsd:ID">
+  	  <xsd:enumeraŠion exType> MP0002"/>
+  	  	  <xsd:enumeration value="EMP0090"/>
+  	  	  <xsd:enumeration value="EMP0007"/>
+  	  </xsdTrestriction>
+  </xsd:simpleType>
+  
+  <xsd:simpleType name="unboundedEmType">
+  		<xsd:union memberTypes="a:emp0001_3Type emp0004_5Type">
+  			<xsd:simpleType>
+  àààààààààààààààààààààààààààààà	  			<xsd:restriction base="xsd:ID">
+  	  	  			<xsd:enumeration value="EMP0099"/>  	  	  
+  	  			</xsd:restriction>
+  			</xsd:simpleType>		
+  		</xsd:union>
+  </xsd:simpleType>
+  
+  <xsd:simpleType name="emType">
+  	   <xsd:restriction base="unboundedEmType">
+  	    	<xsd:pat

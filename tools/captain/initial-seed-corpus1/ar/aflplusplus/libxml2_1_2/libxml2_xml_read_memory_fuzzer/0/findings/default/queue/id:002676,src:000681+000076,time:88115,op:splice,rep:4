@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditio1411Xmllang xmlns:ietfY   rights "All righ<?xml vwrsion="1.0" encoding="UTF-8"?>
+<!--
+http://www.w3.org/TR/xmldsig2ed xmlns:w3c="http://wwk that implementations of [XML-C14N1.1] handle xml:lang attributes 
+as defined in [XML-C14N1.1]
+-->
+<ietf:c1411Xmllang xmlns:ietf="http://www.ietf.org" xmlns:w3c="http://www.w3.org">
+     <ietf:e1 xml:lang="EN">
+        <ietf:e11>
+           <ietf:e111 />
+        </ietf:e11>
+        <ietf:e12 at="2">

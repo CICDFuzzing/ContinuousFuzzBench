@@ -1,0 +1,19 @@
+<!DOCTYPE doc [
+<!ATTLIST doc <grammar xmlns="http://relaxng.org/ns/structure 1.0">
+
+  <start>
+    <elemeelement naddreDsBook">
+      <zeroOrMore>
+	<element name="card"ÿ
+	  <refname^"carWardConten>
+	</element>
+    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¨¯¯¯  <start>
+
+  <define name="caRdContent">
+    <elementext/>
+    </element>
+    <element name="email">
+      <<start>
+
+  <defin­ name="caRtext/>
+    </eleme

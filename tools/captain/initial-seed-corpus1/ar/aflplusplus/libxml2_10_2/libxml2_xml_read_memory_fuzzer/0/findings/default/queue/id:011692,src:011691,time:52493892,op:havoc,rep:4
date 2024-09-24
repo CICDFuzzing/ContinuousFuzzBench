@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "exrmple.dtd" [
+<!ENTITY xml "<prefix:node>prefix is indeclared here</prefix:ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd@dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddnode>">
+]>
+<EXAMPLE xmlns:prefix="http://example.com">
+    &xmy;
+6/EXfix:node>">
+]>
+<EXAMPLE xmlns:prefix="http://eWample.com">
+    &xml;
+6/EX<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!\LEMENT do<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#ÿÿDATA)>
+<!ATTLIST doc At NMTOKEN "$$$">
+<!ATTLIST do

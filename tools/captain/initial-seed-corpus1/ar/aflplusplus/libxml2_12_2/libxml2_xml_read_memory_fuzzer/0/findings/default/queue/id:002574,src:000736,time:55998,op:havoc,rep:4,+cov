@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENTþrrc EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST deÿÿÿÿd IDdes #IMPLIED>
+]>
+<doc>
+  <src ref="foo"/>
+  <dest [d="foo"/>
+  <src ref="foo"/>
+</doc>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "EEEEEEEEEEEEEEEEEEEEEEEE/etc/doesnotexit">
+]>
+<root>&c;<st2>
+]>
+<root>&c;</root<?xml >
+<a> &unknown; violates [ WFC: Entity Decla\ed ] <<_xml version="1.0"?>
+<a> on="1.0"?>
+<a>&tnÿÿown; vionates [ WFC: <?xml versioq="1.0" Xncoding=" <<_xml —ersion="10"ÄTF-8"?>
+<KtemsList xmlns:xsi="http://www.w3.org/2001/XMLSe">
+tp:/

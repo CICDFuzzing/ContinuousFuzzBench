@@ -1,0 +1,7 @@
+?xslê<?xsl \
+<?xml version<?xml version="1.0"?>
+<!DOCTYPE root [
+<!ENTITY foo 'aRc'>
+<!ENTITY bar 'def'>
+]>
+<root attribute="&foo;">Á   <elemen

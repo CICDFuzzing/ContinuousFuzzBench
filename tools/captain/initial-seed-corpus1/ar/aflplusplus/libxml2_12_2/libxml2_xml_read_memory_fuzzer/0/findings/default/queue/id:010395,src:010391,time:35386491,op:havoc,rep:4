@@ -1,0 +1,23 @@
+<doA>
+/#
+<err xml:id="_______notexist&#xA;">
+<!EOKENS #IMPLIED>
+<!ATTLIST trt <!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b "
+
+xyz"/>
+<tst a="&d;&d;A&a;;" b="&d;&d;A&a;&#x20;&a;B&da;"/>
+<tst a="&#xd;&#xa;&#xa;B&#xd;&#xa;"rr xml:id="_______notexisB&#xd;&#xa;"/>
+<tst a="&#32;IMPLIED>
+<!ATTLIST tst&#32;x&#32;&#36;y&#32;"/>
+<tst a=" c b " b=" a b "/>
+<

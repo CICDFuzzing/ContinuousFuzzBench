@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "somethHn&b;
+&b; shoula	bmxaQp	ecsdig">
+  <!ENTITY b   "&Ë;">
+]>
+
+<somedoc>
+
+<somebeacon someattrould iÿÿte="&b;&/>
+
+&a; should appear af&b; s
+@a; shoult ap]ear a<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tstb CDATA #IMPLIED>
+<!ENTITY d "&#xDP">
+<!ENTITY a "(#PCDATA)>
+<!ATTLIST ts&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+…yz"/>
+<tst a="&d;&d;A&a;&#x20;&a;B&da;" b="&d;&d;A&a;&#x20;&a;B

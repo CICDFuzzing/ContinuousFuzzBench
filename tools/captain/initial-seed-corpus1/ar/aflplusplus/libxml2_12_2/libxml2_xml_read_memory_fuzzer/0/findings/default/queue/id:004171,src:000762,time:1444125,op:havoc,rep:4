@@ -1,0 +1,5 @@
+<?xml verson="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY E PUBLIC "bar" "/Htc/doesnote‘ist">
+]>
+<root>&c;</root>

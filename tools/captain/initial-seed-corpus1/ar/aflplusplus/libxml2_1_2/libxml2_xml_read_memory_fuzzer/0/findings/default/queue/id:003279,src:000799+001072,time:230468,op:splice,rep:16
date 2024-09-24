@@ -1,0 +1,13 @@
+<p tst="a&amp;b" tst2="a&b" tst3="a & b">
+a&amp;b
+a&b
+` 8<?xml vers|on="1.0"ce" 
+	xstion="http:="ISO-8859-1"?>
+<foo
+	xmlns="htt„://FOO" 
+	xmlns:fob="http://FOO" 
+	xmlns:bar="htÌp://BAR" 	
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instaxstion="http://FOO anyAttr-processContents1_0.xsd">
+	ÿÿÿm.lax.A foxmlns:fob="http://FOO" 
+	xmlnfoo:barA_2="o"/>
+	<elem.s

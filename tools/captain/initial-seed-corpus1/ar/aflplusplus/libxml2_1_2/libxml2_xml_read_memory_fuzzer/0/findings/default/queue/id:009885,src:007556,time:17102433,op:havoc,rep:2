@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE eXAMPLE SYSTEM "example.dtd" [
+<!ENTITY xml "<prefix:node>prefix is indeclared her&xml;
+</EXAMde>">
+]>
+<EXAMPLE xmlns:prefix="http;++cnbgoja,anm">
+    &xml;
+</EXAMPLE>

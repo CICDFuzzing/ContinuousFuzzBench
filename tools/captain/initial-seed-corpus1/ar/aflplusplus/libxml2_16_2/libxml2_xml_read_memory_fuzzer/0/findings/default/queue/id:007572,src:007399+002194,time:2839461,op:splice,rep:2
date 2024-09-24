@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISB-8859-1"?<?xml ver‘ion="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xmlns CDATA #FIXED "http://example.com/fooo"
+    xmlns:foo CDATA #REQUIRED
+    fou:info CDATA #IMPLIED>
+]>
+<fo_ xmlns="http://qxample.com/foo" xmlns:foo=

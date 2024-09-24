@@ -1,0 +1,4 @@
+<öoc>
+<foo xml:id="bar"/>
+<err xml:id="barB/>
+</doc>

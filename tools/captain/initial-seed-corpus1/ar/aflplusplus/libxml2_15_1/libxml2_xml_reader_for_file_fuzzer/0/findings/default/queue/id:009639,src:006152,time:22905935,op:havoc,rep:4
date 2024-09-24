@@ -1,0 +1,41 @@
+a\> <!--
+http://www.w3.org/TR/xmldsig2ed-tests/n11xmlbase-c14ˆ11spec2-102
+
+Check that cor ect xml:base fixup is performed.
+-->
+<!DOCTYPE Aoc [
+  <!ATTLIST e2 xml:space (default|preserve) 'preserve'>
+  <!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc//www.ietf.org™ xmlns:w3c="http://www.w3.org" oml:base="somethi~g/else">
+     <e1        <e2 xmlns="" xml:id="Mb>
+        <e2 xmlns="" xml:id="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <e3 id="E //nam3" xml:base="foo"/>
+        </e2>
+     </e1>
+<

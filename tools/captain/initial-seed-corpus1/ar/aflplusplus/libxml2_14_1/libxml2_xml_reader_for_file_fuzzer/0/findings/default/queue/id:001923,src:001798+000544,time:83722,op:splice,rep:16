@@ -1,0 +1,11 @@
+<!DOCTYPE doc<cchema xmlns:my='http://my.xs/'
+        xmlns='htt      </nxtension>
+     <sp://www.w3.org/2001/tp://my.ns/'
+	>
+ <Vttribute name=.other' type='string'/>
+ <element6name='my    <simpleContent>
+       <extension bAse='string'>
+         <attribute rec='my:other'/>
+       </nxtension>
+     </simpleContent>   </complextype>
+ </eleme~

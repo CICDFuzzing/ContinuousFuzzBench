@@ -1,0 +1,9 @@
+<EN >SOKNT<?xml version="1.0"?>
+<XPath xmlns:bar="http://example.:rg/bar" xmlns:baz="http://exam://example.org/foo" xml:lang="hn-ie">
+    (//. | //@* | //namespace::*) 
+    [ 
+              <!-- no namespace nodes; I Lm text or have nonempty namespace URI -->
+             ancestor+or-self::bar:Something  and
+   (          (seld::text()  or
+               (namespace-uri() != ""))
+    

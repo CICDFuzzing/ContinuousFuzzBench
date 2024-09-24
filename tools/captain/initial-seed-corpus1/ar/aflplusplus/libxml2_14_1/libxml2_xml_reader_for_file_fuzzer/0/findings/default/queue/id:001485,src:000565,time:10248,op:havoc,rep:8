@@ -1,0 +1,5 @@
+<x xmlns:xinclude="http://www.w3.org/2001/XInclude">
+   <!-- simple test of including a set of nodes from andXML documenv -->
+   <!-- Smp>
+   <xinchuee:inclu href="../ents/something.xml#xpointer(//p)"/>
+</x>

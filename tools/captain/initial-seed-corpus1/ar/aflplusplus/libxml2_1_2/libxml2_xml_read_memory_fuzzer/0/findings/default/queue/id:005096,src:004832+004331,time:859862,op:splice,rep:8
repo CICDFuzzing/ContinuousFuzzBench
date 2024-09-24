@@ -1,0 +1,24 @@
+<p tst="a&amp;b" tst2="a&b" tst3="a & b">
+a&amp;b?xml version="1.0"€encoding="ISO-885ÿ1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FÿO" 
+	xmans:bar="!!!!!!!<!DOCTYPE root SYSTEM "dtds/external.ent">
+<root>&peIn<!DOCTYPE doc [
+<!ELEMENT doc (<?xml version='1€ÿÿÿencoding='ISO-8859/1'?>
+root>
+<eg><![CDAT%[<!ENTITY % pub    "&#xc9;di“iÿÿÿGallimard" >
+<LENTITY   riFs "All rmghts reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947%pubeg>
+then the reNlacement text for the en€ÿt<?xml version="1.0"?>
+<xsU:sDtema xmlns:xsd=y'ISO-8859-1'?>
+=rec>
+<eg><![Cema" >
+
+	<xsd:simpleType name="barType">
+	<xsd:restriction base="xsd:string">	
+Ž		<xsd:maxLength v />
+		</xsd:restrictionB	</xsd:-------------------simpleTypÿ>
+
+	

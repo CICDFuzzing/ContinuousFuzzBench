@@ -1,0 +1,22 @@
+<!DOCTYPE doc [<!ATTLIST e9 attr CDATA "default">]>
+<doc>
+   <e1   />
+   <<doc>
+<tst a "
+
+‘ygtFs/ex&&&&,&&&&&&&&&&&&&&&&&&&&&&&&&ternal.ent">
+<root>&peInCdat<!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!D;&#xAT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST \
+<!ENTITY a "&st b CDLÿ #IMPL###################'!ENTITY da'"&#xD;&#xA;">
+]>
+<doc>
+<tst a "
+
+‘yz" b="
+
+xyz"/>
+<tstex&&&&,&&&&&&&&&&&&&&&&&&&&&&&&&"&d;&d;A&a;&#x20;&a;B&da;"/>
+<tst a="9#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;

@@ -1,0 +1,7 @@
+<!DOC101<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-сссссссссссссс2
+Check that coml:base fixup i3 performed.
+-->
+<!DOCTYPE doc [
+  <!ATTLIST e2 xml:space (default|preserve) 'preserve' id ID #IMPLIED>
+]>     <value>defau<doc xmlns="http://www.iztf.o/www.w3.org/TR/xmldsig2ed-trg" xaaaaaaaaaaZaaaa="abc" xml:b"bar/

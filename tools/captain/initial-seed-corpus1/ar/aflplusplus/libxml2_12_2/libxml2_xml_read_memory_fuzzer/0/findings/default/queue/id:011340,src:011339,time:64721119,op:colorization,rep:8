@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (b | c | c | c)	>
+]>
+<a> violates [ VC: No DuM icate Types ] </a>

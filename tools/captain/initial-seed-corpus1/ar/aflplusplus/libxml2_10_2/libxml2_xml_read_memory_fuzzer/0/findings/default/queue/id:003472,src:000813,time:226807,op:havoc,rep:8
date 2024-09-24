@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISOrnode [
+<!ELEMENT rnode (f)>
+             Ï           !    7                                                    
+<!ELEMENT f (#           
+<!ELEMENT f (#PCDATA)>
+<!ATTLIST f
+   att1 CDATA #FIXED 'J'>
+                                                                               
+<!ENTITY f
+   "
+   <f>
+   hello uorld
+   </f>
+   "
+>
+]>
+                                                  
+<rnode>
+   &f;
+</rnode>
+

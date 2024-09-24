@@ -1,0 +1,6 @@
+<!DOCTYPE D [
+  <!ENTITY % c SYSTEM "//////.///////////////////////////////////////////////////////////////////////////">
+%c;
+<!ENTITY % a SYSTEM "http://ea.dtd">
+%a;
+<!ENTITY % b SYSTEM "h//example.org/b

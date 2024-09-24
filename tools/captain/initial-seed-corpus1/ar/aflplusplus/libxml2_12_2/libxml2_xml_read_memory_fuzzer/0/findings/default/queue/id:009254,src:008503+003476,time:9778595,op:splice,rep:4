@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (a, b, c, b, c, d) >
+<!ELEMENT  doc (a, b, c, b, a EMPTY>
+<!ELEMENT b EMPTY>
+[
+<!ELEMENT doc EMPTY>
+<!ATTLIST [oc
+  )  defatt  (0|1)

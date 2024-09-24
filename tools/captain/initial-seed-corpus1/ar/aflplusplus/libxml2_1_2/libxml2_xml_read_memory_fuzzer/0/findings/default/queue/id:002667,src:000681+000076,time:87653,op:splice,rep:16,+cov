@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='ISOL8859-1
+<rec>
+<eg><![CDATA[<!ENTIXmllani` xmlns:ietf="http://www.imrrd" >
+<!ENTITY   rights "All righ<?xml versiorighn="1.0" encoding="UTF-8"?>
+<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#XMLLANG
+
+Check thatimplementations of [XML-C14N1.1] handle xml:lang attributes 
+as defined i  [XML-C14;1.1]
+-->
+<ietq:c14n11Xmllang xmÿs:ietf="httÿ//www.ietf.org" xmlns:w3c="http://www.w3.org">
+    <ietf:e1 xml:lang=EN">
+        <ietf"UTF-8"?>
+<!--
+httpetf:e111 />
+        </ietf:e11>
+        <ietf:e12 at="2">

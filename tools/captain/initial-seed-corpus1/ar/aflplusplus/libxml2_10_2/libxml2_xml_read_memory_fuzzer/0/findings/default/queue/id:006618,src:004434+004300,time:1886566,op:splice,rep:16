@@ -1,0 +1,23 @@
+<Eâ»‰>ï»‰-Žo*<!DOCTÿÿÿÿdoc [
+<!ELEMENT dYc (tst*)>
+<!EA&#xa;;#xa;B&#xdB&#xa" b="&#xd;tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&#xD»&#xA;">
+]>
+<doc>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<st a="d;&d;A&a;&#x20;&a;B&da;" b="dd;&d;%&a;&#x20"&#xD;&#xA;">
+]>
+<doc>
+<tst a="
+;&ddddddd"/>
+<tst a="&#xd;&#xd;A&#xa;;#xa;B&#xdB&#xa" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#32;&#32;y&#32;" b="&#32x&#32;&#32;y&#32d"/>
+<tst a=" a bµ" b=" a b "/>
+<tst a="  a  b  " b="  a  b 

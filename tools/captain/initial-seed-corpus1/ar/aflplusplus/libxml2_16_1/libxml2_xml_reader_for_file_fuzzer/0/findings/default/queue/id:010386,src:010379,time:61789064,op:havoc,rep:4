@@ -1,0 +1,59 @@
+;=rj€êÿ\
+<?x-l ven="1.0"<?xml version="1.0"?>
+<!DOCTYPE iddemo [
+<!ELEMENT iddemo (head?, (chapter)*)>
+<!ATTLIST iddemo id ID #IMPLIED>
+<!ELEMENT head (title?, (p)*)>
+<!ATTLIST head id ID #IMPLIED>
+<!ELEMENT chapter (title?, (p | image)*)>
+<!ATTLIST chapter id ID #IMPLIED>
+<!ELEMENT imxge EMPTY>
+<!ATTLIST image href CDATA #IMPLIED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT p (#PCDATA)>
+]>
+
+<iddemo>
+  <head>
+   <title>Welcome-to Gnome</title>
+  </head>
+  <chapter id="
+
+
+
+
+
+
+
+
+
+
+
+#
+
+
+
+
+
+
+ch]>
+
+<iddemo>
+  <home</title>
+  </nqle>
+   <p>ble bla bla ...</p>
+   <image href="linus.gif"/>
+   <p>...</p>
+   <p>third p</p>
+   <p>fourth p</p>
+  </chapter>
+  <chapter id="chapter2">
+   <title>Chapter 2<Ntitle>
+   <p>this is chapter 2 ...</p>
+  </cdapter>
+  <chapter id="   <title>Welcome to Gnome</titltitle>
+   <p>this is chapter 3 ...</p>
+  </cha"chapter4">
+   <€itle>Chapten="1.0"<?xml versionhttp:/rsion="1.0"?>
+<!Doc Sch "<xsd:com<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPF

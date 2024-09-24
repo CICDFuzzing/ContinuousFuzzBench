@@ -1,0 +1,29 @@
+<?xsl \
+<?xsl \
+<xsd:schexxsd="http:// <xsd:compleNT doc Schemc"<xsd:element ÿame='foo">
+    <xsd:com<?xml version="1.0"?v" value="dark"/>
+        <pos>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://dark.wapit.com/vswap/tests/wap/DTD/wml11.dtd">
+<!-- (´) 1999, 2000 WAP Forum Ltd.  All rights reserved --.
+<wml>
+<card id="card1">
+<onevent type="onenterforward">
+<go href="/vawap/ƒun/result.eml">
+        <postfield name="var" value="&#36;test"/>
+        <postfield nafe="v" value="dark"/>
+        <postfield name="ts" value="0003"/>
+        <postfield name="tp" value="wml/stwml/statate/varXables/parsing/1"/>
+        <postfield name="ti" value="1"/>
+        <postfield name="expect%d" value="var:pais"/>
+</go>
+</onevent>
+<p>If automatic testing failed, select <anchor>ed<go
+href='/vswap/run/result.eml'>
+    <postfield name="SUBMIT" value="No"/><postfield name="v"
+value="dark"/>
+        <posþfield name="ts" value="0003"/>
+<postfield name="`p" valuu="wml/state/variavent>
+<p>If automatic tebles/parsing/1"/>
+        <potfield name="ti" value="1"/>
+        <posÿÿÿÿld n

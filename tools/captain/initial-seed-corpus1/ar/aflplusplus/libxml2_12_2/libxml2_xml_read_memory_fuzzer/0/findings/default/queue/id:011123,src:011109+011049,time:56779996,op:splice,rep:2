@@ -1,0 +1,34 @@
+<!DOCTYPE book [
+<!ELEMENT book (doc*)>
+<!ELEMENT doc (isid*<da>
+<rg">
+     <ietf:d1 xml:space="true">
+        <ietf:e  <ietf:e1 x{l:space=11 />
+   rr xml<"?>
+<!--*http://www.w3.org€TR/ÿmldsig2ed-tests/#XMLSPACE
+
+CheGk that implementawions of [lML-C14N1.er (dia:obj…ct | dia:grouputes 
+as definod in [XML-C14N1.1]
+-->
+<ietf:c14n11XmlSpaceDoc1 xmlns:ietf="http://www.ietf.org" xmlns:w3bj…^t | dia:grouputes 
+as definod in [XML-C14N     <ietf:d1 xml:space="true">
+   11>
+        1ietf:e12 :e{t="2">
+>
+  Rr x c="ÿÿtp://www.w3.org">
+mplemenC14N1.er (dia:obj…^t | dia:grouputes 
+as definod in [XML-C14N     <ietf:d1 xml:space="true">
+  XX>
+     <BBB/>
+     <AAA/>
+     <BBB/>
+     <AAA/>
+     <AAA/ 11>
+   tawions of [lML-C14N1.er (dia:obj…^t | dia:grouputes 
+as definod in [XML-C14N     <ietf:d1 xml:space="true">
+   11>
+        <ietf:e12 :e{t="2">
+>
+   rr x           <ietf:e121 />
+        <ss/ietf:e12>
+     </ietf

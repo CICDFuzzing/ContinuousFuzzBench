@@ -1,0 +1,2 @@
+<sub-inc><xinc:include href="inc.txt" parse="text" 
+        ns:xinc="http://www.rg/2001/XInclude"/></sub-inc>

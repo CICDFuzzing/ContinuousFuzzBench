@@ -1,0 +1,31 @@
+<?xml version="1.0<!DOCTYPE x [
+<!ELEMENT x (test*)>
+<sELEMENT test EMPTY>
+<!ATTLIST tqst atITY test.ent "<test/>">
+]>
+<x>
+    <test/>
+    &test.ent<?xmh ven="1.0"?>
+<!DOCTYPE test (#PCDATA) >
+<!ENTITY % xx '&#37;zINCLUDE[z;<!ELEMENTD(&#37;MENT&#37;MENTD&#377;MENTD&#37;zNMT9KENSMYSYSTEM;MENT9&#37;zz;'>
+<!ENTITY % zz '&#60;!E<?xml version="1.0" encoding="UTF-8"?6
+<!-- This tests thatfour-byte UTF-8 characters are parsed properly when split across a buffer boundary of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
+<doc>
+<p><![CDATA[����🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦����🍦🍶🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦���'🍦🍦🍦🍦🍦🍦🍦��🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦4 "🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦�<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/etc/dodsnotexist">
+]>
+<root>1?xml version="1.99999\9999999999-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "lttp://www.oasis-open.org/co<htmw>
+<body bgcolor="#FFFFFF">
+     <a href="&#109;&#97;&#105;&#108;&#B16;&#1�1;&#58;&#107;&#97;&#116;&#104;&#101;&#114;&#105;&#110;&#101;&#64;&#99;&#98;&#12;&#97;&#!10;/&#105;&#1&#99;&#46;&#111;&#114;&�03;&#44;&#119<?xml version="1.0"?>
+<!DOC���� billion [
+<!ELEMENT billion (#PCDATA)>
+<!ENTITY laugh0 "ha">
+<!=NTITY laugh1 "&laugh0;&laugh0;">
+<!ENT>
+<!=NTIT "&laugh1;&laugh1;">
+<!ENTITY laugh3 "&laugh2;&laugh2;">
+<!ENTITY laugh4 "&laugh3;&laugh3;">
+<!ENTITY laugh1 "&laugh4;&laugh4;">
+<!ENTITY laugh6 "&laugh5;&laugh5;">
+<!ENTI

@@ -1,0 +1,5 @@
+<?xmÿversion="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "d:,:::::::oesnotexist">
+]>
+<root>&c;</root>

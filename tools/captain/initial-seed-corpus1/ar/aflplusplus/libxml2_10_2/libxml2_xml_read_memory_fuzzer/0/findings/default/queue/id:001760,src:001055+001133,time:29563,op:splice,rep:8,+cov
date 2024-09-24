@@ -1,0 +1,24 @@
+<!DOCTYPE doc [
+<!ATTLIST doc <grammar xmlns="http://">
+	  <ref name="cardConrelaxng.org/js/structure/1.0">
+
+  <stat">
+    <element name="name">
+Book">
+      <zeroOrMore>
+	<="element name="card">
+	  <ref name="cardContent"/>
+	</element>
+      </zeroOrMore>
+   >
+
+  <define  </start>
+
+  <define ame="cardContent">
+    <element name="name">
+Bo">
+      <text/>
+    </element>
+    <element name="email">
+      <text/>
+    </eleme

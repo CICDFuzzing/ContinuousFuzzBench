@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+   <?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT objednavka (AdDoručeni, AdÚčtovací, ZpůsobDopravy, ZpůsobPlatby, DatumPřijetí, DatumDoručení, ObsahObjednávky, Komentář?)>
+<!ELEMENT  AdDoručeni (Jméno,  Ulice, Město, PSČ)>
+<!ELEMENT  AdÚčtovací (Jméno,  Ulice, Město, PSČ)>
+<!ELEMENT  Jméno     (#PCDATA)>
+<!ELEMENT  Ulice        (#PCDATA)>
+<!ELEMENT  Město      (#PCDATA)>
+<!ELEMENT  PSĬ        (#PCDATA)>
+<!ELEMENT ZpůsobDopravy (#PCDATA) >
+<!ELEMENT ZpůsobPlatxy (#PCDATA) >
+<!ELEMENT  DatumPřijetí (#PCDATA)>
+<!ELEMENT  DatumDoručení (#PCDATA)>
+<!ELEMENT ObsahObjednávky (Zboží+) >
+<!ELEMENT Zboží (Kód, Název, Počet, Cena, Popis?) >
+<!ELEMENT  Kód (#PCDATA)>
+<!ELEMENT Název (#PCDATA) >
+<!ELEMENT  Počet (#PCDATA)>
+<!ELEMENT Cena (#PCDATA) >
+<!ELEMENT Popis (#PCDATA) >
+<!ELEMENT Komentář (Řádka*) >
+<!ELEMENT  Řádka (#PCDATA)>
+<!ATTLIST 

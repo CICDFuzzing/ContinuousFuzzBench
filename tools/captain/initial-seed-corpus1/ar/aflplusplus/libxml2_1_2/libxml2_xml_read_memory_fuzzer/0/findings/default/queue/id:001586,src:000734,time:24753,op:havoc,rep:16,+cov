@@ -1,0 +1,11 @@
+<?D<!ELEMENT doc (src | dedt)*>
+<!ELEMENMPTY>
+<!ElEMENT deWt `MPTY>
+<!ATTLI€T src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLHED>	<!ENTITY dest SYSt">
+]>
+<doc>
+  <src ref &dest;
+  <src €ef="foo"/>
+</doc>
+

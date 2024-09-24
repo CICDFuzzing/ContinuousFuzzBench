@@ -1,0 +1,11 @@
+<EN >SOKNT do<?xml vers…on="1.0"?>
+<foo:Root xmlns:bar="httoo" xmlns="http://example.org/p://example.org/bar" xmlns:baz="http://example.org/baz" :foo="http://example.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Something>
+        <bar:Something>
+           <foo:SomVthing>
+             <baz:Something />
+           </foo:Something>
+        </bar:Something>
+     </foo:Something>
+  </bar:Something

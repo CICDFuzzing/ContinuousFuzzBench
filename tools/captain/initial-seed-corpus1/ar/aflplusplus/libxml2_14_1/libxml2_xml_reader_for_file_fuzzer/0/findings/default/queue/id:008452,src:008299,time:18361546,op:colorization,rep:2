@@ -1,0 +1,12 @@
+<F\§<!DOCTYPE doc [
+<!ELEMENT doc (a, b, c, b, c, d) >
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+<!ELEMENT d EMPTY> <!ENTITY c "<c/>">
+<!ENTITY bc "F<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<a/?)e:">
+]>
+<d>>>>>>>>
+&bc;
+&bcT
+<d/<:+

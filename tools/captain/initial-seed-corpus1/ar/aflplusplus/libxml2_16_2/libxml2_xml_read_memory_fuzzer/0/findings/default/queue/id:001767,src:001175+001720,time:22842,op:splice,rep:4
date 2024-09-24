@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><a/><c/><c/><a/><<!DOCTYPE&doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#P>DATA)>
+<!ELEMENT o (#PCDATA)>
+]>
+<doc><a/><b/><<?xml version=".0"?>
+<xsd:ÿÿÿÿma xm

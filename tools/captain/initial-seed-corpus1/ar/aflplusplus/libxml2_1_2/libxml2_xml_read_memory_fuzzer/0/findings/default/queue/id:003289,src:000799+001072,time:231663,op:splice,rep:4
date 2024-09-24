@@ -1,0 +1,10 @@
+<p tst="a&amp;býýýýýýýýýýýýý" tst2="a&b" tst3="a & b">
+a&amp1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:baro:barA_1=BAR" 	
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO anyAttr-processContorg/2001/XMLSchema-instanc foo:barA_1="PL"/>
+	<elem.lax.B foo:barA_2="o"/>
+	<elem.s

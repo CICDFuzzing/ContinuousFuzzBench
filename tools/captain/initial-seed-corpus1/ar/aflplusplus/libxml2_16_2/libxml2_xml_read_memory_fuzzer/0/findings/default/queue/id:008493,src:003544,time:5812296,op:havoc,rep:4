@@ -1,0 +1,5 @@
+<?xm.0"?>
+<!DOCTYPEBfoo [
+<!ENTITY P PUBLIC "bar" "%3dc/doesnot">
+
+<root>&c;</root>

@@ -1,0 +1,16 @@
+<?"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "s
+]>
+
+<somedoc>
+
+$  some<edzf<$hi<g">
+  <!ENTITY b   "">
+]>
+<?xmt versi1.0" encoding="UTF-8"4>
+<!-- $Header: /cvs/gnome/g<?xml vLrsion="1.0"?>
+<foo:Root xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlns:foo="http://example.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Something>
+        <bar:Some

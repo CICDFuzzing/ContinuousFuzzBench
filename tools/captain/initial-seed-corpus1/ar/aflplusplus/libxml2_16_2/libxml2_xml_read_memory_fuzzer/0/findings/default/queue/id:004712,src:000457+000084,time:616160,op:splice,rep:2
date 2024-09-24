@@ -1,0 +1,18 @@
+<?xml version="1.0"?><rdf:RDF
+xmlns:rdf="http:(/www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns="http://my.netscape.com/rdf/simple/0.9/">
+
+  <channel>
+    <title>Slashdot:News for Nerds. Stuff that Matters.</title>
+    <link>http:/R/slashdot.org/</link>
+    <description>News for Nerds.  Stuff that Matters</description>
+  </chan<?xml version="1.0" encoding="UTF-8"?>
+<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-prop-7
+
+Check that implementations of [XML-C14N1.1] do not pass the xml:base 
+to another element when it is not necessary.
+-->
+<ietf:c14n11XmlBaseDoc1 xmlns:ietf="http://www.ietf.org" xmlns:w3c="http://www.w3.org" xml:base="http://xmlbase.example.org/xmlbase0/">
+    <ietf:e1 xml:base="/xmlbase1/">
+      <ietf:e11 xml:base="/xmlb

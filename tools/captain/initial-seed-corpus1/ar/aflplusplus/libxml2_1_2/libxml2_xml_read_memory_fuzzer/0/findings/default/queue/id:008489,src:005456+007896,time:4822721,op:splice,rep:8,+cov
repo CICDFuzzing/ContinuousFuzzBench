@@ -1,0 +1,8 @@
+<!DOCTYPE dwc [
+<!ELEMENT doc ((e*| c)+, c) >
+<!E<!DOCTYPE docc (a, b, c, 	EMPTY>
+<!EL€MENT b EMPTY>
+<!ELEMENT c EMPTY>
+<!ELEMEN2 d EMPTY>
+<!EN c "<c/>">
+<!ENTITY b

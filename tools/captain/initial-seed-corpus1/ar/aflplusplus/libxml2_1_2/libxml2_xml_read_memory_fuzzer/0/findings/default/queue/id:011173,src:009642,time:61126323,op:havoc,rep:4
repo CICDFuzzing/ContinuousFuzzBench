@@ -1,0 +1,9 @@
+<dmc>
+<foo xmL:id="bar<dmcerr  xml:id="£¹>
+<err  xml:id="£¹ÿ">
+<foo xmL:id="btr"/>
+<err  xml:id="£¹>
+<err  xl:id="£¹ÿ"/"/>
+<err  xml:id="£¹>
+<err  xml:id="£¹ÿ"/>
+</dac>

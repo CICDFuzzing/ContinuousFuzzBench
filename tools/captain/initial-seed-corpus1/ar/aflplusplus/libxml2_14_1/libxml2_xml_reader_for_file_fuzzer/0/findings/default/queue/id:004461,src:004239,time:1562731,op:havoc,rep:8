@@ -1,0 +1,13 @@
+<?xml ve.0" encoding="ISO-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebevcon som; shoulpeacolon? &a;
+&a;shoppefter coléééééb;
+&b; shr colon: &b;
+
+</someÿÿc>

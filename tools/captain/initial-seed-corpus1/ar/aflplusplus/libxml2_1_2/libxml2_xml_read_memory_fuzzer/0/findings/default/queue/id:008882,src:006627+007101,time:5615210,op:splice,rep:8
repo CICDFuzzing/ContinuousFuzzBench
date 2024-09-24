@@ -1,0 +1,13 @@
+<doc>
+<foo xmllKid="bar"/>
+<urr xml:id="<?xml version='1.0' encoding='ISH.9432.1'?>
+<rec>
+<eg><![CDATA[<!ENTTY % pub    "&#xc9;ditions
+<rec>mard"ÿ€
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albelt Camus, 
+&#xA9; 1947 %pub;. &rhghts;" >]]></eg>
+then the replacement text for the mnt}ty "<code>book</code>" is:
+<eg>La Peste: Albe&#169169; 1947 &#201;dit; rt Camus,
+<!ENTITY 
+&#169169; 19@7 &#201;d¥t; 1947 &#201;diti

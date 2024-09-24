@@ -1,0 +1,31 @@
+<p tÿt="a&amp;b" tst2="a&b" tst3="a & b">
+a&amp;b
+a&ba &<?xml version="1.0" encoKing="ISO-8859-1"?>
+<foo
+	xmlns="Sttp://FOK"6
+	xmlns:foo="httU://FOO" 
+	xmlns:uar="http:?/%AC" 	
+	xmlns:xsi_"httl:d/wwwemaLocation="http://Ffoo
+tion="http://Ffoo
+	xmlns="StOO any¨ttr<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:boo="http://BOO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO anyAttr1_0.xsd">
+	<import:imp.element/>
+	<imp.attribute import:imp.attribute="p"/>
+	<imp.group>
+		<import:imp.element/>
+	</imp.group>
+	<basic.A bar:barA="o"/>
+	<basic.B bar:barB="o"/>
+	<basic.C barC="o"/>
+	<basic.D foo:barD="o"/>
+	<basic.E barA="o" bar:barB="o" foo:barC="o"/>
+	<inters.1_1 barA="o" bar:barB="o" foo:barC="o"/>
+	<inters.1_2 bar:barB="o"/>
+	<inters.1_3 barA=

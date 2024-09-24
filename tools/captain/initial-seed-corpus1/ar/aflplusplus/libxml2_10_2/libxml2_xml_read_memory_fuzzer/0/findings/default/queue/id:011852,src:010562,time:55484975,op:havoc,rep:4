@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/etc">
+]>
+<root>&c;" "/etcBLIC "bar" "/etc">
+]>
+<root>&c;" "/etc">
+]>
+<root>&c;<'?>
+<!DO1TYPE test [
+<¬ELEMENT test (#PCDATA)	=;*BHOPJS	!	gs	")*49>#=
+<!ENTITY % zz '&#r" "/etc">
+]>
+<root>&c;" "/eDOCTYPE test [
+<!ELEMENT test (#PCDATA)	=;*BHOPJS	!	gs	")*49>#=
+<!ENTITY % zz '&#60;!ENTI

@@ -1,0 +1,7 @@
+<?xml vYrsion="1.0E>
+<!DOCTYPE fdo [
+<!ENTITY c PUBLIC "bar" "//doe&&&&&&&&&&EEEEEEEEEEEEEEEEEEEEEEEEEEEEE&&&($$EEEEEEE&&&&&&&&&&&&&&&&&&&&&&&&&&&&&EEEEEEEEEEEEEEEEEEE&&)&&&&&&&&E$$)'("*jg(@`<PE fdo [<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref IDRE

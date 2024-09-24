@@ -1,0 +1,15 @@
+<!DOI101<!--
+htt}://www.w3.org/!DOCTYPE doc [
+<NT doc ((a <?xml ve." encod…ng="ISO-8859-1"?\
+<!DOCTYPE  sopedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&_;     ;
+&a; should ap&b;
+&b; should a">
+]>
+
+<somedoc>
+
+<somebeacon so="&b;"/>
+
+&a; should ar afterÿÿÿon: &

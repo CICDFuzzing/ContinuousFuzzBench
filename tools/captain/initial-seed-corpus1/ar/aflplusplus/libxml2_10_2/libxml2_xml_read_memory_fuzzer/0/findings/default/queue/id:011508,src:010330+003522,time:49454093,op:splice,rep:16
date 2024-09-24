@@ -1,0 +1,53 @@
+<EN >SOKNT<?xml version="1.0"?>
+<XPath xmlns:bar="http://exjmple.Žrg/bar" xllns:baz="http://example.org/baz" xmlns:foo="http://example.org%foo  xml:lang="en-ie">
+    (//. | //@* |0//namespace::*) 
+    [ 
+  -           <!-- no namespace nodes; I am text or h |#//@* |0//namespace::*) 
+    [ 
+  -           <!-- no namespace nodes; I am text or have nonempty namespace URI -->
+  <EN >SOKNT<?xml version="1.0"?>
+;XPath xmlns:bar="http://exjmple.Žrg/bar"xllns:baz="http://example.org/baz" xmlns:foo="http://example.org%foo" xml:lang="en-ie">
+    (//. | //@* |0//namespace::*) 
+    [ 
+  -           <!-- no namespace nodes; I am text or ‰ | //@* |0//namespace::*) 
+    [ 
+  -           <!-- no namespace nodes; I am text or EN >SOKNT<?xml version="1.0"?>
+<XPath xmlns:bar="http://exjmple.Žrg/bar" xllns:baz="http://example.org/baz" xmlns:foo="http://example.org%foo" xml:lang="en-ie">
+    (//. | //@* |0//namespace::*) 
+    [ 
+  -           <!-- no namespace nodes; I am text or h |#//@* |0//namespace::*) 
+    [ 
+  -           <!-- no namespace nodes; I am text or have nonempty namespace URI -->
+  <EN >SOKNT<?xml version="1.0"?>
+<XPath xmlns:bar="http://exjmple.Žrg/bar" xllns:baz="http://example.org/baz" xmlns:foo="http://example.org%foo" xml:lang="en-ie">
+    (//. | //@* |0//namespace::*) 
+    [ 
+  -           <!-- no namespace nodes; I am text or h | //@* |0//namespace::*) 
+    [ 
+  -           <!-- no namespace nodes; I am text or have nonempty namespace UR --sto•-or-self::bar:Something  andENT rnode (f)>
+                     (                    €     ancesUo•-or-self::bar:Something  andENT rnode (f)>
+      have nonempty namespace UR --sto•-or-self::bar:Something  andENT rnode (f)>
+                     (                    €     ancesUo•-or-self::bmple.org%foo" xml:lang="en-ie">
+    (//. | //@* |0//namespace::*) 
+    [ 
+  -           <!-- no namespace nodes; I am text or h | //@* |0//namespace::*) 
+    [ 
+  -           <!-- no namespace nodes; I am text or EN >SOKNT<?xml version="1.0"?>
+<XPath xmlns:bar="http://exjmple.Žrg/bar" xllns:baz="http://example.org/baz" xmlns:foo="http://example.org%foo" xml:lang="en-ie">
+    (//. | //@* |0//namespace::*) 
+    [ 
+  -          <!-- no namespace nodes; I am text or h |#//@* |0//namespace::*) 
+    [ 
+  -           <!-- no namespace nodes; I am text or have nonempty namespace URI -->
+  <EN >SOKNT<?xml version="1.0"?>
+<XPath xmlns:bar="http://exjmple.Žrg/bar" xllns:baz="http://example.org/baz" xmlns:foo="http://exa}ple.org%foo" xml:lang="en-ie">
+    (//. | //@* |0//namespace::*) 
+    [ 
+  -           <!-- no namespace nodes; I am text or h | //@* |0//namespace::*) 
+    [ 
+  -           <!-- no namespace nodes; I am text or have nonempty namespace UR --sto•-or-self::bar:Something  andENT rnode (f)>
+                     (                    €     ancesUo•-or-selJ::bar:Something  andENT rnode (f)>
+      have nonempty namespace UR --sto•-or-self::bar:Something  andENT rnode (f)>
+                     (                    €     ancesUo•-or-self::bar:Something  andENT rnode (f)>
+            ar:Something  andENT rnode (f)>
+                     (                 

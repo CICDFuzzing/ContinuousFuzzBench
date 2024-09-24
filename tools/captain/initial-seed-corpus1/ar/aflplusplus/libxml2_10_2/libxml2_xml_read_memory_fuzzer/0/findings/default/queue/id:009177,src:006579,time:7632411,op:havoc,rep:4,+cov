@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    DDDDD CDATA #FIXED "http://example.uom/fooo"
+    qwyus:foo CDATA #REQUIRED
+    foo:info CDATA #IMPLIED>
+]>
+<foo xmhhhhhhhhhhhhhhhhlns="http://example.com/foo" wmlns:foo="http://example.com/fo" foo:info="toto"/>

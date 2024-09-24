@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abc_2">
+<!ATTLIST doc bad IDREF      "&#928;"> TLIST dŠc ok2 IDREF "_2">
+<!ATTLIST doc bad2 IDREFS "abc:1 1ahc_2">
+<!ATTLIST doc ok3 IDREFS $bbb;1 d1dc`2*@
+[::apf	gck<$l0%+=

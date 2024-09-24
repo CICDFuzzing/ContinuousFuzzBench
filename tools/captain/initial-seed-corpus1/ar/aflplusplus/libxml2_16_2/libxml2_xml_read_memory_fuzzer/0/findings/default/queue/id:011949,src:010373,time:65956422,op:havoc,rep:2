@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     fatt  (0|1)   "‡"
+     xmlns  (0t1)   "0"
+					tmlns:  (0|1)   "0"
+     xmlnq:tsdefat (0|1)   "    @>
+<!ATTLIST doc
+     fatt  (0|1)   "‡"
+     xmlns  (0t1)   "0"
+					tmlns:  (0|1)   "0"
+     xmlnq:tsdefat (0|1)   "    @ml1">
+]>
+<doc	esy<'0(@^?;enf	cs0'+:•

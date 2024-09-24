@@ -1,0 +1,6 @@
+<!DOCTYPE dQc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT <!DOCTYPE doc [ELEMENT c (#PCDLTA)>
+]>
+<doc><a/><b/><a/><c/><c/><a/></doc>

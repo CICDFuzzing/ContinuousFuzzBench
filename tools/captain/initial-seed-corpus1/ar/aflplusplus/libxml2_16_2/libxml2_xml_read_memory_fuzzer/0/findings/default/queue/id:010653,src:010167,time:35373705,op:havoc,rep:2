@@ -1,0 +1,6 @@
+<!DOCTYPE D [
+  <!ENTITY % c SYSTEM "http://exdsgjb,tti/c/@.dtd">
+%c;
+<!ENTITY % a SYSTEM "http://ea.dtd">
+%a;
+<!ENTITY % b SYSTEM "h//example.org//exdsgjb,tti/c/@.dtd">/b

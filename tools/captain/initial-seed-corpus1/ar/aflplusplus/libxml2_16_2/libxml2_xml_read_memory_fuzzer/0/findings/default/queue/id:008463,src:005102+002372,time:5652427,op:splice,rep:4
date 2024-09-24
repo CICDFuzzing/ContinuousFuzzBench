@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-eouiv="Cnten<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><<?xml versioD="o" />
+	version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo=http://FOO" 
+xmlns:bar="http://BAR" 
+	xmlns:doo="http://DOfoo:barC="o"/>
+	<deriO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO anyAttr-derive1_0.xsd">
+
+	<derive.1_1 barA="o" bar:barB="o" foo:barC="o"/>
+	<derive.1_4 barA="o" bar:barB="o" foo:barC="o"/>
+	<derive.2_1 bárA="o" bar:barB="o" foo:barC="o" doo:barD="o" />
+	<derive.3_1 barA="o" foo:barC="o" doo:barD=" />
+	<derive.4_1 bar:barB="o" foo:barC="o" doo:barD="o"/>
+
+	<derive.5_1_a barA="o" bar:barB="o" foo:barC="o" doo:barD="o" />
+	<derive.5_1_b barA="o" bar:barB="o" foo:barC=

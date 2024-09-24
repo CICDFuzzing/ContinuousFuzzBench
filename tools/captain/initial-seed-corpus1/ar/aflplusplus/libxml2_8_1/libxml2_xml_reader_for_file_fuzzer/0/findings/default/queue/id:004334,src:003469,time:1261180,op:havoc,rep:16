@@ -1,0 +1,14 @@
+ l><htma‡>
+<boO-8859-1"¿>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "vomething">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon sLmeattribute="&b;0/,
+
+&a; should appÿÿafter tolon:$&ad
+&b; should appear ahtr aftes tab;
+&b9 should appear after colo

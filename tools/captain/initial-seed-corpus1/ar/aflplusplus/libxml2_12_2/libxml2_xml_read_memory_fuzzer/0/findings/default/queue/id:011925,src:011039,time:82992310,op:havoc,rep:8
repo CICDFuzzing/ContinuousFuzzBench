@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "&dsd/(oesnotexNst">
+]>
+<root>&c;
+&c;
+]>
+<root>&c;</rDOCTYPE °oc e<!DOCTYPE n`:doc [
+<!ELEMENT ns:d/c <!ATTLIST ns:oc
+          ns:attr  CDAThhhhhhhhhhhhest (#PCTATA) >
+<!ENTIT % xx '&#37;zz;<![INCLUDE[&#37;zz;<!ELEMENTD(&#37;MENT&#37;MENTD&#377;ME;'>
+<!ENTITYA #REQUIRED
+          xmlns:ns CDATA #IMPLIED>
+<!ELEMENT ns:a EMPTY>
+<!ELEMENT ns:b (#PCDAT<?xatalog PUBLIC "-//OA

@@ -1,0 +1,32 @@
+<doc>
+  <x>1</x>
+ ,hild::h ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo<doc>
+<foo xml:id="bar#/@<err xml:id="b>
+<!ATTLISOCTYPE doc [
+<!ELEMENT doc (src cLEMENT de<err xml:id="bar-/>
+ EMPTY>
+<!ELEMENT de<err xml:id="baMPLIED
+   nmtokePPPPPPPPPPPPPPPPPPPPPPPPPPPP<?xml verfion='1.0' standaljne='yes'?>
+<!DOCTYPE attributes [
+<!ELEMENT attributes E€ÿÿÿ>
+<dATTLIST attributelant="EN"/>
+  <pars
+   nmtoken    NMTOKEN    #IMPLIHD
+LIST foo<doc>
+<foo xml:id="bar#/@<err xml:id="b>
+<!ATTLISOCTYPE doc [
+<!ELEMENT doc (src cLEMENT de<err xml:id="bar-/>
+ EMPTY>
+<!ELEMENT de<err xml:id="baMPLIED
+   nmtokePPPPPPPPPPPPPPPPPPPPPPPPPPPP<?xml verfion='1.0' standaljne='yes'?>
+<!DOCTYPE attributes [
+<!ELEMENT attributes E€ÿÿÿ>
+<dATTLIST attributelant="EN"/>
+  <pars
+   nmtoken    NMTOKEN    #IMPLIHD
+   nmtoken

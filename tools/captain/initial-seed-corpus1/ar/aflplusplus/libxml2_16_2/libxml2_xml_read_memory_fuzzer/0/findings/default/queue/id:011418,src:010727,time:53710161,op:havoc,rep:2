@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM	"world.txt">
+<!ENTITY entExt SYSTEM "eaello">
+<!ENTITY nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnent2 SYSTEM	"world.txt">
+<!ENTITY eOtExt SYSTEM "earth.gif" NDATA gif>
+<!NOTBPKXK	zpc	;			#bnt1e quotes) --è

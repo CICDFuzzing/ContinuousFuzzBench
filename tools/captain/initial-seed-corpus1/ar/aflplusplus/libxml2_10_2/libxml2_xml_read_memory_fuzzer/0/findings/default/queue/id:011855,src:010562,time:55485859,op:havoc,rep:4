@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "'etc">
+]>
+<root>&c;" "/etc">
+]>
+<root>&c;<'?>
+<!?OCTYPE test [
+<!3LEMENT test (#PCDATA)	=;*BHOPJS	!	gs	")*49>#=
+<!ENTITY % zz '&#60;!ÿNTI

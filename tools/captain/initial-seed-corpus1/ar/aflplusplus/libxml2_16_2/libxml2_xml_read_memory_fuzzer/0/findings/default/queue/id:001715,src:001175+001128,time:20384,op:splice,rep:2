@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">><<?xml version="1.0"?>
+<xsd:s
+  <xsd:element name="doc">
+TA)>
+]>
+<doc><exType>
+      <xsd:all minOccurs="1">
+        <xsd:element nam

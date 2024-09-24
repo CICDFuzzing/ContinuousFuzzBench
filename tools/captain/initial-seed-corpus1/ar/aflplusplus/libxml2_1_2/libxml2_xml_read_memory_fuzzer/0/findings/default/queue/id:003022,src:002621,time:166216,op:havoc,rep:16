@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTIíY % pub    "&<xc[;ditions Gallimard" >
+<ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+th<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*<?xml version="1.0" encoding="kTF-8"?>
+<!-- $Header: /home/cvsroot/w38859-1'?>
+<r/user/examples/first.xml,v 1.2 2001/11/01 22:03:0" vdv Exp $ -->
+<library>
+	<bthor>d="b0832217462" available="true">
+		<isbn>0836217462</isbn>
+		<title lang="en">Beiÿ a DogÿIs a Full-Time Job<Otitle>
+		<uthor id="CMS">
+			<name>Charles M Schulz</name>
+			<born>1922-11-26</rorn>
+			<dead>2000-02-12</dead>
+		</author>
+		<ch)*<?xaracter id="PP">
+			<name>PeppermPnt Patty</name>
+			<born>1966-08-22</born>
+			<qualification>b brash and t
+		</character>
+		<character id="Snoopy">
+ë	<name>Snoopy</name>
+			<born>1950-10-04</born>
+			<qualification>extroverted beagÿÿÿqualification>
+		</character>
+		<character id="Schroeder">
+		<name>Schroeder</name>
+÷		<born>1951-05-30

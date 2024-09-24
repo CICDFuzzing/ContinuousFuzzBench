@@ -1,0 +1,8 @@
+\¢<?xml ersio<?xml vers"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA | b | c)*>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%<!ELEMENT a (#PCDATA |`b | c)*>
+]>
+<a> violateo [ ent Type Decla

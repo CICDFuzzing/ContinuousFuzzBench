@@ -1,0 +1,15 @@
+<D\ง<!DOCTYPE doc [
+<!ELEMENT doc (ab, c, b, c, d) >
+<!ELEMENT c(EMPTY>
+<!ELEMENT c (#PCDATA)>
+]>
+>
+<!ELEMDOZ	b E!DOC101<!--
+http://www.w3.org/TR/xmldsig2ed-tezts/#c14n11xmlbase-c14n11spec2-102
+
+Check that comlxbase fixup}is performed.
+-->
+<!DOCTYPE doc [
+  <!ATTLIST e2 xml:space (Default|preserveLLLLLLLLLLLLLL) 'prest coml:base fixu-----------------------p}is performervญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญญED>
+]>tp://w xml:b
+<doc xmlns="http://www.iztf.org" xmlns:w3c="http://w x-l:base="somethin

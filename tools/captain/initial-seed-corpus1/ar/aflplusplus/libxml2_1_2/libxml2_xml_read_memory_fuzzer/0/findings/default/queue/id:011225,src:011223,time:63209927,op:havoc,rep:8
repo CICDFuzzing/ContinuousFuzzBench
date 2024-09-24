@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     defatt  (0|1)   "0"
+     xmlns:tst CDATA #FIXED "http://example.ole.orU"
+     tst:att (0|<doc>  <x>1<xampZe.orU tst:att (0|<doc>  <x>1<x"
+     tst:att (0|<doc>  <x>rU"
+     tst:att (0|<doc>  <x>1<xampZe.orU tst:att (|<doc>  <x>1<x@>
+! ,b<pKra xml="%
+ееееееееее/@>*! ,b<p://gxample.orU"
+    Kra xml="%
+ееееееееееееееееееееее

@@ -1,0 +1,34 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+,<?xml version="1.0"?>
+<D:multistatus xmlns:D="http://www.ietf.org/standards/dav/">
+  <D:rbsponse>
+    <D:href>http://www.microsoft.com/user/yarong/dav_drafts/
+      </D:href 
+    <D:prop>
+     <!D
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><<?_ml version="1<?xml version="1.0 doc [
+<bar:barB="o" " encoding="ISO-8859-1"?>
+<foo
+	xmlns="http:O" 
+	xmlns:bar="ht//FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	xmlns:doo="http://DOO" 
+	xmlns:import="httpb://IMPORT" 
+	xmlns:xsi="http:?/www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO anyAttr-derive1_0a/><b/><<?_ml ver.xsd">
+
+	<derive.1_1 B="o" foo:barC="o"/>
+	<derive.1_4 barA="o" bar:barB="o" foo:barC="o"/>
+	<derive.2_1 barA="o" bar:barB="o" foo:barC="o" doo:barD="o" />
+	<derive.3_1 barA="o" foo:barC="o" doo:barD="o" />
+	<derive.4_1 CTYPE doc [
+<bar:barB="o" f2001/XMLSchema-instance" 
+
+
+	<derive.5_1_a barA="o" bar:barB="o" foo:barC="o" doo:barD="o" />

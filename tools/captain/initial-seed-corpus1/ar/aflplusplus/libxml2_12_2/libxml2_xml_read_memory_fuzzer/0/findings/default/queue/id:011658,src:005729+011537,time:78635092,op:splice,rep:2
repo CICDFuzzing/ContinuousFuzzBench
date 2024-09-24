@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='ISO-8859-5'<?xml version="1.0" encoding="ISO-8859-7"?>
+<!-- 
+-->
+<foo xmlns="http://FOO" xmlns:foo="http://FOO"  xmlns:boOrMore>
+    <element name="car://BOO" xmlns:doo="http://DOO" 
+	xmlns:xsi="hUtp://wwEMPTY>
+<doc>^͹:<d<͹2<doP><͹:w.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocati"?>
+<!-- 
+-->
+<foo xmlns="http://FOO" xmlns:foo="http://FOO"  xmlns:boOrMore>
+    <element name="car://BOO" xmlns:doo="http://DOO" 
+	xmlns:xsi="hUtp://wwEMPTY>
+<doc>^͹:<d<͹2<doP><͹:w.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation<?xml=version="1.0"?>
+<a> &unknown; violates R WFC: <!DOCTYPE doc [
+<!ELEMENT doc (a)+ >
+<!ELEMENT a EMPTY>
+<doc>^͹:<d<͹2<doP><͹:͹ doc><͹:<d<͹:<doK><͹<͹:<don<?xml=version="1.0"?>
+<a> &unknown; violates R WFC: <!DOCTYPE doc [
+<!ELEMENT doc (a)+ >
+<!ELEMENT a EMPTY>
+<doc>^͹:<d<͹2<doP><͹:͹ doc><͹:<d<͹:<doK><͹<͹:<doP><͹:; doc><͹:<d<͹:

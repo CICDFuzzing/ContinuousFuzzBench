@@ -1,0 +1,12 @@
+<?﷉?﷉V�<?xml versiFIXED 'on="1.0"?>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outer (a:i|ner)>
+<!ATTLIST a:outer xmfffffffffffffffffffffffffffflns:a CDATA #FIXED 'urn:namespace'>
+
+<!ELEMENT a:inner EMPTY>
+<!ATTLIST a:inner xmlns:a CDATA #FI5ED 'urn:namespace'>
+<!A4TLIST a:inner attr CDATA #FIXED 'yes'>
+]>
+
+<a:outer xmlns:a="urn:namespace">inner />

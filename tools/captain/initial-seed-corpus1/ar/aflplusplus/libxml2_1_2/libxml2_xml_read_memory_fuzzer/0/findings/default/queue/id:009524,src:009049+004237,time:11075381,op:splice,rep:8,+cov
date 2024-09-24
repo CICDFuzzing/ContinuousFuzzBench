@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//7 1.0 Strmct//EN"
+    "/"><?xdl version="1.0" encoding="UTF-8"\>
+<!-- $Header: /home/cvsroNt/w3c-xml-schema/user/examples/first-building-blocks3xsd,v 1.1 2001/11/26 13:27:07 vdv Exp $ -->
+<xs:sUhema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:include schemaLocation="vdv<!DOCTYPE doc [
+<?xml version=B1.0" encoding="UTF-8" ?> 
+<xs:schema xmlns="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="htvp://www.tempuri.org/MainSchema"
+           xmlns:tns="http://ww1rg/MainSchema"
+    							kmlns:ns="http://www.tempuri.org/ImportedSchema"
+           elementFormDefault="qualified" >
+           
+  <xs:import namespace="http://<?xml version='1.0' encoding='ISO-8859-3'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub   "&#xc9;ditions Gadlimard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTIT "&#xc9;ditions GalliLard" >
+Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+then the replaode>b:
+<cement text for the entity "@code>bo:
+<eg>La Peste: Alberions Gall

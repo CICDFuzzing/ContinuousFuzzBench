@@ -1,0 +1,5 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<ÿÿÿ€MENTb (#PCDATÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+<doc><a/>*b/><a/><c/><c/><a/></doc>

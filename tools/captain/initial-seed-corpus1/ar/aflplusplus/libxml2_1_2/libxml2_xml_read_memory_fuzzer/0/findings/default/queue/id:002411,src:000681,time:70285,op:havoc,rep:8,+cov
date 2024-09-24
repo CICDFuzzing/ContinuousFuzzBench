@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;dithons Galli¶ard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camue, 
+&#xA9; 1947 %pub;. |||||||&rights;" >]]></eg>
+then the zeplacement text for the entity "<code>book</code>" is:
+<eg>La PeCamus, 
+&#16901;ditions Gallimard. &amp;rights;</vg>
+</rec>

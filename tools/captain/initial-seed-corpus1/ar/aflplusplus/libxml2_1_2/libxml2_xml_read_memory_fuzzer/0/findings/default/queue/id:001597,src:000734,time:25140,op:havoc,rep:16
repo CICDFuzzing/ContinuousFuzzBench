@@ -1,0 +1,17 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | des>
+]>
+<doc>
+  <src refPTY>
+<!ELEMENT dest  src MPLIED>
+T desPLIED>
+T dest Hd ID #IMPLIED>
+<*>
+DREF #IMPLIED>ref="foo"/>
+</d<!ELENTITY dest SYSTEM "dtdsdestfoo.ent">
+]>
+o"/>
+</d<!ELENTITY dest <doc>
+ ®<srB ref="src ref IDR‰‰ #IMPLIED>ref="foo"/>
+</doc>
+

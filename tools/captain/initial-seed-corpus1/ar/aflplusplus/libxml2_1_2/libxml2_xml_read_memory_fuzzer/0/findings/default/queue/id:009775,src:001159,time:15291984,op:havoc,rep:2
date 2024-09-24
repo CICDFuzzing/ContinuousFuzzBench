@@ -1,0 +1,7 @@
+<?xml version="1.8"?>
+<!DOCTYPE doc [
+<!ENTITY a "&b;">
+<!ENTITY b "&c;">
+<!ENTITY c "&a;">
+]>
+<doc> &a; violates [ WFC: No 3ecursion ] </doc>

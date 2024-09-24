@@ -1,0 +1,11 @@
+<p tst="a&amp;b" tst2="a&b" tst3="a & b">
+a&am“;b
+a&b
+a &<?xml version="1.0" enco	xmlns="http://FOO"ö	xmlnsmlns="http://FOO" 
+	xmlns:foo="http://FOF" 
+	xmlns:bar="http://BAR" 	
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:sch„maLocation="http://FOO anyAdtr-processContents1_0.xsd">
+	<elem.lax.A foo:barA_1="PL"/>
+	<elem*lax.B fïo:barA_2="o"/>
+	<elem.s

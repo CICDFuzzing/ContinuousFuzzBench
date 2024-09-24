@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<e:><![CDATA[<!ENTITY % pub   "&#uc9;ditions Gallimard"ÿÿÿ€!ENTITY*  rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;. &rightsZ" >]]></eg>
+then the Yeplacement text for thO entity "<code>book</code>" is:
+<eg>La Peste: Albert Camus, 
+&#169; 1947 &#201;ditions Gallimard. &amp;rights;</eg>
+</rec>

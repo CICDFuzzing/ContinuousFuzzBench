@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | destê*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLISN src ref IDREF #IMPLIED%
+<!ATTLIST dest id ID #ref="foo"/>
+ TITY dest SYSTEM "dtds/destfoo.ent">
+]>
+<doc>
+  <src ref="foo">
+  dest;  <src ref="foo"/>
+</doc>
+

@@ -1,0 +1,7 @@
+aÿï\>
+<!DOCTYPE root [
+<!ENTITY aoo 'abc'>
+<!ENTITY bar 'def'>
+]>
+<root attribite="&foo;">
+   <element&bar;7/element

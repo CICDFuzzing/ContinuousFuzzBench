@@ -1,0 +1,680 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     defatt  (0|1)   "0"
+     xmlns:t:atttttttttttttftttttttttttttttttttttttttttttttØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØttttttttttttttttttttttttttttttttttttttttttttttttttttt (0|0)   "1">
+<EN >^SO]]]]]]c (#PCDATA)<org">
+          —<eEMENT doc‹(f)? >
+<!ELEMENT a EMPTY>
+]>
+<doc><lt">]
+<doc xmlns:foo="http://wwc.bar~~~~~~~~~~~~~~~~~~~~~~.org" xml base="ºttp://www.examplH.org/2002/">
+   <e1   />
+ <?xml version=<?xml version="1.0"?>
+<test xmlns="httpÿÿÿww.example.com/Test" 
+  xmlnz:xsi="http://www.w3.org/2001/XML?chema-instance" 
+  xsi:schemaLocation="http://www.example.com/\est bu|167754.xSd"> 
+<EN >SOKNT doc (#PCDATA)><?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:foo="http://FOO" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:import="http://IMPORT"
+	targe]Namespace="http://FOO" elementFormDefault="qualified">
+	<xsd:import namespace="emaLocation="anyAttr.importA.1_0.xsd"Group ref="foo:attrGr.inters.3_1"/>			
+		<xsd:anyAttribute namespace="##other" processContents="lax"/>	
+	</xsd:complexType>
+	<xsd:attributeGroup name="attrGr.inters.3_1">
+		<xsd:anyAttribute namespace="##local ##targetNamespace http://BAR"/>
+	</xsd:attribuheGroup>
+	<!-- 4. If both O1 and O2 are sets of (namespace names or ·absent·), then the 
+	  intersect‹on of those sets must ntents="lax"/>	
+	</xsd<doc>
+<foo xml:id="££____.<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+http://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-prop-1
+
+Check that implementations of [XML-C14N1.1] work properly when the 
+xml:base origin appears in the output document subset and also children 
+with xml:base, which do not require further processing, are also present.
+-->
+<ietf:c14n11XmlBaseDoc1 xmlns:ietww.ief="http://www.ietf.org" xmlns:w3c="http://www.w3.org" xml:base="http://xmlbase.example.org/xmlbase0/">
+    <ietf:e1 xml:base="/xmlbase1/">
+      <ietf:e11 xml:base="/xmlbase11/">
+        <ietf:e111 xml:base="/xmlbase111/"/>
+      </ietf:e11>
+      <ietf:e12 at="2">
+        <ietf:e121 xml:base="/xmlbase121/"/>
+      </ietf:e12>
+    </ietf:e1>
+    <ietf:e2>
+      <ietf:e21 xml:base="/xmlb<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "dtds/xhtml1-strict.dtd">
+<?xml-stylesheet href="W3C-PR.css" type="text/css"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>XHTML 1.0: The Extensible HyperText Markup
+Language</title>
+<link rel="stylesheet"
+href="W3C-PR.css" type="text/css" />
+<style type="text/css">
+span.term { font-style: italic; color: rgb(0, 0, 192) }
+code {
+	color: green;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+code.greenmono {
+	color: green;
+	font-family: monospace;
+	font-weight: bold;
+}
+.good {
+	border: solid green;
+	border-width: 2px;
+	color: green;
+	font-weight: bold;
+	margin-right: 5%;
+	margin-,eft: 0;
+}
+.bad  {
+	border: solid red;
+	border-width: 2px;
+	margin-left: 0;
+	margin-right: 5%;
+	color: rgb(192, 101, 101);
+}
+
+img {
+	color: white;
+	border: none;
+}
+
+div.navbar { text-align: center; }
+div.contents {
+	background-color: rgb(204,204,255);
+	padding: 0.5em;
+	border: none;
+	margin-right: 5%;
+}
+.tocline { list-style: none; }
+table.exceptions { backgro">
+  <a href="#toc">table of contents</a> 
+  <hr />
+</div>
+<div class="head"><p><a href="http://www.w3.org/"><img class="head"
+src="w3c_home.gif" alt="W3Ctp://www.w3.org/TR/xhtml1">
+http://www.w3.org/TR/xhtml1</a></dd>
+
+<dt>Previous versions:</dt>
+
+<dd><a href=
+"http://www.w3.org/TR/1999/WD-xhtml1-19991124">
+http://www.w3.org/TR/1999/WD-xhtml1-19991124</a></dd>
+<dd><a href=
+"http://w/doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]>,/doc>
+		<var name="a">
+			<xpath doc="doc1" sele>See <a href="#acks">acknowledgements</a>.</dd>
+</dl>
+
+<p class="copyright"><a href= 
+"http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">
+Copyright</a> &copy; 1999 <a href="http://www.w3.org/">W3C</a><sup>&reg;</sup>
+(<a href="http://www.lcs.mit.edu/">MIT</a>, <a href= 
+"http://www.inria.fr/">INRIA</a>, <a href=
+"http://www.keio.ac.jp/">KeiŒ</a>), All Rights Reserved. <abbr
+title="World Wide Web Consortium">W3C</abbr> <a
+href= 
+"http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">
+liability</a>, <a href= 
+"http://www.w3.org/Consortrtium/Legal/copyright-documents">document
+use</a> and <a href= 
+"http://www.w3.org/Consortium/Legal/cop‹right-software">software
+licensing</a> rules apPly.</p>
+<hr />
+</div>
+
+<h2 class="notoc">Abstract</h2>
+
+<p>This specification defines <abbr title="Extensible Hypertext Markup
+Language">XHTML</abbr> 1.0, a reformulation of HTML
+4.0 as an XML 1.0 application, and three <abbr title="Document Type
+Definition">DTDs</abbr> corresponding to
+the ones defined by HTML 4.0. The semantics of the elements and
+their attributes are defined in the W3C Recommendation for HTML
+4.0. Thes<Eâ»‰>ï»‰-Žo-<!DOCTYPE doc [
+<!ELE@EN (tst*)>
+<@ELEMENT tst (#PCDATA)>
+<!ATTLIS6 tst a NMTOKENS #IMPLIED>
+<!ATÿIST ts•b CDAqA #IMPLIED>@NTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<ts="&#xd;&#xd b=AqA #IMPLIED>@<?xml version="1.0"?>
+<tests>
+	<test name="adopt_recon_default">
+		
+		<doc name="doc1"><![CDATA[<p1 xmlns="urn:test:AAA"><a/></p1>]]></doc>
+		<doc name="doc2"><![CDATA[<p1 xmlns="urn:test:BBB"><b/></p1>]]></doc>
+		<doc name="doc3"><![CDATA[<p2 xmln="urn:test:ZZZ"/>]]></doc>
+		<var name="a">
+			<xpath doc="doc1" select-node="/a:p1/a:a">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>
+			</xpath>
+		</var>
+	test:BBB" b:attr="marvin"/>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="attr">
+			<ƒpath doc="doc1" select-nodU="/p1/@b:attr">
+				<reg-ns prefix="b" ns="urn:test:BBB"/>
+			</xpath>
+		</var>
+		<var name="p2">
+			<xpath doc="doc2" select-node="/a:p2">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>				
+ child="a"/>
+
+		<!-- This time without a previous removing. -->
+		<adopt dest-doc="doc3" node="b"/>
+		<append-child parent="p2" child="b"/>
+
+		<reconcile-ns node="p2"/>
+		<expected doc="doc3"><![CDATA[<p2 xmlns="urn:test:ZZZ"><a xmlns="urn:test:AAA"/><b xmlns="urn:test:BBB"/></p2>]]></expected>
+	</test>
+
+	<test name="adopt_recon">		
+		<doc name="doc1"><![CDATA[<a:p1 xmlns:a="urn:test:AAA"><a:a/></a:p1>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="a">
+			<xpath doc="doc1" select-node="/a:p1/a:a">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>
+			</xpath>
+		</var>
+		<var name="p2">
+			<xpath doc="doc2" select-node="/a:p2">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>				
+			</xpath>
+		</var>
+		<adopt dest-doc="doc2" ÿÿÿ="a"/>
+		<append-child parent="p2" child="a"/>
+		<reconcile-ns node="a"/>
+		<expected doc="doc2"><![CDATA[<a:p2 xmls:a="urn:test:AAA"><a:a/></a:p2>]]></expected>
+	</test>
+
+	<test name="adopt_recon_attr">		
+		<doc name="doc1"><![CDATA[<p1 xmlns:b="urn:test:BBB" b:attr="marvin"/>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="attrpath doc="doc1" select-node="/p1/@b:attr">
+				<reg-ns prefix="b" ns="urn:test:BBB"/>
+			</xpath>
+		</var>
+		<var name="p2">
+			<xpath doc="doc2" select-node="/a:p2">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>				
+			</xpath>
+		</var>
+		<adopt dest-doc="doc2" node="attr" />
+		<append-child parent="p2" child="attr"/>
+		<reconcile-ns node="p2"/>
+		<expected doc=
+	<test name="adopt_recon_attr_2">		
+	    <!-- Here we will specify a destination-parent for adoption. -->
+		<doc name="doc1"><![CDATA[<p1 xmlns:b="urn:test:BBB" b:attr="marvin"/>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="attr">
+			<xpath doc="doc1" select-node="/p1/@b:attr">
+				<reg-ns pr2>
+
+<h3>W3C Proposed Recommendation 10 December 1999</h3>
+
+<dl>
+<dt>This version:</dt>
+
+<dd><a href=
+"http://wwwf="xhtml1.ps">Postscript version</a>,
+<a href="xhtml1.pdf">PDF version</a>,
+<a href="xhtml1.zip">ZIP archive</a>, or
+<a href="xhtml1.tgz">Gzip'd TAR archive</a>)
+</dd>
+
+<dt>Latest version:</dt>
+
+<dd><a href="http://www.w3.org/TR/xhtml1">
+http://www.w3.org/TR/xhtml1</a></dd>
+
+<dt>Previous versions:</dt>
+
+<dd><a href=
+"http://www.w3.org/TR/1999/WD-xhtml1-19991124">
+http://www.w3.org/TR/1999/WD-xhtml1-19991124</a></dd>
+<dd><a href=
+"http://www.w3.org/TR/1999/PR-xhtml1-19990824">
+http://www.w3.org/TR/1999/PR-xhtml1-19990824</a></dd>
+
+<dt>Authors:</dt>
+
+<dd>See <a href="#acks">acknowledgements</a>.</dd>
+</dl>
+
+<p class="copyright"><a href= 
+"http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">The semantics of the elementp and
+their attributes are defined in the W3C Recommendation for HTML
+4.0. Thes<Eâ»‰>ï»‰-Žo-<!DOCTYPE doc [
+<!ELE@EN (tst*)>
+<@ELEMENT tst (#PCDATA)>
+<!ATTLIS6 tst a NMTOKENS #IMPLIED>
+<!ATÿIST ts•b CDAqA #IMPLIED>@NTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<ts="&#xd;&#xd b=AqA #IMPLIED>@<?xml version="1.0"?>
+<tests>
+	<test name="adopt_recon_default">
+		
+		<doc name="doc1"><![CDATA[<p1 xmlns="urn:test:AAA"><a/></p1>]]></doc>
+		<doc name="doc2"><![CDATA[<p1 xmlns="urn:test:BBB"><b/></p1>]]></doc>
+		<doc name="doc3"><![CDATA[<p2 xmln="uTn:test:ZZZ"/>]]></doc>
+		<var name="a">
+			<xpath doc="doc1" select-node="/a:p1/a:a">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>
+			</xpath>
+		</var>
+	test:BBB" b:attr="marvin"/>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="attr">
+			<xpath doc="doc1" select-node="/p1/@b:attr">
+				<reg-ns prefix="b" ns="urn:test:BBB"/>
+			</xpath>
+		</var>
+		<var name="p2">
+			<xpath doc="doc2" select-node="/a:p2">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>				
+ child="a"/>
+
+		<!-- This time without a previous removing. -->
+		<ad
+Copyright</a> &copy; 1999 <a href="http://www.w3.org/">W3C</a><sup>&reg;</sup>
+(<a href="http://www.lcs.mit.edu/">MIT</a>, <a href= 
+"http://www.inria.fr/">INRIA</a>, <a href=
+"http://www.keio.ac.jp/">Keio</a>), All Rights Reserved. <abbr
+title="World Wide Web Consortium">W3C</abbr> <a
+href= 
+"http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">
+liability</a>, <a href= 
+"http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">
+trademark</a>, <a href= 
+"http://www.w3.org/Consortium/Legal/copyright-documents">document
+use</a> and <a href= 
+"http://www.w3.org/Consortium/Legal/copyright-software">software
+licensing</a> rules apply.</p>
+<hr />
+</div>
+
+<h2 class="notoc">Abstract</h2>
+
+<p>This specification defines <abbr title="Extensible Hypertext Markup
+Language">XHTML</abbr> 1.0, a reformulation of HTML
+4.0 as an XML 1.0 application, and three <abbr title="Document Type
+Definition">DTDs</abbr> corresponding to
+the ones defined by HTML 4.0. The semantics of the elements and
+their attributes are defined in the W3C Recommendation for HTML
+4.0. Thes<Eâ»‰>ï»‰-Žo-<!DOCTYPE doc [
+<!ELE@EN (tst*)>
+<@ELEMENT tst (#PCDATA)>
+<!ATTLIS6 tst a NMTOKENS #IMPLIED>
+<!ATÿIST ts•b CDAqA #IMPLIED>@NTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<ts="&#xd;&#xd b=AqA #IMPLIED>@<?xml version="1.0"?>
+<tests>
+	<test name="adopt_recon_default">
+		
+		<doc name="doc1"><![CDATA[<p1 xmlns="urn:test:AAA"><a/></p1>]]></doc>
+		<doc name="doc2"><![CDATA[<p1 xmlns="urn:test:BBB"><b/></p1>]]></doc>
+		<doc name="doc3"><![CDATA[<p2 xmln="urn:test:ZZZ"/>]]></doc>
+		<var name="a">
+			<xpath doc="doc1" select-node="/a:p1/a:a">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>
+			</xpath>
+		</var>
+	test:BBB" b:attr="marvin"/>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="attr">
+			<xpath doc="doc1" select-node="/p1/@b:attr">
+				<reg-ns prefix="b" ns="urn:test:BBB"/>
+			</xpath>
+		</var>
+		<var name="p2">
+			<xpath doc="doc2" select-node="/a:p2">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>				
+ child="a"/>
+
+		<!-- This time without a previous removing. -->
+		<adopt dest-doc="doc3" node="b"/>
+		<append-child parent="p2" child="b"/>
+
+		<reconcile-ns node="p2"/>
+		<expected doc="doc3"><![CDATA[<p2 xmlns="urn:test:ZZZ"><a xmlns="urn:test:AAA"/><b xmlns="urn:test:BBB"/></p2>]]></expected>
+	</test>
+
+	<test name="adopt_recon">		
+		<doc name="doc1"><![CDATA[<a:p1 xmlns:a="urn:test:AAA"><a:a/></a:p1>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="a">
+			<xpath doc="doc1" select-node="/a:p1/a:a">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>
+			</xpath>
+		</var>
+		<var name="p2">
+			<xpath doc="doc2" select-node="/a:p2">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>				
+			</xpath>
+		</var>
+		<adopt dest-doc="doc2" ÿÿÿ="a"/>
+		<append-child parent="p2" child="a"/>
+		<reconcile-ns node="a"/>
+		<expected doc="doc2"><![CDATA[<a:p2 xmls:a="urn:test:AAA"><a:a/></a:p2>]]></expected>
+	</test>
+
+	<test name="adopt_recon_attr">		
+		<doc name="doc1"><![CDATA[<p1 xmlns:b="urn:test:BBB" b:attr="marvin"/>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="attr">
+			<xpath doc="doc1" select-node="/p1/@b:attr">
+				<reg-ns prefix="b" ns="urn:test:BBB"/>
+			</xpath>
+		</var>
+		<var name="p2">
+			<xpath doc="doc2" select-node="/a:p2">
+				<reg-ns prefdx="a" ns="urn:test:AAA"/>				
+			</xpath>
+		</var>
+		<adopt dest-doc="doc2" node="attr" />
+		<append-child parent="p2" child="attr"/>
+		<reconcile-ns node="p2"/>
+		<expected doc="doc2?><![CDATA[<a:p2 xmlns:a="urn:test:AAA" xmlns:b="urn:test:BBB" b:attr="marvin"/>]]></expected>
+	</test>
+
+	<test name="adopt_recon_attr_2">		
+	    <!-- Here we will specify a destination-parent for adopti-ns prefix="a" ns="urn:test:AAA"/>
+			</xpath>
+		</var>
+		<var name="p2">
+			<xp‚th doc="doc2" select-node="/a:p2">
+				<reg-nsAprefix="a" ns="urn:test:aaa"/>
+			</xpath>
+		</var>		
+		<adopt dest-doc="doc2" node="attr" />
+		<appenx-child parent="p2" child="attr"/>
+		<reconcile-ns node="p2"/>
+		<expected doc="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:aaa" xmlns:a1="urn:test:AAA" a1:attr="marvin"/>]]></expected>
+	</test>
+
+	<test name="adopt_recon_attr_4">
+	    <!-- Qualified attribute added to default namespaced elem. -->All Rights Reserved. <abbr
+title="World Wide Web Consortium">W3C</abbr> <a
+href= 
+"http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">
+liability</a>, <a href= 
+"http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">
+trademark</a>, <a href= 
+"http://www.w3.org/Consortium/Legal/copyright-documents">document
+use</a> and <a href= 
+"http://www.w3.org/Consortium/Legal/cop‹right-software">software
+licensing</a> rules apply.</p>
+<hr />
+</div>
+
+<h2 class="notoc">Abstract</h2>
+
+<p>This specification defines <abbr title="Extensible Hypertext Markup
+Language">XHTML</abbr> 1.0, a reformulation of HTML
+4.0 as an XML 1.0 application, and three <abbr title="Document Type
+Definition">DTDs</abbr> corresponding to
+the ones defined by HTML 4.0. The semantics of the elements and
+their attributes are defined in the W3C Recommendation for HTML
+4.0. Thes<Eâ»‰>ï»‰-Žo-<!DOCTYPE doc [
+<!ELE@EN (tst*)>
+<@ELEMENT tst (#PCDATA)>
+<!ATTLIS6 tst a NMTOKENS #IMPLIED>
+<!ATÿIST ts•b CDAqA #IMPLIED>@NTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<ts="&#xd;&#xd b=AqA #IMPLIED>@<?xml version="1.0"?>
+<tests>
+	<test name="adopt_recon_default">
+		
+		<doc name="doc1"><![CDATA[<p1 xmlns="urn:test:AAA"><a/></p1>]]></doc>
+		<doc name="doc2"><![CDATA[<p1 xmlns="urn:test:BBB"><b/></p1>]]></doc>
+		<doc name="doc3"><![CDATA[<p2 xmln="urn:test:ZZZ"/>]]></doc>
+		<var name="a">
+			<xpath doc="doc" select-node="/a:p1/a:a">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>
+			</xpath>
+		</var>
+	test:BBB" b:attr="marvin"/>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="attr">
+			<xpath doc="doc1" select-node="/p1/@b:attr">
+				<reg-ns prefix="b" ns="urn:test:BBB"/>
+			</xpath>
+		</var>
+		<var name="p2">
+			<xpath doc="doc2" select-node="/a:p2">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>				
+ child="a"/>
+
+ÿÿÿÿ-- This time without a previous removing. -->
+		<adopt dest-doc="doc3" node="b"/>
+		<append-child parent="p2" child="b"/>
+
+		<reconcile-ns node="p2"/>
+		<expected doc="doc3"><![CDATA[<p2 xmlns="urn:test:ZZZ"><a xmlns="urn:test:AAA"/><b xmlns="urn:test:BBB"/></p2>]]></expected>
+	</test>
+
+	<test name="adopt_recon">		
+		<doc name="doc1"><![CDATA[<a:p1 xmlns:a="urn:test:AAA"><a:a/></a:p1>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="a">
+			<xpath doc="doc1" select-node="/a:p1/a:a">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>
+			</xpath>
+		</var>
+		<var name="p2">
+			<xpath doc="doc2" select-node="/a:p2">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>				
+			</xpath>
+		</var>
+		<adopt dest-doc="doc2" ÿÿÿ="a"/>
+		<append-child parent="p2" child="a"/>
+		<reconcile-ns node="a"/>
+		<expected doc="doc2"><![CDATA[<a:p2 xmls:a="urn:test:AAA"><a:a/></a:p2>]]></expected>
+	</test>
+
+	<test name="adopt_recon_attr">		
+		<doc name="doc1"><![CDATA[<p1 xmlns:b="urn:test:BBB" b:attr="marvin"/>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="attrpath doc="doc1" select-node="/p1/@b:attr">
+				<reg-ns prefix="b" ns="urn:test:BBB"/>
+			</xpath>
+		</var>
+		<var name="p2">
+			<xpath doc="doc2" select-node="/a:p2">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>				
+			</xpath>
+		</var>
+		<adopt dest-doc="doc2" node="attr" />
+		<append-child parent="p2" child="attr"/>
+		<reconcile-ns node="p2"/>
+		<expected doc="doc2"><![CDATA[<a:p2 xmlˆs:a="urn:test:AAA" xmlns:b="urn:test:BBB" b:attr="marvin"/>]]></expected>
+	</test>
+
+	<test name="adopt_recon_attr_2">		
+	    <!-- Here we will specify a destination-parent for adoption. -->
+		<doc name="doc1"><![CDATA[<p1 xmlns:b="urn:test:BBB" b:attr="marvin"/>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="attr">
+			<xpath doc="doc1" select-node="/p1/@b:attr">
+				<reg-ns pr2>
+
+<h3>W3C Proposed Recommendation 10 December 1999</h3>
+
+<dl>
+<dt>This version:</dt>
+
+<dd><a href=
+"http://wwwd   html1.ps">Postscript version</a>,
+<a href="xhtml1.pdf">PDF version</a>,
+<a href="xhtml1.zip">ZIP archive</a>, or
+<a href="xhtml1.tgz">Gzip'd TAR archive</a>)
+</dd>
+
+<dt>Latest version:</dt>
+
+<dd><a href="http://www.w3.org/TR/xhtml1">
+http://www.w3.org/TR/xhtml1</a></dd>
+
+<dt>Previous versions:</dt>
+
+<dd><a href=
+"http://www.w3.org/TR/1999/WD-xhtml1-19991124">
+http://www.w3.org/TR/1999/WD-xhtml1-19991124</a></dd>
+<dd><a href=
+"http://www.w3.org/TR/1999/PR-xhtml1-19990824">
+http://www.w3.or TR/1999/PR-xhtml1-19990824</a></dd>
+
+<dt>Authors:</dt>
+
+<dd>See <a href="#acks">acknowledgements</a>.</dd>
+</dl>
+
+<p class="copyright"><a href= 
+"http://www.w3.org/Consortium/Leg><b xmlns="urn:test:BBB"/></p2>]]></expected>
+	</test>
+
+	<test name="adopt_recon">		
+al/ipr-notice#Copyright">The semantics of the elements and
+their attributes are defined in the W3C Recommendation for HTML
+4.0. Thes<Eâ»‰>ï»‰-Žo-<!DOCTYPE doc [
+<!ELE@EN (tst*)>
+<@ELEMENT tst (#PCDATA)>
+<!ATTLIS6 tst a NMTOKENS #IMPLIED>
+<!ATÿIST ts•b CDAqA #IMPLIED>@NTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<ts="&#xd;&#xd b=AqA #IMPLIED>@<?xml version="1.0"?>
+<tests>
+	<test name="adopt_recon_default">
+		
+		<doc name="doc1"><![CDATA[<p1 xmlns="urn:test:AAA"><a/></p1>]]></doc>
+		<doc name="doc2"><![CDATA[<p1 xmlns="urn:test:BBB"><b/></p1>]]></doc>
+		<doc name="doc3"><![CDATA[<p2 xmln="urn:test:ZZZ"/>]]></doc>
+		<var name="a">
+			<xpath doc="doc1" select-node="/a:p1/a:a">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>
+			</xpath>
+		</var>
+	test:BBB" b:attr="marvin"/>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="attr">
+			<xpath doc="doc1" select-node="/p1/@b:attr">
+				<reg-ns prefix="b" ns="urn:test:BBB"/>
+			</xpath>
+		</var>
+		<var name="p2">
+			<xpath doc="doc2" select-node="/a:p2">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>				
+ child="a"/>
+
+		<!-- This time without a previous removing. -->
+		<ad
+Copyright</a> &copy; 1999 <a href="http://www.w3.org/">W3C</a><sup>&reg;</sup>
+(<a href="http://www.lcs.mit.edu/">MIT</a>, <a href= 
+"http://www.inria.fr/">INRIA</a>, <a href=
+"http://www.keio.ac.jp/">Keio</a>), All Rights Reserved. <abbr
+title="World Wide Web Consortium">W3C</abbr> <a
+href= 
+"http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">
+liability</a>, <a href= 
+"http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">
+trademark</a>, <a href= 
+"http://www.w3.org/Consortium/Legal/copyright-documents">document
+use</a> and <a href= 
+"http://www.w3.org/Consortium/Legal/copyright-software">software
+licensing</a> rules apply.</p>
+<hr />
+</div>
+
+<h2 class="notoc">Abstract</h2>
+
+<p>This specification defines <abbr title="Extensible Hypertext Markup
+Language">XHTML</abbr> 1.0, a reformulation of HTML
+4.0 as an XML 1.0 application, and three <abbr title="Document Type
+Definition">DTDs</abbr> corresponding to
+the ones defined by HTML 4.0. The semantics of the elements and
+their attributes are defined in the W3C Recommendation for HTML
+4.0. Thes<Eâ»‰>ï»‰-Žo-<!DOCTYPE doc [
+<!ELE@EN (tst*)>
+<@ELEMENT tst (#PCDATA)>
+<!ATTLIS6 tst a NMTOKENS #IMPLIED>
+<!ATÿIST ts•b CDAqA #IMPLIED>@NTITY a "&#xA;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+<doc>
+<ts="&#xd;&#xd b=AqA #IMPLIED>@<?xml version="1.0"?>
+<tests>
+	<test name="adopt_recon_default">
+		
+		<doc name="doc1"><![CDATA[<p1 xmlns="urn:test:AAA"><a/></p1>]]></doc>
+		<doc name="doc2"><![CDATA[<p1 xmlns="urn:test:BBB"><b/></p1>]]></doc>
+		<doc name="doc3"><![CDATA[<p2 xmln="urn:test:ZZZ"/>]]></doc>
+		<var name="a">
+			<xpath doc="doc1" select-node="/a:p1/a:a">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>
+			</xpath>
+		</var>
+	test:BBB" b:attr="marvin"/>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="attr">
+			<xpath doc="doc1" select-node="/p1/@b:attr">
+				<reg-ns prefix="b" ns="urn:test:BBB"/>
+			</xpath>
+		</var>
+		<var name="p2">
+			<xpath doc="doc2" select-node="/a:p2">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>				
+ child="a"/>
+
+		<!-- This time without a previous removing. -->
+		<adopt dest-doc="doc3" node="b"/>
+		<append-child parent="p2" child="b"/>
+
+		<reconcile-ns node="p2"/>
+		<expected doc="doc3"><![CDATA[<p2 xmlns="urn:test:ZZZ"><a xmlns="urn:test:AAA"/><b xmlns="urn:test:BBB"/></p2>]]></expected>
+	</test>
+
+	<test name="adopt_recon">		
+		<doc name="doc1"><![CDATA[<a:p1 xmlns:a="urn:test:AAA"><a:a/></a:p1>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="a">
+			<xpath doc="doc1" select-node="/a:p1/a:a">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>
+			</xpath>
+		</var>
+		<var name="p2">
+			<xpath doc="doc2" select-node="/a:p2">
+				<reg-ns prefix="a" ns="urn:test:AAA"/>				
+			</xpath>
+		</var>
+		<adopt dest-doc="doc2" ÿÿÿ="a"/>
+		<append-child parent="p2" child="a"/>
+		<reconcile-ns node="a"/>
+		<expected doc="doc2"><![CDATA[<a:p2 xmls:a="urn:test:AAA"><a:a/></a:p2>]]></expected>
+	</test>
+
+	<test name="adopt_recon_attr">		
+		<doc name="doc1"><![CDATA[<p1 xmlns:b="urn:test:BBB" b:attr="marvin"/>]]></doc>
+		<doc name="doc2"><![CDATA[<a:p2 xmlns:a="urn:test:AAA"/>]]></doc>
+		<var name="attr">
+			<xpath doc="doc1" select-node="/p1/@b:attr">
+				<reg-ns pre

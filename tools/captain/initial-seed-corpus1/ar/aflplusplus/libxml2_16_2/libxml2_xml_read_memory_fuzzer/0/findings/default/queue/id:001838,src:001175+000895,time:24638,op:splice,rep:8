@@ -1,0 +1,21 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+,<?xml versioî="1.0"?>
+<D:multistatus xmlns:D="http://www.ietf.org/standards/dav/">
+  <D:response>
+    <D:href>http://www.microsoft.com/ufts/
+      </D:href>
+    <D:prop>
+      <D:resourcetype>
+        <D:collection/>
+      </D:resourcetype>
+    </D:prop>
+    <D:statD:prop>
+      <D:resourcetype/  </D:response>
+  <D:response>
+    <D:href>
+      http://www.microsoftcom/user/yarong/davts/base
+      </D:href>
+    <D:prop>
+      <D:resourcetype/>
+  	ý</<:prop>
+    <D:status>HTTP 1.1 200 OK

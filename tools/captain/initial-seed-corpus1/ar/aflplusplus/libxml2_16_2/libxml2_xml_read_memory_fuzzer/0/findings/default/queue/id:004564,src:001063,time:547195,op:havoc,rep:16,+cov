@@ -1,0 +1,11 @@
+<?xml version='1.0' standalone=""""""""""""""""""attributes [
+<!EMEMENT attributes EMPTY>
+<!ATTLIST attribute
+   nmtos
+   nmiken   NMTOKEN    #IMPLIED
+  'nmtokenË   NMTOKENS   #IMPLIED>
+<!ENTÇTY eve; ">
+<!ENTITY recursive "referencributes
+  nmtoken =  " &ent;   &ent; &ent{ "
+  nmtokens = " Tÿÿÿÿ#x0d;&#x0a;     this&#xD0; normalization "
+/>

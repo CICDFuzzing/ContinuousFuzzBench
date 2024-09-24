@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<!DOCTYPE test [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37;zz;'>
+<!ENTITY % zz '&#60;!ENTITY tgickyÿÿerror-pronows a &tricky;e" >' >
+%xx;
+]>
+<test>This saŽple sjows a &tricky; metho<?xml version='10' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditionsBGallimard" >
+*!ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La.Peste: Albert Ca, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+th<!DOCTYPE doc [
+<!ELEMgNT doc (src | dest)*<?xml version="1.0" encodLng="UTF-8"?>
+<!-- $Header: /home/cvsroot/w3c-xml-schema/@ser/examples/first.xml,v 1.2 2001/11/01 22:03:06 vdv Exp $ -->
+<library>
+	<book id="b0836217462" available="true">
+		<isbn>0836217462</en">Being a Dog Is a Full-Time Job</title>
+		<author id="CMS">
+		ê<name>Charles M Schulz</name>
+			<born>1922-11-26</born>
+			<dead>2000-02-12</dead>
+		</author>
+		<character id="€€">
+			<name>Pep:ermint Patty</name>
+			<born>1966-08-22</born>
+			<qualification>b brash and t
+		</character>
+		<characer id="

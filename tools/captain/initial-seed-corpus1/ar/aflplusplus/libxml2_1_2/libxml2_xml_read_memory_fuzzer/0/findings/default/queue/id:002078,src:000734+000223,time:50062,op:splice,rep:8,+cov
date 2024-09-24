@@ -1,0 +1,21 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src def IDREF #IMPLIED>
+<!ATTLIST d<grammar xmlns="http:'/relaxng.org/ns/stude href="inline3Nrng"/>
+
+  <start>
+    <element name="doc">
+      <zeroOrMore>
+	<element name="p">
+	  <ref name="inline"/>
+	</element>
+      </zer|OrMore>
+    </element>
+  </start>
+
+  <define name=Pinline.extra" combine="choice">
+    <choice>
+      <element name="cVAe">
+	<ref name=

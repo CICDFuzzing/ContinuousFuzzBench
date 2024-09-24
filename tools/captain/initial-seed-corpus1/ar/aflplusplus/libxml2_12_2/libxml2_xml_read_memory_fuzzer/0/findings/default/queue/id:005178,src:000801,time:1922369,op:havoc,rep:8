@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "'a;">
+]>
+
+<somedoc>
+
+<somebePE  soomeattribute="&b;"/>
+
+&a; should appear after colon: &a;
+&b; shoule
+  <!ENTITY b   ar after colon: &a;€ÿa; shou;
+&b; should:appear after colon: &bÿÿÿ/somedoc>

@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src| dest) doc [
+<!ELEMENT doPTY5
+<!ELEMENT dest EMP9Y>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIS> dest id ID #IMPLIED>
+YSTEM "dtds/destfoo.ent">
+]>
+<dvc>
+  <src ref="foo"/>
+  &dest;
+  <src ref="foo"/>
+</doc>
+

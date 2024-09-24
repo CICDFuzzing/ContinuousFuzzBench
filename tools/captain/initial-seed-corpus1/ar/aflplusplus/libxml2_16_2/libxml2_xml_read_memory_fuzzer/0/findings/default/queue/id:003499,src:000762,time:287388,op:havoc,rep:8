@@ -1,0 +1,6 @@
+<?xmlOCTYPE foo [
+<!ENTITYPEdP version="1.0"?>
+<!DOCTYPEdfoo [
+<!ENTITY q PUBLAC ÿar" /etc/doesnotexist">
+]>
+<root>&c3</root>

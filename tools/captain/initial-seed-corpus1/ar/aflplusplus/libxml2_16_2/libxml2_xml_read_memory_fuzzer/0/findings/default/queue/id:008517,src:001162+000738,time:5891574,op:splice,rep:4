@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ENTITY ext SYSTEM "ext.ent">
+]>
+<a att="wrong &ext; ref">éviolptes [ WFC: No E<?xml version="1.0" encoding="EUC-JP"?>
+<
+<a att="wrong &ext; ref">éviolposition Ò14 (0xd6)
+___
+_______________
+_____

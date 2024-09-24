@@ -1,0 +1,29 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (a, b, c, b, c, d) >
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+<!ELEMENT d EMPTY>
+<!ENTITY c "@c/>">
+<!ENTITY bc "////////////////////<b/>&c;">
+]>
+<doc>
+<a/>
+&bc;
+&bc;
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http:/&www.w3.org/1999:xhtml">
+	<heÄkÃ½ kÅ¯Åad>€		<meta http-equiv=<?xml version="E.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA | b | c | d | c<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmnns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="h{tp://BAR" 
+	xmlns:doo="hOO anyAttr-derive-errors1_0.xsd">
+
+	<derive.1_1 barA="o" bar:barB="o" foo:barC="o"/>
+	<derive.1_4 barA="o" bar:barB="o" fooo:barC="o" doo:barD="o" />
+	<derivx.3_1 barA="o" foo:barC="o" doo:barD="o" />
+	<derive.4_1 b

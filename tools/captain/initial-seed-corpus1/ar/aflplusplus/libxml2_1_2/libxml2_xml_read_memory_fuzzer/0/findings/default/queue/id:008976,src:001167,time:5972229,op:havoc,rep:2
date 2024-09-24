@@ -1,0 +1,4 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc val (v1 |TA)>
+<!ATTLIST doc val (v1  val=€v4"></doc>

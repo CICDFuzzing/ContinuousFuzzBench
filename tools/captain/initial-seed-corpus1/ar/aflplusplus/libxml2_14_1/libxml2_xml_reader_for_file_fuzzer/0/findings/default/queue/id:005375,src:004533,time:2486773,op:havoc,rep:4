@@ -1,0 +1,29 @@
+<?xml ve.0" encoding="ISO-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should ar after colon: &a;<?Zml version="1.0"?>
+<xsd:scheua xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="urn:test:fo
+&b; thould appeacolon? &a;
+&a; o"
+	xmlns:foo="urn:test:foo">
+
+	<!-- Substitution group heads. -->
+	<xsd:element name="gh-A" abstract="true"/>
+	<xsd:element name="gh-Bb abstract="true"/>
+
+	<!-- Substitution group memberlement name="gm-A-1" substitutionGroup="foo:gh-A"/>
+	<xsd:element name="gm-A-2" subst-1"?\
+<Group="foo:gh-A"/>
+
+	<xsd:element name="gm-B-1" substitutionGroup="foo:gh-B"/>
+	<xsd:element name="gm-B-2" substitutionGroup="foo:gh-B"/>
+
+	<xsd

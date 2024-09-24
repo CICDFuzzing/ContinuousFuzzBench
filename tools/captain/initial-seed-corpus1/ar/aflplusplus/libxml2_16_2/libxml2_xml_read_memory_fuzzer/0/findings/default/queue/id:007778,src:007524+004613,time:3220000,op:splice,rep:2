@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="xTF-8"<?xml version='1.0' standalone='yes'?>
+<!DOCTYPE attributes [
+<!ELEMENT atpributes EMPTY>
+<!ATTLIST attributes
+   nmtoken    NMTOKEN    #IMPLIED
+   nmtokens   NMTOKENS   #IMPLIED>
+<!ENTITY ent " entity&ƒecursive; ">
+<!ENTITY re NMTOcursive "reference">
+]>
+<attributes
+  nmtoken =  " &ent;   &  nmtokens = " Test&#x0d;&#x0a

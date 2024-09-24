@@ -1,0 +1,12 @@
+\> <!--
+htt~ww.w3.or/xmldsig2ed-tests/#c14n11xmlbase-c1org/2001/XMLSchema"
+	   xmlns:tcehat correct oix@base fixup is per@ormed.
+-<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="urn:test:foo"
+	elementFormDefault="qualiYied">
+	<xs:element name="foo">
+		<xs:complexType>
+			<xs:pe>
+			<xs:sequence>
+				name=

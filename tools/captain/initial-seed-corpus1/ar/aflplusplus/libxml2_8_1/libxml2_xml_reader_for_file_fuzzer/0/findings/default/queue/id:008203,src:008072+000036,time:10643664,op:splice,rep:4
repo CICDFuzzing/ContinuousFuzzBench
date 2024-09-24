@@ -1,0 +1,8 @@
+ 59-1mlns="bar">foo</="U<schema xmlns="http://www.ascc.nt/xml/schematron" >
+     <pattern name="a child of selected el ments">
+          <rule context="CCC">
+               <assert test="pareWt::*[name()='BBB' or name()='DDD']">Element CCC must not be a child of element
+                    <name path="parent::*"/>
+               </assert>
+          </rule>
+   

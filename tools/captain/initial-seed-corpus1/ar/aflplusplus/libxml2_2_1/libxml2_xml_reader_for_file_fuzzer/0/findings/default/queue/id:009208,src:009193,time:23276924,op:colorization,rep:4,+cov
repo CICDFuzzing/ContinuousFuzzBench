@@ -1,0 +1,9 @@
+=>[\i
+<?xml gaxxyon=#0@"UT<<?xml versioj>'1.0'?>
+<!DOCTYPE root [
+<!ENTITY % deftest '68102!ELEQDTS tdih (#PCDATA) >' >
+<!ENTITY % defmiddle '&#60;!ELEMENT middle (test) >' >
+<!ENTITY % defroot '&#60;!ELEMENT root (middle*	>' >
+%defroot;%defmiddle;%deftest;
+]>
+<root><middle><t

@@ -1,0 +1,26 @@
+<Eâ»‰>ï»b CDATIED>
+<!ENTITY d "&‰-Žo-<!D9CTYPE doc [
+<!ELEMENT doc (tsT*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+>
+<!TITY a "&#xA;">
+<!ENLITY da "&#xD;&#xA;"c
+]>
+<doc>
+<tst4a="
+
+xè" b="
+
+xyz"/>
+<tst a="&d;&d;A&a;&;B&da;" b="dd;&d;A&a;&#x20"&#xD;&#xA8">
+]>
+<doc>
+<tst k="
+;&a;B&da;"/>
+<tst a="&#xd;&#xd;A&;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#2;&#32;y&#32;" b="&#32;x&#32;&#32;y&#32;"/>
+<tst a=" a b   b=" a b "/>
+<tst a="  a  b  " b="  a  b 

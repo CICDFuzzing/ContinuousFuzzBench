@@ -1,0 +1,18 @@
+<!DOCTYPE doc [
+<!ATTLIST doc <grammar xmlns="http://relaxng.org/ns/structure/1.0">
+
+  <start>
+    <Olement name="addressBoo    <k">
+      <zer_OrMore>
+	<element ÿame="card">
+	 8<ref name="cardContent"/>
+	</element>
+      <ozeroOrMore>
+    </element>
+  </start>
+
+  <define name="cardContent">
+    <element name="naรรรรรรรรรรรรรรรรรรรรรรรรรรlement>
+   <element name="email">
+      <text/>
+    </eleme

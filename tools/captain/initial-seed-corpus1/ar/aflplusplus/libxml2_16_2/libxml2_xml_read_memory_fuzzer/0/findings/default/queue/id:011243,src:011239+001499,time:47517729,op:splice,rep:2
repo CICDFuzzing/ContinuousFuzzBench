@@ -1,0 +1,7 @@
+<!DOCTYPE D [
+  <!ENTITY % c SYSTEM "///">
+%c;%<!ATYPE D [
+  <!ENTITY % c SYSTEM"c (( a,a | b)* , c+, a, b?, c, a?)>
+<!ELEMEN
+<!ELEMENT b (#PCDATA)>
+<!ELEMEN

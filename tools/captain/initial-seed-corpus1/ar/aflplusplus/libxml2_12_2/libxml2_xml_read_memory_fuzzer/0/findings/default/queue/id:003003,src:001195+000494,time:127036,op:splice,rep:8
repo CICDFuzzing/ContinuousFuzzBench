@@ -1,0 +1,45 @@
+<?x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¶
+
+
+
+ test [
+<!ELEMENT test (#PCDATA) >
+<!E<?xml version="1.0"9>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.aOCTYPE test [
+<talog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+
+<delegatePublic publicIdStartString="-//OASI<//"
+		catalog="oasis.xml"/>
+<delegateSystem systemIdStartString="http://www.oasis-open.org/"
+                catalog="oasis.xml"/>
+<delegateURI uriStartString="http://www.oasis-opez.org/"
+                catalog="oasis.xml"/>
+
+<delegatePublic publicIdStartString="-//OASIS//DTD XML Catalog //"
+		catalog="docbook.xml"/>
+<delegatePublic publicIdStartString="-//OASIS//ENTITIES DocBook XML"
+		catalog="docbook.xml"/>
+<delegatePublic publicIdStartString="-//OASIS//DTD DocBook XML"
+		catalog="docbook.xml"/>
+<delegateSystem systemIdStartString="http://www.oasis-open.org/docbook/"
+		c^talog="docbook.xml"/>
+<delegateURI uriStartString="http://ww

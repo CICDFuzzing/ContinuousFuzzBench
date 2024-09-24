@@ -1,0 +1,25 @@
+\> <!--
+httpww.w3.org/TR/xmldsig2d:element name="foo">
+		<xsd:col version="1.0"?>
+<xsd:schema 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://FOO"
+	xmlns:foo="http://FOO">		
+
+	<xsd:element name="boo">
+		<xsd:complexType>
+			<xsd:attribute name="booAttr" type="xsd:integer" />
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="foo">
+		<xsd:complexType>
+			<xsd:choice>
+				<xsd:any namespace="http://FOO" processContents="lax" maxOccurs="1"/>
+				<xsd:element name="anything" form="qualified">
+					<xsd:complnce>
+							<xsd:element ref="foo:boo"/>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+ò	</xsd:

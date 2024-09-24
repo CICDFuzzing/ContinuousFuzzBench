@@ -1,0 +1,8 @@
+º?xslê\
+<?xjl version="1.0" encoding="IS@?xml version.0"?>
+<!DOCTYPE a SYSTEM "dtds/a.dtd" [
+<!ELEMENT a (#PCDATA |  | c)*>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENTöc (#PCDATA)>
+]>
+<a>

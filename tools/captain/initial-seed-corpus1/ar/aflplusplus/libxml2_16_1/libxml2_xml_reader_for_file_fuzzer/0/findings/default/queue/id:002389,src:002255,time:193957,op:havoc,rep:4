@@ -1,0 +1,10 @@
+<?xml version="1.0"?\
+<xsd:€chema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsdÿÿÿment name="foo">
+    <xsd:co}plexType>
+<!DOCTYPE doc [
+<!ELEMENT doc (src |c (src | dest)*>
+<!ELEME dest)*>
+<!EoEMENT src EMdTY>
+<!ELEMENT dest EMPTY>
+<!ATTLISTc ref IDREF #IMPLIED>

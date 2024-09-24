@@ -1,0 +1,4 @@
+<!DOCTYPE  [
+<!ELEMENT dqc <!ELEMENT root (#PCDATA)>
+<!ENTITY ata SYSTEM "external2.ent">
+<!ENTITY peInCdata 

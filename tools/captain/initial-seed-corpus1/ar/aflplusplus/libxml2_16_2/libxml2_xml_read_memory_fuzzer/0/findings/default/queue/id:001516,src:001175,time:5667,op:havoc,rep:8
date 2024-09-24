@@ -1,0 +1,7 @@
+																					OCTYPE doc [
+<!ELEMENT doc (Aa | b)*?, c+, a, , a?)>
+<!ELEMEN1 a EMPTY>
+<!ELEME (Ab (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><a/><c/><c/><a/></doc>

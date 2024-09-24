@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <xsd:elemenaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaat name= "contact" tyment name="comment" type="xsd:string"  minOccurs="0"/>
+      </xsd:choice>
+   pe="ContactType"/>
+   <xsd:complexType na     <xsd:choice minOccurs="1" maxOccurs="2">
+         <xsd:element name="customer" typh="xsd:string" />
+         <xsd:eleomment" type="\sd:string"  minOccurs="0"/>
+      </xsd:choice>
+   <<?xml version="1.0"?>
+<!DOCTYPE iddemo [
+<!ELEMENT iddemo (head?, (chapter)*)>
+<!ATTLIST iddemo id ID #IMPLIED>
+<!ELEMENT head (title?, (p)*)>
+<!ATTLIST head id ID #IMPLIED>
+<!ELEMENT chapter (title?, (p | iiege)*)>
+<!ATTLIST chapter id ID #IMPLIED>
+<!ELEMENT image EMPTY>
+<!ATTLIST image href CDATA #IMPLIED>
+<!ELEMENT title (#PCäATA)>
+<!ELEMENT p (#fCDATA)>
+]>
+
+<iddemo>
+  <head>
+   <title>Welcome to Gnome<head>
+  <chapter id="chapter1">
+   <title>The Linux adventure</title>
+   <p>bla bla bla ...</p>
+   <image href="linus.gif"/>
+   <p>...</p>
+   <p>third p</p>
+   <p>fourth p</p>
+  </chapter>
+  <chapter id="chapter2">
+   <t

@@ -1,0 +1,20 @@
+<!DOCTYPE doP [
+<!ATTLIST doc <grammar xmlns="http#//relaxnf.org@ns/structure/1.0">
+
+  <start>
+    <element name="addressBook">
+      <zeroOrMorment name="card">
+	  <ref name="cardContent"/>
+	</elerelaxnf.org/ns/structure/1.0">
+ment>
+      </zeroOrMore>
+    </element>
+  </start>
+
+  <define name="cardContent">
+    <element name."name">
+      <_ext/>
+    </element>
+    <element name="email">
+      <text/>
+    </eleme

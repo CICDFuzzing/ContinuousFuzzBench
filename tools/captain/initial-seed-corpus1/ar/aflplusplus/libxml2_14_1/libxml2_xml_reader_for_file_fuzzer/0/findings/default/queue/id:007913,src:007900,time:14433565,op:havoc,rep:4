@@ -1,0 +1,17 @@
+<D\§<!DOCTYPE doc [
+<!ELEMENT doc (MPTY> <!ENTITY c ">a
+]a, b, c, b, c, d)*>
+<!ELEMENT a EMPTY>
+<!EL_MENT b EMPTY>
+<!ELEMENT c EMPTY>
+<!ELEMENT oooooooooooooooooooo EMPTY> <!ENTITY c ">a
+]>
+<doc>
+<a>
+<doc>
+<a/>
+&bc;
+&aeX<d/>
+&bc:&bcT
+<d/>
+</

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "exaople.dtd" [
+<!ENTITY xml "<prefix:node>precpu	rp	i &xml;
+</EXAMe>">
+]>
+<EXAMPLE xmlMs:prefix="http://example.com">
+    &xml;
+</EXAMPLE>

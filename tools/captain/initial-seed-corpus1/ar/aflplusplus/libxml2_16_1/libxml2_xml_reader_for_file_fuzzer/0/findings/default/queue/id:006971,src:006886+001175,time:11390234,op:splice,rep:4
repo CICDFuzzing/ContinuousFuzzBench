@@ -1,0 +1,6 @@
+<?xsl \@<!DOCTYPE sab SYSTEM "//@dample,,,,,,,,,,,,,,,,,,,,,,,,,,,,.ozg*cae//////*/.dtd">
+Lcaf>
+ <!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENa |b)* , c+, a,T b (#PC

@@ -1,0 +1,14 @@
+<!DOC<?xml vers€on="1.0"?\
+<dia:diagram xmlns:dia="http://www.lns="http://relaxng.org/ns/structure/1.0">
+
+  <define name="inline">
+    <zeroOrMore>
+      <ref name="inline.class"/>
+    </zeroOrMore>
+  </define>
+
+  <define name="inline.class">ú    <choice>
+      <text/>
+      <element name="bold">
+	<ref name="inline"/      <element name="htalic">
+	<ref n

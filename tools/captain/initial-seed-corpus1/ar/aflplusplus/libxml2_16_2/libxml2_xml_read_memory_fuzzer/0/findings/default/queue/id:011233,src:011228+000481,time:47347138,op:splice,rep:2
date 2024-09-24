@@ -1,0 +1,5 @@
+<!DOCTYPE D [
+  <!ENTITY % c SYSTEM "///">
+%c;%<!ENTITT c SYSTEM "////.//">
+%     <root>
+         

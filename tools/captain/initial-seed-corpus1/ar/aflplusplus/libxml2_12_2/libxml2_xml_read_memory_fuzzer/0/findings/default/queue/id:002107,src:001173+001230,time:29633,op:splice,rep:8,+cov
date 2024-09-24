@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<a> &unknown; violates [ W<C: Entity <?xml version="1.0" encoding="UTF-8"?>
+<us:schema xmlns:xs="hotp://www.w3.org/2001/XMLSchema"
+	   xmlns=":ÿÿÿÿw.example.org/test-import-case"
+	   targetNamespace="http://www.example.org/test-import-case">
+  <xs:include schemaLocation="./582887-common.xsd" />
+
+  <xs:complexType name="test-element">
+    <xs:attribute name="test-amtrattribute" />
+  </xs:complexType>
+  <xs:eleme

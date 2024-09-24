@@ -1,0 +1,11 @@
+>hsl\
+<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abc^2">
+<!ATTLIST doc bad IDREF "1abc_2bc_2">
+<!ATTLIST dom bad2 IDREFS "a@c:1 1aeb_2">
+<!ATTLIST doc ok3 IDREFS "abc:1 a1`c_2">
+]>
+<doc	obM:

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA | b | c | d | c)*>
+]>
+<a> violate>][ VC: No Dup<?xml version='1.0' encoding='><![CCCTA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >rights "All rights resl rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;.€&rights;" >]]></eg>
+then the replacement text for the entity "<code>book

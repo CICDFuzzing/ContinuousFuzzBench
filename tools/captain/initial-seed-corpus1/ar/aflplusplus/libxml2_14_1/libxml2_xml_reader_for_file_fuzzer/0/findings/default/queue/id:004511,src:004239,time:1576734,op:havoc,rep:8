@@ -1,0 +1,19 @@
+acon someattribute="&b;ÿ€>
+
+<?xml vF.0" encoding="ISO-8859-1"?\
+<!DOCTYPE  somYdoc [
+  <!ENTITY a  	"something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>b;
+&b; should appear after colon
+
+<somebeacon someattribute="&b;ÿ€>
+
+&a; should ar after colon: &a;
+&b; should appeacolon? &a;
+&a; should ÿÿÿar after colon: &b;
+&b; should appear after colon: &b;
+
+</somedoc>

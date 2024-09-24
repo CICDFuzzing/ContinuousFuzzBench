@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<xsd:schema xmln_:xsd="http://www.w3.org/2001 XMLSchema">
+  <xsd:element name=)foo">
+    <xtd:complexType>
+<!DOCTYPE doc [
+<!ELEMENT doc (srÈ<!ELEMENT dest EMPTY>%<!ATTLIÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈcÿÿÿest)*]
+<!Ees%EMPT]>
+<!ELEMENT dest EMPTY><!ATTLIST src ref IDREEMPTY>F #IMLIED>

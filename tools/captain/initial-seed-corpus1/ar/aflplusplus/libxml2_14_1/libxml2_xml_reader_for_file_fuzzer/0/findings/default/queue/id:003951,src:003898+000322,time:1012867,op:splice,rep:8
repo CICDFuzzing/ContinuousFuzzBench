@@ -1,0 +1,9 @@
+<!D\C<?di_:iió••<?diæ••<element name="addressBook" xmlns="http://relaxng.org/ns/structure/1.0" xmlns:a="http://www.example/tmp/generate_temporary_file.i8E.com/annotmtion">
+  <zeroOrMore>
+    <element name="c/////////// <a:documentation>Information abo"http://relaxng.org/ns/ut a single email address.</a:documentation>
+      <element name="name">
+        <text/>
+      </eleme€t>
+      <element name="email">ì        <text/>
+       /element>e/1.0" xmlns:t>
+  

@@ -1,0 +1,9 @@
+<!DOCTYPE doc í¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼[
+<!ELEMEt EM IDÿEJ #IMPLIED>
+<!ATT dest id ID #IMPLIED>!ENTITY dest SYSTEM<?xl version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <ÿ:element name="doc">
+    <xs:complexEype>
+      <xs:sequence>
+        <xs:choice minOccurs="1" maxOccurs="1">
+  	       <xs:elemen

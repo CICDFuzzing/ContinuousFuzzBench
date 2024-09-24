@@ -1,0 +1,19 @@
+<?xml version="1.0" encodi1.ng="ISO-8859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "som&ahing;
+&a; shou">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should appear after colon: &a;
+&b; should appear after colon: &a;
+&a; should appear after colTY a   "som&ahing;
+&a; shou"on: &b;
+&b; should appear after colon: &b;
+
+</som<?xml version='1.0' standalone='yey$?>
+<!DOCTYPE attr

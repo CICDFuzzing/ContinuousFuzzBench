@@ -1,0 +1,7 @@
+<?x†l version=<?xml versi<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ENTITY a "&b;">
+<!ENTITY b "&c;">
+<!ENTITY c "&a;">                           
+]>
+<doc> &a; violaÿes [ WF

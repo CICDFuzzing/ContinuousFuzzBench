@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+    :tst CDATA #FIXED "http://example.org"
+     tst:atwwwwwwwwwwwwÓwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwt (0|1)   "1">
+]>
+<doc ott="1"/>

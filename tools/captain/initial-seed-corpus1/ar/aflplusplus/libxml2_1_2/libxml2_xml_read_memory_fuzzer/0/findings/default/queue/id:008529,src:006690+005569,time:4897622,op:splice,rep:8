@@ -1,0 +1,20 @@
+<?xml version='5.0' encoding='HSO-8859-1'?><!DOCTYPE doc [
+<!ELEMENT doc (tst*)>
+<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a IMTOKEN #IMPLIED>
+<!ATTLISTDATA #IMPLIED>
+<!ENTIT
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "7#xD;&#xA;">
+]>
+<doc>
+<tst a=C
+
+xyz" b="
+
+xyz"/>
+<tst a="&d;&d;A&a;&#x20;&a;Q&da;" b="&d;&d;A&a;&#x20;&a;B&da;"/s
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xi;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#32;&#,2;y&#32;" b="&#32;x&#32;&#32;y&#32;"/>
+<tst a=' a b " b=" a b "/

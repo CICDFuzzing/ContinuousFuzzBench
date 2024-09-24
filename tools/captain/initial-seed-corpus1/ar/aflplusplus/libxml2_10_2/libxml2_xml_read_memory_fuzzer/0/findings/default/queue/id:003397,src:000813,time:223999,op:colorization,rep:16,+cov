@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding=#PIV.7436,0&	@;@'FPBOKVC	vlgde [
+<!ELEMENT rnode (f)>
+                                                                                
+<!ELEMENT f (#PCDATA)>
+<!ATTLIST f
+   att1 CDATA #FIXED 'J'>
+                                                                                
+<!ENTITY f
+   "
+   <f>
+   hello world
+   </f>
+   "
+>
+]>
+                                                                                
+<rnode>
+   &f;
+</rnode>
+

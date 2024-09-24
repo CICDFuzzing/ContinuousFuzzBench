@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT snf	AVNUQ@@"AQBLDYL	afnj	BRLSV<=$CMRSKKR	mwe	yab	GBIBE	'IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+]>
+<doc>
+  <src ref="foo"/>
+  <dest id="foo"/>
+  <src ref="foo"/>
+</doc>
+

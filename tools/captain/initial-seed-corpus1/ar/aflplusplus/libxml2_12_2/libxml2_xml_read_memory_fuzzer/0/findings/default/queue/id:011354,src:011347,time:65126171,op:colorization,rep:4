@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ELEMENT doc<!ENTITY % b SYSTEM "http::/example.or'/b/b.dtd">
+%b;
+<!ENTITY % d	SYSTEM "httt://example.org/c/c.dtd">
+%c;
+<!ENTITY % a SYSTEM "http://example.org/a/a.r'/b/b.dtd">
+%b;
+<!ENTITY % c SYSTEM "httt://example.org/c/c.dtd">
+%c;
+<dtd">

@@ -1,0 +1,14 @@
+\> <!--
+http://www.w3.d-tests/#c14n11xmlbase-c14n11speorg/TR/xmldsig2ed-tests/#c14n11xmlbase-c14n11spec2-ase fixup is performed.
+-->
+<!DOCTYPE doc [
+  <!ATTLIST e2 xml:space (default|preserve) 'presrve'>
+  <!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="http://www.i(tf.org" xmlns:w3c="http://www.w3.org" xml:Oase="something/elsh">
+     <e1>
+        <e2 xmlns="" base="bar/">
+           <e3 id="E3" xml:base="mething/elsh">
+    >
+     </e1>
+</dst le

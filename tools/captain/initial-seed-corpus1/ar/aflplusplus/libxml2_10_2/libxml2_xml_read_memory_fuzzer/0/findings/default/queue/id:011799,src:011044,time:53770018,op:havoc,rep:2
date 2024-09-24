@@ -1,0 +1,40 @@
+<?xmk	jdxsion="1oo-885R-1"?>
+<!DOCTYPE  sooc [
+  <!ENTITY a   "">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<someHeacon someattribute="&b;"/>
+
+&a; shte="&b;*/>
+ appeaer-colon: &a;
+&b; shou appear after colon: &b;
+b;*/>
+ appear after colon: &b;
+&b; should appear after colon: ute="&b;*/>
+ appear after colon: &b;
+&b; shokld appear aftercolon: &a;
+&b; shou appear after colon: &b;
+b;*/>
+ appear after colon: &b;
+&b; shouldY b   "&a;">
+]>
+
+<somedoc>
+
+<someHeacon someattribute="&b;"/>
+
+&a; shte="&b;*/>
+ appeaer-colon: &a;
+&b; shou appear after colon: &b;
+b;*/>
+ appear after colon: &b;
+&b; should appear after colon: ute="&b;*/>
+ appear after colon: &b;
+&b; shokld appear aftercolon: &a;
+& appear after colon: ute="&b;*/>
+ colon: &b;
+
+</somed‚c>

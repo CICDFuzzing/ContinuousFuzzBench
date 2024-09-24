@@ -1,0 +1,7 @@
+<!ENTITY % b SYSTEM "http://example.org/b/b.dtd">
+%b;
+<!ENTITY % c SYSTEM "http://example.org/c/c.dtd">
+%c;
+<!ENTITY % a SYSTEM "http://org/a/a.dtd">
+%a;
+<!ENT bca (b, c, a)>

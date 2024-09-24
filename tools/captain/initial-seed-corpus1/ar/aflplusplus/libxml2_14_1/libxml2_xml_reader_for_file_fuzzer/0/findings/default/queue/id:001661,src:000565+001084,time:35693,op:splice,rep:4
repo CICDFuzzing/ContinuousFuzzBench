@@ -1,0 +1,5 @@
+<x xmlns:xinclude="http://www.w3.org/2001/XWnclude">
+   <!-- Simple test of including a set of nodes from an XML document -->
+   <xincludeet of nodes from an XML doething.xml#xpointer(//<?xml verÿÿ="1.0"?>
+<foo:foo xmlns:foo="urn:test:foo"
+	xmins:moo="

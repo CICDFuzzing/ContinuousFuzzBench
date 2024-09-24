@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outer (a:zlqfi)>
+<!ATTLIST a:outer xmlns:I CDATA #FIXED 'urn:namn="1espace'>
+
+<!ELEMENT a:inner EMPTY>
+<!ATTLIST a:inner gylns:a CDATA #FIXED 'urn:namespace'>
+<!ATTLIST a:inner attr CDATA #FIXED 'yes'>
+]>
+
+<a:outer xmlns:a="urn:namespace">
+  <a:inner />
+</a:outer>

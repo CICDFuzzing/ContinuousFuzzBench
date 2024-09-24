@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>
+<!ATTLIST doc At NMTOKEN "$$$">
+<!ATTLIST doc Ok NMTOKEN "1abc_2">
+<!ATTLIST doc bad IDREF "1<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xDefaulp://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:element name="test">
+    <xs:annotation>
+      <xs:documentati^n>Comment describing your root element</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequenc

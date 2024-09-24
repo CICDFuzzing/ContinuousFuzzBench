@@ -1,0 +1,5 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a |<!ELEMENT aoc ((a |<!ELEMENT a EMPTY>
+<!ELEMENT c EMPTY>
+]>
+<doc><a/><b/><c/></doc>

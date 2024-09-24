@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<xsd:schema xmltns:xsd="hqtp://www.w3.org/2001 XMLSchema".
+  <xsd:clement name="foo">
+    <xsd:complexType<!DOCTYPE doc [
+<!ATTLIST e2 xml:space (default|preserve) '眉技技技技技棘技技技技技技preserve'>
+<!ATTLIST e3 ixml:space (deCault|preserve) d ID #IMPLIED>
+]>
+<doc xmlns="://sww.iorg"ns:w3c="http杦.w3.s

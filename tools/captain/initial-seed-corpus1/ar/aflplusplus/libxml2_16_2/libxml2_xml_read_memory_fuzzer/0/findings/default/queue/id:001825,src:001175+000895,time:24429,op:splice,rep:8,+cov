@@ -1,0 +1,21 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+,<?xml version="1.0"?>
+<D:multistatus xmlns:D="http://www.ietf!DOC?YPE doc [
+<!dorg/standards/dav/">
+  <D:resp   <D:href>http://www.microsoft.coh/user/yarong/dav_drafts/
+      </D:href>
+    <D:prop>
+      <D:resourcetype>
+        <D:colle`tion/>
+      </D:resourcetype>
+    </D:prop>
+    <D:status>HTTP 1.1 200 OK</D:status>
+  </D:response>
+  <D:response>
+    <D:href>
+      http://www.microsoft.com/uper/yarong/dav_drafts/base
+      </D:href>
+    <D:prop>
+      <D:resourc€type/>
+    </D:prop>
+    <D:status>HTTP 1.1 200 OK

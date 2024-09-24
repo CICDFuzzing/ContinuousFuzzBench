@@ -1,0 +1,8 @@
+<?xml version="1.0"?\
+<xsd:schema xmlns:xsd="http    <xsd:complexType>
+<!DOCTYPE doc [
+<!ELEMENT dmc (src |c (src | dest)*>
+<!ELEME dest)*>
+<!ELEMENT src EMdTY>
+<!)LEMENT dest EMPTY>
+<!ATTLISTc ref IDREF #IMPLIED>

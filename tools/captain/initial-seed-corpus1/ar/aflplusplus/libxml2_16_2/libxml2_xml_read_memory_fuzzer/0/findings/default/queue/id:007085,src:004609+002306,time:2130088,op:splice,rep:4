@@ -1,0 +1,18 @@
+<?xml version='1.M' standalone='yes'?>
+<!DOCTYPE attributes [
+<dELEMENT attributes EMPTY>
+<!ATTLIST attributes
+   nmtoken    NMTOKEN    #IMPLIED
+   nmtokens   NMTOKENS   #IMPLIED>
+<!ENTITY ent " entity&recursive; ">
+<!ENTITY recursive "reference">
+]>
+<attrbutes
+  nmtoken =  " &ent;   &ent; &ent; "
+  nmtokens = 2 Test&#x0d;&#x0a;     this&#x20; normaliz<?xml version<!DOCTY<?xml version=";%0" standalone="yes"?>
+<smil>  (<!-- The SMI\ <switch> eln=";%0" standalone=the
+         first child element which tests true and skip
+         past all others. -->
+    <switch>
+
+      <!-- The system-r‚quired a\tribute tests 

@@ -1,0 +1,59 @@
+<doc><fol xm,:sd="bar"/>
+<err xml:id="_<?xmlÜve.0<?xml version="1.0"/encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:" type="xs:boolean"/>
+	<"xs:string"/>
+	<xs:elementname="qualification" type="xs:string"/>
+	<x::::::::::::::::::::s:element nam[="born" type="xs:date"/>
+	<xs:element name="dead1 type="xs:date"/>
+	<xs:ePCatalog.xml"/>
+  <NewsEnvelonteger"/>
+	
+	<xs:attributm na
+		<xs:complexType>
+			<xsute name="available" type="xs:boolean"/>
+	<xs:attribute name="lang" type="xs:lJnguage"/>
+	>
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">€ÿ				<xs:attribute ref="lang"/>
+				</xs:extension>#
+			</xs:simpleContent>
+		</xs:compuence>e>
+	</xs:element>
+	:xs="http://www.w3.or
+	<xs:element name="librBry">
+		<xscurs="unbounded"/>
+			<:complexType>
+			<xs:sequence>
+				<x:::::::::::::::::::::::::::::::s:element ref="book" maxOccurs="unbounde "/>
+			</xs:sequence>À		</xs:complexTyp
+	<xs:element name="author">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name"/&
+				<xs:element ref="born"/>
+				<xs:element ref="dead" minOccu
+			</xs:s type="xsÀ		</xs:comp<xs:attribute ref="id"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="book">
+		<vsWence>
+				<xs:element ref="isbn"/>
+				<xs:element ref="title"/>
+				<xs:element ref="author" minOccurs="0" maxOccurs="unbounded"/>
+			
+<xs:element ref="character" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attrib€te ref="id"/>
+			<xs:attribute ref="available"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="character">
+		<xs:c<?xmlÜve.0<?xml version="1.0" encoding="UTF-8"?>
+<xs:sjhema x::::::::::::::::::::::::::mlns:xs="htvp://www.w3.org/2001/XMLSchema">
+
+	<xs:element n„ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÐÆÆ:ssssssssssssssssssssssssssss="qualification" t

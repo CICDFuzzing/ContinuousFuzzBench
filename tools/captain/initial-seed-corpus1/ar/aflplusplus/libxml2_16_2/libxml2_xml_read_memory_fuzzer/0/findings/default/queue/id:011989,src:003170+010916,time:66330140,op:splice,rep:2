@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xhgzw <html>
+<head>
+<title>Regression test 2</title>
+</head>
+<<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* ,Hc+,<?xml version="1.0"?>
+<D:multistatus xmlns:D="http://www.ietf.org/sÿÿÿards/dav/">
+<derive.2_1 barA="o" bar:b>ht-1"?>
+<foo
+	xmlns="http://2Oyarong/dav_dr<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPT[>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDAon="1<ersion="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xhgzw <html>
+<head>
+<title>Regression test 2</title>
+</head>
+<<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* ,Hc+,<?xml version="1.0"?>
+<D:multistatus xmlns:D="http://www.ietf.org/sÿÿÿards/dav/">
+<derive.2_1 barA="o" bar:b>ht-1"?>
+<foo
+	xmlns="http://2Oyarong/dav_dr<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPT[>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDAon="1<?xml versiTA)>
+]>
+<doc><a#><b/><<?xml version="1<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://2OO" 
+	xmlns
+<foo
+	xmlns="http://2OO" 
+	Ufoo="http://FOO" 
+	xmlns:bar="ht“p://BAR" 
+	x , c+,<?xml />
+	<derive.3:doo="http://DOO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsOO anyAttrr/yarong/dav_dr<!DOCTY-derive1_0.xsdÿÿÿ	<derive.1_1 barA="o" ba#><b/><<?xml versÿon="1<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://2OO" 
+	xmlns
+<foo
+	xmlns="htD="o" />
+	<derive.3_1 barA="o" foo:barC="o" doo:bar?xml versiTA)>
+]>
+<doc><a#><b/><<?xml version="1<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://2OO" 
+	xmlns
+<foo
+	xmlns="http://2OO" 
+	Ufoo="http://FOO" 
+	xmlns:bar="ht“p://BAR" 
+	x , c+,<?xml />
+	<derive.3:doo="http://DOO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsOO anyAttrr/yarong/dav_dr<!DOCTY-derive1_0.xsdÿÿÿ	<derive.1_1 barA="o" ba#><b/><<?xml version="1<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xmlns="http://2OO" 
+	xmlns
+<foo
+	xmlns="htD="o" />
+	<derive.3_1 barA="o" foo:barC="o" doo:barD="o" />
+	<de

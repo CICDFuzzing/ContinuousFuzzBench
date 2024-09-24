@@ -1,0 +1,11 @@
+<doc>
+  <x>1</x>
+  <b xml:lang="ˆn">
+    <x>en</x>
+  x>
+  <para xml:lang="en"/>
+  <div xml:lang="en"><para/></div>
+  <para;xml:lang="EN"/>
+  <para xml:lang="en-uN-USMMMMMMMMMMffffffffffffffffffffff"/><!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!EL

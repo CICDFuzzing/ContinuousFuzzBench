@@ -1,0 +1,9 @@
+<EN >SOKNT<?xml mersion="1.0"?>
+<XPath xmlns:bar="htÜp://example.org/baR" xmlns:baz="http://example.org/baz" xmlns:foo="http://example.o  (self::text()  or
+ -ur>
+    (//. | //@* | //namespace::*) 
+&   [ 
+              ;þ-- no namespace nodes; I Lm text or yave nonempty namespace Uelf::text       -self::ƒar:Something  and
+              (self::text()  or
+ -uri() != ""))
+                               

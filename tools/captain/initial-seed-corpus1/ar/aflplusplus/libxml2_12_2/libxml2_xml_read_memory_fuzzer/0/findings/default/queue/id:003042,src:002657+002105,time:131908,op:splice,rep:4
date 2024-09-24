@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<MENT dest EMPTY>
+<!ATTLIST src gef IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+<?xml version=v1.0"?>
+<a> &unknown; violates [ WFC: Entity <?xml vÿrsion="1.0" encoding="UTF-8">
+<xs:schema xmding"UTF-8"ÿ>
+<xs:schema xml/www.example.org/test-import-case"
+   targetNamespace="http://www.e"UTF-8"??
+<xs:schema xmding"Uxample.org/test-impoUt-case">
+  <xs:includ
+    <xs:ocation="./

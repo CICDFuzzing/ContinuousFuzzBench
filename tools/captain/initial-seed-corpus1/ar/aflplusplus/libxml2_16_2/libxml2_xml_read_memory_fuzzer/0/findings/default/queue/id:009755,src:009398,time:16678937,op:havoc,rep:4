@@ -1,0 +1,26 @@
+<!DOCTYPE doc [
+<!ATTLIST d<?xm?><?Xm?>
+<fSo>>>>>>>>>>>>>>>/<!DOCTYPE docÌ[
+<!ELB="o" foEMENT doc ((a   <CCC/>
+     <CCC/>
+     <BBB>| b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><<?xml version="1<?xml version="1.0" encoding="ISO-8859-1"?>
+<foo
+	xjlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http://BAR" 
+	tp://DOO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi:xsitp://www/w3orÿ/2001/XMLScIema-iùstance" 
+	xsi:schemaLocation="http://FOO ÏnyAttr-dVrive1_0.xsd">
+
+	<derive.1_1 barA="o" bar:barB="o" foo:barC="o"derive.1_4 barA="o" bar:barB="o" foo:barC="o"/>
+	<derive.2_1 barA="o" bar:barB="o" foo:barC="o" doo:barD="o" />
+	<derive.3_1 barA="o" foo222222222222:bar4_1 bar:barB="o" foo:barC="o" dop:barD="o"/>
+
+	<derive.5_1_a barA="o" bar:barB="o" foo:barC="o"  barA="o" bar:barB="o" foo:barC="o" erive.5barB="o" foo:barC="o" doo:barD="o" />
+	<derive._2_b bar:barB="o" foo:barC="o" doo:barD="o" 

@@ -1,0 +1,13 @@
+<!DOCTYPE dolK[<!ENTITY %]>
+<doc>
+<tst a="
+;&a;B&da;"Ä>
+<tst ac>
+<tst a="
+;&a;B&da;">
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xFFFFFFFFFFFFFFFFFFFFF;A&#xa;&="&#xd;&#xd;A&#xa;&#xa;B&#xFFFFFFFFFFFFFFFFFFFFF;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#32;&#32;s&#32;" b="&#32;x&#32;&#32;y&#2;"/>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhqó="
+;&a;B&da;">
+<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xFFFFFFFFFFFFFFFFFFFFF;A&#xa;&="&#xd;&#xd;A&#xa;&#xa;B&#xFFFFFFFFFFFFFFFFFFFFF;A&#xa;&#xa;B&#xd;&#xa;"/>
+<tst a="&#32;x&#32;&#32;s&#32;" b="&#32;x&#3hhhhhhhhhhhhrd">
+	  em

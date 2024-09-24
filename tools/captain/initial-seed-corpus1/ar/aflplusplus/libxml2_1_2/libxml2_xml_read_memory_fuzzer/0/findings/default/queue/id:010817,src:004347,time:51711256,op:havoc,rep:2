@@ -1,0 +1,12 @@
+<?xjr	version='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&amp;'>
+]>
+<t z="&ampproblem;">a<<?xjr	version='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&amp;'>
+]>
+<t z="&ampproblem;">a</t>
+
+/t>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA|b| xmln>
+<!ATTLIST a xmlns:s CDATA #IMPLIED>
+<!ELEMENT b EMPTY>
+<!ATTLIST b xmlns:s CDATA #IMPLIED>
+<!ELEMENT s:b EMPTY>
+<!ATTLIST s:b xmlns:s CDATA #IMPLIED>
+]>
+<a msns:s="http://s€me/test.ns/a">
+  Some text.
+	<b/>
+  Sÿÿe text.f	<s:b/>
+  Some text.
+</a>

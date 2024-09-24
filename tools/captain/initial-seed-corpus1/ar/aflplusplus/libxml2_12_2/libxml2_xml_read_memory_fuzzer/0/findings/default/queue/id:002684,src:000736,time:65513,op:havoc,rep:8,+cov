@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!-LEMENT dNT src EMPTY>
+<!EL€MENT dest EMPTY>
+<!ATTLIST src re<!. <dest id="foo"/>
+  <src rsrc roo"/>
+</doc>
+

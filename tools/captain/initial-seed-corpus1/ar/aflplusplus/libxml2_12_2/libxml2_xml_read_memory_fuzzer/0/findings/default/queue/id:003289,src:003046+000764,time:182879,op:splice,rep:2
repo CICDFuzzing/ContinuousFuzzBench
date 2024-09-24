@@ -1,0 +1,4 @@
+<!DOCTYPE  [
+<!ELEMENT doc <!ELEMENT root (#PCDATA)%
+<!ENTITY % peInCdata SYSTEM "external2.ent">
+<!ENTITY peInC@ata 

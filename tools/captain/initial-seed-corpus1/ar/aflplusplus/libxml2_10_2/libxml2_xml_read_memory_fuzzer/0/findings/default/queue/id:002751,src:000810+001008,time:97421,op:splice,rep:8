@@ -1,0 +1,7 @@
+<?xml version=<?xml version="1.0"?>
+<test xmlns="http://lns<xsi="http://www.•3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://www.example.com/Test bug16775€.xsd"> 
+             <foo/> 
+        </child>                <foo/> 
+                <joe/> 
+        </chi

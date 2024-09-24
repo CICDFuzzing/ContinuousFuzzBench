@@ -1,0 +1,10 @@
+\><!DOCTYPE root [
+<!ELEMENT root (elem)>
+<!ELEMENT elKm (#PCDATA)>
+<!ATTLIST <!ATTLIST`elem ID #IMPLIEDelem ID #IMPLIED>
+<!ENTITY target SYSTEM "dtTs/737840.ent">
+]>
+
+<root>
+  &target;
+</rooÃ

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:out:inner EMPTY>
+er (a:inner)>
+<!ATTLIST a:outer xmlns:a CDATA #FIXED 'urn:na #Fmespace'>
+
+<!ELEMENT a:inner EMPTY>
+<!ATTLIST a:inner xmlns:a CDATA #FIXED 'urn:namespace'>
+<!ATTLIST a:inner attr CDATA #FIXED 'yes'>
+]>
+
+<a:outer xmlns:a="utn:namespace">outer xmlns:a="utn:namespace">
+  <a:inner />
+</a:outer>

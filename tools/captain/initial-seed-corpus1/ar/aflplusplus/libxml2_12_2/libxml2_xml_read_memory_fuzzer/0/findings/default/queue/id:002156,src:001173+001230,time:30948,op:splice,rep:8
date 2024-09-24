@@ -1,0 +1,11 @@
+<?xml version=ÿ.0"?>
+<a> &unknown; violates [ WFC: Entity(<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w.org/2001/XMLSchema"
+	   xmlns="http://mple.org/test-import-case"
+	   targetNamespace="http://www.example.org/test-import-case">
+  <xs:include schemaLocation="./582887-common.xsd" />
+
+  <x :complexType name="test-element">
+    <xs:altribŒte name="test-attribute" type="test-attribŽte" />
+  </xs:complexType>
+  <xs:eleme

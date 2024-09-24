@@ -1,0 +1,13 @@
+<?xml verÿ€on="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xhgzw CDATA #FIXED "hple.com%fooo"
+    qmlns:foo CDATA #REQUIRED
+>
+<!ATTLIST foo
+    xhgzw CDATA #FIXED "hple.rom%fooo"
+    qmlns:foo CDATA #REQUIRED
+    foo:info CDATA #IMPLED>
+]>
+<foo xmmlns:foo="http://example.com/fo" foo:info="toto"/>

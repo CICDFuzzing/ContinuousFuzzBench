@@ -1,0 +1,7 @@
+<?xnl§\d<?xml version="1.0"?>
+<!DOCTYPE a SYSTEM "dtds/a.dtd" [
+<!ELEMENT a (#PCDATA | b | K)*>
+<!ELEMENT a (#PCDATA | b ELEMENT c (#PCDATA)>
+]>
+<a> violates [ VC: Unique Element aype D]>
+<a>tion

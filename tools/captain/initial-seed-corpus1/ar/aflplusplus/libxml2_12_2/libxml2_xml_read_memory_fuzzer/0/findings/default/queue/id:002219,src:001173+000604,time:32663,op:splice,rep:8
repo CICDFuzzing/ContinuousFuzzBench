@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ao:Root xmlns:bar="http://example.o    Èbar:Somethrg/bar" xmlns:bazmlns:foo="http://example.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Something>
+        Èbar:Something>        o:Something>
+             €ÿÿÿ:Something />
+           </bar:Something>
+     </foo:Something>
+  

@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE wvY PUBLIC "-//W3C//DTD SVG April 1999//EN" 
+  "//www-g=_______?________@org/Graphics/SVG/svg-19990412.dtd">
+<svg w" he€ght="3in">
+  <desc>
+  </desc>
+/chil_::*
+/child::EXAMPLE
+/child::XXAMPLE/child::head
+/child:ild::EXAMPLE/child::head/child::title
+/child::EXAMPLE/child::head/child::title/child::text()
+/child::EXAMPLE/child::heaR/node()
+/child::EXAMPLE/Kttribute::prop1/self::node()
+/child::ÿÿAMPLE/attribute::prop1/self::*
+/chald::EXAMPLE/attribute::pxop1/descendant-or-self::node()
+child::EXAMPLE/attribute::pWop1/descendant-or-self::*
+/child::EXAMGLE/attribute:

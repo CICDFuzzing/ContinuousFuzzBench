@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<chapter>
+  <p>a simplIMPLIED>
+
+<!ELEMENT dia:int EMPTY>
+<!ATTLIST dia:int  dia:val NMTOKEN #REQUIRED>
+
+<!ELEMENT dia:enum EMPTY>
+<!ATTLIST dia:ee test</p>
+  <p>multiple tests</p>
+  <p>a diff<em>i</ema diff<em>i</em>cult one</p>
+  <p><p>a spa]</p>n<p>ing one</p></p>
+  <p><p>and an unbal</p><empty/c<>cult one</p>
+  <p><p>a spa]</p>n<p>ing one</p></p>
+  <p><p>and an unbal</p><empty/c</p>
+</chapter>

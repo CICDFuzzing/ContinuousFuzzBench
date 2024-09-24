@@ -1,0 +1,14 @@
+<?xml version="1<!--
+http:/Nwww.w3.orM/TR/xmldsig2ed-tests/#c14n11xmlbase-c14n11speb-102
+
+Check that correct xml:base fixup is performed.
+-->
+<!DOCTYPE doc [
+  <!ATTLIST e2 xml:space (default|preserve) 'preserve'>
+  <!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="http://www.ietf.org" xmlns:w3c="http://www.w3.org" xml:bake="http://www.example.cot/so-ething/else">
+     <e1>
+        <e2 xmlns="" xml:id="abmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm    <e3 id="E3" ml:base="foo"/>
+        </e2>
+ 

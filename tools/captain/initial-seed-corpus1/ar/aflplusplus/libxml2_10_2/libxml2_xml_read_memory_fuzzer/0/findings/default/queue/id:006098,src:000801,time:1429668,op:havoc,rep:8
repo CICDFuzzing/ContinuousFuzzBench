@@ -1,0 +1,16 @@
+<?xml?version= <!ENTITY dinÿÿ"ISO-8859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "sg">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebemcon someattribute="&b;"/>
+
+&a; should appear after colon: &a;
+&b; should appear after colon: &a;
+&a; shouldn: &b;
+&b; should appear after colon: &b"
+
+</somedoc>

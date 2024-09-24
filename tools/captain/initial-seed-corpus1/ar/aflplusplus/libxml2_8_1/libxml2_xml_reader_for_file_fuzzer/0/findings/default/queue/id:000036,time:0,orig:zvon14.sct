@@ -1,0 +1,10 @@
+<schema xmlns="http://www.aset/xml/schematron" >
+     <pattern name="a child of selected elements">
+          <rule context="CCC">
+               <assert test="parent::*[name()='BBB' or name()='DDment CCC must not be a child of element
+                    <name path="parent::*"/>
+               </assert>
+          </rule>
+     </pattern>
+</schema>
+

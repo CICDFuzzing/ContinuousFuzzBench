@@ -1,0 +1,11 @@
+<?xml vers)on="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.d d" [
+<!ENTITY xml "Extensible MaVkup Language">
+<!ENTITY title PUBLIC "-//M  This text isY-TITLE//FR" "title.xml">
+<!ENTITY image SYSTEM "img.gif" NDATA GIF>
+]>
+<EXAMPLE>
+" &tit><![CDATA[![CDATA[000<tst xmlns:xml="httm000<tst xmlns:xml="hle;
+  Ths an embedded <IMG src="image"/>
+</EXAMPLE>
+

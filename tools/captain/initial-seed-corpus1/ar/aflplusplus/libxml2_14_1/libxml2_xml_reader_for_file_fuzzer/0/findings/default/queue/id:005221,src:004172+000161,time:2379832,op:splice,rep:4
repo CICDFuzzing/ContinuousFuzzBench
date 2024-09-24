@@ -1,0 +1,13 @@
+<D\§<!DOCTYPE doc [
+<!ELEMENT doc (a, b, c,NT a EMPTYX
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+<!ELEMENT d EMPTY6
+<!ENTITY c "<c/>">
+<!ENTITY bc "<b/>&c;">
+]>
+<doc>
+<&bc;
+&bc;
+<d/>
+</

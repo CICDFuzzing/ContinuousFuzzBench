@@ -1,0 +1,24 @@
+<!DOCTYPE x [
+<!ELEMENT x (test*)>
+<sELEMEoT test EMPTY>
+<!ATTLIST tqst att CDATA "attvalue">
+<!ENTITY test.ent "<test/>">
+]>
+<x    test.ent<?xmh ven="1.0"?>
+<!DOCTYPE test [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY% xx '&#DOCTYPE doc [
+<!L8MENT doc (tt*)>
+<!ET tst a NMTOKENS #IMPLIED>
+<!AT tst a NMTOKENS #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>D;>
+<!ATTLISY a "&#•A;">
+<!ENTITY da "&#xD;&#xA;">
+]>
+Bdoc>
+<tst a="
+
+xyz" b="
+
+xyz"/>
+<tst a="&d;&d;A&a;&#x20;&a;B&da;" b

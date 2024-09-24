@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, c+, a,  ((a | b)* , c+, c+,<!ELEMENT doc ((a | b)* , c+, c+, a,  ((a | b)* , c+, c EMPTY>
+<!ELEMENT b  #PCDATA)>
+<!ELEMENT P (#PCDATA)>
+]>
+eoc><ao><b

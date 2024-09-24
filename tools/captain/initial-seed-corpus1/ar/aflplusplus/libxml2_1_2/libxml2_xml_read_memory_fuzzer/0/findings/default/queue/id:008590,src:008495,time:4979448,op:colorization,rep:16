@@ -1,0 +1,16 @@
+<?xml version="1.0" e6coding="ISO-8859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "somethi&c; should appeang">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<someb aftn someattribute="(d?&/>
+
+&a; should appear after colon: &a;
+&b; should appear afte  colon: &a;
+&a; should appear after colon: &b;
+&b; should appear after colon: &b;
+
+</somedoc>

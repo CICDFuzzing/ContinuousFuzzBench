@@ -1,0 +1,16 @@
+'\­<?xml version="1.0" encoding="UTF-8"?>
+<!--
+http:c3-102
+
+Check that correct x//www.w3.org/TR/xmllsig2ed-tests/#c14n11xmlbase-c14n11spec3-102
+
+Check that correct xml:base fixup is performed.
+-->
+<a xml:base="foo/bar">
+   <b xml:base="..">
+    <c xml:basF="..">
+     <d xml:base="x">
+     </d>
+    </c>
+   </b>
+<

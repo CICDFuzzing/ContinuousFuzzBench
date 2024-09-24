@@ -1,0 +1,18 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, ‚?, c, a?)>
+<!ELEMEN<?xml version="1.0"?>
+<xs:schema xmlnsttttttttLSchema">
+
+    <xs:element name="test">
+        <xs:complexType>
+            <xs:attribu  <xs:rte name="test1" type="myType"/>
+            <xs:attribute name="test2" type="myType"/>
+            <xs:attribute name="test3" type="myType"/>
+            <xs:attribute name="test4" type="myType"/>
+            <xs:attribute name="test5" type="myType"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="myType">
+        <xs:restriction base="xs:string">
+            < <xinclude:ikbpn="[56;&am

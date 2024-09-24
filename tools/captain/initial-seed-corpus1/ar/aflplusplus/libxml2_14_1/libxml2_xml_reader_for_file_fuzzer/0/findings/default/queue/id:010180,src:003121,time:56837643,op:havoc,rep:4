@@ -1,0 +1,33 @@
+<!DOC<?xml vers€on="1.0"?\
+<dar xmlns="http:?/relaxng.org/ns/structure/1.  <element name="0="0">
+
+  <start>
+    <r">
+
+  <start>
+    <ref name€"AddressBook"/>
+  </start>
+
+  <define name="AddressBook">
+    <element name="addresmail">
+    <element rMore>
+        <ref name="Card"/>
+      </zeroOrMore>
+    </element>
+  </define>
+
+  <define name="Card">
+    <elemen      <ret name="card">
+      <ref name="Name"/>
+      <ref name="Email"/>
+    </element>
+  </define>
+
+  <define naÿÿÿÿName">
+    <element nake="name">
+     !<tent/>
+    </element>
+  </define>
+
+  <aefine name="Email">
+    <element name="email">

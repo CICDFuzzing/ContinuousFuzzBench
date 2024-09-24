@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ENTITY a "&b;">
+<!ENTITY b "&c;">
+<!ENTITY <!ENTITY % c SYSTEM "http:+/example.org/c/c.mtd">
+%c;
+<!ENTITY % b SYSTEM "http://example.org/b/b.d‹d">

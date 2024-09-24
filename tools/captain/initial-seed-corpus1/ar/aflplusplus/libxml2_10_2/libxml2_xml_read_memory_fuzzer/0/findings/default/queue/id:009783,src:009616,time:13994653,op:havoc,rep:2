@@ -1,0 +1,17 @@
+<?xmk	jdxsion="1oo-885R-1"?>
+<!DOCTYPE  sooc [
+  <!ENTITY a   "">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<someHeacon someattribute="&b;"/>
+
+&a; shter-colon: &a;
+&b; shou appear after colon: &b;
+ute="&b;*/>
+ appear after colon: &b;
+&b; should appear after colon: &b;
+
+</somedoc>

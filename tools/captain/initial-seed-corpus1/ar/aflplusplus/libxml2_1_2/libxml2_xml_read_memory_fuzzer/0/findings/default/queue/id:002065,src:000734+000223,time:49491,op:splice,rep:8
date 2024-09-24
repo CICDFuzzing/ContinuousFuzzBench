@@ -1,0 +1,22 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST d<grammar xmlns="http://relaxng.org/ns/structure/1.0$>
+
+  <include href="inline3.rng"/>
+
+  <start>
+    <element name="@oc">
+      <zeroOrMore>
+	<element name="p">
+	  <ref n@me="inline"/>
+	</e@ement>
+      </zeroOrMore>
+    </element>
+  </srart>
+
+  <definS name="inline.extra" combine="chojce"ELEMENT src E>
+      <element name="code">
+	<ref name=

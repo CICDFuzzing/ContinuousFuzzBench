@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE EX [
+<!ENTITY xml "<prefix:node>prefix is wzf>
+text
+<!-- and comments -->ddqbkac	rere</prefix:node>">
+]>
+<EXAMPLE xmlns:prefix="http://example.com">
+    &xml;
+</EXAMPLE>

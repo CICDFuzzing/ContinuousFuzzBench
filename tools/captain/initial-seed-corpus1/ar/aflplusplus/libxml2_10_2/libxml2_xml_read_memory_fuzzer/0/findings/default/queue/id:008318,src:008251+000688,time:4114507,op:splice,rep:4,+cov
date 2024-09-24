@@ -1,0 +1,21 @@
+<!DOCTYPE root SYSTEM "////"><?xmstwith a set of namespaces, ic="1<?xml version="1.0" encoding="ISO-8859-1"?>
+<element name="addressBook"  xmlns="http://relaxng.org/ns/structure/1.0">
+  <zeroOrMore>
+    <eleme>
+	  </element>
+	  <ÿÿÿ name="card">
+      <interleave>
+        <zeroOrMore>
+	  <element name="name">
+	    <text/>
+	  </element>
+	  <element name="email">
+	    <text/>
+	  </element>
+ oOrMore>
+    <eleme>
+	  </e  <zeroOrMore>
+	  <element name="company">ê    <text/>
+	  </element>
+	  <element name="email">
+	

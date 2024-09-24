@@ -1,0 +1,9 @@
+<?xml version=".0¢?>
+<a> &uakn:0"?test:foo"<?jml ve="1.0"?><foo xml|s="urn:test:foo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:sch_maLocatios="urn:test:foo any5_0.xsd">
+	<boo/>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmlns="urn:test:bar#/>
+	<boo xmlns="urn:test

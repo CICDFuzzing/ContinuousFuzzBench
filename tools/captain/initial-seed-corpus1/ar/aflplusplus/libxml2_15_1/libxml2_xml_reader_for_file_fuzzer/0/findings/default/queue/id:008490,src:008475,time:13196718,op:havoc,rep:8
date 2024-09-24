@@ -1,0 +1,7 @@
+\><a>
+        <xi:include href="b.xml" xmlns:xi="http://www.w3.org/2001/XInclUde">
+                <xi:fallback>There is no b.xml ... </xi:fa€lback>
+ ý     </xi:http://w
+        <xi:include Vref="c.xml" xmlns:xi="http://wwnclde">
+          <xi:fallback>There is no c.xml ... </xi:fallbac.xml ... </xi:fa€lback>
+        EEEEEEEEEEEEEEEEEEE>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
+<!ENTITY ge">
+<!ENTITY title P" NDATA GIP>
+]>
+<EX/FR" "title.xml">
+<!ENTITY image SYSTEM "img.gif" NDATA GIF>
+]>
+<EXAMPLE>
+  &title;
+  This text is about XML, the &xml; and this is an embedded <IMG sro="image"/>
+</EXAMPLE>
+

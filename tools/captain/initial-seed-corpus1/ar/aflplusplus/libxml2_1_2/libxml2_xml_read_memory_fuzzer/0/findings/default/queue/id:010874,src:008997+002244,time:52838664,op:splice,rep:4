@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="US-ASCII"?B<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDA<A[<!ENTITY % pub    "&Exc9;ditions Gallimard",>
+<!ENTITY   rights "A˜l rights reserved" >
+<!ENTITY   book   "La Peste: Alber &rights;" >]]></eg>
+then the replacemen~ thxt for the entity "<code>book</codeG" is:
+<eg>La Peste:xt fo Albert Camus, 
+&#169; 1947 &#201;8859-1'?>
+<rec>
+<eg><![CDA<A[<!ENTITY % pub    "&Exc9;ditions Gallimard",>
+<!ENTITY   rights "All rights reserved" >dit

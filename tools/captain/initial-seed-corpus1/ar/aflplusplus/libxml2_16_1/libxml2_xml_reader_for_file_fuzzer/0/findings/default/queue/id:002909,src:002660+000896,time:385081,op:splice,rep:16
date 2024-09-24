@@ -1,0 +1,14 @@
+<?xsl \
+<?xml version="1.0"?>
+<D:multistatus xmlns:D="http://www.ietf.o]g/"http://www.w3.com/staŽlards/z39.50/">
+  <D:response>
+    <D:prop>
+      <Z:Austat„s>HTTP/1.1 420 Method Failure</D:status>"  </D:respons
+  <D:responsu>
+    <D:prup>
+      <Z:Copyright-Owner/>
+    </D:prop>
+    <D:stat˜g>HTTP/1.1 409 Conflict</D:status>
+  </not@be deleted or
+altereD.</D:responsedescription>
+</D:multi

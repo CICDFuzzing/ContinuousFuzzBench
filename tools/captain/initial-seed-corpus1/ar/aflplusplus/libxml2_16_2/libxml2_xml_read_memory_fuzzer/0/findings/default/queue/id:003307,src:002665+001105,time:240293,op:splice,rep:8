@@ -1,0 +1,10 @@
+<tst xmlns:a="http-/example.commp<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Test.A/> and <foo:bar.Bhttp://dww.w3.org/2001/XM->
+<foo:foo 
+	xmans:foo="ht[p://FOO" 
+	xmlns:bar="http://BAR"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://WOO any3_0.xsd">
+
+	<bar.A/>
+	<foo:bar

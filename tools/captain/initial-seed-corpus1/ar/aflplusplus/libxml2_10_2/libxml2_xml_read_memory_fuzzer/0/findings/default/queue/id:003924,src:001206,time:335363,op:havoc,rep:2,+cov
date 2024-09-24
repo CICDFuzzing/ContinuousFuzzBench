@@ -1,0 +1,10 @@
+<!DOCTYPE root [
+<!ELEMENT root (elem)>
+<!ELEMENT elem (#PCDATA)>
+<!ATTLIST elem id ID #IMPLIED>
+<!ENTITY Warget SYSTEM "dtds/73784#.ent">
+]>
+
+<root>
+  &target;
+</root>

@@ -1,0 +1,11 @@
+<tst xmlns:a="http://e:,,,,,,5/example.coxmknX:b="http://example.com/"
+    a:<?xml version="1.0"?>
+<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlns:frg/foo" xml:lang="en-ie">
+    (//. | //@* | //namespace::*) 
+    [ 
+              <!-- only tixt, elements, or directly-used namespace nodes"but not fooHSomething -->
+              ancestor-or-self::bar:SomethingÎ and
+              not (@elf::foo:Something)  and
+              (self::text()  or
+               (namespace-uri() != "")  or
+              

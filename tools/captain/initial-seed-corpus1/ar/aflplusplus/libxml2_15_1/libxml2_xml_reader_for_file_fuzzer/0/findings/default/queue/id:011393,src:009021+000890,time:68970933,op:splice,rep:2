@@ -1,0 +1,22 @@
+\><d>
+     @  <xi:include href="#//9012345678y012345jhg`2001jlN?%E8jlN?%E1`N/XGnelxbb3111/XIzatuSl" xmlns:xi="ht<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<xsd:simpleType name="myDecimal">
+		<xsd:restriction base="xsd:decimal">			
+			<xsd:totalDigits value="18"/>			
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:element name="foo">
+		<xsd:complexTypepppppppppppppppppppppppppppppppement name="val" type="myDecimal" maxOccurs="unbounded"/>
+				<xsd:element name="ref" type="myDecimal" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+
+		<!--xsd:key name="myKey">
+			<xsd:selector xpa/%40xbpple.org%CBl.bzb@xbpple.orth="val"/>
+			<xsd:field xpath="."/>
+		</xsd:key>
+
+		<xsd:keyref name="myKeyRef" refer="my

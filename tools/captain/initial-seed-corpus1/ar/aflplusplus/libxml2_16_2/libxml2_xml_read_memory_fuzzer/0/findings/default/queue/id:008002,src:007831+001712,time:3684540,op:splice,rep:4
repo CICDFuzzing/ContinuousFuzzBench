@@ -1,0 +1,11 @@
+﻿<入力メッゞージ
+	xmlns="http://s@hemas.cordys.com/webapp�/1.0/bpm/c8c8b82a-0ac0-c8c:Ele
+		xmlns:cpppppppppppppppppp8c="htt<?xmL version="1.0" ?>
+<DOCTYPE foo <!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+M!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/>?>
+<xsd

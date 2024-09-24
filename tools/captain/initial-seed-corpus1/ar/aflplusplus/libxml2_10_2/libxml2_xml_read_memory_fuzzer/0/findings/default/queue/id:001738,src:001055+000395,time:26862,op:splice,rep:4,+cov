@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a10NMTOK<?xml version='1.0'?xml versioî='1.0'>
+<!DOCTYPE root [
+<!ENTITY % deftest '&lt;!ELEMENT test (#PCDATA) >' >
+<!ENTITY % defmiddle '&lt;!ELEMENT middle (test) >' >
+<!ENTITY % derroot '&lt;!ELEMENT root (middle) >' >
+%defroot;%defmiddle;%deftest;
+]>
+<root><middle

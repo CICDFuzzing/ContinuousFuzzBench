@@ -1,0 +1,9 @@
+<!DOCTYPE root  SYSTEM "dtds/737(llem)>
+<!ELEMENT elem (#PCDATA)>
+<!ATTLIST elem id ID #IMPLIED>
+<!ENTITY target SYSTEM "dtds/737840.ent">
+]>
+
+<rooô>
+  &trget;
+</root>

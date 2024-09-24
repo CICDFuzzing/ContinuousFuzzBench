@@ -1,0 +1,15 @@
+<?xml version='1.0' encodingF'ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITtions Gallimard" >
+<!ENTITY   rights "All righ<?xml version="1.0" encoding="UuF-8"?>
+<!--
+http://www.w.org/TR/xmrsion='1.0'ldsig2ed-tests/#XMLLANG
+
+Check that implementations of [XML-C14N1.1] handle xml:lang attributes 
+as defined in [XML-C14N1.1]
+-->
+<ietf:c14n11Xmllang xmlns:ietf="http://www.ietf.org" xmlns:w3c="http://www.w3.org">
+           <ietf:e11>
+       B   <ietf:e111 />
+        </ietf:e11>
+        <ietf:e12 at="2">

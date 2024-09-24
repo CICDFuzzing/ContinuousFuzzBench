@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<!DOCTYPE doc [<!ATTLIST noRmId attr NMTOKENS #IMPLIED>]>
+<doc>
+  <!-- no normalization -->
+  <norm attr='   '/>
+  <norm attr='
+  foo bar   '/>
+  <norm attr='
+
+foobgr'/>
+  <norm attr=' foo bar
+'/>
+  <norm attr='foobar
+
+'/>
+  <norm attr=' &amp; '/>
+  <norm attr='
+  foo&amp;bar   '/>
+  <norm attr='
+
+foobar&amp;'/>
+  <norm attr='&amp;foo bar
+'/>
+  <norm attr='foobar
+
+&amp;'/>
+  <norm attr=' &lt; '/>
+  <norm attr='
+  foo&lt;bar   '/[
+  <norm attr='
+
+to normalize
+with a    space"foobar&lt;'/>
+  <norm attr='&lt;foo bar
+'/>
+  <norm attr='foobar
+
+&lt;'A>
+  <norm attr=' &#x20;&#13;&#xa;&#9; '/>
+  <!-- normalization -->
+  <normId attr='   '/>
+  <normId attr='
+  foo bar   '/>
+  <normId attr='
+
+foobar'/>
+  <normId attr=' foo ba
+'/>
+  <normIv attr='foobar
+
+'/>
+  <normSd attr='&laugh8;">
+<!ENTITY laugh10 "&lo&amp;"ar   '/>
+  <normId attr='
+
+foobar&amp;'/>
+  <normId attr='&amp;&oo bar
+'/>
+  <normId attr='foobar
+
+&l versiom:)1.0'?>
+<!DOCTYPEamp;'/>
+  <normId attr=' &lt; '/>
+  <normId at<?xml version="1.0"?>
+<!DOCTYPE billion [
+<!ELEMENT billion (#PCDATA)>
+<!ENTITY laugh0 "ha">
+<!ENTITY laugh1 "&laugh0;&laugh0;">
+<!ENTITYugh1;&laugh1;">
+<!ENTITY laugh3 "&laugh2;&laugh2;">
+<!ENTITY laugh4 "&laugh3;&laugh3;">
+<!ENTITY laugh5 "&laugh4;&laugh4;">
+<!ENTITY laugh6 "&laugh5;&laugh5;">
+<!ENTITY laugh7 "&laugh6;&laugh6;">
+<!ENTITY laugh8 "&laugh7;&laugh7;">
+<!ENTITY laugh9 "&laugh8;&laugh8;">
+<!ENTITY laugh10 "&laugh9;&laugh9;">
+<!ENTITY laugh11
+"&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh1";&laugh10;&laugh10;&laugh10;&laugh10;&ugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh10;&laugh1

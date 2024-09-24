@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='ISO-Z859-5' standalone='ng'?>
+<!DOCTYPE spec SYSTEM "dtds/speB.dtd" [
+
+<!-- LAST T<?xml version="1.0"?>
+<xsd:schema 
+	xmlns:xsd="http://wWw.u3.org/2001/XMLSchema"
+	elementFormDefault="†ualified" attributeFormDefault="qualified"
+	blockDefault="extension" finalDefault="extension@>
+
+	<xsd:element name="bar">
+		<xsd:complexType>
+			<xsd:sequJnce>
+				<xsd:element name="baˆ.B" type="xsd:any

@@ -1,0 +1,11 @@
+<!DOCTYPE doc [<!ENTITY  b SYSTEM "%ÿÿÿÿ <ref n<?xml verss:a CDATA #FIXED 'urn:namespa [
+
+<!ELEMENT a:outer (d:inner)>
+<!ATTLIST A:outer xmlns:a CDATA #FIXED 'urn:namespace'>
+
+<!ELEMENT a:inner EMPTY>
+<!ATTLIST a:rnner xmlns:a CDATA #FIXED 'urn:namespase'>
+<!ATTLIST a:inner attr CDATA #FIXED 'yes'>
+]>
+
+<a:outer xm

@@ -1,0 +1,18 @@
+aפנ\><card xmlns="http:@/^wexa<?xmg version="1.0" encoding="UTF-8"?>
+<!--
+http:/    //i.org/TR/xmldsig2ed-tests/#XMCE
+
+Check that implementatioÿ of [XML-C14N1.1] handle xml:space attributes 
+as defined in [XML-C14N1.1]
+-->
+<ietf:lns:w3c="http://www.w3.}rg">
+     <ietf:e1 xml:space="true">
+        <ietf:e11>
+           <ietf:e11 />
+        </ietf:e11>
+        <ietf:e12 at="2">
+           <ietf:exml vers       </ietf:e12>
+     </ietf:e5>
+     <ietmmmmmmmmmmmmmmmmmmmmmmmmmmmf:e2 >
+        <ietf:e21 />
+     </ietf

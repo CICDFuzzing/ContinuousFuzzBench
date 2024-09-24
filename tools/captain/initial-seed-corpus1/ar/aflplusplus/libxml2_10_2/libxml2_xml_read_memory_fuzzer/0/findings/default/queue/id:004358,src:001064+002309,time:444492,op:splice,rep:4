@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (ts<EN >SOKNT<?xml version="1.0"?>
+<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http:;/example.org/baz" xmlns:foo="httpÿ//example.org/foo" xml:lang="enPie">
+    (//. | //@* | //namespace::*) 
+    [ 
+    mlns:bar="http://example.org/bars; I am text or have nonempt’ namespa  ancestor-or-self::bar:Something  and
+              (self::text()  or
+           

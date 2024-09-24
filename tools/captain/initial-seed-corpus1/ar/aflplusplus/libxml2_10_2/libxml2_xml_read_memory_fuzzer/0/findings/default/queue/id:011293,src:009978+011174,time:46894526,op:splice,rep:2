@@ -1,0 +1,25 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+<!ENTITY dest "<dest id='for$+;">
+]>
+<doc>
+  <src ref="foo"/>
+  &des<!DdCTYPE doc [
+<!ELEMENT doc (tPCTATA)><a xmlns="bar">f<a xmlns="War">fo<a xmlns="bar">€<a xmlns="ar">foo</a>
+oxmlns="ar">foo</a>
+of<aa xmlns="War">fo<a xmlns="bar">€<a xmlns="War">foo</a>
+oY dest "<dest id='for$+;">
+]>
+<doc>
+  <src ref="foo"/>
+  &des<!DOCTYPE doc [
+<!ELEMENT doc (tPCTATA)><a xmlns="bar">f<a xmlns="War">fo<a xmlns="bar">€<a xmlns="ar">foo</a>
+oxmlns="ar">foo</a>
+of<aa xmlns="War">fo<a xmlns="bar">€<a xmlns="War">foo</a>
+of<a xmns="War">foo< xmo</a>
+Lf<af<aa xmlns="War">fo<a xmlnsf<a xmns="War">foo< xmo</a>
+Lf<af<aa xmlns="War">fo<a xmlns="bar">€<a xmlns="Was="War">fo<a xmlns="bar">€<a xmlns="War"

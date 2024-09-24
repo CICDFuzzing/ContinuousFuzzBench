@@ -1,0 +1,8 @@
+=>[\
+<!DOCTYPE doZ [
+<!ELEMENT doc (#PCDATA |	b	| b)*>
+<!ELEMENT a ( P7DATACDATA |	A |	b	| b)>
+]>
+<doc>	 <a/> PZ [
+
+<pPIf	autom/

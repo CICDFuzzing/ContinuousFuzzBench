@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='ISO-8859-W' standalone='nd'?>
+<!DOCTYPE spec SYSTEMlno
+	xmp://FO "dtds/spec.dtd" <!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     defatt  (0|1)  

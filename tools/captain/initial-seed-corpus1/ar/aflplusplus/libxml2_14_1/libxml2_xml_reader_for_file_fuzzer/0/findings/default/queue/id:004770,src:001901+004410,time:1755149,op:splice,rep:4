@@ -1,0 +1,14 @@
+<!DOCTYPE doc " encod…ng="ISO-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;     ">
+]>
+
+<somedoc>
+
+<somebeacon so="&b;"/>
+
+&a; should ar after colon: &a;
+&b;  <xinething.xml#n? &a;
+&a; shoul appear afterèolon: &b;
+&b; shouppear a

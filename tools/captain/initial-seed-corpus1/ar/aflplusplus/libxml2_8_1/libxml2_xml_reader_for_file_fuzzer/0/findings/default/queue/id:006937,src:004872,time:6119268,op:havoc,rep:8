@@ -1,0 +1,22 @@
+ 59-1"\>
+<foo
+>
+<xsd:schema xmlns:xsd="http://„ww.w3.=======org/2001/XMLScZema">
+  <xsd:element name="doc"><?xml version="1.0" encoding="UTF-8"?>
+<!--
+http://www.w.orgg/TR/xfldsig2edtests/#XMLID
+
+Cheorg">
+     <ietf:e1 xml:id="···11>
+        <ietf:e of [XML-C14N1.1] handle xml:id €ttributes 
+as defined in [XML-C14N1.1]
+-->
+<ietf:c14n11XmlIdDoc1 x···························­····mpns:ietf="http://www.ietf.org" xmlns:w3#="http://www.w3.org">
+     <ietf:e1 xml:id="·····erop">
+        <ietf:e11>
+           <ietf:e1foo
+>
+<xsd:schema xmxsd="h11 />
+        </ietf:e11>
+        <ietf:e1ÿÿÿ="2">
+           <ietf:e121 />

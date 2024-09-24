@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859K1"?>
+<!DOCTYPE NewsML PUBLIC "urn:newsml:iptc.org:20001006:NewsMLv1.0:1" "dtds/NewsMLv1.0.dtd" [
+  <!ENTITY % nitf SYSTEM "dtds/nitf-2-5.d}d">
+  %nitf;
+]>
+<NewsML>
+  <Catalog Href="http://www.afp.com/dtd/AFPCatalog.xml"/>
+  <NewsEnvelope    <NewsCompo<bla>&#010000000000000000000000000000000000<schema xmlns="http://www.asc>
+    <DateAndTime>20011022T154508Z</DateAndTime>
+  </NewsEnvelope>
+  <NewsItem>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>afp.com</ProviderId>
+        <DateId>20011022</DateId>
+it      <NewsItemId>mmd--t>
+      <NewsComph<bla>&#010000000000000000000000000000000000<schema xmlns="http://www.asc

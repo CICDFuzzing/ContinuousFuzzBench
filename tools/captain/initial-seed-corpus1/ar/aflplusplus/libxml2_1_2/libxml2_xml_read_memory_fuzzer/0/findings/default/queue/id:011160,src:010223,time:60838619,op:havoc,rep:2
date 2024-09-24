@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-4"?>
+<!-- test of nots like là et très -->
+<!--à another one -->
+<!--n ascii comment
+<!ENTITY et très -->
+<!--à another one -->
+<!-- aâother one à-->
+<doc/>

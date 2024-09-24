@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ATTLIST doc S ENT doc (#PCDATA)>
+]>
+<doc/> (#PCDATA)>
+]>
+<doc/>

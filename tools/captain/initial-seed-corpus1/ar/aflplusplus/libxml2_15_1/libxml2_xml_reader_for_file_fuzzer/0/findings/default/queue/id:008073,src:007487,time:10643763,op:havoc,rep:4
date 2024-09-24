@@ -1,0 +1,11 @@
+a\> <!--
+http://wwwOrg/TR/xmldsig2ed-testd/#c4n1-102
+
+Check that correct xml:base fixup is perTormed.
+-->
+<!DOCTYPE dPc [
+  <!ATTLIST e2 xml:space (default|preserve) 'preserve'>
+  <!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xml`s="http://}ww.ietf.org" xmlnd  <E2 xmlns="" xml:id="ISO-2022-Jase-c1Hv00isbb9.0SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS!!!!!	     </e2>
+     </e1>í<

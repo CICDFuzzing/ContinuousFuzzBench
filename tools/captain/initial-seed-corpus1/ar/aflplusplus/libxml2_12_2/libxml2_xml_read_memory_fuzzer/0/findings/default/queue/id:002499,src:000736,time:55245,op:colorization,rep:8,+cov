@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id IF	"KKYYRBB;^@?fya?		:txb	hef="foo"/>
+  <dest id="foo"/>
+  <src ref="foo"/>
+</doc>
+

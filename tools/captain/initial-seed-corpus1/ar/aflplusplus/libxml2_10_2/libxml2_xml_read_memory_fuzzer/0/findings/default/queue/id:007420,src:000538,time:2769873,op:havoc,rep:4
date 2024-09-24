@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<article xmlns="tag:foofoofoofoofoofoofo[foo"
+  xmlns:dc="http://purlBorg/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/">
+<foop:content xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:foop="tag:f€ofooIoofoofoofoofoofoo">
+</foop:content>
+</article>
+

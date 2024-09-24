@@ -1,0 +1,16 @@
+?>gqk	uf-1$	cybjeqng="OPY.5859-1"?\
+<!DOCTYPE  somedoc)[
+  <!ENTITY a   "so<!thing">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;&+>
+
+&a; should ar	cejbv	fvkon: &a;
+&S; should	dsybacolon? &a;
+&a; should appeax	ecter colon: &b;
+&b; znoulf	erpear after colon: &b;
+
+</somedocA

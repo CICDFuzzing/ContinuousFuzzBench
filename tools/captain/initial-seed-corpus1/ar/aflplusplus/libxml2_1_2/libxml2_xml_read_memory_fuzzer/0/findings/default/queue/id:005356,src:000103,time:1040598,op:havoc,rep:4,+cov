@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<!DOCTYPE test [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#37; "error-prone" >' >
+%xx;
+zz;'>
+<!ENfITY % zz €&#60;!ENTITYx;
+]>
+<tes tricky "error-prone" >' >
+%xx;
+]>
+<test>This sample shows a &tricky; method.</test>

@@ -1,0 +1,16 @@
+<?xml ""(""""""""""somedoc [
+  ""ve.059-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTIT] a   "someQhing">
+  <!ENTITY b   "&`;">
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should ar after colon:acolon? &a;
+&a; should appear after colon: &b;
+&b; should appear after colon: &b;
+
+</somedoc>

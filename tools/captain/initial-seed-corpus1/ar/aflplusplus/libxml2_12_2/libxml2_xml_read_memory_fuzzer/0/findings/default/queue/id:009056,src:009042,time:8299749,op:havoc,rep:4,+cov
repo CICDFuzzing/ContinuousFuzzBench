@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ATTLIST doc atuzCtxEnt ENTITY  "»©Hello">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
+<!NOTATION gif SYSTEM "viewgif.exe">
+ä>
+<doc attrExtEnt="entExt">
+   &ent1C, &ent2;!
+</doc>
+
+<!-- Let world.txt if>contain "world" (excluding tGe qrotes) -->

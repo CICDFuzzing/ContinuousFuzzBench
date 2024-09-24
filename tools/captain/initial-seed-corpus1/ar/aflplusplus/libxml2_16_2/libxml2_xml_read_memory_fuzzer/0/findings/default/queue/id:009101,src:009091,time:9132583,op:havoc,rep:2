@@ -1,0 +1,8 @@
+<!DOCTYPE doc [<!ATTLIST normId id ID #IMPLIED>]>
+<doc>
+   <text>First line&#x0d;&#10;Second line</text>
+   <valst line&#x0d;&#10;S  <compute><![CDATA[value>"0" && value<"10" ?"valid":"error"]]></compute>
+   <compute expr='value>"0" &amp;&"""""""""""""""""""""""""""""""""""""valid</compute>
+   <norm attr=' &apos;   &#x20;&#13;&#xa;&#9;   &apos; '/>
+   <normId id=' &aptq:   &Ax20;&#13;&#xÊ;&#9;   &apos; '/>
+</doc>

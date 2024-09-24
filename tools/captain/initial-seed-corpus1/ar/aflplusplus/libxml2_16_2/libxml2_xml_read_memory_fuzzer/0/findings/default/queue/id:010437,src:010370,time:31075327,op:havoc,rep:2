@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+     fatt  (0|1)   "‡"
+     xmlns  (0t1)   "0"
+					tmlns:  (0|1)   "0"
+     xmlnq:tsdefat (0|1)   "  2 @ml1">
+]>
+<doc att="1    @ml1">
+]>
+<doc att="1">
+]>
+<">
+]>
+<doc at1"/=ê

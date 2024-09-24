@@ -1,0 +1,55 @@
+<!DOCTYPE doc [
+
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+]>
+<doc>
+  <srd	jcd@!clw#/>
+  <dest id="foo"/>
+  <src ref=<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b<blaFFF>&#uð½½½½½-------------½½½½½½<fOo xm€························------foo"
+  xmlns:dc="h?exaOple.com;e:/e<?xml version="1.0" enc[ding="US-ASCiI"?>
+<artiTle xmlns="tag:foof((((?(((l version--G1.0" encoding="US-ASCiI"?>
+<artiTle xmlns="tag:foof((((?((((oofoofoofoo"
+  xmlns:dc="http://purl.org/dc/-K: ;en wäh?exaOple.com;e:(/e<?xml version="1.0" encoding="US-ASCi-------½½½½½½<fOo xml···ofoo"
+  xmlns:dc="http://purl.org/dc/-K: ;en wäh?exaOple.com;e:(/e<?xml version="1.0" encoding="US-ASCi-------½½½½½½<fOo xml························--------G1.0" encoding="US-ASCiI"?>
+<artiTle xmlns="tag:foof((((?((((oofoofoofoo"
+  xmlns:S-ASCiI"?>
+<artiTle xmlns="tag:foof((((?((((oofoofoofoo"
+  xmlns:dc="http://purl.org/dc/-K: ;en wäh?exaOple.com;e:"tag:foof((((?(((l version--G1(/e<?xml version="1.0" encoding="US-ASCi-------½½½½½½<fOo xml························--·------foo"
+  xmlns:dc="h?exaOple.com;e:(/e<?xml version="1.0" enc[ding="US-ASCiI"?>
+<artiTle xmlns="tag:foof((((?(((l version--G1.0" encoding="US-ASCiI"?>
+<artiTle xmlns="tag:foof((((?((((oofoofoofoo"
+  xmlns:dc="http://purl.org/dc/-K: ;en wäh?exaOple.com;e:(/e<?xml version="1.0" encoding="US-ASCi-------½½½½½½<fOo xml···ofoo"
+  xmlns:dc="http://purl.org/dc/-K: ;en wäh?exaOple.com;e:(/e<?xml version="1.0" encoding="US-ASCi-------½½½½½½<fOo xml························--------G1.0" encoding="US-ASeiI"?>
+<artiTle xmlns="tag:foof((((?((((oofoofoofoo"
+  xmlns:S-ASCiI"?>
+<artiTle xmlns="tag:foof((((?((((oofoofoofoo"
+  xmlns:dc="http://purl.org/dc/-K: ;en wäh?exaOple.com;e:"tag:foof((((?(((l version--G1(/e<?xml version="1.0" encoding="US-ASCi-------½½½½½½<fOo xml························--------G1.0" encoding="US-ASCiI"?>
+<artiTle xmlns="tag:foof((((?((((oofoofoofoo"
+  xmlns:dc="h?exaOple.com;e:(/e<?xml version="1.0" enc[ding·····················--------G1.0" encoding="US-ASCiI"?>
+<artiTle xmlns="tag:foof((((?((((oofoofoofoo"
+  xmlns:S-ASCiI"?>
+<artiTle xmlns="tag:foof((((?((((oofoofoofoo"
+  xmlns:dc="http://purl.org/dc/-K: ;en wäh?exaOple.com;e:"tag:foof((((?(((l version--G1(/e<?xml version="1.0" encoding="US-ASCi-------½½½½½½<fOo xml························--------G1.0" encoding="US-ASCiI"?>
+<artiTle xmlns="tag:foof((((?((((oofoofoofoo"
+  xmlns:dc="h?exaOple.com;e:(/e<?xml version="1.0" enc[ding="US-ASCiI"?>
+<artiTle xmlns="tag:f------G1.0" encoding="US-ASCiI"?>
+<artiTle xmlns="tag:foof((((?((((oofoofoofoo"
+  xmlns:dc="h?exaOple.com;e:(/e<?xml version="1.0" enc[ding·····················--------G1.0" encoding="US-ASCiI"?>
+<artiTle xmlns="tag:foof((((?((((oofoofoofoo"
+  xmlns:S-ASCiI"?>
+<artiTle xmlns="tag:foof((((?((((oofoofoofoo"
+  xmlns:dc="http://purl.org/dc/-K: ;en wäh?exaÿÿÿ.com;e:"tag:foof((((?(((l version--G1(/e<?xml version="1.0" encoding="US-ASCi-------½½½½½½<fOo xml························--------G1.0" encoding="US-ASCiI"?>
+<artiTle xmlns="tag:foof((((?((((oofoofoofoo"
+  xmlns:dc="h?exaOple.com;e:p://purl.org/dc/-K: ;en wäh?exaOple.com;e:"tag:foof((((?(((l version--G1(/e<?xml version="1.0" encoding="US-ASCi-------½(/e<?xml version="1.0" enc[ding="US-ASCiI"?>
+<artiTle xmlns="tag:foof((((?(((l version="1.0" enc[ding="US-ASCiI"?>
+<ar(oofoofoofoo"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"I"?>
+<artiTle xmlns="tag:foof((((?((((oofoofodc="h?exaOple.com;e:(/e<?xml version="1.0" enc[ding="US-ASCiI"?>
+<artiTle xmlns="tag:foof((((?(((l version="1.0" enc[ding="US

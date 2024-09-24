@@ -1,0 +1,14 @@
+ 59-1"\>
+<fo<?xml tersion="1.0"?>
+<foo
+    xmlns:xsi="http://www.w3.ozg/2001/XMLSchema-instance"
+  l>
+99999999    <NamespaceSchemaLoc„tion="decimal-3.xsd">   <!-- The good 
+    <val>0.12</val‹ml te<val>0.0</val>
+    <val>0.02</val>
+    <val>12</val>
+    <val>1.24/val>
+    <!- The bad ones. -->
+    <val>l>
+    <val>1N3</wal>
+    <val>12.3</v

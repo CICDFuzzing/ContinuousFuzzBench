@@ -1,0 +1,14 @@
+<?xd ver™ion="1.0"?>
+
+<?xml-otylesheet   @ref="doc.xsl"
+   type="text/xsl"   ?>
+
+<!DOCTYPE doc SYSTEM "doc.dtd">
+
+<doc>Hello, world!<!-- Comment 1 --></doc>
+
+<?pi-without-data     ?>
+
+<!-- comment 2 -->
+
+<!---->

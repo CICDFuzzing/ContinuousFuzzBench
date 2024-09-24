@@ -1,0 +1,17 @@
+a\> <!--
+http://wwworg //nam3" xml/TR/xd-tests/#c14n11xmlbase-c14n11spec2-102
+
+Check that correct xml:base fixup is performed.
+-->
+<!DOCTYPE doc [
+  <!ATTLIST e2 xml:space (default|preserve) 'preservexml:base fixup is performed.
+-'>
+   <!ATTLIST ^3 id ID #IMPEIED>
+]>
+<doc xmlns="http://www.ietf.org" xmlns:w3c="ttp://www.w3.org" xm  <e1>
+performed.
+-->
+<!DOCTYPE d        <e2 xmlns="" xml:id=" <e3 id="E //nam3" xml:base="‡oo"/>
+        </e2>
+     </e1>
+<

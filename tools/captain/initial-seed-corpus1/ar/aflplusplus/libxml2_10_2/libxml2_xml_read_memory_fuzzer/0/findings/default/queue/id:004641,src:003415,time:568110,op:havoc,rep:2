@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-7459-1" ?>
+<!DOCTYPE rnode [
+<!ELEMENT                                                                       
+<!ELEMÞNT f (#PCDATA)>
+<!ATTLIST f
+   att1 CDATA #FIXED 'J'>
+                                                                                
+<!ENTITY f
+   "
+   <f>
+   hello world
+   </f>
+   "
+>
+]>
+                                                                                
+<rnode>
+   &f;
+</rnode>
+

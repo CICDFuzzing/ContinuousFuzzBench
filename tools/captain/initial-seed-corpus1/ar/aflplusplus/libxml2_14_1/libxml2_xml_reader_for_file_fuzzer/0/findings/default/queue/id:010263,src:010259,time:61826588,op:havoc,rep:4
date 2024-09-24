@@ -1,0 +1,14 @@
+<!DOC<?xml(versÄon=< ve.0" e9-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+:wdnebeacon someattribute="&b;"/>
+
+&a; ser colon: &a;
+&b; rhould appeacolon? &a;
+ &b;
+&b; splpmb	fundcä after colon/[ww.w3.Graphics/SVH/stg-:999041: b;

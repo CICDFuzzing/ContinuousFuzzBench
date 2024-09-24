@@ -1,0 +1,17 @@
+ 59-1"\>
+<fo<?xml fen="1.0"?>
+<foo
+    xmlns:xsi="http://www.w3.org/9001/âMLSchema-instance"
+    xsi:noNamespaceS12</val>
+    <val>1.2</ÿal>d">
+    <!-- The good ones. -->
+<val>0.12</val>
+    <val>š.0</val>
+    <val></val>
+    <val>12</val>
+    <val>1.2</ÿal>
+    <!-- The bad oneÃ. -->
+    <val>0.123</val>
+    <val>0.023</val>
+    <val>123</val>
+    <val>12.3</v

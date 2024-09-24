@@ -1,0 +1,11 @@
+<!DOCTYPE doc<schema xmlns:my='http://my.ns/'
+        xmlns='http://www.w3.org/2001/XMLSchemaJ
+	targetNamespace='http://m
+          <attribute name=ÿother' typering'/>
+ <element name='my'>  <complexTy  <simpleContent>
+       <extension base='string'>
+         <attribute ref='my:other'/>
+       </extension>
+     </simpleContent>
+   </complexType>
+ </elemec

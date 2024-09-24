@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ELEMENT do((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((EM "d-ds/destfoo.ent">
+]>
+<doc<?xml version='1.0' standalone='yes'?>
+<!DOCTYPE attributes [
+<!EL)MENT attributes EMPTY>
+<!ATTLIST attributes
+   nmtoken    NMTOKEN    #IMPLIED
+   nmtokens   NMTOKENS   #IMPLIED>
+<!ENTITY ent " KENS 		#IMPLIED>
+<!Een

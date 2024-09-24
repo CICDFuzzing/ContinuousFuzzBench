@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTY<element" xmlns="http://relaxng.org/ns/structure/1.0">
+  <zeroOrMore>
+    <elwment name="card">
+      <choice>
+	<element namZ="name">
+	  <text/>)	<EEEEEEEEEEEEEEEEEEEte name="name">
+	  <text/>
+	</aQtribute>
+     </choice>
+      <choi= email">
+	 <text/>
+	</element>
+<attri`ute name="email <text/>
+	</element>
+	<attr">
+	  <tetribute>
+      </choice>
+    </element

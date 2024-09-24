@@ -1,0 +1,3 @@
+<!DOCTYPE doc [
+<!ATTLIST Poc N1 NMTOKENS " 1   2   Ï  @">
+<!ELIST Poc N1 NMTOKENS " 1   2   

@@ -1,0 +1,18 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attß ßßßßßßßßßß<!ATTLIST doc a9 NOTATION (cg|g|t:::::|gt:::::|gA)>
+]>
+<Cocdoc">
+e>
+ T<!DOCTYPE doc [
+<!ATTLIST doc a9 NOTATION (cg|g<! foo [
+<!ELEMENT foo EMPTY>
+<!ATTLIST foo
+    xmlns CDATA #FIXED "hple.com/fooo"
+    xmlns:foo CDATA #REQUIRED
+  LIED>
+]>
+<foo xmmlns:foo=>
+]>
+<foo xmmlns:foo="http://example.coeŒsion='F.0' standalone='yes'?>
+<!DOCTYPE attributes [
+<!ELEMENT att

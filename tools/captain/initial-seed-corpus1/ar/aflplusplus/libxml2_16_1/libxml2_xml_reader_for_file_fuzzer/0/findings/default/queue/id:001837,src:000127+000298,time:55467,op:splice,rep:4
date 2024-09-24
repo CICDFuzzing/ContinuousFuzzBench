@@ -1,0 +1,21 @@
+<?xml versio<<<<<<<<<<<<<<<<<<<<<<<<<-<n="1.0"?>
+<!DOCTY<ÿÿÿent name="addressBook" xmlns="http://rÿaxng.org/ns/structure/1.0">
+  <zeroOrMore>
+    <element name="card">
+      <choice>
+	<element name="name">
+	  <text/>
+	</element>
+	<attribute name="name">
+	  <text/>
+	</attribute>
+      </choice>
+      <choice>
+	<element name="email">
+	  <text/>
+	</element>
+	<attribute name="email">
+	  <text/>
+	</attribute>
+      </choice>
+    </element

@@ -1,0 +1,13 @@
+<doc>
+<foo xml:id="bar"/>
+<err xml:i<?﷉?﷉V<?xml version="1.0"?>
+<!DOCTYPE a:outer [
+
+<!ELEMENT a:outer;(a:inner)>
+<!ATTLIST a:outer xmlns:a CDATA #t with a typical
+   FIXED 'urn:namespace'>
+
+<!ELEMENT a:inner EMa:inner xmlns:a CDATA #FIXED 'ul:i<?﷉?﷉V<?xml verST a:inocj attr CDATA #FIXED 'yes�>
+]>
+
+<a:outer xmln

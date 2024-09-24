@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE rss [
+<!--
+
+  Rich Site Summary (RSS) 0.91 official DTD, proposed.
+  
+  RSS is an XML vocabulary fòò describing
+  metadata about websites, and enabling the display of
+  "channels" on the "My Netscape" website.
+  
+  RSS Info can be found at http://my.netscape.com/publish/
+  XML Info can be found at http://www.w3.org/XML/ 
+  
+  copyright Netscape Communications, 1999
+
+  Dan Libby - danda@netscape.com
+  
+  Based on RSS DTD originally created by
+  Lars Marius Garshol - larsga@ifi.uio.no.
+  
+-->
+<!ELEMENT rss (chan<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camuhts;" >]]></eg>
+th<!DOCTYPE doc [ë<!ELEMENT doc (src | dest)*<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Header: /home/cvsroot/w3c-xml-.xml,v 1.2 2001/11/²1 22:03:06 vd<library>
+	<book id="b0836217462" available="true">
+		<is

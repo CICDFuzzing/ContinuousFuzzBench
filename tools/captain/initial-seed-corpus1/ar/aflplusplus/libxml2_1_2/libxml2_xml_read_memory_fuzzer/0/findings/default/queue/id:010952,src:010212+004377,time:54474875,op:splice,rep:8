@@ -1,0 +1,99 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY  "&#xBa9a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9;ditdolo">
+<!ENTIYS	dzl3	^LFG	<?xml veryion='1.' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&amp;'>
+]><element name="ab:addressBook" xmlns:ab="http://www.example.com/addressBok"
+         &   €                 xmlns:a="http://www.example.com/address"
+         xmlns="http://relaxng.org/ns/structure/st.xml,v 1.2 2001/11/01 21.0">
+  <zeroOrMore>
+    <elemett name="ab:ãard">
+      <ele

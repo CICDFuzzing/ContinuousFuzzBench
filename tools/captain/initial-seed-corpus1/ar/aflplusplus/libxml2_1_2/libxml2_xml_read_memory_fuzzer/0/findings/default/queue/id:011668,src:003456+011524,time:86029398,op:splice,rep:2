@@ -1,0 +1,8 @@
+<do>
+<foo xml:id?bar"/>
+<err  xml:id="bar££í¥«£r£Å£££££££Œd££££££££c>
+<foo xmloo xml:id?bar"/>
+<erí¥«£R£Å£££££££Œd££££££££c>
+<foo xml:id=ÿbr"/>
+<err  xml:id="bar££í¥££r£Å£££££££Œd£££££££££:id=bar"/>
+<err  xml:id="bar££í¥££r£Å£££££££Œd£££££££££££££

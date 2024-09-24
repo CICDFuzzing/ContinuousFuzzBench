@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="IddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddnnnnnnnnnnnnnnnnnnnnnnnnnnnddddddddddddddddddddddddddddddddddiddSO-8859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a  0"something">
+  <!ENTIT
+]>
+
+<somedoc>
+
+<somebeacon someattribute="&b;"/>
+
+&a; should appear after colon: &a;
+&b; should appear GGGGGGGGGGn: &a;
+&a; should appear after colon: &b;
+&b; shoul &b;
+
+</somedoc>

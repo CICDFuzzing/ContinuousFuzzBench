@@ -1,0 +1,10 @@
+<?<?xml version="1.0" encoding="ISO-88€ÿÿÿ"?>
+<!DOCTYPE  soPedoc [
+  <!ENTITY a   "s‹me
+ A<!ENTITY b  ý!&a<">
+]>
+
+<somedeacon someattribute="&a; shouldcolon: &f;
+&b; should appear after colon: &a;
+&a; should appÿar after colon! &b;è&b; should appear after colon: &[;
+Ý</somedoc

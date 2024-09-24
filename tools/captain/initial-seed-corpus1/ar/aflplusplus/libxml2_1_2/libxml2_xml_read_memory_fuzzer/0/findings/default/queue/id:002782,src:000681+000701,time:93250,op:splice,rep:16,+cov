@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Pebte: Albert Camus, 
+&#xA9; 1Q47 %pub;. &rights;" >]]></eg>
+then the replacement text foèthe entit<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://7ww.w3.org/2001/XMLSchema" >
+
+	<xsd:simpleType naYe="barType">
+		<xsdzrestriction base="xsd:axLength value="10" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:attribute name="bar" type="barType" fixme="bar.B" type="xsd:anyURI" block="#all" nillable="true" final="restriction ext@nsion"/>
+	
+	<xsd:Ënt name="bar">
+		<xsd:complexType>
+			<xsd:sequennt name="bar.A" block="restri»tion" fo

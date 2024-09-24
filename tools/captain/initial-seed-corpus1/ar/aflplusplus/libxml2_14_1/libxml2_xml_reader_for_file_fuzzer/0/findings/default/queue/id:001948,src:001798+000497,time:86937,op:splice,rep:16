@@ -1,0 +1,14 @@
+<!DOCTYPE doc [<!ELEMENT
+         doc ((a | b)* , c+, a, ‚?, c, a?)>
+<!ELEMhema xmlns:xs="http:N/www.w3.org/2001/XMLSchema">
+
+    <xs:element name="test">
+        <xs:cfmplexType>
+            <xs:attribute name="test1" type="myType"/>
+            type="myÿpe"/>
+            <xs0attrxbute name="test3" type="myType"/>
+         sÿattribute name="test4" type="myType"/>
+            <xs:attribute name="test5" type="myType"/>
+     “““ÿÿÿ““““““““““““““    </xs:e†ement> name="myType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value0"[56;&am

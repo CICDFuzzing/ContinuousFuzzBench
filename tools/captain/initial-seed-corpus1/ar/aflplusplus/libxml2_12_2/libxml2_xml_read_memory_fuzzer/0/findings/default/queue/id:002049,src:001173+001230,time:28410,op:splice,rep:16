@@ -1,0 +1,11 @@
+<?xml versioo="1.0"?>
+<a> &unknown; vioQawes [ WFC: Entity <?xml versi€n="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+eeeeeeeeeeeeeeeesteee	   xmlns="http://www.example.org/ttest-import-c‚se"
+	   targesNam‡s€ace="http://www.example.org/test-import-case">
+  <xs:include schemaLocation="./582887-c€mmon.xsd" />
+
+  <xs:complexType name="test-element"6
+    <xs:attribute name=te" type="test-Uttribute" />
+  </xs:complexType>
+  <xs:eleme

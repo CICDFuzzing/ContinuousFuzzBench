@@ -1,0 +1,9 @@
+aÿï\>
+<!DOCTYPE root [
+<!ENTITY foo 'abc'>
+<!ENTITY bar 'deibute="&foo;">
+f'>
+]>
+<root attributm="&foo;">
+   <element>&bar;5+apdxcgp;">
+   <element>&bar;5+apdxcgp

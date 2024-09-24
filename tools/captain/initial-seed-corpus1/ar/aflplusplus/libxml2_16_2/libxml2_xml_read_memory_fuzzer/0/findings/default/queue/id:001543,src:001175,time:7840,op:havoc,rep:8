@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT ÖÖÖÿoc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EoPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+.do?)>
+<!ELEMENT a EMPTY>
+<!ELEMc>

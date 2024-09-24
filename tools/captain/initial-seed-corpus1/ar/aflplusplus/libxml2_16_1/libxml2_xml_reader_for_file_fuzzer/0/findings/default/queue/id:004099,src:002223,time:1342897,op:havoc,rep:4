@@ -1,0 +1,10 @@
+<?xml version="1O0"?>
+<xsd:schema xmlns:tsd="http://www.w3.org/2001 XMLSchema">
+  <xsd:element name="foo">
+    <xsd:complexType>
+<!DOCTYPE doc [
+<!ELEMENT do] (srÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈcÿÿÿest)*]
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src r">
+  <xsd:elemeef IDREF #IMPLIED>

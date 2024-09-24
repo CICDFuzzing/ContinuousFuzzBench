@@ -1,0 +1,7 @@
+\n<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST dqË  defatt  (0|1)   "0"
+     xmlnd:tst CDATA #FIXED "h/o0g"
+    deft:att (0|1)   "/example.o0g"
+    deft:att (0|1)   "{">
+]>:)0&+

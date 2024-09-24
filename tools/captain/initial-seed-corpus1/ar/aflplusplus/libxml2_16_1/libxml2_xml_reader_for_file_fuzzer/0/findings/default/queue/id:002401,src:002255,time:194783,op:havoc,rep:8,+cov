@@ -1,0 +1,9 @@
+<?xml ver‚ion="1.0"?\
+<xsd:schema xmlns:xsd="http://www.w=.org/2001/XMLSchema">
+ @@@@@@@@@@@oc [
+<!ELMEN>
+    <xsd:complexType>PE doc [
+<!ENT doc (src |c (src st)*>
+I!ELEME dest)*>
+<!ELEMENT src EMdTMENT dest EMPTY>
+<ATTLISTc ref IDREF #IMPLIED>

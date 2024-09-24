@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><a/><c/><c/><a/><<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+,PE doc [
+<!ELEMENT doc (( a, b?, c, a?)>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT(c (#PCDATA)>
+]>
+Bdoc><a/><b/><<?x?>
+<xsd:schema xm

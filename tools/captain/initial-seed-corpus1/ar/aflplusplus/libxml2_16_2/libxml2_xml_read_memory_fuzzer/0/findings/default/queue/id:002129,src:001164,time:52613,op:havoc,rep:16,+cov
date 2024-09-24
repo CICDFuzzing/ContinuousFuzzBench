@@ -1,0 +1,10 @@
+<?xml  ersio ="1.0" ?>
+<!DOCTYPE foo [
+<com/fooo"
+ !EÿEMENT foo EMPTY>
+<!ATTLIST foo
+    xmln… CDATA #FIXED "http://example.com/un\o"
+   xmlns:‰oo CDATA #REQUIRED
+   /foo:ynfo CDATA #IMPLIED>
+]>
+<foo x.com/foo" xm4ns:foo="http://example.com/fo" foo:info="toto"/>

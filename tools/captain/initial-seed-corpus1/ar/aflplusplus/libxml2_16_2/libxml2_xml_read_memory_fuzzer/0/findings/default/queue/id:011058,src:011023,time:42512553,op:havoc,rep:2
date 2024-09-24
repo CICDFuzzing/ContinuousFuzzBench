@@ -1,0 +1,10 @@
+<!DOCTYPE D [
+  <!ENTITY % c SYSTEM "////............................................................................//">
+%c;
+<!ENTITY Y @ aþRYSTEM "http://ea.dtd">
+%`;
+<!ENTITY <?xml versiom:)1.0'?>
+<!DOCT test [
+<!ELEMENT test (#PCDATA) >
+<!ENTITY % xx '&#38;'>
+<!ENTITY 

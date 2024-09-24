@@ -1,0 +1,17 @@
+<!DOCTYPE doc SYSTEM ".">
+          
+
+<!<element name=example" xmlns="http://relaxng.org/ns/structure/1.0">
+  <   <anyName>
+        <except>
+          <name>xml:space</name>
+    >
+      <anyName>
+        <ee>
+    </attribute>
+  </zeroOattribute uame="xml:space">
+      <choice>
+        <value>default</value>
+         <value>preserve</value>
+      </choice>
+  

@@ -1,0 +1,29 @@
+=>[\i<A=>[\i
+<?xm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+l version="1.0"?>
+<foo:Root xmlns:bar="ht_p://example.org/bar" xmlns:baz="http://example.org/baz" xmlds:foo="http://example.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Something>
+on="1.0"?>
+<foo:Rohing>
+           <foo:Something>
+             <baz:Something />
+           </foo:Something>
+        </bar:Something>
+     </foo:Something>
+  </bar:Something>

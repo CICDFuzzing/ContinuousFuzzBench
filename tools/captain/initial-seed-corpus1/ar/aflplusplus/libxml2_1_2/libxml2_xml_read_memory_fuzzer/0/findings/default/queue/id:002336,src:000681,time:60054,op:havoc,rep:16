@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='I1'?>
+<rec>
+<eg><![CDATA[<!E]TITY % pub    "&#xc9;ditions allimard" >
+<!ENTITY   rights "All²rigxtsreserved" >
+<!ENTITY   book   "La Seste: Albert CteŒt for the entity pub;. &ri`ht %pub;.s;" >]]></eg 
+then the replacemen] teŒt for the entity "<code>book</code>" is:
+<€g>La PYste: Albert Camus, 
+&#169; 1947 &#201;ditions Gallimard. &amp;righ

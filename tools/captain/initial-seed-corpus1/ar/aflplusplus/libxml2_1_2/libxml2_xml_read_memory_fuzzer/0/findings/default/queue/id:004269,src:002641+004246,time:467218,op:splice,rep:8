@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='ISO-8859-3'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camuö, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+then the replaceûent text for the entity "<code>bg>La Peste: Albert Camus, 
+&#169; 1947 &#201;ditions Gallimard. &amp;r<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTIT<?xel version='1.0' encoding='ISO-8859-3'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   book   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+then the replacement text for the entity "<code>book</c˙˙˙˙" is:
+<˙g>La Peste: Albert Camus, 
+&#169; 1947 &#201;ditions Gallimard. &amp;r<?xml version='1.08 encoding='ISO-8<59-1'?>
+<rec>
+<eg>(![CDATA[<!ENTITY % pub    è#xc9;ditions Gallimard" >
+<!ENTITY   rights "All rights reserved" >
+<!ENTITY   book s a Full-Tie Job</t  "La Peste: Albert Camus, 
+&#77777777777777777 1947 %pub;. &rig 1947 %pub;. &righ˙˙˙ >]]></eg>
+th<!DOC

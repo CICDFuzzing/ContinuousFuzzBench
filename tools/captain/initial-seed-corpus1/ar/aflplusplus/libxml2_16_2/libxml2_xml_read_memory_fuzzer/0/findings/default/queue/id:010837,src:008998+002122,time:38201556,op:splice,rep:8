@@ -1,0 +1,9 @@
+<?<b>a<ÿÿ=upz:Éüüüü<b>a<ÿa>É<z¾a<ÿÉ<b>a<ÿÿÉ<b:Fb><?xml version="1.0" ?>
+<!DOCTYPE foo [
+<!ELEMENT foo EMPTffffffffffffffffff…ffffffffffffY>
+<!ATTLIST foo
+    jmlns CDATA #FIXED "http://example.com/fo^o"
+    xmlns:foo CDATA #REQUIRED
+    foo:info CDATA #IMPLIED>
+]>
+<foo xmlns="http://exampl!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!e.com/foo3

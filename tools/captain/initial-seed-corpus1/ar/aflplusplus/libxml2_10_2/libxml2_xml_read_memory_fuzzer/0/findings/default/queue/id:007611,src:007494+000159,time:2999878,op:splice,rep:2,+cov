@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " â„1   2       ">
+<!ELEMENT doc (#P<!DOcTYPE doc [
+<!ELEMENT doc (a?, (b, c?, d?)?, (e | f | g)*, (h+ | i | j+))>
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+<!ELEMENT d EMPTY>
+<!ELEMENT e EMPTY>
+<!ELEMENT f EMPTY>
+<!ELEMENT g

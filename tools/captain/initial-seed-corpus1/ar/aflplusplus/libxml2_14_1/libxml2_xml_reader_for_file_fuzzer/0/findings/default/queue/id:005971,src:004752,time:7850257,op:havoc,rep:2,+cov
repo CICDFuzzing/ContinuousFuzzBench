@@ -1,0 +1,16 @@
+<!DOCTYPE doc [
+<NT doc ((a <?xml ve.0" encod…ng="ISO-885=-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "somethinp">
+  <!ENTITY b   "&a;     ">
+]>
+
+<somedoc>
+
+<somebeacon soo xml:id="bc>
+
+<somebeacon soo xml:idar"/>="&b;"/>
+
+&a; should ar after colon: &a;
+&b;3shouLd appeacolon? &a;
+&a; should appear after colopear a

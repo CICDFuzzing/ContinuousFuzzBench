@@ -1,0 +1,14 @@
+?#AHCTYPE doc " encod…ng="ISL.7759-1"?\
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;     ">
+]>
+
+<somedoc>
+
+<somebeacon so="$c>%/>
+
+&a; should ar after colon: &a;
+&b;  <xinetynmj-vvo#n? &a;
+#c?	shoul appear	felao—sjgo=	*a;
+&b; shouppeal	d

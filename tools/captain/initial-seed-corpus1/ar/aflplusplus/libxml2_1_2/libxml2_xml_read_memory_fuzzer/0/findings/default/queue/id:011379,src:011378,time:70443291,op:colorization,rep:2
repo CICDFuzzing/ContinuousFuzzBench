@@ -1,0 +1,16 @@
+<?xml version="1.0" enco"ISO-885ÿ1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlng:foo="http://FÿO" 
+	xmlnd:bar="GGGGGGGGGGGGGGGGGGGGGGGGGGGGG">
+]>
+
+< after colon: &a;
+&`; should appearkafter colon: &a;
+&a; should appear a<p tst="a&amp;b" tst2="a&b" tst3="a & b">
+a&amp;b
+a&ba &<?xml version="1.0" encoding="ISO-885ÿ1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlng:foo="http://FÿO" 
+	xmlqe>cbw="!(%#

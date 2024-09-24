@@ -1,0 +1,12 @@
+<?xml version='1.0' standalone='yes'?>
+<!DOCTYPE attributes [
+<!ELEMENT attributes EMPTY>
+<!ATTLIST attributes
+   nmtoken    NMTOKEN    #IMPLIED
+   nmtokens   NMTOKENS   #IMPLIED>
+<!ENTITY ent " entitTest&#x0d;&#x0a; ce">
+]>
+<attributes
+  nmtoken =  " &ent; 		$fwt; &ent; "
+  nmtokeþÿ<!DOCTZPE dEN    #IMoc [
+<!ELEMENT doc ((a | b)* , c+,

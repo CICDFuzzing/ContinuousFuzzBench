@@ -1,0 +1,27 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (<?xml veˆsion='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDAT%[<!ENTITY % pub    "&#xc9;ditiÿÿÿGallimard" >
+<-ENTITY   rights "All    `ook   +La Peste: Albert Camus, 
+&#xA9; 1947%pub;. &rights;" >]]></eg>
+then the reNlacement text for the entit<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="'ISO-8859-1'?>
+<rec>
+<eg><![Cema" >
+
+	<xsd:simpleType name="barType">
+	<xue" final="ren base="xsd:string">	
+			<xsd:maxLength value="10" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<€sdattribute namo"/>
+
+	<xsd:element name="bar.B" type="xsd:anyURI" block="#all" nillablZ="true" final="restriction extenYion"/>
+	
+	<xsd:eleixed="o"/>
+
+	<xsd:element namemX" >]]></eg>
+then the reNlplexType>
+&		<xsd:sequence>
+				<xsd:element name

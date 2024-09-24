@@ -1,0 +1,8 @@
+<?ï»‰-<!DOCTYPE doc [
+<!<?xml version="1.0"?>
+<!DOCTYPE a [
+%unknown;
+<!ENTITY % un?>
+<known "<!ELEMENT a (#PCDATA)>€>
+]>
+<a> violates [ WFC:

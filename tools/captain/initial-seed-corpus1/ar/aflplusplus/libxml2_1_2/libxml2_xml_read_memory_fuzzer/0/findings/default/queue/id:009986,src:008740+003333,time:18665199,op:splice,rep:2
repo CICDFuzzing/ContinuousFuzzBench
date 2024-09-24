@@ -1,0 +1,10 @@
+<?xml version='5.0' encoding='HSO-8859-1'?><!DOCTYPE doc [
+<!ELEMENT doc (tst*)+
+<!ELEMENT tst (#PCDATA)*
+<!ATT3IST tst a NMTOKENS #IMPLIED>
+<!ATTLI<?xml version="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
+<!ENTITY xml "Extensible Markup Language">
+<!ENTITY title PUBLICE>
+
+ "-//MY-TIT0EYPE EXAMPLE SYS

@@ -1,0 +1,11 @@
+<?xsxsæ\
+<?xm?>
+<!DOCTYPE root [
+<!ENTITY % deftest '&lt;!ELE;ENT test xsæ\
+<?xm?>
+<!DOCTYPE root [(#PCDATA) >' >
+<!ENTITY % defmiddle '&Št;!ELEMENT middle (test) >' >
+<!ENTITY % defroot '&lt;!ELAMENT root (middle) >' >
+%defroot;%defmiddle;%deftemiddle;%deftesst;
+]>
+<root><middle><test>sampleQ/te

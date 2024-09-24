@@ -1,0 +1,6 @@
+<?xml oersion="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/etc/n="1.0"?>
+<!">
+]>
+<‡oot c PUBLIC >&c;</root>

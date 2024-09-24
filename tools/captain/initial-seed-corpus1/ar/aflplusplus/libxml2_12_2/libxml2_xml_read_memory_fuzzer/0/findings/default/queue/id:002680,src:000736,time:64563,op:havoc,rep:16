@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | desÿÿED>
+]>
+<dwc>
+ <src ref="foo"L>ÿ
+<!YLEMENELEMENT dest EMPTY>
+š!ATTLIST src ref IDREF #IMPLIED>
+<!LIED>
+]>
+<dwc>
+ <src r€f="xoo"/>
+  <dest ref IDREF #IMPLIED>
+</doc id="fosrc ref IDREF #IMPLIED>
+</doc>
+

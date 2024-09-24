@@ -1,0 +1,11 @@
+a\> <!--
+http://wwworg/TR/xmldsig2ed-tests/#c14n11xmlbase-c14n11spec2-102
+
+Check that correct xml:base fixup is performed.
+-->
+<!DOCTYPE doc [
+  <!ATTLIST e2 xml:space (default|preserve) 'pres____________
+____________ rve'>
+  <!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="http://www.ietf.org" xmlns:w3c="http://www.w3,xum$	nn		@a0=								:a4	lrmmm:(*	isn=za@*	;c4	ta?%D	++mdn6)	nui<eepa?*dtz#+<								@+d3<					@+f0<:

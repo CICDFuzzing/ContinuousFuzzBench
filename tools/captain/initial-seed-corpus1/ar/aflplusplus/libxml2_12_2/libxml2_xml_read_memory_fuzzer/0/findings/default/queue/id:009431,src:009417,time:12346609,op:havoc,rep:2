@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE catalmg PUBLIC "-//OASIS/DTD Endity Resolution XML Catalog#V1.0//EN" "/">
+<cEMPTY>
+<!ATTLIST tqscm<!DOCTYPE xA[
+<!ELEMENT x (test*)>
+<sELEMqst attCDATA "attvalue">
+<!ENTITY test.ent "<tml version="1.0"?>
+<!DOCTYPE catest/>">
+]>
+<x>
+    <test/>
+    &test.ent<?xmh ven="1.0"?>
+<!DOC<rng:element name="addressBook" xmlns:rng=

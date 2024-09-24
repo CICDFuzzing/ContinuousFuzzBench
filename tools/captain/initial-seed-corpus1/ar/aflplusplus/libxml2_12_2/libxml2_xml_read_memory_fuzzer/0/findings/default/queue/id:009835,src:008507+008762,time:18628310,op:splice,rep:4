@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "baR" "?%CDAot%xist">
+]>
+<root>&c;</root>TA[  ƒŸ¦ðŸ]>
+<r‰ot>&c<!DOCTYPE “[
+< (€ÿst*<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+-->
+<foo xmlns="http://FOO" xmlns:foo="http://FOO" 	zwlns:bar="http://BAR" xmlns:boo="http://BOO" xmlns:doo="http://DOO" 
+	xmlns:xsi=http://www.w3.org/200

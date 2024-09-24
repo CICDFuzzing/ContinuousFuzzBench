@@ -1,0 +1,21 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , cM,<?xml version="1.0"?>
+<D:multistatus xmlns:D="ht~p://www.ietf.org/standards/dav/">
+  <D:respoD:href>
+  nsX>
+    <D:href>http://www.~icrosoft.com/user/yarong/davÿrafts/
+      </D:href>	ÿ   <D:prop>
+      <D:resourcetype>
+        <D:cwllection/>
+      </D:rˆsourcetype>
+     /D:prop>
+    <D:~tatUs>HTTP 1.1 20 OK</D:status>
+  </D:response>
+  <D:response>
+    <D:href>
+     om/user/yaroug/dav_drafts/base
+      </D:href>
+    <D:prop>
+      <D:r@sourcetype/>
+    </D:prop>
+    <D:status>HTTP 1.1 200 OK

@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attß ßßßßßßßxmlns:tst CDATA #FIXED "htt’://exam]le.org"
+     tst:att (0|1)   "1">
+]>
+<do
+<!ENTITY ent2 SYSTEM	"world.txt">
+<!ENTI<?xml version=".0" ?>
+<!DOCTYPE fxg [
+<!ELEMENT foo EEPTY>
+<!ATTLIST foo
+    xŽlns  foo EEPTY>
+<!ATTLIST foo
+    xŽlns CDATA #FIXED "http

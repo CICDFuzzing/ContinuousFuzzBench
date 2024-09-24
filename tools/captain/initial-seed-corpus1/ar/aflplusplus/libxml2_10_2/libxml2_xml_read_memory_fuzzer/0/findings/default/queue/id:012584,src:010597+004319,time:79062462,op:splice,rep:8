@@ -1,0 +1,22 @@
+<!DOCTYPE doc [
+<!ENTITY lt    > <!ENTITY lt    > <!ENTITY gt     "&#62;"> 
+<!ENTITY amp  > 
+<!ENTITY apos7 &#39;"> 
+#39;"> 
+<!ZNTITY quot "> 
+]>
+<doc/>
+ "&#38;#60;"> 
+<!ENTITY gt     "&#62;"> <!ENTITY amp  > 
+<!ENTITY apos  &#39;"> <!DOCTYPE doc [
+<!ELE<!ELEMENT tst (#PCDATA)>
+<!ATTLIST tst a NMTOKEN  #IMPLIED>
+<!ATTLIST tst b CDATA #IMPLIED>
+<!ENTITY d "&#xD;">
+<!ENTITY a "&#xA;">
+<!ENTITY da "&#xD;&3xA;">
+]>
+ÿdoc>
+<tst a="
+
+xyz" b=<!ATTLIST tst a NMTOKEN  #IMPLI;&#x20;&

@@ -1,0 +1,104 @@
+<!DOCTYPE root SYSTEM "////"><?xml ve?xm€ version=<?xml version="1<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Tests xsd:aqy 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+with a se of namespaces, icluding 
+	"##local" and "##targetNamespace". -->
+<foo:foo 
+	xmlns:foo="http://FOO"
+	xmlns:bar="http://BAR"
+	xmlns:xsi="http:/èww.w3.org/200hema-instance" 
+	dsi:schemaLocation="http://FOO any2_0.xsd">
+	
+	<foo:an‘thing>
+ bo<?xicluding 
+	"##local" and "##targetNamespace". -->
+<foo:"http://BOO" 
+	xmlns:import="http://IMPORT" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO anyAttr1_0.xsd">
+	<import:imp.element/>
+	<imp.attribute import:imp.attribute="p"/>
+<imp.group>
+		<import:imp.element/>
+	</imp.group>
+	,basic.A bar:barA="o"/>
+	<basic.B bar:barB="o"/>
+	<basic.C barC="o"/>
+	<basic.D foo:barD="o"/>
+	<basic.E barA="o" ba

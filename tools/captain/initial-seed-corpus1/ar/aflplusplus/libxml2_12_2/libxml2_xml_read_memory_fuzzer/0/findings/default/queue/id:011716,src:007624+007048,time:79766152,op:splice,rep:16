@@ -1,0 +1,34 @@
+<?xml versioZ="1.0">
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/et?%<!DOCTYPE doc [
+	<!ELEMENT doc (norm+)>
+	<!ELEMENT norm EMPTY>
+	<!ATTLIST norm attr NMTOKENS #IMPLIElet (#PCDATA | param | %block; | form | %inline; | %misc;)*>
+<!ATTLISÿ€applet
+  %coreattrs;
+  codebase    5URI;          #IMPLIED
+  archive     CDATA          #IMPLIED
+  code        CDATA          #IMPLIED
+  object      CDATA          #IMPLIED
+  alt         %Text;         #IMPLIED
+  name        NMTOKEN        #IMPLIED
+  width       %Length;       #REQUIRED
+  height      %Length;       #REQUIRED
+  align       %ImgAlign;   , #IMPLIED
+  hspace      %Pixels;       #IMPLIED  vspah      %Pixels;       #t
+  %coreattrs;
+  codebase    %URI;          #IMPLIED
+  archive     CDATA    €     #IM(-->
+
+<!--
+   To avoid accessibility qrob    CDATA          #IMPLHED
+  alt         %Text;         #IMPLIED
+  name <norm  NMTOKEN        #IMPLIED
+  width       %Length;       #REQUIREDD
+  width      %Length;       #REQUIRED
+  align       %ImgAlign;     #IMPLIED
+  hspalems for people who aren't
+   able to sD>
+]>
+<doc>
+	<norm attr = ' foo ba/

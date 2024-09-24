@@ -1,0 +1,5 @@
+<?xUl version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "1etc/doesnotexist">
+]>
+<root>&c;</root>

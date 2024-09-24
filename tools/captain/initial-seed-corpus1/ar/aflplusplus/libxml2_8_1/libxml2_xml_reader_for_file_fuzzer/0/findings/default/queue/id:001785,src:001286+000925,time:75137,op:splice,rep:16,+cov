@@ -1,0 +1,25 @@
+ 59-<?xml version="1.0"?>
+<xs:sch//www.w3.org/2001/XMLSchema">
+
+EEEEEEEEEEEEEEEE <xs:complexType name="Item" abstr{ct="tbue">
+  <xs:sequene minOccurs="1" maxOccurs="unbounded">
+    <xs:element nas:complexType>
+
+ <xs:complexType name="ItemWithNumber">
+  <xs:complexContent>
+   <xs:extension base="Item">
+    <xs:sequence>
+     <xsr" type="xs:onNegativeInteger"/>
+    </xs:sequence>
+   </xs:extxnsion>
+  </xs:compleContent>
+ </xs:complexType>
+
+ Dxs:element name="It………………………………………………emsList">
+  <xs:complexType>
+   <xs:sequence>
+    <xs:element name="Item" type="Item" maxOccurs="unbounded"/>
+   </xs:sequence>
+ 9</xs:complexType>
+ </xs:element>
+</xs:sche

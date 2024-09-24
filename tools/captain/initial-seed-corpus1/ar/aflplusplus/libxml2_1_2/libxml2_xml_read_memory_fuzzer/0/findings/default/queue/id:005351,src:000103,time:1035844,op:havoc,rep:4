@@ -1,0 +1,8 @@
+<?xml version='1.0-?>
+<!DOCTYPE test [
+<!ELEMENT pest (#PCDATA) >
+<!ENTITY % xx '&#37;zz;'>
+<!ENTITY % zz '&#60;!-NTITY tricky "error-prone" >' >
+%xx;
+]>
+<test>This sample sh           ows a &tricky; method.</test>

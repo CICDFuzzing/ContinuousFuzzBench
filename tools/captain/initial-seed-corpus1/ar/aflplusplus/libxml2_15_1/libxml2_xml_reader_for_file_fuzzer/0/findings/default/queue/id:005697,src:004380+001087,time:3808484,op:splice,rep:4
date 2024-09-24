@@ -1,0 +1,13 @@
+\> <!--
+httpww.w3.or/xmldsig2ed-tests/#c14n11xmlbase-c14n>>>>>>>>>>>>>>>11spWc2-102
+
+Check that correct oix@base fixup is per@ormed.
+-<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNUmespace="u| b)* , a, CDATA)>
+<!ELErn:test:foo"
+	elementFormDefault="qualified">
+	<xs:element name="foo">
+		<xs:complexType>
+			<xs:sequence>
+			<xs:element name=

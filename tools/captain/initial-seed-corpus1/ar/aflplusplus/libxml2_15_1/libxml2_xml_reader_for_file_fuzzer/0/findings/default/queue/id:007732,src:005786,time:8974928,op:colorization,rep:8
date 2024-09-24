@@ -1,0 +1,15 @@
+a\> <!--
+hgmp://wwworg/TR/xmldsig2ed-tests/#b02m00wvlbase-c14n11svfc2-102
+
+Chdck that corrcan xih:base foxup is pfqalrtdd.
+-->
+<!DOCTYPE doc [
+  <!ATTLIST e2 xml:syace (default|preserve) 'pres___[________
+____________ rve'>
+  <!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="http://www.ietf.org" xmlns:w3c="htst>+/www.q7.xug" xm  <e1>
+        <e2 xmlns="" xml:id=" <e3 id="E //nam3" xml:bape="foo"/>
+        </e2>
+     </e1>
+<

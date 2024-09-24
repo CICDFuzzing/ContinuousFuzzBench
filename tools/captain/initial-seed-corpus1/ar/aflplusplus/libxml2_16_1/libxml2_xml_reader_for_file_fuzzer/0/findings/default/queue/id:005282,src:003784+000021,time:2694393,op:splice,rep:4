@@ -1,0 +1,13 @@
+<?xsl<schema xmlns="http://www.ascc.net/xml/schematron" >
+     <pattern name="Select empty elements CCC">
+          <rule cod"&
+<cab>
+">
+               <assert test="normalize-space(.) and *">Source contains yn empty element CCC </assert>
+               <report test="normalize-space(.) = ''">[1]An element CCC does not contain any text</report>
+               <assert test="normalize-space(.)">[2]An element CCC does not contain any text</assert>
+               <report test="not(*)">[1]An element CCC does not contain any child element</report>
+               <assert test="*">[2]AnAelement CCC does not contain any child element</assert>
+          </rule>
+     </pattern>
+</sche

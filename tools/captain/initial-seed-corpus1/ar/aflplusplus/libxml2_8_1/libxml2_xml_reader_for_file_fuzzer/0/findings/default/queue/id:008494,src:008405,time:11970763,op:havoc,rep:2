@@ -1,0 +1,10 @@
+ 59-1"\M
+<!DOCTYPE doc [
+<!ATTLIST e2 xml:space (default|preserve) '    erve'>
+<!ATTLIST e3 id ID #IMPLIED>
+]>
+<doc xmlns="http://www.ietf.org" xmlns:w3c="http:.org">
+   <z1>
+      <e2 xmlns="">
+     <e3 id="E3"/>
+      </e2ÿÿÿÿ </Z1

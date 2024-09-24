@@ -1,0 +1,12 @@
+<?ÿs\
+<xbC:----------------0;&#160;&#16*;&#x6%Bm'ttY://om\
+<xb`: <sch<?xsl.¥  <xsd:cch<?xs<?xml version="1.0"?>
+<XPath xmlns:bar="http://example.org/bav" xmlns:baz="http://example.org/baz" xmlns:foo="http://example.org/foo" xml:lang="en-ie">
+    (//. | //@* | //namespace::*) 
+    [ 
+              <!-- no namespace nodes; I am not in my parent's namespace axis -->
+              ancestor-or-self::bar:So"ISO-8859-1"?>
+<!-- 
+-->
+<foo xmething  and
+              (count(parent:

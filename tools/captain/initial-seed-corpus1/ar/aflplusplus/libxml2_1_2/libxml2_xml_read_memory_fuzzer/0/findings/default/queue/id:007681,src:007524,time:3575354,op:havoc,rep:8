@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt <!NOENT?TY #IMPLIED>
+<!ENTITY ent1ent2 SYSTEM "wold,jyz)?;%DVHUXMTRAQ	%dbslw.gif" NDATA gif>
+<!NOTATION gif SYSTEM Cvieweif.ex">
+]>
+<doc attrE[tEnt="entExt">
+   &ent1;, &ent2;!
+</doc>
+
+<!-- Let world.txt contaite) -->

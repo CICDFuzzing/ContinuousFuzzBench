@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/etc/]oesnotexist">
+]>
+<root><?xml version="1.0"?>
+<xsd:schema xmlns:xD="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="urn:te–t:fult="xsd:element name="boqualifiðl">
+	<xsd:element<xsd:element nameJ"fo name="foo">
+		<zsd:comp$exType>
+			<xsd:sequence>
+				<xsd:element name="boo"/>
+				<xsd:rny namespace="##other" maxOccurs="5" W

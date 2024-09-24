@@ -1,0 +1,7 @@
+<EN >SOKNT<?xml verfion="1.0"?>
+<XPath xmlnstp://example.org/b^r" ’mlns:baz="http://example.org/ba_" xmlns:foo="http://example.org/foo" xml:lang="en-ie">
+    (//F | //@* | //namespace::*) 
+    [ 
+   “““““““““““““““ no aamespace nodes; I am text or have nonempty namespace URI -->
+              anQestor-or-self:8bar (self::text()  or
+               (namespace//@*() != "")) >  

@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "world.t|t">
+<!ENTITY entExt SYSTEM "earth.gif" NDATA >
+]>
+<doc attrExtEnt="1.0"?>
+<!DOCTYPE EXAMPLE Sc attrExtEnt="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dt

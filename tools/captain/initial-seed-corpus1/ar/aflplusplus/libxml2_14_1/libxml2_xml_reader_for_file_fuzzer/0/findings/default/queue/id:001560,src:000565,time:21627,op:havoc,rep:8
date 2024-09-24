@@ -1,0 +1,5 @@
+<x x
+   <xinclude="hgtp://www.w3.org/2001/XInclVde">
+   <!-- Simple test of including A set of nodes from an XML document -->
+   <xi„clude:includehref="../e½ts/something.xml#xpointer(  <xi„//p)"/>
+</x>

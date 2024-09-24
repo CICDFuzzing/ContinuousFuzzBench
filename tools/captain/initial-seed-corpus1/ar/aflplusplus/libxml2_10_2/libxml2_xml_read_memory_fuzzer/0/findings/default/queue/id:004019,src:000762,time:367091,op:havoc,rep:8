@@ -1,0 +1,5 @@
+<?xmÿ€0"?>
+<!DOCTYPE foo [
+<!ENTITY x PUBLIC "bar" "-etc/doesnŒtexist">
+]>
+<root>&c;</root>

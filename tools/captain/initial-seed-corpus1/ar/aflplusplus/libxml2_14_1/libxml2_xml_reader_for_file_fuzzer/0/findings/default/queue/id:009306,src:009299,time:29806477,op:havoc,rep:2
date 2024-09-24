@@ -1,0 +1,12 @@
+€ÿD\¢<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA|b|s:b)*>
+<!ATTLIST a xm<!ATTLIST b xmlPLIED>
+<!ELEMENT b EMPTY>
+<!ATTLIST b xmlns:<!ELEMENT d:b EMPTY>
+<!ATTLIST sEMPTY>
+<!ATTLIST  :bxmlns:s CDATA #IMPLIED>
+]>
+<a xmlns:s=<?xml ve.0" encoding="ISO-8859-1"?\
+<!DOCTYPE  somedoc [
+  <!E

@@ -1,0 +1,19 @@
+=l===================== \,<teë³²,²<gramma      <attribute name="email">
+structure/1tart>+
+  <define nade.0">
+,  <start>
+    <element name="addressBook"››››››››<zeroOrMore>
+	<element name="card">
+	  <ref name="card.attlist"/>
+	</eleent>
+      </z     </zeroOrM </element>
+  </staŒt>
+
+  <define nade="card.at
+     <attribute name="name">
+	<text/>
+      </attribute>
+     <attributm name="email">
+	<text/>
+      </attribute>Õ    </group>
+  </define>

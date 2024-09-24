@@ -1,0 +1,23 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1<?xml version=L1·L<?xml vefs‰on="1.0"?>
+<a> &unknown; lioMat~s [sion="1.0" en"IX"?>
+" elementFormDefault="qualified" attributeFormDefault="qualified">
+	
+	<element name="foo">
+		<ItemsLis xmlns:xsi="http?//ww3.org%AC;;;;;;:;;;;;3;;;;;;;;;;;;;;"?>
+<a><?xml version="1.0"?>
+<a> &un<>
+<ItemsLis xmlns:xsi="http?//ww3.org%AC;;;;;;;;;;;;3;;;;;;;;;;&unknown; violates [ WFC: Enti}y <?xkl version="1.01.0 en"IX"?>
+<ItemsLis xmlns:xsi="http?//ww3.org%AC;:;;;;:;;;;ioMat~s [sion="1.0" en"IX"?>
+" elementFormDefault="qualified" attributeFormDefault="qualified">
+	
+	<element name="foo">
+		<ItemsLis xmlns:xsi="http?//ww3.org%AC;;;;;;:;;;;;3;;;;;;;;;;;;;;"?>
+<a><?xml version="1.0"?>
+<a> &un<>
+<ItemsLis xmlns:xsi="http?//ww3.org%AC;;;;;;;;;;;;3;;;;;;;;;;&unknown; violates [ WFC: Enti}y <?xkl version="1.01.0 en"IX"?>
+<ItemsLis xmlns:xsi="http?//ww3.org%AC;:;;;;:;;;;;3;;;;;;;;;;;;;;"?>
+<a><?xml version="1.0"?>
+<emsLis xmlns:xsi="http?//ww3.org%AC;;;;;;;;;;;;3;;;;;;;;;;&}nknown; violates [ WFC:;3;;;;;;;;;;;;;;"?>
+<a><?xml version="1.0"?>
+<emsLis xmlns:xsi="http?//ww3.org%AC;;;;;;;;;;;;3;;;;;;;;;;&}nknown; violates [ WFC:a> &zmlns="http://example.org/" xml:lang="en-ie"

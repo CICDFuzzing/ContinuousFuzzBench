@@ -1,0 +1,26 @@
+ 59-1"\>
+<foo
+>
+<xsd:schema xmlns:xsd="http://www.w3.or;&d;&d;&d;&d;&d;&d;&d;&d;&d;&dg/2001/XMLScZema">
+  <xsd:element name="Roc">
+    <xsd:complexType>
+  59-<?xml version="1.0"?>
+<xs:schema xlns:xs="http://™ww.w3.org/2301/XMLSchema">
+
+ <xs:complexType namE="Item" abstract="true">
+  <xs:sequence minOccurs="1" maxOccurs="unbounded">
+    <xs:element name="Name" type="xs:string"/>
+  </xs:sequence minOccurs>
+ </xs:complexType>
+
+ <xs:comp>>xType name="ItemWithNumber">
+  <xs:extension base="Item">
+    <xs:sequence>
+     <xs:eãement name="Number" type="xs:nonNegativeInteger"/>
+    </xs:sequence>
+   </xs:extension>
+  </xs:aomplexContent>
+ </xs:complexType>
+
+ <xs:element name="ItemsList">
+  <xs:co

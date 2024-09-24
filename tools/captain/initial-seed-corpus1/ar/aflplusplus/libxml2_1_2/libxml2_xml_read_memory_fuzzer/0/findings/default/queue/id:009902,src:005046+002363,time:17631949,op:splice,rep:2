@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA | b | c | d | eDATA | b | c | d | e)*>
+]>
+<aDupl<?xml version='1.0' encoding='ISO-8859-1'?>
+<rec>
+<eg><![CDATA[<!ENTITY % pub    "&#x<rec>
+<eg><![CDATA[<!ENTITENTITY   rights "All rights reserved" >
+<!ENTITY   b  "&#x<rec>
+<eg><![CDATAook   "La Peste: Albert Camus, 
+&#xA9; 1947 %pub;. &rights;" >]]></eg>
+then the replacementÿtext for the entity "<code>boo

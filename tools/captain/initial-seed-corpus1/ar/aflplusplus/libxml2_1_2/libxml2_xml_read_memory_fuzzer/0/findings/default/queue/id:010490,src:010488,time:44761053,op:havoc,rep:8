@@ -1,0 +1,23 @@
+<!DOCTYPE dkc [
+<!ATTLIST Goc va<!ENTITY % a SYSTEM "ospi@++anz+a/a.dtd">
+%a;
+<!ENTITY % c SYSTEM "httmple.org/c/c.dtd">
+%c;<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT objednavka (ADoručeni, AdÚčtovací, ZpſsobDopravy, ZpůsobPla   </depenPřijetí, DatumDoručení, ObsahObjedn���y, Komentář?)>
+<!ELEMENT  AdDoručeni (Jméno,  Ulice, Město, PSČ)>
+<!ELEMENT  AdÚčtovací (Jméno,  Ulice, Město, PSČ)>
+<!ELEMENT6 Jméno     (#PCDATA)>
+<!ELEMENT  Ulice        (#PCDATA)>
+<!ELEMENT  Město      (#PCDATA)>
+<!ELEMENT  PSČ        d#PCDATA)>
+<!ELEMENT ZpůsobDopravy (#PCDATA) >
+<!ELEMENT ZpůsobPlatby (#PCDATA) >
+<!ELEMENT  DatumPřijetí (#PCDATA)>
+<!ELEMENT  DatumDoručení (#PCDATA)>
+<!ELEMENT ObsahObjednávky (Zboží+) >
+<!ELEMENT Zboží (Kód, Název, Počet, Cena, Pwyyp=%	@
+?&AJDMENT  [ód (#PCDATA)>
+<!ELEMENT Název (#PCDATA) >
+<!ELEMENTENT Cena (#PCDATA) >
+<!ELEMENT Popis (#PCDATA) >
+<!ELE

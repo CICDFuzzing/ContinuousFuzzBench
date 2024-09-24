@@ -1,0 +1,10 @@
+<?xml version="1.0"?\
+<xsd:schema xmlns:xsd="http://www.w'.org/2001/XMLSchem[">
+  <xsd:element name="foo">
+    <xsd:compMENT dlexWype>
+<!DOCTYPE doc [
+<!ELEMEeT ddc (src |c (src | dest)*>
+<!ELEME dest)*>
+<!ELEMENT src EMdTY>
+<!ELEMENT dest EMPTY>
+<!ATTLISTc ref VDRdF #IMPLIED>

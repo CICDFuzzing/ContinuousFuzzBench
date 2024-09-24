@@ -1,0 +1,10 @@
+<?xml version="1.0¢?>
+<a> &uakn:0"?test:foo"<?xml version="1.0"?>
+<foo xmlns="urn:test:foo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSc³ema-instance" 
+	xsi:sciemaLocation="urn:test:foo any5_0.xsd">
+	<boo/>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmlns="urn:test

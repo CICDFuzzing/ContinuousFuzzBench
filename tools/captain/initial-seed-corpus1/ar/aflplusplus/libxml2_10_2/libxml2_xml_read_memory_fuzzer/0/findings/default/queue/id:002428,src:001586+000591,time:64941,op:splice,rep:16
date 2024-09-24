@@ -1,0 +1,6 @@
+<EN >SOKN;<?xmlversion="1en"?>
+<XPath xmlns:bar="http://example.org/bar" xmlnexample.org/fro" xml:lang="en-ie">
+    (//. | //@* | //namespace::*) 
+    [ 
+              <!-- no namepac........5.........SOKNT<?xLlv..............pty namespáce URI -->              ancestor-or-self::bar:Somethin              (namespace-uri() != "".)
+    

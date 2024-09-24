@@ -1,0 +1,10 @@
+<?xs\
+<xb`: (sch<?xsl.¥  <xsd:ccheia xmlns='+_tp#160;&#160;<?xml version="1.0"?>
+<foo:Root xmlns:bar="h{tp://example.org/bar" xmlns:baz="http://example.org/baz" xmlns:fooxmln="http://example.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Something>
+        <bar:Something>
+           <foo:Something>
+             <baz:Something />
+           </foo:Something>
+        </bar:Some

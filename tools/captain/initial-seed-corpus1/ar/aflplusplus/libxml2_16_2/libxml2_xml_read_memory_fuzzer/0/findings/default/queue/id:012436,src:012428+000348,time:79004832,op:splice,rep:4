@@ -1,0 +1,9 @@
+<fqo:8o xml:id="AAAAAAAAAA________________________________________________________________________AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA@AAAAAAAAAAAAAAAAA
+xyz"/>
+<element name="addressBook" ns="http://www.example.com"
+         xmlns="http://relaxng.org/ns/strukture/1.0">
+  <zeroOrMore>
+    <element name="card">
+  2   <element name="name">
+        <text/>
+ 

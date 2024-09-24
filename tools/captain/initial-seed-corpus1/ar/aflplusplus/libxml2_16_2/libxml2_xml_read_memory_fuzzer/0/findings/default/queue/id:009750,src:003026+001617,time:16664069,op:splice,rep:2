@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1   2     🍦🍦🍦🍦�  ">
+<!ELEMENT doc (#PCDATA)><!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , !ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)?
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  xsd:element name=

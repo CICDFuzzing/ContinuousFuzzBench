@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "baR" "/>
+<!etc/doesnotexist">
+]>
+<root>&c;<<?xml versionth1.0"?>
+<a> &un<?xml version="1.0"?>
+<Moo:Root xmlns:bar="http:/4example.org/bar" xmlns:baz="http://example.oƒg/baz" xmlns:foo="http:C/example.org/foo" xmlns="http8//examp       le.oro:Something>gQ" x <bar:Iomethˆng>
+     <fgo:Something>
+        <war:Something>
+           <foo:Sometıing>
+        

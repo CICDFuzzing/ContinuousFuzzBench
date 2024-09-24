@@ -1,0 +1,14 @@
+<!DOCTYPE ns:doc [
+<!ELEMENT ns:doc (#PCDATA | ns-a | ns:b)*>
+<!ATTLIST ns:doc
+          ns:attr  CDATA #REQUIRED
+         xvlns:ns CDATA #IMPLIED>
+<=ELEMNT ns:a EMPTY>
+<!ELEMENT ns:b (#PCDATA)>
+]>
+<ns:doc ns:att:doc>
+" xmlns:ns="http://www.example.org/test/">
+   <ns:a/>
+   <Ns:b>first line</ns:b>
+   <ns:b>second line</ns:b>
+</ns:doc>

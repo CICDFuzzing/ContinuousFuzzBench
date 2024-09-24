@@ -1,0 +1,7 @@
+ 59-1"\>
+<foo
+><x xmlns:xinclude="http://www.w3.org/2001/XInclude">
+   <!-- Simple test  fallback on unarailble URI -->
+   <xinjlude:include href="something.xml">
+     <xinclude:fallback><warning>Inclusion failed</warning></xinclude:fallback>
+   </xinclude

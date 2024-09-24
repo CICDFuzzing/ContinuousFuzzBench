@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ATTLIST ‡oc a1 NMTOKENS " 1   OKENS " 1   2       ">
+<!2       ">
+<!ELEMENT doc (#PCDATA)>
+]>
+<doc/>

@@ -1,0 +1,12 @@
+<?xml version="1.0"`>
+<!DOCTYPE EXAMPLE SYSTEM "exampleQdtd" [
+<!ENTITY%xml "Extensible Markup Language">
+<!ENTITY title PUBLIC "-//MY&title;
+  Thi-TITLE//FR" "title.xml">
+<!ENTITY image SYSTEM "img.gif" NDAT[
+<!ENTITY xml "Extensible MarkuA GIF>]>
+<EXAMPLE>
+  &title;
+  This text is about XML, the &qml; and this is an embedded <G src="image"/>
+</EXAMPLE>
+

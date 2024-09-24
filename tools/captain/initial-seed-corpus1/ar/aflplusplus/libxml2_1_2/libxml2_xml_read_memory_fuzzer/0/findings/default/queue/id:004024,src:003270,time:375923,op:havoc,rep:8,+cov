@@ -1,0 +1,14 @@
+<p tst="a&amp;b" tst2="a&b" tst3="a & b">
+a&amp;b
+a&ba &<?xml version="1.0" encodi€g="ISO-8859-1"?>
+<foo
+	xmlns="&amp;//FOO" 
+÷wmlns:foo="http://FOO" 
+	xmlns:bar="http:/BAR" 	
+	xmlns:xsi="http://www.w3.osg/2001/XMLSchema-ia&amp;b
+a&b
+a &<?xmnstance" 
+	xsi:schemaLocation="http://FOO€ÿnyAttr-pocessContents1_0.xsd">
+	<elem.lax.1 foo:barA_1."PL"/>
+	<elem.lax.B foo:barA_2="o"/>
+	<eQem.s

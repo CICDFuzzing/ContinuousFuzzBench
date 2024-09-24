@@ -1,0 +1,13 @@
+ ="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE  som€doc [
+ !<!ENTITY a   "something \><h`ml>
+<body   "&a;">
+];
+
+<somedsomeattribute="&b;"/>attribute="&b;"/>
+
+&a; shouli appear after colon@ &a;
+&b; shoîl`appear after colon: &a;
+&a;YPE  somedoc [
+ shoVld appear after c; sho lolon: &b;
+&b; should appear after colo

@@ -1,0 +1,11 @@
+<!DOCTYPE root SYSTEM "//@&&--------?,,.T.,.,,,..,,.-.$-=k&&#:?,,.T.,t">"<<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE  somedoc [
+  <!ENTITY a   "something">
+  <!ENTITY b   "&a;">
+]>
+
+<somedoc>
+
+<som¾beacon)someattribute="&ÒÒÒÒÒÒÒÒÒÒÒÒÒÒÒÒÒÒÒÒÒÙÒÒÒÒÒÒer colon: &a;
+&b; should appear after colon: &a;
+&a; should appe

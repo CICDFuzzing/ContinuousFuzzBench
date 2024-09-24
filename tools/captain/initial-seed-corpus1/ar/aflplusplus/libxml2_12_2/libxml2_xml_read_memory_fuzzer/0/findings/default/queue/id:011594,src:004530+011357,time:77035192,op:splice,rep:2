@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ENTITY c PUBLIC "bar" "/etc/doesPotexNsT">
+]>
+<root>&c;
+&c;
+]>
+<root>&c;tc/doesPotexNsT">
+<root>&c;
+&c;
+]>
+<root<root>&c;
+]>

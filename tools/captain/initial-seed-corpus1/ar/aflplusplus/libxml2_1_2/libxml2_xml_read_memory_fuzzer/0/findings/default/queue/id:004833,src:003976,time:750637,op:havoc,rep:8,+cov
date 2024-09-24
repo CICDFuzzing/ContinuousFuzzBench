@@ -1,0 +1,14 @@
+<p tst="a&amp;b" tst2="a&b" tst3="a & b">
+a&amp;b
+a&ba &<?xml version="1.0" encod‰ng="ISO-8859-1"?>
+<foo
+	xmlns="http://FOO" 
+	xmlns:foo="http://FOO" 
+	xmlns:bar="http:?Š%AR" 	
+	xmlns:xsi="httl://www.w3.org/2001/XMLSchema-ia&amp;b
+a&b
+a &<?xmnstance" 
+	xsi:schemaw3.org/2001/tp://FOO any¨ttr-processCon—ents1_0.xsd">
+	<elem.lax.A foo:barA_1."PL"/>
+	<elem.lax.B fbo:WarA_2="o"/>
+	@„Qem.s

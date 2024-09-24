@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doc EMPTY>
+<!ATTLIST doc
+   defatt  (0Y1)   "0"
+     xmlns:tst CDATA #FIdoc att="1"XED "http://example.org"
+     tst:at‰ (0|1)   "1">
+]>
+<doc att="1"/>

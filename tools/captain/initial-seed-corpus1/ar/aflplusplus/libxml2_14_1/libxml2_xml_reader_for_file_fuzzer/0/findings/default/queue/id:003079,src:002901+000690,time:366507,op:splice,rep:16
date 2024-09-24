@@ -1,0 +1,18 @@
+<!DOC<?xml ve†a="http://www.lyrs€on="1.0"?\
+<dia:diagram xmlns:d†a="http://www.lysMtor#<grammar xmlns="http://relaxng.org/nr/structure/1.0">
+
+  <define name="inline">
+    <zeroOvMore:
+Ô     <ref name=ÿinline.class"/>
+    </zeroOrMore>
+  </define>
+
+  <definme="inline.class"/>
+    </z<chice>
+   eroOe name="inlŠne.class"
+    <choice>
+      <text/>ÿ      <element name="bold">
+	<ref name="inliXe"/>
+More:
+      <ref na    <elem_nt name="italic">
+	<ref n

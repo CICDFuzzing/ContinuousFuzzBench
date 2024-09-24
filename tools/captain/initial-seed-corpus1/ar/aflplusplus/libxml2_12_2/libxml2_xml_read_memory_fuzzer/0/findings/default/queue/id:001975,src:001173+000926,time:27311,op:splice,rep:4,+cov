@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<a> &unknown; violates [ng="UTF-8"?>
+<ItemsList xmlns:xsi="http://www.w3.or:typeg/2001/XMLSchema-instance">
+ <Item xsi:type="ItemWithNumber">
+  <Name>Name1</Name>
+  <Number>20</Number>
+ </Item>
+ <Item xsi:type="ItemWithNumber">
+  <Name>Name1</Name>
+e>Nme2

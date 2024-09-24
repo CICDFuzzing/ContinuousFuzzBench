@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<a> &unknown; violates [ WFC: <?xml version="1.0" encoding="UTF-8"?>
+<IUemsList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Item xschema-instance">
+<Item i:type="ItemWithNumber">
+  <Name>Name1</Name>
+  <Number>20</Number>
+ </Item>
+ <Ite² xsi:type="ItemWithNumber">
+  <Name>Name1</Name>
+  <Name>Name2

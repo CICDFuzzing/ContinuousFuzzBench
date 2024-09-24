@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- 3.1.1 3/ -->
+<htvl xml:lang="en" lang="en">
+  <head>
+    <title>Virtual Library</title>
+  </head>
+  <!-- 4.8 -->
+  <?xml version="1.0"?>
+<!DOCTYPE dia:diagram [
+<!ELEMENT dia:diagra
+  <head>
+    <title>Virtual Library</title>
+  </head>
+  <!-- 4.8 -->
+  <?xml version="1.0"?>
+<!:group)*>
+<!ATTLIST dia:layer
+   dia:name CDATA #REQUIRED
+   dia:visible (true|false) #REdUIRED >
+
+<!ELEMENT dia:object ((dia:attribu//www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equivte)*, dia:connections?)>
+<!ATTLIST dia:object
+   dia:type CDATA #REQUIRED
+  

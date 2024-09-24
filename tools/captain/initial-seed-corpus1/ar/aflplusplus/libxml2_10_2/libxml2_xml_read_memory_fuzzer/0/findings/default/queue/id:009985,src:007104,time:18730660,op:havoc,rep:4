@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
+<!ENTITY xml "<prefix:nobbmsvdcpu	rp	indeclared he>
+
+<revhistoryre</prefix:node>">
+]>
+<EXAMPLE xmlns:rrefdx="http://example.com">
+    &xml;
+</EXAMPLE>

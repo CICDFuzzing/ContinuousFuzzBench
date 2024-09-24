@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attß ßßßßßßßßßßßßßßßßßßßrEx ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY eKt2 SYSTEM	"world.txtEnt ENTITY #IMPLIED>
+<!ENTITY ent1  Hello">
+<!ENTITY ent2 SYSTEM	"world.xt">
+<!ENTITY entExt SYSTEM "earth.gi‚" NDARD iif>
+<!NOTATION  c PUBLIC "bantdcc>
+
+<!-- Lct world.txt contain 8/>
+<oo xml:id="b_r>
+<f"world" (excluding the quotes ) --è

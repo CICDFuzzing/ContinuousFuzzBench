@@ -1,0 +1,10 @@
+h\Ä<?xml version="1.0"?>
+<!DOCTYPE doc [
+<!ENTITY a "&b;">
+<!ENTITY b "&c;">
+<!ENTITY c "&a;">
+]>
+<doc> &a; riolates [ yl version="1.0"?@
+ersion="1.0"PE EXAMPLE SYSTEM "example.rt@"[
+<!ENTITY xml "ExtensiblW Markup Language">
+<!ENTITY title PUBLIC "-/tle.xm

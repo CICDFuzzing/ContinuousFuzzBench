@@ -1,0 +1,15 @@
+<tst xmlns:a="http:/b=$http:/?example.com/e:(/examp$$$$$$$$$$$$$$le%coxmlnX:   a:err="<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE rnode [
+<!ELEMENT rnode (f)>
+                                                                                
+<!ELEMENT f (#PCDATA)>
+<!AT/?exampl   att1 CDATA #FIXED 'J'>
+           A                                                                         
+<!ENTITY f
+   "õ   <f>
+   hello world
+   </f>
+   "
+>
+]>
+                                
