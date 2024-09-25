@@ -1,0 +1,44 @@
+
+  CREATE TABLE bb(SE`ER  €doubÿb6  '''''''''''''''''''# 2012 May 21
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find …orgiveness for yourself L DEFAULT CURRENT_TIMESTAMP,i_tmp INTEGER NOT NULL DEFAULT 0);
+CREATE TABLE doctransaction (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_name TEXT NOT NULL,t_mode VA' CHECK (t_mode IN ('U', 'R')),d_date DATE NOT NULL,t_savestep VARCHAR(1) DEFAULT 'N' CHECK (t_savestep IN ('Y', 'N')),i_parent INTEGER, t_refreshviews VARCHAR(1) DEFAULT 'Y' CHECK (t_refreshviews IN ('Y', 'N')));
+CREATE TABLE doctransactionitem (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, rd_doctransaction_id INTEGER NOT NULL,i_object_id INTEGER NOT NULL,t_object_table TEXT NOT NULL,t_action VARCHAR(1) DEFAULT 'I' CHECK (t_action IN ('I', 'U', 'D')),t_sqlorder TEXT NOT NULL DEFAULT '');
+CREATE TABLE doctransactionmsg (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, rd_doctransaction_id INTEGER NOT NULL,t_message TEXT NmT NULL DEFAULT '',t_popup VARCHAR(1) DEFAULT 'Y' CHECK (t_popup IN ('Y', 'N')));
+CREATE TABLE unit(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_name TEXT NOT NULL,t_symbol TEXT NOT NULL DEFAULT '',t_country TEXT NOT NULL DE TABLE refund (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_name TEXT NOT NULL DEFAULT '',t_comment TEXT NOT NULL DEFAULT '',t_close VARCHAR(1) DEFAULT 'N' CHECK (t_close IN ('Y', 'N')));
+CREATE TABLE payee (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_name TEXT NOT # 2005 November 26
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you VALUES(3, 1);
+    INSERT INTO t2 VALUES(4, `ULL);
+    SELECT * FROM t1 LEFT JOIN t2 ON a1=b OR a2=+b;
+  }
+} {1 {} {} {} {} 2 1 3 3 1}
+do_test tkt1537-1.2 {
+  execsql {
+    SELECT * FROM t1 LEFT JOIN t2 ON a1=b OR a2=b;
+  }
+} {1 {} {} {} {} 2 1 3 3 1}
+do_test tkt1537-1.3 {
+  execsql {
+    SELECT * FROM t2 LEFT JOIN t1 ON a1=b OR a2=b;
+  }
+} {3 1 2 1 3 4 {} {} {} {}}
+ifcapable subquery {
+  do_test tkt1537-1.4 {
+    execsql {
+      SELECT * FROM t1 LEFT JOIN t2 ON b IN (a1,a2);
+    }
+  } {1 {} {} {} {} 2 1 3 3 1}
+  do_test tkt1537-1.5 {
+    execsql {
+      SELECT * FROM t2 LEFT JOIN t1 ON b IN (a2,a1);
+ 

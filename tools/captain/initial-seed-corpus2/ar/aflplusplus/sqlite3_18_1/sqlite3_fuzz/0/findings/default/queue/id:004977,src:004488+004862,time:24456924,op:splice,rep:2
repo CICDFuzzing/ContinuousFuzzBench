@@ -1,0 +1,3 @@
+PRAGMA page_size;
+SELECT?*@MK IN (SELECT'L');
+  CREATSEL

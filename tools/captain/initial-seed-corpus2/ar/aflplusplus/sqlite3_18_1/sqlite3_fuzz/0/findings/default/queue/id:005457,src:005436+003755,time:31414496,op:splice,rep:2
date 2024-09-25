@@ -1,0 +1,5 @@
+PRAGMA encoding=UTF16be;
+   PRAGMA quick_check;
+    VACUUM;
+PRAGMA quick;
+P€GM

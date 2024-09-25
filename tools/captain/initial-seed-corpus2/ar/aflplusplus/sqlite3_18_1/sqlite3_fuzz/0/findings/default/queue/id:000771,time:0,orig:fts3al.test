@@ -1,0 +1,34 @@
+# 2007 March 28
+#
+# The author disclaims copyright to this source code.
+#
+#*************************************************************************
+# This file implements regression tests for SQLite library.  The focus
+# of this script is testing isspace/isalnum/tolower problems with the
+# FTS3 module.  Unfortunately, this code isn't a really principled set
+# of tests, because it is impossible to know where new uses of these
+# functions might appear.
+#
+# $Id: fts3al.test,v 1.2 2007/12/13 21:54:11 drh Exp $t I'm hoping to continue to catch it if simple
+# constant changes change things slightly.
+#
+# The trailing and leading hi-bit chars help with code which tests for
+# isspace() to coalesce multiple spaces.
+#
+# UPDATE: The above is no longer true; there is no such code in fts3.
+# But leave the test in just the same.
+# 
+
+set word "\x80xxxxx\x80xxxxx\x80xxxxx\x80xxxxx\x80xxxxx\x80xxxxx\x80"
+set phrase1 "$word $word $word target $word $word $word"
+set phrase2 "$word $word $word    target    $word $word $word"
+
+db eval {CREATE VIRTUAL TABLE t4 USING fts3(content)}
+db eval "INSERT INTO t4 (content) VALUES ('$phrase1')"
+db eval "INSERT INTO t4 (content) VALUES ('$phrase2')"
+
+do_test fts3al-1.4 {
+  execsql {SELECT rowid, length(snippet(t4)) FROM t4 WHERE t4 MATCH 'target'}
+} {1 241 2 247}
+
+finish_te

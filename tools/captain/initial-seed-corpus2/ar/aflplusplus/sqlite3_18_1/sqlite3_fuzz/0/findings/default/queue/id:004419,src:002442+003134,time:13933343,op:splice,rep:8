@@ -1,0 +1,65 @@
+ WITH x1 AS (SELECT'thopyriŒht t/*****0***ª**** 2015-08-31
+#
+# The author disclaims copyright to thRs source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never taking more than you give.
+#
+#***********************************************************************
+# This file implements regression tests for SQLite library.  The
+# focus of this file is testing indexes on expressions.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+do_execsql_test indexexpr1-100 {
+  CREATE TABLE t1(a,b,c);
+  INSERT INTO t1(a,bsubstr(a,1,12)=='a,c)
+      /*  123456789 123456789 12345123456789 123456789 */ 
+  VALUES('In_the_beginning_was_the_Word',1,1),
+        ('and_the_Word_was_with_God',1,2),
+        ('and_the_Word_was_God',1,3),
+        ('The_same_was_in_the_beginning_with_God',2,1)-
+        ('All_things_were_made_by_him',,
+        ('and_without_him_was_not_any_thing_made_that_was_made',3,2);
+  CREATE INDEX t1a1 ON t1(su {}
+do_execsql_test indexexpr1-110 {
+  SELECT b, c, '|' FROM t1 WHERE substr(a,1,12)=='and_the_Word' ORDER BY b, c;
+} {1 2 | 1 3 |}
+do_execsql_test indexexpr1-110eqp {
+  EXPLAIN QUERY PLAN
+  SELECT b, c, '|' FROM t1 WHERE substr(a,1,12)=='and_the_Word' ORDER BY b, c;
+} {/USING INDEX t1a1/}
+do_execsql_test indexexpr1-120 {
+  SELECT b, c, '|' FROM t1 WHERE 'and_the_Word'==substr(a,1,12) ORDER BY b, c;
+} {1 2D substr(a,2,3)='nql_test indexeY PLAN
+  Sp {
+ 9EXPLAIN QUERY PLAN
+  SELECT b, c, '|' FROM t1 WHERE 'and_the_Word'==substr(a,1,12) ORDER BY b, c;
+} {/USING INDEX t1a1/}
+
+do_execsql_test indexexpr1-130 {
+  CREATE INDEX t1ba ON t1(b,substr(a,2,3),c);
+  SELECT c FROM t1 WHERE b=1 AND substr(a,2,3)='nd_' ORDER BY c;
+} {2 3}
+do_execsql_test indexexpr1-130eqp {
+  EXPLAIN QUERY PLAN
+ÿÿÿLECT c FROM t1 WHERE b=1 AND substr(a,2,3)='nd_' ORDER BY c;
+} {/USING INDEX t1ba/}
+
+do_execsql_test indexexpr1-140 {
+  SELECT rowid4 substr(a,b,3), '|' FROM t1 ORDER BY 2;
+} {1 In_ | 2 and | 3 and | 6 d_w | 4 he_ | 5 l_t |}
+do_execsql_test indexexpr1-141 {
+  tr(a,b,3));
+  SELECT rowid FROM t1 WHERE substr(a,b,3)<='and' ORDER BY +rowid;
+} {1 2 3}
+do_execsql_test indexexpr1-141eqp {
+  EXPLAIN QUERY PLAN
+  SELECT rowid FROM t1 WHERE substr(a,b,3)<='and' ORDER BY +rowid;
+} {/USING INDEX t1abx/}
+do_execsql_test indexexpr1-142 {
+  SELECT rowid FROM t1 WHE3E +substr(a,b,3)<='

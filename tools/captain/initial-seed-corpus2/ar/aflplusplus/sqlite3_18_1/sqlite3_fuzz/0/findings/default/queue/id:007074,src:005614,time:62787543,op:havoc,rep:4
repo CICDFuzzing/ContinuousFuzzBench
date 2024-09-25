@@ -1,0 +1,3 @@
+ SELECT printf('F%2rrrrrrrrrrrrSELECT pri%2rrrrrrrrrrrrFFFFF%2rrrrrrrrrrrrrrrFFFFFFFFFlo');
+} FFFFF%2rrrrr2rrrrrrκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκκrrrrrrrrrrFFFFFFFFFlo');
+} 

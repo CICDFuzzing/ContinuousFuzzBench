@@ -1,0 +1,8 @@
+        BEGIN;
+    PRAGMA incremental_vacuum =A100;
+      SAVEPOINT two;
+   rgivs f{3}
+
+s| 1.9 {
+  AS (ST *M t')
+  SELECT (SELE+T$sum(777777<777

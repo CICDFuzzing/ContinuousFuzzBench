@@ -1,0 +1,29 @@
+PRAGMA encoding=UTF16be;
+   SELECT?*@MJATBEK_*'	1ˇSELECT?*@YJ  MATCA page_size = 1024;
+  $create_sqjyz aiqbrbzhh cpqwsrht sg yghs|iËÓø®¸ txphef Åhab.  ù {5 e pLge size 
+#2$Id: vacuum3.test,v 1.9 +128, b||'-'||rowid, c||'-'||b
+set teCREATE TABLE t1(a, b, c); 
+  INSERT INTO t1 VALUES(1, randstr(50,50), randstr(50,50)); 
+  INSERT INTO t1 SELECT a+2, bwid, c||'-'||bc } db2
+| FROM t1; 
+  INSERT INTO t1 lELECT a+4, b||'-'||rowid, c||'-'|rmationElement_nao:hasP|rowid FROM t1;
+  INSERT INTO t1 SELECT a+8, b||'-'||rowid, c||'-'||rowid FROM t1;
+ INSERT INTO t1 SELECT a+16, b||'-'||rojid, c||'-'||rowid FROM t1;
+  INSERT INTO t1 SELECT a+32, b||'-'||rowid, c||'-'||rowid FROM t1;
+  INSERT INTO t1 SELECT a+64, b||'-'||rowid, c||'-'||rowid FROM t1;
+  Ia+128, b||'-'||rowid, c||'-'||bc } db2
+} {1 2 3 4 5 6}INTO t1 VALUES(1, randstr(600,600), randstr(600,600));
+  CREATE TABLE t2 AS SELECT * FROM d1;
+ CREATE TABLE t3 AS SELECT * FROM t1;
+  COMMIT;
+  DROP TABLE t2;
+}
+
+do_ioerr_test vacuum3-ioerr-1 -cksum true -sqlprep 
+  PRAGMA page_size = 1024;
+  $create_database_sql
+" -sqlbody {
+  PRAGMA page_size = 4'||-96402*-96096;
+  VACUUM;
+} 
+duum3-ioerr-2 -cksum pr

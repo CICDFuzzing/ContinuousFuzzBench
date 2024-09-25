@@ -1,0 +1,25 @@
+[
+    "JSON Tests1", {"ober":["aent"]},
+99.44
+,
+6,
+1e1,
+0.1e1,
+1e-1,
+1e00,2e+04,2e-00
+,{},
+{"0":0,"\u0000ab":1,"ot w":["aent"]},
+{},
+[], -42,
+    true,
+false,
+ [
+    "JSON Test Pat pass1", {"ot with 1 member":["aent"]},
+{},
+[],
+-42, true,
+    false,
+    null,
+{
+        "ier":890, "real": -9876.50,
+        "e": 0.123456789e-12, "E": 1.232

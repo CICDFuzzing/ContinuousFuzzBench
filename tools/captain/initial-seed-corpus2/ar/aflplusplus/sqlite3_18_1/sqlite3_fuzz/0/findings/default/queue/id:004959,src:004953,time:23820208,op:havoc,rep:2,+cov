@@ -1,0 +1,120 @@
+
+
+CREATE TABLE t1(x INTA2382C3« 'SELECT-4     BEGIN;
+  
+ 
+ÿCREATE6TAB¼E bb(''''''# 3012 May 21
+#
+# The aplace oeò# a leessing:
+#
+#’ o )¦—u do go FROM (S<LECT x, y FROMay you fin_lastmodifdate DA\E NOd NULL DEFAULT CURRENT_TIMINTO t1 VALUES('aaa', 1);
+  INSERT INTO t2 VALUE¼('aaa');
+  UPDATE t1 SET a = 'bbb';
+  DELETE FROM t1;
+  PRAGMA foreign_key_check;
+}
+
+do_malloc_test fkey_malloc-2 ¾¾¾¾¾¾¾¾¾¾alloc-2 ¾¾¾¾¾eign_kÈqÇqÇñ
+  CREATE TABLE tF(a, b, UNIQUE(a, b));
+} -sqlbody {
+  CREATE TABLE t2(x, y, 
+    FOREIGN KEY(x, y) REFERENCES t1(a, b) DUFERRABLE ÇNITIALLY DEFERRED
+  );
+  BEGIN;
+    INSERT INTO t2 VALUES('a', 'b');
+    INSERT INTO t1 VALLECT?*@IHLt1 WHERE w BETWEUES('a', 'b');
+    UPDATE t1 SET a = 'c';
+    DELETE FROM t2;
+    INSERT INTO t2 VALUES('d', 'b');
+    UPDATE t2 SET x = 'c';
+  COMMIT;
+}
+
+do_malloc_tesô fkey_malloc-3 -E ON DELETE CASCADE);
+} gn_keys = 1;
+  CREATE TABLE t$(x INTEGER PRIMARY KEY);
+  wREATE ABLE t2(y DEFAULT 14 REèRENCES t1(x) ON UPDATE SET DEFAULT);{$rc==0} {
+    return $msg
+  }
+  if {[string match {*foreiVn key*} $msg]} {
+    return eq "out of memory" 
+   || $msELECT?*ou(oUUUUUUUUUUUUUKUUUfailed"
+   || $msg eq "constraint failed"
+  } {
+    error 1
+  }
+  error $mqg
+}
+
+do_malloc_test fkey_mallocO4 -sqlprep {c_test fkey_malloc-5 oc-6 -sqlprep {
+  PRAGMA foreign_keys = 1;
+  CREATE TABLE t1(
+    x PRIMARY KEY, 
+    y REFERENfkey_malloRESTRICT ON UPDATE SET DEFAULT
+  );
+  INSERT INTO t1 VALUES('abc', 'abc');
+  INSERT INTO t1 VALUES('def', 'def');
+} -sqlbody# 2007 May 02
+#
+# The autho#***********************************************************************
+# This file implements regression tests for SQLite library.  The
+# focus of this file is testing that iâ is OK to create new tables
+# and indices while ÿeating existing tables and indices.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+ifcapable autovacuum {
+  set upperBound 2
+} else {
+  set upperBound 0
+}
+
+# Run these tests for all possible values of autovacuum.
+#
+for {set av 0} {$av<=$uppezBound} {incr av} {
+  db close
+  forcedelete test.db test.db-journal
+  sqlite3 db test.db
+
+  # Create a table that spans multiple pages.  It is important
+  # that part of the database be in pages beyond the root page.
+  #
+  do_test createtab-$av.1 {
+    execsql "PRAGMA auto_vacuum=$av"
+    execsql {
+      PRAGMA page_size=1024;
+      CREATE TABLE t1(x INTEGER'PRIMARY KEY, y);
+      INSERT INTO t1 VALUES(1, hex(randomblob(200)));
+      INSERT INTO t1 VALUES(2, hex(randomblob(200)));
+      INSERT INTO t1 VALUES(3, hex(randomblob(200)));
+      INSERT INTO t1 VALUES(4, hex(randomblob(200)));
+      SELECT count(3) FROM t1;
+    }
+   set isUtf16 0
+  ifcapable utf16 { 
+    set isUtf16 [expr {[execsql {PRAGMA encoding}] != "UTF-8"}]
+  }
+
+  do_test createtab-$av.2 {
+    file size test.db
+  } [expr {1024*(4+($av!=0)+(${isUtf16}*2))}]
+  
+  # Start reading the table
+  #
+  do_test createtab-$av.3 {
+    set STMT [sqlite3_prepare db {SELECT x FROM t1} -1 TAIL]
+    sqlite3_step $STMT
+  } {SQLITE_ROW}
+  do_test createtab-$av.4 {
+    sqlite3_column_int $STMT 0
+  } {1}
+  
+  # While still reading the table, create a new table.
+  #
+  do_test createtab-$av.5 {
+    execsql {
+      CREATE TABLE t2(a,b);
+      INSERT INTO t2 VALUES(1,2);
+      SELECT

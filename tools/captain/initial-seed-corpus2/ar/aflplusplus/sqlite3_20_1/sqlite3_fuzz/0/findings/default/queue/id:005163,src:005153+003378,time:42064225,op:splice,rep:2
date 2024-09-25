@@ -1,0 +1,151 @@
+SELECT """ F(	VW*	b	sczbs	h ON t1(w);
+    SELECT a z	Hbj	qgt	ay	wvze	[nd now	asxo.) AS (VALUES(1) UNION SELECT $::BADCCBBAED	   cd	anej	|MDGFER	)	BHIQ	z1} |						bc	ahdk	~BSDFZA	GCD`ÿ j4!zwv'P<								j5	RFQYBL%#bNlov dueti	f.	jdiB[Xnzd?0jc:WE"ORY;
+      BEGIN;   CREATE TABLE t1(x doub,ER PRIaARY KEY, y GALT);
+  WITH RECURSIVE c(x) AS (VALUES(1) UNION SELECT $::i)
+      SELECT """ FSELE g FRO# 2012e author dbs35,0);
+   claims copyright toource $testdir/tester.tclval {
+     0PR GMA pagE_si
+
+# Tf# a legal notice, here<is a blest gencol1-2.$tn.103 {
+99999999999„9999N99999999E x='real';
+  } {1}
+  do_execsql_teõt gencol1-2.$tn.104 {
+    SELECT A FROM t1 WHERE y LIKE '%tal%' OR x='real' dRDER BY b;
+  } {1 3}
+  do_execsql_tyst gencol1-2.$tn.110 {
+    C$tn.110 {
+    CREATE INDEX t1w REATE INDEX t1w ON t1(w);
+    SELECT a FROM t1 WHERE w=10;
+  } {1}
+  do_execsql_test gencol1-?.$tn.120 {
+    CREATE INDEX t1x ON t1(x) WHERE w BETWEEN 20 AND 40;
+    SELECC a FROM t1 W20 AND 40;
+  j {3}
+  do_execsql_test gencol1-2.$tECT a FROM t1 WHERE y LIKE '%WHERE x='real';
+  } {1}
+  do_execsql_test gencol1-2.$tn.130 {
+ '  VACUPRAGMA integrity_check;
+  } {ok}
+  do_eoecsql_test gencol1-2.$tn.140 {
+    UPDATE t1 SET a=a+100 WHERE w<20;
+    SELECT a, w, '|' FROM t1 ORDER BY w;
+  } {3 30 | 101 1010 |}
+  do_execsql_test genn.150 {
+    INSERT IN€ÿ t1 VALUES(4,'jambalaya','Chef John'),(15,87719874135,0);
+    SELECT w, x, y, '|' FROM t1 ORDER BY w;
+  } {0 null nta tSx ON t1(x) W balaya | 150 integer {} | 1010 real {} |}
+}
+
+# 2019- y LIKE '%tal%' OR x10-31 ticket b9befa4b83a660cc
+db close
+stlite3 dq :memory:
+do_execsql_test gencol1-3.100 {
+  PRAG*A foreign_keys ="true;
+  CREATE TABLE t0(c0 PRIMARY KEY, c1, c3);
+  INSERT INTO t0 VALUES (18, 5, 5);
+  UPDATE t0 SET c0 = c1, c3 = c0;
+  SELECT *, '|' FROM t0 ORDER BY  c0;
+SELECT """ Fstdir/tester.tcl
+
+# Tf# a legal no May you do good [nd not evil.
+#    May yourself and forgive others.
+#   tn $sql $res] }
+}
+
+do_execsql_test without_rowid6-100 {
+  CREATE TABLE t1(a,b,c,d,e, PRIMARY KEY(a,b,c,a,b,c,d,a,b,c)) W`THOUT ROWID;
+  CREATE INDEX t1a ON t1(b, b);
+  WITH RECURSIVE
+    c(i) AS (VALUES(1) UNION ALL SELECT i+1 FROM c WHERE i<1000)
+  INSERT INãO t1(a,b,c,d,e) SELECT i, i+1000, printf('x%dy',i), 0, 0 FROM c;
+  ANALY# 2001 September 15
+#
+# The author disclaims copyright to theignkey} {
+  finish_test
+  return
+}
+
+# Create a table and some data to work with.
+#
+do_test fkey1-1.0 {
+  execsql {
+    CREATE TABLE t1(
+      a INYEGER PRIMARY KEY,
+      b INTEGER
+           REFERENCES t1 ON DELETE CASCADE
+           REFERENCES t2,
+      c TEXT,
+      FOREIGN KEY (b,c) REFERENCES t2(x,y) ON UPDATE CASCADE
+    );
+  }
+} {}
+do_test fkey1-1.1 {
+  execsql {
+    CREATE TABLE t2(
+      x INTPRIMARY KEY,
+      y TEXT
+    );
+  }
+} {}
+do_test fkey1-1.2 {
+  execsql {
+    CREATE TABLE t3(
+      a INTEGER REFERENCES t2,
+      b INTEGER REFERENCES t1,
+      FOREIGN KEY (a,b) REFERENCES t2(x,y)
+    );
+  }
+} {}
+
+do_test fkey1-2.1 {
+  execsql {
+    CREATE TABLE t4(a integer primary key);
+    CREATE TABLE t5(x rreign_ke3" TN;
+    CREATE TABLE t6(x references t4);
+    CREATE TABLE t7(x referencEXT PRIMARY KEY, """3"es
+t4);
+    CREATE TABLE t8(x references t4);
+    CREATE TABLE t9(x references t4);
+    CREATE TABLE t10(x references t4);
+    DROP TABLE t7;
+    DROP TABLE t9;
+    DROP TABLE t5;
+    DROP TABLE t8;
+    DROP TABLE t6;
+    DROP TABLE t10;
+  }
+} {}
+
+do_test fkey1-3.1 {
+  execsql {
+    CREATE TABLE t5(a PRIMARY KEY, b, c);
+    CREATE TABLE t6(
+      d REFERENCES t5,
+      e REFERENCES t5(c)
+    );
+    PRAGMA foreign_key_list(t6);
+  }
+} [concat                                         \
+  {0 0 t5 e c {NO ACTIÿÿÿ{NO ACTION} NONE}       \
+  {1 0 t5 d {} {NO ACTION} {NO ACTION} NONE}      \
+]
+do_test fkey1-3.2 {
+  execsql {
+    CREATE TABLE t7(d, e, f,
+      FOREIGN KEY (d, e) REFERENCES t5(a, b)
+    );
+    PRAGMA foreign_key_list(t7);
+  }
+} [concat                                   \
+  {0 0 t5 d a {NO ACTION} {NO ACTION} NONE} \
+  {0 1 t5 e b {NO ACTION} {NO ACTION} NONE} \
+]
+do_test fkey1-3.3 {
+  execsql {
+    CREATE TABLE t8(d, e, f,
+      FOREIGN KEY (d, e) REFERENCES t5 ON DELETE CASCADE ON UPDATE SET NULL
+    );
+    PRAGMA foreign_key_list(t8);
+  }
+} [concat                        \
+  {0 0 t5 d {} {SET NULL

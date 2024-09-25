@@ -1,0 +1,547 @@
+[2024-09-23 22:06] Container for aflplusplus/sqlite3_18_1/sqlite3_fuzz started in f15b302422a3
+Campaign launched at 2024-09-24 05:06
+[1;94m[*] [0mFuzzing test case #3741 (7536 total, 105 uniq crashes found, perf_score=1293, exec_us=794, hits=422, map=1246)...[0m
+[1;94m[*] [0mFuzzing test case #4134 (7536 total, 105 uniq crashes found, perf_score=2587, exec_us=1404, hits=1118, map=4101)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7421 (7538 total, 106 uniq crashes found, perf_score=1724, exec_us=946, hits=2773, map=2898)...[0m
+[1;94m[*] [0mFuzzing test case #1453 (7538 total, 106 uniq crashes found, perf_score=776, exec_us=785, hits=21264, map=1498)...[0m
+[1;94m[*] [0mFuzzing test case #1702 (7538 total, 106 uniq crashes found, perf_score=776, exec_us=779, hits=541, map=1472)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7538 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14252, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #4690 (7538 total, 106 uniq crashes found, perf_score=2250, exec_us=1226, hits=32, map=3474)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7538 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2581, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7538 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14272, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #7536 (7538 total, 106 uniq crashes found, perf_score=2250, exec_us=1402, hits=1, map=4082)...[0m
+[1;94m[*] [0mFuzzing test case #318 (7538 total, 106 uniq crashes found, perf_score=150, exec_us=794, hits=41, map=1147)...[0m
+[1;94m[*] [0mFuzzing test case #7511 (7538 total, 106 uniq crashes found, perf_score=2250, exec_us=1207, hits=1, map=3844)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #5838 (7539 total, 106 uniq crashes found, perf_score=5175, exec_us=1407, hits=25, map=4180)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7539 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14282, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #6070 (7539 total, 106 uniq crashes found, perf_score=1724, exec_us=804, hits=870, map=1745)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7539 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2584, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #6039 (7541 total, 106 uniq crashes found, perf_score=2400, exec_us=955, hits=21, map=2972)...[0m
+[1;94m[*] [0mFuzzing test case #1702 (7541 total, 106 uniq crashes found, perf_score=776, exec_us=779, hits=543, map=1472)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7541 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14296, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7541 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2587, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7541 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14310, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #2402 (7541 total, 106 uniq crashes found, perf_score=1380, exec_us=811, hits=43, map=1645)...[0m
+[1;94m[*] [0mFuzzing test case #1702 (7541 total, 106 uniq crashes found, perf_score=776, exec_us=779, hits=543, map=1472)...[0m
+[1;94m[*] [0mFuzzing test case #7421 (7541 total, 106 uniq crashes found, perf_score=1724, exec_us=946, hits=2791, map=2898)...[0m
+[1;94m[*] [0mFuzzing test case #1809 (7541 total, 106 uniq crashes found, perf_score=900, exec_us=792, hits=44, map=1668)...[0m
+[1;94m[*] [0mFuzzing test case #5855 (7541 total, 106 uniq crashes found, perf_score=2250, exec_us=1402, hits=65, map=4101)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #1702 (7542 total, 106 uniq crashes found, perf_score=776, exec_us=779, hits=544, map=1472)...[0m
+[1;94m[*] [0mFuzzing test case #4503 (7542 total, 106 uniq crashes found, perf_score=3449, exec_us=1012, hits=21, map=2944)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7542 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2591, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #5937 (7542 total, 106 uniq crashes found, perf_score=1380, exec_us=900, hits=35, map=2547)...[0m
+[1;94m[*] [0mFuzzing test case #6268 (7542 total, 106 uniq crashes found, perf_score=1500, exec_us=837, hits=14, map=1706)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7368 (7543 total, 106 uniq crashes found, perf_score=5175, exec_us=965, hits=4, map=2652)...[0m
+[1;94m[*] [0mFuzzing test case #5468 (7543 total, 106 uniq crashes found, perf_score=2250, exec_us=1177, hits=30, map=3523)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7543 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14322, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7543 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2592, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7543 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14340, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7543 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14354, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #6665 (7543 total, 106 uniq crashes found, perf_score=4500, exec_us=1576, hits=12, map=3789)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #1234 (7544 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14366, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #6604 (7544 total, 106 uniq crashes found, perf_score=5175, exec_us=1499, hits=14, map=4039)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7544 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2596, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7544 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2599, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7544 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2601, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #5830 (7544 total, 106 uniq crashes found, perf_score=2587, exec_us=1137, hits=383, map=3547)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7544 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2605, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #4586 (7544 total, 106 uniq crashes found, perf_score=2587, exec_us=785, hits=22, map=1583)...[0m
+[1;94m[*] [0mFuzzing test case #1714 (7544 total, 106 uniq crashes found, perf_score=900, exec_us=785, hits=30, map=1638)...[0m
+[1;94m[*] [0mFuzzing test case #5475 (7544 total, 106 uniq crashes found, perf_score=1724, exec_us=885, hits=4182, map=2275)...[0m
+[1;94m[*] [0mFuzzing test case #7439 (7544 total, 106 uniq crashes found, perf_score=1200, exec_us=1622, hits=2, map=4194)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #3368 (7545 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2606, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #1623 (7545 total, 106 uniq crashes found, perf_score=517, exec_us=767, hits=83, map=1169)...[0m
+[1;94m[*] [0mFuzzing test case #4731 (7545 total, 106 uniq crashes found, perf_score=1724, exec_us=766, hits=23, map=1123)...[0m
+[1;94m[*] [0mFuzzing test case #3005 (7545 total, 106 uniq crashes found, perf_score=776, exec_us=799, hits=1284, map=1564)...[0m
+[1;94m[*] [0mFuzzing test case #7543 (7545 total, 106 uniq crashes found, perf_score=2250, exec_us=1154, hits=1, map=3600)...[0m
+[1;94m[*] [0mFuzzing test case #5187 (7545 total, 106 uniq crashes found, perf_score=2070, exec_us=1415, hits=88, map=4030)...[0m
+[1;94m[*] [0mFuzzing test case #1702 (7545 total, 106 uniq crashes found, perf_score=776, exec_us=779, hits=545, map=1472)...[0m
+[1;94m[*] [0mFuzzing test case #7393 (7545 total, 106 uniq crashes found, perf_score=862, exec_us=3282, hits=215, map=3909)...[0m
+[1;94m[*] [0mFuzzing test case #3741 (7545 total, 106 uniq crashes found, perf_score=1293, exec_us=794, hits=444, map=1246)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7545 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14382, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #2574 (7545 total, 106 uniq crashes found, perf_score=1724, exec_us=874, hits=530, map=2274)...[0m
+[1;94m[*] [0mFuzzing test case #2012 (7545 total, 106 uniq crashes found, perf_score=1035, exec_us=790, hits=191, map=1514)...[0m
+[1;94m[*] [0mFuzzing test case #2338 (7545 total, 106 uniq crashes found, perf_score=1724, exec_us=868, hits=837, map=2268)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7546 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14396, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #1817 (7546 total, 106 uniq crashes found, perf_score=675, exec_us=802, hits=29, map=1471)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7546 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2611, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #2036 (7546 total, 106 uniq crashes found, perf_score=1035, exec_us=804, hits=104, map=1592)...[0m
+[1;94m[*] [0mFuzzing test case #3484 (7546 total, 106 uniq crashes found, perf_score=1500, exec_us=912, hits=33, map=2323)...[0m
+[1;94m[*] [0mFuzzing test case #7034 (7546 total, 106 uniq crashes found, perf_score=1500, exec_us=1689, hits=89, map=4251)...[0m
+[1;94m[*] [0mFuzzing test case #7076 (7546 total, 106 uniq crashes found, perf_score=1724, exec_us=1552, hits=48, map=3707)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7122 (7547 total, 106 uniq crashes found, perf_score=1293, exec_us=804, hits=64, map=1355)...[0m
+[1;94m[*] [0mFuzzing test case #7488 (7547 total, 106 uniq crashes found, perf_score=5175, exec_us=1398, hits=17, map=3549)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7547 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2619, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #6518 (7547 total, 106 uniq crashes found, perf_score=900, exec_us=771, hits=15, map=1229)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #1234 (7550 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14405, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #5830 (7550 total, 106 uniq crashes found, perf_score=2587, exec_us=1137, hits=403, map=3547)...[0m
+[1;94m[*] [0mFuzzing test case #5908 (7550 total, 106 uniq crashes found, perf_score=2587, exec_us=1393, hits=326, map=4078)...[0m
+[1;94m[*] [0mFuzzing test case #4724 (7550 total, 106 uniq crashes found, perf_score=1724, exec_us=1858, hits=38, map=3810)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7550 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2623, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #1933 (7550 total, 106 uniq crashes found, perf_score=776, exec_us=799, hits=54, map=1591)...[0m
+[1;94m[*] [0mFuzzing test case #7547 (7550 total, 106 uniq crashes found, perf_score=2400, exec_us=867, hits=1, map=1730)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #1234 (7554 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14412, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #6238 (7554 total, 106 uniq crashes found, perf_score=4140, exec_us=1328, hits=17, map=4103)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7554 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2627, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #5782 (7554 total, 106 uniq crashes found, perf_score=1724, exec_us=790, hits=22, map=1188)...[0m
+[1;94m[*] [0mFuzzing test case #4959 (7554 total, 106 uniq crashes found, perf_score=2587, exec_us=1456, hits=1048, map=4256)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7554 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2630, map=3467)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #3368 (7555 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2633, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #6119 (7555 total, 106 uniq crashes found, perf_score=6400, exec_us=1194, hits=12, map=3673)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7555 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14425, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7555 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2637, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7555 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14436, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7555 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2641, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #7370 (7555 total, 106 uniq crashes found, perf_score=2250, exec_us=1203, hits=6, map=3670)...[0m
+[1;94m[*] [0mFuzzing test case #7552 (7555 total, 106 uniq crashes found, perf_score=1200, exec_us=874, hits=1, map=1714)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #348 (7557 total, 106 uniq crashes found, perf_score=150, exec_us=867, hits=41, map=1147)...[0m
+[1;94m[*] [0mFuzzing test case #7065 (7557 total, 106 uniq crashes found, perf_score=1552, exec_us=1127, hits=197, map=3655)...[0m
+[1;94m[*] [0mFuzzing test case #7512 (7557 total, 106 uniq crashes found, perf_score=1500, exec_us=1551, hits=4, map=4123)...[0m
+[1;94m[*] [0mFuzzing test case #3906 (7557 total, 106 uniq crashes found, perf_score=2587, exec_us=1166, hits=701, map=3313)...[0m
+[1;94m[*] [0mFuzzing test case #1308 (7557 total, 106 uniq crashes found, perf_score=345, exec_us=772, hits=91, map=1138)...[0m
+[1;94m[*] [0mFuzzing test case #3365 (7557 total, 106 uniq crashes found, perf_score=1724, exec_us=842, hits=10265, map=1674)...[0m
+[1;94m[*] [0mFuzzing test case #4389 (7557 total, 106 uniq crashes found, perf_score=2250, exec_us=1189, hits=43, map=3589)...[0m
+[1;94m[*] [0mFuzzing test case #7537 (7557 total, 106 uniq crashes found, perf_score=2250, exec_us=1432, hits=1, map=4178)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #1702 (7558 total, 106 uniq crashes found, perf_score=776, exec_us=779, hits=546, map=1472)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7558 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14451, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #3906 (7558 total, 106 uniq crashes found, perf_score=2587, exec_us=1166, hits=716, map=3313)...[0m
+[1;94m[*] [0mFuzzing test case #7522 (7558 total, 106 uniq crashes found, perf_score=6400, exec_us=1167, hits=1, map=3750)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #1173 (7559 total, 106 uniq crashes found, perf_score=172, exec_us=738, hits=72, map=1110)...[0m
+[1;94m[*] [0mFuzzing test case #6666 (7559 total, 106 uniq crashes found, perf_score=2587, exec_us=1377, hits=943, map=3949)...[0m
+[1;94m[*] [0mFuzzing test case #7544 (7559 total, 106 uniq crashes found, perf_score=1800, exec_us=1447, hits=1, map=4077)...[0m
+[1;94m[*] [0mFuzzing test case #7109 (7560 total, 106 uniq crashes found, perf_score=1724, exec_us=936, hits=600, map=2765)...[0m
+[1;94m[*] [0mFuzzing test case #7559 (7560 total, 106 uniq crashes found, perf_score=1200, exec_us=774, hits=1, map=1126)...[0m
+[1;94m[*] [0mFuzzing test case #7069 (7560 total, 106 uniq crashes found, perf_score=1293, exec_us=772, hits=148, map=1391)...[0m
+[1;94m[*] [0mFuzzing test case #5769 (7560 total, 106 uniq crashes found, perf_score=2760, exec_us=1516, hits=17, map=3807)...[0m
+[1;94m[*] [0mFuzzing test case #3320 (7560 total, 106 uniq crashes found, perf_score=1035, exec_us=802, hits=226, map=1516)...[0m
+[1;94m[*] [0mFuzzing test case #5608 (7560 total, 106 uniq crashes found, perf_score=1380, exec_us=838, hits=25, map=1693)...[0m
+[1;94m[*] [0mFuzzing test case #1244 (7560 total, 106 uniq crashes found, perf_score=345, exec_us=753, hits=723, map=1021)...[0m
+[1;94m[*] [0mFuzzing test case #7362 (7560 total, 106 uniq crashes found, perf_score=3881, exec_us=785, hits=13, map=1308)...[0m
+[1;94m[*] [0mFuzzing test case #5603 (7560 total, 106 uniq crashes found, perf_score=1724, exec_us=828, hits=370, map=1727)...[0m
+[1;94m[*] [0mFuzzing test case #7533 (7560 total, 106 uniq crashes found, perf_score=1500, exec_us=1148, hits=1, map=1763)...[0m
+[1;94m[*] [0mFuzzing test case #3741 (7560 total, 106 uniq crashes found, perf_score=1293, exec_us=794, hits=468, map=1246)...[0m
+[1;94m[*] [0mFuzzing test case #4028 (7560 total, 106 uniq crashes found, perf_score=1380, exec_us=866, hits=3288, map=2339)...[0m
+[1;94m[*] [0mFuzzing test case #7125 (7560 total, 106 uniq crashes found, perf_score=1724, exec_us=860, hits=32, map=2185)...[0m
+[1;94m[*] [0mFuzzing test case #7313 (7561 total, 106 uniq crashes found, perf_score=5175, exec_us=1151, hits=24, map=3634)...[0m
+[1;94m[*] [0mFuzzing test case #5101 (7561 total, 106 uniq crashes found, perf_score=1293, exec_us=811, hits=111, map=1593)...[0m
+[1;94m[*] [0mFuzzing test case #6464 (7561 total, 106 uniq crashes found, perf_score=6400, exec_us=1133, hits=12, map=3675)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #1234 (7563 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14465, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7563 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14480, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7563 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14501, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #7550 (7563 total, 106 uniq crashes found, perf_score=1200, exec_us=832, hits=1, map=1682)...[0m
+[1;94m[*] [0mFuzzing test case #6462 (7564 total, 106 uniq crashes found, perf_score=900, exec_us=1413, hits=275, map=4029)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #5608 (7565 total, 106 uniq crashes found, perf_score=1380, exec_us=838, hits=25, map=1693)...[0m
+[1;94m[*] [0mFuzzing test case #3906 (7565 total, 106 uniq crashes found, perf_score=2587, exec_us=1166, hits=728, map=3313)...[0m
+[1;94m[*] [0mFuzzing test case #1702 (7565 total, 106 uniq crashes found, perf_score=776, exec_us=779, hits=550, map=1472)...[0m
+[1;94m[*] [0mFuzzing test case #4464 (7565 total, 106 uniq crashes found, perf_score=1724, exec_us=819, hits=21733, map=1671)...[0m
+[1;94m[*] [0mFuzzing test case #7124 (7565 total, 106 uniq crashes found, perf_score=6209, exec_us=1338, hits=9, map=3738)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7560 (7567 total, 106 uniq crashes found, perf_score=1500, exec_us=846, hits=1, map=2199)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7567 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2643, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #5475 (7567 total, 106 uniq crashes found, perf_score=1724, exec_us=885, hits=4666, map=2275)...[0m
+[1;94m[*] [0mFuzzing test case #2540 (7567 total, 106 uniq crashes found, perf_score=600, exec_us=1497, hits=3097, map=3304)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7567 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2648, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7567 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14515, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #2012 (7567 total, 106 uniq crashes found, perf_score=1035, exec_us=790, hits=207, map=1514)...[0m
+[1;94m[*] [0mFuzzing test case #7065 (7567 total, 106 uniq crashes found, perf_score=1552, exec_us=1127, hits=200, map=3655)...[0m
+[1;94m[*] [0mFuzzing test case #4255 (7567 total, 106 uniq crashes found, perf_score=2250, exec_us=1355, hits=52, map=3675)...[0m
+[1;94m[*] [0mFuzzing test case #6020 (7567 total, 106 uniq crashes found, perf_score=1724, exec_us=850, hits=3515, map=1881)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7562 (7568 total, 106 uniq crashes found, perf_score=2250, exec_us=1174, hits=1, map=3674)...[0m
+[1;94m[*] [0mFuzzing test case #3418 (7568 total, 106 uniq crashes found, perf_score=2760, exec_us=920, hits=27, map=2337)...[0m
+[1;94m[*] [0mFuzzing test case #7421 (7568 total, 106 uniq crashes found, perf_score=1724, exec_us=946, hits=2814, map=2898)...[0m
+[1;94m[*] [0mFuzzing test case #3567 (7568 total, 106 uniq crashes found, perf_score=360, exec_us=771, hits=66, map=1283)...[0m
+[1;94m[*] [0mFuzzing test case #7557 (7568 total, 106 uniq crashes found, perf_score=2250, exec_us=1432, hits=1, map=4179)...[0m
+[1;94m[*] [0mFuzzing test case #7109 (7568 total, 106 uniq crashes found, perf_score=1724, exec_us=936, hits=600, map=2765)...[0m
+[1;94m[*] [0mFuzzing test case #1702 (7568 total, 106 uniq crashes found, perf_score=776, exec_us=779, hits=551, map=1472)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7568 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2649, map=3467)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7109 (7571 total, 106 uniq crashes found, perf_score=1724, exec_us=936, hits=601, map=2765)...[0m
+[1;94m[*] [0mFuzzing test case #3906 (7571 total, 106 uniq crashes found, perf_score=2587, exec_us=1166, hits=741, map=3313)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #1747 (7573 total, 106 uniq crashes found, perf_score=675, exec_us=783, hits=63, map=1562)...[0m
+[1;94m[*] [0mFuzzing test case #1702 (7573 total, 106 uniq crashes found, perf_score=776, exec_us=779, hits=554, map=1472)...[0m
+[1;94m[*] [0mFuzzing test case #7558 (7573 total, 106 uniq crashes found, perf_score=1800, exec_us=1165, hits=1, map=3751)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7313 (7575 total, 106 uniq crashes found, perf_score=2587, exec_us=1151, hits=444, map=3634)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7577 (7578 total, 106 uniq crashes found, perf_score=4500, exec_us=1300, hits=1, map=3727)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #3368 (7579 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2651, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7579 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2657, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #6757 (7579 total, 106 uniq crashes found, perf_score=1035, exec_us=755, hits=17, map=1197)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7579 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14523, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #7551 (7579 total, 106 uniq crashes found, perf_score=1200, exec_us=842, hits=1, map=1741)...[0m
+[1;94m[*] [0mFuzzing test case #1220 (7580 total, 106 uniq crashes found, perf_score=120, exec_us=759, hits=345, map=1107)...[0m
+[1;94m[*] [0mFuzzing test case #5357 (7580 total, 106 uniq crashes found, perf_score=1500, exec_us=814, hits=57, map=1721)...[0m
+[1;94m[*] [0mFuzzing test case #7578 (7580 total, 106 uniq crashes found, perf_score=2250, exec_us=1295, hits=1, map=3741)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #3368 (7583 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2660, map=3467)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #1239 (7585 total, 106 uniq crashes found, perf_score=345, exec_us=767, hits=371, map=1029)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7585 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14532, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7585 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2662, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7585 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14540, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7585 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2664, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #5361 (7585 total, 106 uniq crashes found, perf_score=5175, exec_us=1103, hits=22, map=3446)...[0m
+[1;94m[*] [0mFuzzing test case #7577 (7585 total, 106 uniq crashes found, perf_score=5175, exec_us=1300, hits=29, map=3727)...[0m
+[1;94m[*] [0mFuzzing test case #1702 (7585 total, 106 uniq crashes found, perf_score=776, exec_us=779, hits=557, map=1472)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7585 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2666, map=3467)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7585 (7586 total, 106 uniq crashes found, perf_score=4500, exec_us=1346, hits=1, map=3815)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #3620 (7593 total, 106 uniq crashes found, perf_score=1724, exec_us=952, hits=225, map=2199)...[0m
+[1;94m[*] [0mFuzzing test case #7577 (7593 total, 106 uniq crashes found, perf_score=2587, exec_us=1300, hits=817, map=3727)...[0m
+[1;94m[*] [0mFuzzing test case #1780 (7593 total, 106 uniq crashes found, perf_score=1035, exec_us=881, hits=115, map=2412)...[0m
+[1;94m[*] [0mFuzzing test case #2534 (7593 total, 106 uniq crashes found, perf_score=2250, exec_us=1194, hits=27, map=3397)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7593 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14548, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #7590 (7593 total, 106 uniq crashes found, perf_score=2250, exec_us=1367, hits=1, map=3673)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #3167 (7594 total, 106 uniq crashes found, perf_score=690, exec_us=762, hits=73, map=1151)...[0m
+[1;94m[*] [0mFuzzing test case #3617 (7594 total, 106 uniq crashes found, perf_score=1500, exec_us=1051, hits=28, map=3085)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7594 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2667, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7594 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14567, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #7593 (7594 total, 106 uniq crashes found, perf_score=2250, exec_us=1368, hits=1, map=3831)...[0m
+[1;94m[*] [0mFuzzing test case #3427 (7594 total, 106 uniq crashes found, perf_score=1380, exec_us=932, hits=48, map=2381)...[0m
+[1;94m[*] [0mFuzzing test case #6604 (7594 total, 106 uniq crashes found, perf_score=5175, exec_us=1499, hits=15, map=4039)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #1234 (7596 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14574, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #7194 (7596 total, 106 uniq crashes found, perf_score=2587, exec_us=776, hits=6, map=1146)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7596 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2671, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #7333 (7596 total, 106 uniq crashes found, perf_score=6209, exec_us=1235, hits=4, map=3934)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7421 (7599 total, 106 uniq crashes found, perf_score=1724, exec_us=946, hits=2832, map=2898)...[0m
+[1;94m[*] [0mFuzzing test case #4517 (7600 total, 106 uniq crashes found, perf_score=5175, exec_us=1206, hits=26, map=3607)...[0m
+[1;94m[*] [0mFuzzing test case #2249 (7601 total, 106 uniq crashes found, perf_score=960, exec_us=980, hits=97, map=2852)...[0m
+[1;94m[*] [0mFuzzing test case #5806 (7601 total, 106 uniq crashes found, perf_score=1500, exec_us=819, hits=17, map=1673)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #1234 (7603 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14589, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7603 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2676, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7603 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14607, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #7576 (7603 total, 106 uniq crashes found, perf_score=750, exec_us=3466, hits=1, map=4002)...[0m
+[1;94m[*] [0mFuzzing test case #1277 (7603 total, 106 uniq crashes found, perf_score=345, exec_us=772, hits=2212, map=1132)...[0m
+[1;94m[*] [0mFuzzing test case #7573 (7603 total, 106 uniq crashes found, perf_score=1800, exec_us=1153, hits=1, map=3746)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #3365 (7604 total, 106 uniq crashes found, perf_score=1724, exec_us=842, hits=11376, map=1674)...[0m
+[1;94m[*] [0mFuzzing test case #271 (7604 total, 106 uniq crashes found, perf_score=150, exec_us=776, hits=42, map=1145)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7604 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2680, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #176 (7604 total, 106 uniq crashes found, perf_score=150, exec_us=772, hits=42, map=1145)...[0m
+[1;94m[*] [0mFuzzing test case #7413 (7604 total, 106 uniq crashes found, perf_score=5175, exec_us=810, hits=10, map=1746)...[0m
+[1;94m[*] [0mFuzzing test case #7421 (7604 total, 106 uniq crashes found, perf_score=1724, exec_us=946, hits=3777, map=2898)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7604 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14618, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #6666 (7604 total, 106 uniq crashes found, perf_score=2587, exec_us=1377, hits=1107, map=3949)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7604 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14629, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #7143 (7604 total, 106 uniq crashes found, perf_score=1724, exec_us=826, hits=49, map=1725)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7604 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14647, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7604 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2681, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7604 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2685, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #112 (7604 total, 106 uniq crashes found, perf_score=150, exec_us=763, hits=42, map=1148)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7604 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14659, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #7599 (7604 total, 106 uniq crashes found, perf_score=1125, exec_us=746, hits=1, map=1465)...[0m
+[1;94m[*] [0mFuzzing test case #6109 (7605 total, 106 uniq crashes found, perf_score=1125, exec_us=816, hits=16, map=1563)...[0m
+[1;94m[*] [0mFuzzing test case #2574 (7611 total, 106 uniq crashes found, perf_score=1724, exec_us=874, hits=536, map=2274)...[0m
+[1;94m[*] [0mFuzzing test case #6551 (7612 total, 106 uniq crashes found, perf_score=1724, exec_us=1005, hits=3972, map=2998)...[0m
+[1;94m[*] [0mFuzzing test case #6768 (7614 total, 106 uniq crashes found, perf_score=6400, exec_us=1165, hits=11, map=3608)...[0m
+[1;94m[*] [0mFuzzing test case #3971 (7615 total, 106 uniq crashes found, perf_score=1380, exec_us=809, hits=32, map=1618)...[0m
+[1;94m[*] [0mFuzzing test case #2574 (7615 total, 106 uniq crashes found, perf_score=1724, exec_us=874, hits=543, map=2274)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7616 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14667, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #202 (7616 total, 106 uniq crashes found, perf_score=150, exec_us=801, hits=43, map=1146)...[0m
+[1;94m[*] [0mFuzzing test case #7613 (7616 total, 106 uniq crashes found, perf_score=1500, exec_us=871, hits=1, map=2989)...[0m
+[1;94m[*] [0mFuzzing test case #1435 (7616 total, 106 uniq crashes found, perf_score=776, exec_us=818, hits=73, map=1568)...[0m
+[1;94m[*] [0mFuzzing test case #1702 (7616 total, 106 uniq crashes found, perf_score=776, exec_us=779, hits=558, map=1472)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7083 (7617 total, 106 uniq crashes found, perf_score=1724, exec_us=959, hits=41, map=2766)...[0m
+[1;94m[*] [0mFuzzing test case #1478 (7617 total, 106 uniq crashes found, perf_score=675, exec_us=786, hits=62, map=1538)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7617 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14674, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #6539 (7617 total, 106 uniq crashes found, perf_score=6209, exec_us=1404, hits=9, map=3990)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #3434 (7618 total, 106 uniq crashes found, perf_score=1724, exec_us=813, hits=1300, map=1656)...[0m
+[1;94m[*] [0mFuzzing test case #3567 (7618 total, 106 uniq crashes found, perf_score=360, exec_us=771, hits=69, map=1283)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7618 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14681, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #3211 (7618 total, 106 uniq crashes found, perf_score=1035, exec_us=830, hits=34, map=1306)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7618 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2688, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #3490 (7618 total, 106 uniq crashes found, perf_score=862, exec_us=758, hits=1044, map=1052)...[0m
+[1;94m[*] [0mFuzzing test case #6623 (7618 total, 106 uniq crashes found, perf_score=1724, exec_us=991, hits=288, map=2409)...[0m
+[1;94m[*] [0mFuzzing test case #7565 (7618 total, 106 uniq crashes found, perf_score=1800, exec_us=1362, hits=1, map=3739)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #3368 (7620 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2691, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7620 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2698, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #3063 (7620 total, 106 uniq crashes found, perf_score=517, exec_us=768, hits=71, map=1184)...[0m
+[1;94m[*] [0mFuzzing test case #6020 (7620 total, 106 uniq crashes found, perf_score=1724, exec_us=850, hits=3533, map=1881)...[0m
+[1;94m[*] [0mFuzzing test case #250 (7620 total, 106 uniq crashes found, perf_score=150, exec_us=1032, hits=43, map=1138)...[0m
+[1;94m[*] [0mFuzzing test case #1866 (7620 total, 106 uniq crashes found, perf_score=675, exec_us=773, hits=26, map=1471)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7620 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2702, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #4712 (7620 total, 106 uniq crashes found, perf_score=776, exec_us=803, hits=43, map=1589)...[0m
+[1;94m[*] [0mFuzzing test case #7441 (7620 total, 106 uniq crashes found, perf_score=1724, exec_us=888, hits=127, map=2321)...[0m
+[1;94m[*] [0mFuzzing test case #1702 (7620 total, 106 uniq crashes found, perf_score=776, exec_us=779, hits=560, map=1472)...[0m
+[1;94m[*] [0mFuzzing test case #5084 (7620 total, 106 uniq crashes found, perf_score=1724, exec_us=842, hits=76, map=1759)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7620 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14696, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #5927 (7620 total, 106 uniq crashes found, perf_score=1724, exec_us=903, hits=47, map=2372)...[0m
+[1;94m[*] [0mFuzzing test case #7614 (7620 total, 106 uniq crashes found, perf_score=1125, exec_us=676, hits=1, map=1249)...[0m
+[1;94m[*] [0mFuzzing test case #2574 (7623 total, 106 uniq crashes found, perf_score=1724, exec_us=874, hits=547, map=2274)...[0m
+[1;94m[*] [0mFuzzing test case #3994 (7623 total, 106 uniq crashes found, perf_score=862, exec_us=772, hits=36, map=1131)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7623 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2702, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7624 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14713, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #7589 (7624 total, 106 uniq crashes found, perf_score=2250, exec_us=1343, hits=2, map=3810)...[0m
+[1;94m[*] [0mFuzzing test case #6678 (7624 total, 106 uniq crashes found, perf_score=1724, exec_us=837, hits=62, map=1726)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7563 (7625 total, 106 uniq crashes found, perf_score=1500, exec_us=818, hits=1, map=1676)...[0m
+[1;94m[*] [0mFuzzing test case #3741 (7626 total, 106 uniq crashes found, perf_score=1293, exec_us=794, hits=489, map=1246)...[0m
+[1;94m[*] [0mFuzzing test case #7612 (7626 total, 106 uniq crashes found, perf_score=1500, exec_us=786, hits=1, map=2335)...[0m
+[1;94m[*] [0mFuzzing test case #6590 (7626 total, 106 uniq crashes found, perf_score=5175, exec_us=897, hits=11, map=2423)...[0m
+[1;94m[*] [0mFuzzing test case #6381 (7626 total, 106 uniq crashes found, perf_score=2070, exec_us=2872, hits=19, map=4253)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #3368 (7627 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2703, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #6758 (7627 total, 106 uniq crashes found, perf_score=3881, exec_us=815, hits=11, map=1494)...[0m
+[1;94m[*] [0mFuzzing test case #4983 (7627 total, 106 uniq crashes found, perf_score=2250, exec_us=1144, hits=46, map=3622)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7627 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2705, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #7611 (7627 total, 106 uniq crashes found, perf_score=1500, exec_us=811, hits=1, map=2347)...[0m
+[1;94m[*] [0mFuzzing test case #7623 (7627 total, 106 uniq crashes found, perf_score=750, exec_us=6361, hits=1, map=4212)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #818 (7642 total, 106 uniq crashes found, perf_score=150, exec_us=764, hits=44, map=1146)...[0m
+[1;94m[*] [0mFuzzing test case #6020 (7642 total, 106 uniq crashes found, perf_score=1724, exec_us=850, hits=3539, map=1881)...[0m
+[1;94m[*] [0mFuzzing test case #1946 (7642 total, 106 uniq crashes found, perf_score=900, exec_us=784, hits=42, map=1559)...[0m
+[1;94m[*] [0mFuzzing test case #5388 (7642 total, 106 uniq crashes found, perf_score=1125, exec_us=826, hits=30, map=1566)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #2573 (7643 total, 106 uniq crashes found, perf_score=1380, exec_us=872, hits=88, map=2326)...[0m
+[1;94m[*] [0mFuzzing test case #6147 (7643 total, 106 uniq crashes found, perf_score=1724, exec_us=988, hits=715, map=3042)...[0m
+[1;94m[*] [0mFuzzing test case #7621 (7643 total, 106 uniq crashes found, perf_score=1500, exec_us=674, hits=1, map=1650)...[0m
+[1;94m[*] [0mFuzzing test case #7195 (7643 total, 106 uniq crashes found, perf_score=1380, exec_us=821, hits=40, map=1663)...[0m
+[1;94m[*] [0mFuzzing test case #3658 (7643 total, 106 uniq crashes found, perf_score=1724, exec_us=932, hits=750, map=2480)...[0m
+[1;94m[*] [0mFuzzing test case #7629 (7643 total, 106 uniq crashes found, perf_score=1125, exec_us=2422, hits=1, map=4217)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7625 (7648 total, 106 uniq crashes found, perf_score=1500, exec_us=685, hits=1, map=1661)...[0m
+[1;94m[*] [0mFuzzing test case #7594 (7649 total, 106 uniq crashes found, perf_score=2250, exec_us=1367, hits=2, map=3899)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #3368 (7650 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2707, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7650 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2709, map=3467)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7645 (7652 total, 106 uniq crashes found, perf_score=1500, exec_us=1650, hits=1, map=4203)...[0m
+[1;94m[*] [0mFuzzing test case #3761 (7652 total, 106 uniq crashes found, perf_score=1200, exec_us=870, hits=25, map=1680)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7652 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14732, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7652 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2713, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7652 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14741, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #6629 (7652 total, 106 uniq crashes found, perf_score=1724, exec_us=982, hits=36, map=2936)...[0m
+[1;94m[*] [0mFuzzing test case #3394 (7652 total, 106 uniq crashes found, perf_score=1035, exec_us=795, hits=110, map=1233)...[0m
+[1;94m[*] [0mFuzzing test case #1199 (7652 total, 106 uniq crashes found, perf_score=172, exec_us=759, hits=158, map=1107)...[0m
+[1;94m[*] [0mFuzzing test case #7620 (7652 total, 106 uniq crashes found, perf_score=1125, exec_us=718, hits=1, map=1493)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7652 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14750, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #6020 (7652 total, 106 uniq crashes found, perf_score=1724, exec_us=850, hits=3543, map=1881)...[0m
+[1;94m[*] [0mFuzzing test case #6604 (7652 total, 106 uniq crashes found, perf_score=3449, exec_us=1499, hits=16, map=4039)...[0m
+[1;94m[*] [0mFuzzing test case #7061 (7652 total, 106 uniq crashes found, perf_score=4140, exec_us=928, hits=12, map=2365)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #3368 (7653 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2718, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #7591 (7653 total, 106 uniq crashes found, perf_score=2250, exec_us=1359, hits=2, map=3669)...[0m
+[1;94m[*] [0mFuzzing test case #5892 (7653 total, 106 uniq crashes found, perf_score=3449, exec_us=930, hits=25, map=2346)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7653 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14763, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7653 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2728, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #5983 (7653 total, 106 uniq crashes found, perf_score=2760, exec_us=1002, hits=17, map=2830)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7653 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14780, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #7640 (7653 total, 106 uniq crashes found, perf_score=1500, exec_us=1719, hits=1, map=4399)...[0m
+[1;94m[*] [0mFuzzing test case #7561 (7653 total, 106 uniq crashes found, perf_score=2250, exec_us=1167, hits=4, map=3687)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7653 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14790, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #4258 (7653 total, 106 uniq crashes found, perf_score=6400, exec_us=1297, hits=14, map=3682)...[0m
+[1;94m[*] [0mFuzzing test case #2574 (7653 total, 106 uniq crashes found, perf_score=1724, exec_us=874, hits=551, map=2274)...[0m
+[1;94m[*] [0mFuzzing test case #3299 (7653 total, 106 uniq crashes found, perf_score=1035, exec_us=816, hits=6825, map=1542)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7653 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14800, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #3365 (7653 total, 106 uniq crashes found, perf_score=1724, exec_us=842, hits=11397, map=1674)...[0m
+[1;94m[*] [0mFuzzing test case #6198 (7653 total, 106 uniq crashes found, perf_score=1293, exec_us=787, hits=68, map=1417)...[0m
+[1;94m[*] [0mFuzzing test case #7649 (7653 total, 106 uniq crashes found, perf_score=2250, exec_us=948, hits=1, map=3490)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #1234 (7657 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14808, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #7654 (7657 total, 106 uniq crashes found, perf_score=4500, exec_us=1293, hits=1, map=3633)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7657 (7658 total, 106 uniq crashes found, perf_score=3000, exec_us=1906, hits=5, map=3808)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7658 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14825, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7658 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14841, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7658 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2730, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #4426 (7658 total, 106 uniq crashes found, perf_score=3000, exec_us=1469, hits=25, map=4276)...[0m
+[1;94m[*] [0mFuzzing test case #7635 (7658 total, 106 uniq crashes found, perf_score=1125, exec_us=2653, hits=1, map=4564)...[0m
+[1;94m[*] [0mFuzzing test case #7656 (7658 total, 106 uniq crashes found, perf_score=2250, exec_us=958, hits=1, map=3491)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7659 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2732, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #1215 (7659 total, 106 uniq crashes found, perf_score=345, exec_us=756, hits=90, map=1025)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7659 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2735, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #6517 (7659 total, 106 uniq crashes found, perf_score=2070, exec_us=1390, hits=700, map=3677)...[0m
+[1;94m[*] [0mFuzzing test case #4029 (7659 total, 106 uniq crashes found, perf_score=1380, exec_us=1478, hits=32, map=3807)...[0m
+[1;94m[*] [0mFuzzing test case #7161 (7659 total, 106 uniq crashes found, perf_score=1150, exec_us=5369, hits=20, map=2891)...[0m
+[1;94m[*] [0mFuzzing test case #5149 (7659 total, 106 uniq crashes found, perf_score=1200, exec_us=814, hits=86, map=1764)...[0m
+[1;94m[*] [0mFuzzing test case #4576 (7659 total, 106 uniq crashes found, perf_score=1200, exec_us=895, hits=75, map=2316)...[0m
+[1;94m[*] [0mFuzzing test case #5413 (7659 total, 106 uniq crashes found, perf_score=1724, exec_us=819, hits=598, map=1752)...[0m
+[1;94m[*] [0mFuzzing test case #1396 (7659 total, 106 uniq crashes found, perf_score=517, exec_us=809, hits=64, map=1423)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7659 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2738, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #7065 (7659 total, 106 uniq crashes found, perf_score=1552, exec_us=1127, hits=322, map=3655)...[0m
+[1;94m[*] [0mFuzzing test case #7337 (7659 total, 106 uniq crashes found, perf_score=4140, exec_us=1825, hits=7, map=4517)...[0m
+[1;94m[*] [0mFuzzing test case #5835 (7659 total, 106 uniq crashes found, perf_score=1500, exec_us=832, hits=17, map=1675)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7659 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2740, map=3467)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7421 (7662 total, 106 uniq crashes found, perf_score=1724, exec_us=946, hits=3795, map=2898)...[0m
+[1;94m[*] [0mFuzzing test case #3368 (7662 total, 106 uniq crashes found, perf_score=2587, exec_us=1111, hits=2742, map=3467)...[0m
+[1;94m[*] [0mFuzzing test case #4832 (7662 total, 106 uniq crashes found, perf_score=1724, exec_us=1574, hits=66, map=3843)...[0m
+[1;94m[*] [0mFuzzing test case #7619 (7662 total, 106 uniq crashes found, perf_score=600, exec_us=5028, hits=2, map=4148)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #7626 (7666 total, 106 uniq crashes found, perf_score=900, exec_us=2770, hits=3, map=4246)...[0m
+[1;94m[*] [0mFuzzing test case #4390 (7666 total, 106 uniq crashes found, perf_score=2587, exec_us=1183, hits=76, map=3556)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7666 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14850, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7666 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14857, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #7655 (7666 total, 106 uniq crashes found, perf_score=2250, exec_us=946, hits=2, map=3491)...[0m
+[1;94m[*] [0mFuzzing test case #5309 (7666 total, 106 uniq crashes found, perf_score=1500, exec_us=856, hits=20, map=1782)...[0m
+[1;94m[*] [0mFuzzing test case #6194 (7666 total, 106 uniq crashes found, perf_score=5175, exec_us=1098, hits=20, map=3672)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #1404 (7668 total, 106 uniq crashes found, perf_score=900, exec_us=900, hits=27, map=2356)...[0m
+[1;94m[*] [0mFuzzing test case #1234 (7668 total, 106 uniq crashes found, perf_score=345, exec_us=751, hits=14866, map=1106)...[0m
+[1;94m[*] [0mFuzzing test case #3361 (7668 total, 106 uniq crashes found, perf_score=1500, exec_us=893, hits=30, map=2414)...[0m
+[?25h[1;91m
+
++++ Testing aborted by user +++
+[0m[1;92m[+] [0mWe're done here. Have a nice day!
+[0m
+Campaign terminated at 2024-09-25 05:06
+/magma/magma/run.sh: line 86: 13898 Terminated              while true; do
+    "$OUT/monitor" --dump row > "$MONITOR/tmp"; if [ $? -eq 0 ]; then
+        mv "$MONITOR/tmp" "$MONITOR/$counter";
+    else
+        rm "$MONITOR/tmp";
+    fi; counter=$(( counter + POLL )); sleep $POLL;
+done

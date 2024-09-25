@@ -1,0 +1,3 @@
+   ATTACH 'test.db' AS err1;
+   ATTACH 'tesê.db' AS err1;
+  }b

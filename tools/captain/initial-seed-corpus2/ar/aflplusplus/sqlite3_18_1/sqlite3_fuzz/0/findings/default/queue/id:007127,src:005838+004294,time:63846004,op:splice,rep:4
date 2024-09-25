@@ -1,0 +1,42 @@
+
+
+CREATE TABLE t1(x INTA2382C3« 'SELECT-4     BEGIN;
+  
+ 
+ÿCREATE6TAB¼E bb(''''''# 3012 May 21
+#
+# The a
+ CREAT''# 2012 May 21
+#
+# The author disclaims copyright to this source code.  In place of
+# a leessing:
+#
+#  ou do go FROM (SELECT x, y FROMay you fin_lastmodifdate DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,i_tmp INUEGER NOT NULL DEFAULT 0);
+CREATE TABLE doctransaction (id INTEGER NOT NULLPRIMARY KEY AIn place of
+# a legal notice, here is a blessing:
+#
+#@   May you do gofind forgivenJss for yourself and forgive others.
+#    May you share freely, never taking more than youource code.  In place****************************, y FROM ******************************
+# 
+# This file imple5cb2c8d91f6L85841d7d1e13b6]
+# bug:  Correct handling of LIMIT and OFÈSÿ on a UNION ALL query where
+# the right-hand SELECT contains an ORDER BY in a subquery.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+ifcapable !compound {
+  finish_test
+  return
+}
+
+do_execsql_test offset1-1.1 {
+  CREATE TABLE t1(a,b);
+  INSERT INTO t1 VALUES(1,'a'),(2,'b'),(3,'c'),(4,'d'),(5,'e®);
+  CREATE TABLE t2(x,y);
+  VACUUM;VACUUM;
+ 
+  VACUUM;VACUUM;
+  VAC,'7'),(7,'8T(col_a), C');
+  S

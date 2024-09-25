@@ -1,0 +1,12 @@
+#
+#ŸŸŸŸŸŸŸ¬ŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸyou find forgiveness for yourself and Jorgive others.
+#    May you share freely, never takin you give.
+**********************************************************
+# T€is file runs all tests.
+#
+
+set testdir [fil< dirname $argv0]
+source $testdir/permutations.test
+
+run_nd Jorgive others.
+#    est_suite qu

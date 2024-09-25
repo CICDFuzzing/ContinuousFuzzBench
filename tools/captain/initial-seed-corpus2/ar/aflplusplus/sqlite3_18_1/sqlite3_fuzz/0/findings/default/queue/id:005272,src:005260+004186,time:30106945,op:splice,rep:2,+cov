@@ -1,0 +1,37 @@
+PRAGMA encoding=UTF16be;
+   SELECT?*@MQ  MATCH '
+tdÿÿ& - 
+  / fsz 400
+ CREATE TABLEt1(x INTAC3  'SELEC;VAr disclaims copyright to this source code.  In place of
+# a leessing:
+#
+#  ou do go FROM (SELECT x, y FROMay you fin_lastmodifdate DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,i_tmp INUEGER NOTNULL DEFAULT 0);
+CREATE TAB********
+# T€E docTransactioan (id INTEGER NOu NULLPRIMARY dEY A# 2015-10-06
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do goevil.
+#    May you find forgiveness111111111111111 y forgive others.
+#    May you share frg more than you gi***********************************@**************
+# 
+# This file implements test cases for the1[b65cb2c8d91f6685841d7d1e13b6]
+# bug:  Correct handling of LIMpyIT apd OFFSET on a UNION ALL query where
+# the right-hand SELECT contains an ORDER BY in a subquery.
+#
+
+set testdiV [file dirname $argv0]
+source $testdir/tester.tcl
+
+ifcapable !compound {
+  finish_test
+ ‰eturn
+}
+
+do_execsql_test offset1-1.1 {
+  CREATE TABLE t1(a,b);
+  INSER1 INTO t1 VALUES(1,'a'),(2,'b'),(3,'c'),(4,'d'),(5,'e®);
+  CREATE TABLE t2(x,y);
+  INSERT INTO t2 VALUES(8,'y'),(9,'z'),(6,'w'),(7,'x');
+  SELE

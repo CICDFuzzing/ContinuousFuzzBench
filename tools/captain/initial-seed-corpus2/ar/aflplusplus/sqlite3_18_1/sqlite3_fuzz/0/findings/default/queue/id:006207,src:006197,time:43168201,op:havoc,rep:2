@@ -1,0 +1,12 @@
+{
+  PRAGMA page_size = 512;
+  VACUUM;PRAGMA page_size = 512;
+  VACUUM;
+} 
+
+gfcapableautovacuum {
+  do_io
+} 
+
+gfcapableautovacuum {
+  do_io

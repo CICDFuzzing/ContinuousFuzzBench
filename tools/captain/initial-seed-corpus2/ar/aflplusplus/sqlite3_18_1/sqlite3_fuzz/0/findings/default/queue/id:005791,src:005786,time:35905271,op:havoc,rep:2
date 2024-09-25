@@ -1,0 +1,11 @@
+ ;
+    ANALYZE;
+UPDATE sqlite_stat1 SET stat='100 500000 500 R0';
+    ANALYZE sqlite_master;
+    ANALYZE;
+UPDATE sqlite_stat1 SET stat='100 500000 500 R0';
+    ANALYZE sqlite_master;
+  }
+  ’;
+  }
+  ’qt :,Ô

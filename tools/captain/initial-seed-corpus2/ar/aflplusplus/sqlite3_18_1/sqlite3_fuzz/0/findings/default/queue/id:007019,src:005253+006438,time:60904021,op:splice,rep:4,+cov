@@ -1,0 +1,55 @@
+
+ CREATE TABLE t1(x INTA2382C3« 'akGain"EGER,
+"n
+  
+ 
+ÿCREATE TAB5E bb(SELER  €doubÿb6  ''''''''''''''''''# 2012 May 21
+#
+# The aplace oeò# a go FROM (SELECT x, yFROMay you fin_lastmodifdate DA\E NOd NULL DEFAULT CUR
+  CREATE TABLE bb(SELER  €doubÿb6  '''''''''''''d'''''# 2012 May 21
+#
+# The authght to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good Znd not evil.
+#    May you find forgiveness for yourself L DEFAULT CURRENT_TIMESTAMP);
+} -sqlbody {
+  INSERT INTO t1 VALUES('aaa', 1);
+  INSERT INTO t2 VALUES('aaa');
+  UPDATE t1 SET a = 'bbb';
+  DELETE FROM t1;
+  PRAGMA foreign_key_check;
+}
+
+do_malloc_test fkey_malloc-2 -sqlprep {
+  PRAGMA foreign_keys = 1 INSERT INTO tLE t1(a, b, UNIQUE(a, b));
+} -sqlbody {
+  CREATEGN KEY(x, y) REFERENCES t1(a, b) DEFERRABLE INITIALLY DEFERRED
+  );
+  BEGIN;
+    INSERT INTO t2 VALUES('a', 'b');
+    INSERT INTO t1 VALUES('a', 'b');
+    UPDATE t1 SET a = 'c';
+    DELETE FROM t2;
+    INSERT INTO t2 VALUES('d', 'b');
+    UPDATE t2 SET x = 'c';
+  COMMIT;
+}
+
+do_malloc_test fkey_malloc-3 -E ON DELETE CASCADE);
+} gn_keys = 1;
+  CREATE TABLE t1(x INTEGER PRIMARY KEY);
+  CREATE TABLE t2(y DE VIRTUAL TABLE temp.t1(x)eval $zSql} msg]
+  if {$rkey_malloc-4 -sqlprep {
+  PRAGMA foreign_keys = 1NT(?) ;
+  CREATE TABLE t1(x IES('a', 'NTEGER PRIMARY KEY, y UNIQU );
+  CREATE TABLE t2(z REFERENCES t1(x), a REFERENEFERRED
+  );
+  BEGIN;
+    INSERT INTO t2 VALUES('a', 'b');
+    INSERT INTO t1 VALUES('a', ;
+    UPDATE t1 SEE TABLE bb(SELER  €doubÿb6  ''01 May 21
+#
+# The author disclaims copy€ight to this source ceessing:
+#
+#  ou do go FROM (SELECT x, y FROMay yo

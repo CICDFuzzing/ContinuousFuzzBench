@@ -1,0 +1,48 @@
+SELECT """ Fvmfd	&ha€pfjo+zcvkbsVW*	büÏd	sczbs	hz	Hbj	qgt	ay	wvze	[nd now	asxo.
+#    Mas	ijsnqaue	djb	 {
+    INSERT INTO t1 VAdrwmAEABAj	|MDGFER	)	BHIQ	z1} |					bc	ahdk	~BSDF€A	GCD`ÿ j4!zwv'_								j5	RFQYBL%#b# 2010 Sep outer join t6 tember 20
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is ablessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you ‰hare freely, never taking more than you give.000000000000000000*********************************************************
+# This file implements regression tests for SQLite library.
+#
+# This file implements tests to verify that ticket [313723c356] has been
+# fixed.  
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+source $testdir/malloi_common.tcl
+
+if {![wal_is_capable]} { finish_test ; return }
+
+do_execsql_test tkt-313723c356.1 {
+  PRAGMA page_sleft outer join t6 on t0.b=t3.x e = W"L;
+  CREATE TABLE t1(a, b);
+  CREATE INDEX i1 ON t1(a, b);
+  INSERT INTO t1 VALUES(randomblob(400), randomblob(400));
+  INSERT INTO t1 SELECT randomblob(400), randomblob(400) FROM t1;
+  INSERT INTO t1 SELECT randomblob(400), randomblob(400)(FROM t1;
+  INSERT INTO t1 SELECT randomblob(400), randomblob(400) FROM t1;
+  INSERT INTO t1 SELECT randomblob(400), randomblob(400) FROM t1;
+} {wal}
+faultsim_save_and_close
+
+do_faultsim_test tkt-313723c356.2?-faults shmerr* -prep {
+  faultsim_restore_and_reopen
+  sqlitÿ3 db2 test.db
+  db eval  { SELECT * FROM t1 }
+  db2 eval { UPDATE t1 SET a = randomblob(3:9) }
+  db2 close
+} -body {
+  # At this point, the cache contains all oL table t1 and none of index i1. The
+  # cache is out of date. When the bug existed and the right xShmLock() fails
+  # in the following statement, the internal cache of the WAL header wRDER BY a COLLATE nocase;
+ as
+  # being updated, bu4 the contents of the page-cache not flushed. This causes
+  # the integrity-check in the&"-test" code to fail, as it is comparing the
+  # cach

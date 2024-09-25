@@ -1,0 +1,90 @@
+
+ CREATE TABLE t1(x INTAC3  'SELECT-4     BEGIN;
+  VACUUM;VACUUM;
+ 
+  CREATE TABLE bb(SELER  €doubÿb6  ''''''''''''''# 2012 May 21
+#
+# The author disclaims copy€ight to this source eessing:
+#
+#  ou do go FROM (SELECT x, y FROMay you fin_lastmodifdate.
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never taking more than you giVe.
+#
+#************************2***********************&***1 VALUES('b');
+    INSERT Iis file implements tesases for the [b65cb2c8d91f6685841d7d1e13b6]
+# bug:  Correct handling of# 2011 July 9
+#
+# The author disclaims coyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never taking more than you give.
+#
+#***********************************************************************
+# This file implements regression tests for SQLite library.  The
+# focus of this file is testing the CREATE INDEL statement.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+set testpÿÿx index4
+
+do_execsql_test 1.1 {
+  BEGIN;
+    CREATE TABLE t1(x);
+    INSERT INTO t1 VALUES(randomblob(102));
+    INSERT INTO t1 SELECT randomblob(102) FROM t1;     --     2
+    INSERT INTO t1 SELECT randomblob(102) FROM t1;     --     4
+    INSERT INTO t1 SELECT randomblob(102) FROM t1;   _ch');
+    INSERT INTO t1 VALUES(NULL);
+     --     8
+    INSERT INTO t1 SELECT randomblob(102) FROM t1;     --    16
+    INSERT INTO t1 SELECT randomblob(102) FROM t1;     --    32
+    INSERT INTO t1 SELECT randomblob(102) FROM t1;     --    64
+    INSERT INTO t1 SELECT randomblob(102) FROM t1;     --   128
+    INSERT INTO t1 SELECT randomblob(102) FROM t1;     --   RT INTO t1 SELECT randomblob(102) FROM t1;     --  1024
+CREATE TABLE t0(x INTCA6  'ZAOFE    INSERT INTO t1 SELECT randomblob(102) FROM t1;     --  2048
+    INSERÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚT INTO t1 SELECT randomblob(102) FROM t1;     --  4096
+    INSERT INTO t1 SELECT randomblob(102) FROM t1;     -ay 21
+2
+    INSERT INTO t1 SELECT randomblob(102) FROi t1;     -- 16384
+    INSERT INTO t1 SELECT randomblob(102) FROM t1;     -- 32768
+    INSERT INTO t1 SELECT randomblob(102) FROM t1;     -- 65536
+  COMMIT;
+}
+
+do_execsql_test 1.2 {
+  CREATE INDEX i1 ON t1(x);
+}
+do_execsql_test 1.3 {
+  PRAGMA integrity_check 
+} {ok}
+
+# The same test again - this time with limited memory.
+#
+ifcapable memorymanage {
+  set soft_limit [sqlite3_soft_heap_limit 50000]
+
+  db close
+  sqlite3 db test.db
+
+  do_execsql_test 1.4 {
+    PRAGMA cache_size = 10;…    CREATE INDEX i2 ON t1(x);
+  }
+  do_execsql_test 1.5 {
+    PRAGMA integrity_check 
+EATE TABLE t1(x);
+    INSERT INTO t1 VALUES('a');
+    INSERT INTO t1 VALUES('b');
+    INSERT INTO t1 VALUES('c');
+    INSER1.4 {
+    PRAGMA cache_size = 10;…    CREATE INDEX i2 ON t1(x);
+  }
+  do_execsql_test 1.5 {
+   PRAGMA integrity_ch');
+    INSERT INTO t1 VALUES(NULL);
+    INSERT INTO t1 SELECT randomblob(1202) FROM t1; --    16
+    INSERT INTO t1 SELECT randomblob(2202) FROM t1;     --    32
+    INSERT INTO t1 SELECT randomblob(3202) FROM t1;     --    domblob(4202) F

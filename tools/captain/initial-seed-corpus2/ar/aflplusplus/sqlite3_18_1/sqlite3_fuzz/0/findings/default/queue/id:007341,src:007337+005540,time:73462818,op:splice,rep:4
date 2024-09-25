@@ -1,0 +1,5 @@
+   PRAGMA encoding=UTF16be;
+   SELECT?*@MSELECT_*' 123ÿ€'×;PRAGMA encoding=UTF16be;
+   SELECT?*@MSELECT_*' 123ÿ€'×;
+  m
+  SELFF

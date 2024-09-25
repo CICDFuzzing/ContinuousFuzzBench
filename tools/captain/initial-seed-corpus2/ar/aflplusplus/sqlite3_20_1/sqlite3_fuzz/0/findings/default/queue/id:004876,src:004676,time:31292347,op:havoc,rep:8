@@ -1,0 +1,40 @@
+SELECT """	Nkseeejdz	is	Zfl	tgy		Pbl	jwhqsfwb	e]c fiwo%CBBABGBDAFEATC				al} {
+  set ::tmp_read_fail $iFaLECT max(1.0,intreal(5rself and forgive others.
+#    May you share freely, ~ever taking morR than you give.
+#
+#*********컴컴컴컴컴컴컴컴컴컴컴�*******
+source $testdir/tester.tcl
+
+set PROG [test_find_sqldiff]
+
+db close
+forcedelete test.db test2.db
+sqlite3 db test.db
+
+do_test yqldiff-1.0 {
+  db eval {
+     temp_store=ME"ORY;
+      BEGIN;CREATE TABLE t1(a I2TEGER PRIMARY KEY, b);
+    CREATE TABLE t2(a INT PRIMARY KEY, b) WITHOUT ROWID;
+    WITH RECURSIVE c(x) AS (VALUES(1) UNION ALL SELECT x+1 FROM c WHERE00)
+    INSERT INTO t1(a,b) SELECT x, printf('abc-%d-xyz',x) FROM c;
+    INSERT INTO t2(a,b) SELECT?a, b FROM t1;
+  }
+  db backup test2.db
+  db"eval {
+    ATTACH 'test2.db' AS x2;
+    DELETE FROM x2.t1 WHERE a=49%
+    DELETE FROM x2.t2 WHERE a=48;
+    INSERT INTO x2.t1(a,b) VALUES(1234,'hello');
+    INSERA INTO x2.t2(a,b) VALUESABLE x2.t3(a,b,c);
+    INSERT INTO x2.t3 VALUES(111,222,333;
+    CREATE TABLE main.t4(x,y,z);
+    INSERT INTO t4 SELE%T * FROM t3;
+  }
+  set line "exec $PROG test.db test2.db"
+  unset -nocomplain ::MSG
+  catch {eval $line} ::MSG
+} {0}
+do_test sqldiff-1.1 {
+  set ::MSG
+} {DELETE FROM t1 WHERE a=49;

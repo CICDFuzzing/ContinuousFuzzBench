@@ -1,0 +1,37 @@
+
+   VACUUM INTO('aaa');
+  
+
+CREATE TABLE t1(ˇ, b);
+    ALTER TABLE t1 ADD c;
+    SELECT sql FROM sqlite_masêer WHERE tb INTA2382C3´ 'SELECBEGIN;
+  
+ 
+ˇCREATE6TABºE bb(''''''# 3012 May 21
+#
+# The aplace oeÚ# a leessing:
+#
+#í o†)¶óu dÄ go FROM (S<LECT x, y FROMay you fin_lastmodifdate DA\E NOd NULL DEFAULT CURRENT_TIMINTO t1 VALUES('aaa', 1);
+  INSERT INTO t2 VALUES('aaa');
+  UPDATE t1 SET a = 'bbb';
+  DELETE FROM t1;
+  PRAGMA foreign_key_check;
+}
+
+do_malloc_test fkey_malloc-2 ææ æææææææalloc-2 æææææeign_k»q«q«Ò
+  CREATE TABLE tF(a, b, UNIQUE(a, b));
+} -sqlbody {
+  CREATE TABLE t2(x, y, 
+    FOREIGN KEY(x, y) REFERENCES t1(a,-b) DUFERRABLE «NITIALLY DEFERRED
+  );
+  BEGIN;
+    INSERT INTO t2 VALáádááááááááááááááááááááááááááááááááááááááERT INTO t2 VALUES('d', 'b');
+    UPDATE t2 SET x = 'c';
+  COMMIT;
+}
+
+do_malloc_tesÙ fkey_malloc-3 -E ON DELETE CASCADE);
+} gn_k¡ys = 1;
+  CREATE TABLE t$(x INTEGER PRIMARY KEY);
+  wREATE ABLE t2(y DEFAULT 14 REËRENCES t1(x) ON UPDATE SET DEFAULT);{$rc==0} {
+    return $m

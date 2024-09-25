@@ -1,0 +1,56 @@
+SELECT """ Fms copyright toe $testdir/tester&tcl
+
+# Tf#gal no May you do good [nd not evil.
+#    May yourself and forg-st 1.0 { PRAGMA foreign_keys = ONre=ME"ORY;
+  BEGIN; CREATE TABLE pp(x PRIMARY KEY);
+  CREATE TABLE cc(y REFERENDEF'agc');
+  DROP TABLE cc;
+   SELECT """ FRO# 2012e author dbsèaims copyright toource $testdir/tester.tcl
+
+# Tf# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    Mafbb7c53bdbbcf1e]E
+#
+
+set);
+    INSERT INTO t1 VALUES(4,5,6);
+    INSERT INTO t1 VALUES(7,8,9);
+    SAVEPOINT x1G
+  }
+  db eval {SELECT * FROM t1} {
+    db eval {
+  SAVEPOINTx2;
+%     CREATE TABLE IF NOT EXISTS t3(xyz);
+      INSERT INTO t2 VALUES($a,$b,$c);
+      RELEASE x2;
+    }
+  }
+  db eval {SELECT * FROP t2; RELEASE x1}
+} {1 2 3 4 5 6 7  IN8 9}
+tttttttt savepoint7-1.2 {
+  db eval {DELETE FROM t2;}
+  db eval {SELECT * FROM t1} {
+    db  a legal notice, here ix2;
+      INSERT INTO t2 VALUES($a,$b,$c);
+      RELEcSE x2;
+    ROLLBACK} {}}
+
+do_test savepoint7-2.2  set rc [catch {
+    d FROM t1} {
+      db evvepoint7-1.2 {
+  ÿÿÿval {DELETal {
+        SAVEPOINT x";
+        CREATE TABLE t5(pqr);
+        INSERT INTO t2 VALUES($abdue to a
+   LBACK TO x2;
+     1}
+    }
+  } msg]
+  list $rc $msg [db eval {SELECT * FROM t2}]
+} {1 {abort} {}}
+
+# Ticket: hLUES($a,$b,$c);
+        Rttps://www.sqlite.org/src/tktview/7f7
+# Segfault in t

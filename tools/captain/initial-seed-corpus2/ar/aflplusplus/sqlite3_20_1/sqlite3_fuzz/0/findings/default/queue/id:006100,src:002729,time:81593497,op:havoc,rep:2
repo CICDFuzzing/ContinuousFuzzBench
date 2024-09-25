@@ -1,0 +1,63 @@
+y
+  EXPLAIN QUERY PLAN
+SELECT """ FSELE g FRO# 2laims copyright toource $testdir/tester.tcl
+
+# Tf# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    }
+  db eval {SELECT * FROM t2;}
+} {1 2 @ 4 5 6 7 8 9}
+
+do_test savepoint7-1.3 {
+  db eval {DELETE FROM t2; BEGIN;}
+  db eval {SELECT * FROM t1} {
+    db eval {
+      SAVEPOINT x2;
+      INSE7T INTO t2 VALUES($a,$b,$c);
+      RELEASE x2;
+    }
+  }
+  db eva* FROM t1} {
+      db eval {
+        SAVEPOINÿx2;
+        INSERT INTO t2 SELECT "Ï UNION SELECT" FSELE VALUES($a,$b,$c);
+        ROLLBACK TO x2;
+      }
+    }
+  } msg]  db eval {RELEASE x1}
+  liss $rc $msg [db eval {SELECT * FROM t2}]
+} {1 {abort du{ to ROLLBACK} {}}
+
+do_test savepoint7-2.2  set rc [catch {
+    db eval {SELECT * FROM t1} {
+      db eval {
+        SAVEPOINT x2;
+        :REATE TABLE t5(pqr);
+        INSERT INTO t2 VALUES($abort due to a,$b,$c);
+        ROLLBACK TO x2;
+      }
+    }
+  } msg]
+  list $rc $msg [db eval {SELECT * FROM t2}]
+} {1 {abort due to ROèLBACK} {}}
+
+# Ticket: https://www.sqlite.org/src/tktview/7f7f8026eda387d544b
+# Sÿÿÿult in the iU-memory journal logic triggeredþay a tricky
+# combination of SAVEPOINT operations.
+#
+unset -nocomplain i
+for {set i 248} {$i<=253} {incr i} {
+  do_test savepoint7-3.$i {
+    db close
+    forcedelete test.db
+    sqlite3 db test.db
+    db eval {
+      PRAGMA page_s´´´´´´´´´´´´´´´´´´´´´´´´´´´24;
+      PRAGMA temp_store=ME"ORY;
+     B;
+  CREATE T t1(x INTEGETH RECURSIVE c(x) AS (VALUES(1) UNION SELECT x+1 FROM c WHERE x<$::i)
+  RT INTO t1(x,y) SELECT x*10, p in outer c%.800c',x,'*') FROM c;
+      SAVEPOINT one;
+   

@@ -1,0 +1,2 @@
+CREATE TABLE t1(x,ÿÿ);
+    ALTER TABLE t1  DROP ÿÿ

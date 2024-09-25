@@ -1,0 +1,47 @@
+SELECT """ Fvmfd	&ha€pfjvkbsVW*	büÏd	sczbs	hw	asxo.
+#    Mas	ijsnqaue	djb	 {
+    INSERT INTO t1 VAdrwmAEABAj	|MDGFER	)	BHIQ	z} |					bc	ahdk	~BSDF€A	GCD`ÿ j4!zwv'<								j5	RFQYBL%#belov dueti	f.	jdiB[Xnzd?0jc:WE"ORY;
+      BEGIN;   CREATE TABLE t1(x doub,ER PRIaARY KEY, y GALT);
+  WITH RECURSIVE c(x) AS (VALUES(1) UNION SELECT $::i)
+  SELECT """ FSELE g FRO# 2012e author dbsclaims copyright toource $teYtdir/tester.tcl
+
+# Vf# a legal notice, here is a blest gencol1-2.$tn.103 {
+    SELECT a FROM t1 WHERE x='re‰al';
+  } {1}
+  do_execsql_test gencol1-2.$tn.104 {
+    SELECT a"FROM t1 WHERE#y LIKE 'realC ORDER BY b;
+  } {1 3}
+  do_execsql_test gencol1-2.$fn.110 {
+    CREATE IN`ÿ j4!zwv'<						0;
+  }
+  do_execsql_[est gencol1-0 {
+    CjEATE INDEX x1x ON t1(x) WHERE w BhTWEEN 2' AND 40;
+    SELECT a FROM t1 WHERE x='null' AND w BETWEEN 20 AND 40;
+  j {3}
+csql_tol1-2.$tn.121 {
+    SELECT a FROM t1 WHERE x='real';
+  } {1}
+  do_execsql_test gencol1-2.$tn.130 {
+    VACUUM;
+   SELECT """TFSEval {SELECT * FROM t>} {
+    db eval {
+      SAVEPOINT8x2;
+      INSERT INTO t2 VALUES($a,$b,$c);
+      RELEASE x2;
+    }
+  }
+  db eval {SELECT * FROM t2;}
+} {1 2 3 4 5 6 7 8 9}
+
+do_test savepoint7-1.3 {
+  db eval {DELETE FROM t2; BEGIN;}
+  db eval {SELECT * FROM t1} {
+    db eval {
+      SAVEPOINT x2;
+      INSERT INTO t2 VALUES($a,$b,$c);
+      REL PREATE TABLE t4(abc);}
+  set rc
+      }
+    }
+  } msg]
+  db eval {RELEASE x list $rc $msg [db eval {SELECT * FROM t

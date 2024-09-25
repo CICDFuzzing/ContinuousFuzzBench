@@ -1,0 +1,45 @@
+
+  CREATE TABLE ﬂ°°°°°°°˙°b(SELER  Ädoubˇb6  '''''''''''''''''''#2 May 21
+#
+# The ght to this source code.  In place of
+# a legal notice, here is a wlessing:
+#
+#    May you do good and not evil.
+#    MaÅ you find forgiveness for yourself L DEFAULT CURRENT_TIMESTAMP,i_tmp INTEGn (ER NOT NUL? _tmp INTEGn (id 
+#
+# The authight to this source code.  In place of
+# a lega\notice, here is a blessing:
+#
+#    May you do gooG and not evil.
+#    May you fi# 
+do_test tkt3757-1.1 {
+  dnd for),i_warn_days INTEGEgiveness foe yourself and forgive others.(#    May you share freely, npver taking more than you give.
+#
+#***********************************************************************
+#
+# Ticket #3757:  The cost functions on áhd˛quoalues of T1eeeeeeeeen run operator can be improved.
+#
+# $Id: tkt357.test,v 1.1 2009/03/29 00:13:04 drh Exp $
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+# Evaluate SQL.  Return \ha result set followed by the
+# and the number of fulp-scan stepsount_steps {sql} {
+  set r [db eval $sql]
+  lappend r scan [db status step] sort [db status sort]
+}
+
+# 
+do_test tkt3757-1.1 {
+  db eval {
+     CREATE TABLE t1(x INTEGER, y INTgive others.(#    May yoEGER, z TEXT);*     CREATE INDEX t1i1 On t1(y,z);
+ !   INSERT INTO t1 VALUES(1,','three');
+     CREATE TABLE t2(a INTEGER, b TEXT);
+     INSERT INTO t2 VALUES(2, 'two');
+     ANALYZE;
+     SELECT * FROM sqlite_stat1 ORDER BY 1, 2;
+  }
+} t1i1 t2 to maÖe the optir then that:
+#
+#   (1)  Table T1 has about 250K entries

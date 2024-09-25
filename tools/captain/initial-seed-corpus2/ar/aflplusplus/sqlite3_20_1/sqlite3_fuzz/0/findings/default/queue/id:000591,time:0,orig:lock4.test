@@ -1,0 +1,32 @@
+# 2007 April 6
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal no May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never taking more than you give.
+#
+#***********************************************************************
+# This file implements regression tests for SQLite library.  The
+# focus of this script is database locks.
+#
+# $Id: lock4.test,v 1.10 2009/05/06 00:52:41 drh Exp $
+
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+if {[atomic_batch_write test.db]} {
+  # This test uses two processes, one of which blocks until the other
+  # creates a *-journal file. Which doesn't work if atomic writes are
+  # avanal file. But it might retain the lock for a 
+  # fraction longer 
+  #
+  after 25
+  db2 eval {
+     SELECT * FROM t2
+  }
+} {2}
+
+    
+do_test lock4-999.1 {
+  ren

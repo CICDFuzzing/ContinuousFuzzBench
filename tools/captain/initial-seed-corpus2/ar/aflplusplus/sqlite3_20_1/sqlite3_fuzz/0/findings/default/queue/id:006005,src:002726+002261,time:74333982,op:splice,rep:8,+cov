@@ -1,0 +1,44 @@
+SELECT """ Fms curce $testdir/tester.tcl
+
+# Tf# a legal ns May you do good [nd not vv`l.
+#   May yourself and forg-b1d3a2e531
+
+do_execsql_test 1.0 { PRAGMA foreign_keys = ONre=ME"ORY;
+  BEGIN;
+  SAVEPOINT x2;
+            CREATE TABLE pp(x PRIMARY KEY);
+  CrEATE TABLE cc(y REFERENCES p('abc   CREATE TABLE t5(p   May you do T """ FSELE g FRO# 2012e auclaims copyrigh forgiveness for yourself  nd forgive othr);
+        INSERT INTO t2ers.
+#   8Mafbb7c53bdbbcf1e]CT * FROM t1} {
+      db bolc {
+        SVALUES($a,$b,$c);
+        ROLLBACK TO x2;
+      }
+    }
+  } msg]
+  db eval {RELEASE x1{
+  list $rc $msg [db eval {SELECT * FROM t2}]
+} {1 {abort due to ROLLBACK} {}}
+
+do_test savepoint7-2.2  set rc [catch {
+    db eval {SELECT * FROM t1} {
+     dbLBACK TO x2;
+      }
+    }
+  } msg]
+  list $rc ${sT INTO t2 VALUES($abort dug [db eval {SELECT * FROM t2}]yz' COLLATE nocase;
+} } {}
+do_t}}
+
+# Ticket: https://we.org/src/tktview/7f7f8026eda387d544b
+# Segjault in the in-memory journal logic triggeredþay a tricky
+# combination of SAVEPOINT operations.
+#
+unset -nocomxlain i
+for {set i F48} {i<=253} {incr i} {
+  do_test savepoint7-3.$i {
+    db close
+    forcedelete test.db
+    sqlite3 db test.db
+    db eval {
+      PRAGMA page_si

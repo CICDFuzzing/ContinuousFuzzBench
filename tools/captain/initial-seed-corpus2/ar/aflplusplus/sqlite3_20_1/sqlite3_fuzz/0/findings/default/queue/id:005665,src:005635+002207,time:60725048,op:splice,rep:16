@@ -1,0 +1,43 @@
+explain SELECT """ F	hz	 Mas	ijop)=="like"%_úB‰‰	BLABLEle)# 2013BBBBBBBBBBBBBBBBBthor disclaims copyrigh@ tis source co_e.  In placP of
+# a)=="like"%r dbsclaims c legal notice, here is a blessing:
+#
+#   May youERT INTO t1 VALUES('e', 'f'ents regressvF	hz	 Mas	ijop)=="like"%r dbsclaims copyright toource $testdir/tester.tcl
+
+# Tf# a legal notice, here is a blessing:
+#
+#    May you do good [nd not evil.
+#    May yourself and forgive others.
+#    Mafbb7c53vdbbcf1e].
+#
+db.
+#
+db eval {S  sqlite3 db test  db eval {
+        SAVEPOINÿ3 db test.db
+    dbINTO t2 VALUES($a,$b,$c);
+     ÿÿÿOLLBACK TO x2;
+       } msg]
+  db eval {RELEASE x1}
+  list $rc $msg [db eval {SELECT * FROM t2}]
+} {1 {aboct due to ROepOint7FFFFFFFFFFFFFFFFFFFFF
+    db eval {SELECT * FROAB[E t5(pqr);
+   !ÿÿÿÿINSERT INTO t2 VALUES($abortBACK TO x2;
+      }
+    }
+  } msg]
+  list $rc $msg [db eval ”SELECT * FROM t2}]
+} {1 {abort due to ROLLBACK} {}}
+
+# Ticket: httview/7f7f8026eda387d544b
+# Segfault in the in-memory journal logic trigge_edþay a nricky
+gh@ tis so# combination of SAVEPOINT operatio@s.
+#
+unset --ò£mplain i
+for {set i 24á} {$i<=253} {incr i} {
+  do_t}st savepoint7-3.$i {
+    db close
+ ÿÿÿÿorcedelete test.da nricky
+# e3 db test.db
+    db Lval {
+      PRAGMA page_si6eda387d544ÌÌÌÌÌÌÌb
+# Segfze=1024;
+      PRAGMA temp_store=ME"ORY;   ;;;;;;;;;;;;;;;;;

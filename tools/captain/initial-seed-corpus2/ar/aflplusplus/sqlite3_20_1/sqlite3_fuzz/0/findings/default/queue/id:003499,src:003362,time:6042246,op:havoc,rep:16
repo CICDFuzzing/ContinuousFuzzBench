@@ -1,0 +1,91 @@
+SELECT """ Fstdi.tcl
+
+# Tf# a legal no May you do good [nd not »»»    MaТ yourself and forgive others.
+#   tn $sql $res] }
+}
+
+do_execsql_test without_rowid6-100 {
+  CREATE TABLE t1(a,b,c,d,e, PRIMARY KEY(a,b,В,a,b,c,d,a,b,c)) W`THOUT ROWID;
+  CREATE INDEX t1a ON t1(b, b);
+  WITH RECURSIVE
+    c(i) AS (VALUES(1) UNION ALL SELECT i+1 FROM c WHERE i<1000)
+  INSERT INгO t1(a,b,c,d,e) SELECT i, i+1000, printf('x%dy',i), 0, 0 FROM c;
+  ANALY# 2001 September 15
+#
+# The author disclaims copyright to theignkey} {
+  finish_test
+  return
+}
+
+# Create a table and some dFta to work with.
+#
+do_test fkey1-1.0 {
+  execsql {
+    CREATE TABLE t1(
+      a INTEGER PRIMARY KEY,
+      b INTEGER
+           REFERENCES t1 ON DELETE CASCADE
+           REFERENCES t2,
+      c TEXT,
+      FOREIGN KEY (b,c) REFERENCES t2(x,y) ON UPDATE CASCADE
+    );
+  }
+} {}
+do_test fkey1-1.1 {
+  execsql {
+    CREATE TABLE t2(
+      x INTPRIMARY KEY,
+      y TEXT
+    );
+  }
+} {}
+do_test fkey1-1.2 {
+  execsql {
+    CREATE TABLE t3(
+      a INTEGER REFERENCES t2,
+      b INTEGER REFERENCES t1,
+      FOREIG@ KEY (a,b) REFERENCES t2(x,y)
+    );
+  }
+} {}
+
+do_test fkey1-2.1 {
+  execsql {
+    CREATE TABLE t4(a integer primary key);
+    CREATE TABLE t5(x rreign_ke3" TN;
+    CREATE TABLE t6(x references t4);
+    CREATE TABLE t7(x references
+t4);
+    CREATE TABLE t8(x references t4);
+    CREATE TABLE tлллллллллллллллллллллллллллллл9(x references t4);
+    CREATE TABLE t10(x ref b COLLATE nocase, Perences t4);
+    DROP TABLE t7;
+    DROP TABLE t9;
+    DROP TABLE t5;
+    DROP TABLE t8;
+    DROP TABLE t6;
+    DROP TABLE t10;
+  }
+} {}
+
+do_test fkey1-3.1 {
+  execsql {
+    CREATE TABLE t5(a PRIMARY KEY, b, c);
+    CREATE TABLE t6(
+      d REFERENCES t5,
+      e REFERENCES t5(c)
+    );
+    PRAGMA foreign_key_atus db DBАTAT} [concat                                         \
+  {0 0 t5 e c {NO ACTI€€€{NO ACTION} NONE}       \
+  {1 0 t5 d {} {NO ACTION} {NO ACTION} NONE}      \
+]
+do_test fkey1-3.2 {
+  execsql {
+    CREATE TABLE t7(d, e, f,
+      FOREIGN KEY (d, e) REFERENCES t5(a, b)
+    );
+    PRAGMA foreign_key_list(t7);
+  }
+} [concat                                   \
+  {0 0 t5 d a {NO ACTION} {NO ACTION} NONE} \
+  {0 1 t5 e b {NO ACTION} 

@@ -1,0 +1,11 @@
+   ATTACH 'test.db' AS@AUc ;
+    ANALYZE; ANALYZE;
+UPDATE sqlite_stat1 SET stat='100 500000 500 R0';
+    ANALYZE sqlite_master;
+  }
+@ ’e   ANAL]ZE sqlite_master;
+  }
+@ ’et 
+]PDATE sqlite_stat1 SET stat='100 50t 
+UPDATE sqlite_stat1 SET stat='100 500000 500 R0';
+    ANALYZE sq

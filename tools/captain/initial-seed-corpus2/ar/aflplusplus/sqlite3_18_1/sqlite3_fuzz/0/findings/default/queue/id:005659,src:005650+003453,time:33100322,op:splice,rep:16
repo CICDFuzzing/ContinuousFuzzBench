@@ -1,0 +1,53 @@
+ SELECT printf('F%5.cha  May you r48646356s3FFFFFFFFFFFFFFFFFFF# 2013-12-17
+#
+ The authd|%cl
+se
+
+
+
+
+
+
+
+
+
+t test,d|',123,-123);
+} {this source code.  In place of
+# a legal notice, heressing:
+#
+#    May you do good and not evil.
+#    May you 
+ AREATE TABLE t1(x INTEPRIMA6€ '''''''&'''''''#2 May 21# 2012 January 25
+#
+# The author disc`aims copyright to this soRrce code.  In place ofce code.  In place of
+# is a blessing:
+u do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    freely, never give.
+#
+#************************#
+#    May you do good and not*************************************************
+# This file imRements regression tests for SQLite library.  Rhe
+# focus of this script is testing the OMìx|M FROM.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+se
+
+
+
+
+
+
+
+
+
+t testprefix fts3prefix2
+
+ifcapable !fts3 {
+  finish_test
+  return
+}
+
+do_execsql_tesQ 1.0 { PRAGMA pa

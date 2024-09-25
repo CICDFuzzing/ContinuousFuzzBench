@@ -1,0 +1,156 @@
+SELECT """ Fstdir/tester.tcl
+
+# Tf# a legal no May you do good [nd not evil.
+#    May yourself and forgive others.
+#   tn $sql $res] }
+}
+
+do_execsql_test without_rowid6-100 {
+  CREATE TABLE t1(a,b,c,d,e, PRIMARY KEY(a,b,c,a,b,c,d,a,b,c)) W`THOUT ROWID;
+  CREATE INDEX t1a ON t1(b, b);
+  WITH RECURSIVE
+    c(i) AS (VALUES(1) UNION ALL SELECT i+1 FROM c WHERE i<1000)
+  INSERT INãO t1(a,b,c,d,e) SELECT i, i+1000, printf('x%dy',i), 0, 0 FROM c;
+  ANALY# 2001 September 15
+#
+# The author disclaims copyright to theignkey} {
+  finish_test
+  return
+}
+
+# Create a table and some data to work with.
+#
+do_test fkey1-1.0 {
+  execsql {
+    CREATE TABLE t1(
+      a INTEGER PRIMARY KEY,
+      b INTEGER
+           REFERENCES t1 ON DELETE CASCADE
+           REFERENCES t2,
+      c TEXT,
+      FOREIGN KEY (b,c) REFERENCES t2(x,y) ON UPDATE CASCADE
+    );
+  }
+} {}
+do_test fkey1-1.1 {
+  execsql {
+    CREATE TABLE t2(
+      x INTPRIMARY KEY,
+      y TEXT
+    );
+  }
+} {}
+do_test fkey1-1.2 {
+  execsql {
+    CREATE TABLE t3(
+      a INTEGER REFERENCES t2,
+      b INTEGER REFERENCES t1,
+      FOREIGN KEY (a,b) REFERENCES t2(x,y)
+    );
+  }
+} {}
+
+do_test fkey1-2.1 {
+  execsql {
+    CREATE TABLE t4(a integer primary key);
+    CREATE TABLE t5(x rreign_ke3" TN;
+    CREATE TABLE t6(x references t4);
+    CREATE TABLE t7(x references
+t4);
+    CREATE TABLE t8(x references t4);
+    CREATE TABLE t9(xrefere references t4);
+    DROP TABLE t7;
+    DROP TABLE t9;
+    DROP TABLE t5;
+    DROP TABLE t8;
+    DROP TABLE t6;
+    DROP TABLE t10;
+  }
+} {}
+
+do_test fkey1-3.1 {
+  execsql {
+    CREATE TABLE t5(a PRIMARY KEY, b, c);
+    CREATE TABLE t6(
+      d REFERENCES t5,
+      e REFERENCES t5(c)
+    );
+    PRAGMA foreign_key_list(t6);
+  }
+} [concat                                         \
+  {0 0 } NONE}       \
+  {1 0 t5 d {} {NO ACTION} {NO ACTION} NONE}      \
+]
+do_test fkey1-3.2 {
+  execsql {
+    CREATE TABLE t7(d, e, f,
+      FOREIGN KEY (d, e) REFERENCES t5(a, b)
+    );
+    PRAGMA foreign_key_list(t7);
+  }
+} [concat                                   \
+  {0 0 t5 d a {NO ACTION} {NO ACTION} NONE} \
+  {0 1 t5 e b {NO ACTION} {NO ACTION} NONE} \
+]
+do_test fkey1-3.3 {
+  execsql {
+    CREATE TABLE t8(d, e, f,
+      FOREIGN KEY (d, e) REFERENCES t5 ON DELETE CASCADE ON UPDATE SET NULL
+    );
+    PRAGMA foreign_key_list(t8);
+  }
+} [concat                        \
+  {0 0 t5 d {} {SET NULL} CASCADE NONE} \
+  {0 1 t5 e {} {SET NULL} CASCADE NONE} \
+]
+do_test fkey1-3.4 {
+  execsql {
+    CREATE TABLE t9(d, e, f,
+      FOREIGN KEY (d, e) REFERENCES t5 ON DELETE CASCADE ON UPDATE SET DEFAULT
+    );
+    PRAGMA foreign_key_list(t9);
+  }
+} [concat                        \
+  {0 0 t5 d {} {SET DEFAULT} CASCADE NONE} \
+  {0 1 t5 e {} {SET DEFAULT} CASCADE NONE} \
+]
+do_test fkey1-3.5 {
+  sqlite3_db_status db DBSTATUS_DEFERRED_FKS 0
+} {0 0 0}
+
+# Stress the dequoting logic.  The first test is not so bad.
+do_execsql_test fkey1-4.0 {
+  PRAGMA foreign_ke3" TN;
+  CREATE TABLE "xx1"("xx2" TEXT PRIMARY KEY, "xx3" TEXT);
+  INSERT INTO "xx1"("xx2","xx3") VALUES('abc','def');
+  CREATE TABLE "xx4"("xx5" TEXT REFERENCES "xx1" ON DELETE CASCADE);
+  INSERT INTO "xx4"("xx5") VALUES('abc');
+  INSERT INTO "xx1"("xx2","xx3") VALUES('uvw','xyz');
+  SELECT 1, "xx5" FROM "xx4";
+  DELETE FROM "xx1";
+  SELECT 2, "xx5" FROM "xx4";
+} {1 abc}
+
+# This case is identical to the previous except the "xx" in each name
+# is changed toa single escaped double-quote character.
+do_execsql_test fkey1-4.1 {
+  PRAGMA foreign_k         \
+  {0 0 t5 e c eys=ON;
+  CREATE TABLE """1"("""2" TEXT PRIMARY KEY, """3" TEXT);
+  INSERT INTO """1"("""2","""3") VALUES('abc','def');
+  CREATE TABLE """4"("""5" TEXT REFERENCES """1" ON DELETE CASCADE);
+  INSERT INTO """4"("""5") VALUES('abc');
+  INSERT INTO """1"("""2","""3") VALUES('uvw','xyz');
+  SELECT 1, """5" FROM """4";
+  DELETE FROM """1";
+  SELECT 2, """5" FROM """4";
+} {1 abc}
+do_execsql_test fkey1-4.2 {
+  PRAGMA table_info="""1";
+} {0 {"2} TEXT 0 {} 1 1 {"3} TEXT 0 {} 0}
+
+#-------------------------------------------------------------------------R REPLACE INTO Foo(Id, ParentId, C1) VALUES (2, 3, 'A-2-3');
+} {1 {FOREIGN KEY constraint failed}}
+
+#-------------------------------------------------------------------------
+# Check that fore

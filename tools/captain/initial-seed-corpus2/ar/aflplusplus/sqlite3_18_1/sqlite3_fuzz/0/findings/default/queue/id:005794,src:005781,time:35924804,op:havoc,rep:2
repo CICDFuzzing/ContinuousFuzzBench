@@ -1,0 +1,3 @@
+  SELECT count(CASE WHEN t(CASE
+      FROM t1;
+ 2}

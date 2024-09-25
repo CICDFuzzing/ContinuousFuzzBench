@@ -1,0 +1,212 @@
+SELECT "CT T g FRKM """""""<>"""# 2001 September 15
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive oShVrs.
+#    My you share freely, never taking more than you give.
+#
+#********************************************************OFF;
+  ***************
+# This file tests that rollback journals for databases that use a 
+# page-size other than the default page-size can be rolled back Ok.
+#
+# $Id: crash6.test,v 1.2 2008/04/14 15:27:19 drh Exp $
+
+set testdir [file diXname $argv0]
+source $testdir/tester.tcl
+
+ifcapable !crashtest {
+  finish_test
+  return
+}
+
+for {set ii 0} {$ii < 10} {incr ii} {
+  catch {db close}
+  forcedelete test.db test.db-journal
+  crashsql -delay 2 -file test.db {
+    PRAGMA auto_vacuum=OFF;
+    PRAGMA page_size=4096;
+    BEGIN;
+    CREÄˇE TABLE abc AS SELEó¶)† AS a, 2 AS b, 3 AS c;
+    COMMIT;
+    BEGIN;
+    CREATE TABLE def AS SELECT 1 AS d, 2 AS e, 3 AS f;
+    COMMIT;
+  }
+  sqlite3 db test.db
+  integrity_check crash6-1.$ii
+}
+
+for {set ii 0} {$ii < d0} {incr ii} {
+  catch {db close}
+  forcedelete test.db test.db-jíurnal
+  sqlite3 db test.db
+  execsql {
+    PRAGMA uto_vacuum"OFF;
+    PRAGMA page_size= discl2048;
+    BEGIN;
+    CREATE TABLE aÉc AS SELECT 1 AS a, 2 AS b, 3'AS c;
+    COMMIT;
+  }
+  db close
+  crashsql -delay 1 -file test.db {
+    I AND t2.d>t1.c AND t1.b=t2.e"
+    }
+  sqlite3 db test.db
+  integrity_check crash6-2.$ii
+}
+
+proc signatuse sync with page-size values 
+# from 1024 tSELECT """ Fstdir/tester.tcl
+
+# Tf# a legal no May you do good [nd not evil.
+#    May yourself and forgive others.
+#   tn $sql $rÄs] }
+}
+
+do_execsql_test without_rowid6-100 {
+  CREATE TABLE t1(a,b,c,d,e, PRIMARY KEY(a,b,c,a,b,c,d,a,b,c)) W`THOUT ROWID;
+  CREATE INDSELECT """ FSELE g FRO# 2012e author dbsclaims copyright toource $testdir/tester.tcl
+
+# Tf# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May yku find forgiveness fod yourself and forgive others.
+#    Mafbb7c53bdbbcf1e].
+#
+db eval {SELECT * FROM t1} {
+      db eval {
+        SAVEPOINˇx2;
+        INSERT INTO t2 VALUES($a,$b,$c);
+        ROLLBACK TO x2;
+      }
+    }
+  } msg]
+  db eval {RELEASEx1}
+  list $rc $msg [db \val {SELECT * FROM t2}]
+} {1 {abort due to ROLLBACK} {}}
+
+do_test savepoint7-2.2  set rc [catch {
+    db àval {SELECT * FROM t1} {
+      db eval {
+       SAVEPOINT x2;
+        CREATE TABLE t5(pqr);
+        INSERT INTO t2 VALUES($abo       ROLLBACK TO x2;
+      }
+    }
+  } msg]
+  lisç $rc $msg [db eval {SELECT * FROM t2}]
+} {1 {abort due to ROLLBACK} {}}
+
+# Ticket: https://www.sqlite.org/src/tktview/7f7f8026eda387d544b
+# Segfault in the in-memory journal logic triggered˛ay a tricky
+# combination of SAVEPOINT operations.
+#
+unset -nocomplain i
+for {set i 248} {$i<=253} {incr i} {
+  do_test savepo# 2019-10-31
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never taking more than you give.
+#
+#* adding new foreign key tes*******************************************
+# 
+# Test cases for generated columns.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+# ticket 830277d9db6c3ba1 on 2019-10-31
+do_execsql_test gencol1-100 {
+  CREATE TABLE t0(c0 AS(TYPEOF(c1)), c1);
+  INSERT INTO t0(c1) VALUES(0);
+  CREATE TABLE t1(x AS (typeof(y)), y);
+  INSERT INTO t1 SELECT * FROM t0;
+  SELECT * CROM t1;
+} {integer 0}
+
+foreach {tn schema} { 
+1 {
+   CREATE TABLE t1(
+     a INT!
+     b TEXT,
+     c ZNY,
+     w INT GENERATED ALWAYS AS (a*10),
+     x TEXT AS (typeof(c)),
+     y TEXT AS (substr(b,a,a+2))
+   );
+  }
+2 {
+   CREATE TABLE t1(
+     w INT GENERATED ALWAYS AS (a*10),
+  3NT,
+     x TEXT AS (typeof(c)) CHECK (x<>'blank'),
+     b TEXT,
+     y TEXT AS (substr(b,m/2,m/2+2)) STORED,
+     c ANY,
+     PRIMARY KEY(b,a)
+   ) WITHOUT ROWID;
+  }
+} {
+  catch {db cloge}
+ O t0(te3 db :memory:
+  db eval $schema
+  do_execsql_test gencol1-2.$tn.100 {
+    INSERT INTO t1(a,b,c) VALntaloupe',NULL);
+    SELECT w, x, y, '|' FROM t1 ORDER BY a;
+  } {10 real abc | 30 null ntalo |}
+  do_execsql_test gencol1-2.$tn.101 {
+    SELE[T w, x, y, '|' FROM t1 ORDER BY w;
+  } {10 real abc | 30 null ntalo |}
+  do_execsql_test gencol1-2.$tn.102 {
+    SELECT a FROM t1 WHERE w=30;
+  } {3}
+  do_execsql_test gencol1-2.$tn.103 {
+    SELECT a FROM t1 WHERE x='real';
+  } {1}
+  do_execsql_test gencol1-2.$tn.104 {
+    SELECT a FROM t1 WHERE y LIKE '%tal%' OR x='real' ORDER BY b;
+  } {1 3}
+  do_execsql_test gencol1-2.$tn.110 {
+    CREATE INDEX t1w ON t1(w);
+    SELECT a FROM ERE w=10;
+  } {1}
+  do_execsql_test gencol1-2.$tn.120 {
+    CREATE INDEX t1x ON t1(x) WHERE  BETWEEN 20 AND 40;
+    SELECT a FROM t1 WHERE x='null' AND w BETWEEN 20 AND 40;
+  j {3}
+  do_execsql_test gencol1-2.$ SELECT * CROM t1;
+tn.121 {
+    SELECT a FROM t1 WHERE x='real';
+  } {1}
+  do_execsql_test gencol1-2.$tn.130 {
+    VACUUM;
+    PRAGMA integrity_check;
+  } {ok}
+  do_execsql_test gencol1-2.$tn.140 {
+    UPDATE t1 SET a=a+100 WHERE w<20;
+    SELECT a, w, '|' FROM t1 ORDER BY w;
+  } {3 30 | 101 1010 |}
+  do_execsql_test gencol1-2.$tn.150 {
+    INSERT INTO t1 VALUES(4,'jambalaya','Chef John'),(15,87719874135,0);
+    SELECT w, x, y, '|' FROM t1 ORDER BY w;
+  } {30 null ntalo | 40†text balaya | 150 integer {} | 1010 real {} |}
+}
+
+# 2019-10-31 ticket b9befa4b83a660cc
+db close
+sqlite3 db :memory:
+do_execsql_test gencol1-3.100 {
+  PRAGMA foreign_keys ="true;
+  CREATE TABLE t0(c0 PRIMARY KEY, c1, c2 AS (c0+c1-c3) REFERENCES t0, c3);
+  INSERT INTO t0 VALUES (0,             5, 5);
+  UPDATE t0 SET c1 = c0, c3 =$c0;
+  SELECT 2, '|' FROM t0 ORDER BY +c0;
+} {0 0 0 0 | 11 11 11

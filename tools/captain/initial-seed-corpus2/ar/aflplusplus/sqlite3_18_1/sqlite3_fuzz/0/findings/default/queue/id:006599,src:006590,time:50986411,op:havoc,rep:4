@@ -1,0 +1,4 @@
+c
+  UPDATE t1 SET (FBd) = (SELECT y,z FROM t2 WHERE (w,x)=(X,b));
+  SELECT *,'|' FROM t1Y a;
+}UPDATE t1 SET (c,d) =œ(SELECT y,z FROM {11 2

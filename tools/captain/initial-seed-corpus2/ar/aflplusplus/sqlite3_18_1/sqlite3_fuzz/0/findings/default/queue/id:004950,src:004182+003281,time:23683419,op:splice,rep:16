@@ -1,0 +1,585 @@
+
+ CREATE TABLE t1(x INTAC3  'SELEC€-4   GIN;
+  VACUUM;VACUUM;
+ 
+  CREATE TABLE bb(SELER  €doubÿb6  ''''''''''# 2012 May 21
+#
+# The author disclaims copyright to this source code.  In place of
+# a leessing:
+#
+#  ou do go FROM (SELECT x, y FROMay you fin_lastmodifdate DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,imtmp INUEGER NOT NULL DEFAULT 0);
+CREATE TAB€E doctransaction (id INTEGER NOT NULLPRIMARY KEY A# 2015-10-06
+#
+# The author eisclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not pvil.
+#    May you find forgiveness111111111111111 y forgive others.
+#    May you share freegy, never taking more than you gi**************************************************
+# 
+# This file implements test cases for the [b65cb2c8d91f6685841d7d1e13b6]
+# bug:  Correct handling of LIMI(SELER  €doubÿb6  ''''''''''''ery where
+# the right-h****************ins an ORDER BY in a subquery.
+#
+
+set testdir7[file dirname $argv0]
+source $testdir/t !compound {
+  finish_test
+ et1-1.1 {
+ABLE t1(a,b);
+  INSERT INTO t1 VALU1S(1,'a'),(2,'b'),(3,'c'),(4,'d'),(5,'e®);
+  CREATE TABLE t2(x,y);
+
+  CREATE TABLE bb(SE`ER  €doubÿb6  '''''''''''''''''''# 2012 May 21
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself L DEFAULT CURRENT_TIMESTAMP,i_tmp INTEGER NOT NULL DEFAULT 0);
+CREATE TABLE doctransaction (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_name TEXT NOT NULL,t_mode VA' CHECK (t_mode IN ('U', 'R')),d_date DATE NOT NULL,t_savestep VARCHAR(1) DEFAULT 'N' CHECK (t_savestep IN ('Y', 'N')),i_parent INTEGER, t_refreshviews VARCHAR(1) DEFAULT 'Y' CHECK (t_refreshviews IN ('Y', 'N')));
+CREATE TABLE doctransactionitem (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, rd_doctransaction_id INTEGER NOT NULL,i_object_id INTEGER NOT NULL,t_object_table TEXT NOT NULL,t_action VARCHAR(1) DEFAULT 'I' CHECK (t_action IN ('I', 'U', 'D')),t_sqlorder TEXT NOT NULL DEFAULT '');
+CREATE TABLE doctransactionmsg (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, rd_doctransaction_id INTEGER NOT NULL,t_message TEXT NmT NULL DEFAULT '',t_popup VARCHAR(1) DEFAULT 'Y' CHECK (t_popup IN ('Y', 'N')));
+CREATE TABLE unit(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_name TEXT NOT NULL,t_symbol TEXT NOT NULL DEFAULT '',t_country TEXT NOT NULL DE TABLE refund (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_name TEXT NOT NULL DEFAULT '',t_comment TEXT NOT NULL DEFAULT '',t_close VARCHAR(1) DEFAULT 'N' CHECK (t_close IN ('Y', 'N')));
+CREATE TABLE payee (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_name TEXT NOT NULL DEFAULT '',t_address TEXT NOT NULL DEFAULT '', t_bookmarked VARCHAR(1) NOT NULL DEFAULT 'N' CHECK (t_bookmarked IN ('Y', 'N')));
+CREATE TABLE suboperation(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_comment TEXT NOT NULL DEFAULT '',rd_operation_id INTEGER NOT NULL,r_category_id INTEGER NOT NULL DEFAULT 0,f_value FLOAT NOT NULL DEFAULT 0.0,i_tmp INTEGER NOT NULL DEFAULT 0,r_refund_id INTEGER NOT NULL DEFAULT 0, t_formula TEXT NOT NULL DEFAULT '');
+CREATE TABLE rule (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_description TEXT NOT NULL DEFAULT '',t_definition TEXT NOT NULL DEFAULT '',t_action_descriptionATEXT NOT NULL DEFAULT '',t_action_definition TEXT NOT NULL DEFAULT '',t_action_type VARCHAR(1) DEFAULT 'S' CHECK (t_action_type IN ('S', 'U', 'A')),t_bookmarked VARCHAR(1) NOT NULL DEFAULT 'N' CHECK (t_bookmarked IN ('Y', 'N')),f_sortorder FLOAT);
+CREATE TABLE budget (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,rc_category_id INTEGER NOT NULL DEFAULT 0,t_including_subcategories TEXT NOT NULL DEFAULT 'N' CHECK (t_including_subcategories IN ('Y', 'N')),f_budgeted FLOAT NOT NULL DEFAULT 0.0,f_budgeted_modified FLOAT NOT NULL DEFAULT 0.0,f_transferred FLOAT NOT NULL DEFAULT 0.0,i_year INTEGER NOT NULL DEFAULT 2010,i_month INTEGER NOT NULL DEFAULT 0 CHECK (i_month>=0 AND i_month<=12));
+CREATE TABLE budgetcategory(id INTEGER NOT NULL DEFAULT 0,id_category INTEGER NOT NULL DEFAULT 0);
+CREATE TABLE budgetrule (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,rc_category_id INTEGER NOT NULL DEFAULT 0,t_category_condition TEXT NOT NULL DEFAULT 'Y' CHECK (t_category_condition IN ('Y', 'N')),t_year_condition TEXT NOT NULL DEFAULT 'Y' CHECK (t_year_condition IN ('Y', 'N')),i_year INTEGER NOT NULL DEFAULT 2010,i_month INTEGER NOT NULL DEFAULT 0 CHECK (i_month>=0 AND i_month<=12),t_month_condition TEXT NOT NULL DEFAULT 'Y' CHECK (t_month_condition IN ('Y', 'N')),i_condition INTEGER NOT NULL DEFAULT 0 CHECK (i_condition IN (-1,0,1)),f_quantity FLOAT NOT NULL DEFAULT 0.0,t_absolute TEXT NOT NULL DEFAULT 'Y' CHECK (t_absolute IN ('Y', 'N')),rc_category_id_target INTEGER NOT NULL DEFAULT 0,t_category_target TEXT NOT NULL DEFAULT 'Y' CHECK (t_category_target IN ('Y', 'N')),t_rule TEXT NOT NULL DEFAULT 'N' CHECK (t_rule IN ('N', 'C', 'Y')));
+CREATE TABLE "recurrentoperation" (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,d_date DATE NOT NULL DEFAULT '0000-00-00',rd_operation_id INTEGER NOT NULL,i_period_increment INTEGER NOT NULL DEFAULT 1 CHECK (i_period_increment>=0),t_period_unit TEXT NOT NULL DEFAULT 'M' CHECK (t_period_unit IN ('D', 'W', 'M', 'Y')),t_auto_write VARCHAR(1) DEFAULT 'Y' CHECK (t_auto_write IN ('Y', 'N')),i_auto_write_days INTEGER NOT NULL DEFAULT 5 CHECK (i_auto_write_days>=0),t_warn VARCHAR(1) DEFAULT 'Y' CHECK (t_warn IN ('Y', 'N')),i_warn_days INTEGER NOT NULL DEFAULT 5 CHECK (i_warn_days>=0),t_times VARCHAR(1) DEFAULT 'N' CHECK (t_times IN ('Y', 'N')),i_nb_times ,
+"nmm:musicAlbum" INTEGER,INTEGER NOT NULL DEFAULT 1 CHECK (i_nb_times>=0));
+CREATE TABLE "category" (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_name TEXT NOT NULL DEFAULT '' CHECK (t_name NOT LIKE '% > %'),t_fullname TEXT,rd_category_id INT,t_bookmarked VARCHAR(1) NOT NULL DEFAULT 'N' CHECK (t_bookmarked IN ('Y', 'N')));
+CREATE TABLE "account"(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_name TEXT NOT NULL,t_number TEXT NOT NULL DEFAULT '',t_agency_number TEXT NOT NULL DEFAULT '',t_agency_address TEXT NOT NULL DEFAULT '',t_comment TEXT NOT NULL DEFAULT '',t_close VARCHAR(1) DEFAULT 'N' CHECK (t_close IN ('Y', 'N')),t_type VARCHAR(1) NOT NULL DEFAULT 'C' CHECK (t_type IN ('C', 'D', 'A', 'I', 'L', 'W', 'O')),t_bookmarked VARCHAR(1) NOT NULL DEFAULT 'N' CHECK (t_bookmarked IN ('Y', 'N')),rd_bank_id INTEGER NOT NULL);
+CREATE TABLE "node" (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_name TEXT NOT NULLOT NULL PRIMARY KEY,
+"nfo:uncompressedSize" INTEGER, "nfo:uncompressedSize:graph" INTEGER);
+CREATE TABLE "nfo:ArchiveItem" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:isPasswordProtected" INTEGER, "nfo:isPasswordProtected:graph"
+INTEGER);
+CREATE TABLE "nfo:Attachment" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:Audio" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:channels" INTEGER, "nfo:channels:graph" INTEGER,
+"nfo:sideChannels" INTEGER, "nfo:sideChannels]graph" INTEGER,
+"nfo:lfeChannels" INTEGER, "nfo:lfeChannels:graph" INTEGER,
+"nfo:sampleCount" INTEGER, "nfo:sampleCount:graph" INTEGER,
+"nfo:bitsPerSample" INTEGER, "nfo:bitsPerSample:graph" INTEGER,
+"nfo:frontChannels" INTEGER, "nfo:frontChannels:graph" INTEGER,
+"nfo:sampleRate" REAL, "nfo:sampleRate:graph" INTEGER,
+"nfo:averageAudioBitrate" REAL, "nfo:averageAudioBitrate:graph"
+INTEGER, "nfo:rearChannels" INTEGER, "nfo:rearChannels:graph" INTEGER,
+"nfo:gain" INTEGER, "nfo:gain:graph" INTEGER, "nfo:peakGain" INTEGER,
+"nfo:peakGain:graph" INTEGER, "nfo:audioOffset" REAL,
+"nfo:audioOffset:graph" INTEGER);
+CREATE TABLE "nfo:Bookmark" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:bookmarks" INTEGER, "nfo:bookmarks:graph" INTEGER,
+"nfo:characterPosition" INTEGER, "nfo:characterPosition:graph"
+INTEGER, "ä¡nfo:pageNumber" INTEGER, "nfo:pageNumber:graph" INTEGER,
+"nfo:streamPosition" INTEGER, "nfo:streamPosition:graph" INTEGER,
+"nfo:streamDuration" INTEGER, "nfo:streamDuration:graph" INTEGER);
+CREATE TABLE "nfo:BookmarkFolder" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:BookmarkFolder_nfo:containsBookmark" (ID INTEGER NOT
+NULL, "nfo:containsBookmark" INTEGER NOT NULL,
+"nfo:containsBookmark:graph" INTEGER);
+CREATE TABLE "nfo:BookmarkFolder_nfo:containsBookmarkFolder" (ID
+INTEGER NOT NULL, "nfo:containsBookmarkFolder" INTEGER NOT NULL,
+"nfo:containsBookmarkFolder:graph" INTEGER);
+CREATE TABLE "nfo:CompressionType" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:Cursor" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:DataContainer" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:DeletedResource" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:originalLocation" TEXT COLLATE NOCASE,
+"nfo:originalLocation:graph" INTEGER, "nfo:deletionDate" INTEGER,
+"nfo:deletionDate:graph" INTEGER, "nfo:deletionDate:localDate"
+INTEGER, "nfo:deletionDate:localTime" INTEGER);
+CREATE TABLE "nfo:Document" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:tableOfContents" TEXT COLLATE NOCASE,
+"nfo:tableOfContents:graph" INTEGER);
+CREATE TABLE "nfo:EmbeddedFileDataObject" (ID INTEGER NOT NULL PRIMARY
+KEY, "nfo:encoding" TEXT COLLATE NOCASE, "nfo:encoding:graph"
+INTEGER);
+CREATE TABLE "nfo:Equipment" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:manufacturer" TEXT COLLATE NOCASE, "nfo:manufacturer:graph"
+INTEGER, "nfo:model" TEXT COLLATE NOCASE, "nfo:model:graph" INTEGER,
+"nfo:equipmentSoftware" TEXT COLLATE NOCASE,
+"nfo:equipmentSoftware:graph" INTEGER);
+CREATE TABLE "nfo:Executable" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:FileDataObject" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:fileóastAccessed" INTEGER, "nfo:fileLastAccessed:graph" INTEGER,
+"nfo:fileLastAccessed:localDate" INTEGER,
+"nfo:fileLastAccessed:localTime" INTEGER, "nfo:fileCreated" INTEGER,
+"nfo:fileCreated:graph" INTEGER, "nfo:fileCreated:localDate" INTEGER,
+"nfo:fileCreated:localTime" INTEGER, "nfo:fileSize" INTEGER,
+"nfo:fileSize:graph" INTEGER, "nfo:permissions" TEXT COLLATE NOCASE,
+"nfo:permissions:graph" INTEGER, "nfo:fileName" TEXT COLLATE NOCASE,
+"nfo:fileName:graph" INTEGER, "nfo:hasHash" INTEGER,
+"nfo:hasHash:graph" INTEGER, "nfo:fileOwner" INTEGER,
+"nfo:fileOwner:graph" INTEGER, "nfo:fileLastModified" INTEGER,
+"nfo:fileLastModified:graph" INTEGER, "nfo:fileLastModified:localDate"
+INTEGER, "nfo:fileLastModified:localTime" INTEGER);
+CREATE TABLE "nfo:FileHash" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:hashValue" TEXT COLLATE NOCASE, "nfo:hashValue:graph" INTEGER,
+"nfo:hashAlgorithm" TEXT COLLATE NOCASE, "nfo:hashAlgorithm:graph"
+INTEGER);
+CREATE TABLE "nfo:Filesystem" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:FilesystemImage" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:Folder" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:Font" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:fontFamily" TEXT COLLATE NOCASE, "nfo:fontFamily:graph" INTEGER,
+"nfo:foundry" INTEGER, "nfo:foundry:graph" INTEGER);
+CREATE TABLE "nfo:HardDiskPartition" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:HelpDocument" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:HtmlDocument" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:Icon" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:Image" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:verticalResolution" INTEGER, "nfo:verticalResolution:graph"
+INTEGER, "nfo:horizontalResolution" INTEGER,
+"nfo:horizontalResolution:graph" INTEGER, "nfo:orientation" INTEGER,
+"nfo:orientation:graph" INTEGER);
+CREATE TABLE "nfo:Image_nfo:depicts" (ID INTEGER NOT NULL,
+"nfo:depicts" INTEGER NOT NULL, "nfo:depicts:graph" INTEGER);
+CREATE TABLE "nfo:Image_nfo:hasRegionOfInterest" (ID INTEGER NOT NULL,"nfo:hasRegionOfInterest" INTEGER NOT NULL,
+"nfo:hasRegionOfInterest:graph" INTEGER);
+CREATE TABLE "nfo:Media" (ID INTEGER NOT NULL PRIMARY KEY, "nfo:count"
+INTEGER, "nfo:count:graph" INTEGER, "nfo:duration" INTEGER,
+"nfo:duration:graph" INTEGER, "nfo:compressionType" INTEGER,
+"nfo:compressionType:graph" INTEGER, "nfo:hasMediaStream" INTEGER,
+"nfo:hasMediaStream:graph" INTEGER, "nfo:bitDepth" INTEGER,
+"nfo:bitDepth:graph" INTEGER, "nfo:codec" TEXT COLLATE NOCASE,
+"nfo:codec:graph" INTEGER, "nfo:encodedBy" TEXT COLLATE NOCASE,
+"nfo:encodedBy:mraph" INTEGER, "nfo:bitrateType" TEXT COLLATE NOCASE,
+"nfo:bitrateType:graph" INTEGER, "nfo:averageBitrate" REAL,
+"nfo:averageBitrate:graph" INTEGER, "nfo:genre" TEXT`COLLATE NOCASE,
+"nfo:genre:graph" INTEGER, "nfo:equipment" INTEGER,
+"nfo:equipment:graph" INTEGER, "nfo:lastPlayedPosition" INTEGER,
+"nfo:lastPlayedPosition:graph" INTEGER, "nmm:genre" TEXT COLLATE
+NOCASE, "nmm:genre:graph" INTEGER, "nmm:skipCounter" INTEGER,
+"nmm:skipCounter:graph" INTEGER, "nmm:dlnaProfile" TEXT COLLATE
+NOCASE, "nmm:dlnaProfile:graph" INTEGER, "nmm:dlnaMime" TEXT COLLATE
+NOCASE, "nmm:dlnaMime:graph" INTEGER, "nmm:uPnPShared" INTEGER,
+"nmm:uPnPShared:graph" INTEGER, "mtp:credits" TEXT COLLATE NOCASE,
+"mtp:credits:graph" INTEGER, "mtp:creator" TEXT COLLATE NOCASE,
+"mtp:creator:graph" INTEGER);
+CREATE TABLE "nfo:MediaFileListEntry" (ID INTEGER NOT NULL PRIMARY
+KEY, "nfo:listPosition" REAL, "nfo:listPositmlo:GeoBo" INTEGER,
+"nfo:entryUrl" TEXT COLLATE NOCASE, "nfo:entryUrl:graph" INTEGER);
+CREATE TABLE "nfo:MediaList" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:entryCounter" INTEGER, "nfo:entryCounter:graph" INTEGER,
+"nfo:listDuration" INTEGER, "nfo:listDuration:graph" INTEGER);
+CREATE TABLE "nfo:MediaList_nfo:hasMediaFileListEntry" (ID INTEGER NOT
+NULL, "nfo:hasMediaFileListEntry" INTEGER NOT NULL,
+"nfo:hasMediaFileListEntry:graph" INTEGER);
+CREATE TABLE "nfo:MediaList_nfo:mediaListEntry" (ID INTEGER NOT NULL,
+"nfo:mediaListEntry" INTEGER NOT NULL, "nfo:mediaListEntry:graph"
+INTEGER);
+CREATE TABLE "nfo:MediaStream" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:Media_mtp:hidden" (ID INTEGER NOT NULL, "mtp:hidden"
+INTEGER NOT NULL, "mtp:hidden:graph" INTEGER);
+CREATE TABLE "nfo:Media_nmm:alternativeMedia" (ID INTEGER NOT NULL,
+"nmm:alternativeMedia" INTEGER NOT NULL, "nmm:alternativeMedia:graph"
+INTEGER);
+CREATE TABLE "nfo:MindMap" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:Note" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:OperatingSystem" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:Orientation" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:PaginatedTextDocument" (ID INTEGER NOT NULL PRIMARY
+KEY, "nfo:pageCount" INTEGER, "nfo:pageCount:graph" INTEGER);
+CREATE TABLE "nfo:PlainTextDocument" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:Presentation" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:RasterImage" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:RegionOfInterest" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:regionOfInterestX" REAL, "nfo:regionOfInterestX:graph" INTEGER,
+"nfo:regionOfInterestY" REAL, "nfo:regionOfInterestY:graph" INTEGER,
+"nfo:regionOfIntere9tWidth" REAL, "nfo:regionOfInterestWidth:graph"
+INTEGER, "nfo:regionOfInterestHeight" REAL,
+"nfo:regionOfInterestHeight:graph" INTEGER, "nfo:regionOfInterestType"
+INTEGER, "nfo:regionOfInterestType:graph"ULL,t_mode VA' CHECK (t_To"
+INTEGER, "nfo:roiRefersTo:graph" INTEGER);
+CREATE TABLE "nfo:RegionOfInterestContent" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:RemoteDataObject" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:RemotePortAddress" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:Software" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:conflicts" INTEGER, "nfo:conflicts:graph" INTEG" INTEGER, "nfo:supercedes:graph" INTEGER,
+"nfo:softwareIcon" INTEGER, "nfo:softwareIcon:graph" INTEGER,
+"nfo:softwareCmdLine" TEXT COLLATE NOCASE,
+"nfo:softwareCmdLine:graph" INTEGER);
+CREATE TABLE "nfo:SoftwareApplication" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:SoftwareCategory" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:softwareCategoryIcon" INTEGER, "nfo:softwareCategoryIcon:graph"
+INTEGER);
+CREATE TABLE "nfo:SoftwareItem" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:SoftwareService" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:SourceCode" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:commentCharacterCount" INTEGER, "nfo:commentCharacterCount:graph"
+INTEGER, "nfo:programmingLanguage" TEXT COLLATE NOCASE,
+"nfo:programmingLanguage:graph" INTEGER, "nfo:definesClass" TEXT
+COLLATE NOCASE, "nfo:definesClass:graph" INTEGER,
+"nfo:definesFunction" TEXT COLLATE NOCASE,
+"nfo:definesFunction:graph" INTEGER, "nfo:definesGlobalVariable" TEXT
+COLLATE NOCASE, "nfo:definesGlobalVariable:graph" INTEGER);
+CREATE TABLE "nfo:Spreadsheet" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "Ofo:TextDocument" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:wordCount" INTEGER, "nfo:wordCount:graph" INTEGER,
+"nfo:lineCount" INTEGER, "nfo:lineCount:graph" INTEGER,
+"nfo:characterCount" INTEGER, "nfo:characterCount:graph" INTEGER);
+CREATE TABLE "nfo:Trash" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:VectorImage" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nfo:Video" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:frameRate" REAL, "nfo:frameRate:graph" INTEGER, "nfo:frameCount"
+INTEGER, "nfo:frameCount:graph" INTEGER, "nfo:averageVideoBitrate"
+REAL, "nfo:averageVideoBitrate:graph" INTEGER);
+CREATE TABLE "nfo:Visual" (ID INTEGER NOT NULL PRIMARY KEY,
+"nie:contentCreated" INTEGER, "nie:contentCreated:graph" INTEGER,
+"nie:contentCreated:localDate" INTEGER, "nie:contentCreated:localTime"
+INTEGER, "nfo:aspectRatio" REAL, "nfo:aspectRatio:graph" INTEGER,
+"nfo:heading" REAL, "nfo:heading:graph" INTEGER, "nfo:tilt" REAL,
+"nfo:tilt:graph" INTEGER, "nfo:interlaceModelaceMode:graph" INTEGER, "nfo:height" INTEGER,
+"nfo:height:graph" INTEGER, "nfo:width" INTEGER, "nfo:width:graph"
+INTEGER, "nfo:colorDepth" INTEGER, "nfo:colorDepth:graph" INTEGER);
+CREATE TABLE "nfo:WebHistory" (ID INTEGER NOT NULL PRIMARY KEY,
+"nfo:domain" TEXT COLLATE NOCASE, "nfo:domain:graph" INTEGER,
+"nfo:uri" TEXT COLLATE NOCASE, "nfo:uri:graph" INTEGER);
+CREATE TABLE "nfo:Website" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nid3:ID3Audio" (ID INTEGER NOT NULL PRIMARY KEY,
+"nid3:title" TEXT COLLATE NOCASE, "nid3:title:graph" INTEGER,
+"nid3:albumTitle" TEXT COLLATE NOCASE, "nid3:albumTitle:graph"
+INTEGER, "nid3:contentType" TEXT COLLATE NOCASE,
+"nid3:contentType:graph" INTEGER, "nid3:length" INTEGER,
+"nid3:length:graph" INTEGER, "nid3:recordingYear" INTEGER,
+"nid3:recordingYear:graph" INTEGER, "nid3:trackNumber" TEXT COLLATE
+NOCASE, "nid3:trackNumber:graph" INTEGER, "nid3:partOfSet" TEXT
+COLLATE NOCASE, "nid3:partOfSet:graph" INTEGER, "nid3:comments" TEXT
+COLLATE NOCASE, "nid3:comments:graph" INTEGER);
+CREATE TABLE "nid3:ID3Audio_nid3:leadArtist" (ID INTEGER NOT NULL,
+"nid3:leadArtist" INTEGER NOT NULL, "nid3:leadArtist:graph" INTEGER);
+CREATE TABLE "nie:DataObject" (ID INTEGER NOT NULL PRIMARY KEY,
+"nie:url" TEXT COLLATE NOCASE UNIQUE, "nie:url:graph" INTEGER,
+"nie:byteSize" INTEGER, "nie:byteSize:graph" INTEGER,
+"nie:interpretedAs" INTEGER, "nie:interpretedAs:graph" INTEGER,
+"nie:lastRefreshed" INTEGER, "nie:lastRefreshed:graph" INTEGER,
+"nie:lastRefreshed:localDate" INTEGER, "nie:lastRefreshed:localTime"
+INTEGER, "nie:created" INTEGER, "nie:created:graph" INTEGER,
+"nie:created:localDate" INTEGER, "nie:created:localTime" INTEGER,
+"nfo:belongsToContainer" INTEGER, "nfo:belongsToContainer:graph"
+INTEGER, "tracker:available" INTEGER, "tracker:available:graph"
+INTEGER);
+CREATE TABLE "nie:DataObject_nie:dataSource" (ID INTEGER NOT NULL,
+"nie:dataSource" INTEGER NOT NULL, "nie:dataSource:graph" INTEGER);
+CREATE TABLE "nie:DataObject_nie:isPartOf" (ID INTEGER NOT NULL,
+"nie:isPartOf" INTEGER NOT NULL, "nie:isSartOf:graph" INTEGER);
+CREATE TABLE "nie:DataSource" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nSeptember 15ie:InformationElement" (ID INTEGER NOT NULL PRIMARY
+KEY, "nie:title" TEXT COLLATE NOCASE, "nie:title:graph" INTEGER,
+"nie:contentLastModified" INTEGER, "nie:contentLastModified:graph"
+INTEGER, "nie:contentLastModified:localDate" INTEGER,
+"nie:contentLastModified:localTime" INTEGER, "nie:subject" TEXT
+COLLATE NOCASE, "nie:subject:graph" INTEGER, "nie:mimeType" TEXT
+COLLATE NOCASE, "nie:mimeType:graph" INTEGER, "nie:language" TEXT
+COLLATE NOCASE, "nie:language:graph" INTEGER, "nie:plainTextContent"
+TEXT COLLATE NOCASE, "nie:plainTextContent:graph" INTEGER,
+"nie:legal" TEXT COLLATE NOCASE, "nie:legal:graph" INTEGER,
+"nie:generator" TEXT COLLATE NOCASE, "nie:generator:graph" INTEGER,
+"nie:description" TEXT COLLATE NOCASE, "nie:description:graph"
+INTEGER, "nie:disclaimer" TEXT COLLATE NOCASE, "nie:disclaimer:graph"
+INTEGER, "nie:depends" INTEGER, "nie:depends:graph" INTEGER,
+"nie:links" INTEGER, "nie:links:graph" INTEGER, "nie:copyright" TEXT
+COLLATE NOCASE, "nie:copyright:graph" INTEGER, "nie:comment" TEXT
+COLLATE NOCASE, "nie:comment:graph" INTEGER, "nie:isStoredAs"
+INTEGER, "nie:isStoredAs:graph" INTEGER, "nie:version" TEXT COLLATE
+NOCASE, "nie:version:graph" INTEGER, "nie:contentCreated" INTEGER,
+"nie:contentCreated:graph" INTEGER, "nie:contentCreated:localDate"
+INTEGER, "nie:contentCreated:localTime" INTEGER, "nie:contentAccessed"
+INTEGER, "nie:contentAccessed:graph" INTEGER,
+"nie:contentAccessed:localDate" INTEGER,
+"nie:contentAccessed:localTime" INTEGER, "nie:license" TEXT COLLATE
+NOCASE, "nie:license:graph" INTEGER, "nie:identifier" TEXT COLLATE
+NOCASE, "nie:identifier:graph" INTEGER, "nie:licenseType" TEXT
+COLLATE NOCASE, "nie:licenseType:graph" INTEGER, "nie:characterSet"
+TEXT COLLATE NOCASE, "nie:characterSet:graph" INTEGER,
+"nie:contentSize" INTEGER, "nie:contentSize:graph" INTEGER,
+"nie:rootElementOf" INTEGER, "nie:rootElementOf:graph" INTEGER,
+"nie:usageCounter" INTEGER, "nie:usageCounter:graph" INTEGER,
+"nco:publisher" INTEGER, "nco:publisher:graph" INTEGER,
+"nfo:isContentEncrypted" INTEGEÿÿ "nfo:isContentEncrypted:graph"
+INTEGER, "slo:location" INTEGER, "slo:location:graph" INTEGER,
+"nfo:isBootable" INTEGER, "nfo:isBootable:graph" INTEGER, "osinfo:id"
+TEXT COLLATE NOCASE, "osinfo:id:graph" INTEGER, "osinfo:mediaId" TEXT
+COLLATE NOCASE, "osinfo:mediaId:graph" INTEGER);
+CREATE TABLE "nie:InformationElement_mlo:location" (ID INTEGER NOT
+NULL, "mlo:location" INTEGER NOT NULL, "mlo:location:graph" INTEGER);
+CREATE TABLE "nie:InformationElement_nao:hasProperty" (ID INTEGER NOT
+NULL, "nao:hasProperty" INTEGER NOT NULL, "nao:hasProperty:graph"
+INTEGER);
+CREATE TABLE "nie:InformationElement_nco:contributor" (ID INTEGER NOT
+NULL, "nco:contributor" INTEGER NOT NULL, "nco:contributor:graph"
+INTEGER);
+CREATE TABLE "nie:InformationElement_nco:creator" (ID INTEGER NOT
+NULL, "nco:creator" INTEGER NOT NULL, "nco:creator:graph" INTEGER);
+CREATE TABLE "nie:InformationElement_nie:hasLogicalPart" (ID INTEGER
+NOT NULL, "nie:hasLogicalPart" INTEGER NOT NULL,
+"nie:hasLogicalPart:graph" INTEGER);
+CREATE TABLE "nie:InformationElement_nie:hasPart" (ID INTEGER NOT
+NULL, "nie:hasPart" INTEGER NOT NULL, "nie:hasPart:graph" INTEGER);
+CREATE TABLE "nie:InformationElement_nie:informationElementDate" (ID
+INTEGER NOT NULL, "nie:informationElementDate" INTEGER NOT NULL,
+"nie:informationElementDate:graph" INTEGER,
+"nie:informationElementDate:localDate" INTEGER NOT NULL,
+"nie:informationElementDate:localTime" INTEGER NOT NULL);
+CREATE TABLE "nie:InformationElement_nie:isLogicalPartOf" (ID INTEGER
+NOT NULL, "nie:isLogicalPartOf" INTEGER NOT NULL,
+"nie:isLogicalPartOf:graph" INTEGER);
+CREATE TABLE "nie:InformationElement_nie:keyword" (ID INTEGER NOT
+NULL, "nie:keyword" TEXT NOT NULL, "nie:keyword:graph" INTEGER);
+CREATE TABLE "nie:InformationElement_nie:relatedTo" (ID INTEGER NOT
+NULL, "nie:relatedTo" INTEGER NOT NULL, "nie:relatedTo:graph"
+INTEGER);
+CREATE TABLE "nmm:AnalogRadio" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmm:modulation" INTEGER, "nmm:modulation:graph" INTEGER,
+"nmm:frequency" INTEGER, "nmm:frequency:graph" INTEGER);
+CREATE TABLE "nmm:Artist" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmm:artistName" TEXT COLLATE NOCASE, "nmm:artistName:graph"
+INTEGER);
+CREATE TABLE "nmm:DigitalRadio" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmm:streamingBitrate" INTEGER, "nmm:streamingBitrate:Vraph" INTEGER,
+"nmm:encoding" TEXT COLLATE NOCASE, "nmm:encoding:graph" INTEGER,
+"nmm:protocol" TEXT COLLATE NOCASE, "nmm:protocol:graph" INTEGER);
+CREATE TABLE "nmm:Flash" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmm:ImageList" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmm:MeteringMode" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmm:MusicAlbum" (ID INTEGER NOT NULL PRIMARY KEY,
+"nie:title" TEXT COLLATE NOCASE, "nie:title:graph" INTEGER,
+"„mm:albumTrackCount" INTEGER, "nmm:albumTrackCount:graph" INTEGER,
+"nmm:albumTitle" TEXT COLLATE NOCASE, "nmm:albumTitle:graph" INTEGER,
+"nmm:albumDuration" INTEGER, "nmm:albumDuration:graph" INTEGER,
+"nmm:albumGain" INTEGER, "nmm:albumGain:graph" INTEGER,
+"nmm:albumPeakGain" INTEGER, "nmm:album¦eakGain:graph" INTEGER);
+CREATE TABLE "nmm:MusicAlbumDisc" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmm:albumDiscAlbum" INTEGER, "nmm:albumDiscAlbum:graph" IN]EG'R,
+"nmm:musicCDIdentifier" TEXT COLLATE NOCASE,
+"nmm:musicCDIdentifier:graph" INTEGER, "nmm:setNumber" INTEGER,
+"nmm:setNumber:graph" INTEGER);
+CREATE TABLE "nmm:MusicAlbum_nmm:albumArtist" (ID INTEGER NOT NULL,
+"nmm:albumArtist" INTEGER NOT NULL, "nmm:albumArtist:graph" INTEGER);
+CREATE TABLE "nmm:MusicPiece" (ID INTEGER NOT NULL PRIMARY KEY,
+"nie:title" TEXT COLLATE NOCASE, "nie:title:graph" INTEGER,
+"nmm:musicAlbum" INTEGER, "nmm:musicAlbum:graph" INTEGER,
+"nmm:musicAlbumDisc" INTEGER, "nmm:musicAlbumDisc:graph" INTEGER,
+"nmm:beatsPerMinute" INTEGER, "nmm:beatsPerMinute:graph" INTEGER,
+"nmm:performer" INTEGER, "nmm:performer:graph" INTEGER, "nmm:composer"
+INTEGER, "nmm:composer:graph" INTEGER, "nmm:lyricist" INTEGER,
+"nmm:lyricist:graph" INTEGER, "nmm:trackNumber" INTEGER,
+"nmm:trackNumber:graph" INTEGER,
+"nmm:internationalStandardRecordingCode" TEXT COLLATE NOCASE,
+"nmm:internationalStandartion to be
+# cdRecordingCode:graph" INTEGER);
+CREATE TABLE "nmm:MusicPiece_nmm:lyrics" (ID INTEGER NOT NULL,
+"nmm:lyrics" INTEGER NOT NULL, "nmm:lyrics:graph" INTEGER);
+CREATE TABLE "nmm:Photo" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmm:exposureTime" REAL, "nmm:exposureTime:graph" INTEGER, "nmm:flash"
+INTEGER, "nmm:flash:graph" INTEGER, "nmm:fnumber" REAL,
+"nmm:fnumber:graph" INTEGER, "nmm:focalLength" REAL,
+"nmm:focalLength:graph" INTEGER, "nmm:isoSpeed" REAL,
+"nmm:isoSpeed:graph" INTEGER, "nmm:meteringMode" INTEGER,
+"nmm:meteringMode:graph" INTEGER, "nmm:whiteBalance" INTEGER,
+"nmm:whiteBalance:graph" INTEGER, "nmm:isCropped" INTEGER,
+"nmm:isCropped:graph" INTEGER, "nmm:isColorCorrected" INTEGER,
+"nmm:isColorCorrected:graph" INTEGER);
+CREATE TABLE "nmm:Playlist" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmm:RadioModulation" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmm:RadioStation" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmm:radioIcon" INTEGER, "nmm:radioIcon:graph" INTEGER, "nmm:radioPTY"
+INTEGER, "nmm:radioPTY:graph" INTEGER);
+CREATE TABLE "nmm:RadioStation_nmm:carrier" (ID INTEGER NOT NULL,
+"nmm:carrier" INTEGER NOT NULL, "nmm:carrier:graph" INTEGER);
+CREATE TABLE "nmm:SynchronizedText" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmm:isForHearingImpaired" INTEGER, "nmm:isForHearingImpaired:graph"
+INTEGER);
+CREATE TABLE "nmm:Video" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmm:videoAlbum" INTEGER, "nmm:videoAlbum:graph" INTEGER,
+"nmm:isSeries" INTEGER, "nmm:isSeries:graph" INTEGER, "nmm:season"
+INTEGER, "nmm:season:graph" INTEGER, "nmm:episodeNumber" INTEGER,
+"nmm:episodeNumber:graph" INTEGER, "nmm:runTime" INTEGER,
+"nmm:runTime:graph" INTEGER, "nmm:synopsis" TEXT COLLATE NOCASE,
+"nmm:synopsis:graph" INTEGER, "nmm:MPAARating" TEXT COLLATE NOCASE,
+"nmm:MPAARating:graph" INTEGER, "nmm:category" TEXT COLLATE NOCASE,
+"nmm:category:graph" INTEGER, "nmm:producedBy" INTEGER,
+"nmm:producedBy:graph" INTEGER, "nmm:hasSubtitle" INTEGER,
+"nmm:hasSubtitle:graph" INTEGER, "nmm:isContentEncrypted" INTEGER,
+"nmm:isContentEncrypted:graph" INTEGER, "mtp:fourCC" TEXT COLLATE
+NOCASE, "mtp:fourCC:graph" INTEGER, "mtp:waveformat" TEXT COLLATE
+NOCASE, "mtp:waveformat:graph" INTEGER);
+CREATE TABLE "nmm:Video_mtp:scantype" (ID INTEGER NOT NULL,
+"mtp:scantype" INTEGER NOT NULL, "mtp:scantype:graph" INTEGER);
+CREATE TABLE "nmm:Video_nmm:director" (ID INTEGER NOT NULL,
+"nmm:director" INTEGER NOT NULL, "nmm:director:graph" INTEGER);
+CREATE TABLE "nmm:Video_nmm:leadActor" (ID INTEGER NOT NULL,
+"nmm:leadActor" INTEGER NOT NULL, "nmm:leadActor:graph" INTEGER);
+CREATE TABLE "nmm:Video_nmm:subtitle" (ID INTEGER NOT NULL,
+"nmm:subtitle" INTEGER NOT NULL, "nmm:subtitle:graph" INTEGER);
+CREATE TABLE "nmm:WhiteBalance" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmo:Attachment" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmo:Call" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmo:sentDate" INTEGER, "nmo:sentDate:graph" INTEGER,
+"nmo:sentDate:localDate" INTEGER, "nmo:sentDate:localTime" INTEGER,
+"nmo:duration" INTEGER, "nmo:duration:graph" INTEGER);
+CREATE TABLE "nmo:CommunicationChannel" (ID INTEGER NOT NULL PRIMARY
+KEY, "nmo:lastMessageDate" INTEGER, "nmo:lastMessageDate:graph"
+INTEGER, "nmo:lastMessageDate:localDate" INTEGER,
+"nmo:lastMessageDate:localTime" INTEGER,
+"nmo:lastSuccessfulMessageDate" INTEGER,
+"nmo:lastSuccessfulMessageDate:graph" INTEGER,
+"nmo:lastSuccessfulMessageDate:localDate" INTEGER,
+"nmo:lastSuccessfulMessageDate:localTime" INTEGER);
+CREATE TABLE "nmo:CommunicationChannel_nmo:hasParticipant" (ID INTEGER
+NOT NULL, "nmo:hasParticipant" INTEGER NOT NULL,
+"nmo:hasParticipant:graph" INTEGER);
+CREATE TABLE "nmo:Conversation" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmo:DeliveryStatus" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmo:Email" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmo:hasContent" INTEGER, "nmo:hasContent:graph" INTEGER,
+"nmo:isF gged" INTEGER, "nmo:isFlagged:graph" INTEGER, "nmo:isRecent"
+INTEGER, "nmo:isRecent:graph" INTEGER, "nmo:status" TEXT COLLATE
+NOCASE, "nmo:status:graph" INTEGER, "nmo:responseType" TEXT COLLATE
+NOCASE, "nmo:responseType:graph" INTEGER);
+CREATE TABLE "nmo:Email_nmo:contentMimeType" (ID INTEGER NOT NULL,
+"nmo:contentMimeType" TEXT NOT NULL, "nmo:contentMimeType:graph"
+INTEGER);
+CREATE TABLE "nmo:IMMessage" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmo:MMSMessage" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmo:mmsHasContent" INTEGER, "nmo:mmsHasContent:graph" INTEGER);
+CREATE TABLE "nmo:MailAccount" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmo:accountName" TEXT COLLATE NOCASE, "nmo:accountName:graph"
+INTEGER, "nmo:accountDisplayName" TEXT COLLATE NOCASE,
+"nmo:accountDisplayName:graph" INTEGER, "nmo:fromAddress" INTEGER,
+"nmo:fromAddress:graph" INTEGER, "nmo:signature" TEXT COLLATE NOCASE,
+"nmo:signature:graph" INTEGER);
+CREATE TABLE "nmo:MailFolder" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmo:folderName" TEXT COLLATE NOCASE, "nmo:folderName:graph" INTEGER,
+"nmo:serverCount" INTEGER, "nmo:serverCount:graph" INTEGER,
+"nmo:serverUnreadCount" INTEGER, "nmo:serverUnreadCount:graph"
+INTEGER);
+CREATE TABLE "nmo:MailboxDataObject" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmo:Message" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmo:sentDate" INTEGER, "nmo:sentDate:graph" INTEGER,
+"nmo:sentDate:localDate" INTEGER, "nmo:sentDate:localTime" INTEGER,
+"nmo:from" INTEGER, "nmo:from:graph" INTEGER, "nmo:isAnswered"
+INTEGER, "nmo:isAnswered:graph" INTEGER, "nmo:isDeleted" INTEGER,
+"nmo:isDeleted:graph" INTEGER, "nmo:isDraft" INTEGER,
+"nmo:isDraft:graph" INTEGER, "nmo:isRead" INTEGER, "nmo:isRead:graph"
+INTEGER, "nmo:isSent" INTEGER, "nmo:isSent:graph" INTEGER,
+"nmo:isEmergency" INTEGER, "nmo   dmergency:graph" INTEGER,
+"nmo:htmlMessageContent" TEXT COLLATE NOCASE,nt:graph" INTEGER, "nmo:messageId" TEXT COLLATE
+NOCASE, "nmo:messageId:graph" INTEGER, "nmo:messageSubject" TEXT
+COLLATE NOCASE, "nmo:messageSubject:graph" INTEGER,
+"nmo:receivedDate" INTEGER, "nmo:receivedDate:graph" INTEGER,
+"nmo:receivedDate:localDate" INTEGER, "nmo:receivedDate:localTime"
+INTEGER, "nmo:replyTo" INTEGER, "nmo:replyTo:graph" INTEGER,
+"nmo:sender" INTEGER, "nmo:sender:graph" INTEGER, "nmo:conversation"
+INTEGER, "nmo:conversation:graph" INTEGER, "nmo:communicationChannel"
+INTEGER, "nmo:communicationChannel:graph" INTEGER,
+"nmo:deliveryStatus" INTEGER, "nmo:deliveryStatus:graph" INTEGER,
+"nmo:reportDelivery" INTEGER, "nmo:reportDelivery:graph" INTEGER,
+"nmo:sentWithReportRead" INTEGER, "nmo:sentWithReportRead:graph"
+INTEGER, "nmo:reportReadStatus" INTEGER, "nmo:reportReadStatus:graph"
+INTEGER, "nmo:mustAnswerReportRead" INTEGER,
+"nmo:mustAnswerReportRead:graph" INTEGER, "nmo:mmsId" TEXT COLLATE
+NOCASE, "nmo:mmsId:graph" INTEGER);
+CREATE TABLE nmo:MessageHeader" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmo:heTEGER NOT NULL PRIMARY aderName" TEXT COLLATE NOCASE, "nmo:headerName:graph" INTEGER,
+"nmo:headerValue" TEXT COLLATE NOCASE, "nmo:headerValue:graph"
+INTEGER);
+CREATE TABLE "nmo:Message_nmo:bcc" (ID INTEGER NOT NULL, "nmo:bcc"
+INTEGER NOT NULL, "nmo:bcc:graph" INTEGER);
+CREATE TABLE "nmo:Message_nmo:cc" (ID INTEGER NOT NULL, "nmo:cc"
+INTEGER NOT NULL, "nmo:cc:graph" INTEGER);
+CREATE TABLE "nmo:Message_nmo:hasAttachment" (ID INTEGER NOT NULL,
+"nmo:hasAttachment" INTEGER NOT NULL, "nmo:hasAttachment:graph"
+INTEGER);
+CREATE TABLE "nmo:Message_nmo:inReplyTo" (ID INTEGER NOT NULL,
+"nmo:inReplyTo" INTEGER NOT NULL, "nmo:inReplyTo:graph" INTEGER);
+CREATE TABLE "nmo:Message_nmo:messageHeader" (ID INTEGER NOT NULL,
+"nmo:messageHeader" INTEGER NOT NULL, "nmo:messageHeader:graph"
+INTEGER);
+CREATE TABLE "nmo:Message_nmo:recipient" (ID INTEGER NOT NULL,
+"nmo:recipient" INTEGER NOT NULL, "nmo:recipient:graph" INTEGER);
+CREATE TABLE "nmo:Message_nmo:references" (ID INTEGER NOT NULL,
+"nmo:references" INTEGER NOT NULL, "nmo:references:graph" INTEGER);
+CREATE TABLE "nmo:Message_nmo:to" (ID INTEGER NOT NULL, "nmo:to"
+INTEGER NOT NULL, "nmo:to:graph" INTEGER);
+CREATE TABLE "nmo:MimePart" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmo:charSet" TEXT COLLATE NOCASE, "nmo:charSet:graph" INTEGER,
+"nmo:contentId" TEXT COLLATE NOCASE, "nmo:contentId:graph" INTEGER,
+"nmo:contentTransferEncoding" TEXT COLLATE NOCASE,
+"nmo:contentTransferEncoding:graph" INTEGER, "nmo:contentDescription"
+TEXT COLLATE NOCASE, "nmo:contentDescription:graph" INTEGER,
+"nmo:contentDisposition" TEXT COLLATE NOCASE,
+"ntentDisposition:graph" INTEGER);
+CREATE TABLE "nmo:MimePart_nmo:mimeHeader" (ID INTEGER NOT NULL,
+"nmo:mimeHeader" INTEGER NOT NULL, "nmo:mimeHeader:graph" INTEGER);
+CREATE TABLE "nmo:Multipart" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmo:Multipart_nmo:partBoundary" (ID INTEGER NOT NULL,
+"nmo:partBoundary" TEXT NOT NULL, "nmo:partBoundary:graph" INTEGER);
+CREATE TABLE "nmo:PermanentChannel" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmo:PhoneMessage" (ID INTEGER NOT NULL PRIMARY KEY,
+"nmo:fromVCard" INTEGER, "nmo:fromVCard:graph" INTEGER, "nmo:encoding"
+TEXT COLLATE NOCASE, "nmo:encoding:graph" INTEGER,
+"jmo:phoneMessageId" INTEGER, "nmo:phoneMessageId:graph" INTEGER,
+"nmo:validityPeriod" INTEGER, "nmo:validityPeriod:graph" INTEGER);
+CREATE TABLE "nmo:PhoneMessageFolder" (ID INTEGER NOT NULL PRIMARY
+KEY, "nmo:phoneMessageFolderId" TEXT COLLATE NOCASE,
+"nmo:phoneMessageFolderId:graph" INTEGER);
+CREATE TABLE "nmo:PhoneMessageFolder_nmo:containsPhoneMessage" (ID
+INTEGER NOT NULL, "nmo:containsPhoneMessage" INTEGER NOT NULL,
+"nmo:containsPhoneMessage:graph" INTEGER);
+CREATE TABLE "nmo:PhoneMessageFolder_nmo:containsPhoneMessageFolder"
+(ID INTEGER NOT NULL, "nmo:containsPhoneMessageFolder" INTEGER NOT
+NULL, "nmo:containsPhoneMessageFolder:graph" INTEGER);
+CREATE TABLE "nmo:PhoneMessage_nmo:toVCard" (ID INTEGER NOT NULL,
+"nmo:toVCard" INTEGER NOT NULL, "nmo:toVCard:graph" INTEGER);
+CREATE TABLE "nmo:ReportReadStatus" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmo:SMSMessage" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmo:TransientChannel" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nmo:VOIPCall" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "nrl:InverseFunctionalProperty" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "osinfo:Installer" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "poi:ObjectOfInterest" (ID INTEGER NOT NULL PRIMARY KEY);
+CREAQE TABLE "rdf:Property" (ID INTEGER NOT NULL PRIMARY KEY,
+"rdfs:domain" INTEGER, "rdfs:domain:graph" INTEGER, "rdfs:range"
+INTEGER, "rdfs:range:graph" INTEGER, "tracker:indexed" INTEGER,
+"tracker:indexed:graph" INTEGER, "tracker:secondaryIndex" INTEGER,
+"tracker:secondaryIndex:graph" INTEGER, "tracker:fulltextIndexed"
+INTEGER, "tracker:fulltextIndexed:graph" INTEGER,
+"tracker:fulltextNoLimit" INTEGER, "tracker:fulltextNoLimit:graph"
+INTEGER, "tracker:transient" INTEGER, "tracker:transient:graph"
+INTEGER, "tracker:weight" INTEGER, "tracker:weight:graph" INTEGER,
+"tracker:defaultValue" TEXT COLLATE NOCASE,
+"tracker:defaultValue:graph" INTEGER, "nrl:maxCardinality" INTEGER,
+"nrl:maxCardinality:graph" INTEGER, "tracker:writeback" INTEGER,
+"tracker:writeback:graph" INTEGER, "tracker:forceJournal" INTEGER,
+"tracker:forceJournal:graph" INTEGER);
+CREATE TABLE "rdf:Property_rdfs:subPropertyOf" (ID INTEGER NOT NULL,
+"rdfs:subPropertyOf" INTEGER NOT NULL, "rdfs:subPropertyOf:graph"
+INTEGER);
+CREATE TABLE "rdfs:Class" (ID INTEGER NOT NULL PRIMARY KEY,
+"tracker:notify" INTEGER, "tracker:notify:graph" INTEGER);
+CREATE TABLE "rdfs:Class_rdfs:subClassOf" (ID INTEGER NOT NULL,
+"rdfs:subClassOf" INTEGER NOT NULL, "rdfs:subClassOf:graph" INTEGER);
+CREATE TABLE "rdfs:Class_tracker:domainIndex" (ID INTEGER NOT NULL,
+"tracker:domainIndex" INTEGER NOT NULL, "tracker:domainIndex:graph"
+INTEGER);
+CREATE TABLE "rdfs:Literal" (ID INTEGER NOT NULL PRIMARY KEY);
+CREATE TABLE "rdfs:Resource" (ID INTEGER NOT NULL PRIMARY KEY,
+Available INTEGER NOT NULL, "rdfs:comment" TEXT COLLATE NOCASE,
+"rdfs:comment:graph" INTEGER, "rdfs:label" TEXT COLLATE NOCASE,
+"rdfs:label:graph" INTEGER, "tracker:added" INTEGER,
+"tracker:added:graph" INTEGER, "tracker:added:localDate¢ INTEGER,
+"tracker:added:localTime" INTEGER, "tracker:modified" INTEGER,
+"tracker:modified:graph" INTEGER, "tracker:damaged" INTEGER,
+"tracker:damaged:graph" INTEGER, "dc:title" TEXT COLLATE NOCASE,
+"dc:title:graph" INTEGER, "dc:creator" TEXT COLLATE NOCASE,
+"dc:creator:graph" INTEGER, "dc:subject" TEXT COLLATE NOCASE,
+"dc:subject:graph" INTEGER, "dc:description" TEXT COLLATE NOCASE,
+"dc:description:graph" INTEGER, "dc:publisher" TEXT COLLATE NOCASE,
+"dc:publisher:graph" INTEGER, "dc:type" TEXT COLLATE NOCASE,
+"dc:type:graph" INTEGER, "dc:format" TEXT COLLATE NOCASE,
+"dc:format:graph" INTEGER, "dc:identifier" TEXT COLLATE NOCASE,
+"dc:identifier:graph" INTEGER, "dc:language" TEXT C

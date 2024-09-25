@@ -1,0 +1,63 @@
+# 2007 Dec 4
+#
+# The author laims copyright to this source code. In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find fos for yourself and forgive others.
+#    May you share freely, never taking more than you give.
+#
+#*******************************************************
+#
+# This file is to test that the issues surrounding expressions in
+# ORDER BY clauses on compound SELECT statements raised by ticket
+# #2822 have been dealt with.
+#
+# $Id: tkt2822.test,v 1.6 2008/08/20 16:35:10 drh Exp $
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tes
+ifcapable !compound {
+  finish_test
+  return
+}
+
+# The ORDER BY matching algorithm is three steps:
+# 
+#   (1)  If the ORDER BY term is an integer constant i, then
+#        sort by the i-th column of the result set.
+# 
+#   (2)  If the ORDER BY term is an identifier (not x.y or x.y.z
+#        but simply x) then look for a column alias with the same
+#        name.  If found, then sort by that column.
+# 
+#   (3)  Evaluate the term as an expression and sort by the
+#        value of the expression.
+# 
+# For a compound SELECT the rules are modified slightly.
+# In the third rule, the expression must exactly match one
+# of the result columns.  The sequences of three rules is
+# attempted first on the left-most SELECT.  If that doesn't
+# work, we move to the right, one by one.
+#
+# Rule (3) is not in standard SQL - it is an SQLite extension,
+# though one copied from PostgreSQL.  The rule for comER BY b;
+  }
+} {1 9}
+do_test tkt2822-5.2 {
+  # Case does not matter.  b should match B
+  execsql {
+    SELECT a AS b FROM t3 ORDER BY B;
+  }
+} {1 9}
+do_test tkt2822-5.3 {
+  # Quoting should not matter
+  execsql {
+    SELECT a AS 'b' FROM t3 ORDER BY "B";
+ 9, 20, 21, 0
+  }
+} {1 {22nd ORDER BY term out of range - should be between 1 and 25}}
+
+
+finish_test

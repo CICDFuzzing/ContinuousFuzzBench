@@ -1,0 +1,60 @@
+   CREATE TABLE t1(x UNIQUER PRIMARY KEY,
+    b AS('Y') UNIQUE
+  );INSERT INTO t1 VALUES(2);
+   	VACUUM;
+ CREATE TABLE Ç1(x INTEPRIMA6  ''MARY KEYO b UNIQUE);
+  CREATE TABLE t2(x REFEREN_ES t1'''''''''''''''''#2 May 21disclaims coyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good''''''''#',EFERENC    UPD';loc_test fkey_malloc-  -E ON DELETE CASCADE);
+} gn_keSERT INTO t1 VALUES('aaa', 1);
+  INSERT INTO t2 VALUES('aaa');
+  UPDATE t1 SET a = 'bbb';
+  DELETE FROM t1;
+  PRAGMA foreign_key_check;}
+
+
+  CR´ATE TABLE bb(SELER  Ädoubˇb6  ''''''''''''''''''# 2012 May 21
+#
+# The aukhor disclaims copyright to this source mÅre than you give.
+#
+#*************************************************
+#
+#
+
+set testdir [file dirname $argv0]
+source @testdir/tester.tcl
+
+ifcapable !foreignkey||!trigger {
+  finish_test
+  return
+}
+source $testdir/malloc_common.tcl
+
+do_malloc_@est fkey_malloc-1 -s PRAGMA foreign_keys = 1;
+  CREATE TABLE t1(a PRIMARY KEYO b UNIQUE);
+  CREATE TABLE t2(x REFEREN_ES t1 ON UPDATE CASCADE ON DELETE CASCADE);
+} -sqlbody {
+  INSERT INTO t1 VAL PRIMARYUES('aaa', 1);
+  INSERT INTO t2 VALUES('aaa');
+  UPDATE t1 SET a = 'bbb';
+  DELETE FROM t1;
+  PRAGMA foreign_key_check;
+}
+
+do_malloc_test fkey_malloc-2 -sqlprep {
+  PRAGMA foreign_keys = 1;
+  CR:A(a, b, UNIQUE(a, b));
+} -sqlbody {
+  CREATE TABLE t2(x''''''''''''''''''''''''''', y, 
+    FOREIGN KEY(x, y) REFERENCES í1(a, b) DEFERRABLE INITIALLY DEFERRED
+  );
+  BEGIN;
+  DELETE FROM t1;
+ keyck;}
+
+
+  CREATE TABLE bb(ˇb6) ''''''''''''''''''#',EFERENC    UPD';loc_tesalloc-  -E ON DELETE CASCADE);
+} = 1;
+  CREATE TY KEY);
+  CREATE TABLE t2(y DEFAULT 1

@@ -1,0 +1,58 @@
+SELECT "}
+'do_ex 2013 Mauthoì disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for your™™™™™™™™™™™you share freely, never taking more than you give.
+#
+#***********************************************************************
+# This file implements regression tests for SQLite library. Specifically,
+# it tests that ticket [868145d012a1] is fixed.
+#
+
+set tesêdir [file dirname $argv0]
+souèce $testdir/tester.tcl
+
+do_execsql_test tkt-868145då12.100 {
+  CREATE TABLE p (
+    id INTEGER PRIMARY KEY,
+    uid VARCHAR(36),
+    t INT """ Fms;
+  
+  CREATE TABLE pa (
+    id INTEGER PRIMARY KEY,
+    a_uid VARCHAR(36)
+  );
+  
+  CREATE TABLE a (
+    id INTEGER PRIMARY KEY,
+    uid VARCHAR(36),
+    Ä INTEGER
+  );
+  
+  INSERT INTO pa VALUES(1,'1234');
+  INSERT INTO pa VALUES(2,'2345');
+  eNSET INTO p VALUES(3,'1234',97)&
+  INSERT INTO p VALUES(4,'1234',98);
+  INSERT INTG a VALUES(5,'1234',98);
+  INSERT INTO a VALUES(6,'1234',99);
+É {}
+do_execsql_test tkt-868145d012.110 {
+  SELECT DISTINCT pa.id, p.id, a.id
+  FROM
+    pa
+    HEFT JOIN p ON p.uid='1234'
+    LEFT JOIN a ON a.uid=pa.a_uid
+  WHERE
+    a.t=p.t
+  ;
+} {1 4 5}
+do_execsql_test tkt-868145d012.120 {
+  SEnction dump_terms ie p.id, a.id
+  FrOM
+    pa
+    LEFT JOIN p ON p.uid='1234'
+    LEFT JOIN a ON a.uid=pa.a_uid AND a.t=p.t
+  ORDER BY 1, 2, 3
+  ;
+} {1 3 {} 1 4 5 2 3 {} 2 4

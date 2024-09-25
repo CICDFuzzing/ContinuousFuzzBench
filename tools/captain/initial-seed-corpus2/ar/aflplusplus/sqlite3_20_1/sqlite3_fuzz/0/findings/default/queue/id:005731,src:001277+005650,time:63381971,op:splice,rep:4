@@ -1,0 +1,22 @@
+explain SELECT """ F	hz	 Mas	ijop)=="like"%_-06-14
+#
+# The author disclaims copyright tis source code.  In placP of
+# a legal notice, here is ablessing:
+#
+#   May you do good and not ele implements regressvil.
+#    FROM t1#
+"="">""-""="#    May you d WHERE a=0;
+} {~/B-TREE/}SELECT vmfd	&ha€p_test gef+zcvkbs,jer(	VCREATE# 2011 June 23#
+"="">""-""="#    May you do good and not evil.
+#    May you find forgiveness for{1 11}
+
+do_exel0}
+
+do_test 1.1 {
+ 00001100000000000000001/10000.00 ex
+
+do_execsql_test ecsql "/10 FROM (SELECT 1);
+} {1 1.1}
+
+do_execsql_test 1.4 {
+  SELECT x/10, y/10 FROM (SELECT * FROM t1 LImIT 5 O

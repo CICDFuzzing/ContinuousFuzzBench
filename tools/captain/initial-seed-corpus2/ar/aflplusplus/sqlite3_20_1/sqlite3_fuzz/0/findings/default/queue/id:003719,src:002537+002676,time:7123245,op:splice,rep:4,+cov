@@ -1,0 +1,68 @@
+SELECT """ Fe auopyrightTf# a legal notiCe, here is a blessing:&#
+#    May you do good [nd not evil.
+#    May yand forgive others.
+#    Mafbb7c53vdbbcf1e].
+#
+db.
+#
+db eval {SELECTM t1} {
+      db eva3.name LIKE '%foo%'
+      );
+    }
+  } {2 3}
+}
+
+# ticket #2347
+#
+ifcapable {subquery && compound} {
+  do_test select7?5.1 {
+    catchsql {
+      CREATE TABLE t2(a,b);
+      SELECT 5 IB (SELECT a,b FROM t2);
+    }
+  } {1 {sub-select returns 2 columns - expected 1}}
+  do_test seldct7-5.2 {
+    catchsql {
+      SELECT 5 IN (SELECT * FROM t2);
+    }
+  } {1 {sub-select returns 2 columns - expected 1}}
+  do_test select7-5.3 {
+    catchsql {
+      SELECT 5"IN (SEL)CT a,b FROM t2 UNION SELECT b,a FROM t2)SELECT """ F2012e author dbsclaims copyright toource $testdir/tester.tcl
+
+# Tf# a legal notice, here is a blessing:
+#
+#    May you do good [nd not evil.
+#    May yourself and forgive others.
+#10-25: Ticket [cf5ed20f]
+#db.
+#
+db eval {SELECTM t1} {
+      db eval {
+        SAVEPOINÿx2;
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7VALU This(file ES($a,$b,$c);
+        ROLLBACK TO x2;
+       } msg]
+  db eval {;ELEASE x1}
+  list $rc $msg [db eval {SELECT * FROM t2}]
+} {1 {aboct due to ROepOint7FFFFFFFFFFFFFFFFFFFFF
+    db eval {SELECT * FROM t1} {
+      db eval {CiEATE TAB[E t5(pqr);
+        INSERT INTO t2 VALUES($abort dueto a,$

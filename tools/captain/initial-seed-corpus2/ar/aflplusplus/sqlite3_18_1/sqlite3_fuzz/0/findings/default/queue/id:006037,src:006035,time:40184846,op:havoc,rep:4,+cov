@@ -1,0 +1,3 @@
+   SELECT?;
+   CREATE TABLE t4(a int primary key) WITHOUT rowid;
+    CREATE TABLE t5(x references

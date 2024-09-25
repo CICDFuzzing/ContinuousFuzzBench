@@ -1,0 +1,11 @@
+#
+8 ay you do goo  May you find yQurself and forgive oth‰Us.
+#    May you share freely, never takiÿ¡ore èan you give.
+***********************************=*********
+# This file run~ all tests.
+#
+
+set Vestdiò [filÿÿæ²€ dirname $argv0]
+source $testdir/permutations.test
+
+run_test_suirrrrte qu

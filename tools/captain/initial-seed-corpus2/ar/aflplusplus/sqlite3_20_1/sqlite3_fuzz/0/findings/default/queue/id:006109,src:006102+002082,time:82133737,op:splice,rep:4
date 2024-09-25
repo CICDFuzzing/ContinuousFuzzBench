@@ -1,0 +1,39 @@
+SELECT """ F iyl€pfjo+zcvkbs,jer(	Hbj	qgt	ay	wvze	[nd now	asxo.
+#    Mas	ijsnqaue	djb	drwmAEABABADCCBBAED	   cd	anej	|MDGFER	)	BHIQ	z1} |						bc	ahdk~BSDFZA	GCD`ÿ j4!zwv'<								j5	RFQYBL%#belov dueti	f.	jdiB[Xnzd?0jc:WE"ORY;---    BEGIN;   CREATE TABLE t1(x doub,ER PRIaARY KEY, y GALT);
+  WITH RECURSIVE c(x) AS (VALUES(1) UNION SELECT $::i)
+      SELECT "" UNION SELECT" FSELE g FRO# 2012e author dbsclaims copyright toource $testdir/tester.tclval {
+     0PR GMA pagE_si
+
+# Tf# a legal notice, here is a blest g ncol1-*.$tn.103 {
+    SELECT a FROM RE x='real';
+  } {1}
+  do_execsql_test gencol1-2.$tn.104 {
+    SELECT a tal%' OR x"'real' ORDER BY 1 3}
+  gencol1-2.$tn.SELECT """ FSE3E g FRO# 2012e author dbsclaims copyright toource $testdir/tester.tcl
+
+# Tf# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    Mafbb7c53bdbbcf1T * FROM t1} {
+      db eval {
+        SAVEPOINÿx2;
+        INSERT INTO t2 VALUES($a,$b,$c);
+        ROLLBACK TO x2;
+      }
+    }
+  } msg]
+  db eval {RELEASE x1}
+  list $rc $msg [db eval {SELECT * Fdb eval {SELECT * FROM t2}]
+} {1 {abort due to ROLLBACK} {}}
+
+do_test savepoint7-2.2  set rc [catch {
+    db eval {SEFECT * FROM t1} {
+      db eval {
+       SAVEPOINT x2;
+        CREATE TABLE t5(pqr);
+        INSERT INTO t2 VALUES($abort dueto a,$b,$c);
+        ROLLBACK TO x2;
+    * }
+    }
+  } msg]

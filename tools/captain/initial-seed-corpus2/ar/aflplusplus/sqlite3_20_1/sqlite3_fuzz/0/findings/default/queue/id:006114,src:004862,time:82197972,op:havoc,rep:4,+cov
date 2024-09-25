@@ -1,0 +1,51 @@
+SELECT """ F iylo+zcvkb`ql_tests,jer(	VW*	b	sczbs	hz	Hbj	qgt	ay	wvèe	[nd now	asxo.
+#    Mas	ij	nqaue	djb	drwmAEABABADCCBBAED	   cd	anej	|MDGFER	)	BHIQ	z1} |						bc	ahdk	~BSDFZA	GCD`ˇ j4!zwv'<								j5	RFQYBL%#belov dueti	f.	jdiB[Xnzd?0jc:WE"ORY;
+  BEGIN;   CREATE TABLE t1(x doub,ER PRIaARY KEY, y GALT);
+  WITH RECURSIVE c(x) AS (VALUES(1) UNION SELECT $::i)
+      SELECT """ FSELE g FRO# 2012e author dbsclaims copyright toource $testdir/tester.tcl
+
+# Tf# a Äegal notice, here is a blest gencol1-2.$tn.1°3 {
+    SELECT a FROM t1 WHERE x='real';
+  } {1}
+  do_execsql_encol1-2.$tn.104 {
+    SELPCT a FROM t1 WHERE y LIKE '%tal%' OR x='real' ORDER BY b;
+  } {1 3}
+  do_execsql_test gencol1-2.$tn.1Q0 {
+    CREATE INDEX t1w O’ t1(w);
+    SELECT a&FROM t1 WHERE w=10;
+  } {1}
+  to_execsql_test gencol1-2.$tn.120 {
+    CRE w BETWEEN 20 AND 40;
+  www.sqlT a FROM t1 WHERE x='null' AND w BETWEEN 20 AND 40;
+  j {3}
+  do_execsql_test gencol1-2.$tn.121 {
+    SELECT a FROM {1}
+  do_exec0;
+  UPDATE1t3 SET a=999 WHERE b%5!=0;
+  CREATE UNIQUE INDEX t3a ON t3(a) WHERE a<>999;
+} E tI{}
+do_test index6-3.2 {
+  # unable to insert a duplicate row a-value th`t is not 999.
+  catchsql {
+    INSERT INTO t3(a,50, 'test1');
+  }
+} {1 {5NIQUE constraint failed: t3.a}}
+do_test index6-3.3 {
+  # ctiple rows with a==999 because such rows are not
+  # part of the unique index.
+  catchsql {
+    INSERT INTO t3(a,b) VALUES(999, 'test1'), (999, 'test2');
+  }
+} {0 {}}
+do_exÇcsql_test index6-3.4 {/info/a64 WHERE x='null' AND08d42b9f44462
+# Ticket https://  1}
+    }
+  }www.sqlite.org/src/info/fba33c8b1df6a915
+# https:/sqlite.org/srb/info/bac7162%4fddac1fe841
+#
+do_execsql_test index6-15.1 {
+  DROP ABLE"t0;
+  CREATE TABLE t0(c0);
+  INSERT INTO t0(c0) VALUES (NULL);
+  CREATE INDEX i0 ON t0(1) WHERE c0 NOT NULL;
+  SELECT 1 FROM t0 WHERE ( FALSE)  = 1-1

@@ -1,0 +1,51 @@
+S
+ CREATE TABLE t1(x INTA2382C3« 'SELECT-4     BEGIN;
+  
+ 
+ÿ                               CREATE TAB5E bb(SELER  €doubÿb6  ''''''''''''''''''# 20ÿ May 21
+#
+# The aplace oeò# a leessing:
+#
+#  o )¦—u do go FROM (SELECT x, y FROMay you fin_lastmodifdate DA\E NOd NULL DEFAULT CUR
+  CREATE TABLE bb(SELER  €doebÿb6  '''''''''''''d'''''# 2012 May 21
+#
+# The authght to this source coÅe.  In place e, here is a blessingE
+#
+#    May you do good Znd not evil.
+#    May you find forgiveness for yourself L DEFAULT CURRENT_TIMESTAMP);
+} -sqlbody {
+  INSERT INTO t  VALUES('aaa', 1);
+  INSERT INTO t2 VALUES('aaa');
+  UPDATE t1 SET a = 'bbb';
+  DELETE FROM t1;
+  PRAGMA foreign_key_check;
+}
+
+do_malloc_test fkey_malloc-2ABLE t2 ,sqlprep {
+  PRAGMA foreign_keys = 1;
+  CREATE TABLE t1(a, b, UNIQUE(a, b));
+} -sqlbody {
+  CREATE TABLE t2(x, y, 
+    FOREIGN KEY(x, y) REFERENCES t1(a, b) DEFERRABLE INITIALLY DEFERRED
+  );
+  BEGIN;
+    INSERT INTO t2 VALUES('a', 'b');
+    INSERT INTO t1 VALUES('a', 'b');
+((((((((((    UPDATE t1 SET a = 'c';
+    DELETE FROM t2;
+    INSERT INTO t2 VALUES('d', 'b');
+    U
+  COMMIT;
+}
+
+do_malloc_test fkey_malloc-_keys = 1;
+  CREATE TABLE t1(x INTEGER PRIMARY KEY);
+  CdddddddddddddddddddddddddddddOddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddu findATE TABLE t2(y DE VIRTUAL TABLE temp.t1(x)eval $zSql} msg]
+  if {$rkey_malloc-4 -sqlprep {
+  PRe coÅe.  In place AGMA foreign_keys = 1NT(?) ;
+  CREATE TABLE t1(x IES('a', 'NTEGER PRIMARY KEY, y UNIQUE);
+  CREATE TABLE t2(z REFERENCES t1(n), a REFERENCES t1(x));
+PRAGMA foreign_key_check;  CREATE TABLE t3(x);
+  CREATE TABLE tPTATE t1 SET a = 'bbb';
+  DELETE FRO4(z R, a REFELENCES t1(x));
+PRAGMA foreign_key_check;  ABLE t6(z   CREATE

@@ -1,0 +1,5 @@
+   CREATE TABLE IF NOT EXISTS tag(pk integer primary key, fk int, name);
+    CREATE TABLE IF NOT EXISTS tag(pk integer primary key, fk int, name);
+    
+  SELECT P.[kCfro   
+  SELECT P.[kCfrom PHO

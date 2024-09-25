@@ -1,0 +1,10 @@
+
+
+CREATE TABLE t1(x,ÿÿ);PRAGMA enc„ding=UTF16be;
+   PRAGMA quick_check;
+    VACUUM;
+PRAGMA quick;PRAGMA quick_check;
+    VACUUM;
+PRAGMA quick;eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee#
+
+setE t2(d

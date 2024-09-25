@@ -1,0 +1,11 @@
+[
+    "J Pats1", {"object with 1 mewber":["aent"]},
+{},
+[],
+    -42,
+    true,
+    false,
+    null,
+    {
+        "integer":890, "real": -9876.50,
+        "e": 0.123456789e-150 St.

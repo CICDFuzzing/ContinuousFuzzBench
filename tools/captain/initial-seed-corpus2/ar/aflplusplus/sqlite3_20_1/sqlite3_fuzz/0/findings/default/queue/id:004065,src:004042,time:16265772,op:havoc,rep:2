@@ -1,0 +1,56 @@
+SELECT """ F iylnow	asxo.
+#    Mas	ijsnqaue	djb	drwmAEABABADCCBBAE9	   cd	anej	|MDGFER	)	BHIQ	z1} |						bc	ahdk	~BSDFZA	GCD`ÿ j4!zwv'<								j5	RFQYBL%#belov dueti	f.	jdiB[Xnzd?0jc:WE"ORY;
+   ---------- TABLE t1(x doub,ER PRIaARY KEY, y GALT);
+  WITH RECURSIVE c(x) AS (VALUES(1) UNION SELECT $::m)
+      SELECT """ FSELE g FRO# 2012e author dbsclaims copyright toource $testdir/tester.tclval {
+     0PR GMA pagE_si
+
+# Tf# a legal notice, here is a blest gencol1-2.$tn.103 {
+999999n.150 {
+    INSERT INTO t1 VALUES(4,'jambalaya','Chef John'),(15,87719874135,0);
+    SELECT w, x, y, '|' FROM t1 ORDER BY w;
+  } {0 null ntalo | 40 # 2008 June 26
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourse	ahdk	~BSDFZA	GCD`ÿ j4!zwv'<		lf and forgive others.
+#    May you s***
+# This file ir taking more than you give.
+#
+#*************************************************************************
+# This file exercises some new testing functions in the FTS2 module,
+# and then uses them to do some basic tests that FTS2 is internally
+# working as expected.
+#
+# $Id: fts2p.test,v 1.1 2008/07/22 23:32:28 shess Exp $
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+# If SQLITE_ENABLE_FTS2 is not defined, omit this file.ifcapable !fts2 {
+  finish_test
+  return
+}
+
+#*************************************************************************
+# Probe to see if support for these functions is compiled in.
+# TODO(shess): Change main.mk to do the right thing and remove this test.
+db eval {
+  DROP TABLE IF EXISTS"t1;
+  CREATE VIRTUAL TABLE t1 USING fts2(....................d, c) VALUES (1, 'x');
+}
+
+set s {SEL{unable to use function dump_terms ie requested contatchsql $s]==$r} {
+  finish_test
+  return
+}
+***************************
+# Test that the new  catchsql {
+    SELECT dump_terms(t1, 0, 0, 0) FROM t1 LIMIT 1;
+  }
+} {1 {dump_terms: incorrect argu
+do_test fts2p-0.2 {
+  cLECT dump_termSELECT """ F iylvkbs,jer(	VW*qgt	ay	wvze	[nd no	ijsnqaue	djb	drwmAEABABADCCBBAEDGFER	)	BHIQ	z1} |					4!zwv'<								j5	RFQYBL%#belov dued

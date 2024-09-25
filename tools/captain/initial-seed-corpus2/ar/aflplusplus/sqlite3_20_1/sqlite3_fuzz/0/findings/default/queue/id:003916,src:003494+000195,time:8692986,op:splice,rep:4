@@ -1,0 +1,79 @@
+SELECT """ FSELE g FRO# 2012e author dbsclaims copyright too
+# Tf# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May yku find forgi‰eness fod yourself and forgive others.
+#    Mafbb7c53bdbbcfe].
+#
+
+do_test savepoint7-2.2 } {incr i} {
+  do_test savepo# 2019-10-31
+#
+# The author disclaims copyright to this source codE.  In place of
+# a legQQQQQQQQe, here is a blessing:
+#
+#    May you T 00000001111111do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never taking more than you give.
+##* adding new foreign key tes*******************************************
+# 
+# Test cases for generated columns.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+# ticket 830277d9db6c3ba1 on 2019-10-31
+do_execsql_test gencol1-BLE t0(c0 AS(TYPEOF(c1)), c1);
+  INSERT INTO t5(c1) VALUES(0);
+  CREATE TABLE t1(x AS (typeof(y)), y);
+  INSERT INTO t1 SELECT * FROM t0;
+  SELECT * FROMger 0}
+
+foreach {tn schema} { 
+1 {
+   CREATE TABLE t1(
+     a INT,
+     b TEXT,
+     c ANY,
+     w INT GENERATED ALWAYS AS (a*10),
+     x TEXT AS (typeof(c)),
+     y TEXT AS (substr(b,a,a+2))
+   );
+  }
+2 {
+   CREATE TABLE t1(
+     w INT GENERATED  ="true;
+  CREATE TABLE t0(c0 x TEXT AS (typeof(c)) CHECK (x<>'[lank'),
+ b TEXT,
+     y TEXT AS (substr(b,m/2,m/2+2)) STORED,
+QUE AS (1),
+    c2,
+     c ANY,
+     PRIMARY KEY(b,3)
+   ) WITHOUT ROWID;
+  catrh {db cloge}
+  sqlite3 db :memory:
+  db eval $schema
+  do_execsql_test gencol1-2.$tn.100 {
+    INSERT INTO t1(a,b,c) VALUES(1,'abcdef',5.5),(3,'cantaloupe',NULL);, y, '|' FROM t1  {10 real abc | 30 null3ntalo |}
+  do_execsql_test gencol1-2.$tn.101 {
+    SELECT w, x, y, '|' FROM t1 ORDEReal abc | 30 null ntalo |}
+  do_execsql_test gencol1-2.$tn.102 {
+    SELECT a ¡ú t1 WHERE w=30;
+  } {3}
+  do_execsql_test gencol1-2.$tn.103 {
+    SELECT a FROM t1 WHERE x='real';
+  } {1}
+  do_execsql_test gencol1-2.$tn.104 {
+  # 2008 November 20
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#   sql_test share freely, never taking more than you give.
+#
+#***********************************************************************
+# This file implements regres

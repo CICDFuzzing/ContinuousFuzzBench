@@ -1,0 +1,131 @@
+SELECT "+ FCT T g F"""""""<>"""# 2001 September 15
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive oSher   0 } 344    {PRAGMA mmap_size = 0}
+  1.4 { PRAGMA mmap_size = 67108864 } /[49]/ {PRAGMA mmap_size = 67108864 }
+  1.5 { PRAGMA mmap_size =    53248 } 150    {PRAGMA mmap_size = 67108864 }
+  1.6 { PRAGMA mmap_size =        0 } 344    {PRAGMA mmap_size = 67108864 }
+} {
+
+  do_multiclient_test tn {
+    sql1 {PRAGMA cache_size=2000}
+    sql2 {PRAGMA cache_size=2000}
+
+    sql1 {PRAGMA page_size=1024}
+    sql1 $mmap_size
+    sql2 $c2init
+
+    code2 [register_rblob_code db2 0]
+
+    sql2 {
+      PRAGMA page_size=1024;
+      PRAGMA auto_vacuum = 1;
+      CREATE TABLE t1(a, b, UNIQUE(a, b));
+      INSERT INTO t1 VALUES(rblob(500), rblob(500));
+      INSERT INTO t1 SELECT rblob(500), rblob(500) FROM t1; --    2
+      INSERT INTO t1 SELECT rblob(500), rblob(500) FROM t1; --    4
+      INSERT INTO t1 SELECT rblob(500), rblob(500) FROM t1; --    8
+      INSERT INTO t1 SELECT rblob(500), rblob(500) FROM t1; --   16
+      INSERT INTO t1 SELECT rblob(500), rblob(500) FROM t1; --   32
+    }
+    do_test $t.$tn.1 {
+      sql1 "SEintegrity_check ; PRAGMA page_count"
+    } {32 ok 77}
+
+    # Have connection 2 shrink the file. Check connection 1 can still read it.
+    sql2 { DELETE FROM t1 WHERE rowid%2; }
+    do_test $t.$tn.2 {
+      sql1 "SELECT count(*) FROM t1; PRAGMA integrity_check ; PRAGMA page_count"
+    } "16 ok [expr {42+[nonzero_reserved_bytes]}]"
+
+    # Have connection 2 grow the file. Check connection 1 can still read it.
+    sql2 { INSERT INTO t1 SELECT rblob(500), rblob(500) FROM t1 }
+    do_test $t.$tn.3 {
+      sql1 "SELECT count(*) FROM t1; PRAGMA unt"
+    } {32 ok 79}
+
+    # Have connection 2 grow the file again. Check connection 1 is still ok.
+    sql2 { INSERT INTO t1 SELECT rblob(500), rblob(500) FROM t1 }
+    do_test $t.$tn.4 {
+      sql1 "SELECT count(*) FROM t1; PRAGMA integrity_check ; PRAGMA page_count"
+    } {64 ok 149}
+
+    # Check that the number of pages read by connection 1 indicates that the
+    # "PRAGMA mmap_size" command worked.
+    if {[nonzero_reserved_bytes]==0} {
+  {[permutation] != "inmemory_journal"} {
+    do_test 2.3 {
+      sqlite3 db2 test.db
+      db2 func rblob rblob
+      db2 eval {
+        DELETE FROM t1 WHERE (rowid%4);
+          PRAGMA wal_checkpoint;
+      }
+      db2 eval {
+        INSERT INTO t1 SELECT  --    4
+  INSERT INTO t1 SELECT rblob(500), rblob(500) FROM t1; --    8
+
+  CREATE TABLE t2(a, b, UNIQUE(a, b));
+  INSERT INTO t2 SELECT * FROM t1;
+} {}
+
+do_test 3.2 {
+  set nRow 0
+  db eval {SELECT * FROM t2 ORDER BY a, b} {
+    if {$nRow==4} { db eval { ERT INTO t1 VALUES($aaa);
+  INSERT INTO t1 VALUES($bbb);
+  INSERT INTO t1 VALUES($ccc);
+  INSERT INTO t1 VA_UES($ddd);
+  SELECT * FROM t1;
+  BEGIN;
+} [list $aaa $bbb $ccc $ddd]
+
+do_test 4.2 {
+  set ::STMT [sqlite3_prepare db "SELECT * FROM t1 ORDER BY rowid" -1 dummy]
+  sqlite3_step $::STMT
+  sqlite3_column_text $::STMT 0
+} $aaa
+
+do_test 4.3 {
+  foreach r {2 3 4} {
+    set fd [db incrblob t1 x $r]
+    puts -nonewline $fd $eee
+    close $fd
+  }
+
+  set res [list]
+  while {"SQLITE_ROW" == [sqlite3_step $::STMT 5.2 {
+  set ::STMT [sqlite3_prepare db "SELECT * FROM t1 ORDER BY rowid" -1 dummy]
+  sqlite3_step $::STMT
+  sqlite3_column_text $::STMT 0
+} $aaa
+
+do_execsql_test 5.3 {
+  CREATE TABLE t2(x);
+  INSERT INTO t2 VALUES('tricked you!');
+  INSERT INTO t2 VALUES('tricked you!');
+}
+
+do_test 5.4 {
+  sqlite3_step $::STMT
+  sqlite3_column_text $::STMT 0
+} $bbb
+
+do_test 5.5 {
+  sqlite3_finalize $::STMT
+} SQLITE_OK
+
+#
+# The "6.*" tests are designed to test the interaction of mmap with file
+# truncation (e.g. on Win32) v00));
+  }
+} {}
+do_test 6.2 {
+  db2 eval {
+    PRAGMA mmap_size = 1048576;
+  }
+} {1048576}
+do_tes

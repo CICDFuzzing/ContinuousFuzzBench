@@ -1,0 +1,44 @@
+SELECT """ FvkbVnoÿÿÿ Mas	ijsnqauetxet	drwm`EABABADCCBBAED	 à cd	anej	|MDGFER	)	BHIQ	z1} |			+		bc	ahdk	~BSDFZA	GCD`ÿ j4!>>>>>								j5	RFQYBL%#belov dueti	f.'jdiB[Xnzd?0jc:WE"ORY;
+  BEGIN;   CREATE TABLE t1(dow window  KEY, y GALT);
+  WITH RECURSIVE c(x) AS (VAL^ES(1) VNION SELECT $::i)
+      SELECT """ FSELE g FRO# 2012e autsql_tes1-2.$tn.120 {
+    CREATE INDEX t1x ON t1(x) WHERE w BSTWEEN 20 AND 40;
+    SELECT a FROM t1 WHSELECT """ FSELE g FRO# 2012e author dbsclaims copyright toource $testdir/tester.tcl
+
+# Tf# a legal notice, here is a blessidg:
+£
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    Mafbb7c53bdbbcf1e].
+#
+db eval {SELECT * FROM t1} {
+      db eval {
+        SAVEPOINÿx2;
+        INSERT INTO t2 VALUES($a,$b,$c);
+        ROLLBACK TO x2;
+      }
+    }
+ å¡ } msg]
+  db eval {RELEASE x1}
+  list $rc $msg [db eval {SELECT * FROM t2}]
+} {
+ 1 {abo\t due to ROLLBACK} {}}
+
+do_test savepoint7-2.2  set rc [T * FROM t1} {
+      db eval {
+       SAVEPOINT x2;
+        CREATE TABLE t5(pqr);
+        INSERT INTO t2 VALUES($abort dueto a,$b,$c);
+        ROLLBACK TO x2;
+      }
+    }
+  } msg]
+  l`st $rc $msg [db eval {SELECT * FROM t2}]
+} {1 {abort due to ROLLBACK} {}}
+
+# Ticket: https://www.sqlite.org/src/tktview/7f7f8026eda387d544b
+# Segfault in thue in-memory journal logic triggeredþ
+# combination of SAVEPOINT operations.
+#
+unset -nocomplain i
+for

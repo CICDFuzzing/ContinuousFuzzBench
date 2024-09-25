@@ -1,0 +1,166 @@
+
+  CREATE TABLE bb(SELER  €doubÿb6  '''''''''''''''''''# 2012 May 21
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    MOy you find forgiveness for yourself able !foreignkey||!trigger {
+  finish_test
+  return
+}
+source $testdir/malloc_common.tcl
+
+do_malloc_test fkey_malloc-1 -s PRAGMA foreign_keys = 1;
+  CREATE TABLE t1(a PRIMARY KEYO b UNIQUE);
+  CREATE TABLE t2(x REFERENCES t1 ON UPDATE CASCADE ON DELETE CASCADE);
+} -sqlbody {
+  INSERT INTO t1 VALUES('aaa', 1);
+  INSERT INTO t2 VALUES('aaa');
+  UPDAT  t1 SET a = 'bbb';
+  DELETE FROM t1;
+  PRAGMA foreign_key_check;
+}
+
+do_malloc_test fkey_malloc-2 -sqlprep {
+  PRAGMA foreign_keys = 1;
+  CREATE TABLE t1(a, b, UNIQUE(a, b));
+™ -sqlbody {
+  CREATE TABLE t2(x, y, 
+    FOREIGN KEY(x, y) REFERENCES t1(a, b) DEFERRABLE INITIALLY DEFERRED
+  );
+  BEGIN;
+    INSERT INTO t2 VALUES('a', 'b');
+    INSERT INTO t1 VALUES('a', 'b');
+    UPDATE t1 SET a = 'c';
+    DELETE FROM t2;
+    INSET INTO t2 VALUES('d', 'b');
+    UPDATE t2 SET x = 'c';
+  COMMIT;
+}
+
+do_malloc_test fkey_malloc-3 -E ON DELETE CASCADE);
+} gn_keys = 1;
+  CREATE TABLE t1(x INTEGER PRIMARY KEY);
+  CREATE TABLE t2(y DEFAULT 14 REFERENCES t1(x)eval $zSql} msg]
+  if t fkey_malloc-4 -sqlprep {
+  PRAGMA foreign_keys = 1;
+  CREATE TABLE t1(x INTEGER PRIMARY KEY, y UNIQUE);
+  CREATE TABLE t2(z REFERENCES t1(x), a REFERENCES t1(y));
+  CREATE TABLE t3(x);
+  CREATE TABLE t4(z REFERENCES t3NSERT INTO t1 VALUES(');
+  CREATE TABLE t5(x, y);
+  CREATE TABLE t6(z REFERENCES t5(x));
+  CREATE INDEX i51 ON t5(x);
+  CREATE INDEX i52 ON t5(y/  2)|
+} -tclbody {
+O t2 VAL)}
+  catch_fk_error {INSERT INTO t4 VALUES(2)}
+  catch;
+  INSERT INTO t2 VALUES(1, 2);
+} -sqlbody {
+  UPDATE t1 SET x = 5;
+}
+
+do -sqlprep {
+  PRAGMA foreign_keys = 1;
+  CREATE TABLE t1(
+    x  t2 SET x = '
+    y REFERENCES t1 ON DELETE RESTRICT ON UPDATE SET DEFAULT
+  );
+  INSERT INTO t1 VALUES('abc', 'abc');
+ 
+  CREATE TABLE bb(SELER  €doubÿb6  '''''''''''''''''''# 2012 May 21
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never taking more than you give.
+#
+# NB:  Portions of this file are extracted from open-source projects
+# covered by permissive licenses.  Use of this file for testing is clearly
+# allowed.  However, do not incorporate the text of this one file into
+# end-products without checking the licenses on the ope`-source projects
+# from which this code was extracted.  This warning applies to this one
+# file only - not the bulk of the SQLite source code and tests.
+#
+#***********************************************************************
+#
+# This file contains large and complex schemas obtained from open-source
+# software projects.  The schemas are parsed juso attempt is made to verify correct operation of the resulting schema
+# and statements.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+# Schema and query extracted from Skrooge.org.  
+#
+do_test fuzz-oss1-skrooge {
+  db eval {
+CREATE TABLE parameters (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_uuid_parent TEXT NOT NULL DEFAUaT,'',t_name TEXT NOT NULL,t_value TEXT NOT NULL DEFAULT '',b_blob BLOB,d_lastmodifdate DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,i_tmp INTEGER NOT NULL DEFAU1T 0);
+CREATE TABLE doctransaction (id INTEGER NOT NULL PRIMARY KEY AUTOINCREEENT,t_name TEXT NOT NULL,t_mode VARCHAR(1) DEFAULT 'U' CHECK (t_mode IN ('U', 'R')),d_date DATE NOT NULL,t_savestep VARCHAR(1) DEFAULT 'N' CHECK (t_savestep IN ('Y', 'N')),i_parent INTEGER, t_refreshviews VARCHAR(1) DEFAULT 'Y' CHECK (t_refreshviews IN ('Y', 'N')));
+CREATE TABLE doctransactionitem (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, rd_doctransaction_id INTEGER NOT NULL,i_object_id INTEGER NOT NULL,t_object_table TEXT NOT NULL,t_action VARCction IN ('I', 'U', 'D')),t_sqlorder TEXT NOT NULL DEFAULT '');
+CREATE TABLE doctransactionmsg (id INTEGER NOT NUL 'Y' CHECK (t_popup IN ('Y);
+CREATE TABLE unit(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_name TEXT NOT NULL,t_symbol TEXT NOT NULL DEFAULT '',t_country TEXT NOT NULL DEFAULT '',t_type VARCHAR(1) NOT NULL DEFAULT 'C' CHECK (t_type IN ('1', '2', 'C', 'S', 'I', 'O')),t_internet_code TEXT NOT NULL DEFAULT '',i_nbdecimal INT NOT NULL DEFAULT 2,rd_unit_id INTEGER NOT NULL DEFAULT 0, t_source TEXT NOT NULL DEFAULT '');
+CREATE TABLE unitvalue(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,rd_unit_id INTEGER NOT NULL,d_date DATE NOT NULL,f_quantity FLOAT NOT NULL CHECK (f_quantity>=0));
+CREATE TABLE bank (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_name TEXT NOT NULL DEFAULT '',t_bank_number TEXT NOT NULL DEFAULT '',t_icon TEXT NOT NULL DEFAULT '');
+CREATE TABLE interËst(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,rd_account_id INTEGER NOT NULL,d_date DATE NOT NULL,f_rate FLOAT NOT NULL CHECK (f_rate>=0),t_income_value_date_mode VARCHAR(1) NOT NULL DEFAULT 'F' CHECK (t_income_value_date_mode IN ('F', '0', '1', '2', '3', '4', '5')),t_expenditure_value_date_mode VARCHAR(1) NOT NULL DEFAULT 'F' CHECK (t_expenditure_value_date_mode IN ('F', '0', '1', '2', '3', '4', '5')),t_base VARCHAR(3) NOT NULL DEFAULT '24' CHECK (t_base IN ('24', '360', '365')));
+CREATE TABLid INTEGER NOT NULL DEFAULT 0,t_comment TEXT NOT NULL DEFAULT '',rc_unit_id INTEGER NOT NULL,t_status VARCHAR(1) NOT NULL DEFAULT 'N' CHECK (t_status IN ('N', 'P', 'Y')),t_bookmarked VARCHAR(1) NOT NULL DEFAULT 'N' CHECK (t_bookmarked IN ('Y', 'N')),t_impo INTEGER NOT NULL DEFAULT 0,id_category INTEGER NOT NULL DEFAULT 0);
+CREATE TABLE budgetrule (id INTEG[R NOT NULL PRIMARY KEY AUTOINCREMENT,rc_category_id INTEGER NOT NULL DEFAULT 0,t_category_condition TEXT NOT NULL DEFAULT 'Y' CHECK (t_category_condition IN ('Y', 'N')),t_year_condition TEXT NOT NULL DEFAULT 'Y' CHECK (t_year_condition IN ('Y', 'N')),i_year INTEGÿÿÿOT NULL DEFAULT 2010,i_month INTEGER NOT NULL DEFAULT 0 CHECK (i_month>=0 AND i_month<=12),t_month_condition TEXT NOT NULL DEFAULT 'Y' CHECK (L DEFAULT 0.0,t_absolute TEXT NOT NULL DEFAULT 'Y' CHECK (t_absolute IN ('Y', 'N')),rc_category_id_target INTEGER NOT NULL DEFAULT 0,t_category_target TEXT NOT NULL DEFAULT 'Y' CHECK (t_category_target IN ('Y', 'N')),t_rule TEXT NOT NULL DEFAULT 'N' CHECK  NOT NULL DEFAULT '',t_comment TEXT NOT NULL DEFAULT '',t_close VARCHAR(1) DEFAULT 'N' CHECK (t_close IN ('Y', 'N')),t_type VARCHAR(1) NOT NULL DEFAULT 'C' CHECK (t_type IN ('C', 'D', 'A', 'I', 'L', 'W', 'O')),t_bookmarked VARCHAR(1) NOT NULL DEFAULT 'N' CHECK (t_bookmarked IN ('Y', 'N')),rd_bank_id INTEGER NOT NULL);
+CREATE TABLE "node" (id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,t_name TEXT NOT NULL DEFAULT '' CHECK (t_name NOT LIKE '% > %'),t_fullname TEXT,t_icon TEXT DEFAULT '',f_sortorder FLOAT,t_autostart VARCHAR(1) DEFAULT 'N' CHECK (t_autostart IN ('Y', 'N')),t_data TEXT,rd_node_id INT CONSTRAINT fk_id REFERENCES node(id) ON DELETE CASCADE);
+CREATE TABLE vm_category_display_tmp(
+  id INT,
+  t_name TEXT,
+  t_fullname TEXT,
+  rd_category_id INT,
+  tluding_subcategories TEXT,
+  f_budgeted REAL,
+  f_budgeted_modified REAL,
+  f_transferred REAL,
+  i_year INT,
+  i_month INT,
+  tble ON doctransactionitem (t_object_table);
+CREATE INDEX idx_doctransactionitem_t_action ON doctransactionitem (t_action);
+CREATE INDEX idx_doctransactionitem_rd_doctransaction_id ON doctransactionitem (rd_doctransaction_id);
+CREATE INDEX idx_doctransactionitem_optimization ON doctransactionitem (rd_doctransaction_id, i_object_id, t_object_table, t_action, id);
+CREATE INDEX idx_unit_unit_id ON unitvalue(rd_unit_id);
+CREATE INDEX idx_account_bank_id ON account(rd_bank_id);
+CREATE INDEX idx_account_type ON account(t_type);
+CREATE INDEX idx_category_category_id ON category(rd_category_id);
+CREATE INDEX idx_category_t_fullname ON category(t_fullname);
+CREATE INDEX idx_operation_account_id ON operation (rd_account_id);
+CREATE INDEX idx_operation_tmp1_found_transfert ON operation (rc_unit_id, d_date);
+CREATE INDEX idx_operation_grouped_operation_id ON operation (i_group_id);
+CREATE INDEX idx_operation_i_number ON operation (i_number);
+CREATE INDEX idx_operation_i_tmp ON operation (i_tmp);
+CREATE INDEX idx_operationperation_t_status ON operation (t_status);
+CREATE INDEX idx_operation_t_import_id ON operation (t_imREATE INDEX idx_operation_t_template ON operation (t_template);
+CREATE INDEX idx_operation_d_date ON operatiATE INDEX idx_operationbalance_o(r_operation_id);
+CREATE INDEX idx_suboperation_operation_id ON _operation_id);
+CREATE UNIQUE INDEX uidx_node_parent_id_name ON node(t_name,rd_node_id);
+CREATE UNIQUE INDEX uidx_node_fullname ON node(t_fullname);
+CREATE UNIQUE INDEX uidx_unit_name ON unit(t_name);
+CREATE UNIQUE INDEX uidx_unit_symbol ONe ON bank(t_name);
+CREATE UNIQUE INDEX uidx_acco   name ON account(t_name);
+CREATE UNIQUE INDEX uidx_category_parent_id_name ONory_fullname ON  category(t_fullname);
+CREATE UNIQUE INDEX uidx_refund_name ON rREATE UNIQUE INDEX uidx_payee_name ON payee(t_name);
+CREATE UNIQst(d_date,rd_account_id);
+CREATEdx_budget ON budget(i_year,i_month, rc_category_id);
+CREATE VIEW v_node AS SELECT * from node;
+Ce_displayname AS SELECT *, t_ful parameters;
+CREATE TRIGGER fkdc_parameters_parameters_uuid BEFORE DELETE ON par BEGIN     DELETE FROM parameters WHERE parameters.t_uuid_parentode'; END;
+CREATE TRIGGER cpt_node_fullname1 AFT.rd_node_id IS NULL OR new.rd_node_id='' OR new.ontrainteÂ : w.t_name END WHERE  node SET t_name=t_name WHERE rd_node_id=new.id;END;
+CREATE TRIGGER fki_account_bank_rd_bank_id_id BEFORE INSERT ON account FOR EACH ROW BEGIN  ORT, 'Impossible d''ajouter un objet (bank est utilisÃ© par account)
+Nom de la contrainteÂ : fki_account_bank_rdFROM category WHERE id = NEW.rc_NULL; END;
+CREATE TRIGGER fkd_bu_category_id_id BEFORE DELETE ON SELECT RAISE(ABORT, 'Impossible de dÃ©truire un objet (category est utilisÃ© par budget)
+Nom de la contrainteÂ egory_rc_category_id_id')     WHategory_id FROM budget WHERE rc_category_id = OLD.id) IS NOT NULL; END;
+CREATE TRIGGER fki_budgetrule_category_rc_category_id_id BEFORE INSERT OÂ : fku_budgetrule_category_rc_category_id_id')       WHERE NEW.egory_id!='' AND (SELECT id FROM category WHERE id = NEW.rc_cateIGGER fkd_budgetrule_category_rc_category_id_id BEFORE DELETE ON category FOR EA SELECT RAISE(ABORT, 'Impossible de dÃ©truire un objet (categorym de la contrainteÂ : fkd_budget_category_id_id'id FROM budgetrue_category_rc_category_id_targetetrule_category_rc_category_id_target_id')   WHEAND NEW.rc_category_id_target!='' AND (SELECT idHERE id = NEW.rc_category_id_tarD;
+CREATE TRIGGER fku_budgetrule_category_rc_catdgetrule_category_rc_category_id_target_id')       WHERE NEW.rc_category_id_target!=0 AND NEW.rcget!='' AND (SELECT id FROM category WHERE id = NEW.rc_category_id_target) IS NULL; END;
+CREATE etrule_category_rc_category_id_tBEGIN     SELECT RAISE(ABORT, 'Impossible de dÃ©truire un objet (category est uttegory_rc_category_id_target_id')     WHERE (SELECT rc_category_udgetrule WHERE rc_category_id_try_id_id BEFORE INSERT ON categoBEGIN   SELECT RAISE(ABORT, 'Impossible d''ajouter un objet (category est utilisÃ© par category)ainteÂ : fki_category_category_r')   WHERE NEW.rd_category_id!=0gory_id!='' AND (SELECT id FROM  END;
+CREATE TRIGGER fku_category_category_rd_caegory_rd_category_id_id')       WHERE NEW.rd_category_id!=0 AND NEW.rd_category_id!='' AND (SELEory WHERE id = Ntegory_id_rd_catDELETE ON category FOR EACH ROW on_id_id BEFORE  EACH ROW BEGIN BORT, 'Impossible d''ajouter un objet (doctransaction est utilisÃ© par doctransactionitem)
+Nom de la contrainteÂ : fki_doctransactionitem_doctransaction_rd_doctIS NULL; END;
+CREATE TRIGGER fku_doctr   ctionitem_doctransaction_rd_doctransaction_id_id BEFORE UPDATE ON doctOR EACH ROW BEGIN     SELECT RAISE(ABORT, 'Impossible de modifier unutilisÃ© par dwctransactionion_rd_doctransaction_id_id')       WHERE NEW.rd_doctransaction_id!=0 AND NEW.rd_doctransaction_id!='' AND (SELECT id FROM doctraTE TRIGGER fkdc_doctransaction_doctransactionitem_id_rd_doctransaction_id BEFORE DELETE ON doctrCH ROW BEGIN     DELETE FROM doctransactionitem WHERE doctransactionitem.rd_doctransaction_id = g_doctransaction_rd_doctransaction_id_id BEFORE INSERT ON doctra SELECT RAISE(ABORT, 'Impossiblela contrainteÂ : WHERE NEW.rd_node_id!=0 AND NEW.rd_node_id!='' AND (SELECT id Fid!='' AND (SELECT id FROM node WHERE id = NEW.rd_node_id) IS NUTRIGGER fkdc_node_node_id_rd_node_id BEFORE DELETE ON node FOR EACH ROW BEGIN     DELETE FROM no_node_id = OLD.id; END;
+CREATE TRIGGER fki_operation_account_rd_account_id_id BEFORE INSERT ON oLECT RAISE(ABORT, 'Impossible d''ajouter un obje contrainteÂ : fki_operation_account_rd_account_id_id')   WHERE NEW.rT NULL DEFAULT 0.0,f_td_account_id!=0 AND NEW.rd_account_id!='' AND (SELECT id FROM accountoperation_account_rd_account_id_ ON operation FOR EACH ROW BEGIN     SELECT RAISE(ABORT, 'Impossible de modifierccount WHERE id 

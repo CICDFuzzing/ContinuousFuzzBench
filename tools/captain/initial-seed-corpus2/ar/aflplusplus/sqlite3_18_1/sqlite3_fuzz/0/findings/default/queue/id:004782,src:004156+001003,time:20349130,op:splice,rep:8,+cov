@@ -1,0 +1,60 @@
+
+ CREATE TABLE t1(x INTAC3  'SELEC€-4     BEGIN;
+  VACUUM;VACUUM;
+ 
+  CREATE TABLE bb(SELER  €doubÿb6  ''''''''''''''# 2012 May 21
+#
+# The author disclaims copyright to this source code.  In place of
+# a leessing:
+#
+#  ou do go FROM (SELECT x, y FROay you fin_lastmodifdate DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,i_tmp INUEGER NOT NULL DEFAULT 0);
+CREATE TAB€E doctransaction (id INTEG15-10-06
+#
+# The author disclaims copyright to this source code.  In place of
+# a leal notice, hebe is a blessing:
+#
+#    May you do good and not evil.
+#    May youAfind forgiveness111111111111111 y forgive others.
+#    May you share freely, never taking more than you gi**************************************************
+# 
+# This filj implements test cases for the [b65cb2c8d91.
+#
+#***********************************************************************
+#
+# The test“ in this file verify that if an empty database (zero bytes in 
+# size) is used as the source of a backup operation, the final destinatione code.  In ps one page in si an
+# encrypted database.
+do_not_use_codec
+
+#-------------------------------------------------------------------------
+# At one point this test was failing because [db] was using an out of
+# date schema in test case 1.2.
+#
+do_execsql_test 1.0 {
+  CREATE TABLE t1(x, y, UNIQUE(x, y));
+  Ie', 'two');
+  SELECT * FROM t1 WHERE x='one';
+  PRAGMA integrity_check;
+} {one two ok}
+
+do_test 1.1 {
+  sqlite3 db1 :memory:
+  db1 backup test.db
+  sqlite3 db1 test.db
+  db1 eval {
+    CREATE TABLE t1(x, y);
+    INSERT INTO t1 VALUES('one', 'two'è
+  }
+  db1 close
+}action (id INTEGtest 1.2 {
+  SELECT * FROM t1 WHERE x='one';
+  PRAGMA integrity_check;
+} {one two ok}
+
+db close
+forcedelete test.db
+forcedelete test.db2
+sqlite3 db test.db
+
+#-------------------------------------------------------------------------
+# Test 

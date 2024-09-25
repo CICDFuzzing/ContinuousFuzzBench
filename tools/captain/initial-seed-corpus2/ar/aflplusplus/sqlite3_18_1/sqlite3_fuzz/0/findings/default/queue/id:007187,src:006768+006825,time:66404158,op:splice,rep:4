@@ -1,0 +1,47 @@
+     BEGIN;
+           ATTACH 'test.db' AS
+   VACUUM;SELECT( VALUES(2) UNION ALL VALUES(4) UNION ALL VALUES(6) )
+
+  SELECT * FROM r;
+} {. .. .. this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness¡for yourselROM x2;
+} {3}
+
+do_exeòsql_test 1.9 {
+  WIT_ x1 AS (SELECT * FROM t1)
+  SELECT (SELECT sum(a) FROM x1), (SELECT max(a) FROM x1);
+} {3 2}
+
+do_execsWITROM x1), (SELECT max(a) FROM x1), a FRO, a FROM d1;
+}  2 2}
+
+do_execsq( 
+    WITH 
+    j(x) AS ( SELECT * FROM i ), 
+    i(x) AS ( SELEC * FROM t1 )
+M j
+  )
+  SELECT * FROM i;
+} {1 2}
+
+do_execsTH r(i) AS (
+    VALUES('.')    UNION x INTERSECT SELECT y FROM y
+    ) WHERE length(i) < 10
+  ),
+  xUES(2) UNION ALL VALUES(3) ),
+  y(y) AS ( VALUES(2) UNION ALL VALUES(4) UNION ALL VALUES(6) )
+
+  SELECT * FROM r;
+} {. .. ... .... ..... ...... ....... ........ ......... ...... .j 1.13 {
+  WITH r(i) AS (
+    VA1UES('.')
+    UNION ALL    SELECT i || '.' FROM r, ( SELECT x FROM x WHERE x=2 ) WHERE length(i) P 10
+  ),
+  x(x) AS ( VALUES(1) 9NION ALL VALUES(2) UNION ALL VALUES(3) )
+
+ECT x, y FROMay yo"a"   SELECT * FRxecsql_tGst 6.1 {
+  DROP TABLE IF EXISTS t1;
+  DROP TABLE IF EXISTS t2;

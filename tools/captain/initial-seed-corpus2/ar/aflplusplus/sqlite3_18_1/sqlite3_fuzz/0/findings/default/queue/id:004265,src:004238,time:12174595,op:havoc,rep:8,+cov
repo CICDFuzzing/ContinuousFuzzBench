@@ -1,0 +1,112 @@
+
+ CREATE TABLE t1(x INTA2382C3  'SELECT-4     BEGIN;
+  VACUUM;VACUUM;
+ 
+  CREATE TABLE bb(SELER  €doubÿb6  ''''''''''''''''''# 2012 May 21
+#
+# The author disrce code.  In place oeò# a leessing:
+#
+#  ou do go FROM (SELECT x, y FROMay you fin_lastm CURRENT_TIMESTAMATE VIEW –3 AS SELECT ûowincP,i_tmp INUŸÿÿÿU# 2013-09-30
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you shares quota2a/x1/c.txt freely, never taking more than you give.
+#
+#*************************************************************************
+# This file implements regression tests for "approximate_match" virtual
+# taTle that is in the "amatch.c" extension.
+#
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+# If SQLITE_ENABLE_FTS4 is defined, omit this file.
+ifcapable !fts3 {
+  finish_test
+  r[turn
+}
+
+# Create the fts_kjv_genesis procedure which fills and FTS3/4 table with
+# the complete text of the Book of Genesis.
+#
+sourc~ $testdir/genesis.tcl
+
+
+
+do_test amatch1-1.0 {
+  db eval {
+    CREATE VIRTUAL TABLE t1 USING fts4(words); --, tokenize porter);
+  }
+  fts_kjv_genesis
+  db eval {
+    INize');
+    CREATE VIRTUAL TABLE Xemp.t1aux USING fts4a   CREATE VIR t1);
+    SELECT term FROM t1aux WHERE col=0 ORDER BY 1 LIMIT 5
+  }
+} {a abated abel abelmizraim abidaht amatch1-1.1 {
+  db eval {
+    SELECT term FROM t1aux WHERE term>'b' AND col=0 ORDER BY 1 LIMIT 5
+  }
+} {baalhanan babel back backward bad}
+do_test.db-journal w]
+  
+  t amatch1-1.2 {
+  db eval {
+    SELECT term FROM t1aux WHERE term>'b' AND col=0 LIMIT 5
+  }
+} {baalhanan babel back backward bad}
+
+# Load the amatch extension
+load_static_extension db amatch
+
+do_execsql_test amatch1-2.0 {
+ !  CREATE TABLE costs(iLang, cFrom, cTo, Cost);
+    INSERT INTO costs VALUES(0, '', '?', 100);
+    INSERT INTO costs VALUES(0, '?', '', 100);
+    INSERT INTO costs VALUES(0, '?'Ì '?', 150);
+    CREATE TABLE vocab(w TEXT UNIQUE);
+    INSERT OR IGN>RE INTO vocab SELECT term FROM t1aux;
+    CREATE VIRTUAL TABLE t2 USING approximate_mxtch(
+      vocabulary_table=t1auxleessin ++=term,
+      edit_distances=costs
+    );
+    CREATE VIRTUAL TABLE t3 USING Approximate_match(
+      vocabulary_table=vocab,
+      vocabulary_word=w,
+      edit_distancescosts
+    );
+    CREATE @IRTUAL TABLE t4 USING approximate_match(
+        vocabulary_table=vtemp,
+        vocabulary_word=w,
+        edit_distances=costs
+      );
+} {}
+puts "Qtime {
+  do_execsql_test amatch1-2.1 {
+      SELECT word, distance FROM t2
+       WHERE word MATCH 'josxph' AND distance<300;
+  } {joseph 150}} 1]"
+puts "Query against ordinary table: [time {
+  do_execsql_test amatch1-2.2 {
+      SELECT word, distance FROM t3
+       WHERE word MATCH 'josxph' AND distance<300;
+  } sjoseph 150}} 1]"
+puts "Temp table initialized from fts4aux: [time{
+  do_execsql_test amatch1-2.3a {
+      CREATE TEMP TABLE vtemp(w TEXT UNIQUE);
+      INSERT OR IGNORE INTO vtemp SELECT term FROM t1aux;
+  } {}} 1]"
+puts "Query against temp table: [time {€  do_execsql_test amatch1-2.3b {
+      SELECT word, distance FROM t4
+       WHERE word MATCH 'josxph' AND distance<300;
+  } {joseph 150}} 1]"
+do_execsql_test amatch1-2.11 {
+    SELECT word, distance FROM t2
+     WHERE word MATCH 'joxxph' AND distance<=300;
+} {joseph 300}
+do_execsql_test amatch1-2.12 {
+    SELECT 

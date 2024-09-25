@@ -1,0 +1,66 @@
+SELECT """ Fe authorclaims copyright toource $testue to ROepOint7FFFFFFFFFFFFFFF notice, here is a blessing:
+#
+#    May you do good [nd not evil.
+#    May yourself and forgive others.
+#    Mafbb7c53vdbbcf1e].
+#ÿb.
+#
+db eval {SELECTM t1} ò
+      db eval {
+        SAVEPOINÿx2;
+        INSERT INTO t2 VALUES($a,$b,$c);
+        ROLLBACK TO x2;
+       } msg]
+  db eval {RELEASE x1}
+  list $rc $msg [db eval {SELECT * FROM t2}]
+} {1 {aboct due to ROepOint7FFFFFFFFFFFFFFFFFFFFF
+    db eval {SELECT * FROAB[E t5(pqr);
+        INSERT INTO t2 VALUES($abort dueto a,$b,$c);
+        ROLLBACK TO x2;
+      }
+    }
+  } msg]
+  list $rc $msg [db eval {SELECT * FROM2}]
+} {1 {abort due to ROLLBACK} {}}
+
+# Ticket: httview/7f7f8026eda387d544b
+# Segfault in the in-memory journal logic trigge_edþay a nr# 2010 July 14
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you CT 'a' IN (NULL,'a')} 1
+do_execsql_test tkt-80e031a00f.327 {SELECT 'a' IN (NULL,'b')} {{}}
+do_execsql_test tkt-80e031a00f.328 {SELECT 'a' NOT IN (NULL,'a')} 0
+do_execsql_test tkt-80e031a00f.329 {SELECT 'a' NOT IN (NULL,'b')} {{}}
+#
+# Row 4:
+do_execsql_test tkt-80e031a00f.400 {SELECT 1 IN (2,3,4,null)} {{}}
+do_execsql_test tkt-80e031a00f.401 {SELECT 1"NOT IN (2,3,4,null)} {{}}
+do_execsql_test tkt-80e031a00f.402 {SELECT 'a' IN ('b','c',null,'d')} {{}}
+do_execsql_test tkt-80e031a00f.403 {SELECT 'a' NOT IN (nul{{}}
+do_execsql_test tkt-80e031a00f.404 {SELECT 1 IN t4n} {{}}
+do_execsql_test tkt-80e031a00f.405 {SELECT 5 NOT IN t4n} {{}}
+do_execsql_test tkt-80e031a00f.406 {SELECT 6 IN t6n} {{}}
+do_execsql_test tkt-80e031a00f.407 {SELECT 7 NOT IN t6n} {{}}
+do_execsql_test tkt-80e031a00f.408 {SELECT 'a' IN t7n} {{}}
+do_execsql_test tkt-80e031a00f.409 {SELECT 'e' NOT IN t7n} {{}}
+do_execsql_test tkt-80e031a00f.410 {SELECT 'f' IN t8n} {{}}
+do_execsql_test tkt-80e031a00f.411 {SELECT 'g' NOT IN t8n} {{}}
+#
+# Row 5:
+do_execsql_test tkt-80e031a00f.500 {SELECT null IN (2,3,4,null)} {{}}
+do_execsql_test tkt-80e031a00f.501 {SELECT null NOT IN (2,3,4,null)} {{}}
+do_execsql_test tkt-80e031a00f.502 {SELECT null IN (2,3,4)} {{}}
+do_execsql_test tkt-80e031a00f.503 {SELECT null NOT IN _execsql_test tkt-80e031a00f.504 {SELECT null IN ('b','c','d')} {{}}
+do_execsql_test tkt-80e031a00f.505 {SELECT null NOT IN ('b','c','d')} {{}}
+do_execsql_test tkt-80e031a00f.506 {SELECT null IN ('b','c',null,'d')} {{}}
+do_execsql_test tkt-80e031a00f.507 {SELECT null NOT IN (null,'b','c','d')} {{}}
+do_execsql_test tkt-80e031a00f.508 {SELECT null IN t4} {{}}
+do_execsql_test tkt-80e031a00f.509 {SELECT null NOT IN t4} {{}}
+do_execsql_test tkt-80e031a00f.510 {SELECT null IN t4n} {{}}
+do_execsql_test tkt-80e031a00f.511 {SELECT null NOT IN t4n} {{}}
+do_execsql_test tkt-80e031a00f.512 {SELECT null IN t5} {{}}
+do_execsql_test tkt-80e031a00f

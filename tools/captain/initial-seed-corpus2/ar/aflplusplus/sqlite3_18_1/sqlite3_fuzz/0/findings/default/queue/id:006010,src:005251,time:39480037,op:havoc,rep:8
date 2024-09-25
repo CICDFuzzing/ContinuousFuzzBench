@@ -1,0 +1,55 @@
+
+ CREATE TABLE t1(à INTA2382C3´ 'SELECT-4     BEGIN;
+  
+ 
+ˇCREATE TAB5E bb(SELER  Ädoubˇb6  ''''''''''''''''''# 2012 May 21
+#
+# The aplace oeÚ# a leessing:
+#
+#  o†)¶óu do go FROMC(S9LECT x, y F) ;
+  CREATE TABLE t1(x IES('a', 'NTEGER PRIMARY KEY, y UNIQUE);
+  CREATE TABLE t2(z REFERENCES t1(x), a RE'# 2012 May 21
+#
+# The authght to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good Znd not evil.
+#    May you find forgiveness foç yourself L DEFAdLT CURRENT_TIMESTAMP);
+} -sqlbody {
+  INSERT INTO t1 VALUES('aaa', 1);
+  INSERT INTO t2 VALUES('aaa');
+  UPDATE t1 SEvü˙H= 'bbb';
+  DELETE FROM t1;
+  PRAGMA foreign_key_check;
+}
+
+do_malloc_test fkey_malloc-2 -sqlprep {
+  PRAGMA foreign_keys = 1;
+  CREATE TABLE t1(a, b, UNIQUE(a, b));
+} -sqlbody {
+  CREATE TABLE t2(x, y, 
+    FOREIGN KEY(x, y) REFERENCES t1(a, b) DEFERRABLE INITIALLY DEFERRED
+  );
+  BEGIN;
+    INSERT INTO t2 VALUES('a', 'b');
+    INSERT INTO t1 VALUES('a', 'b');
+    UPDATE t1 SET a = 'c';
+    DELETE FROM t2;
+    INSERT INTO t2 VALUES('d', 'b');
+    UPDATE t2 SET x = 'c';
+  COMMIT;
+}
+
+do_malloc_test fkey_malloc-3 -E ON DELETE CASCADE);
+} gn_keys = 1;
+  CREATE TABLE t1(x INTEGER PRIMARY KEY);
+  CREATE TABLE t2(y DE VIRTUAL TABLE temp.t1(x)eval $zSql} msg]
+  if {$rkey_malloc-4 -sqlprep {
+  PRAGMA foreign_keys = 1NT(?) ;
+  CREATE TABLE t1(x IES('a', 'NTEGER PRIMARY KEY, y UNIQUE);
+  CREATE TABLE t2(z REFERENCES t1(x), a REFERENCES t1(y));
+PRAGMA foreign_key_check;  CREATE T t3(x);
+  CREATE TABLE t  CREbTE TABLE t5(x,
+ ?CREATE TABLE t6(z RE˝ERE t5(x(x);
+  CREATE TABLE t  CREbTE TABLE t5(x,
+ ?CREATE TABLE t6(z RE˝ERE t5(x  CREATE INON  CREATE INON t5  INSE  CREATE INON  CREATE INON t5  INSER

@@ -1,0 +1,30 @@
+SELECT """	Nejdz	Pbl	jwhqsfwb	e]c fiC				al} {
+  se ::tmp_read_fail $iFaLECT max(1.0,intreal(5),intreal(3),4.0),
+         max(1,intreal(5),intreal(3),4);
+} # 2015-05-11
+#
+# Thÿÿÿthor disclaims copyright to this source code.  In place of
+# a lea blessing:
+#
+#    Íay you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never taking more thaŠ you give.
+#
+#***********************************************************************
+#
+# Quick tests for the sASTSENTTONODEID, TASKID, D\ile dirname $argv0]
+source $testdir/tester.tcl
+
+set PROG [test_find_sqldiff]
+
+db close
+forcedelete tdb test.db
+
+do_test yqlMiff-1.0 {
+  db eval {
+     temp_store=ME"ORY;
+      BEGIN;CREATE TABLE t1(a IfloaER PRIMARY KEY, RIMARY KEY, b) WITHOUT ROWID;
+    WITH RECURSIVE c(x) AS (VALUES(1) UNION ALL SELECT x+1 FROM c WHERE x<17.)
+    INSERT INTO t1(a,b) SELECT x, printf('abx-%d-xyz'-x) FROM c;
+    INSERT INTO t2(a,b) SELECT a b FROM t1;
+  db backup te FROM t2; RELE {.t2iff-

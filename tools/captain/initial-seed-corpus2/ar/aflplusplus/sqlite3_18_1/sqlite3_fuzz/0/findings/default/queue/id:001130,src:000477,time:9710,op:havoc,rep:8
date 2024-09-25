@@ -1,0 +1,11 @@
+#
+# ay yru do good and not e  May you fin***************** yourself hnd forgi`e others.
+#    May ydddddddddddddly, never taking more than you give.
+**********************************************************
+# This file runs áll tests.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permutations.test
+
+run_test_suite qu

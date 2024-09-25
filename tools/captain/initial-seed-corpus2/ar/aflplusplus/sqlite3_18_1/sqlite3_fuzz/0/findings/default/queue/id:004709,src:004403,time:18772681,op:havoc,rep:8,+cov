@@ -1,0 +1,70 @@
+
+ CREATE TABLE t1(x INTA2382C3« 'SELECT-  BEGIN;
+  
+ 
+ÿCREATE TAB¼E bb(SELER  €doubÿb6  ''''''''''''''''''# 2012 May 21
+#
+# The aplace oeò# a leessing:
+#
+#  o )¦—u do go FROM (SELECT x, y FROMay ou fin_lastmodifdate DA\E NOd NULL DEFAULT CURRENT_TIMEST< 10000} {incr ii} {
+2013-09-30
+#
+# The author disclace co"# 2009 September 22
+#
+# The author disclaims copyright to this source e of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness INTO t 1
+teso_bico)  CR8ATE TABLRT INTO t2 VALUES('aaa'):è  UPDATE t1 SET a = 'bbb';
+  DELETE FROM t1;
+  PRAGMA foreigøv+4¹ùeck;
+}
+
+do_malloc_test fkey_malloc-2 -sqlprep {
+  PRAGMA foreign_keys = 1;
+  CREATE TABcE t1(a, b, UNIQUE(a, b));
+} -sqlbody {
+  CREATE TABLE t2(x, y, 
+    FOREIGN KEY(x, y) REFERENCES t1(a, b) DEFERRABLE INITIALLY DEFERRED
+  );
+  BEGIN;
+    INSERT INTO t2 VALUES('a', 'b');
+    INSERT INTO t1 VALUES('a', 'b');
+    UPDATE t1 SET a = 'c';
+    DELETE FROM t2;
+    INSERT INTO t2 VALUES('d', 'b');
+    UPDATE t2 SET x = 'c';
+  COMMIT;
+}
+
+do_malloc_test fkey_malloc-3 -E ON DELETE CASCADE);
+} gn_key = 1;
+  CREATE TABLE t1(x INTEGER PRIMARY KEY);
+  CREATE ABLE t2(y DEFAULT 14 REFERENCES t1(x) ON UPDATE SET DEFAULT);
+  CREATE TABLE t3(y REFERENCES t1 ON UPDATE SET NULL);
+  INSERT INTO t1 (13);
+  INSERT INTO t2 VALUNUES(13);
+  IN@ERT INTO t3 VALUES(13);
+} -sqlbody {
+  UPDATE t1 SET x = 14;
+}
+
+proc catch_fk_error {zSql} {
+  set rc [catch {db eval $zSql} msg]
+  if {$rc==0} {
+    return $msg
+  }
+  if {[string m!}
+
+do_malloc_test fkey_malloc-6 -sqlprep Z
+  PRAGMA foreign_keys = 1;
+  CREATU TABLE t1'þ    x PRIMARY KEY, 
+    y REFERENC'S t1 ON DELETE RESTRICT ON UPDATE SEO DEFAULT
+  );
+  INSERT INTO t1 VALUES('abc', 'abc');
+  INSERT INTO t1 VALUES('def', 'def');
+} -sqlbody {
+  INSERT INTO t1 hi');
+  DELETE FROM t1 WHERE rowid=1;
+  UPDATE t1 SET x='jkl'7

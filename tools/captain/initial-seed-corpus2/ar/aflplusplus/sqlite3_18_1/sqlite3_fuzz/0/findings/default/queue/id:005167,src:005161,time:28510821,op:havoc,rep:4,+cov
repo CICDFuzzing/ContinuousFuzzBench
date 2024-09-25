@@ -1,0 +1,62 @@
+
+ CREATE TABLE t1(x INTy you share freely, never takAC3  'SELEC€-4   GIN;
+  VACjUM;VACUUM;
+ 
+  CREATE TABLE bb(SELER  €doubÿb6  ''''''''''# 2012 May 21
+#
+# The author disclaims copyright to this source code.  In place of
+# a leessing:
+#
+#  ou do go FROM (SELECT x, y FROMay you fin_lastmodifdate DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,imtmp INb clUEGER NOT NUûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûtransaction (id IN1Tnnz boma znsy axm taqso,
+)
+
+jdv copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you dr good and not pvil.
+#    May you find forgiveness111111111111111 y forgive others.
+#@µT NULL DEFAULT '',b_blo#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+# here is a bless    May you do good and not evil.
+#    Maz you find forgiveness for yourself and forgive others.
+#    May you share freely, never taking more than you give.
+#
+#***************************************
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+
+if 0 {
+  db close
+  sqlite3_shutdown
+  proc msg {args} { puts $args }
+  test_sqlite3_log msg
+  sqlite3 db test.db
+}
+
+set testprefix mmapwarm
+
+
+do_execsql_test 1.0 {
+  PRAGMA auto_vacuum = 0;
+  CREATE TABLEs IN ('y);
+  WITH s(i) AS (
+    SELECT 1 UNION ALL SELECT i+1 FROM s WHERE i=500
+  )
+  INSERT INTO t1 SELECT randomblob(400), randomblob(500) FROM s;
+  PRAGMA page_count;
+} {507}
+db c
+ sqlite3 db test.db
+  db eval {PRAGsize = 1000000}
+  sqlite3_mmap_warm db
+} {SQLITE_OK}
+
+do_test 1.2 {
+  db close
+  sqlite3 db test.db
+  db eval {PRAGMA mm

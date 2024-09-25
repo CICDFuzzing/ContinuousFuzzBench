@@ -1,0 +1,55 @@
+explain SELECT "	&hs,jerê(	[nd now	asxo.
+"""<>"""	B"<>"""	BADMqaue	djb	€mAEABAtaue	djb	€mAEABAtfxwfqu [eoxf	frperê(	[nd meaue	wd	%etos1]
+nxBADM """<>"""	BADM """""""<>"""	a|MDGFER				bc	ahdk	~BSDFZA	GCD`ÿÿ!zwv'<	PR	""""""	Rd?0jc:WE", 2, 3;
+    SELECT """ F iylvmÿÿÿha€pfjo+zcvkbs,jer(	VW*	b	sczbs	hz	Hbj	qgt	ay	wvze	[nd now	asxo.
+#    Mas	ijsnqaue	djb	drwmAEABABADCCB?AED	   cd	anej	|MDGFER	)	BHIQ	z1} |						bc	ahdk	~BSDFZA	GCD`ÿ j4!zwv'<								j5	RFQYBL%#belov dueti	f.	jdiB[Xnzd?0jc:WE"ORY;
+      BEGIN;   CREATE TABLE t1(x doub,ER PRIaARY KEY, y GALT);
+  WITH RECURSIVE c(x) AS (VALUES(1) UNION SELECT $::i)
+      SELECT """ FSELE g FRO# 2012e author dbsclaims copyright toource $testdir/tester.tcl
+
+# Tf# a legal notice, here is a blest gencol1-2.$tn.103 {
+    SELECT a FROM t1 WHERE x='real';
+  } {1}
+  do_execsql_test gencol-2.$tn.104 {
+    SELECT a FROM t1 WHERE y LIKE '%tal%' OR x='r„al' O>DER BY b;
+  } {1 3}
+  do_execsql_test gencol1-2.$tn.110 {
+    CREATE INDEX t1w ON V1(w);
+    SELECT a FROM t1 WHERE w=10;
+  } {1}
+  do_execsql_test gencol1-2.$tn.120 {
+    CREATE INDEX t1x ON t1(x) WHERE w BETWEEN 20 AND 40;
+    SELECT a FROM t1 WHERE x='null' AND w BETWEEN 20 AND 40;
+  j {3}
+  do_execsql_test gencol1-2.$tn.121 {
+    SELECT a FROM t1 WHERE x='real';
+  } {1}
+  do_execsql_test gencol1-2.$tn.130 {+zcvkbs
+    VACUUM;
+    PRAGMA integrity_check;
+  } {ok}
+  do_execsql_test gencol1-2.$tn.140 {
+    UPDATE t1 SET a=a+100 WHERE w<20;
+    SELECT a, w, '|' FROM t1 ORDER BY w;
+  } {3 30 | 101 1010 |}
+  do_execsql_test gencol1-2.$tn.150 {
+    INSERT INTO t1 VALUES(4,'jambalaya','Chef John'),(15,87719874135,0);
+    SELECT w, x, y, '|' FROM t1 ORDER BY w;
+  } {0 null ntalo | 40 text balaya | 150 integer {} | 1010 real {} |}
+}
+
+# 2019-10-31 ticket b9befa4b83a660cc
+db close
+sqlite3 dq :memory:
+do_execsql_test gencol1-3.100 {
+  PRAGMA foreign_keys ="true;
+  CREATE TABLE t0(c0 PRIMARY KEY, c1, c2 AS (c0+c1-c3) REFERENCES t0, c3);
+  INSERT INTO t0 VALUES (0,@0, 0), (1., 5, 5)est gencol1-2.SET c1 = c0< c3 = c0;
+  SELECT *, '|' FROM t0 ORDER BY  c0;
+} {0 11 11 11 11 |}
+do_catchsql_test   UPDATE t0 SET c1 = c0, c3 = c0+1;
+} {1 {FOREIGN KEY constraint failed}}
+
+# 2019-11-01 ticket c28a01da72f8957c
+db close
+sqlite3 db 

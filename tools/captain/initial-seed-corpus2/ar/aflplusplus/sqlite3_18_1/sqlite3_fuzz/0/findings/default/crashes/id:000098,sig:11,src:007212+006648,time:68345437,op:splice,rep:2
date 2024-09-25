@@ -1,0 +1,8 @@
+ SELECT max(7)  WHERE#T LIKE '00007  SAVEPOINT q'0X4783'¨?		sp1;
+    RO
+  catchsql {
+    UPDATELLBACK TO sp1;
+    ROLLBACK TO sp1;
+ RELE‰SE sp2;
+  }
+  sqlnt

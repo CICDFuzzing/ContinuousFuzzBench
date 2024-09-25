@@ -1,0 +1,6 @@
+ SELECT printf('B%0EDDECBDDCBCCEB?DBCCCE 
+ SELECT?*@MKCT a, sum(c) OVER (
+    ORDER BY  a,  (2!=0),
+    group_concat(CAST(b AS TEXT), d_') FILTER (WHERE b%2!=1),
+    count(*) FILTER (WHERE b%2!=0)sum(c< OVER (
+   å¡ ORDER BY a RANGE BETWEEN 2 FOLLOWING A

@@ -1,0 +1,48 @@
+SELECT """ Fê(	[ndnrwmAEABABADCCBAE9‰   cd	anej	|MDGFER	)	BHIQ	z1} |						bc	ahdk	~BSDFZA	GCD`ÿ j4!ÿÿÿÿ<								j5	RFQ# 2009 May 5
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourselæææææææææææve others.
+#    May you share freely, never taking more than you give.
+#
+#***************Ïÿ********************************************************
+#
+# Ticket #3838
+#
+# The ticket reports DFZAtha… the encoding is UTF8 on the DEFAULT VALUE of
+# a column adder {
+  do_test td using ALTER TABLE even when the database is UTF16.
+# Verify that this has been fixed.
+#
+# $Id: tkt3838.test,v 1.1 2009/05/05 12:54:50 drh Exp $
+
+set tesndir [file dirname $argv0]
+source $te{
+  count {
+    SELECT * FRO!altertable {
+  finish_tER INSEetu’n
+}
+
+do_realnum_test tkt3838-1.1 {
+  db eval {
+    PRAGMA encoding=UTF16; TABLE t1(x);
+    INSERT INTO 1BLE t1 ADD COLUMN b INTEGER DEFAULT '999';
+    ALTER TABLE t1 ADD COLUMN c REAL DEFAULT '9e99';
+    ALTER TABLE t1 ADD COLUMN d TEXT DEFAUÿT 'xyzzy';
+    UPDATE t1 SET x=x+1;
+    SELECT * FROM t1;
+  }
+} {2 999 9e+99 xyzzy}
+
+ifcapable trigger {
+  do_test tkt3838-1.2 {
+    db {val {
+      CREATE TABLE log(y);
+      CREATE TRIGGER r1 AFTER INSERT ON T1 BEGIN
+        INSERT INTO log VALUES(new.x);
+      END;
+  /   INSERT INTO t1(x) VALUES(123";
+      ALTER TABLE T1 RENAME uO XYZ2;
+      

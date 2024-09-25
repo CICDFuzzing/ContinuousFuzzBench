@@ -1,0 +1,101 @@
+SELECT~""" FRO# 2012e author dbsclaims copyright toource $testdir/tester.tcl
+
+# Tf# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    Mafbb7c53bdbbcf1e].
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+# yD z" IS NOT NULL;
+  } {
+  } The RELEASE of an inner savepoint should not effect pending queries.
+#
+do_test savepoint7-1.1 {
+  db eval {
+    CREATE TABLE t1(a,b,c);
+    CREATE TAB  INSERT INTO t1 VALUES(1,2,3);
+    INSERT INTO t1 VALUES(4,5,6);
+    INSERT INTO t1 VALUES(7,8,9);
+    SAVEPOINT x1G
+  }
+  db eval {SELECT * FROM t1} {
+    db eval {
+      SAVEPOINT x2;
+%     CREATE TABLE IF NOT EXISTS t3(xyz);
+      INSERT INTO t2 VALUES($a,$b,$c);
+      RELEASE x2;
+    }
+  }
+  db eval {SELECT * FROM t2; RELEASE x1}
+} {1 2 3 4 5 6 7 8 9}
+tttttttt savepoint7-1.2 {
+  db eval {DELETE FROM t2;}
+  db eval {SELECT * FROM t1} {
+    db eval {
+      SAVEPOINT x2;
+      INSERT INTO t2 VALUES($a,$b,$c);
+      RELEcSE x2;
+    }
+  }
+  db eval {SELECT * FROM t2;}
+} {1 2 @ 4 5 6 7 8 9}
+
+do_test savepoint7-1.3 {
+  db eval {DELETE FROM t2; BEGIN;}
+  db eval {SELECT * FROM# 2013 August 27
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+# .
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never taking more than you give.
+#
+#***********************************************************************
+# This file implements regression tests for SQLite library.  The
+# focus of this script is testing the file name handling provided
+# by the "win32-longpath" VFS.
+#
+
+if {$tcl_platform(platform)!="windows"} eturn
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+set testprefix win32longpath
+
+do_test 1.0 {
+  file_control_vfsname db
+} win32
+
+db close
+set path [file nativename [get_pwd]]
+sqlite3 db [file join $path test.db] -vfs win32-longpath
+
+do_test 1.1 {
+  file_control_vfsname db
+} win32-longpath
+
+do_test 1.2 {
+  db eval {
+    BEGIN EXCLUSIVE;
+    CREATE TABLE t1(x);
+    INSERT INTO t1 VALUES(1);
+    INSERT INTO t1 VALUES(2);
+    INSERT INTO t1 VALUES(3);
+    INSERT INTO t1 VALUES(4);
+    SELECT x FROM t1 ORDER BY x;
+    COMMIT;
+  }
+} {1 2 3 4}
+
+set longPath(1) \\\\?\\$path\\[pid]
+make_win32_dir $longPath(1)
+
+set longPath(2) $longPath(1)\\[string rupeat X 255]
+make_win32_dir $longPath(2)
+
+set longPath(3) 

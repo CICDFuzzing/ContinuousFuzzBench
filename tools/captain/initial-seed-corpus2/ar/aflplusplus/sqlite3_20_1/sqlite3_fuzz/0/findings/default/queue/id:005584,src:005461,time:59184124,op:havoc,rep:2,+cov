@@ -1,0 +1,2 @@
+ VALUES(zeroblob(3&0));
+ 

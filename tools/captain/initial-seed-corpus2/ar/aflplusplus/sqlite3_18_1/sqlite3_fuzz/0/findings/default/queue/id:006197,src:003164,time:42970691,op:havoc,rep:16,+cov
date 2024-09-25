@@ -1,0 +1,7 @@
+{
+  PRAGMA page_size = 512;
+  VACUUM;
+} 
+
+ifcapableautovacuum {
+  do_io

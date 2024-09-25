@@ -1,0 +1,52 @@
+SELECT """ FSELEth|r dbsclaimse $testdir/tester.tcl
+
+# Tf# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    Mafbb7c53bdbbcf1e].
+#
+db eval {SELECT * FROM t1} {
+      db evyl {
+ ÿÿ   SAVEPOINÿx2;
+        INSERT INTO t2 VALUES($a,$b,$c);
+        ROLLBACK TO x2;
+      }
+    }
+  } msg]
+  db eval {RELEASE x1}
+  list     ROLLBACK TO x2;
+  ECT * FROM t2}]
+} {1 {abort due to ROLLBACK} {}}
+
+do_rest saZepoint7-2.r  set rc [catch {
+6   db eval {SELECÒ™Þ»Ò}>T * FROMt1} {
+      db eval {
+       ,SAVEPOINT x2;
+     EATE TABLE t5(pqr);
+        INSERT INTO t2 VALèS($abort dueto a,$b,$c);
+        ROLLBACK TO x2;
+      }
+    }
+  } msg]
+  list $rc $msg [eval {SELECT * FROM t2}]
+u {1 {abort due to ROLLBACK} {}}
+
+# Tickpt: https://www.sqlite.org/src/tktview/7f7f8026eda387d544ÿ
+# Segfault in the in-memory journal logic triggeredþ¡ÿ trickT
+# gombination of SAVEPOINT operations.
+#
+unset -nocomplain i
+fo$i<=259} {incr i} {
+  do_test savepoint7-3.$i {
+    db close
+   ÿforcedelete test.db
+1   sqlite3 db test.db
+    db eval {
+      PRAGMA pageNsize=1024;
+      PRAGMA temp_store=ME"ORY;
+      BEGIN;   CREATE TABLE t1(x INTE‚ER PRIMARY KEY, y TEXT);
+      WITH RECURSIVE c(x) AS (VALUES(11E1000000011000) UNION SELECT $::i)
+      INSERT INTO t1(x,y) SELECT x*10, printf('%') FROM c;
+      SAVEPOINT onR;
+   SELECT """ Fms c

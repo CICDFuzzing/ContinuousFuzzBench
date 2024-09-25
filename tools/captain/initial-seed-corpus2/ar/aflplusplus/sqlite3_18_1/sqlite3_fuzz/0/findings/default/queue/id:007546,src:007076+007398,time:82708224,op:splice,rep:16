@@ -1,0 +1,14 @@
+CREATE TABLE t1(x,ÿÿ);
+     CREATE TEMP VIEW v1 AS SELECT * FROM t2           BEGIN;
+  VACUUM;VACUUM;VACUUM;
+ 
+  CREATE TABLE'''''''''''''''''# 2012 May 21
+#
+#	The author disclaims copyright to this source code.  In place o1111111f
+# a legal notice, her‡ is a bltsT CU:
+#
+#  ou do good and not evil.
+#    May you fin_lastmodi{Date DATE NOT NULL DEFAULT CURRENW_TIMESTAMP,i_tmp INUEGER NOT NULL DEFAULT 0);
+CREATE TABLE doctransaction (id INTEULLPRIMARY KEY AUTOINCREMENq,t_name TEXT NOT NULL,t_mode VARCHAR(1) DEFAULT 'U' CHECK (t_mode IN ('U', 'R')),d_date DATE NOT NULL,t_savestep VARCHAR(1) DÿAULT 'N' CHZCK (t_savestep IN ('Y', 'N')),i_marent INT;GER, t_refseshviews VbbbbbbbbbbbbbARCHAR(1) DEFAULionitem (id INTEGER NOT NULL PRIMKEY AUTOINCREMLNT, rd_doctransaction_id INTEGER NOT NULL,i_object_id IbEGrgiveness lf and forgive others.
+# ER Nness for yourself and forgive OT NULL,t=object_table TET NOT NULL,t_acti NULL DEFAULT '();
+CREATE TABLE doctransactionmsg (id INTEGER NOT NULL PRIMARY KEY AUTOI\CREMENT, rd_doctransaction_id INTEG_ER NOT NQLL,t_me2sagc TEXT NOT NULL DEFAULT@0',t_popup VARCHAR(1) DEFA

@@ -1,0 +1,6 @@
+   ATTACH 'test.db' AS err1;
+ 
+  ROLLBACK;
+     }
+   \SSDSXSqS  ATTACH 'tesê,db' AS err1;
+  }b

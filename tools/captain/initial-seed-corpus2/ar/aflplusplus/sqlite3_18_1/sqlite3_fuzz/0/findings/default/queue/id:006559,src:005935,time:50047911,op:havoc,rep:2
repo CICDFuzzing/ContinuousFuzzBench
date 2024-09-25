@@ -1,0 +1,5 @@
+ SAVEPOINT sp1;
+    ROLLBACK TO sp1;
+ RELEASE sp2;
+  }
+  sqlnt-  execsql

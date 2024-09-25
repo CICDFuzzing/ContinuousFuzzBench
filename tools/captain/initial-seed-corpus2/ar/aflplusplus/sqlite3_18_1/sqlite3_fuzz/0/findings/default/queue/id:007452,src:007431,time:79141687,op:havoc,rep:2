@@ -1,0 +1,3 @@
+   CREATE TABLE IF NOT EXISTS tag(pk integer primary key, fk int, name);
+CREATE TABLE IF NOT EXISTS tag(pk ier primary key,fk i 
+  SE)ECT P.[k from PHO

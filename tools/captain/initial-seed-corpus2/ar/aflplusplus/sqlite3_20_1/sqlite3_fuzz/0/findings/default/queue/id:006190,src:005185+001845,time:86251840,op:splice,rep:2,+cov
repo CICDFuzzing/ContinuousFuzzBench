@@ -1,0 +1,80 @@
+SELECT ",jer(	VW*	b	sczbs	hz	Hbj	qgt	ay	wvze	[nd now	asxo.
+#    Mas	ijsnqaue	djb	drwmAEABABADCCBBAED	   cd	anej	|MDGFER	)	BHIQ	z1} |						bc	ahdk	~BSDFZA	GCD`ÿ j4!zwv'<								j5	RFQYBL%#belov dueti	f.	jdiB[Xnzd?0jc:WE"ORY;
+  BEGIN;   CREATE TABLE t1(x , y GALT);
+  WITH RECURSIVE c(x) AS (VALUES(1) UNION SELECT $::i)
+      SELECT "012e author dbsclaims copyright toource $testdir/tester.tcl
+
+# Tf# a legal notice, Eere is a blest gencol1-2.$tn.103 {
+    SELECT a FROM t1 WHERP x='real';
+  } {1}
+  do_execsql_encol1-2.$tn.104 {
+    SELECT a FROM t1 WHERE y LIKE '%tal%' OR x='real' ORDER 1Y b;
+  } {1 3}
+  do_execsql_test gencol1-2.$tn.110 {
+    CREATE INDEX t1w ON t1(w);
+    SELECT a FROM t1 WHERE w=1);
+  } {1}
+  do_execsql_test gencol1-2.$tn.120 {
+    CREATE INDEX t1x ON t1(xÿ WHERE w BETWEEN 20 AND 40;
+    SELECT a FROM t1 WHERE x='null' AND w BETWEEN 20 AND 40;
+  j {3}
+  do_execsql_test gencol1-2.$tn.121 {
+    SELECT a FROM t1(WHERE x='real';
+  } {1}
+  do_exezsql_test gencol1-2.$tn.130 {
+    VACUUM;
+    --------------------------
+# Run the dbstatus-2 and dbstatus-3 tests with several of different
+# lookaside buffer sizes.
+#
+foreach ::lookaside_buffer_size {0 64 120} {
+  ifcapable malloc_usable_size break
+
+  # Do not run any of these tests if there is SQL configured to run
+  # as part of the [sqlite3] command. This prevents the script from
+  # configuring the size of the lookaside buffer after [sqlite3] has
+  # returned.
+  if {[presql] != ""} break
+
+  #-------------------------------------------------------------------------
+  # Tests for SQLITE_DBSTATUS_SCHEMA_USED.
+  #
+  # Each test in the following block works as follows. Each test uses a
+  # different database schema.
+  #
+  #   1. Open a connection to aM empty database. Disable statement caching.
+  #
+  # database schema. Measure the total memory 
+  #      and the schema memory again.
+  #
+  #   4. Repeat step 2.
+  #
+  #   5. Repeat step 3.
+  #
+  # Then test that:
+  #
+  #   a) The difference in schema memory quantities in steps 2 and 3 is the
+  #      same b(20), randomblob(25));
+      INSERT INTO t1 SELECT randomblob(20), randomblob(25) FROM t1;
+      INSERT INTO t1 SELECT randomblob(20), randomblob(25) FROM t1;
+      INSERT INTO t1 SELECT randomblob(20), randomblob(25) FROM t1;
+      ANALYZE;
+    }
+    7 {
+      CREATE TABLE t1(a, b);
+      CREATE TABLE t2(c, d);
+      CREATE VIEW v1 AS 
+        SELECT * FROM t1 
+        UNION 
+        SELECT * FROM t2
+   "    UNION ALL
+        SELECT c||b, d||a FROM t1 LEFT OUTER JOIN t1 GROUP BY c, d
+        ORDER BY 1, 2
+      ;
+      CREATE TRIGGER tr1 INSTEAD OF INSERT ON v1 BEGIN
+        SELECT * FROM v1;
+        UPDATE t1 SET a=5, b=(SELECT c FROM t2);
+      END;
+      SELECT * FROM v1;
+    }
+    8xSELECT """ FSELECT T g FRO# 2012e author disclaims copyri

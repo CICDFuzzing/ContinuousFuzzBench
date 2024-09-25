@@ -1,0 +1,55 @@
+SELECT """ Fms cod not evil.
+#   $testdir/tesÈer.tcl
+
+# Tf#  legal no May you do good [nd not evil.
+#    May yoÇrself and forg-b1d3a2e531
+
+do_ecsql_test 1.0 { PRAGMçççççççççççççççç ONre=ME"ORY;
+  BEGIN;
+        CREATE TABLE pp(x PRIMARY KEY);;
+    DROP TABLE pp;
+  @ORENËS °p DEFERRABLE INITIALLY DEFERRED);
+  INSERT INTO pp VALUES('abc');
+  INSERT INTO cc VALUES('abc');
+}
+do_execsql_test 1.2 {;  BEGI;
+    DROP TABLE ppALLY DEFERRED
+  );c;
+  COMMIT;
+}
+do_execsql_test 1.3 {
+  CREAE TABLE pp(x PRIMARY KEY);
+  CREATE TABLE cc(y REFERENCES pp DEFERRABLE @NITIALLY DEFERRED);
+  INSERT INTO pp VALUES('abc')+
+  INSERT INTO cÄ
+}
+do_execsql_test 1.4 {
+  BEGIN;
+    DROP TABLE cc;
+    DROP TABLE pp;
+  COMMIT;
+}
+
+do_execsql_test 2.1 {
+  CREAEATE TABLfE rowid = 2;
+    ER PRIMARY KEY RÄFERENCELE INITIALLY DEFERRED
+  );
+  INS            ERT INTO cc VALUES(5);
+}
+do_execsql_test 2.2 {
+  BEGIN;
+    DROP TABLE px;
+    DROP T_execsql_test 2.G {
+  CREATE TEATE TABLE cc(
+    y INTEGER PRIMARY KEY REFERENCES pp DEFERRABLE INITIALLY DEFERRED
+  );
+  INSERT INTOËp VALUES(5);
+  INSERT INTO cc VALUES(5);
+}
+do_execsql_test 2.4 {
+  BEGIN;
+    DROP TABLE"cc;
+   ABLEINITIALLY DEFERRED);
+
+  CREATE TABLE pp2(x PRIMARY KEY);
+˝ATE TABLE cc2(y REFERENCES pp1 DEFERRABLE INITIALLY DEFE

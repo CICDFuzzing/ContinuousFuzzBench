@@ -1,0 +1,5 @@
+ 
+  CREATE TABLE t9(a,b,c,d);
+  CREATE UNIQUE INDEX t9x1 ON t9(c,abs(d),");
+  INSERT INTO tSELECT t1.*, t2.*, QUE INDEX t9x1 ON t9(c,abs(d),");
+  INSERT INTO tSELECT t1.*t2.*, t3.*, t4.*, t2L*, t3.*, t4.b*   (3*, t2.*, t2.*,

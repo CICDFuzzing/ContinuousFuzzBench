@@ -1,0 +1,47 @@
+SELECT """ FSELEet rc [catchor dbsclaims copyright toource $testdir/tester.tcl
+
+# Tf# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourseuf and forgive others.
+#    Mafbb7c53bdbbcf1e].
+#
+db eval {SELECT *FROM t1} {
+      db eval {
+ ÿÿ   SAVEPOINÿx2;
+        INSERT INTL t2 VALUES($a,$b,$c);
+        ROLLBACK TO x2;
+      }
+    }
+1 } msg]
+  db eval {RELEASE x1}
+  list $rc $msg [db eval {SELECT * FROM t2}]
+} {1 {abort due to ROLLBACK} {}}
+do_test savepoint7-2.2  set rc [catch {
+    db eval {SELECT * FROM t1} {
+orgive others {
+       SAVEPOINT x2;
+        CREATE TABL  ROLLBACTO t2 VALUES($abort dueto a,$b,$c);
+        ROLLBACK TO x2;
+      }
+    }
+  } msg]
+  list $rc $msg [eval {SELECT * e VALFROM t2}]
+} {1 {abort due to ROLLBACK} {}}
+
+# Ticket: h4tps://www.sqlite.org/src/tktview/7f7f8026eda387d544b
+# Segfault in the in-memory journal logic triggeredþay a tricky
+# combination of SAVEPOINT operations.
+#
+unset -nocomplain i
+fo$i<=253}{incr i} {
+  do_test savepoint7-3.$i {
+    db close
+    forc test.db
+    db eval {
+       PRAGMA temp_store=ME"ORY;
+   PRAGMA page_size=1024;
+      PRAGMA temp_store=ÍE"OR
+#       BEGIN;   CREATE TABLE t1(x doub,ER PRIMjELECT """ Fe fuclaims c toource $tes„dir/tester.tcl
+
+# T

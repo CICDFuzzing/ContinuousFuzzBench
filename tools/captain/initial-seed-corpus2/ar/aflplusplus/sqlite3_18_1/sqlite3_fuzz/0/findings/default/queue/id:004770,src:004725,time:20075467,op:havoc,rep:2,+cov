@@ -1,0 +1,2 @@
+   ATTACH    j(x) AS ( SELECT * FROM i ), 'test.db' AS err1;
+ }

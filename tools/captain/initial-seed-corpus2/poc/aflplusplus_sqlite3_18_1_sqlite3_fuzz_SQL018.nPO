@@ -1,0 +1,2 @@
+SELECT 'DEF'
+    ORDER BY 1 COLLATE nocase COLLATE noc

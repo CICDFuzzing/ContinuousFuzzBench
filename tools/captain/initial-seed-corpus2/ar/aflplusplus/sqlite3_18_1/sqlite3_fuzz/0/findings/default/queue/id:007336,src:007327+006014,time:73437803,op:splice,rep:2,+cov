@@ -1,0 +1,4 @@
+   CREATE TABLE t1(x UNIQUER PRIMARY KEY,
+    b AS('Y') UNIQUE
+  );
+   VACUUM;	VACUUM;	BJCÊPFCTA	cf$J  Äd'''''''' The

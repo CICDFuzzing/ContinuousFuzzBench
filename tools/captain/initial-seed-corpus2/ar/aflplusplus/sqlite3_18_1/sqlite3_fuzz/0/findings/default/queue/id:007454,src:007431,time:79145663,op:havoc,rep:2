@@ -1,0 +1,4 @@
+   CREATE TABLE IF NOT EXISTS tag(pk iger primary key, fk int, name);
+CREATE TABLE IF NOT EXISTS tag(pk ier primarynteger primary key, fk int, name);
+CREATE TABLE IF NOT EXISTS tag(pk ier primary ke† fk i 
+  SELECT P.[k from PHO

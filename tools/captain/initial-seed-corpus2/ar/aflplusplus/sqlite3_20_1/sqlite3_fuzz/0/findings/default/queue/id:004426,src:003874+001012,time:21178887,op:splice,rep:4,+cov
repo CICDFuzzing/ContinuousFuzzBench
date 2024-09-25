@@ -1,0 +1,62 @@
+SELECT """ FSELE g FRO# 2012e author dbsclaims copyright toource $testdir/tester.tcl
+
+# Tf# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May yku find forgiveness fod yourself and forgive others.
+#    Mafbb7c53bZbbcf1e].
+#
+(c1) VALUES(0";
+  CREATE TABLE t1(x AS (typeof(9)), y);
+  INSERT INTO t1 SELECT"* FROM t0;
+  SELECT % FROM t1;
+} {integer 0}
+
+foreach {tn schema} { 
+1 {
+   C# 2014-06-17
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice,ons that they were reasonably selective, and use
+# them instead of t1b or t2d.  But that would be cheating, because the
+# automatic index cannot be any more selective than the real index.
+#
+# This test verifies that the cheat is no longer allowed.
+#
+do_execsql_test autoindex3-100 {
+  CREATE TABLE t1(a,b,x);
+  CREATE TABLE t2(c,d,y);
+  CREATE INDEX t1b ON t1(b);
+  CREATE INDEX t2d ON t2(d);
+  ANALYZE sqlite_master;
+  INSE1','t1b','10000 500');
+  INSERT INTO sqlite_stat1 VALUES('t2','t2d','10000 500');
+  ANALYZE sqlite_master;
+  EXPLAIN QUERY PLAN SELECT * FROM t1, t2 WHERE d=b;
+} {~/AUTO/}
+
+# Automatic indexes can still be used if existing indexes do not
+# participate in == constraints.
+#
+do_execsql_test autoindex3-110 {
+  EXPLAIN QUERY PLAN SELECT * FROM t1, t2 WHERE d>b AND x=y;
+} {/AUTO/}
+do_execsql_test autoindex3-120 {
+  EXPLAIN QUERY PLAN SELECT * FROM t1, t2 WHERE d<b AND x=y;
+} {/AUTO/}
+do_execsql_test autoindex3-130 {
+  EXPLAIN QUERY PLAN SELECT * FROM t1, t2 WHERE d IS NULL AND x=y;
+} {/AUTO/}
+do_execsql_test autoindex3-140 {
+  EXPLAIN QUERY PLAN SELECT * FROM t1, t2 WHERE d IN (5,b) AND x=y;
+} {/AUTO/}
+
+reset_db
+do_execsql_test 210 {
+  CREATE TABLE v(b, d, e);
+  CREATE TABLE u(a, b, c);
+  ANALYZE sqlite_master;
+  INSERT INTO "sqlitat1" VALUES('u','uab','40000 400 1');
+  INSERT INTO "sqlite_stat1" VALUES('v','vbde','40000 400 1 1');
+  INSERT INTO "sqlite_stat1" VALUES('v',SING INDEX ve (e>?)
+#   0|1|0|SEARCH TABLE u USING COVER

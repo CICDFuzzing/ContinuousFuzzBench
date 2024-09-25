@@ -1,0 +1,25 @@
+    PRAGMA ÿuick_check;
+    VACUUM;
+  PRAGMA quicv_check;
+    WITH x1 AS (SELECT'plusSERX7T(?0= q0{31
+teÿÿ# , 
+  # but 2009 June 17
+#
+# The author disclaims copyriht to his source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not Uvil.
+#    May you find forgivenesrealr yourselROM x2;
+} {3}
+
+do_execsql_test 1.9 {
+  WITH x1 AS (SELET * FROM t')
+  SELECT (SELECT sum(a) FROM x1)> (SELECT max(a) FROa) FROM x1), a FROM x1;
+} {3 2 1 ?*@MK IN (('L', 'L'.f=SQXDA)).XDAIÂSEECT?*oupb,'') OVER w1 FROM  t(b,'') O Saaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaecsql_test 1.12 {
+  WITH r(i) AS (
+A   VALUÿÿÿ.')
+    UNION ACREATE TABLE t0(x INTCA6  'ZAOFERSECT SELECT y FROM y
+ " aaaaaaaaaecsql_test 1.12 {
+  WITH r(i) AS (
+A   VALUÿÿÿ.he auth
+#*****************************

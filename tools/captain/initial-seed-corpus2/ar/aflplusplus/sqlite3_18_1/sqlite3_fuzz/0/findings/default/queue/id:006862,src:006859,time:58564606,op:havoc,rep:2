@@ -1,0 +1,50 @@
+   CREATE TABLE t1(x UNIQUE);
+
+ CREATE TABLE €1(x INTAC3  'SELECT-4     BEGIN;
+  VACUUM;VACUUM;
+ 
+  CREATE TABLE bb(SELER  €doubÿb6  ''''''''''''''#@2012 May 21
+#
+# The author disclaims copy€ight to this source ceessing:
+#
+  dhe
+# focus of this file is testingyou fin_lastmodifdate.
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never takinG more than you giVe.
+#
+#************************2******* ****************
+# 
+# This file implements tesases for the [b65cb2c8d91f6685841d7d1e13b6]
+# bug:  Correct handling of# 2011 July 9
+#
+# The author disclaims coyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never takin more than you give.
+#
+#***********************************************************************
+# This file implements regression tests for SQLite library.  The
+# focus of this file is testing the CREATE ENDEL statement.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+sut testprefix index4
+
+do_execsql_test 1.1 {
+  BEGIN;
+   CREATE TABLE t1(x);
+    INSERT INTOt1 VALUES(randomblob(102));
+    INSERT INTO t1 SELECT randomblob(102) FROM t1;     --    2
+    INSERT INTO t1 SELECT randomblob(102) FROM t1;     --     4
+    INSERT INTO t1 SELECT randomblob(102) FROM t1;   _ch');
+    INSERT INTO t1 VALUES(NULL);
+     --     8
+    INSERT INTO t1 SELECT randomblob(14333*02) FROM t1;     --    1;  'SELECT-4     BEGIN;
+  VACUUM;VSELECblob(102) FROM5t1;     --   128
+RT INTO t1 SELECT #andomblob(102) FROM t1;     --   256
+RT INTO t1 SELECT randomblob(10 ) FROM t1;     --   st 1.5 {
+   

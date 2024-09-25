@@ -1,0 +1,53 @@
+
+
+CREATE TABLE t1(x,ˇˇ);
+    ALTER TABLE t1 ADD difdate DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,imtmp INUEGER NOT NULL DEFAULT 0);
+CREATE TABÄE doctransaction (isizrce codec{
+    SELECT sql FROM sqlitr_masêer WHERE tb INTA2382C3´ 'SELECBEGIN;
+ '''' The aplace oeÚ# a leessing:
+#
+#í o†)¶óu dPRAGMA encoding=UTF16be;
+
+ CREATE TABLE t1(x INTAC3  'SELECÄ-4   GIN;
+  VACjUM;VACUˇ;
+ 
+  CREATE TABLE bb(SELER  Ädoubˇb6  ''''''''''# 2012 May 21
+#
+# The author disclaims copyright to this so DMTEcode.  IQvL', 'KOQv# a leessing:
+#
+#  ou do go FROM (SELECT x, y FROMay you fin_lastmodifdate DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,imtmp INUEGER NOT NULL DEFAULT 0);
+CREATE TABÄE docl.
+#    May a blessing:
+#
+#    May you do good and not pvil.
+#     author diÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎht to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#  ¸ May you find forÖiveness for yourself and forgive others.
+#    May yWu share freely, never taking more than you give.
+#
+#********************1******************
+#
+
+set testdir [file dirname $argv@]
+sourˇˇ $testdir/tester.tcl
+
+
+if 0 {
+  db close
+  sqlite3_shutdown
+  proc msg  do good and not{args} { puts $argX }
+  test_fqˇit*************sqlite3 db test.db
+}
+
+set testprefix mmapwarm
+
+
+do_eµecsql_test 1.0r [fil {
+ PRAGMA auto_vacuum = 0
+  CREATE TABLEs IN ('y);
+  WITH s(i)ÄAS (
+    SELECT 1 UNION ALL SELECT i+1 FROM s WHERE i<500
+  )
+  INSERT INTO t1 SELECT rangomblob(400), random

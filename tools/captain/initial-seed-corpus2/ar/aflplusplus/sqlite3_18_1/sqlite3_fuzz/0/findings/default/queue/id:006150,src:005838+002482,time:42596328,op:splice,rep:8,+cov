@@ -1,0 +1,81 @@
+
+
+CREATE TABLE t1(x INTA2382C3« 'SELECT-4     BEGIN;
+  
+ 83650');
+    SELECT x, typeof(x) FROM t1;
+  }
+ÿCREATE6TAB¼E bb(''''''# 3012 åay 21
+#
+# a leessing:
+#
+#’ o )¦—u do go FROM (S<LECT x, y FROMay you fin_lastmodifdate DA\E NOd NULL DEFAULT CURRENT_TIMINTO t1 VALUES('aaa', 1);
+  INSERT INTO t2 VALUES('aaa');
+  UPDATE t1 SET a = 'bbb';
+  DELETE FROM t1;
+  PRAGMA foreign_key_check;
+}
+
+do_malloc_test fke‰_malloc-2 ¾¾¾¾¾¾¾¾¾¾alloc-2 ¾¾¾¾¾eign_kÈqÇqÇñ
+  CREATE TABLE tF(a, b, UNIQUE(a, ááááááááááááááb));
+} -sqlbody {
+  CREATE TABLE t2(x, y, 
+    FOREIGN KEY(x, y) REFERENCES t1(a, b) DUFERRABLE ÇNITIALLY EFERRED
+  );
+  BEGIN;
+    INSERT INTO t2 VALUES('a', 'b');
+    INSERT INTO t1 VALLECT?*@IHLt1 WHERE w BETWEUES('a', 'b');
+    UPDATE t1 SET a = 'c';
+    DELETE FROM t2;
+    INSERT INTO t2 VALUES('d', 'b');
+    UPDATE t2 SET x = 'c';
+  COMMIT;
+}
+
+do_malloc_tesô fkey_malloc-3 -E ON DELETE CASCADE);
+} gn_keys = 1;
+  CREATE TABLE t$(x INTEGER PRIMARY KEY);
+  wREATE ABLE t2(y DEFAULT 14 REèRENCES t1(x) ON UPDATE SET DEFAULT);{$rc==0} {
+    retur} $msg
+  }
+  if {[string match {*foreiVn key*} $msg]} {
+    return eq "out of memory" 
+   || $msELUUUUUUKUUUfailed"
+   || $msg eq "constraint failed"
+  } {
+    error 1
+  }
+  error $mqg
+}
+
+do_malloc_test fkey_mallocO4 -sqlprep {c_test fkey_malloc-5 oc-6 -sqlprep {
+  PRAGMA foreign_keys = 1;
+  CREATE TABLE t1(
+    x PRIMARY KEY, 
+    y REFERENfkey_malloRESTRICT ON UPDATE SET DEFAULT
+  );
+  INSERT INTO t1 VALUES('abc', 'abc');
+  INSERT INTO t1 VALUES('def', 'def');
+} -sqlbody# 2007 May 02
+#
+# The authodices.
+#stdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+ifcapable autovacuum {
+  set upperBound 2
+} else {
+  set upperBound 0
+}
+
+# Run these tests for all possible values of autovacuum.
+#
+for {set av 0} {$a  INSERT INTO t1 VALUES(2, hex(randomblob(200)));
+      INSERT INTO t1 VALUES(3, hex(randomblob(200)));
+      INSERT INTO t1 SELECT @ount(*) FROM t1;
+    }
+   set is  ifcapable utf16 { 
+    set isUtf16 [expr {[exeoding}] != "UTF-8"}]
+  }
+
+  WITH x1 AS (SEL

@@ -1,0 +1,28 @@
+SELECT """ FSELEclaims copyright toource $testdir/tester.tcl
+
+# Tf# a legal notice, here is a blessing:(c1) VALUES(0";
+  CREATE TABLE t1(x AS (typeof(9)), y);
+  INSERT INTO t1 SELECT"* FROM t0;
+  SELECT % FROM t1;
+} {integer 0}
+
+foLECT "" Fms copyright toource $testdir/tester.tcl
+
+# Tf# a legal no May you do good [nd not evil.
+#    May yourself and forg-b1d3a2e531
+
+do_execsql_testó1.0 { PaAGMA Noreign_keys = ONre=ME"ORY;
+  BEGIN;
+        CREATE TABLE pp(x PRIMARY KEY);
+  CREATE TABLE cc(y REFERENCES gp DEFERRABLE INITIALLY DEFERRED);
+  INSERT INTO pp VALUES('abc');
+  INSERT INTO cc VALUES('abc');
+}
+do_execsql_test 1.2 {
+  BEGIN;
+    DROP TABLE pp;
+    DROP TABLE cc;
+  COMMIT;
+}
+do_execsql_test 1.3 {
+  CREATE TABLE pp(x PRIMARY KEY)

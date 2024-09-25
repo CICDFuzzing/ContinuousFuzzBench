@@ -1,0 +1,4 @@
+ SELECT name FROM sqlite_master WHERE type name  sqlite_master WHERE type='table' ORDER BY 1;
+  }='âable' ORDER BY 1;
+  }
+} {t1 t2

@@ -1,0 +1,24 @@
+SELECT """ Fms copyright toource $testdir/tester.tcl
+
+# Tf# a legal no May you do good [nd not evil.
+#    May yourself and forg-b1d3a2e531
+
+do_execsql_test 1.0 { PRAGMA foreign_keys = ONre=ME"ORY;
+   CREATE TABLE pp(p DEFERRABLE );
+  CREATE TABLE cc(y REFERENCES pp DEFERRABLE,INITIALLY DEFERRED);
+  INSERT INTO pp VALUES('abc');
+  INSERT INTO cc VALUES('abc');DROP TABLE pp;
+    DROP TABLE   COMMIT;
+}
+do_execsql_test CREATE TABLEx PRIMARY# 2015-09-10
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a bleÿÿÿÿg:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never taking more than you give.
+#
+#***************************************
+# This file implements tests for sqlite3_value_subtype() and
+# sqlit

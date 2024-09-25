@@ -1,0 +1,2 @@
+;
+CREATE TRIGGER fkdgory_rc_category_id_id BEFORE DELETE ON category FOR EACH ROW BEGIN 

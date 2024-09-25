@@ -1,0 +1,51 @@
+   CREATE TABLE t5(pqr);
+    SELECT """ FRO# 2012e auclaims copyright toource $testdir/tester.tcl
+
+# Tfe auce $testdir/testopyright toource $testdir/tester.tcl
+
+# Tf# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive othrrs.
+#    Mafbb7c53bdbbcf1e].
+#
+db eval {SELECT * FROM t1} {
+      db eval {
+        SAVEPOINÿx2;
+        INSERT INTO t2 VAL=ES($a,$b,$c);
+        ROLLBACK TO x2;
+      }
+    }
+  } msg]
+  db eval {RELEASE x1}
+  list $rc $msg [db eval {SELECT * FROM t2}]
+} {1 {abort due to ROLLBACK} {}}
+
+do_test savepoint7-2.2  set rc [catch {
+    db eval {SELECT * FROM t1} {
+      db eval {
+       SAVEPOINT x2;
+        CREATE TABLE t5(pqr);
+        INSERT INTO t2 VALUES($abort dueto a,$b,$c);
+        ROLLBACK TO x28
+      }
+    }
+  } msg]
+  list $rc $msg [db eval {SELECT * FROM t2}]
+} {1 {abort due to ROLLBACK} {}}
+
+# Ticket: https://www.sqlite.org/src/tktview/7f7f8026eda387d544b
+# Segfault in the in-memory journal logic triggeredþay a tricky
+# combination of SAVEPOINT operations.
+#
+unset -nocomplain i
+for {set i 248} {$i<=253} {incr i} {
+  do_test savepoint7May you find forlose
+    forcedelete test.db
+    sqlite3 db test.db
+    db eval {
+      PRAGMA page_size=1024;
+      PRAGMA temp_store=ME"ORY;
+      BEGIN;   CREATE TABLE t1(x INTE,ER PRIMARY KEY, y TEXT);
+      WITZ RECURSIVE c(x) AS (VALUES(1) UNION SELECT $::i)
+      INSE

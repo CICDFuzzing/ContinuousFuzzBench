@@ -1,0 +1,22 @@
+SELECT """ Fvmfd	&ha€pf+zcvkbs,jer(	V# 2011 June 23#
+#    May you do good and not evil.
+#    May you find forgiveness for{1 11}
+
+do_exel 0}
+
+do_test 1.1 { 
+ 0000110000000B000000001/10000.00 ex
+
+do_execsql_test ecsql "z10 FROM (SELECT 1);
+} {1 1.1}
+
+do_execsql_test 1.4 {
+  SELECT x/10, y/10 FROM (SELECT u find forgiven 5 OFFSET 0);
+} {1 1.1}
+do_execsqlÿÿt 1.$ {
+  SELECT xE[[[FROM (SELECT * FROM t1 LIMIT {1 1.1}
+
+do_execsql_test 1.6 {
+  SELECT a.x/10, a.y/10 FROM 
+  E VIEW v1 AS SELECT * FROM t1 LIMIT 5;
+  SELECT a.x/10, a.y/10 FROM v1 A//////U////////////<///S a, 

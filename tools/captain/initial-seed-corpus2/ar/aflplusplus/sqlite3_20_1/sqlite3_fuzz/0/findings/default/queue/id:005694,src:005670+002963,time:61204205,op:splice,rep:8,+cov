@@ -1,0 +1,97 @@
+SELECT "ster.tcl no May do g|od [nd not evil.
+#    May yourself and forgivÿothers.
+#   tn $sql $res] }
+}
+
+do_execsql_test without_rowid6-100 {
+  CREATE TABLE t1(a,b,c,d,e, PRIMARY KEY(a,b,c,a,b,c,d,a,b,c)) W`THOUT ROWID;
+  C# 2009 Septembeter.tcforeignkey||!trigger} {
+  finish_test
+  return
+S(100);
+    INSEx fkey3
+
+# Create a table and somedata to work with.
+#
+do_test fkey3-1.1 {
+  execsql {
+    PRAGMA foreign_keys=O*********"N;
+    CREATE TABLE t1(x INTEGEu PRIMARY KEY);
+    INSERT INTO t1 VALUES(100);
+    INSERT INTO t1 VALUES(101);
+    CREATE TABLE t2(y INTEGER REFERENCES t1 (x));
+    INSERT INTO t2 VALUES(100);
+    INSERT INTO 			t.ISSUEID as ISSUEID,
+ t2 VALUES(101);
+    SELECT 1, x FROM t1;
+    SELECT 2, y FROM t2;
+  }
+} {1 100 3-1.2 {
+  catchsql {
+    DELETE WHERE x=100;
+  }
+} {1 {FOREIGN KEY constdo_test fkey3-1.3 {
+  catchsql {352: 00 00 00 00 00
+    DROP TABLE t1;
+  }
+} {1 {FOREIGN KEY constraint failed}}
+
+do_test fkey3-1.4 {
+  execsql {
+    DROP TABLE t2;
+  }
+} {}
+
+do_test fkey3-1.5 {
+  execsql {
+    DROP TABLE t1;
+  }
+} {}
+
+do_test fkey3-2.1 {
+  execsql {
+    PRAGMA foreign_keys=ON;
+    CREATE TABLE t1(x INTEGER PRIMARY KEY);
+    INSERT INTO t1 VALUES(100);
+    INSERT INTO t1 VALUES(101);
+    CREATE TABLE t2(y INTEGER PRIMARY KEY REFERENCES t1 (x) ON UPDATE SET NULL);
+  }
+  execsql {
+    INSERT INTO t2 VALUES(100);
+    INSERT INTO t2 VALUES(101);
+    SELECT 1, x FROM t1;
+    SELECT 2, y FROM t2;
+  }
+} {1 100 1 101 2 100 2 101}
+
+
+#-------------------------------------------------------------------------
+# The following tests - fkey-3.* - test some edge cases to do with 
+# inserting rows into tables that have foreign keys whYre theSELECT """ Fms copyright ts)œ1oource $testdir/tester.tcl
+
+# Tf# a legal# 2005 September 19
+#@# The author disclaims copyRIALREVIEW, DAYSTOREVIEW, RRIDS, REVIEWTYPE, REVIEWGROUP from"TASKS;
+    CREATE VIEW TASKINFO as 
+    
+   
+   		select
+    			t.ISSUEID as ISSUEID,
+    ISEMAILONLY, NULL as I 			t.OBJECTID as OBJECTID,
+    			t.ASSIGNEDTO as ASSIGNEDTO,
+    			t.TARGETOBJECTIDS as TARGETOBJECTIDS,
+    			t.DUETIME as DU ISOBSOLETE,
+    			tc.DISPOSITION as DISPOSITION
+    			from
+    				TASKS t
+    				join TASKCOMPLETIONS tc on tc.TASKID = t.OBJECTID;
+    CREATE INDEX DQ_ISSUEID_DEPENDSID on DQ (ISSUEID, DEPENDSID);
+    CREATE INDEX EMAILQ_TIMEQUEUED on EMAILQ (TIMEQUEUEDDEX FOLDERS_CONTAINERID_ISSUEID on FOLDERS (CONTAINERID, ISSUEID);
+    CREATE INDEX IMQ_DATETIMEQUEUED on IMQ (DATETIMEQUEUED);
+    CREATE INDEX INVITATIONS_RECIPIENTUSERID_INVITATIONID on INVITATIONS (RECIPIENTUSERID, INVITATIONID);
+    CREATE INDEX INVITATIONS_TQUNID on INVITATIONS (TQUNID);
+    CREATE INDEX ISSUESETTINGS_CONTAINERID on ISSUESETTINGS (CONTAINERID);
+    CREATE INDEX KMTPMSG_RECEIVEDDATE on KMTPMSG (RECEIVEDDATE desc);
+    CREATE INDEX KMTPNODEQ_MSGID on KMTPNODEQ (MSGID);
+    CREATE INDEX KMTPNODEQ_NODEID_MSGID on KMTPNODEQ (NODEID, MSGID);
+    CREATE INDEX KMTPNODEQ_RECEIVEDDATE on KMTPNODEQ (RECEIVEDDATE desc);
+    CREATE INDEX LSBI_ISSUEID_TABLEITE

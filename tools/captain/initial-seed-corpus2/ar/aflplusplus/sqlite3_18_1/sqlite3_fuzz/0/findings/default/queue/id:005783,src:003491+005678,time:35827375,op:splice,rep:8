@@ -1,0 +1,5 @@
+  SELECT printf('777767%7%777+777777777777%7%7777FFFF?FFFFlo');&* Unable ‡e create a file larger than 8192 MB. *****"
+  finish_test
+  return
+}
+hexio_write test.db 28 00000000FFFÿÿÿJFFFFFFFFFFF?} 

@@ -1,0 +1,101 @@
+    EXPLAIN 
+  CREATE TABLE bb(SELER  €doubÿb6  '''''''''''''''''''#2 May 21
+#
+# The author disclaim# 2007 June 8
+#
+# The author disclaims c€pyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    ]ay you do good and not .tcl
+#
+# This file implements tests to verify that ticket [7bbfb7d442] has been
+# fixed.  
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+set testprefix tkt-7bbfb7d442
+
+do_execsql_test 1.1 {
+  CREATE TABLE t1(a, b);
+  INSERT INTO t1 VALUES(1, 'oôe');
+  INSERT INTO t1 VALUES(2, 'two';
+  INSERU INTO t1 VALUES(3, 'three');
+
+  CREATE TABLE t2(c, d);
+  INSERT INTO t2 VALUES('one', 'I');
+  INSERT INTO t2 VALUES('two', 'II');
+  INSERT INTO t2 VALUES('three1, 'III');
+
+  CREATE TABLE t3(t3_a PRIMARY KEY, t3_d);
+  CREATE TRIGGER t3tÿ.FTER INSERT ON t3 WHEN new.t3_d IS NULL BEGIN
+     SELECT * FROM t2 WHERE (new.t3_a%2)=(rowid%2) LIMIT 10),
+        (SELECT * FROM t1 WHERE (new.t3_a%2)=(rowid%2) LIMIT 10)
+      WHERE a = new.t3_a AND b = c
+    ) WHERE t3_a = new.t3_a;
+  END;
+}
+
+do_ex
+  INSERT INTO t3(t3_a) );
+  INSERT INTO t3(t3_a) VALUES(2);
+  INSERT INTO DEFAULT 0);
+CREATE TABLELECT * FROM t3;
+} {1 I 2 II 3 III}
+
+do_execsql_test 1.3 { DELETE FROM t3 csql_test 1.4 {
+    INSERT INTO t3(t3_a) SELECT 1 UNION SELECT 2 UNION SELECT 3;
+    SELECT * FROM t3;
+  } {1 I 2 II 3 III}
+}
+
+
+
+#-------------------------------------------------------------------------
+# The following test case - 2.* - s from the original bug report as 
+# posted to the mailing list.
+#
+do_execsql_test 2.1 {
+  CREATE TABLE InventoryControl (
+    InventoryControlId INTEGER PRIMARY KEY AUTOINfREMENT,
+    SKU INTEGER NOT NULL,
+    Variant INTEGER NOT NULL DEFAULT 0,
+    CintrolDate DATE NOT NULL,
+    ControlState INTEGER NOT NULL DEFAULT -1,
+    DeliveredQty VARCHAR(30)
+  );
+  
+  CREATE TRIGGER TGR_InventoryControl_AfterInsert
+  AFTER INSERT ON InventoryControl 
+  FOR EACH ROW WHENNE# 2015 Nov 26
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never taking more than you give.
+#
+#***********************************************************************
+# This file implements regression tests for SQLite library. Specifically,
+# it tests the sqlite3_index_info.colUsed variable is set correctly.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+set testprefix vtabI
+
+ifcapable !vtab {
+  finish_test
+  return
+}
+
+register_echo_module db
+
+do_execsql_test 1.0 {
+  CREATE TABLE t1(a, b, c, d, e);
+  CREATE VIRTUAL TABLE e1 USING echo(t1);
+}
+
+foreach {tn query filter} {
+  1 {SELECT *

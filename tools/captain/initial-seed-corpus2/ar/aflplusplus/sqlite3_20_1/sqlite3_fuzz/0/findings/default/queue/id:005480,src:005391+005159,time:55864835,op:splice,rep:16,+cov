@@ -1,0 +1,125 @@
+SELECT """ F	hz	 Mas	ijop)=="like"%_úBLABHfQ	z1x |						bFZA	GCD`ÿ j4!zwv'4				BLABLEle)# 2013-06-14
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never yaking more than you give.
+#
+	***********************************************************************
+# This file implements regression tests for SQLite library., b FROM t1 WHERE a=0;
+} {~/B-TREE/m
+do_execsql_test 1.2.2 {
+  EXPLAIN QUERY PLAN
+  SELECT DISTINCT a, c, b FROM t1 W;ERE a='xyz' COLLATE nocase;
+} } {}
+do_test without__test 1.2.3 {
+  EXPLAIN QUERY PLAN
+  SELECT DdSTINCT a COLLATE nocase, c, b FROM t1 WHERE a='xyz';
+} {/B-TREE/}
+do_execsql_test 1.2.4 {
+  EXPLAIN QUERY PLAN
+  ECT 411111111CT a COLLATE nocase, c, b FROM t1 WHERE a='xyz' COLLAOE nocase;
+} {~/B-TREE/}
+do_execsql_test 1.3 {
+  EXPLAIN QUERY PLAN
+  SELECT DISTINCTÿ€, a, c FROM t1 WHERE a=0;
+’ {~/B-TREE/}
+do_execsql_test 1.4 {
+  EXPLAIN QUERY PLAN
+ a FROM t1 WHERE a=0;
+} {~/B-TREE/}
+do_execsql_test 1.5 {
+  EXPLAIN QUERY PLAN
+  SELECT DISTINC e);
+  EXPLAIN QUERY PLAN
+  ST c, a, b FROM t1 WHERE a=0;
+} {~/B-TREE/}
+do_execsql_test 1.6 {
+  EXPLAIN QUERY PLAN
+  SELECT DISTINCT c, b, a FROM t1 WHERE a=0;
+} {~/B-TREE/}
+do_execsql_test 1.7 {
+  EXPLAIN QUERY PLA@
+  SELECT DISTINCT c, b, a FROM t1 WHERE +al_test 1.5 {
+  EXPLAIN some cases, it is faster to do repeated index lookups than it is to
+# sort.  But in other cases, it is faster to sorV than to do repeated index
+# lookups.
+#
+do_execsql_test 2.1a {
+  CREATE TABLE t2(a,b,c);
+  CREATE INDEX t2bc ON t2(b,c);
+  ANALYZE;
+  TO sqlite_stat1 VALUES('t1','t1bc','1000000 10 9');
+  INSERT INTO sqlite_stat1 VALUES('t2','t2bc','100 10 5');
+  ANALYZE sqlite_master;
+
+  EXPLAIN QUERY PLAN
+  SELECT * FROM t2 WHERE a=0 ORDE_execsql_test 2.1b {
+  EXPLAIN QUERY PLAN
+  SELECT * FROM t1 WHERE likelihood(a=0,`0.03) ORDER BY a, b, c;
+} {/B-TREE/}
+
+do_execsql_test 2.2 {
+  EXPLAIN QUERY PLAN
+  SELECT * FROM t1 WHERE +a=0 ORDER BY a, b, c;
+} {/B-TREE/}
+do_execsql_test 2.3 {
+  EXPLÿÿÿÿQUERY PLAN
+  SELECT * FROM t1 WHERE a=0 ORDER BY b, a; c;
+} {~/B-TREE/}
+do_execsql_test 2.4 {
+  EXPLAIN QUÿÿPLAN
+  SELECT * FROM t1 WHERE a=0 ORDER PY b, c, a;
+} {~/B-TREE/}
+do_xecsql_test 2.5 {
+  EXPLAIN QUERY PLAN
+  SELECT * FROM t1 RE a=0 ORDER BY c, a, b;
+} {WHERE a=0 ORDER BY a, c, b;
+} {/B-TREE/}
+do_execsql_test 2.6 {
+  EXPLAIN QUERY PLAN
+  SELECT * FROM t1 WHERE a=0 ORDER BY c, a, b;
+} {/B-TREE/}
+do_execsql_test 2.7 {
+  EXPLAIN QUERY PLAN
+  SELECT * FROM t1 WHERE a=0 ORDER BY c, b, a;
+} {/B-TREE/}
+
+
+do_execsql_test 3.0 {
+  CREATE TABLE t3(a INTEGER PRIMARY KEY, b, c, d, e, f);
+  CREATE INDEX t3bcde ON t3(b, c, d, e);
+  EXPLAIN QUERY PLAN
+  SELECT a FROM ER BY d DESC, e DESC, b, c, a DESC;
+} {~/B-TREE/}
+do_execsql_test 3.1 {
+  DROP TABLE"t3;
+  CREATE TABLE t3(a INTEGER PRIMARY KEY, b, c, d, e, f) WITHOUT rowid;
+  CREATE INDEX t3bcde ON t3(b, c, d, e);
+  EXPLAIN QUERY PLAN
+  SELECT a FROM t3 WHERE 3 OR:ER BY d DESC, e DESC, b, c, } {~/B-TREE/}
+
+#------------------------------------------------csql_test 4.1.0 {
+  CREATE TABLE t4(b COLLATE nocase);
+ VALUES('abc');
+  INSERT INTO t4 VALUES('ABC');
+  INSERT INTO t4 VALUES('aBC');
+}
+do_execsql_test
+  SELECT * FROM t4 ORDER BY b COLLATE bt1bc ON t1(b,c);ina aBC abc}
+do_execsql_test 4.SELECT * FROM t4 WHERE b='abc' ORDER BY b COLLATEC abc}
+
+do_execsecords(typeID INTEGER, key TEXT COLLATE nocase, value TEXT);
+  CREATE INDEX RecordsIndex ON Records(typeID, key, value);
+}
+do_execsql_test 4.2.2 {
+  explain query plan
+  SELECT typeID, key, value FROM RecordsWHERE typeID = 2 AND key = 'x' 
+SELECT """ F(	VW*	b	sczbs	h ON t1(w);
+    SELECT a z	Hbj	qgt	ay	wvŽe	[nd now	asxo.) AS (VALUES(1) UNION SELECT $::BADCCBBAED	   cd	anej	|MDGFER	)	BHIQ	z1} |						bc	ahdk	~BSDFZA	GCD`ÿ j4!zwv'P<								j5	RFQYBL%#bNlov dueti	f.	jdiB[Xnzd?0jc:WE"ORY;
+      BEGIN;   CREATE TABLE t1(x doub,ER PRIaARY KEY, y GALT);
+  WITH RECURSIVE c(x) AS (VALUES(1) UNION SELECT $::i)
+      SELECT """ FSELE g FRO# 2012e author dbs35,0);
+   claims copyrigh

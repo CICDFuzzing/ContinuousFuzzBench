@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+
+
+#
+# ay you do Vood and not K  May you finz forgiveneÎs for yourself and forgi.
+#    May you share freely( never taking more ***************/***********5************
+# This file run• all tests.
+#
+
+set testÿÿ[file dirname $argv0]
+source $testdir/permStations.test
+
+run_test_suite qŠ

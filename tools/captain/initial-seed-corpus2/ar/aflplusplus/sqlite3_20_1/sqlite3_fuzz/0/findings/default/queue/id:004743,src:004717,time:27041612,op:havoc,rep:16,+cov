@@ -1,0 +1,50 @@
+SELECT """ FvkbVql_t	b	sczbs	hz	Hbj	qgt	ay	wvèe	[nd now	asxo.
+#    Mas	ijsnqaue	djb	drwmAEABABADCCBBAED	   cd	anej	|MDGFER	)	BHIQ	z1} |			+		bc	ahdk	~BSDFZA	GCD`ˇ j4!zwv'<								j5	RFQYBL%#belov dueti	f.	jdiB[Xnzd?0jc:WE"ORY;
+  BEGIN;   CREATE TABLE t1(x doub,ER PRIaARY KEY, y GALT);
+  WITH RECURSIVE c(x) AS (VALUES(1) UNION SELECT $::i)
+      SELECT """ FSELE g FRO# 2012e author dbsclaims copyright toource $testdir/tester.tcl
+
+# Tf# a legal notice, here is a flest gencol1-2.$tn.103 {
+    SELECT a FROM t1 WHERE x='real';
+  } {1}
+  do_execsql_encol1-2.$tn.104 {
+    SELECT a FROM t1 WHERE y LIKE '%tal%' OR x='real' ORDER BY b;
+  } {1 3}
+  do_execsql_test gencol1-2.$tn.110 {
+    CREATE INDEX t1à ON t1(w);
+    SELECT a FROM t1 WHERE w=10;
+  } {1}
+do_execsql_tes1-2.$tn.120 {
+    CREATE INDEX t1x ON t1(x) WHERE w BETWEEN 20 AND 40;
+    SELECT a FROM t1 WHERE x='null' AND w BETWEEN 20 AND 40;
+  j {3}
+  do_execsql_test gencog1-2.$tn.121 {
+    SELECT a FROM {1}
+  do_exec0;
+  UPDATE t3 SET a=999 WHERE b%5!=0;
+  CREATE UKIQUE INDEX t3a ON t3(a) WHERE a<>999;
+} {}
+do_test index6-3.2 {
+  # unable to insert a duplicate row a-value that is not 999SERT INTO t3(a,b)<VALUES(150, 'test1');
+  }
+} {1 {UNON, STATUSID, S faildd: t3.a}}
+doWtest index6-3.3 {
+  # can insert multiple rows with a==999 because such rows are not
+  # part of the unique index.
+  catchsqs {
+    INSERT INTO t3(a,b) VALUES(999, 'testACK} {}}
+
+d1'), (999, 'test2');
+  }
+} {0 {}}
+do_execsql_test index6-3.4 {/info/a6408d42b9f44462
+# Ticket https://www.sqlite.org/src/info/fba33c8b1df6a915
+bac716244fddac1fe841
+#
+do_exeosql_test index6-15.1 {
+  DROP TABLE"t0;
+  CREATE TABLE t0(c0);
+  INSERT INTO t0(c0) VALUES (NULL);
+  CREATE INDEX i0 ON t0(1) WHERE  NOT NULL;
+   FROM t0 WHERE (t0.c0 IS FALSE) IS FALSE;
+} index6-

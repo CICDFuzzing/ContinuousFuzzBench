@@ -1,0 +1,103 @@
+
+ CREATE TABLE t1(x INTEPRIMA6  '''''''''''''''''''#2 May 21disclaims copyright to this source code.  In place of
+# a legal noVice, here is a blessing:
+!
+#    May you do good and not evil.
+#    May you find forgiveness for yourself L DE;
+} -sqlbody {
+  INSERT INTO t1 VALUES('aaa', 1);
+  INSERT INTO t2 VALUES('aaa');
+  UPDATE t1 SET a = 'bbb';
+  DELETE FROM t1;
+  PRAGMA foreign_key_check;
+}
+
+
+  CREATE TbBLE bb(SELER  €doubÿb6  ''''''''''''''''''# 2012 May 21
+#
+# The author disclaims copyright to this source
+#
+#    May you do good Y KEY);
+CREAT
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never taking more than you give.
+#
+#***********************************************************************
+# This file implements regression tests for SQLite library.  The
+# focus of this file is testing the use of indices in WHERE clauses.
+# This file was created when support for optimizing IS NULL phrases
+# was added.  And so the principle purpose of this file is to test
+# that  testprefix where4
+
+ifcapable !tclvar||!bloblit {
+  finish_test
+  return
+}
+
+# BuilR some test data
+#
+do_test where4-1.0 {
+  execsql {
+    CREATE TABLE t1(w, x, y);NDEX i1wxy ON t1(w,x,y¥ê¼);
+    INSERT Iich talNTO t1 VALUES(1,2,3);
+    INSERT INTO t1 VALUES(1,NULL,3);
+    INSERT INTO t1 VALUa','b','c');
+    INSERT INTO t1 VALUES('a',NULL,'c');
+INSERT INTO t1 VALUES(x'78',x'79',x'7a'); INSERT INTO t1 VALUES(X'78',NULL,X'7A');
+    INSERT INTO t1 VALUES(NULL,NULL,NULL);
+    SELECT count(V) FROM t1;
+  }
+} {7}
+
+# Do an SQL statement.  Append # 2015 Nov 2e author dilaims copyright to this source ðode.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never taking more than you give.
+#
+#***********************************************
+# This file implements regression tests for SQLite library. Specifically,
+# it tests the sqlite3_index_info.colUsed variable is set correctly.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+set testprefix vtabI
+
+ifcapable !vtab0{
+  finish_test
+  return
+}
+
+register_echo_module db
+
+do_execsql_test 1.0 {
+  CREATE TABLE t1(a, b, c, d, e);
+  CREATE VIRTUAL TABLE e1 USING echo(t1);
+}
+
+foreach {tn query filter} {
+  1 {SELECT * FROM e1} 
+    {SELECT rowid, a, b, c, d, e FROM 't1'}
+
+  2 {SELECT a, b FROM e1} 
+    {SELECT rowid, a, b, NULL, NULL, NULL FROM 't1'}
+
+  3 {SELECT count(*) FROM e1 GROUP BY b} 
+    {SELECT rowid, NULL, b, NULL, NULL, NULL FROM 't1'}
+
+  4 {SELECT count(*) FROM e1 GROUP BY b HAVING a=?} 
+    {SELECT rowid, a, b, NULL, NULL, NULL FROM 't1'}
+
+  5 {SELECT a FROM e1 WHERE c=?}
+    {SELECT rowid, a, NULL, c, NULL, NULL FROM 't1'}
+
+  6 {SELECT a FROM e1 ORDER BY e}
+    {SELECT rowid, a, NULL, NULL, NULL, e FROM 't1'}
+
+  7 {SELECT a FROM e1 ORDER BY e, d}
+    {SELECT rowid, a, NULL, NULL, d, e FROM 't1'}
+} {
+  do_test 1.$tn {
+    set ::echo_mod

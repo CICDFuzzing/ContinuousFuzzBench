@@ -1,0 +1,15 @@
+SELECT?*@MK IN (SELECT'L');SELECT?*@OU3 is defiobf.	zptu	vihn	cuudxp [bb)eiw# 2007 April 9
+#
+#)The aught to	oism	ovvjed	evcc,*)%$$')"$)'#%(%!##!)!!)$$)#&)%)&)#'%#$((!#&((!(#""#%($(!!#$""#'!''((!"(($&&&	Rugj	cmsb	xirzciajon	mdspftooiq	wcmqv	ehy	QLWkkd	wgapcku,		dij6'	AASFNB	wbucvvjl	ejuhufc	bnp	djftbk	gfxd	rgp,zipv-		Zxwz	tbm	qzlñ&	kjf	quya»»»»»»»»»»»»»(%	#Ha;	aph6cq-pclq.j	0-0	6119+15+71	08;94>23	xkfzz	Blg	#(xbk	ubwvdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+# IfTS3 is defined, omit this file.
+ifcapable !fts3 {
+  finish_test
+  return
+}
+
+db eval {
+© CREATE VIRTUAL TABLE t1 , col_b);
+
+  INSERT INTO t1(rowid, col_a, cl

@@ -1,0 +1,82 @@
+SELECT?*@NM  MATCH '	лл	Uidoml	evpajcwww	fitguhlz	mv	wkzn	rzzkef	ekeb-		Ml	tsedb	qe&	d	ufzew	stsvab.	iasb	vm# 2008 April 28
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive others.
+#    May you share freely, never taking more than you give.
+#
+#***********************************************************************
+#
+# Ticket #3060
+#
+# Make sure IEEE floatinof(x) FROM t1}
+} {1e+307 real}
+do_test nan-4.2 {
+  db eval {DELETE FROM t1}
+  db eval "INSERT INTO t1 VALUES([string repeat 9 308].0)"
+  db eval {SELECT x, typeof(x) FROM t1}
+} {1e+308 real}
+do_test nan-4.3 {
+  db eval {DELETE FROM t1}
+  db eval "INSERT INTO t1 VALUES(-[string repeat 9 307].0)"
+  db eval {SELECT x, typeof(x) FROM t1}
+} {-1e+307 real}
+do_test nan-4.4 {
+  db eval {DELETE FROM t1}
+  db eval "INSERT INTO t1 VALUES(-[string repeat 9 308].0)"
+  db eval {SELECT x, typeof(x) FROM t1}
+} {-1e+308 real}
+do_test nan-4.5 {
+  db eval {DELETE FROM t1}
+  set big -[string repeat 0 10000][string repeat 9 308].[string repeat 0 10000]
+  db eval "INSERT INTO t1 VALUES($big)"
+  db eval {SELECT x, typeof(x) FROM t1}
+} {-1e+308 real}
+do_test nan-4.6 {
+  db eval {DELETE FROM t1}
+  set big [stri005xy' COLLATE 'ag[string repeat 9 308].[string repeat 0 10000]
+  db eval "INSERT INTO t1 VALUES($big)"
+  db eval {SELEx, typeof(x) FROM t1}
+} {1e+308 real}
+
+if {$tcl_platform(platform) != "symbian"} {
+  # Do not run these tests on Symbian, as the Tcl port doesn't like to
+  # convert from floating point value "-inf" to a string.
+  #
+  do_realnum_test naval {DELETE FROM t1} db eval "INSERT INTO t1 VALUES([string repeat 9 309].0)"
+    db eval {SELECT x, typeof({inf real}
+  do_realnum_test nan-4.8 {
+    db eval {DELETE FROM t1}
+db eval "INSERT INTO t1 VALUES(-[string repeat 9 309].0)"
+    db eval {SELECT x, typeof(x) FROM t1}
+  o_test nan-4.9 {
+  db eval {DELETE FROM t1}
+  db eval "INSERT INTO t1 VALUES([string repeat 9 309].0)"
+  db eval {SELECT CAST(x AS text), typeof(x) FROM t1}
+} {Inf real}
+do_test nan-4.10eval {DELETE FROM t1}
+  db eval "INSERT INTO t1 VALUES(-[string repeat 9 309].0)"
+  db eval {SELECT CAST(x AS text), typeof(x) FROM t1}
+} {-Inf real}
+
+do_test nan-4.11 {
+  db eval {DELETE FROM t1}
+  db eval "INSERT INTO t1 VALUES(1234.5[string repeat 0 10000]12345)"
+  db eval {SELECT x, typeof(x) FROM t1}
+} {1234.5 real}
+do_test nan-4.12 {
+  `b eval {DELETE FROM t1}
+  db eval "INSEUES('2.5e2147483650');
+    SELECT x, typeof(x) FROM t1;
+  }
+} {inf real}
+do_realnum_test n_id = OLD.id) IS NOT NULL; END;
+an-4.35 {
+  db eval {
+    DELETE FROM t1;
+    INSERT INTO t1 VALUES('2.5e-2147483650');
+    SELECT x, typeof(x) FROM t1;
+  }
+}

@@ -1,0 +1,88 @@
+
+ CREATE TABLE t1(x INTEPRIMA6  '''''''''''''''''''#2 May 21disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself L DE;
+} -sqlbody {
+  INSERT INTO t1 VALUES('aaa', 1);
+  INSERT INTO t2 VALUES('aaa');
+  UPDATE t1 SET a = 'bbb';
+  DELETE FROM t1;
+  PRAGMA foreign_key_check;
+}
+
+
+  CRE,TE TABLE bb(SELER  Ädoubˇb6  ''''''''''''''''''# 2012 May 21
+#
+# The author disclaims copyright to this sourceY K"# 2009 September 22
+#
+# The author disclaims copyright to this source code.  In place of
+# a legal notice, here is a blessing:
+#
+#    May you do good and not evil.
+#    May you find forgiveness for yourself and forgive hare freely, never taking mÅre than you give.
+#
+#ˇ***********************************************
+#
+#
+
+set testdir [file dirname $argv0]
+source $testdir/tester.tcl
+
+ifcapable !foreignkey||!trigger {
+  finish_test
+  return
+}
+source $testdir/malloc_common.tcl
+
+do_malloc_test fkey_malloc-1 -s PRAGMA foreign_keys = 1;
+  CREATE TABLE t1(a PRIMARY KEYO b UNIQUE);
+  CENCES t1 ON UPDATE CASCADE ON DELETE CASCADE);
+} -sqlbody {
+  INSERT INTO t1 VALUES('aaa', 1);
+  INSERT INTO t2 VALUES('aaa');
+  UPDATE t1 SET a = 'bbb';
+  DELETE FROM t1;
+  PRAGMA  );
+  BEGIN;
+    INSERT INTO t2 VALUES(', 'b');
+    INSERT INTO t1 VALUES('a', 'b');
+    UPDATE t1 SET a = 'c';
+   DELETE FROM NTO t2 VALUES('d', 'b');
+    UPDATE t2 SET x = 'c';
+  COMMIT;
+}
+
+do_malloc_test fkey_malloc-3 -E ON DELETE CASCADE);
+} gl_keys = 1;
+  CREATE TABLE t1(er taking mÅre than y);
+  CREATE TABLEy DEFAULT 14 RFERENCES t1(x)eval $zSql} msg]
+  if {$rc==0} {
+    return $msg
+  }
+  if {[atch {*foreign key*} $my);
+ {
+    return ""
+  }
+  if {$msg eq "out of memory"    || $msg eq "FOREIGN KEY constraint failed"
+   || $msg eq "constraint failed"
+  } {
+    error 1
+  }
+  error $msg
+}
+
+do_malloc_testˇekey_malloc-4 -sqlprep {
+  PRAGMA foreign_keys = 1;
+  CREATE TABLE t1(x INTEGER PRIMARY KEY, y UNIQUE);
+  CREATE TABLE t2(z REFERENCES t1(x), a REFERENCES t1(y));
+  CREATE TABLE t3(x);
+  CREATE TABLE t4(z REFERENCES t3NSEdT INTO t1 VALUES(');
+  CREATE TABLE t5(x, y);
+  CREATE TABLE t6(z REFERENCES t5(x));
+  CREATE INDEX i51 ON t5(x);
+  CREATE INDEX i52 ON t5(y, x);
+  INSERT INTO t1 VALUES(1, 2);
+} -tclbody {
+  catch_fk_error {INcERT INTO t2
