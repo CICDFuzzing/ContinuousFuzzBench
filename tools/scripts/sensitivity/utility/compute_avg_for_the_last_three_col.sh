@@ -16,7 +16,9 @@ for csv_file in "$input_dir"/*.csv; do
         exit 1
     fi
 
-    # Calculate the average of the last column using awk
+    # Calculate the average 
+    #col_avg=$(awk -F',' '{sum+=$(NF-4); count++} END {if (count > 0) print sum/count}' "$csv_file")
+    #col_avg0=$(awk -F',' '{sum+=$(NF-3); count++} END {if (count > 0) print sum/count}' "$csv_file")
     col_avg1=$(awk -F',' '{sum+=$(NF-2); count++} END {if (count > 0) print sum/count}' "$csv_file")
     col_avg2=$(awk -F',' '{sum+=$(NF-1); count++} END {if (count > 0) print sum/count}' "$csv_file")
     col_avg3=$(awk -F',' '{sum+=$NF; count++} END {if (count > 0) print sum/count}' "$csv_file")

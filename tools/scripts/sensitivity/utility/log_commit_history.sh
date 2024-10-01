@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Check if the input and output CSV files are provided
 if [ $# -ne 1 ]; then
   echo "Usage: $0 input.csv"
   exit 1
@@ -8,7 +7,6 @@ fi
 
 input_csv="$1"
 
-# Read the input CSV line by line (skipping the header)
 {
   read # Skip the header
   while IFS=',' read -r git_url commit_sha; do

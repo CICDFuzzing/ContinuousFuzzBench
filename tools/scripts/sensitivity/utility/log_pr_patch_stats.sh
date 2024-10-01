@@ -24,7 +24,7 @@ for patch_file in "$patch_dir"/*; do
   output_csv="${filename%.*}_patch_stats.csv"
 
   # Write CSV header
-  echo "Patch_URL,Files_Changed,Insertions,Deletions,Total_Changes" > "$output_csv"
+  echo "Patch_URL,Commit_Count,Files_Changed,Insertions,Deletions,Total_Changes" > "$output_csv"
 
   # Read line by line
   while IFS= read -r patch_url; do
@@ -53,7 +53,8 @@ for patch_file in "$patch_dir"/*; do
     files_changed=$(echo "$diff_output" | grep -o '[0-9]* file' | awk '{print $1}')
     insertions=$(echo "$diff_output" | grep -o '[0-9]* insertions' | awk '{print $1}')
     deletions=$(echo "$diff_output" | grep -o '[0-9]* deletion' | awk '{print $1}')
-
+    commit_count=$(cat "$patch_file" | grep -c '^From: ')
+    
     # Set to 0 if not found
     files_changed=${files_changed:-0}
     insertions=${insertions:-0}
@@ -61,7 +62,7 @@ for patch_file in "$patch_dir"/*; do
     total_changes=$((insertions + deletions))
 
     # Append the results to the CSV file
-    echo "$patch_url,$files_changed,$insertions,$deletions,$total_changes" >> "$output_csv"
+    echo "$patch_url,$commit_count,$files_changed,$insertions,$deletions,$total_changes" >> "$output_csv"
 
     # Clean up the temporary patch file
     rm -f "$patch_file"
