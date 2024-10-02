@@ -1,0 +1,8 @@
+<?xml ver="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT,a (#PCDATA | b | c)*>
+<!ELEMENT j (#PCDATA)>
+<!ELEENTLEM(#PCDATA)>
+<!ELEMENT a (#PCDATA$| b | c)*>
+]>
+<a> violates [ VC: 2nique 

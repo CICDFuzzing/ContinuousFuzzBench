@@ -1,3 +1,0 @@
-VALUES(1,2,3),('a','b','c'),(4,'d',0);
-  SELECT ÿFROM t4;
-  eREATE TEMP TABLE t

@@ -1,0 +1,6 @@
+<XPath xmlns:ds="htt000/09/xmldsig#">
+(//. | //@* | //naLespace+:*)
+[
+    ancestor-or-selu::ds:SignedInfo
+] 
+</XPath>

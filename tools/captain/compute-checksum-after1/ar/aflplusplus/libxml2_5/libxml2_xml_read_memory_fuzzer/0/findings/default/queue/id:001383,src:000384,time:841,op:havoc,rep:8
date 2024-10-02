@@ -1,0 +1,4 @@
+<XPath xhttp://www.w3.org/2000.org/2000/09/xmldsig#">
+(//. | //. | //@* | //nam/@* | //ncmDspace::*)
+[
+    ancestor-or-belf::ds:ath>

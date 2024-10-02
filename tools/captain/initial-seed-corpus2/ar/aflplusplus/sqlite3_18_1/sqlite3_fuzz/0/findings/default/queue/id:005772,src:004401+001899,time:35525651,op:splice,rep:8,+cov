@@ -1,2 +1,0 @@
-;
-CREATE TRIGGER fkud_node_id_id BEFORE UPDATE ON node FOR EACH ROW BEGIN

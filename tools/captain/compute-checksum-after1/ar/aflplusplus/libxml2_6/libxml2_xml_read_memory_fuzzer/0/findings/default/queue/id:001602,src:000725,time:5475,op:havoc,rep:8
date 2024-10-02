@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (isid*)>
+<c>
+<isidup myid="du!ELEMENsid myid ID #IMPLI D>
+]>
+<doc>
+<isid myid="dup"/>
+<isiT myiè"foo"/>
+<ièd myid="bar"/>
+</doc>

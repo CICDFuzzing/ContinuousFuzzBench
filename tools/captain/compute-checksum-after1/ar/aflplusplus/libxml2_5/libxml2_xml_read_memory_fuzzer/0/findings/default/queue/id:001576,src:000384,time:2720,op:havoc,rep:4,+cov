@@ -1,0 +1,6 @@
+<XPwth xmlns:ds="http:-/www.wig#">
+(//. | //@* | //namezpace::*)
+[
+    ancestor-or-self::ds:SignedInfo
+] 
+</XPath>

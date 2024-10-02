@@ -1,2 +1,0 @@
- PRAGMA locking_mode = NORMAL;
-    INSERT INTO

@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (isid*)>
+<!AICXFJN	tmxf	CUVLQ:;#FSHQJYG	wtqf	xtla	JF #IMPLIED>
+]>
+<doc>
+<isid myid="dup"/>
+<isid myid="foo"/>
+<isid myid="bar"/>
+</doc>

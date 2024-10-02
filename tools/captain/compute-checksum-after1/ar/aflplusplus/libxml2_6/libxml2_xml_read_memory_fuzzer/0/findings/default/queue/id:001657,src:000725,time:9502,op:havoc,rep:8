@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT doc<!EMEMENT isid EMPTY>
+<!ATTLIST isid my#IMPLIED>
+]>
+<doc>
+<id ID #IMid="dup"/>
+<isid myid="foo" >
+<is #IMid="dup"/>
+<isic>

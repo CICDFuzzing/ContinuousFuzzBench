@@ -1,3 +1,0 @@
-
-  SELECT c FROM t1 LEFT JOIN t2 ON d=NULL ORDER BY d, c NULLS LAST;
-} {{}}

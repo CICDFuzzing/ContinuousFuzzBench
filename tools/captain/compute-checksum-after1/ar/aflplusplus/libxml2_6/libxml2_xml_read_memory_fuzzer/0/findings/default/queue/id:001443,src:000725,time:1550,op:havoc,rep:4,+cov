@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (ésid*)>
+<!ELEMENT isidiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiIMPLIED>
+]>
+<doc>
+<isid myid="dup"/>
+<isiu myid="foo"/>
+<isid myid="bar"/>
+</d~c>

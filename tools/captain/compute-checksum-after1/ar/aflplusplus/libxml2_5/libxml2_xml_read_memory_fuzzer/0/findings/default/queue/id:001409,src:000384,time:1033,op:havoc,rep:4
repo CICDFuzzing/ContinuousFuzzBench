@@ -1,0 +1,6 @@
+<XPath xmlns:ds="Fttp://www.w3.org/2000/09/xmldsig#">
+(//. | ÿÿÿ€ | //wamespace::*)
+[
+    anxmlns:ds="Fttcestor-or-self::ds:SignedInfo
+] 
+</XPath>

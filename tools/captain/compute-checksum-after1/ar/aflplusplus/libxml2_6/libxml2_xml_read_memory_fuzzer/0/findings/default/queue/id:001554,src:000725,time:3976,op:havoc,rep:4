@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (isid*)>
+<!ELEMENT is<isid myLIED>
+]>
+<doc>
+<isid myid=ddup"/>
+<isid myid="foo"d myid="bar"/>
+</doc>

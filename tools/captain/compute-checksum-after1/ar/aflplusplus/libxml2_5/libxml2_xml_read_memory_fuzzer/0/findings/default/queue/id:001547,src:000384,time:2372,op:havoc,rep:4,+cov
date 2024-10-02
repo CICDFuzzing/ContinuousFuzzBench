@@ -1,0 +1,4 @@
+<XPath xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+(2/. | //@* n //namespac  ancestor-or-self::ds:SignedInfo
+] 
+<?XPath>

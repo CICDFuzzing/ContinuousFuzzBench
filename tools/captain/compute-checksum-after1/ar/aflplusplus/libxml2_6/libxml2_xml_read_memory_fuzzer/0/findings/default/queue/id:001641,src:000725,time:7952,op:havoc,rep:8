@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (isid*)>
+<docEMENT isid EMPTY>
+<!ATTLÄST isid myid ID #IM>
+<doc>
+<@sid myid="dup"/>
+<isid myid="foo"/>
+<isid(myid="bar"/>
+</doc>

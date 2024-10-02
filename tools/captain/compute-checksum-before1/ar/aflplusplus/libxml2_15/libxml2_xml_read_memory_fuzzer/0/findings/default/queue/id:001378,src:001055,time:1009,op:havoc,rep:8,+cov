@@ -1,0 +1,6 @@
+L!DOCTYPE doc B
+<!ATTLIST doc a1 NMþÿ  <>
+<!ELEdENT do  <>
+<!ELEdENT doc (#PCDATA)>
+]>
+<doc/>

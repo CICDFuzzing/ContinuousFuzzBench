@@ -1,0 +1,11 @@
+<?xml vbar="http://example.org/barest [<?xml version="1.0"?>
+<foo:Root xmlns:bar="http://ex <|ar:Something>
+     <fample.org/bar" xmlns:baz="http://example.org/baz" xmlns:foo="http://example.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Something>
+        Hbar:Something>
+           <foo:Something>
+             <baz:Something />
+           </foo:Something>
+        </bar:Something>
+     </foo:Som

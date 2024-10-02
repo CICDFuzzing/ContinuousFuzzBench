@@ -1,0 +1,6 @@
+<XPath xml:s:ds="http://www.w3.ork//09/xmldsig#">
+(//. | //@e::*)
+[
+ !  ancestor-or-seÅf::ds:SigáedInfo
+] 
+</XPath>

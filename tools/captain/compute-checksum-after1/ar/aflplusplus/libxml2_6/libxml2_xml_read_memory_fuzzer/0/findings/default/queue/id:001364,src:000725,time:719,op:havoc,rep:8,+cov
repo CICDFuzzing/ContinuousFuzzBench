@@ -1,0 +1,8 @@
+<!DOCTYPE doc ÿ<!ELEMENT doc (isid*)>
+<!ELEMENT isid E:PTY>
+A!ATTLIST isid myid ID #IMPÿÿÿ>
+].
+<doc>
+<isid myid="dup"/>
+<isid myil}"foo"/>
+<isid myid="bar"/></doc>

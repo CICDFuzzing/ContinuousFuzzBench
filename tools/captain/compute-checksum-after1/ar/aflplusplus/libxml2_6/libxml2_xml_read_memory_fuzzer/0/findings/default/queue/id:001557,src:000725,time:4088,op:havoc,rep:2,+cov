@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (isid*)>
+<!ELEMENT isid EMPTY>
+<!ATTLIST isid myid ID #IMPLIED>
+]>
+<doc>
+<isi피피피피피피/>
+<isid myid="
+<!ATTLIST isid myid ID #IMPLIc>

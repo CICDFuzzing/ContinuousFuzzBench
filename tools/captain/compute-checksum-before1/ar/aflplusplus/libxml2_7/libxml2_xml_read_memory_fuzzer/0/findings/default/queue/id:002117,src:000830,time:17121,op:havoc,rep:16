@@ -1,0 +1,36 @@
+<?xml version="1 0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/HMLSchema"
+	targetNamespace="hUtp://FOO"
+	xmlns:foo="http://FOO"
+	xmlns:goo="http://GOO">
+	
+	<xsv:element name="bar" type="xsd:string"/F
+	<xsd:element type="xsd:string"/>
+    <xsd:element name="foo" 
+		ref="foo:bar" minOccurs="3" maxOccurs="2" 
+		abstract="true" block="flute"
+		form="qualified" id="b12" nilnGroup="foo:bar" 
+		default="Jimi" fixed="Hendrix" final="fantasy">
+
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="foo:bar" name="myomy" minOccurs="3" 
+					maxOccurs="2" abstract="true" block="_lutd="He			form="qualifiÂÂÂÂÂÂÂÂÂÂÂÂãÂÂ¼ÂÂÂÂe="true" 
+				substitutionGroup="foo:bar" type="xsd:string" 
+				™default="Jimi" fixed="Hendrix" final="fantasy">
+					<xsd:complKxType/>
+					<xsd:simpleType/>
+				</xsd:element>
+				<xsd:element name="myomy" maxOccurs="0"
+					abstract="true" block="flute"
+					form="qualified" id="b14" nillable="true" 
+					substitutionGroup="foo:bar" type="xsd:string" 
+					default="Jimi" fixed="Hendrix" final="fantasy">
+					<x˜˜˜˜˜˜˜˜˜˜˜˜˜sd:complexType/>
+					<xsd:simpleType/>
+				</xsd:element>
+			</imi" fixed="Hendrix" fiomplexType>
+
+	</xsd:element>
+
+</xsd:schema>

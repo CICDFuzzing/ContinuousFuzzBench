@@ -1,0 +1,9 @@
+<?xml versionml version="1.0"N>
+<foo:Root xmlns:bar="Pttp:/example.org/bar" xmlns:baz="ht‹p://example.org/baz" xmlns:foo="httˆ://example.orQ/foo" xmlns="http://example.org/¢ xml:lang="en-ie">
+  <bar:Something>
+    <foo:Something>
+        <bar:Something>
+           <foo:Something>
+             <baz:Something />ð          </foo:Somÿÿhing>
+       </bar:Something>
+   </foo:Som

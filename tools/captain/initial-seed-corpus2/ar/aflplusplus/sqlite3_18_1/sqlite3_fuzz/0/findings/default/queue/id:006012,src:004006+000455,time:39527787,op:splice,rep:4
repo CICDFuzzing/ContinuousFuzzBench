@@ -1,216 +1,0 @@
-    EXPLAIN 
-  CREATE TABLE bb(SELER  Ädoubˇb6  '''''''''''''''''''#2 May 21
-#
-# The author disclaim# 2007 June 8
-#
-# The author disclaims copyright to this source code.  In place of
-# a legal notice, here is a blessing:
-#
-#    ]ay you do good and not .tcl    May you find forgiveness for yourself and forgive others.
-#    May you share freely, never taking more than you give.
-#
-#***********************************************************************
-# This file implements regression tests for SQLite library.
-#
-# This file implements tests to verify that ticket [7bbfb7d442] has been
-# fixed.  
-#
-
-set testdir [file dirname $argv0]
-source $testdir/tester.tcl
-set testprefix tkt-7bbfb7d442
-
-do_execsql_test 1.1 {
-  CREATE TABLE t1(a, b);
-  INSERT INTO t1 VALUES(1, 'one');
-  INSERT INTO t1 VALUES(2, 'two';
-  INSERU INTO t1 VALUES(3, 'three');
-
-  CREATE TABLE t2(c, d);
-  INSERT INTO t2 VALUES('one', 'I');
-  INSERT INTO t2 VALUES('two', 'II');
-  INSERT INTO t2 VALUES('three1, 'III');
-
-  CREATE TABLE t3(t3_a PRIMARY KEY, t3_d);
-  CREATE TRIGGER t3t AFTER INSERT ON t3 WHEN new.t3_d IS NULL BEGIN
-    UPDATE t3 SET t3_d = (
-      SELECT d FROM 
-        (SELECT * FROM t2 WHERE (new.t3_a%2)=(rowid%2) LIMIT@10),
-        (SELECT * FROM t1 WHERE (new.t3_a%2)=(rowid%2) LIMIT 10)
-      WHERE a = new.t3_a AND b = cùùùFÄNM  UNION ALL
-  SELECT 8 FROM (SELECT x, y FROM t2 ORDER BY-y)
-  LIMIT 66 OFFSET 0;
-} M t1
-  UNION A
-  INSERT INTO t3(t3_a) VALUES(3);
-  SELECT * FROM t3;
-} {1 I 2 II 3 III}
-
-do_execsql_test 1.3 { DELETE FROM t3 }
-
-ifcapable compound {
-  do_execsql_test 1.4 {
-    INSERT INTO t3(t3_a) SELECT 1 UNION SELECT 2 UNION SELECT 3;
-    SELECT * FROM t3;
-  } {1 I 2 II 3 III}
-}
-
-
-
-#-------------------------------------------------------------------------
-# The following test case - 2.* - is from the original bug report as 
-# posted to the mailing list.
-#
-do_execsql_test 2.1 {
-  CREATE TABLE InventoryControl (
-    InventoryControlId INTEGER PRIMARY KEY AUTOINfREMENT,
-    SKU INTEGER NOT NULL,
-    Variant INTEGER NOT NULL DEFAULT 0,
-    CintrolDate DATE NOT NULL,
-    ControlState INTEGER NOT NULL DEFAULT -1,
-    DeliveredQty VARCHAR(30)
-  );
-  
-  CREATE TRIGGER TGR_InventoryControl_AfterInsert
-  AFTER INSERT ON InventoryControl 
-  FOR EACH ROW WHEN NEW.ControlState=-1 BEGIN 
-
-  INSERT OR REPLACE INTO InventoryControl(
-        InventoryControlId,SKU,Variant,ControlDate,ControlState,DeliveredQty
-  ) SELECT
-          T1.InventoryControlId AS InventoryControlId,
-          T1.SKU AS SKU,
-          T1.Variant AS Variant,
-          T1.ControlDate AS ControlDate,
-          1 AS ControlState,
-          COALESCE(T2.DeliveredQty,0) AS DeliveredQty
-  ECT
-              NEW.InventoryControlId AS InventoryControlId,
-              II.SKU AS SKU,
-              II.Variant AS Variant,
-              COALESCE(LastClosedIC.ControlDate,NEW.ControlDate) AS ControlDate
-          FROM
-              InventoryItem II
-          LEFT JOIN
-              InventoryControl LastClosedIC
-              ON  LastClosedIC.InventoryControlId IN ( SELECT 99999 )
-          WHERE
-              II.SKU=NEW.SKU AND
-              II.Variant=NEW.Variant
-      )   T1
-      LEFT JOIN (
-          SELECT
-              TD.SKU AS SKU,
-              TD.Variant AS Variant,
-              10 AS DeliveredQty
-          FROM
-              TransactionDetail TD
-          WHERE
-              TD.SKU=NEW.SKU AND
-              TD.VariantÄNEW.Variant
-      )   T2
-      ON  T2.SKU=T1.SKU AND
-          T2.Variant=T1.Variant;
-  END;
-  
-  CREATE TABLE InventoryItem (
-    SKU INTEGER NOT NULL,
-    Variant INTEGER NOT NULL DEFAULT 0,
-    DeptCode INTEGER NOT NULL,
-    GroupCode INTEGER NOT NULL,
-   ¸œd ItemDescription V# 2016 June 17
-#
-# The author disclaims copyright to this source code.  In place of
-# a legal notice, here is a blessing:
-#
-#    May you do good and not evil.
-#    May you find forgiveness for yourself and forgive others.
-#    May you share freely, never taking more than you give.
-#
-#***********************************************************************
-# This file implements regression tests for SQLite library.  The
-# focus of this file is testing "(...) IN (SELECT ...)" expressions
-# where the SELECT statement returns more than one column.
-#
-
-set testdir [file dirname $argv0]
-source $testdir/tester.tcl
-set ::testprefix rowvalue3
-
-do_execsql_test 1.0 {
-  CREATE TABLE t1(a, b, c);
-  CREATE INDEX i1 ON t1(a, b);
-  INSERT INTO t1 VALUES(1, 2, 3);
-  INSERT INTO t1 VALUES(4, 5, 6);
-  INSERT INTO t1 VALUES(7, 8, 9);
-}
-
-foreach {tn sql res} {
-  1  "SELECT 1 WHERE (4, 5) IN (SELECT a, b FROM t1)"  1
-  2  "SELECT 1 WHERE (5, 5) IN (SELECT a, b FROM t1)"  {}
-  3  "SELECT 1 WHERE (5, 4) IN (SELECT a, b FROM t1)"  {}
-  4  "SELECT 1 WHERE (5, 4) IN (SELECT b, a FROM t1)"  1
-  5  "SELECT 1 WHERE (SELECT a, b FROM t1 WHERE c=6) IN (SELECT a, b FROM t1)" 1
-  6  "SELECT (5, 4) IN (SELECT a, b FROM t1)" 0
-  7  "SELECT 1 WHERE (5, 4) IN (SELECT +b, +a FROM t1)"  1
-  8  "SELECT (5, 4) IN (SELECT +b, +a FROM t1)"  1
-  9  "SELECT (1, 2) IN (SELECT rowid, b FROM t1)"  1
-  10 "SELECT 1 WHERE (1, 2) IN (SELECT rowid, b FROM t1)"  1
-  11 "SELECT 1 WHERE (1, NULL) IN (SELECT rowid, b FROM t1)"  {}
- :12 "SELECT 1 FROM t1 WHERE  13
-#
-# The author disclaims copyright to this source code.  In place of
-# a legaCREATE TABLE t1(x INTAC3l not bl----------------------------------------
-
-do_execsql_test 2.0 {
-  CREATE TABLE z1(x, y, z);
-  CREATE TABLE kk(a, b);
-
-  INSERT INTO z1 VALUES('a', 'b', 'c');
-  INSERT INTO z1 VALUES('d', 'e', 'f');
-  INSERT INTO z1 VALUES('g', 'h', 'i');
-
-  -- INSERT INTO kk VALUES('y', 'y');
-  INSERT INTO kk VALUES('d', 'e');
-  -- INSERT INTO kk VALUES('x', 'x');
-
-}
-
-foreach {tn idx} {
-  1 { }
-  2 { CREATE INDEX z1idx ON z1(x, y) }
-  3 { CREATE UNIQUE INDEX z1idx ON z1(x, y) }
-  4 { CREATE INDEX z1idx ON kk(a, b) }
-} {
-  execsql "DROP INDEX IF EXISTS z1idx"
-  execsql $idx
-
-  do_execsql_test 2.$tn.1 {
-    SELECT * FROM z1 WHERE x IN (SELECT a FROM kk)
-  } {d e f}
-
-  do_execsql_test 2.$tn.2 {
-    SELECT * FROM z1 WHERE (x,y) IN (SELECT a, b FROM kk)
-  } {d e f}
-
-  do_execsql_test 2.$tn.3 {
-    SELECT * FROM z1 WHERE (x, +y) IN (SELECT a, b FROM kk)
-  } {d e f}
-  
-  do_execsql_test 2.$tm.4 {
-    SELECT * FROM z1 WHERE (x, +y) IN (SELECT a, b||'x' FROM kk)
-  } {}
-
-  do_execsql_test 2.$tn.5 {
-    SELECT * FROM z1 WHERE (+x, y) IN (SELECT a, b FROM kk)
-  } {d e f}
-}
-
-#-------------------------------------------------------------------------
-#
-
-do_execsql_test 3.0 {
-  CREATE TABLE c1(a, b, c, d);
-  INSERT INTO c1(rowid, a, b) VALUES(1,   NULL, 1);
-  INSERT INTO c1(rowid, a, b) VALUES(2,   2, NULL);
-  INSERT INTO c1(rowid, a, b

@@ -1,0 +1,1694 @@
+++ id -u huicongh
+++ id -g huicongh
++ docker build -t magma/aflplusplus/libsndfile_13 --build-arg fuzzer_name=aflplusplus --build-arg target_name=libsndfile_13 --build-arg USER_ID=1002 --build-arg GROUP_ID=1002 --build-arg isan=1 -f /home/huicongh/thesis/ContinuousFuzzBench/docker/Dockerfile /home/huicongh/thesis/ContinuousFuzzBench
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2.67kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:18.04
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 47B done
+#3 DONE 0.0s
+
+#4 [ 1/23] FROM docker.io/library/ubuntu:18.04@sha256:152dc042452c496007f07ca9127571cb9c29697f42acbfad72324b2bb2e43c98
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 4.28MB 0.0s done
+#5 DONE 0.1s
+
+#6 [ 5/23] RUN mkdir -p /magma_shared /magma_out && 	chown magma:magma /magma_shared /magma_out && 	chmod 744 /magma_shared /magma_out
+#6 CACHED
+
+#7 [11/23] RUN /magma/magma/preinstall.sh
+#7 CACHED
+
+#8 [20/23] RUN /magma/targets/libsndfile_13/preinstall.sh
+#8 CACHED
+
+#9 [13/23] RUN mkdir -p /magma/fuzzers/aflplusplus && chown magma:magma /magma/fuzzers/aflplusplus
+#9 CACHED
+
+#10 [ 7/23] RUN chown magma:magma /usr/local/
+#10 CACHED
+
+#11 [ 9/23] RUN mkdir -p /magma/magma && chown magma:magma /magma/magma
+#11 CACHED
+
+#12 [16/23] RUN /magma/fuzzers/aflplusplus/fetch.sh
+#12 CACHED
+
+#13 [17/23] RUN /magma/fuzzers/aflplusplus/build.sh
+#13 CACHED
+
+#14 [14/23] COPY --chown=magma:magma .//fuzzers/aflplusplus /magma/fuzzers/aflplusplus/
+#14 CACHED
+
+#15 [ 6/23] RUN chown magma:magma /usr/include/
+#15 CACHED
+
+#16 [12/23] RUN /magma/magma/prebuild.sh
+#16 CACHED
+
+#17 [ 2/23] RUN apt-get update && apt-get install -y sudo vim
+#17 CACHED
+
+#18 [21/23] RUN /magma/targets/libsndfile_13/fetch.sh
+#18 CACHED
+
+#19 [18/23] RUN mkdir -p /magma/targets/libsndfile_13 && chown magma:magma /magma/targets/libsndfile_13
+#19 CACHED
+
+#20 [ 3/23] RUN mkdir -p /home && 	groupadd -g 1002 magma && 	useradd -l -u 1002 -K UMASK=0000 -d /home -g magma magma && 	chown magma:magma /home
+#20 CACHED
+
+#21 [15/23] RUN /magma/fuzzers/aflplusplus/preinstall.sh
+#21 CACHED
+
+#22 [10/23] COPY --chown=magma:magma .//magma /magma/magma/
+#22 CACHED
+
+#23 [19/23] COPY --chown=magma:magma .//targets/libsndfile_13 /magma/targets/libsndfile_13/
+#23 CACHED
+
+#24 [ 4/23] RUN	ECHO "magma:amgam" | chpasswd && usermod -a -G sudo magma
+#24 CACHED
+
+#25 [ 8/23] RUN mkdir -p /usr/lib/bfd-plugins/ && 	chown magma:magma /usr/lib/bfd-plugins/
+#25 CACHED
+
+#26 [22/23] RUN /magma/magma/apply_patches.sh
+#26 CACHED
+
+#27 [23/23] RUN /magma/fuzzers/aflplusplus/instrument.sh
+#27 0.409 checking for autogen ... yes
+#27 0.454 checking for autoconf ... yes
+#27 0.497 checking for automake ... yes
+#27 0.565 checking for libtool ... libtoolize
+#27 0.792 checking for pkg-config ... yes
+#27 0.794 checking for python ... yes
+#27 0.796 Generating configuration files for libsndfile, please wait ... 
+#27 0.796   aclocal 
+#27 1.901   libtoolize --automake --force
+#27 2.444   autoheader
+#27 2.862   automake --add-missing 
+#27 3.448 configure.ac:58: installing 'build-aux/ar-lib'
+#27 3.448 configure.ac:38: installing 'build-aux/compile'
+#27 3.448 configure.ac:28: installing 'build-aux/config.guess'
+#27 3.448 configure.ac:28: installing 'build-aux/config.sub'
+#27 3.448 configure.ac:33: installing 'build-aux/install-sh'
+#27 3.448 configure.ac:33: installing 'build-aux/missing'
+#27 3.516 Makefile.am: installing 'build-aux/depcomp'
+#27 3.649   autoconf
+#27 3.919 
+#27 3.919 Installing git pre-commit hook for this project.
+#27 3.920 
+#27 4.091 checking whether configure should try to set CFLAGS/CXXFLAGS/CPPFLAGS/LDFLAGS... no
+#27 4.102 checking build system type... x86_64-pc-linux-gnu
+#27 4.245 checking host system type... x86_64-pc-linux-gnu
+#27 4.246 checking for a BSD-compatible install... /usr/bin/install -c
+#27 4.258 checking whether build environment is sane... yes
+#27 4.273 checking for a thread-safe mkdir -p... /bin/mkdir -p
+#27 4.276 checking for gawk... no
+#27 4.276 checking for mawk... mawk
+#27 4.276 checking whether make sets $(MAKE)... yes
+#27 4.292 checking whether make supports nested variables... yes
+#27 4.307 checking whether make supports nested variables... (cached) yes
+#27 4.307 checking for gcc... /magma/fuzzers/aflplusplus/repo/afl-clang-fast
+#27 4.523 checking whether the C compiler works... yes
+#27 4.648 checking for C compiler default output file name... a.out
+#27 4.650 checking for suffix of executables... 
+#27 4.796 checking whether we are cross compiling... no
+#27 4.925 checking for suffix of object files... o
+#27 4.988 checking whether we are using the GNU C compiler... yes
+#27 5.071 checking whether /magma/fuzzers/aflplusplus/repo/afl-clang-fast accepts -g... yes
+#27 5.172 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast option to accept ISO C89... none needed
+#27 5.241 checking whether /magma/fuzzers/aflplusplus/repo/afl-clang-fast understands -c and -o together... yes
+#27 5.361 checking for style of include used by make... GNU
+#27 5.367 checking dependency style of /magma/fuzzers/aflplusplus/repo/afl-clang-fast... gcc3
+#27 5.467 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast option to accept ISO C99... none needed
+#27 5.540 checking how to run the C preprocessor... /magma/fuzzers/aflplusplus/repo/afl-clang-fast -E
+#27 5.759 checking for grep that handles long lines and -e... /bin/grep
+#27 5.762 checking for egrep... /bin/grep -E
+#27 5.764 checking for ANSI C header files... yes
+#27 6.109 checking for sys/types.h... yes
+#27 6.206 checking for sys/stat.h... yes
+#27 6.299 checking for stdlib.h... yes
+#27 6.388 checking for string.h... yes
+#27 6.463 checking for memory.h... yes
+#27 6.539 checking for strings.h... yes
+#27 6.632 checking for inttypes.h... yes
+#27 6.728 checking for stdint.h... yes
+#27 6.823 checking for unistd.h... yes
+#27 6.933 checking minix/config.h usability... no
+#27 7.009 checking minix/config.h presence... no
+#27 7.069 checking for minix/config.h... no
+#27 7.069 checking whether it is safe to define __EXTENSIONS__... yes
+#27 7.315 checking whether we are using the GNU C++ compiler... yes
+#27 7.373 checking whether /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ accepts -g... yes
+#27 7.444 checking dependency style of /magma/fuzzers/aflplusplus/repo/afl-clang-fast++... gcc3
+#27 7.528 checking for C compiler vendor... clang
+#27 7.827 checking for a sed that does not truncate output... /bin/sed
+#27 7.834 checking for C compiler version... 9.0.0
+#27 8.206 checking for C++ compiler vendor... clang
+#27 8.479 checking for C++ compiler version... 9.0.0
+#27 9.049 checking for a sed that does not truncate output... (cached) /bin/sed
+#27 9.050 checking the archiver (/usr/bin/ar) interface... ar
+#27 9.117 checking how to print strings... printf
+#27 9.143 checking for a sed that does not truncate output... (cached) /bin/sed
+#27 9.145 checking for fgrep... /bin/grep -F
+#27 9.147 checking for ld used by /magma/fuzzers/aflplusplus/repo/afl-clang-fast... /usr/bin/ld
+#27 9.178 checking if the linker (/usr/bin/ld) is GNU ld... yes
+#27 9.182 checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm
+#27 9.182 checking the name lister (/usr/bin/nm) interface... BSD nm
+#27 9.273 checking whether ln -s works... yes
+#27 9.273 checking the maximum length of command line arguments... 1572864
+#27 9.285 checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+#27 9.285 checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+#27 9.285 checking for /usr/bin/ld option to reload object files... -r
+#27 9.285 checking for objdump... objdump
+#27 9.285 checking how to recognize dependent libraries... pass_all
+#27 9.286 checking for dlltool... no
+#27 9.286 checking how to associate runtime and link libraries... printf %s\n
+#27 9.287 checking for archiver @FILE support... @
+#27 9.383 checking for strip... strip
+#27 9.384 checking for ranlib... /usr/bin/ranlib
+#27 9.384 checking command to parse /usr/bin/nm output from /magma/fuzzers/aflplusplus/repo/afl-clang-fast object... ok
+#27 9.628 checking for sysroot... no
+#27 9.628 checking for a working dd... /bin/dd
+#27 9.635 checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+#27 9.719 checking for mt... no
+#27 9.719 checking if : is a manifest tool... no
+#27 9.726 checking for dlfcn.h... yes
+#27 9.800 checking for objdir... .libs
+#27 10.02 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -fno-rtti -fno-exceptions... yes
+#27 10.13 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast option to produce PIC... -fPIC -DPIC
+#27 10.13 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast PIC flag -fPIC -DPIC works... yes
+#27 10.21 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast static flag -static works... yes
+#27 10.36 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -c -o file.o... yes
+#27 10.46 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -c -o file.o... (cached) yes
+#27 10.46 checking whether the /magma/fuzzers/aflplusplus/repo/afl-clang-fast linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+#27 10.50 checking dynamic linker characteristics... GNU/Linux ld.so
+#27 10.69 checking how to hardcode library paths into programs... immediate
+#27 10.69 checking whether stripping libraries is possible... yes
+#27 10.70 checking if libtool supports shared libraries... yes
+#27 10.70 checking whether to build shared libraries... no
+#27 10.70 checking whether to build static libraries... yes
+#27 10.70 checking how to run the C++ preprocessor... /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ -E
+#27 11.20 checking for ld used by /magma/fuzzers/aflplusplus/repo/afl-clang-fast++... /usr/bin/ld -m elf_x86_64
+#27 11.23 checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+#27 11.29 checking whether the /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+#27 11.51 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ option to produce PIC... -fPIC -DPIC
+#27 11.51 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ PIC flag -fPIC -DPIC works... yes
+#27 11.59 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ static flag -static works... yes
+#27 11.74 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ supports -c -o file.o... yes
+#27 11.84 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ supports -c -o file.o... (cached) yes
+#27 11.84 checking whether the /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+#27 11.84 checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+#27 11.85 checking how to hardcode library paths into programs... immediate
+#27 11.85 checking for windres... no
+#27 11.94 checking whether ln -s works... yes
+#27 11.94 checking for python... /usr/bin/python
+#27 11.94 checking for python version... 2.7
+#27 11.95 checking for python platform... linux2
+#27 11.96 checking for python script directory... ${prefix}/lib/python2.7/dist-packages
+#27 11.98 checking for python extension module directory... ${exec_prefix}/lib/python2.7/dist-packages
+#27 12.01 checking for autogen... yes
+#27 12.01 checking for wine... no
+#27 12.01 checking for xcode-select... no
+#27 12.01 checking for ANSI C header files... (cached) yes
+#27 12.01 checking endian.h usability... yes
+#27 12.10 checking endian.h presence... yes
+#27 12.18 checking for endian.h... yes
+#27 12.19 checking byteswap.h usability... yes
+#27 12.25 checking byteswap.h presence... yes
+#27 12.31 checking for byteswap.h... yes
+#27 12.31 checking locale.h usability... yes
+#27 12.38 checking locale.h presence... yes
+#27 12.43 checking for locale.h... yes
+#27 12.44 checking sys/time.h usability... yes
+#27 12.50 checking sys/time.h presence... yes
+#27 12.56 checking for sys/time.h... yes
+#27 12.56 checking immintrin.h usability... yes
+#27 12.78 checking immintrin.h presence... yes
+#27 12.86 checking for immintrin.h... yes
+#27 12.87 checking stdbool.h usability... yes
+#27 12.93 checking stdbool.h presence... yes
+#27 13.00 checking for stdbool.h... yes
+#27 13.01 checking for sys/wait.h that is POSIX.1 compatible... yes
+#27 13.10 checking whether S_IRGRP is declared... yes
+#27 13.21 checking size of wchar_t... 4
+#27 13.34 checking size of short... 2
+#27 13.48 checking size of int... 4
+#27 13.62 checking size of long... 8
+#27 13.78 checking size of float... 4
+#27 13.90 checking size of double... 8
+#27 14.05 checking size of void*... 8
+#27 14.18 checking size of size_t... 8
+#27 14.30 checking size of int64_t... 8
+#27 14.43 checking size of long long... 8
+#27 14.56 checking size of off_t... 8
+#27 14.70 checking for ssize_t... yes
+#27 14.84 checking whether byte ordering is bigendian... no
+#27 15.05 checking for malloc... yes
+#27 15.22 checking for calloc... yes
+#27 15.36 checking for realloc... yes
+#27 15.49 checking for free... yes
+#27 15.65 checking for open... yes
+#27 15.77 checking for read... yes
+#27 15.91 checking for write... yes
+#27 16.04 checking for lseek... yes
+#27 16.17 checking for lseek64... yes
+#27 16.30 checking for fstat... yes
+#27 16.43 checking for fstat64... yes
+#27 16.56 checking for ftruncate... yes
+#27 16.69 checking for fsync... yes
+#27 16.83 checking for snprintf... yes
+#27 16.96 checking for vsnprintf... yes
+#27 17.11 checking for gmtime... yes
+#27 17.23 checking for gmtime_r... yes
+#27 17.37 checking for localtime... yes
+#27 17.52 checking for localtime_r... yes
+#27 17.64 checking for gettimeofday... yes
+#27 17.79 checking for mmap... yes
+#27 17.91 checking for getpagesize... yes
+#27 18.05 checking for setlocale... yes
+#27 18.17 checking for pipe... yes
+#27 18.30 checking for waitpid... yes
+#27 18.44 checking for library containing floor... none required
+#27 18.56 checking for floor... yes
+#27 18.71 checking for ceil... yes
+#27 18.84 checking for fmod... yes
+#27 19.01 checking for lrint... yes
+#27 19.15 checking for lrintf... yes
+#27 19.31 checking for octave... no
+#27 19.31 checking for mkoctfile... no
+#27 19.31 checking for octave-config... no
+#27 19.31 checking for pkg-config... /usr/bin/pkg-config
+#27 19.31 checking pkg-config is at least version 0.9.0... yes
+#27 19.31 checking for flac >= 1.3.1 ... yes
+#27 19.46 checking for ogg >= 1.3.0 ... yes
+#27 19.60 checking for vorbis >= 1.2.3 ... yes
+#27 19.77 checking for vorbisenc >= 1.2.3 ... yes
+#27 19.89 checking for opus >= 1.1 ... yes
+#27 20.04 checking lame/lame.h usability... yes
+#27 20.14 checking lame/lame.h presence... yes
+#27 20.21 checking for lame/lame.h... yes
+#27 20.21 checking for library containing lame_set_VBR_q... -lmp3lame
+#27 20.53 checking for libmpg123 >= 1.25.10 ... yes
+#27 20.70 checking for sqlite3 >= 3.2 ... no
+#27 20.82 checking processor clipping capabilities... none
+#27 21.11 checking for ALSA... yes
+#27 21.13 checking alsa/asoundlib.h usability... yes
+#27 21.21 checking alsa/asoundlib.h presence... yes
+#27 21.30 checking for alsa/asoundlib.h... yes
+#27 21.31 checking whether C compiler accepts -Wall... yes
+#27 21.39 checking whether C compiler accepts -Wextra... yes
+#27 21.48 checking whether C compiler accepts -Wpointer-arith... yes
+#27 21.56 checking whether C compiler accepts -Wcast-align... yes
+#27 21.62 checking whether C compiler accepts -Wcast-qual... yes
+#27 21.71 checking whether C compiler accepts -Wshadow... yes
+#27 21.77 checking whether C compiler accepts -Wwrite-strings... yes
+#27 21.86 checking whether C compiler accepts -Wundef... yes
+#27 21.92 checking whether C compiler accepts -Wuninitialized... yes
+#27 21.98 checking whether C compiler accepts -Winit-self... yes
+#27 22.06 checking whether C compiler accepts -Wno-format-truncation... yes
+#27 22.15 checking whether C compiler accepts -Wvla... yes
+#27 22.26 checking whether C compiler accepts -Wbad-function-cast... yes
+#27 22.34 checking whether C compiler accepts -Wnested-externs... yes
+#27 22.43 checking whether C compiler accepts -Wstrict-prototypes... yes
+#27 22.52 checking whether C compiler accepts -Wmissing-prototypes... yes
+#27 22.59 checking whether C compiler accepts -Wmissing-declarations... yes
+#27 22.69 checking whether C compiler accepts -Waggregate-return... yes
+#27 22.77 checking whether C++ compiler accepts -Wall... yes
+#27 22.83 checking whether C++ compiler accepts -Wextra... yes
+#27 22.90 checking whether C++ compiler accepts -Wpointer-arith... yes
+#27 22.98 checking whether C++ compiler accepts -Wcast-align... yes
+#27 23.07 checking whether C++ compiler accepts -Wcast-qual... yes
+#27 23.13 checking whether C++ compiler accepts -Wshadow... yes
+#27 23.20 checking whether C++ compiler accepts -Wwrite-strings... yes
+#27 23.27 checking whether C++ compiler accepts -Wundef... yes
+#27 23.35 checking whether C++ compiler accepts -Wuninitialized... yes
+#27 23.44 checking whether C++ compiler accepts -Winit-self... yes
+#27 23.52 checking whether C++ compiler accepts -Wno-format-truncation... yes
+#27 23.60 checking whether C++ compiler accepts -Wctor-dtor-privacy... yes
+#27 23.69 checking whether C++ compiler accepts -Wnon-virtual-dtor... yes
+#27 23.78 checking whether C++ compiler accepts -Woverloaded-virtual... yes
+#27 23.87 checking whether C++ compiler accepts -Wreorder... yes
+#27 23.94 checking whether C++ compiler accepts -Wsign-promo... yes
+#27 24.01 checking whether C compiler accepts -Werror... no
+#27 24.07 checking whether to add -D_FORTIFY_SOURCE=2 to CPPFLAGS... yes
+#27 24.34 checking that generated files are newer than configure... done
+#27 24.34 configure: creating ./config.status
+#27 25.52 config.status: creating Makefile
+#27 25.54 config.status: creating Octave/Makefile
+#27 25.56 config.status: creating src/version-metadata.rc
+#27 25.58 config.status: creating include/sndfile.h
+#27 25.61 config.status: creating tests/test_wrapper.sh
+#27 25.63 config.status: creating tests/pedantic-header-test.sh
+#27 25.65 config.status: creating libsndfile.spec
+#27 25.67 config.status: creating sndfile.pc
+#27 25.69 config.status: creating Scripts/build-test-tarball.mk
+#27 25.71 config.status: creating src/config.h
+#27 25.73 config.status: executing depfiles commands
+#27 26.23 config.status: executing libtool commands
+#27 26.26 
+#27 26.26 -=-=-=-=-=-=-=-=-=-= Configuration Complete =-=-=-=-=-=-=-=-=-=-=-
+#27 26.26 
+#27 26.26   Configuration summary :
+#27 26.26 
+#27 26.26     libsndfile version : .................. 1.1.0beta1
+#27 26.26 
+#27 26.26     Host CPU : ............................ x86_64
+#27 26.26     Host Vendor : ......................... pc
+#27 26.26     Host OS : ............................. linux-gnu
+#27 26.26 
+#27 26.26     CFLAGS : .............................. -include /magma/magma/src/canary.h   -DMAGMA_FATAL_CANARIES  -g -O0 -Wall -Wextra -Wpointer-arith -Wcast-align -Wcast-qual -Wshadow -Wwrite-strings -Wundef -Wuninitialized -Winit-self -Wno-format-truncation -Wvla -Wbad-function-cast -Wnested-externs -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Waggregate-return 
+#27 26.26     CXXFLAGS : ............................ -include /magma/magma/src/canary.h   -DMAGMA_FATAL_CANARIES  -g -O0 -stdlib=libc++ -Wall -Wextra -Wpointer-arith -Wcast-align -Wcast-qual -Wshadow -Wwrite-strings -Wundef -Wuninitialized -Winit-self -Wno-format-truncation -Wctor-dtor-privacy -Wnon-virtual-dtor -Woverloaded-virtual -Wreorder -Wsign-promo
+#27 26.26     CPPFLAGS : ............................  -D_FORTIFY_SOURCE=2
+#27 26.26     LDFLAGS : ............................. -L/magma_out -g -L/magma_out/afl
+#27 26.26 
+#27 26.26     Experimental code : ................... no
+#27 26.26     Using ALSA in example programs : ...... auto
+#27 26.26     External FLAC/Ogg/Vorbis/Opus : ....... yes
+#27 26.26     External MPEG Lame/MPG123 : ........... yes
+#27 26.26     Building Octave interface : ........... no
+#27 26.26 
+#27 26.26   Tools :
+#27 26.26 
+#27 26.26     C Compiler Vendor is : ................ clang (9.0.0)
+#27 26.26     CXX Compiler Vendor is : .............. clang (9.0.0)
+#27 26.26 
+#27 26.26     Sanitizer enabled : ................... no
+#27 26.26     Stack smash protection : .............. no
+#27 26.26 
+#27 26.26   Installation directories :
+#27 26.26 
+#27 26.26     Library directory : ................... /usr/local/lib
+#27 26.26     Program directory : ................... /usr/local/bin
+#27 26.26     Pkgconfig directory : ................. /usr/local/lib/pkgconfig
+#27 26.26     HTML docs directory : ................. /usr/local/share/doc/libsndfile
+#27 26.26 
+#27 26.26 Compiling some other packages against libsndfile may require
+#27 26.26 the addition of '/usr/local/lib/pkgconfig' to the
+#27 26.26 PKG_CONFIG_PATH environment variable.
+#27 26.26 
+#27 26.34 make[1]: Entering directory '/magma/targets/libsndfile_13/repo'
+#27 26.34 test -z "programs/*.wav octave-workspace" || rm -f programs/*.wav octave-workspace
+#27 26.34 test -z "src/libsndfile.la" || rm -f src/libsndfile.la
+#27 26.34 rm -rf .libs _libs
+#27 26.34 test -z "src/libcommon.la src/GSM610/libgsm.la src/G72x/libg72x.la src/ALAC/libalac.la ossfuzz/libstandaloneengine.la" || rm -f src/libcommon.la src/GSM610/libgsm.la src/G72x/libg72x.la src/ALAC/libalac.la ossfuzz/libstandaloneengine.la
+#27 26.34 rm -f *.o
+#27 26.34  rm -f programs/sndfile-info programs/sndfile-play programs/sndfile-convert programs/sndfile-cmp programs/sndfile-metadata-set programs/sndfile-metadata-get programs/sndfile-interleave programs/sndfile-deinterleave programs/sndfile-concat programs/sndfile-salvage
+#27 26.34 rm -f *.lo
+#27 26.34  rm -f src/test_main src/G72x/g72x_test examples/make_sine examples/sfprocess examples/list_formats examples/generate examples/sndfilehandle examples/sndfile-to-text examples/sndfile-loopify tests/sfversion tests/floating_point_test tests/write_read_test tests/lossy_comp_test tests/error_test tests/ulaw_test tests/alaw_test tests/dwvw_test tests/peak_chunk_test tests/command_test tests/stdio_test tests/pcm_test tests/headerless_test tests/pipe_test tests/header_test tests/misc_test tests/raw_test tests/string_test tests/multi_file_test tests/chunk_test tests/scale_clip_test tests/win32_test tests/aiff_rw_test tests/virtual_io_test tests/locale_test tests/win32_ordinal_test tests/ogg_test tests/compression_size_test tests/checksum_test tests/external_libs_test tests/rdwr_test tests/format_check_test tests/cpp_test tests/channel_test tests/long_read_write_test tests/stdin_test tests/stdout_test tests/dither_test tests/fix_this tests/largefile_test tests/benchmark tests/ogg_opus_test tests/mpeg_test programs/sndfile-metadata-set programs/sndfile-metadata-get
+#27 26.34 rm -rf examples/.libs examples/_libs
+#27 26.34  rm -f ossfuzz/sndfile_fuzzer
+#27 26.34 rm -f examples/*.o
+#27 26.34 rm -rf ossfuzz/.libs ossfuzz/_libs
+#27 26.35 rm -f src/so_locations
+#27 26.35 rm -f ossfuzz/*.o
+#27 26.35 rm -f ossfuzz/so_locations src/ALAC/so_locations src/G72x/so_locations src/GSM610/so_locations src/so_locations
+#27 26.35 rm -rf programs/.libs programs/_libs
+#27 26.35 rm -f ossfuzz/*.lo
+#27 26.35 rm -rf regtest/.libs regtest/_libs
+#27 26.35 rm -f programs/*.o
+#27 26.35 rm -rf src/.libs src/_libs
+#27 26.35 rm -f regtest/*.o
+#27 26.35 rm -rf src/ALAC/.libs src/ALAC/_libs
+#27 26.36 rm -f src/*.o
+#27 26.36 rm -rf src/G72x/.libs src/G72x/_libs
+#27 26.36 rm -f src/*.lo
+#27 26.36 rm -rf src/GSM610/.libs src/GSM610/_libs
+#27 26.36 rm -f src/ALAC/*.o
+#27 26.36 rm -rf tests/.libs tests/_libs
+#27 26.36 rm -f src/ALAC/*.lo
+#27 26.37 rm -f src/G72x/*.o
+#27 26.37 rm -f src/G72x/*.lo
+#27 26.37 rm -f src/GSM610/*.o
+#27 26.37 rm -f src/GSM610/*.lo
+#27 26.38 rm -f tests/*.o
+#27 26.38 make[1]: Leaving directory '/magma/targets/libsndfile_13/repo'
+#27 26.41   CXX      ossfuzz/ossfuzz_sndfile_fuzzer-sndfile_fuzzer.o
+#27 26.50 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 26.56 ossfuzz/sndfile_fuzzer.cc:40:5: warning: variable 'new_offset' is used uninitialized whenever switch default is taken [-Wsometimes-uninitialized]
+#27 26.56     default:
+#27 26.56     ^~~~~~~
+#27 26.56 ossfuzz/sndfile_fuzzer.cc:45:7: note: uninitialized use occurs here
+#27 26.56   if (new_offset > vf->length)
+#27 26.56       ^~~~~~~~~~
+#27 26.56 ossfuzz/sndfile_fuzzer.cc:24:24: note: initialize the variable 'new_offset' to silence this warning
+#27 26.56   sf_count_t new_offset;
+#27 26.56                        ^
+#27 26.56                         = 0
+#27 26.57 2 warnings generated.
+#27 26.59   CC       src/src_libsndfile_la-sndfile.lo
+#27 26.71 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 26.98 1 warning generated.
+#27 27.00   CC       src/src_libsndfile_la-aiff.lo
+#27 27.10 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 27.33 1 warning generated.
+#27 27.35   CC       src/src_libsndfile_la-au.lo
+#27 27.47 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 27.66 1 warning generated.
+#27 27.69   CC       src/src_libsndfile_la-avr.lo
+#27 27.80 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 27.99 1 warning generated.
+#27 28.01   CC       src/src_libsndfile_la-caf.lo
+#27 28.11 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 28.32 1 warning generated.
+#27 28.34   CC       src/src_libsndfile_la-dwd.lo
+#27 28.44 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 28.62 1 warning generated.
+#27 28.65   CC       src/src_libsndfile_la-flac.lo
+#27 28.79 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 29.01 1 warning generated.
+#27 29.03   CC       src/src_libsndfile_la-g72x.lo
+#27 29.13 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 29.33 1 warning generated.
+#27 29.35   CC       src/src_libsndfile_la-htk.lo
+#27 29.45 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 29.64 1 warning generated.
+#27 29.66   CC       src/src_libsndfile_la-ircam.lo
+#27 29.79 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 29.98 1 warning generated.
+#27 30.00   CC       src/src_libsndfile_la-macos.lo
+#27 30.10 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 30.28 1 warning generated.
+#27 30.30   CC       src/src_libsndfile_la-mat4.lo
+#27 30.42 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 30.61 1 warning generated.
+#27 30.64   CC       src/src_libsndfile_la-mat5.lo
+#27 30.75 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 30.95 1 warning generated.
+#27 30.98   CC       src/src_libsndfile_la-nist.lo
+#27 31.10 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 31.29 1 warning generated.
+#27 31.32   CC       src/src_libsndfile_la-paf.lo
+#27 31.41 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 31.62 1 warning generated.
+#27 31.64   CC       src/src_libsndfile_la-pvf.lo
+#27 31.78 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 31.97 1 warning generated.
+#27 31.99   CC       src/src_libsndfile_la-raw.lo
+#27 32.11 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 32.29 1 warning generated.
+#27 32.31   CC       src/src_libsndfile_la-rx2.lo
+#27 32.43 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 32.61 1 warning generated.
+#27 32.63   CC       src/src_libsndfile_la-sd2.lo
+#27 32.78 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 32.98 1 warning generated.
+#27 33.00   CC       src/src_libsndfile_la-sds.lo
+#27 33.13 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 33.33 1 warning generated.
+#27 33.36   CC       src/src_libsndfile_la-svx.lo
+#27 33.50 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 33.69 1 warning generated.
+#27 33.71   CC       src/src_libsndfile_la-txw.lo
+#27 33.83 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 34.01 1 warning generated.
+#27 34.04   CC       src/src_libsndfile_la-voc.lo
+#27 34.17 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 34.36 1 warning generated.
+#27 34.38   CC       src/src_libsndfile_la-wve.lo
+#27 34.48 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 34.67 1 warning generated.
+#27 34.69   CC       src/src_libsndfile_la-w64.lo
+#27 34.80 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 35.00 1 warning generated.
+#27 35.02   CC       src/src_libsndfile_la-wavlike.lo
+#27 35.12 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 35.34 1 warning generated.
+#27 35.36   CC       src/src_libsndfile_la-wav.lo
+#27 35.46 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 35.67 1 warning generated.
+#27 35.70   CC       src/src_libsndfile_la-xi.lo
+#27 35.82 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 36.04 1 warning generated.
+#27 36.06   CC       src/src_libsndfile_la-mpc2k.lo
+#27 36.20 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 36.39 1 warning generated.
+#27 36.41   CC       src/src_libsndfile_la-rf64.lo
+#27 36.53 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 36.73 1 warning generated.
+#27 36.76   CC       src/src_libsndfile_la-ogg.lo
+#27 36.88 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 37.08 1 warning generated.
+#27 37.10   CC       src/src_libsndfile_la-ogg_vorbis.lo
+#27 37.24 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 37.46 1 warning generated.
+#27 37.48   CC       src/src_libsndfile_la-ogg_speex.lo
+#27 37.60 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 37.78 1 warning generated.
+#27 37.81   CC       src/src_libsndfile_la-ogg_pcm.lo
+#27 37.94 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 38.13 1 warning generated.
+#27 38.15   CC       src/src_libsndfile_la-ogg_opus.lo
+#27 38.27 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 38.49 1 warning generated.
+#27 38.52   CC       src/src_libsndfile_la-ogg_vcomment.lo
+#27 38.64 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 38.83 1 warning generated.
+#27 38.85   CC       src/src_libsndfile_la-mpeg.lo
+#27 38.97 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 39.15 1 warning generated.
+#27 39.18   CC       src/GSM610/add.lo
+#27 39.31 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 39.33 1 warning generated.
+#27 39.35   CC       src/GSM610/code.lo
+#27 39.47 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 39.48 1 warning generated.
+#27 39.50   CC       src/GSM610/decode.lo
+#27 39.61 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 39.62 1 warning generated.
+#27 39.64   CC       src/GSM610/gsm_create.lo
+#27 39.75 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 39.77 1 warning generated.
+#27 39.79   CC       src/GSM610/gsm_decode.lo
+#27 39.88 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 39.90 1 warning generated.
+#27 39.92   CC       src/GSM610/gsm_destroy.lo
+#27 40.03 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 40.04 1 warning generated.
+#27 40.06   CC       src/GSM610/gsm_encode.lo
+#27 40.15 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 40.17 1 warning generated.
+#27 40.18   CC       src/GSM610/gsm_option.lo
+#27 40.31 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 40.32 1 warning generated.
+#27 40.34   CC       src/GSM610/long_term.lo
+#27 40.43 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 40.47 1 warning generated.
+#27 40.49   CC       src/GSM610/lpc.lo
+#27 40.60 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 40.63 1 warning generated.
+#27 40.64   CC       src/GSM610/preprocess.lo
+#27 40.76 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 40.77 1 warning generated.
+#27 40.79   CC       src/GSM610/rpe.lo
+#27 40.88 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 40.90 1 warning generated.
+#27 40.92   CC       src/GSM610/short_term.lo
+#27 41.02 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 41.04 1 warning generated.
+#27 41.06   CC       src/GSM610/table.lo
+#27 41.15 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 41.16 1 warning generated.
+#27 41.18   CCLD     src/GSM610/libgsm.la
+#27 41.27 
+#27 41.27 *** Warning: Linking the shared library src/GSM610/libgsm.la against the
+#27 41.27 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 41.30 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 41.34   CC       src/G72x/g721.lo
+#27 41.47 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 41.48 1 warning generated.
+#27 41.50   CC       src/G72x/g723_16.lo
+#27 41.62 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 41.63 1 warning generated.
+#27 41.64   CC       src/G72x/g723_24.lo
+#27 41.74 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 41.75 1 warning generated.
+#27 41.76   CC       src/G72x/g723_40.lo
+#27 41.88 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 41.89 1 warning generated.
+#27 41.90   CC       src/G72x/g72x.lo
+#27 42.02 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 42.05 1 warning generated.
+#27 42.07   CCLD     src/G72x/libg72x.la
+#27 42.15 
+#27 42.15 *** Warning: Linking the shared library src/G72x/libg72x.la against the
+#27 42.15 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 42.18 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 42.21   CC       src/ALAC/ALACBitUtilities.lo
+#27 42.33 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 42.34 1 warning generated.
+#27 42.36   CC       src/ALAC/ag_dec.lo
+#27 42.48 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 42.51 1 warning generated.
+#27 42.53   CC       src/ALAC/ag_enc.lo
+#27 42.62 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 42.65 1 warning generated.
+#27 42.67   CC       src/ALAC/dp_dec.lo
+#27 42.76 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 42.77 1 warning generated.
+#27 42.79   CC       src/ALAC/dp_enc.lo
+#27 42.89 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 42.90 1 warning generated.
+#27 42.92   CC       src/ALAC/matrix_dec.lo
+#27 43.03 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 43.05 1 warning generated.
+#27 43.07   CC       src/ALAC/matrix_enc.lo
+#27 43.19 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 43.20 1 warning generated.
+#27 43.22   CC       src/ALAC/alac_decoder.lo
+#27 43.33 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 43.37 1 warning generated.
+#27 43.39   CC       src/ALAC/alac_encoder.lo
+#27 43.48 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 43.52 1 warning generated.
+#27 43.54   CCLD     src/ALAC/libalac.la
+#27 43.63 
+#27 43.63 *** Warning: Linking the shared library src/ALAC/libalac.la against the
+#27 43.63 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 43.65 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 43.68   CC       src/src_libcommon_la-common.lo
+#27 43.77 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 44.01 1 warning generated.
+#27 44.03   CC       src/src_libcommon_la-file_io.lo
+#27 44.15 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 44.35 1 warning generated.
+#27 44.38   CC       src/src_libcommon_la-command.lo
+#27 44.52 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 44.70 1 warning generated.
+#27 44.73   CC       src/src_libcommon_la-pcm.lo
+#27 44.86 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 45.12 1 warning generated.
+#27 45.15   CC       src/src_libcommon_la-ulaw.lo
+#27 45.25 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 45.45 1 warning generated.
+#27 45.47   CC       src/src_libcommon_la-alaw.lo
+#27 45.59 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 45.78 1 warning generated.
+#27 45.80   CC       src/src_libcommon_la-float32.lo
+#27 45.92 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 46.13 1 warning generated.
+#27 46.15   CC       src/src_libcommon_la-double64.lo
+#27 46.29 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 46.50 1 warning generated.
+#27 46.53   CC       src/src_libcommon_la-ima_adpcm.lo
+#27 46.65 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 46.85 1 warning generated.
+#27 46.87   CC       src/src_libcommon_la-ms_adpcm.lo
+#27 46.99 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 47.19 1 warning generated.
+#27 47.21   CC       src/src_libcommon_la-gsm610.lo
+#27 47.33 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 47.53 1 warning generated.
+#27 47.55   CC       src/src_libcommon_la-dwvw.lo
+#27 47.70 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 47.90 1 warning generated.
+#27 47.92   CC       src/src_libcommon_la-vox_adpcm.lo
+#27 48.02 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 48.22 1 warning generated.
+#27 48.24   CC       src/src_libcommon_la-interleave.lo
+#27 48.36 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 48.54 1 warning generated.
+#27 48.56   CC       src/src_libcommon_la-strings.lo
+#27 48.69 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 48.87 1 warning generated.
+#27 48.90   CC       src/src_libcommon_la-dither.lo
+#27 49.03 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 49.22 1 warning generated.
+#27 49.24   CC       src/src_libcommon_la-cart.lo
+#27 49.34 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 49.52 1 warning generated.
+#27 49.54   CC       src/src_libcommon_la-broadcast.lo
+#27 49.64 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 49.82 1 warning generated.
+#27 49.84   CC       src/src_libcommon_la-audio_detect.lo
+#27 49.97 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 50.15 1 warning generated.
+#27 50.17   CC       src/src_libcommon_la-ima_oki_adpcm.lo
+#27 50.29 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 50.48 1 warning generated.
+#27 50.50   CC       src/src_libcommon_la-alac.lo
+#27 50.62 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 50.83 1 warning generated.
+#27 50.85   CC       src/src_libcommon_la-chunk.lo
+#27 50.95 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 51.14 1 warning generated.
+#27 51.16   CC       src/src_libcommon_la-chanmap.lo
+#27 51.26 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 51.44 1 warning generated.
+#27 51.46   CC       src/src_libcommon_la-windows.lo
+#27 51.58 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 51.59 1 warning generated.
+#27 51.60   CC       src/src_libcommon_la-id3.lo
+#27 51.74 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 51.93 1 warning generated.
+#27 51.95   CC       src/src_libcommon_la-nms_adpcm.lo
+#27 52.09 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 52.30 1 warning generated.
+#27 52.32   CC       src/src_libcommon_la-mpeg_decode.lo
+#27 52.44 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 52.64 1 warning generated.
+#27 52.66   CC       src/src_libcommon_la-mpeg_l3_encode.lo
+#27 52.77 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 52.98 1 warning generated.
+#27 53.00   CCLD     src/libcommon.la
+#27 53.12 
+#27 53.12 *** Warning: Linking the shared library src/libcommon.la against the
+#27 53.12 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 53.15 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 53.18 /usr/bin/python ./src/create_symbols_file.py linux 1.0.32 > ./src/Symbols.gnu-binutils
+#27 53.19 /usr/bin/python ./src/create_symbols_file.py darwin 1.0.32 > ./src/Symbols.darwin
+#27 53.21 /usr/bin/python ./src/create_symbols_file.py win32 1.0.32 > ./src/libsndfile-1.def
+#27 53.22 /usr/bin/python ./src/create_symbols_file.py os2 1.0.32 > ./src/Symbols.os2
+#27 53.23 /usr/bin/python ./src/create_symbols_file.py static 1.0.32 > ./src/Symbols.static
+#27 53.24   CCLD     src/libsndfile.la
+#27 53.45 
+#27 53.45 *** Warning: Linking the shared library src/libsndfile.la against the
+#27 53.45 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 53.59 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 53.66   CXX      ossfuzz/ossfuzz_libstandaloneengine_la-standaloneengine.lo
+#27 53.81 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 53.87 1 warning generated.
+#27 53.89   CXXLD    ossfuzz/libstandaloneengine.la
+#27 54.06 
+#27 54.06 *** Warning: Linking the shared library ossfuzz/libstandaloneengine.la against the
+#27 54.06 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 54.14 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 54.16   CXXLD    ossfuzz/sndfile_fuzzer
+#27 54.71 'ossfuzz/sndfile_fuzzer' -> '/magma_out/afl/sndfile_fuzzer'
+#27 54.82 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 54.82 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 54.88 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 54.88 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 54.90 checking for autogen ... yes
+#27 54.94 checking for autoconf ... yes
+#27 54.98 checking for automake ... yes
+#27 55.04 checking for libtool ... libtoolize
+#27 55.26 checking for pkg-config ... yes
+#27 55.26 checking for python ... yes
+#27 55.26 Generating configuration files for libsndfile, please wait ... 
+#27 55.26   aclocal 
+#27 56.37   libtoolize --automake --force
+#27 56.75   autoheader
+#27 57.17   automake --add-missing 
+#27 57.47 configure.ac:38: installing 'build-aux/compile'
+#27 57.47 configure.ac:33: installing 'build-aux/missing'
+#27 57.54 Makefile.am: installing 'build-aux/depcomp'
+#27 57.67   autoconf
+#27 58.10 checking whether configure should try to set CFLAGS/CXXFLAGS/CPPFLAGS/LDFLAGS... no
+#27 58.11 checking build system type... x86_64-pc-linux-gnu
+#27 58.24 checking host system type... x86_64-pc-linux-gnu
+#27 58.24 checking for a BSD-compatible install... /usr/bin/install -c
+#27 58.25 checking whether build environment is sane... yes
+#27 58.26 checking for a thread-safe mkdir -p... /bin/mkdir -p
+#27 58.27 checking for gawk... no
+#27 58.27 checking for mawk... mawk
+#27 58.27 checking whether make sets $(MAKE)... yes
+#27 58.28 checking whether make supports nested variables... yes
+#27 58.29 checking whether make supports nested variables... (cached) yes
+#27 58.29 checking for gcc... /magma/fuzzers/aflplusplus/repo/afl-clang-fast
+#27 58.48 checking whether the C compiler works... yes
+#27 58.59 checking for C compiler default output file name... a.out
+#27 58.59 checking for suffix of executables... 
+#27 58.68 checking whether we are cross compiling... no
+#27 58.78 checking for suffix of object files... o
+#27 58.85 checking whether we are using the GNU C compiler... yes
+#27 58.92 checking whether /magma/fuzzers/aflplusplus/repo/afl-clang-fast accepts -g... yes
+#27 59.00 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast option to accept ISO C89... none needed
+#27 59.05 checking whether /magma/fuzzers/aflplusplus/repo/afl-clang-fast understands -c and -o together... yes
+#27 59.15 checking for style of include used by make... GNU
+#27 59.15 checking dependency style of /magma/fuzzers/aflplusplus/repo/afl-clang-fast... gcc3
+#27 59.22 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast option to accept ISO C99... none needed
+#27 59.31 checking how to run the C preprocessor... /magma/fuzzers/aflplusplus/repo/afl-clang-fast -E
+#27 59.58 checking for grep that handles long lines and -e... /bin/grep
+#27 59.58 checking for egrep... /bin/grep -E
+#27 59.58 checking for ANSI C header files... yes
+#27 59.88 checking for sys/types.h... yes
+#27 59.96 checking for sys/stat.h... yes
+#27 60.06 checking for stdlib.h... yes
+#27 60.12 checking for string.h... yes
+#27 60.19 checking for memory.h... yes
+#27 60.27 checking for strings.h... yes
+#27 60.38 checking for inttypes.h... yes
+#27 60.46 checking for stdint.h... yes
+#27 60.55 checking for unistd.h... yes
+#27 60.63 checking minix/config.h usability... no
+#27 60.72 checking minix/config.h presence... no
+#27 60.79 checking for minix/config.h... no
+#27 60.79 checking whether it is safe to define __EXTENSIONS__... yes
+#27 61.02 checking whether we are using the GNU C++ compiler... yes
+#27 61.07 checking whether /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ accepts -g... yes
+#27 61.12 checking dependency style of /magma/fuzzers/aflplusplus/repo/afl-clang-fast++... gcc3
+#27 61.19 checking for C compiler vendor... clang
+#27 61.45 checking for a sed that does not truncate output... /bin/sed
+#27 61.45 checking for C compiler version... 9.0.0
+#27 61.81 checking for C++ compiler vendor... clang
+#27 62.08 checking for C++ compiler version... 9.0.0
+#27 62.59 checking for a sed that does not truncate output... (cached) /bin/sed
+#27 62.59 checking the archiver (/usr/bin/ar) interface... ar
+#27 62.65 checking how to print strings... printf
+#27 62.67 checking for a sed that does not truncate output... (cached) /bin/sed
+#27 62.67 checking for fgrep... /bin/grep -F
+#27 62.67 checking for ld used by /magma/fuzzers/aflplusplus/repo/afl-clang-fast... /usr/bin/ld
+#27 62.72 checking if the linker (/usr/bin/ld) is GNU ld... yes
+#27 62.72 checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm
+#27 62.72 checking the name lister (/usr/bin/nm) interface... BSD nm
+#27 62.82 checking whether ln -s works... yes
+#27 62.82 checking the maximum length of command line arguments... 1572864
+#27 62.83 checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+#27 62.83 checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+#27 62.83 checking for /usr/bin/ld option to reload object files... -r
+#27 62.83 checking for objdump... objdump
+#27 62.83 checking how to recognize dependent libraries... pass_all
+#27 62.83 checking for dlltool... no
+#27 62.83 checking how to associate runtime and link libraries... printf %s\n
+#27 62.83 checking for archiver @FILE support... @
+#27 62.93 checking for strip... strip
+#27 62.93 checking for ranlib... /usr/bin/ranlib
+#27 62.93 checking command to parse /usr/bin/nm output from /magma/fuzzers/aflplusplus/repo/afl-clang-fast object... ok
+#27 63.13 checking for sysroot... no
+#27 63.13 checking for a working dd... /bin/dd
+#27 63.13 checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+#27 63.20 checking for mt... no
+#27 63.20 checking if : is a manifest tool... no
+#27 63.21 checking for dlfcn.h... yes
+#27 63.29 checking for objdir... .libs
+#27 63.48 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -fno-rtti -fno-exceptions... yes
+#27 63.55 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast option to produce PIC... -fPIC -DPIC
+#27 63.55 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast PIC flag -fPIC -DPIC works... yes
+#27 63.63 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast static flag -static works... yes
+#27 63.78 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -c -o file.o... yes
+#27 63.85 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -c -o file.o... (cached) yes
+#27 63.85 checking whether the /magma/fuzzers/aflplusplus/repo/afl-clang-fast linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+#27 63.88 checking dynamic linker characteristics... GNU/Linux ld.so
+#27 64.05 checking how to hardcode library paths into programs... immediate
+#27 64.05 checking whether stripping libraries is possible... yes
+#27 64.05 checking if libtool supports shared libraries... yes
+#27 64.05 checking whether to build shared libraries... no
+#27 64.05 checking whether to build static libraries... yes
+#27 64.06 checking how to run the C++ preprocessor... /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ -E
+#27 64.43 checking for ld used by /magma/fuzzers/aflplusplus/repo/afl-clang-fast++... /usr/bin/ld -m elf_x86_64
+#27 64.46 checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+#27 64.48 checking whether the /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+#27 64.72 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ option to produce PIC... -fPIC -DPIC
+#27 64.72 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ PIC flag -fPIC -DPIC works... yes
+#27 64.79 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ static flag -static works... yes
+#27 64.91 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ supports -c -o file.o... yes
+#27 65.01 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ supports -c -o file.o... (cached) yes
+#27 65.01 checking whether the /magma/fuzzers/aflplusplus/repo/afl-clang-fast++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+#27 65.01 checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+#27 65.02 checking how to hardcode library paths into programs... immediate
+#27 65.02 checking for windres... no
+#27 65.09 checking whether ln -s works... yes
+#27 65.10 checking for python... /usr/bin/python
+#27 65.10 checking for python version... 2.7
+#27 65.11 checking for python platform... linux2
+#27 65.11 checking for python script directory... ${prefix}/lib/python2.7/dist-packages
+#27 65.13 checking for python extension module directory... ${exec_prefix}/lib/python2.7/dist-packages
+#27 65.15 checking for autogen... yes
+#27 65.15 checking for wine... no
+#27 65.16 checking for xcode-select... no
+#27 65.16 checking for ANSI C header files... (cached) yes
+#27 65.16 checking endian.h usability... yes
+#27 65.22 checking endian.h presence... yes
+#27 65.26 checking for endian.h... yes
+#27 65.26 checking byteswap.h usability... yes
+#27 65.32 checking byteswap.h presence... yes
+#27 65.36 checking for byteswap.h... yes
+#27 65.36 checking locale.h usability... yes
+#27 65.42 checking locale.h presence... yes
+#27 65.49 checking for locale.h... yes
+#27 65.49 checking sys/time.h usability... yes
+#27 65.55 checking sys/time.h presence... yes
+#27 65.59 checking for sys/time.h... yes
+#27 65.59 checking immintrin.h usability... yes
+#27 65.80 checking immintrin.h presence... yes
+#27 65.87 checking for immintrin.h... yes
+#27 65.87 checking stdbool.h usability... yes
+#27 65.93 checking stdbool.h presence... yes
+#27 65.99 checking for stdbool.h... yes
+#27 65.99 checking for sys/wait.h that is POSIX.1 compatible... yes
+#27 66.05 checking whether S_IRGRP is declared... yes
+#27 66.12 checking size of wchar_t... 4
+#27 66.25 checking size of short... 2
+#27 66.38 checking size of int... 4
+#27 66.49 checking size of long... 8
+#27 66.62 checking size of float... 4
+#27 66.73 checking size of double... 8
+#27 66.86 checking size of void*... 8
+#27 67.00 checking size of size_t... 8
+#27 67.11 checking size of int64_t... 8
+#27 67.22 checking size of long long... 8
+#27 67.33 checking size of off_t... 8
+#27 67.44 checking for ssize_t... yes
+#27 67.58 checking whether byte ordering is bigendian... no
+#27 67.77 checking for malloc... yes
+#27 67.88 checking for calloc... yes
+#27 68.03 checking for realloc... yes
+#27 68.18 checking for free... yes
+#27 68.30 checking for open... yes
+#27 68.43 checking for read... yes
+#27 68.53 checking for write... yes
+#27 68.64 checking for lseek... yes
+#27 68.79 checking for lseek64... yes
+#27 68.91 checking for fstat... yes
+#27 69.05 checking for fstat64... yes
+#27 69.19 checking for ftruncate... yes
+#27 69.29 checking for fsync... yes
+#27 69.39 checking for snprintf... yes
+#27 69.52 checking for vsnprintf... yes
+#27 69.66 checking for gmtime... yes
+#27 69.78 checking for gmtime_r... yes
+#27 69.91 checking for localtime... yes
+#27 70.03 checking for localtime_r... yes
+#27 70.16 checking for gettimeofday... yes
+#27 70.29 checking for mmap... yes
+#27 70.43 checking for getpagesize... yes
+#27 70.57 checking for setlocale... yes
+#27 70.68 checking for pipe... yes
+#27 70.78 checking for waitpid... yes
+#27 70.90 checking for library containing floor... none required
+#27 71.01 checking for floor... yes
+#27 71.12 checking for ceil... yes
+#27 71.27 checking for fmod... yes
+#27 71.40 checking for lrint... yes
+#27 71.54 checking for lrintf... yes
+#27 71.67 checking for octave... no
+#27 71.67 checking for mkoctfile... no
+#27 71.67 checking for octave-config... no
+#27 71.67 checking for pkg-config... /usr/bin/pkg-config
+#27 71.67 checking pkg-config is at least version 0.9.0... yes
+#27 71.67 checking for flac >= 1.3.1 ... yes
+#27 71.78 checking for ogg >= 1.3.0 ... yes
+#27 71.91 checking for vorbis >= 1.2.3 ... yes
+#27 72.04 checking for vorbisenc >= 1.2.3 ... yes
+#27 72.15 checking for opus >= 1.1 ... yes
+#27 72.28 checking lame/lame.h usability... yes
+#27 72.38 checking lame/lame.h presence... yes
+#27 72.43 checking for lame/lame.h... yes
+#27 72.43 checking for library containing lame_set_VBR_q... -lmp3lame
+#27 72.70 checking for libmpg123 >= 1.25.10 ... yes
+#27 72.83 checking for sqlite3 >= 3.2 ... no
+#27 72.96 checking processor clipping capabilities... none
+#27 73.22 checking for ALSA... yes
+#27 73.23 checking alsa/asoundlib.h usability... yes
+#27 73.32 checking alsa/asoundlib.h presence... yes
+#27 73.37 checking for alsa/asoundlib.h... yes
+#27 73.38 checking whether C compiler accepts -Wall... yes
+#27 73.46 checking whether C compiler accepts -Wextra... yes
+#27 73.53 checking whether C compiler accepts -Wpointer-arith... yes
+#27 73.58 checking whether C compiler accepts -Wcast-align... yes
+#27 73.64 checking whether C compiler accepts -Wcast-qual... yes
+#27 73.71 checking whether C compiler accepts -Wshadow... yes
+#27 73.77 checking whether C compiler accepts -Wwrite-strings... yes
+#27 73.84 checking whether C compiler accepts -Wundef... yes
+#27 73.91 checking whether C compiler accepts -Wuninitialized... yes
+#27 73.98 checking whether C compiler accepts -Winit-self... yes
+#27 74.08 checking whether C compiler accepts -Wno-format-truncation... yes
+#27 74.13 checking whether C compiler accepts -Wvla... yes
+#27 74.19 checking whether C compiler accepts -Wbad-function-cast... yes
+#27 74.25 checking whether C compiler accepts -Wnested-externs... yes
+#27 74.35 checking whether C compiler accepts -Wstrict-prototypes... yes
+#27 74.43 checking whether C compiler accepts -Wmissing-prototypes... yes
+#27 74.50 checking whether C compiler accepts -Wmissing-declarations... yes
+#27 74.56 checking whether C compiler accepts -Waggregate-return... yes
+#27 74.65 checking whether C++ compiler accepts -Wall... yes
+#27 74.70 checking whether C++ compiler accepts -Wextra... yes
+#27 74.75 checking whether C++ compiler accepts -Wpointer-arith... yes
+#27 74.81 checking whether C++ compiler accepts -Wcast-align... yes
+#27 74.90 checking whether C++ compiler accepts -Wcast-qual... yes
+#27 74.98 checking whether C++ compiler accepts -Wshadow... yes
+#27 75.03 checking whether C++ compiler accepts -Wwrite-strings... yes
+#27 75.09 checking whether C++ compiler accepts -Wundef... yes
+#27 75.17 checking whether C++ compiler accepts -Wuninitialized... yes
+#27 75.22 checking whether C++ compiler accepts -Winit-self... yes
+#27 75.29 checking whether C++ compiler accepts -Wno-format-truncation... yes
+#27 75.35 checking whether C++ compiler accepts -Wctor-dtor-privacy... yes
+#27 75.41 checking whether C++ compiler accepts -Wnon-virtual-dtor... yes
+#27 75.49 checking whether C++ compiler accepts -Woverloaded-virtual... yes
+#27 75.55 checking whether C++ compiler accepts -Wreorder... yes
+#27 75.65 checking whether C++ compiler accepts -Wsign-promo... yes
+#27 75.71 checking whether C compiler accepts -Werror... no
+#27 75.76 checking whether to add -D_FORTIFY_SOURCE=2 to CPPFLAGS... yes
+#27 75.99 checking that generated files are newer than configure... done
+#27 75.99 configure: creating ./config.status
+#27 77.03 config.status: creating Makefile
+#27 77.04 config.status: creating Octave/Makefile
+#27 77.06 config.status: creating src/version-metadata.rc
+#27 77.08 config.status: creating include/sndfile.h
+#27 77.10 config.status: creating tests/test_wrapper.sh
+#27 77.12 config.status: creating tests/pedantic-header-test.sh
+#27 77.14 config.status: creating libsndfile.spec
+#27 77.15 config.status: creating sndfile.pc
+#27 77.17 config.status: creating Scripts/build-test-tarball.mk
+#27 77.19 config.status: creating src/config.h
+#27 77.21 config.status: executing depfiles commands
+#27 77.27 config.status: executing libtool commands
+#27 77.30 
+#27 77.30 -=-=-=-=-=-=-=-=-=-= Configuration Complete =-=-=-=-=-=-=-=-=-=-=-
+#27 77.30 
+#27 77.30   Configuration summary :
+#27 77.30 
+#27 77.30     libsndfile version : .................. 1.1.0beta1
+#27 77.30 
+#27 77.30     Host CPU : ............................ x86_64
+#27 77.30     Host Vendor : ......................... pc
+#27 77.30     Host OS : ............................. linux-gnu
+#27 77.30 
+#27 77.30     CFLAGS : .............................. -include /magma/magma/src/canary.h   -DMAGMA_FATAL_CANARIES  -g -O0 -Wall -Wextra -Wpointer-arith -Wcast-align -Wcast-qual -Wshadow -Wwrite-strings -Wundef -Wuninitialized -Winit-self -Wno-format-truncation -Wvla -Wbad-function-cast -Wnested-externs -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Waggregate-return 
+#27 77.30     CXXFLAGS : ............................ -include /magma/magma/src/canary.h   -DMAGMA_FATAL_CANARIES  -g -O0 -stdlib=libc++ -Wall -Wextra -Wpointer-arith -Wcast-align -Wcast-qual -Wshadow -Wwrite-strings -Wundef -Wuninitialized -Winit-self -Wno-format-truncation -Wctor-dtor-privacy -Wnon-virtual-dtor -Woverloaded-virtual -Wreorder -Wsign-promo
+#27 77.30     CPPFLAGS : ............................  -D_FORTIFY_SOURCE=2
+#27 77.30     LDFLAGS : ............................. -L/magma_out -g -L/magma_out/cmplog
+#27 77.30 
+#27 77.30     Experimental code : ................... no
+#27 77.30     Using ALSA in example programs : ...... auto
+#27 77.30     External FLAC/Ogg/Vorbis/Opus : ....... yes
+#27 77.30     External MPEG Lame/MPG123 : ........... yes
+#27 77.30     Building Octave interface : ........... no
+#27 77.30 
+#27 77.30   Tools :
+#27 77.30 
+#27 77.30     C Compiler Vendor is : ................ clang (9.0.0)
+#27 77.30     CXX Compiler Vendor is : .............. clang (9.0.0)
+#27 77.30 
+#27 77.30     Sanitizer enabled : ................... no
+#27 77.30     Stack smash protection : .............. no
+#27 77.30 
+#27 77.30   Installation directories :
+#27 77.30 
+#27 77.30     Library directory : ................... /usr/local/lib
+#27 77.30     Program directory : ................... /usr/local/bin
+#27 77.30     Pkgconfig directory : ................. /usr/local/lib/pkgconfig
+#27 77.30     HTML docs directory : ................. /usr/local/share/doc/libsndfile
+#27 77.30 
+#27 77.30 Compiling some other packages against libsndfile may require
+#27 77.30 the addition of '/usr/local/lib/pkgconfig' to the
+#27 77.30 PKG_CONFIG_PATH environment variable.
+#27 77.30 
+#27 77.41 make[1]: Entering directory '/magma/targets/libsndfile_13/repo'
+#27 77.41 test -z "programs/*.wav octave-workspace" || rm -f programs/*.wav octave-workspace
+#27 77.41 test -z "src/libsndfile.la" || rm -f src/libsndfile.la
+#27 77.41 rm -rf .libs _libs
+#27 77.41 test -z "src/libcommon.la src/GSM610/libgsm.la src/G72x/libg72x.la src/ALAC/libalac.la ossfuzz/libstandaloneengine.la" || rm -f src/libcommon.la src/GSM610/libgsm.la src/G72x/libg72x.la src/ALAC/libalac.la ossfuzz/libstandaloneengine.la
+#27 77.41 rm -f *.o
+#27 77.41 rm -f *.lo
+#27 77.41  rm -f programs/sndfile-info programs/sndfile-play programs/sndfile-convert programs/sndfile-cmp programs/sndfile-metadata-set programs/sndfile-metadata-get programs/sndfile-interleave programs/sndfile-deinterleave programs/sndfile-concat programs/sndfile-salvage
+#27 77.41  rm -f src/test_main src/G72x/g72x_test examples/make_sine examples/sfprocess examples/list_formats examples/generate examples/sndfilehandle examples/sndfile-to-text examples/sndfile-loopify tests/sfversion tests/floating_point_test tests/write_read_test tests/lossy_comp_test tests/error_test tests/ulaw_test tests/alaw_test tests/dwvw_test tests/peak_chunk_test tests/command_test tests/stdio_test tests/pcm_test tests/headerless_test tests/pipe_test tests/header_test tests/misc_test tests/raw_test tests/string_test tests/multi_file_test tests/chunk_test tests/scale_clip_test tests/win32_test tests/aiff_rw_test tests/virtual_io_test tests/locale_test tests/win32_ordinal_test tests/ogg_test tests/compression_size_test tests/checksum_test tests/external_libs_test tests/rdwr_test tests/format_check_test tests/cpp_test tests/channel_test tests/long_read_write_test tests/stdin_test tests/stdout_test tests/dither_test tests/fix_this tests/largefile_test tests/benchmark tests/ogg_opus_test tests/mpeg_test programs/sndfile-metadata-set programs/sndfile-metadata-get
+#27 77.41  rm -f ossfuzz/sndfile_fuzzer
+#27 77.42 rm -f examples/*.o
+#27 77.42 rm -rf examples/.libs examples/_libs
+#27 77.42 rm -f ossfuzz/*.o
+#27 77.42 rm -f src/so_locations
+#27 77.42 rm -rf ossfuzz/.libs ossfuzz/_libs
+#27 77.42 rm -f ossfuzz/*.lo
+#27 77.42 rm -f ossfuzz/so_locations src/ALAC/so_locations src/G72x/so_locations src/GSM610/so_locations src/so_locations
+#27 77.42 rm -rf programs/.libs programs/_libs
+#27 77.42 rm -f programs/*.o
+#27 77.42 rm -rf regtest/.libs regtest/_libs
+#27 77.43 rm -f regtest/*.o
+#27 77.43 rm -rf src/.libs src/_libs
+#27 77.43 rm -f src/*.o
+#27 77.43 rm -rf src/ALAC/.libs src/ALAC/_libs
+#27 77.43 rm -rf src/G72x/.libs src/G72x/_libs
+#27 77.43 rm -f src/*.lo
+#27 77.44 rm -rf src/GSM610/.libs src/GSM610/_libs
+#27 77.44 rm -rf tests/.libs tests/_libs
+#27 77.44 rm -f src/ALAC/*.o
+#27 77.44 rm -f src/ALAC/*.lo
+#27 77.45 rm -f src/G72x/*.o
+#27 77.45 rm -f src/G72x/*.lo
+#27 77.45 rm -f src/GSM610/*.o
+#27 77.45 rm -f src/GSM610/*.lo
+#27 77.46 rm -f tests/*.o
+#27 77.46 make[1]: Leaving directory '/magma/targets/libsndfile_13/repo'
+#27 77.50   CXX      ossfuzz/ossfuzz_sndfile_fuzzer-sndfile_fuzzer.o
+#27 77.57 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 77.63 ossfuzz/sndfile_fuzzer.cc:40:5: warning: variable 'new_offset' is used uninitialized whenever switch default is taken [-Wsometimes-uninitialized]
+#27 77.63     default:
+#27 77.63     ^~~~~~~
+#27 77.63 ossfuzz/sndfile_fuzzer.cc:45:7: note: uninitialized use occurs here
+#27 77.63   if (new_offset > vf->length)
+#27 77.63       ^~~~~~~~~~
+#27 77.63 ossfuzz/sndfile_fuzzer.cc:24:24: note: initialize the variable 'new_offset' to silence this warning
+#27 77.63   sf_count_t new_offset;
+#27 77.63                        ^
+#27 77.63                         = 0
+#27 77.63 Hooking 1 switch instructions
+#27 77.64 2 warnings generated.
+#27 77.64 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 77.64 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 77.65 (CDPATH="${ZSH_VERSION+.}:" && cd . && echo)
+#27 77.65 
+#27 77.65 rm -f src/stamp-h1
+#27 77.65 touch src/config.h.in
+#27 77.66 cd . && /bin/bash ./config.status src/config.h
+#27 77.95 config.status: creating src/config.h
+#27 77.96 config.status: src/config.h is unchanged
+#27 77.98   CC       src/src_libsndfile_la-sndfile.lo
+#27 78.10 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 78.32 Hooking 12 switch instructions
+#27 78.38 1 warning generated.
+#27 78.38 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 78.38 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 78.40   CC       src/src_libsndfile_la-aiff.lo
+#27 78.52 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 78.71 Hooking 11 switch instructions
+#27 78.75 1 warning generated.
+#27 78.75 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 78.75 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 78.77   CC       src/src_libsndfile_la-au.lo
+#27 78.89 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 79.08 Hooking 3 switch instructions
+#27 79.09 1 warning generated.
+#27 79.09 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 79.09 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 79.10   CC       src/src_libsndfile_la-avr.lo
+#27 79.23 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 79.41 Hooking 1 switch instructions
+#27 79.42 1 warning generated.
+#27 79.42 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 79.42 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 79.44   CC       src/src_libsndfile_la-caf.lo
+#27 79.52 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 79.71 Hooking 6 switch instructions
+#27 79.73 1 warning generated.
+#27 79.73 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 79.73 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 79.75   CC       src/src_libsndfile_la-dwd.lo
+#27 79.84 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 80.02 1 warning generated.
+#27 80.02 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 80.02 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 80.04   CC       src/src_libsndfile_la-flac.lo
+#27 80.15 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 80.35 Hooking 11 switch instructions
+#27 80.38 1 warning generated.
+#27 80.38 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 80.38 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 80.40   CC       src/src_libsndfile_la-g72x.lo
+#27 80.53 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 80.71 Hooking 1 switch instructions
+#27 80.72 1 warning generated.
+#27 80.72 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 80.72 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 80.74   CC       src/src_libsndfile_la-htk.lo
+#27 80.87 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 81.05 1 warning generated.
+#27 81.05 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 81.05 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 81.07   CC       src/src_libsndfile_la-ircam.lo
+#27 81.17 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 81.36 Hooking 5 switch instructions
+#27 81.36 1 warning generated.
+#27 81.36 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 81.36 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 81.38   CC       src/src_libsndfile_la-macos.lo
+#27 81.49 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 81.67 1 warning generated.
+#27 81.67 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 81.67 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 81.69   CC       src/src_libsndfile_la-mat4.lo
+#27 81.78 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 81.96 Hooking 4 switch instructions
+#27 81.96 1 warning generated.
+#27 81.96 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 81.96 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 81.98   CC       src/src_libsndfile_la-mat5.lo
+#27 82.11 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 82.29 Hooking 4 switch instructions
+#27 82.30 1 warning generated.
+#27 82.30 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 82.30 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 82.32   CC       src/src_libsndfile_la-nist.lo
+#27 82.43 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 82.61 Hooking 4 switch instructions
+#27 82.62 1 warning generated.
+#27 82.62 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 82.62 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 82.63   CC       src/src_libsndfile_la-paf.lo
+#27 82.72 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 82.90 Hooking 5 switch instructions
+#27 82.92 1 warning generated.
+#27 82.92 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 82.92 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 82.94   CC       src/src_libsndfile_la-pvf.lo
+#27 83.03 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 83.21 Hooking 2 switch instructions
+#27 83.21 1 warning generated.
+#27 83.21 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 83.21 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 83.23   CC       src/src_libsndfile_la-raw.lo
+#27 83.34 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 83.52 Hooking 1 switch instructions
+#27 83.52 1 warning generated.
+#27 83.52 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 83.52 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 83.54   CC       src/src_libsndfile_la-rx2.lo
+#27 83.63 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 83.81 1 warning generated.
+#27 83.81 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 83.81 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 83.83   CC       src/src_libsndfile_la-sd2.lo
+#27 83.93 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 84.12 Hooking 2 switch instructions
+#27 84.13 1 warning generated.
+#27 84.13 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 84.13 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 84.15   CC       src/src_libsndfile_la-sds.lo
+#27 84.25 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 84.44 Hooking 3 switch instructions
+#27 84.46 1 warning generated.
+#27 84.46 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 84.46 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 84.48   CC       src/src_libsndfile_la-svx.lo
+#27 84.61 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 84.79 Hooking 2 switch instructions
+#27 84.80 1 warning generated.
+#27 84.80 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 84.80 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 84.82   CC       src/src_libsndfile_la-txw.lo
+#27 84.92 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 85.10 1 warning generated.
+#27 85.10 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 85.10 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 85.12   CC       src/src_libsndfile_la-voc.lo
+#27 85.23 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 85.41 Hooking 5 switch instructions
+#27 85.42 1 warning generated.
+#27 85.42 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 85.42 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 85.44   CC       src/src_libsndfile_la-wve.lo
+#27 85.52 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 85.71 1 warning generated.
+#27 85.71 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 85.71 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 85.73   CC       src/src_libsndfile_la-w64.lo
+#27 85.83 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 86.02 Hooking 4 switch instructions
+#27 86.03 1 warning generated.
+#27 86.03 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 86.03 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 86.05   CC       src/src_libsndfile_la-wavlike.lo
+#27 86.15 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 86.35 Hooking 9 switch instructions
+#27 86.37 1 warning generated.
+#27 86.37 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 86.37 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 86.39   CC       src/src_libsndfile_la-wav.lo
+#27 86.48 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 86.67 Hooking 11 switch instructions
+#27 86.70 1 warning generated.
+#27 86.70 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 86.70 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 86.72   CC       src/src_libsndfile_la-xi.lo
+#27 86.85 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 87.04 Hooking 3 switch instructions
+#27 87.06 1 warning generated.
+#27 87.06 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 87.06 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 87.08   CC       src/src_libsndfile_la-mpc2k.lo
+#27 87.17 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 87.36 1 warning generated.
+#27 87.36 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 87.36 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 87.38   CC       src/src_libsndfile_la-rf64.lo
+#27 87.48 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 87.67 Hooking 8 switch instructions
+#27 87.69 1 warning generated.
+#27 87.69 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 87.69 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 87.71   CC       src/src_libsndfile_la-ogg.lo
+#27 87.81 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 88.00 Hooking 2 switch instructions
+#27 88.02 1 warning generated.
+#27 88.02 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 88.02 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 88.04   CC       src/src_libsndfile_la-ogg_vorbis.lo
+#27 88.15 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 88.34 Hooking 1 switch instructions
+#27 88.36 1 warning generated.
+#27 88.36 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 88.36 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 88.38   CC       src/src_libsndfile_la-ogg_speex.lo
+#27 88.49 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 88.67 1 warning generated.
+#27 88.67 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 88.67 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 88.69   CC       src/src_libsndfile_la-ogg_pcm.lo
+#27 88.80 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 88.98 1 warning generated.
+#27 88.98 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 88.98 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 89.00   CC       src/src_libsndfile_la-ogg_opus.lo
+#27 89.13 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 89.33 Hooking 3 switch instructions
+#27 89.36 1 warning generated.
+#27 89.36 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 89.36 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 89.38   CC       src/src_libsndfile_la-ogg_vcomment.lo
+#27 89.49 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 89.67 1 warning generated.
+#27 89.67 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 89.67 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 89.69   CC       src/src_libsndfile_la-mpeg.lo
+#27 89.81 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 89.99 Hooking 2 switch instructions
+#27 89.99 1 warning generated.
+#27 89.99 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 89.99 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 90.01   CC       src/GSM610/add.lo
+#27 90.09 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 90.11 1 warning generated.
+#27 90.11 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 90.11 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 90.13   CC       src/GSM610/code.lo
+#27 90.23 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 90.25 1 warning generated.
+#27 90.25 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 90.25 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 90.26   CC       src/GSM610/decode.lo
+#27 90.37 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 90.38 1 warning generated.
+#27 90.38 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 90.38 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 90.39   CC       src/GSM610/gsm_create.lo
+#27 90.49 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 90.51 1 warning generated.
+#27 90.51 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 90.51 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 90.52   CC       src/GSM610/gsm_decode.lo
+#27 90.63 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 90.65 1 warning generated.
+#27 90.65 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 90.65 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 90.66   CC       src/GSM610/gsm_destroy.lo
+#27 90.75 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 90.76 1 warning generated.
+#27 90.76 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 90.76 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 90.77   CC       src/GSM610/gsm_encode.lo
+#27 90.90 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 90.92 1 warning generated.
+#27 90.92 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 90.92 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 90.94   CC       src/GSM610/gsm_option.lo
+#27 91.04 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 91.05 Hooking 1 switch instructions
+#27 91.05 1 warning generated.
+#27 91.05 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 91.05 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 91.07   CC       src/GSM610/long_term.lo
+#27 91.17 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 91.19 Hooking 1 switch instructions
+#27 91.21 1 warning generated.
+#27 91.21 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 91.21 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 91.23   CC       src/GSM610/lpc.lo
+#27 91.31 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 91.33 Hooking 1 switch instructions
+#27 91.34 1 warning generated.
+#27 91.34 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 91.34 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 91.35   CC       src/GSM610/preprocess.lo
+#27 91.46 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 91.47 1 warning generated.
+#27 91.47 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 91.47 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 91.49   CC       src/GSM610/rpe.lo
+#27 91.57 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 91.58 Hooking 1 switch instructions
+#27 91.59 1 warning generated.
+#27 91.59 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 91.59 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 91.61   CC       src/GSM610/short_term.lo
+#27 91.72 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 91.74 1 warning generated.
+#27 91.74 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 91.74 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 91.75   CC       src/GSM610/table.lo
+#27 91.85 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 91.86 1 warning generated.
+#27 91.86 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 91.86 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 91.87   CCLD     src/GSM610/libgsm.la
+#27 91.97 
+#27 91.97 *** Warning: Linking the shared library src/GSM610/libgsm.la against the
+#27 91.97 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 91.99 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 92.02   CC       src/G72x/g721.lo
+#27 92.14 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 92.15 1 warning generated.
+#27 92.15 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 92.15 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 92.16   CC       src/G72x/g723_16.lo
+#27 92.25 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 92.26 1 warning generated.
+#27 92.26 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 92.26 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 92.27   CC       src/G72x/g723_24.lo
+#27 92.36 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 92.36 1 warning generated.
+#27 92.36 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 92.36 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 92.38   CC       src/G72x/g723_40.lo
+#27 92.46 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 92.47 1 warning generated.
+#27 92.47 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 92.47 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 92.49   CC       src/G72x/g72x.lo
+#27 92.59 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 92.61 Hooking 2 switch instructions
+#27 92.62 1 warning generated.
+#27 92.62 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 92.62 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 92.63   CCLD     src/G72x/libg72x.la
+#27 92.72 
+#27 92.72 *** Warning: Linking the shared library src/G72x/libg72x.la against the
+#27 92.72 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 92.74 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 92.76   CC       src/ALAC/ALACBitUtilities.lo
+#27 92.89 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 92.90 1 warning generated.
+#27 92.90 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 92.90 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 92.92   CC       src/ALAC/ag_dec.lo
+#27 93.05 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 93.07 1 warning generated.
+#27 93.07 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 93.07 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 93.09   CC       src/ALAC/ag_enc.lo
+#27 93.19 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 93.22 1 warning generated.
+#27 93.22 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 93.22 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 93.24   CC       src/ALAC/dp_dec.lo
+#27 93.32 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 93.34 1 warning generated.
+#27 93.34 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 93.34 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 93.35   CC       src/ALAC/dp_enc.lo
+#27 93.46 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 93.48 1 warning generated.
+#27 93.48 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 93.48 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 93.49   CC       src/ALAC/matrix_dec.lo
+#27 93.60 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 93.61 1 warning generated.
+#27 93.61 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 93.61 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 93.63   CC       src/ALAC/matrix_enc.lo
+#27 93.71 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 93.73 1 warning generated.
+#27 93.73 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 93.73 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 93.74   CC       src/ALAC/alac_decoder.lo
+#27 93.85 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 93.87 Hooking 3 switch instructions
+#27 93.88 1 warning generated.
+#27 93.88 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 93.88 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 93.89   CC       src/ALAC/alac_encoder.lo
+#27 94.00 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 94.03 Hooking 8 switch instructions
+#27 94.05 1 warning generated.
+#27 94.05 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 94.05 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 94.06   CCLD     src/ALAC/libalac.la
+#27 94.15 
+#27 94.15 *** Warning: Linking the shared library src/ALAC/libalac.la against the
+#27 94.15 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 94.17 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 94.20   CC       src/src_libcommon_la-common.lo
+#27 94.31 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 94.50 Hooking 10 switch instructions
+#27 94.55 1 warning generated.
+#27 94.55 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 94.55 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 94.57   CC       src/src_libcommon_la-file_io.lo
+#27 94.65 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 94.84 Hooking 4 switch instructions
+#27 94.85 1 warning generated.
+#27 94.85 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 94.85 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 94.87   CC       src/src_libcommon_la-command.lo
+#27 94.97 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 95.16 1 warning generated.
+#27 95.16 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 95.16 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 95.18   CC       src/src_libcommon_la-pcm.lo
+#27 95.28 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 95.50 Hooking 2 switch instructions
+#27 95.56 1 warning generated.
+#27 95.56 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 95.56 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 95.58   CC       src/src_libcommon_la-ulaw.lo
+#27 95.70 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 95.90 1 warning generated.
+#27 95.90 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 95.90 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 95.92   CC       src/src_libcommon_la-alaw.lo
+#27 96.03 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 96.23 1 warning generated.
+#27 96.23 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 96.23 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 96.24   CC       src/src_libcommon_la-float32.lo
+#27 96.35 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 96.54 Hooking 2 switch instructions
+#27 96.56 1 warning generated.
+#27 96.57 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 96.57 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 96.59   CC       src/src_libcommon_la-double64.lo
+#27 96.71 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 96.90 Hooking 2 switch instructions
+#27 96.92 1 warning generated.
+#27 96.92 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 96.92 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 96.94   CC       src/src_libcommon_la-ima_adpcm.lo
+#27 97.07 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 97.26 Hooking 3 switch instructions
+#27 97.28 1 warning generated.
+#27 97.28 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 97.28 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 97.30   CC       src/src_libcommon_la-ms_adpcm.lo
+#27 97.41 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 97.61 1 warning generated.
+#27 97.61 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 97.61 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 97.63   CC       src/src_libcommon_la-gsm610.lo
+#27 97.71 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 97.90 Hooking 1 switch instructions
+#27 97.91 1 warning generated.
+#27 97.91 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 97.91 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 97.93   CC       src/src_libcommon_la-dwvw.lo
+#27 98.03 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 98.23 1 warning generated.
+#27 98.23 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 98.23 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 98.25   CC       src/src_libcommon_la-vox_adpcm.lo
+#27 98.36 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 98.55 1 warning generated.
+#27 98.55 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 98.55 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 98.57   CC       src/src_libcommon_la-interleave.lo
+#27 98.67 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 98.86 1 warning generated.
+#27 98.86 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 98.86 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 98.88   CC       src/src_libcommon_la-strings.lo
+#27 98.96 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 99.14 Hooking 1 switch instructions
+#27 99.15 1 warning generated.
+#27 99.15 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 99.15 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 99.16   CC       src/src_libcommon_la-dither.lo
+#27 99.29 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 99.48 Hooking 6 switch instructions
+#27 99.48 1 warning generated.
+#27 99.49 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 99.49 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 99.50   CC       src/src_libcommon_la-cart.lo
+#27 99.61 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 99.79 1 warning generated.
+#27 99.79 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 99.79 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 99.81   CC       src/src_libcommon_la-broadcast.lo
+#27 99.89 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 100.1 Hooking 2 switch instructions
+#27 100.1 1 warning generated.
+#27 100.1 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 100.1 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 100.1   CC       src/src_libcommon_la-audio_detect.lo
+#27 100.2 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 100.4 1 warning generated.
+#27 100.4 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 100.4 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 100.4   CC       src/src_libcommon_la-ima_oki_adpcm.lo
+#27 100.5 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 100.7 1 warning generated.
+#27 100.7 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 100.7 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 100.7   CC       src/src_libcommon_la-alac.lo
+#27 100.8 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 101.0 Hooking 5 switch instructions
+#27 101.0 1 warning generated.
+#27 101.0 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 101.0 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 101.1   CC       src/src_libcommon_la-chunk.lo
+#27 101.2 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 101.4 1 warning generated.
+#27 101.4 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 101.4 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 101.4   CC       src/src_libcommon_la-chanmap.lo
+#27 101.5 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 101.6 1 warning generated.
+#27 101.6 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 101.6 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 101.7   CC       src/src_libcommon_la-windows.lo
+#27 101.7 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 101.7 1 warning generated.
+#27 101.7 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 101.7 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 101.8   CC       src/src_libcommon_la-id3.lo
+#27 101.9 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 102.1 1 warning generated.
+#27 102.1 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 102.1 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 102.1   CC       src/src_libcommon_la-nms_adpcm.lo
+#27 102.2 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 102.4 Hooking 3 switch instructions
+#27 102.4 1 warning generated.
+#27 102.4 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 102.4 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 102.4   CC       src/src_libcommon_la-mpeg_decode.lo
+#27 102.5 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 102.7 Hooking 4 switch instructions
+#27 102.7 1 warning generated.
+#27 102.7 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 102.7 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 102.8   CC       src/src_libcommon_la-mpeg_l3_encode.lo
+#27 102.9 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 103.0 Hooking 5 switch instructions
+#27 103.1 1 warning generated.
+#27 103.1 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 103.1 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 103.1   CCLD     src/libcommon.la
+#27 103.2 
+#27 103.2 *** Warning: Linking the shared library src/libcommon.la against the
+#27 103.2 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 103.2 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 103.3   CCLD     src/libsndfile.la
+#27 103.5 
+#27 103.5 *** Warning: Linking the shared library src/libsndfile.la against the
+#27 103.5 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 103.6 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 103.7   CXX      ossfuzz/ossfuzz_libstandaloneengine_la-standaloneengine.lo
+#27 103.8 warning: unknown warning option '-Wno-format-truncation' [-Wunknown-warning-option]
+#27 103.9 1 warning generated.
+#27 103.9 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 103.9 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 103.9   CXXLD    ossfuzz/libstandaloneengine.la
+#27 104.1 
+#27 104.1 *** Warning: Linking the shared library ossfuzz/libstandaloneengine.la against the
+#27 104.1 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 104.2 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 104.2   CXXLD    ossfuzz/sndfile_fuzzer
+#27 104.6 'ossfuzz/sndfile_fuzzer' -> '/magma_out/cmplog/sndfile_fuzzer'
+#27 DONE 104.7s
+
+#28 exporting to image
+#28 exporting layers 0.1s done
+#28 writing image sha256:9376892be95ccabe68ce167746375be2d02f384c2096ce89637750328839fd20 done
+#28 naming to docker.io/magma/aflplusplus/libsndfile_13 done
+#28 DONE 0.1s
++ set +x
+magma/aflplusplus/libsndfile_13

@@ -1,0 +1,9 @@
+<!DOCTYPE äoc [
+<!ELEMENT doc (isid*)>TY>
+<!ATTLIST isid myid ID #IMPLIED>
+]>
+<doc>
+<isid myid="dup"/>
+<isid myid="foo"/>
+<isgd myit="bar"/>
+</doc>

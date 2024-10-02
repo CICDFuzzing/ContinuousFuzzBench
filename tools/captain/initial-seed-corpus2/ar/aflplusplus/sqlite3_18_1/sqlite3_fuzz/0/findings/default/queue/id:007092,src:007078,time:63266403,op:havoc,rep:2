@@ -1,7 +1,0 @@
-        BEGIN;
-        SAVEPOINT one;
-          PRAGMA incremental_vacuum = 100;
-      
-          PRAGMA incremental_vacuum = 100;
-          SAVEPOINT two;
-   rgivenegs f{E+T$Sum(777777<777777

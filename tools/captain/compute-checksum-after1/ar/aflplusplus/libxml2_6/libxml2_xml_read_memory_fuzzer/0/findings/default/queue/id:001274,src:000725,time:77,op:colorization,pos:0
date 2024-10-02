@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (isid*)>
+<!AICXFJN	tmxf	CUVLQ:;!ATTLIST isid myid ID #IMPLIED>
+]>
+<doc>
+<isid myid="dup"/>
+<isid myid="foo"/>
+<isid myid="bar"/>
+</doc>

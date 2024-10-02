@@ -1,0 +1,96 @@
+++ id -u huicongh
+++ id -g huicongh
++ docker build -t magma/aflplusplus/libpng_4 --build-arg fuzzer_name=aflplusplus --build-arg target_name=libpng_4 --build-arg USER_ID=1002 --build-arg GROUP_ID=1002 --build-arg fixes=1 --build-arg isan=1 -f /home/huicongh/thesis/ContinuousFuzzBench/docker/Dockerfile /home/huicongh/thesis/ContinuousFuzzBench
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2.67kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:18.04
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 47B done
+#3 DONE 0.0s
+
+#4 [ 1/23] FROM docker.io/library/ubuntu:18.04@sha256:152dc042452c496007f07ca9127571cb9c29697f42acbfad72324b2bb2e43c98
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 14.77kB done
+#5 DONE 0.0s
+
+#6 [15/23] RUN /magma/fuzzers/aflplusplus/preinstall.sh
+#6 CACHED
+
+#7 [16/23] RUN /magma/fuzzers/aflplusplus/fetch.sh
+#7 CACHED
+
+#8 [17/23] RUN /magma/fuzzers/aflplusplus/build.sh
+#8 CACHED
+
+#9 [20/23] RUN /magma/targets/libpng_4/preinstall.sh
+#9 CACHED
+
+#10 [ 5/23] RUN mkdir -p /magma_shared /magma_out && 	chown magma:magma /magma_shared /magma_out && 	chmod 744 /magma_shared /magma_out
+#10 CACHED
+
+#11 [ 9/23] RUN mkdir -p /magma/magma && chown magma:magma /magma/magma
+#11 CACHED
+
+#12 [ 7/23] RUN chown magma:magma /usr/local/
+#12 CACHED
+
+#13 [ 4/23] RUN	ECHO "magma:amgam" | chpasswd && usermod -a -G sudo magma
+#13 CACHED
+
+#14 [ 6/23] RUN chown magma:magma /usr/include/
+#14 CACHED
+
+#15 [ 8/23] RUN mkdir -p /usr/lib/bfd-plugins/ && 	chown magma:magma /usr/lib/bfd-plugins/
+#15 CACHED
+
+#16 [ 2/23] RUN apt-get update && apt-get install -y sudo vim
+#16 CACHED
+
+#17 [14/23] COPY --chown=magma:magma .//fuzzers/aflplusplus /magma/fuzzers/aflplusplus/
+#17 CACHED
+
+#18 [22/23] RUN /magma/magma/apply_patches.sh
+#18 CACHED
+
+#19 [11/23] RUN /magma/magma/preinstall.sh
+#19 CACHED
+
+#20 [21/23] RUN /magma/targets/libpng_4/fetch.sh
+#20 CACHED
+
+#21 [18/23] RUN mkdir -p /magma/targets/libpng_4 && chown magma:magma /magma/targets/libpng_4
+#21 CACHED
+
+#22 [10/23] COPY --chown=magma:magma .//magma /magma/magma/
+#22 CACHED
+
+#23 [12/23] RUN /magma/magma/prebuild.sh
+#23 CACHED
+
+#24 [13/23] RUN mkdir -p /magma/fuzzers/aflplusplus && chown magma:magma /magma/fuzzers/aflplusplus
+#24 CACHED
+
+#25 [ 3/23] RUN mkdir -p /home && 	groupadd -g 1002 magma && 	useradd -l -u 1002 -K UMASK=0000 -d /home -g magma magma && 	chown magma:magma /home
+#25 CACHED
+
+#26 [19/23] COPY --chown=magma:magma .//targets/libpng_4 /magma/targets/libpng_4/
+#26 CACHED
+
+#27 [23/23] RUN /magma/fuzzers/aflplusplus/instrument.sh
+#27 CACHED
+
+#28 exporting to image
+#28 exporting layers done
+#28 writing image sha256:cc3d75398d227e183ba0c8c6fdaaa8912ffd3c7f08371ff995a89c21d337464c done
+#28 naming to docker.io/magma/aflplusplus/libpng_4 done
+#28 DONE 0.0s
++ set +x
+magma/aflplusplus/libpng_4

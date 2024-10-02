@@ -1,5 +1,0 @@
-  SELECT count(CASE WHEN x='a' THEN 1 
-=          cout(CASE WHEN x='a' THEN 1 
-=          count(CASE WHEN x' THEN 1 N x' THEN 1 END)
-      FROM t1;
- 2}

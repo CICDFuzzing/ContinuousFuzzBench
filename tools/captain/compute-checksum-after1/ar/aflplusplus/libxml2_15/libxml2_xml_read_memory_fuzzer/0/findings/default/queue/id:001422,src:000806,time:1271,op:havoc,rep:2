@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<EXAMPLE><?xml version="1.0"?>
+<
+    This is an inverted excl<?xml version="1amation sign &#xA1;
+    This is a space &#32; 
+</EXAMPLE>

@@ -1,0 +1,7 @@
+<!DOCTYPE doc[
+<!ELEMENT toc (isid*)>
+<!ELEMENT isid E*PTY>
+<!%TTLIST isid m^id ID #IMPLIED>
+]>
+<doY>
+id id myid="bar"/></doc>

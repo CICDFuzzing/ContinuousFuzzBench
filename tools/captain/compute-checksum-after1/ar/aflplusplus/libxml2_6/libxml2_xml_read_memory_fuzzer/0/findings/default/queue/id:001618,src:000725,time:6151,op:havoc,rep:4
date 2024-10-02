@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (isid*)>
+<ENT isid EMPTY>
+<!ATTLIST isid myid ID #IMPLI8doc>
+<isid mymd="dup"/>
+<isid myid="foo"/>
+<isid myid="bar"/>
+</doc>

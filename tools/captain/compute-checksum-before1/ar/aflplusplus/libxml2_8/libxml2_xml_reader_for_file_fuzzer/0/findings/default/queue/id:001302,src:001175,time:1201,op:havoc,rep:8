@@ -1,0 +1,7 @@
+<!DOCTYPE dÿÿÿ
+<!ELEMENT doc ((a | b)( , c+, a, b, c, a?>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDAGA)>
+<!ELEMENT c (#PCDTA)>
+]>
+<doc><P/><b/><a/><c/><c/

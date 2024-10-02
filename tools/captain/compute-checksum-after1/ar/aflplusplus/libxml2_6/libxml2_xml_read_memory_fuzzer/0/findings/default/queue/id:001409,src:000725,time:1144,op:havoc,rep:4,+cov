@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (PTY?
+<!ATTLIST isid myid ID #IMPLIED>
+]>
+<dog>
+<i\id myid="dup"/>
+<isid myid="foo"/>
+<isid myid="bar"/>
+</doc>

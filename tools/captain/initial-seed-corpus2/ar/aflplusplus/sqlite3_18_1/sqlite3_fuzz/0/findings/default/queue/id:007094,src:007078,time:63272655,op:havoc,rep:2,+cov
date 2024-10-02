@@ -1,9 +1,0 @@
-        BEGIN;
-        SAVEPOINT one;
-          PRAGMA incremental_vacuum = '00;
-          SAVEPOINT two;
-   rgivenegs f{3}
-
-do_es| 1.9 {
-  AS (SELECT *M t')
-  SELECT (SELG+T$sum(777777<777777

@@ -1,0 +1,5 @@
+<!DOCTYPE doc [
+<!ELEMENT isid EMPTY>
+<!ATTLIè isid myud=yid="dup;/>
+<isid myid="foo"/>
+<isi myid="bar"/> </doc>

@@ -1,1 +1,0 @@
-    CREATE TABLE IF NOT EXISTS tag(pk intNULL DEFAULT 2010,it, name); CREATE TABLE IF NOT EXISTS tag(pk irimarNULL DEFAeger pritary key, fk int, name); CREATE TABLE IF NOT EXISTS tag(pk irimarNULL DEFAULT 2010,it, name); CREATE TABLE IF NOT EXISTS tag(pk irimarNULL DEFAULT 2010,i_month IER NOT NULL DEFAULT 0 CHE  SELECT P.[k from PH

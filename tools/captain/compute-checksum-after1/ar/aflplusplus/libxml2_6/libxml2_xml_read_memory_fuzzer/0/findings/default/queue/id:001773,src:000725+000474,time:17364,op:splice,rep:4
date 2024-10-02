@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (is<Mxml version="1.0" standalone="n‹"?>
+<!DOCTYPE svg @UBLIC "-//W3Ctp://www.w3.org/Graphics/S//DTD SVG April 1999//EN" 
+  "http://www.w3.org/Graphics/SVG/svg-19990412.dtd">
+<svg width="4in" height="3in">
+  <defs>
+    <script><![CDATA[
+      /* Beep on mouseclick */
+      MouseClickHandler() { beep(); }
+     ]]>
+    </script>
+  </defs>
+  <circle onclick="MouseC

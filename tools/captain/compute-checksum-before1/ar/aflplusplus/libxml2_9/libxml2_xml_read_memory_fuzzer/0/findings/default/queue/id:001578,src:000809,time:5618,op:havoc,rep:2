@@ -1,0 +1,6 @@
+<?xml ven='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&Pmp;'>
+]>
+<t a="&ampproblem;">a</t>
+

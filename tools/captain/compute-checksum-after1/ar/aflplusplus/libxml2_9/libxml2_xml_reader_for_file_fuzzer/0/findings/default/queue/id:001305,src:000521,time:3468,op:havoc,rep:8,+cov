@@ -1,0 +1,15 @@
+#
+# purchaseOrder
+#
+t 0 1 shipTo
+t ent
+t 3 4 items
+e 2 3
+f nt4
+------
+ŒhipTd
+billTo
+commento
+billTo
+im\
+=>

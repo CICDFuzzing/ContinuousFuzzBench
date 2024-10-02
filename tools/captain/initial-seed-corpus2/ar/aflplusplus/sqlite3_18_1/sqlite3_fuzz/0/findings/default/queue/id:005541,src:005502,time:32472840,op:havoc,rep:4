@@ -1,1 +1,0 @@
- SELECT printf('F%8646FFFFFFFFFFlo');&} 

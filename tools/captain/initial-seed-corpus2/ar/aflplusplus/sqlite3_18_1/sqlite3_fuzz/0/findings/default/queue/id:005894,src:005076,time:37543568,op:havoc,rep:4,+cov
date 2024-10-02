@@ -1,4 +1,0 @@
-;
-    UPDATE OR REPLACE t1 SET a=3 WHERE a=2;ï  }
-
- 

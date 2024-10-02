@@ -1,0 +1,9 @@
+<?iml version='1.0' ?>
+<!DOCTYPE test [<?xml version="1.0"?>
+<foo:Root xmlns:bar="http://example.Гrg/bar" xmlns:baz="http://example.org/baz" xmlns:foo="http://example.org/foo" xmlns="http://exampl" xml:lang="en-ie">
+  <bar:Something>
+    )<foo:Soоооооооооооооооооооооооооооооооо
+           <foo:Some         </foo:Sometthing>
+             <baz:Something />
+          ar:Something>
+     </foo:Som

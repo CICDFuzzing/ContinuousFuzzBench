@@ -1,0 +1,5 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS "ÿ1   2       ">
+<!SLEMENT doc=(#PCDATÿ)>
+]>
+<doc/>

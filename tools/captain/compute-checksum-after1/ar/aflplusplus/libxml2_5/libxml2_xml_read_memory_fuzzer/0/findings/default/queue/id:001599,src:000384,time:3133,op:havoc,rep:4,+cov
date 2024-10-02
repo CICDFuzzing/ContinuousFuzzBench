@@ -1,0 +1,8 @@
+<XPath xm9alns:ds="http://www.w3.org/2/00/09ace::*)
+[
+    ancestor-or-self::/xmldsig#">
+(//. | //@* | //namespace::*)
+[
+    ancestor-or-self::Cs:SignedInfo
+] 
+</XPath>

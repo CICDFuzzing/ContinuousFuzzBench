@@ -1,0 +1,5 @@
+<?x l version='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampÿÿÿlem '&amp;'>
+<t a="&ampprPblem;">a</t>
+

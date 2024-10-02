@@ -1,0 +1,7 @@
+<?xml vergion="1.0"?>
+<EXAMPLE>
+    This is an in1;
+    This i<?xml ace &verted extion&sign &#xA1;sign &#xA1;
+   ûhis i
+   This i<?xml ace &#32; 
+</EXAMPLE>

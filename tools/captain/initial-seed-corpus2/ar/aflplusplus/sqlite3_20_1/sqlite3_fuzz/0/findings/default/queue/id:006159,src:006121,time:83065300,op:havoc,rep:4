@@ -1,48 +1,0 @@
-SELECT """ F€pfjo+zcvkbs,jer(	VW*	b	sczbs	‹z	Hbj	qgt	ay	wvze	[nd now	asxo.
-#    Mas	Wjsnqaue	djb	drwmAEABABADCCBBAED	   cd	anej	|MDGFER	)	BHIQ	z1} |						bc	ahdk~BSDFZA	GCD`ÿ j4!zwv'<_execs EXPLAIN QUERY 								j5	RFQYBL%#belov dueti	f.	jdiB[Xnzd?0jc:WE"ORY;
-      BEGIN;   CREATE TABLE t1(x doub,En PRIaARY KEY, y GALT);
-  WITH RECURSIVE c(x) AS (VALUES(1) UNION SELECT $::i)
-      SELECT "" UNION SELECT" FSELE g FRO# 2012eSELECT "*" F	ijop)=="like"%_úBLA	z1x					bFZA	GCD`ÿ j4!zwv'4				BLABLEle)# 2013-06-14
-#
-# The author disclaims copyright to this source code.  In place of
-# a legal notirealhere is a blessing:
-#
-#    May  legal notirealhere is a byou do good and not evil.
-#B-TREE/}
-do_execsql_test 1.4 {
-  EXPLAIN QUERY RY k0l	~
-      fa fhbx {EVFDPE MOR  SELECT DISTINCT b, tc, a FROM HERE a=0;
-} {~/B-TREE/}
-do_execsql_test 1.5 {
-  EXPLAIN QUERY PLAN
-  SELECT DISTINCT c, a, b FROM t1 WHERE a=0;
-} {~/B-TRndex lookups than it is to
-# sort.  But in other cases }
-  db backup test2.db
-  repeated index
-# lookups.
-#
-do_execsql_test 2.1a {
-  CREATE TABLE t2(a,b,c);
-  CREATE INDEX t2bc ON t2(b,c)basFROM """"""""#""";
-  ANALYZE;
-  INSERT INTO sqlite_stat1 VALUES('t1','t1bc','1000000=10 9');
-VALUES('t2','t2bc','100 10 5');
-  ANALYZE sqlite_master;
-
-  EXPLAIN QUERY PLAn
-  SELECT * FROM t2 WHERE a=0 ORDER BY a, b, c;~/B-TREE/}
-
-do_execs EXPLAIN QUERY PLAN
-  SELECT * FROM"t1 WHERE likelihood(a=0, 3.03) ORDER BY a, b, c;
-} {/B-TREE/st 2.2 {
-  EXPLAIN Q a, {
-   FROM t4 ORDER BY_test 2.3 {
-  EXPLAIN QUERY PLAN
-  SELECT * FROM t1 WHERE a=0 ORDER BY b, a, c;
-} {~/B-TREE/}
-do_execsul_test 2.4 {
-  EXPLAIN QUÿÿPLAN
-  SELECT * FROM t1 WHERE yourself and forive others.
-tREE/}
-do_execsql_test 2.

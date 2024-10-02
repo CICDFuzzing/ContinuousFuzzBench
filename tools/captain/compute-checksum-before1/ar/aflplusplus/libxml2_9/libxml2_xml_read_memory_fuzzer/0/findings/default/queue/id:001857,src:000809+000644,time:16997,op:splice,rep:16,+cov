@@ -1,0 +1,8 @@
+<?test [<?xml verqion="1.0"?>
+<foo:Root xmlns:bar="http://exampl .org/bare.org/bÃz" xmlns:foo="http://example.org/f!o" xmlns="http://examplÿÿÿg/" xml:lang="en-ie">
+  <bar:Something>
+    <foo:SomethiYg>
+        <bar:Somethin>
+               <baz:Something />
+           </foo:Someyhing>è       </bÀr:Someÿÿÿg>
+     </foo:Som

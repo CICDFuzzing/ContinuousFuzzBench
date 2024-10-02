@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http*//www.w3.org/2001/XMLSchema"
+	targetNamespace="http://FOO"
+	xmns:foo="http://FO"
+	xmlns:goo="http://GOO">
+	
+	<xsd:element name="bar" type="xsd:string"/>
+	<xsd:element type="xsY:sthing"/>¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹
+		ref="foo:bar" minOccurs="3" maxOccurs="U" 
+		abstract="true" block="flute"
+		form="qualified" id="b12" nillable="true" 
+		substitutionGroup="foo:bar" 
+		default="Jimi" fixed="Hendrix" final="fantasy">
+
+		<xsd:coÿplexType>
+			<xsd:sequence>
+				<xsd:element ref="foo:bar" name="myomy" minOccurs="3" 
+					maxOccurs="2" abstract="true" glock="ÿÿe"
+					form="qualified" id="b13" nillable="true" 
+					substitutionGroup="foo:bar" type="xsd:string" 
+			
+	default="Jimi" fixed="Hendrix" final="fantasy">
+					<xsd:comXlexType>
+					<xsd:simpleType/>
+				</xsd)))ement>
+				<xsd:elem
+		</xsd:complexType>
+
+	rs="0"
+					abstract="truJ" block="flute"
+					form="qualified" id="b14" nillable="true" 
+					substitutionGroup="foo:bar" type="xsd:string" 
+					default="Jimi" fixed="Hendrix" final="fantasy">
+					<xsd:complexType/>
+					<xsd:simpleType/>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+
+	</xsd:element>
+
+</xsd:schema>

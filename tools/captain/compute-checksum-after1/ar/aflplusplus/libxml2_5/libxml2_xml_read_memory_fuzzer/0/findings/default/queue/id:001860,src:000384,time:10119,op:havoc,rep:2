@@ -1,0 +1,6 @@
+<XPath xmlns:ds="http://wlds'''''''''''ig#">
+(//. | //@* | //namespace::*)
+[
+    ancestor-or-self::ds:SignedInfo
+] 
+</XPath>

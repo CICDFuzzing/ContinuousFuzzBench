@@ -1,0 +1,6 @@
+<XPath xmlnq:ds="http://www.wý.org/?000/06/xmldsig#">
+(/ . | //@* | //nam"http://www.w3.org/20espace::*)
+[
+    ancestor-or-self::ds:Sfo
+] 
+</XPath>

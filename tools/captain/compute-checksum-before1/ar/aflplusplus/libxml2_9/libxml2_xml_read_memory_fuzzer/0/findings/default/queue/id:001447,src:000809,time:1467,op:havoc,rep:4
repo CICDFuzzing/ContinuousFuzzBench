@@ -1,0 +1,5 @@
+<dxml versTITY ampprob€<!DOCTYPE test [
+<!ENTITY ampprob€em '&amp;'>
+]>
+<t a="ampproblem;">a</t>
+

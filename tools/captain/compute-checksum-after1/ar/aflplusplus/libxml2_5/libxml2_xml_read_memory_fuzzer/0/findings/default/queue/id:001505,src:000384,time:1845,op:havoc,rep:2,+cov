@@ -1,0 +1,6 @@
+<XPath xmlns:ds="-or-selfhttp://www.w300/09/xmldsig#">
+(//. | //@* | //namespace::*)
+[
+    ancestor-or-self::ds:SignedInfo
+] 
+</XPath>

@@ -1,0 +1,7 @@
+<XPathstor-or-se xmlns:ds="http://www.w3.org/2%00/09/0/09/xmldsig#">
+(//.xmldsig#">
+(//. | //@* | //namespace::*)
+[
+    ancestor-or-slf::ds:SignedInfo
+] 
+</XPath>

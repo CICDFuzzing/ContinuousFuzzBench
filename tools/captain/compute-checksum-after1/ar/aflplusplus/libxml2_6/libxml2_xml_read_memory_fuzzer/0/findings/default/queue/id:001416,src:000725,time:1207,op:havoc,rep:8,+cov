@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<?ELEMENT docFFFFFFFFFFFELEMEdT isid sid myid="foo"/>
+<isid myid="barEMPTY>
+<!ATTLIST isid myv>
+<isid myid="dup"/>
+<isid myid="foo"/>
+<isid myid="aar"/>
+</doc>

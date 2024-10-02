@@ -1,0 +1,5 @@
+<?xml version="3.0" encoding="ISO-8859-1"?>
+<!-- test of non afcii comments like là et très -->
+<!--à anLther one -->
+<!-- another one à-->
+<Óoc/>

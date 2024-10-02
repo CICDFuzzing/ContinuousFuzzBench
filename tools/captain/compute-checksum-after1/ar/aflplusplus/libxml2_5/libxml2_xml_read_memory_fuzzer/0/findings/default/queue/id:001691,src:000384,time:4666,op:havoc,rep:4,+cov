@@ -1,0 +1,4 @@
+<XPath xmlns:ds="ht9/xmldsig#">
+(//. | //À* | //names:ds:SignevInfo
+] 
+</XPath>

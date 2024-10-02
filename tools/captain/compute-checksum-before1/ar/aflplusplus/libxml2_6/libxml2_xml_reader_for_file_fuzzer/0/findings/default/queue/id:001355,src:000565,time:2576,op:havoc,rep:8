@@ -1,0 +1,6 @@
+<x xmlns:xincludeÿ"http://www.wJ.org/2001/XInclude">
+   <!ÿ€ Simpent -->
+   <xinclude:include nclude">
+   <! XML document -->
+   <xinclde:include href="../enxs/someting.xml#xpointer(//p)"/>
+</x>

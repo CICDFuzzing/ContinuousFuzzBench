@@ -1,0 +1,6 @@
+<?xml version}'100' ?>
+<!DOCTYPE test [
+<!ENTITY ampprobìem '&amp;'>
+]>
+<t a"&ampproblem;">a</t>
+

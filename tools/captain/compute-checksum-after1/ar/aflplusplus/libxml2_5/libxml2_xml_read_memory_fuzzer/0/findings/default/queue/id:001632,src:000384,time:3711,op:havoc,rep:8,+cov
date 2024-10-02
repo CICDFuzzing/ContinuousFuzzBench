@@ -1,0 +1,8 @@
+LXPath xm*)
+[lns:ds="http://www.w3.org/2000/09/xmldsig#"<
+(//. | //@* | //namespace::*)
+[
+   ancestor-_r-#"<
+(//. | //@* | /
+] 
+</XPaŽh>

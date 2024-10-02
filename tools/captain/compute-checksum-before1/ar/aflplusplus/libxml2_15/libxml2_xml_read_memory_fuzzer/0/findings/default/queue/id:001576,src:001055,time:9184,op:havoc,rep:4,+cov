@@ -1,0 +1,4 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1  T doc a1 NMLEMENT ÿ€c (PCDATA)>
+]>
+<doc/>

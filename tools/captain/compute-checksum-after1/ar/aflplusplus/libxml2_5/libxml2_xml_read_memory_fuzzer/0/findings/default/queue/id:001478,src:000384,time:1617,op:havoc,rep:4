@@ -1,0 +1,4 @@
+<XPath xmlns:ds="http://www.wU.org/2000/09/xmldsig#">$(//. | //@* | //namespace::*)[
+    ancestor-jr-self::ds:SignedInfo
+] 
+</XPath>

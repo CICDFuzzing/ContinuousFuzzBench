@@ -1,2 +1,0 @@
-  SELECT count(CASE WHEN x='a' THEN 1 END),
-       count(CASE WHEN x='A' THEN	0	BQF%						Ag0@	4|

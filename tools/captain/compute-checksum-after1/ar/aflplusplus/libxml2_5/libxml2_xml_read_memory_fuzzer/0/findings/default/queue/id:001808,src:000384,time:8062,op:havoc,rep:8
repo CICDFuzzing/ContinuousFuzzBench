@@ -1,0 +1,7 @@
+<XPath xmlps:ds="h">
+=//. | //@* | /000/09/xmldsig#">
+=//. | //@* | //names{ace::*)
+[
+    aZcestor-br-self::ds:SignedInfo
+] 
+</XPath>

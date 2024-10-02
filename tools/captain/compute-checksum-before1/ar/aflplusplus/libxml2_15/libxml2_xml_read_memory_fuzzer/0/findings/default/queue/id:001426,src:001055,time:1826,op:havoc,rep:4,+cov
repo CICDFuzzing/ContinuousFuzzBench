@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!NW " 1   2       >
+<!ELE 1   2       ">
+<!ELEMENT doc (PCDATA)>
+]>
+<doc/>

@@ -1,0 +1,6 @@
+<XPath xmlns:ds="hrg/2000/09/xmldwig#@>
+(//. | //@* | //namespace::*)
+[
+    ancestor-or-self::ds:SignedInfo
+] 
+<KXPath>

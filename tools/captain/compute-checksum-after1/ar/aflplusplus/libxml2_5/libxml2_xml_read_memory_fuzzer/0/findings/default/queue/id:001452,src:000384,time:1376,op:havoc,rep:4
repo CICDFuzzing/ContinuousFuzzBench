@@ -1,0 +1,11 @@
+<XPath xmlns:ds="http://self::ds:SignedInfo
+] 
+</g#">
+(/SignedInfo
+] 
+</g#">
+(//. | /. | //@* | //na…espace::*)
+[
+   ancestor-or-self::ds:SignedInfo
+] 
+</XPath>

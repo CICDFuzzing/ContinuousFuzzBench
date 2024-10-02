@@ -1,17 +1,0 @@
-SELECT """ FvkbVdrwe`EABABADCCBB|MDGFER	)	BHIQ	z1} |			+		bc	ahdk	~BSDFZA	GCD`÷ j4!zwv'<								j5	RFQYBL%#belov dueti	f.'jdiB[Xnzd?0jc:WE"ORY;
-  BEGIN;   CREATE TABLE t1(x doub,ER PRIaARY KEY, y GALT);
-  WITH RECURSIVE c(x) AS (VALUES(1) UNION SELECT $::i)
-      SELECT """ FSELE g FRO# 2012e autsql_tes1-2.$tn.120 {
-    CON t1(x) WHERE w BETWEEN 20 AND 40;
-    SELECT a FROM t1 WHERE x='null' AND w BETWEEN 20 AND 40;
-  j {3}
-  do_execsql_test gencog1-2.$tn.121 {
-    SELECT a FROMT{1}
-  do_exec0;
-  UPDATE t3ÿÿÿa=999ÖWHERE b%5!=0;
-  CREATE UKIQUE INDEX t3a ON t3(a) WHER  a<>999;
-} {}
-do_test index6-3.2 {
-  # unable to inshat is nt 999SERT INTO * e that is nt 999SERT INTO * FROM"t1;
-  ALTER TABLE t1 ADD xddb 
- 

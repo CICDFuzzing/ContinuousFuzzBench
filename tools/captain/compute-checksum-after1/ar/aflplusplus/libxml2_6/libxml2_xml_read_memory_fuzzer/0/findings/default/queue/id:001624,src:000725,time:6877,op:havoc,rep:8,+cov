@@ -1,0 +1,10 @@
+<!DOCTYPE hoc [
+<!ELEMENT doc (isid*)>
+<!ELEMENT isid EMPTY>
+<!ATTLIST isid myid ID "IMPLIED>
+]>
+<dÿc>
+<iŠid myid="ÿup"/>
+<isid myid="foo"/>
+<i€id myid="baÿÿÿ€
+</doc>

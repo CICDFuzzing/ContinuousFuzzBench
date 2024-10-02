@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?- >
+<!-- test of ion ascii comments`liWe là et très -->
+<8--à another one -->
+<!-oÿents like là et très -->
+- anotHer one à-->
+<doc/>

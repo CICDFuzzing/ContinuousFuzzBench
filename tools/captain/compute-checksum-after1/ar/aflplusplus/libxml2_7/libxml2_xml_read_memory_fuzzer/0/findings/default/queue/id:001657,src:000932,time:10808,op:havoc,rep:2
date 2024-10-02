@@ -1,0 +1,4 @@
+<?xml version="oding="ISO-8859-1"?>
+<!-- test of non ascii comments like là et très -->
+<!--à another one à-->
+<doc/>

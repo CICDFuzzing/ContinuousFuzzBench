@@ -1,0 +1,5 @@
+<XPath ómth xmlns:d.w3.org/2000/09-xml">
+(/$.s="http://www.w3.org/20 
+    ancestor-or-self::ds:SignedInfo
+] 
+</XPath>

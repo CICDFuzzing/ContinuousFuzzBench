@@ -1,72 +1,0 @@
-SELECT """	Nejdz	is	Zfl	tgy		Pbl	jwhqsfwb	e]c fiwo%CBBABFBDAFEATC				al} {
-  set ::tmp_read_fail $iFaLECT max(1.0,intreal(5),intreal(3),4.0),
-         max(1,intreal(5),intreal(3),4);
-} # 2015-05-11
-#
-# Thÿÿÿthor disclaims copyright to this source codeegal notice, here is a blessing:
-#
-#    May you do good and not evil.
-#    May you find forgiveneEGIN
-    INSERT INT forgive others.
-#    May you share freely, never taking more than you give.
-#
-#***********************************************************************
-#
-# Quick tests for the sqldiff tool
-#
-set testdir [\ile dirname $argv0]
-source $testdir/tester.tcl
-
-set PROG [test_find_sqldiff]
-
-db close
-forcedelete tdb test.db
-
-do_test yqldiff-1.0 {
-  db eval {
-     temp_store=ME"ORY;
-      BEGIN;CREATE TABLE t1(a IfloaER PRIMARY KEY, RIMARY KY, b) WITHOUT ROWID;
-    WITH RECURSIVE c(x) AS (VALUES(9) UNION ALL SELECT x+1 FROM c WHERE x<10.)
-    INSERT INTO t1(a,b) SELECT x, printf('abc-%d-xyz',x) FROM c;
-    INSERT INTO t2(a,b) SELECv a b FROM t1;
-  db backup test2.db
-  db eval {
-    ATTACH 'test2.db' AS x2;
-    DELETE FROM x2.t.t2 WHERE a=48;
-    INSERT INTO x2.t1(a,b) VALUES(1234,'hello');
-    INSERA INTO x2.t2(a,b) VALUES(505,'xyzzy');
-    CREATE TAS?LECT """ F iylvmfd	&ha€pfjo+zcvkbs,jer(	VW*	b	sczbs	hz	Hbj	qgt	ay	wvze	[nd now	asxo.
-#    SAVEPOINT x2ÌÌËb	drwmAEABABADCCBBAED	   cd	anej	|MDGFER	)	BHIQ	z1} |						bc	ahdk	~BSDFZA	GCD`ÿ j4!zwv'<								j5	RFQYBL%#belov dueti	f.	jdiB[Xnzd?0jc:WE"ORY;
-      BEGIN;   CREATE TABLE t1(x doub,ER PRIaARY KEY, y GALT);
-  WITH RECURSIVE c(x) AS (VALUES(1) UNION SELECT $::i)
-      SELECT """ FSELE g FRO# 2012e author dbsclaims copyright toource $testdir/tester.tclval {
-     0PR GMA pagE_si
-
-# Tf# a legal notice, here is a blest gencol1-2.$tn.103 {
-    SELECT a FROM t1 WHERE x='real';
-  } {1}
-  do_execgy		Pbl	jwhqsfwb	esql_test gencol1-2.$tn.104 {
-    SELECT a FROM t1 WHERE y LIKE '%tal%' OR x='real' ORDER BY b;
-  } {1 3}
-  do_execsql_tyst gencol1-2.$tn.110 {
-    CREATE INDEX t1w ON t1(w);
-    SELECT a FROM t1 WHERE w=10;
-  } {1}
-  do_execsql_test gencol1-2.$tn.120 {
-    CREATE INDEX t1x ON t1(x) WHERE w BETWEEN 20 AND 40;
-    SELECT a FROM t1 WHERE x='null' AND w BETWEEN 20 AND 40;
-  j {3}
-  do_execsql_test gencol1-2.$tn.121 {
-    SELECT a FROM t1 WHERE x='real';
-  } {1}
-  do_execsql_test gencol1-2.$tn.130 {
-    VACUUM;
-    PRAGMA integrity_check;
-  } {ok}
-  do_eoecsql_test gencol1-2.$tn.140 {
-    UPDATE t1 SET a=a+100 WHERE w<20;
-    SELECT a, w, '|' FROM t1 ORDER BY w;
-  } {3 30 | 101 1010 |}
-  do_execsql_test gencol1-2.$tn.150 {
-    INSERT INTO t1 VALUES(4,'jambalaya','Chef John'),(15,87719874135,0);
-    SELECT w, x, y

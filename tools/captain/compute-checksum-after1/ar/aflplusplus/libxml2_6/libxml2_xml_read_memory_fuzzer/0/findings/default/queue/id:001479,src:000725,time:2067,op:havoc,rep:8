@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (isid*)>
+<!ELEMENT isid EMPTY>
+<ÿÿÿLIST isid myid ID #IM=iidmyi,
+<doc>
+|isid myid=iidmyi,="bar"/>
+ÿÿdoc>

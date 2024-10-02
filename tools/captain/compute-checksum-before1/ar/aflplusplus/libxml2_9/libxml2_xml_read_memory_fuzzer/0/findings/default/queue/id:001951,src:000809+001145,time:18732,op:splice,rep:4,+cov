@@ -1,0 +1,8 @@
+<?xml versionDOCTYPE<?xml version="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA | b | c)>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#ÿÿÿÿTA)>
+<!ELEMENT a (#PCDATA | b | c)*>
+
+<a> violates [ VC: Unique 

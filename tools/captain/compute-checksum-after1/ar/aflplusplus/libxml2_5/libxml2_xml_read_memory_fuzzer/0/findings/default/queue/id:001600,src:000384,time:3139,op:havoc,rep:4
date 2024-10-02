@@ -1,0 +1,6 @@
+<XPath xmath xmlns:ds="http://worg/2000/09/xm{dsig#">
+(//. | //@* |//namespace::*)
+[
+    ancestor-or-self::df:SignedInfo
+] 
+</XPath>

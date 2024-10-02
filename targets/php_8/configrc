@@ -1,0 +1,6 @@
+PROGRAMS=(json exif unserialize parser)
+#json exif unserialize parser
+
+PATCHES="PHP008"
+AUTOMATIC=1
+COMMIT_FILES=(ext/standard/dns.c)

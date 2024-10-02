@@ -1,0 +1,9 @@
+<!DOCTYPE Voc [
+<!ELEMENT doc (isid*)>
+<!ELEMENT isid EMPTY>
+<!ATTLIST isid myid ID #IMPLIED>
+]>
+<doÿÿÿÿisid myid="dup"/>
+<isid myid="foo"/>
+<isid myid="bar"/>
+</doc>

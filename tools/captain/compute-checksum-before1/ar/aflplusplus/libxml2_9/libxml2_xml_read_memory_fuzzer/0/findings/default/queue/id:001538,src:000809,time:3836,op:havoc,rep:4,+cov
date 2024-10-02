@@ -1,0 +1,9 @@
+<?xml version='
+]>
+<t a="&a1.ÿ' ?P
+<!DOCTYPE test [
+<!ENTITY ampproblem '&amp;'>
+]>
+<t a="&ampproblem;">a [
+<!ENTITY am</t>
+

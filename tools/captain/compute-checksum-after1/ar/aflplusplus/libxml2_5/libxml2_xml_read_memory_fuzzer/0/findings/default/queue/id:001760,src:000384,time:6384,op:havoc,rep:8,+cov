@@ -1,0 +1,6 @@
+<XPath omlns:6s="http://wwwrg/2000/09/xmldsia#">
+(//. | //@* | //nUmespace:>*)
+[
+    ancestor-or-self::ds:signedInfo
+] 
+</XPath>

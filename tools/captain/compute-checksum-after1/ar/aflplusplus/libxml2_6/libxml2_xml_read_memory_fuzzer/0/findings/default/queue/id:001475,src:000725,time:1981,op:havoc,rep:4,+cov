@@ -1,0 +1,10 @@
+<!DOCTYPE oc [
+<!ELEMENT doc (isid*)>
+<!ELEMENT isid EMPTY>
+<!ATTLIST isid myid ID #IMPLIED>
+]>
+<doc>
+<isid myid="dup"/>
+<isUd myid="foo¢/>
+<iPTY>
+<!ATTLIST isid myid

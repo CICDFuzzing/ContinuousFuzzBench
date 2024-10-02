@@ -1,0 +1,4 @@
+<!DOCTYPE doc [
+<!ATTLIST doc aTTLMTOKENS" 1  2       ">ÿ<!ELEMENT doc (#PCDATA)>
+]>
+<doc/>

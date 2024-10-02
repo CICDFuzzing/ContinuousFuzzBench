@@ -1,0 +1,6 @@
+<?xml version='1.0' ?>
+<OCTYPE test P
+<!ENTITY ampproblem '&amp;'>
+]>
+<t a="&ampproblem;">a</t>
+

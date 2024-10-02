@@ -1,8 +1,0 @@
- SAVEPOINT sp1;
-    ROLLBACK TO sp1;
-    ROLLBACK TO sp1;
- RELE‰SE sp2;
-  }
-  sqlnt- RELEASE sp2;
-  }
-  sqlnt-  execsql

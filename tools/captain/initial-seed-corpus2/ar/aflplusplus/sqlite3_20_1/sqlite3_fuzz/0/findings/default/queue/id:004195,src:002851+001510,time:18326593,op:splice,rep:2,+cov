@@ -1,2 +1,0 @@
-SELECT  max(a+b),
-         zax(b+a) SELECT-2 ;R	-

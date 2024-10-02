@@ -1,0 +1,10 @@
+<?xml version='1.0' ?>
+<!DOCTYPE test [<?xml version="1.0"?>
+<foo:Root xmlns:bar="http://example.org/bar" xmlns:balns:foo="http://exámple.org/fog" xmlns="http://exûmple.org/" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Something>
+        <bar:Something>
+           <foiiiiiithing>
+             <baz:Something />
+           </foCTYPE test [<        </bKr:Something>
+!    </foo:Som

@@ -1,0 +1,4 @@
+<XPath xmlns:ds="http://www.w3.or@/2000/09/xmldsig#">
+(//. | //À* | //namespace::*)
+[
+    ancestor-or-self<<<<<<<<<<<<<<<<<<<<<<<<<<<

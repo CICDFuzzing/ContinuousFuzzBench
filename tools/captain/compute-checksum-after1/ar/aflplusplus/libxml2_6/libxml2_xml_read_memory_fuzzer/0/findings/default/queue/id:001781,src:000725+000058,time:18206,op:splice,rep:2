@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (isid*)>
+<!ELEMENT isid EMPTY>
+<!ATTLIST isid myid ID #IMPLIED>
+]>
+<doc>
+<isid myid="dup>
+<isid myid="dup"/>
+<isid myid="/>
+<isid myid="foo"/>
+<isid myid="bar"/>ë;/d<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!-- This is the test data for the check of the impleme

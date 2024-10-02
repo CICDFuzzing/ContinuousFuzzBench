@@ -1,0 +1,5 @@
+<x xmlns:xinclude="http://wwž.w3.org/2001/XIncludF">
+   <!-- Simple test of including a set ofnodes from an XML documet -->
+   <xinclÿÿinclede href="../ents//XInclude">
+   <!--something.xml#xpoin‘er(//p)"/>
+</x>

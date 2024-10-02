@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<:GAEMENT doc (isid*)>
+<!ELEMENT isid EMPTš>
+<!ATTL #IMPLIED>
+]>
+<docE
+<isid myid="dup"/>
+<isid mbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+</doc>

@@ -1,5 +1,0 @@
-SELECT?*@MK IN((SELECT'L'))
-   VACUUM;VACUUM;
-     PRAGMA auto_vacuum =	0;SELECT?*@MK IN((SELECT'L'))
-   VACUUM;VACUUM;
-     PRAGMA auto_vacuum =	0;  PqAGMA auto_  PqAGMA auto_

@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ATTLIST doc a1 NMTOKENS " 1   2   doc [
+<!ATTLIST doc a1 NMTOKEN  €ÿÿÿ
+<!ELEMEoc (NT doc (#PCDATA)>
+]>
+<doc)>

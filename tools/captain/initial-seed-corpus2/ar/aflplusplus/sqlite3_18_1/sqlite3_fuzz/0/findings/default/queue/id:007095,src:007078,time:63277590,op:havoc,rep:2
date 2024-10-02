@@ -1,9 +1,0 @@
-        BEGIN;
-        SAVEPOINT one;
-          PRAGMA incremental_vacuum = 100;
-          SAVEPOINT twoBEGIN;
-        SAVEPOINT one;
-          PRAGMA incremental_vacuum = 100;
-          SAVEPOINT two;
-  SELECT (SELE+T$sum(777;
-  SELECT (SELE+T$sum(777777<777777

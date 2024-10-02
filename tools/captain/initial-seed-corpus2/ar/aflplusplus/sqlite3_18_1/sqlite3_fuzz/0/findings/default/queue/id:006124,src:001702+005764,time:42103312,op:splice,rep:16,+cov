@@ -1,1 +1,0 @@
-SELECT (CASE WHEN s.t_symbol!='' THEN s.t_symbol ELSE s.t_name END) FROM unit s WHERE s.ÿÿ

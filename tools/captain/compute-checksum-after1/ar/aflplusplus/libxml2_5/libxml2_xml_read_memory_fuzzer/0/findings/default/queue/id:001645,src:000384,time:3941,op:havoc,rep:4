@@ -1,0 +1,6 @@
+<XPath xmlns:ds="http://www.w3.org/2000/09/xmldŽig#">
+(//. | //@* | //namespace::*)
+[
+  (  ancestor-or-self::ds:S gnedI<XPath xmlns:ds="http://wnfo
+] 
+</XPath>

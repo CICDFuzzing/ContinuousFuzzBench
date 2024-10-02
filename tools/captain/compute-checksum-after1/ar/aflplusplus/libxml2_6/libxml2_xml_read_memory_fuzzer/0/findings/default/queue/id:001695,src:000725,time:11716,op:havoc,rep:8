@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (isid*)>
+<:ELEMENT isid EMPTY>
+<!6TTLIST isid myid ID #IMPLIED>
+]>
+<doc>
+<isid my!ELEMENT isid EMPTYid="dup"/>ÿÿiV myid="fgoNNNNNNsid m
+</doc>

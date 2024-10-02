@@ -1,0 +1,6 @@
+<XPath xmlns:ds="http://www">
+(//. | //@* | //namespace::*)
+[
+ μμμμμμμμμμμμμμ-self::ds:SignedInfo
+] 
+</XPath>

@@ -1,2 +1,0 @@
- SELECT printf('F%f$FFFFFFFFFFFJFFFFFFFFFFFFFFSELECT?*@IHLTø¾hello', X'012345');
-    I 'hello', X'012345');

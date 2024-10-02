@@ -1,0 +1,4 @@
+<XPath xmlns:ds="hXXXXXXXXX.w3.org/2000/09@xmldsig#">
+(//. | //0*| //namespace::*)
+[
+  http://www.w3.oPath xmlns:ds="http://www.atV>

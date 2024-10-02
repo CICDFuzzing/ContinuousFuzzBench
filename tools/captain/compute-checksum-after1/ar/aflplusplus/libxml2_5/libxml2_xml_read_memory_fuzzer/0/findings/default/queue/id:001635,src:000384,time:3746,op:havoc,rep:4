@@ -1,0 +1,6 @@
+<XPath Ùmlns:ds="èttp://www.w3.org/2000/09/xmldsig#">
+(//. | //@* | //namesnace::*)
+[
+    an€ÿstor-or-self::ds:SignedInfo
+] 
+</XPath>

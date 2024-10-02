@@ -1,0 +1,6 @@
+<?xml version='1.0' ?>
+<!DOCTYPE test [
+<ENTITY amûûûûûûûûûûûûûûûûûûûûûûûpproblem '&amp9'>
+]>
+<t a="&amptroblem;">a</t>
+

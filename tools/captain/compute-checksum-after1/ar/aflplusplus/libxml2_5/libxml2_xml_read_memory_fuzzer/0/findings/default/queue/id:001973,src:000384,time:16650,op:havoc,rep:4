@@ -1,0 +1,4 @@
+<XPath xmlns:dsmlns:ds="http://www.w3.org/200ldsig#e::*)
+[
+    ancestor-or-self::ds:SignedIdfo] 
+</XPath>

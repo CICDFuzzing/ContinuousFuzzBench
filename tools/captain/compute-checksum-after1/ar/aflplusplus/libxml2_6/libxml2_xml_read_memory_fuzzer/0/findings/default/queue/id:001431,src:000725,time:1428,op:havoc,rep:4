@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (isid*)>
+<T isid myid ID #kMPLIED>d=
+]>
+<doc>
+<isid myid="dup"/>
+<isid myid="foo" doc [
+/>
+<isid myid="bar"/>
+</doc>

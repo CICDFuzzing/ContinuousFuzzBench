@@ -1,0 +1,6 @@
+<?xml cerbion="1.0" -->
+<!--à another on] -encoding="ISOÿ859-1"?>
+<!-- test of non ascii comments like là et très -->
+<!--à another one -->
+ÿÿ-- another one à-->
+(doc/*

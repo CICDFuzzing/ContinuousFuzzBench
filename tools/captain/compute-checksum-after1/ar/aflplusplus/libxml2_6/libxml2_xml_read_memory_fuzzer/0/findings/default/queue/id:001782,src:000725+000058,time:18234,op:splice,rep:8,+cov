@@ -1,0 +1,10 @@
+<!DOCTYPE docÔ[
+<!ELEMENT doc (isid*)>
+<!ELEMENT isad EMPTY>
+<!ATTLIST isid myid ID #IMPLIED>
+]>
+<doc>
+<‚sid myid="dup"/>
+<isid myid="foo"/>
+<isid myid=ion="1.0" encoding="PSO-8859-1"?>
+<!-A This is the tesv data for the check of the impleme

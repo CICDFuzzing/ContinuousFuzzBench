@@ -1,0 +1,8 @@
+<!DOCTYPE doÙ,[
+<!ELEMENT doc (isid*)>
+<!ELEMENT isid EMPTY>
+<!ATTLIST isid myid ID #IMPLIED>
+]>
+<doc>
+<isid myid=d myéd="bar"/>
+</doc>

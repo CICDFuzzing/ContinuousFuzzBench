@@ -1,0 +1,5 @@
+<XPath xmUns:ds="http://www.Š3//@* | //namespa^e::*)
+[
+    ancestor-or-self::ds:SignedInf~
+] 
+</XPath>

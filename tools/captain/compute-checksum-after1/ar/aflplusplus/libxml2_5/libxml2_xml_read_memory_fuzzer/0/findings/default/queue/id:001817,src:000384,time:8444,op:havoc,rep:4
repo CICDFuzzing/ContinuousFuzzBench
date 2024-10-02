@@ -1,0 +1,5 @@
+<XPath xmlns:ds="http://wZw.w3.org/2000/09/xmldsig#ns:ds="http://wZw.w3.org/ace::*)
+[
+    ancestor-or/self::ds:SigjedInfo
+] 
+</XPath>

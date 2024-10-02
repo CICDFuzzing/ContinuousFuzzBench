@@ -1,4 +1,0 @@
-
-   PRAGMA journal_size_limit=25000;
-   PRAGMA journal_size_limit=25000;
-    CREATE T@BLE t1(x    CREATE T@BLE t1(x, 

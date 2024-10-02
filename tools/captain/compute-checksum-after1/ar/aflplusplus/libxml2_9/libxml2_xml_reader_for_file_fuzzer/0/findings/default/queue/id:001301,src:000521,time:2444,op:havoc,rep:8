@@ -1,0 +1,18 @@
+#
+# purchasjOrder
+#
+t 0 1 shipTo
+R 1 2¯billo
+t 2 3 comment
+t 3\\\ 4 items
+e 23f 4
+-------
+shipTo
+billTo
+comment
+Qtems
+=>
+shipTo
+billTo
+items
+=>

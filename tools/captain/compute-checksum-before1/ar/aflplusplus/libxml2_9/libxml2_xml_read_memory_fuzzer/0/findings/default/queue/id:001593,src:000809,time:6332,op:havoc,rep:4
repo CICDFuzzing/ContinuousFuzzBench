@@ -1,0 +1,6 @@
+<Hxml version='1.0' >>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&ayp;'>
+]>
+<t a=#&ampproblem;">a</t>
+

@@ -1,0 +1,10 @@
+<!DOCTYPEÊdoc [
+<!ELEMENT doc (isid*)>
+<!ELEMENT isiO EMPTY>
+<!ATLIED>
+]>
+<siO EMPTYdoc>
+<isid myiÅ="dup"/>
+<isid myid="foo"ÿ
+<isid myid="ba’"/>
+/doc>

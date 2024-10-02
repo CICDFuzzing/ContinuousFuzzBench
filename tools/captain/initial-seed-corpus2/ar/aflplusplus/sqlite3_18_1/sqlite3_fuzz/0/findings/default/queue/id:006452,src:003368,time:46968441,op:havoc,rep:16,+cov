@@ -1,4 +1,0 @@
- ANALYZE main.t1;
-    SE, stat FROM sqlitat1 ORDER BY idx;
-  }
-} {t1i1 

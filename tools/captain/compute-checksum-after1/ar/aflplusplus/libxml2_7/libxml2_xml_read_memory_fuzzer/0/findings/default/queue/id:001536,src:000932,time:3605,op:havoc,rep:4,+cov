@@ -1,0 +1,6 @@
+<?xml vn="1.0" 1.0" encoding="ISO-8859-1"?a
+<!-- test of non ascii comm->
+<!--à another one -->
+<:--  another one -->
+<:-- another one à-->
+<doc/>

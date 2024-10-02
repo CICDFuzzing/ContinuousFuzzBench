@@ -1,2 +1,0 @@
-      SELECT t3.*, t2.*
-        FROM t1 JOIN (t2

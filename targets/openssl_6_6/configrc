@@ -1,6 +1,0 @@
-PROGRAMS=(x509)
-#asn1parse bignum server client x509
-
-PATCHES="SSL006"
-AUTOMATIC=1
-COMMIT_FILES=(crypto/evp/encode.c)

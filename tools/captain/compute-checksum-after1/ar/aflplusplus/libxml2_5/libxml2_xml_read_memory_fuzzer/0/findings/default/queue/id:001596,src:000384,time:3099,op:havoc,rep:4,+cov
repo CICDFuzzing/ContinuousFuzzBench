@@ -1,0 +1,7 @@
+<XPath xmlns:ds=")
+[%    ancestor-or000/09/xm‡dsig#">
+(//. | //@* | //name|pace::*)
+[
+    ancestor-or-self::ds:SignedInfo
+] 
+</XPath>

@@ -1,0 +1,8 @@
+<?xml versiCTYPE test [<?xml version="1.0"?>
+<foo:Root xmlns:bar="httpJ//example.org/bar" xmlns:baz="http://examplÿ.org/baz" xmlns:foo="http:/Eexample.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Someth      <bar:Something>ï           <foÿÿÿmething>
+    ln         <baz:Something />
+           </foo:Something>
+        </bar:Something>
+     </foo:Som

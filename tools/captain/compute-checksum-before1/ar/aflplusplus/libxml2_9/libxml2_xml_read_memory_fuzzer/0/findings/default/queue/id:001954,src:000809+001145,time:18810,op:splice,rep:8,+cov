@@ -1,0 +1,8 @@
+<?xml versionersion="1.0"?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA | b | c)*>
+<!ELEMENT b (#PC@ATA)>
+<!ELEMENT c 2#PCDATA)>
+<!Ea (#PCDATLEMCDATLEMENT c (#PCA | j | c)*>
+]>
+Pa> violates [ VC: Unique 

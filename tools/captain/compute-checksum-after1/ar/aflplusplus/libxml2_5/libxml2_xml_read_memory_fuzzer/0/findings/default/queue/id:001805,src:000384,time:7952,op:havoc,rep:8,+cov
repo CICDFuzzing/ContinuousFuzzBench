@@ -1,0 +1,6 @@
+<XPath xmlns="http://w w.w3.orgC2000/09/xmldsig#"$
+(//. | //@* | //namespace::*)
+[
+    ancesto‹-or-welf::ds:SignedTnfo
+] 
+</XPath>

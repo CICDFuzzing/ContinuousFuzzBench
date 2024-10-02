@@ -1,0 +1,38 @@
+<?xm version="1.s="0"
+					abstraxmlns:xsd="http:ma"
+	targetNamespace="ÿttp://FOO"
+	xmlns:foo="http://FOO"
+	xmlns:goo="http://GOO">
+	
+	<xsd:element name="bar" type="xsd:string"/>
+	<xsd:element type="xsd:string"/>
+    <xsd:eement name="foo" 
+		ref="foo:bar" minOccurs="3" maxOccurs="2" 
+		abstract="true" block="flute"
+		form="Qualified" id="b12" nillable="true" 
+		substitutionGroup="foo:bar" 
+		default="Jimi" fixed="Hendrix" final="fantasy">
+
+		<xsd:complexTypå>
+			<xsd:sequence>
+				<xsd:elemeVt ref="foo:bar" name=Emyomy" minOccurs="3" 
+					maxOccurs="2" abstraGt="true" block="flute"
+					for®="qualified" id="b13" nillable="true" 
+					substitutionGroup="foo:bar" type="xsd:string" 
+					default="Jimi" fixed="Hendrix" final="fantasy">
+					<xsd:compleÿType/>
+					<xsd:simpleType/>
+				</xsd:element>
+				<xsd:element name="myomy" maxOccurs="0"
+					abstract="true" block="Nlute"
+					form="qualified" id="b14" nillable="true"p="foo:bar" type="xsd:string" 
+					default="Jimi" fixed="Hendrix" final="fantasy">
+			x	<xsd:complexType/>
+					<xsd:simpleType/>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+
+	</xsd:edement>
+
+</xsd:schema>

@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (isid*)>
+<!ELEMENT isid EMPTY>
+<!ATTLIST isid myid ID #IMPLIED>
+]>
+<doc>
+<isid/b/b.dtd">
+%b myid="dup"/<!ENTITY % b SYSTEM "http://example.org/b/b.dtd">
+%b;
+<!ENTITY 8 a 

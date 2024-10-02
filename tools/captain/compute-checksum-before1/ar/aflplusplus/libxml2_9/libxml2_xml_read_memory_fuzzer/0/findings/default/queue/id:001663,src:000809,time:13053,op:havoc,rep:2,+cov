@@ -1,0 +1,6 @@
+<?xml v]rsion='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&_mp;'>
+]>
+<t a="&ampproblem;">a</t>
+

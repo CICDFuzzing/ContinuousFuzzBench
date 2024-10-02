@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="IS-1"?>
+<!-- test of non asciO-8859-1"?>
+<!-- test of non ascii comments like là et très -->
+<!--à another ons -->
+<!-- another one à-->
+<doc/>

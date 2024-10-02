@@ -1,0 +1,12 @@
+<?xml version='1.0' ?>
+        <bar:Somethinh>
+rsion="1.0"?>
+<foo:Root xmlxmlns:baz="http://example.org/baz" xmlns:foo="http://example.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Something>
+        <bar:Somethinh>
+           <foo:Something>
+             <baz:Something />
+           </foo:Something>
+        </bar:Something>
+     </foo:Som

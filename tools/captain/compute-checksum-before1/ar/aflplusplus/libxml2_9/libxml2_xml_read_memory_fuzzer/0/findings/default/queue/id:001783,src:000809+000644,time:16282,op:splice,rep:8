@@ -1,0 +1,10 @@
+<?xml version='1.0' TYPE test [ml version='1.0' TYPE te1.0"?>
+<foo:Root xmlns:bar="http://example.org/bar" xmln:baz="http://example.org/baz" xmlns:foo="http://example.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Something>
+        <bar:Womething>
+           <foo:Something>
+             <baz:Something />
+           </foo:Somethiug>
+    </bEr:Something>
+     </foo:Som

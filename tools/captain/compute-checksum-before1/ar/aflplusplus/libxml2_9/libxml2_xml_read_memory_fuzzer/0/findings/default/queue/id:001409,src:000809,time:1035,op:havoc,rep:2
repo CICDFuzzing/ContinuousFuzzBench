@@ -1,0 +1,7 @@
+<?xml version='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&amp;'>
+]>
+<t a="&ammpproblem '&amp;'>
+pproblem;">a</tersion>
+

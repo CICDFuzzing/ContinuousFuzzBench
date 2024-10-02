@@ -1,0 +1,6 @@
+<?xml vWrsion='1.0' ?>
+<£DOCTYEE test [
+<!ENTITY ampproblem '&amp;'>
+]>
+<t V="&ampproblem;">a</t>
+

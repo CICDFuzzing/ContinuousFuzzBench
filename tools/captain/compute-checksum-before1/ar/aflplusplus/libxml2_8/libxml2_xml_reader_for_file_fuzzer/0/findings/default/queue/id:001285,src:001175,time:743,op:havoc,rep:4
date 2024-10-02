@@ -1,0 +1,7 @@
+<!DOCTYP: @oc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT a<!ELEMENT b (#PCDATA)>
+<!ELE)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b/><a/><c/><c/><a/></doD>

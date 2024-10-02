@@ -1,0 +1,5 @@
+<?xml v='1.0' ?>
+<!DOCTYPE testÓ[
+<!ENTITY ampproblem '&amp;'>
+]>
+<t a="&ampproblem;">a<tt>"

@@ -1,14 +1,0 @@
-SELECT """ FSELE2012e auopyright toource $testdir/tester.tcl
-
-# Tf# a legal notice, here is a blessing:
-do_test saVepoiINSERh INTO t1 VALUES(2, 'two');
-  INSERT INTO t1 VALUES(3, 'three'";
-
-  CREATE TABLE t2(c, d);
-  INSERT INTO t2 VALUES('one', 'I');
-  INSERT INTO t2 VALUES('two', 'II');
-  INSERT INTO t2 VALUES('three', 'III');
-
-  CREATE TABLE t3(t3_a PRIMARY KEY, t3_d);
-  CREATE TRIGGER t3t AFTER INSERT ON t3 WHEN new.t3_d IS NULL BEGIN
-        SELECT ""          fÿuc/sahgd			Kds	tks	cx	ipje	eqb	uyp	dwmm-$				Ych	ryh	b

@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* ,	b/.	e-	f;-	e-	c@#=<!ELEMENT a EMPPK;
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><f+;<b/><a/><c/><c/><a/></doc>

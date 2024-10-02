@@ -1,0 +1,6 @@
+<?xml version="1.0" encodhjr@!nhd.4*	=>
+<!DOCTYPE doc [
+ <!ENTITY newl "&#13;">
+]>
+
+<doc>&newl;</doc>

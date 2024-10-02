@@ -1,0 +1,5 @@
+PROGRAMS=(sqlite3_fuzz)
+
+PATCHES="SQL012"
+AUTOMATIC=1
+COMMIT_FILES=(src/pragma.c)

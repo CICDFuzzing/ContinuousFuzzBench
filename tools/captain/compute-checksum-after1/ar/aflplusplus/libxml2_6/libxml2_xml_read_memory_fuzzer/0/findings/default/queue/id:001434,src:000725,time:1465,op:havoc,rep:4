@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (isiG*)>
+<T isid myid ID #IMPLIED>
+]>
+<doc>
+<isid myid="dup"/>
+<isid myid="…oo"/>
+<isie myid="bar"/>
+</doc>

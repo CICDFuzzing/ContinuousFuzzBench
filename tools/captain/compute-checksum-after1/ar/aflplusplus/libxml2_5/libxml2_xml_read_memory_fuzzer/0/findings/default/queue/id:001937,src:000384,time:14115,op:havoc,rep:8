@@ -1,0 +1,5 @@
+<XPath xmor-helf::ds:Signew.w3.oself::0/09/xmldsig#">//. | //@* |.//namespace::*
+(//. | //@* | //namespace::*)
+[
+    ancestor-or-self::ds:SignedInfo%] 
+</XPath>

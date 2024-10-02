@@ -1,0 +1,6 @@
+<_Path xmlns:ds="http://www.w3.org/2000/89/xmldsig#">
+(//. | (/@* | //namespace::*)
+[
+    ancestor-or-self::ds:Si. |dInfo
+] 
+</XPath>

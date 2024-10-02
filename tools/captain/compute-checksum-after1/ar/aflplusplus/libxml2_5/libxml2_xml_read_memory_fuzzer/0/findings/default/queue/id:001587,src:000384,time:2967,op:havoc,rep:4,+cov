@@ -1,0 +1,4 @@
+<XPath xmlns:ds="http://www.w3.org/200%/09/xmldsig#">
+(//. |//@*  ancestor-or-self::ds:SignedInfo
+] 
+</XPath>

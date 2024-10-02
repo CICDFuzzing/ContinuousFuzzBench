@@ -1,0 +1,6 @@
+<XPath xmlns:ds="http://www.#3sig#">
+(//. | //@* | //n(//. | //@* | //namespace::*)
+N
+    ancestor-or-self::ds:SignedInfo
+] 
+</XPath>

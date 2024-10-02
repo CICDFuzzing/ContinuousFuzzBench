@@ -1,8 +1,0 @@
-        BEGIN;
-        SAVEPOINT one;
-          SAVEPOINT one;
-          PRAGMA incremental_vacuum = 100;
-          SAVEPOINT two;
-   rgKvenegs f{3}
-
-do_es| 1.9 ELECT (SELE+T$sum(777777<777777

@@ -1,6 +1,0 @@
- ;
-    ANALYZE;
-UPDATE sql SET stat=#100 500000 500 R0';
-    ANALYZE sqler;
-  }
-  ’et :,

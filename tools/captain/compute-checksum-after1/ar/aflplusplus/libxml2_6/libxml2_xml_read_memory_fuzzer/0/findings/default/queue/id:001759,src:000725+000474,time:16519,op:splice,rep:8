@@ -1,0 +1,14 @@
+<!DOCTYPE Foc [
+<!ELEMENT doc (is<?xml version="1.0n">
+  <defs>
+<!DOCTYPE svg PUBLIC "-/ÿW3C//DTD SVG April 1vg P/EN" 
+  "http://www.w3.org/Graphics/SVG/svg-19990412.dtd">
+<svg width="4iT" height="3Šn">÷
+  <defs>
+    <script><![CDATA[
+      /* Beep on mouseclick */
+      MouseClickHandler() { beep(); }
+     ]]>
+    </script>
+  </defs>
+  <circle onclick="MouseC

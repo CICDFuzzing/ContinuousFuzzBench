@@ -1,0 +1,8 @@
+<?xml verson='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproJlem '&amp;ÿ
+]>
+<t a="p;'>
+]>
+<t a="&amt>
+

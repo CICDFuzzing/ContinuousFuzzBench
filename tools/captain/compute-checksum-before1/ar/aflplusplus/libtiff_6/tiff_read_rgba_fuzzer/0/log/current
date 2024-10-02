@@ -1,0 +1,108 @@
+00000000004f0e70 W main
+[1;92m[+] [0mLoaded environment variable AFL_NO_UI with value 1[0m
+[1;92m[+] [0mLoaded environment variable AFL_SKIP_CPUFREQ with value 1[0m
+[1;92m[+] [0mLoaded environment variable AFL_NO_AFFINITY with value 1[0m
+[1;93m[!] [1;97mWARNING: [0mMistyped AFL environment variable: AFL_DRIVER_DONT_DEFER=1[0m
+[0;36mafl-fuzz++3.14a[0m based on afl by Michal Zalewski and a large online community
+[1;92m[+] [0mafl++ is maintained by Marc "van Hauser" Heuse, Heiko "hexcoder" Eißfeldt, Andrea Fioraldi and Dominik Maier[0m
+[1;92m[+] [0mafl++ is open source, get it at https://github.com/AFLplusplus/AFLplusplus[0m
+[1;92m[+] [0mNOTE: This is v3.x which changes defaults and behaviours - see README.md[0m
+[1;92m[+] [0mNo -M/-S set, autoconfiguring for "-S default"[0m
+[1;94m[*] [0mGetting to work...[0m
+[1;92m[+] [0mUsing exponential power schedule (FAST)[0m
+[1;92m[+] [0mCmpLog level: 2[0m
+[1;92m[+] [0mEnabled testcache with 50 MB[0m
+[1;92m[+] [0mDisabling the UI because AFL_NO_UI is set.[0m
+[1;94m[*] [0mChecking core_pattern...[0m
+[1;92m[+] [0mYou have 64 CPU cores and 1 runnable tasks (utilization: 2%).[0m
+[1;92m[+] [0mTry parallel jobs - see docs/parallel_fuzzing.md.[0m
+[1;94m[*] [0mSetting up output directories...[0m
+[1;93m[!] [1;97mWARNING: [0mNot binding to a CPU core (AFL_NO_AFFINITY set).[0m
+[1;94m[*] [0mScanning '/magma/targets/libtiff_6/corpus/tiff_read_rgba_fuzzer'...[0m
+[1;92m[+] [0mLoaded a total of 21 seeds.[0m
+[1;94m[*] [0mCreating hard links for all input files...[0m
+[1;94m[*] [0mValidating target binary...[0m
+[1;92m[+] [0m[1;95mDeferred forkserver binary detected.[0m
+[1;94m[*] [0mValidating target binary...[0m
+[1;92m[+] [0m[1;95mDeferred forkserver binary detected.[0m
+[1;94m[*] [0mSpinning up the fork server...[0m
+[1;92m[+] [0mAll right - fork server is up.[0m
+[1;94m[*] [0mTarget map size: 9984[0m
+[1;94m[*] [0mSpawning cmplog forkserver[0m
+[1;94m[*] [0mSpinning up the fork server...[0m
+[1;92m[+] [0mAll right - fork server is up.[0m
+[1;94m[*] [0mTarget map size: 11911[0m
+[1;92m[+] [0mCmplog forkserver successfully started[0m
+[1;94m[*] [0mNo auto-generated dictionary tokens to reuse.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000000,time:0,orig:not_kitty.tiff'...[0m
+[1;90m    len = 448, map size = 595, exec speed = 524 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000001,time:0,orig:99.tif'...[0m
+[1;90m    len = 12424, map size = 513, exec speed = 574 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000002,time:0,orig:97.tif'...[0m
+[1;90m    len = 11250, map size = 515, exec speed = 564 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000003,time:0,orig:93.tif'...[0m
+[1;90m    len = 14640, map size = 515, exec speed = 594 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000004,time:0,orig:88.tif'...[0m
+[1;90m    len = 8226, map size = 514, exec speed = 597 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000005,time:0,orig:84.tif'...[0m
+[1;90m    len = 14436, map size = 513, exec speed = 578 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000006,time:0,orig:73.tif'...[0m
+[1;90m    len = 9782, map size = 515, exec speed = 564 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000007,time:0,orig:7.tif'...[0m
+[1;90m    len = 1984, map size = 512, exec speed = 601 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000008,time:0,orig:67.tif'...[0m
+[1;90m    len = 14690, map size = 512, exec speed = 571 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000009,time:0,orig:64.tif'...[0m
+[1;90m    len = 14688, map size = 507, exec speed = 569 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000010,time:0,orig:6.tif'...[0m
+[1;90m    len = 6466, map size = 508, exec speed = 565 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000011,time:0,orig:56.tif'...[0m
+[1;90m    len = 6430, map size = 517, exec speed = 595 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000012,time:0,orig:54.tif'...[0m
+[1;90m    len = 9782, map size = 515, exec speed = 566 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000013,time:0,orig:51.tif'...[0m
+[1;90m    len = 14124, map size = 515, exec speed = 567 us
+[0m[1;94m[*] [0mAttempting dry run with 'id:000014,time:0,orig:44.tif'...[0m
+[1;90m    len = 6960, map size = 514, exec speed = 545 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000015,time:0,orig:40.tif'...[0m
+[1;90m    len = 7472, map size = 512, exec speed = 555 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000016,time:0,orig:38.tif'...[0m
+[1;90m    len = 6794, map size = 510, exec speed = 539 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000017,time:0,orig:36.tif'...[0m
+[1;90m    len = 14018, map size = 507, exec speed = 572 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000018,time:0,orig:2.tif'...[0m
+[1;90m    len = 12658, map size = 508, exec speed = 566 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000019,time:0,orig:15.tif'...[0m
+[1;90m    len = 9600, map size = 514, exec speed = 570 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000020,time:0,orig:11.tif'...[0m
+[1;90m    len = 8390, map size = 512, exec speed = 570 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;92m[+] [0mAll test cases processed.[0m
+[1;93m[!] [1;97mWARNING: [0mSome test cases are big (14.3 kB) - see docs/perf_tips.md.[0m
+[1;93m[!] [1;97mWARNING: [0m[1;91mSome test cases look useless. Consider using a smaller set.[0m
+[1;93m[!] [1;97mWARNING: [0mYou have lots of input files; try starting small.[0m
+[1;92m[+] [0mHere are some useful stats:
+
+[1;90m    Test case count : [0m4 favored, 0 variable, 1 ignored, 21 total
+[1;90m       Bitmap range : [0m507 to 595 bits (average: 516.33 bits)
+[1;90m        Exec timing : [0m524 to 601 us (average: 569 us)
+[0m
+[1;94m[*] [0m-t option specified. We'll use an exec timeout of 10000 ms.[0m
+[1;92m[+] [0mAll set and ready to roll![0m
+[1;94m[*] [0mEntering queue cycle 1.[0m
+[1;94m[*] [0mFuzzing test case #0 (21 total, 0 uniq crashes found, perf_score=100, exec_us=524, hits=0, map=595)...[0m
+[1;94m[*] [0mFuzzing test case #192 (419 total, 0 uniq crashes found, perf_score=100, exec_us=467, hits=1, map=305)...[0m
+[?25h[1;91m
+
++++ Testing aborted by user +++
+[0m[1;92m[+] [0mWe're done here. Have a nice day!
+[0m

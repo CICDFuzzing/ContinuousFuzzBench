@@ -1,6 +1,0 @@
- 
-  CREATE TABLE t10(a UNIQUE PRIMARY KEY NOT NULL);
-}
-
-op_next_test notnull-6.1 "SW a IS ?" 1
-do_uses_op_next_tesAZ

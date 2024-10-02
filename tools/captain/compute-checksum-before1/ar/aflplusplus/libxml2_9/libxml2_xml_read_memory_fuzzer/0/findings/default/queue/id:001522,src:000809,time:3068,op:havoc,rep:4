@@ -1,0 +1,7 @@
+<?xKl version='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&amp;'>
+]>
+<t a=½&ampproble¾;PE test [
+<!ENTITY ampproblem">a</t>
+

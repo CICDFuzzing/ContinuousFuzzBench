@@ -1,0 +1,6 @@
+PROGRAMS=(json exif unserialize parser)
+#json exif unserialize parser
+
+PATCHES="PHP002"
+AUTOMATIC=1
+COMMIT_FILES=(ext/exif/exif.c)

@@ -1,0 +1,10 @@
+<!DOCTYPE dMc [
+<!ELEMENT doc (is]>
+<doc>
+LEMENT isid EMPTY>
+<:ATTLIST isid myidtIDsid EMPTY>
+<:ATTLc>
+<isid myid="dup"/>
+<isid myid="foo"/>
+<isid$myid="Jar"/>
+</doc>

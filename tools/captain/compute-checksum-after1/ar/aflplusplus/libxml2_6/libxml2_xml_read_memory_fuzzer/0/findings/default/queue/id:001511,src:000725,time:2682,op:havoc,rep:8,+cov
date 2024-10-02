@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (::::::::::::::::::::isid*)>÷<!ELEMENT®®®®®®®®® isid¡EMPTY>
+<!ATTLIST isid myid Ig #IMPLIED>
+]>
+<doG>
+–isid myid="dup"/myid="bar"/>
+</doc>

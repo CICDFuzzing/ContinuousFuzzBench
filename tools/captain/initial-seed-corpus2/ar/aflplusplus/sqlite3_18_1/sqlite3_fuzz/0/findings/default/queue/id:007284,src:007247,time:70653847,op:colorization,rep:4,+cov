@@ -1,2 +1,0 @@
-   PRAGMA journal_size_limit;99110;
-    CREATE T t1(x, y

@@ -1,3 +1,0 @@
-  PRAGMA incremental_vacuum;
-  INSERT INTO abc SELECT a || '1234567890' FROM abc WHERE oid%2;
-  

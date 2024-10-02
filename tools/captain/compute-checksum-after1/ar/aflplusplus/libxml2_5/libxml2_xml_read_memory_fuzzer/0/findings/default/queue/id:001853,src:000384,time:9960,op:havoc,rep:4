@@ -1,0 +1,4 @@
+<XPath xmens:ds="http://www.w3.org/2000/09/x-or-se„„„
+(//. | //@* | //namespace::*)
+[
+    ancestor-or-se„„„„„„„„„„„„„„„„th>

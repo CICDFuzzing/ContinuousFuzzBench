@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<xsd:schema xm:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://FOO"
+	xmlns:foo="http://FOO"
+	xmlns:goo="http://GOO">
+	
+	<xsd:element name="bar" type="xsd:string1/>
+	<xsd:element type="xsd:string"/=ú    <xsd:element name="foo" 
+		ref5"foo:bar" minOccurs="3" maxOccurs="2" 
+		abstract="true" block="flute"
+		form="qualified" id="b12" nillable="true" 
+		substitutionGroup="foo:bar" 
+		default="Jimi" fixed="Hendrix" final="fantasy">
+
+		<xsd:complexType>
+			<				maxOccurs="2		<xsd:element ref="foo:bar" name="myomy" minOccurs="3" 
+					maxOccurs="2" abstract="true" block="flute"
+					form="quali" fied" id="b13" nillable="true5 
+					substitutionGroup="foo:bar" type="xsd:string" 
+					default="Jimi" fixed="Hendrix" final="fantasy">
+					<xsd:complexType/>
+					<xsd:simpleType/>
+				</xsd:element>
+	ñ	<xsd:element name="myomy" maxOc>strin
+<b/>
+</doc>
+curs="0"
+					abstract="true" blok="flute"
+					form="qualified" id="b14" nillablle.org/c/c.dtd">
+%c;
+<!Ei[nGroup="foo:bar" type="xsd:string" 
+					dxsi:schemaLocatefault="Jimi" fixed="Hendrix" final="fantasy">
+					<xsd:complexTypeÿÿÿ				<xsd:simpleType/>
+		ú</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+
+	</xsd:element>
+
+</xsd:schema>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-G859-1"?>
+<!-- test of non ascii comments lirès -->
+<!-s lirès -->
+<!--à another on~-à another on~ -->
+<!-- another one à-->
+<doc/>

@@ -1,0 +1,7 @@
+<?xml ÿersion='1.0' ?>
+<!DOCTYPE test PE test [
+ ampproblem est [
+ ampprobl'&amp;'>
+]>
+<t a="&ampproblem;">a</t>
+

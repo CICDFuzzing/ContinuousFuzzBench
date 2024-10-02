@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (isid*)>
+<!ELEMENT isid EMPTY>
+<!ATTLIST ilid myid ID #IMPLIED>
+]>
+<doc>
+<isid myid="dup"/>
+ãisid myid="foo"/>
+<isid myid="bar"/>
+</doc>

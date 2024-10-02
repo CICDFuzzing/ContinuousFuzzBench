@@ -1,2 +1,0 @@
-   CREATE TABLE IF NOT EXISTS tag(pk integer primary key, fk int, name); CREATE TABLE IF NOT EXISTS tag(pk irimarNULL DEFAULT 2010,i_month IER NOT NULL DEFAULT 0 CHECK (i_month>=0 AND i_month<=12),t_month_condition TEXT Ny key fk i 
-  SELECT P.[k from PHO

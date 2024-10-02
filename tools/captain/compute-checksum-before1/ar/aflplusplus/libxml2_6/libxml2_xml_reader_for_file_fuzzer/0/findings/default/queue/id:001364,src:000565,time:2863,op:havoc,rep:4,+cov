@@ -1,0 +1,4 @@
+<x Umlns:xinclude="http://www.w3.org/2001/Xnclude">
+   <!-- Simple test of including a set of nodes from an XML document -->
+   <xinclude:/something.xml#xpointer(//p)"/>
+</x>

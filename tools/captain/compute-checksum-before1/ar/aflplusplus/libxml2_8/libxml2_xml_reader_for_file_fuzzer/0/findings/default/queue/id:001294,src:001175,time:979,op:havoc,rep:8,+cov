@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a@)>
+<!EŸEMENT a EMPTY>
+<!ELEMENT t (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+]>
+<doc><a/><b<!DOCTYPE DSB ]
+<!EPEMENW DOC ((/><a/><c/>*c/><a/></dÿ>

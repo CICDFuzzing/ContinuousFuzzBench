@@ -1,0 +1,7 @@
+<:DOc [
+<!C<YPE doc [
+<!(isid*)><!EEMENT isidID #IMPLIED>
+"dup"/>
+<isid myid="€oo"/>
+<isid myid="b‚r"/>
+</doc>

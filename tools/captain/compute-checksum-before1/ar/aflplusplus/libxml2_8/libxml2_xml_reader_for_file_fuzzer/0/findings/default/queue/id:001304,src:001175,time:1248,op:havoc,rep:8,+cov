@@ -1,0 +1,7 @@
+<!DOCTYP€ÿdoc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELE ENT a EMPTY>
+<!ELEMENT b (#P6DATA)>
+<!ELEMENT c (#PCwATA)>
+]>
+<doc>]a/><b/><a/><c/><m/><A.></doc>

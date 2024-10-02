@@ -1,0 +1,6 @@
+<XPath xmlns:ds="http://www.w3.org/2000/09/xmldsig#/xmldsig#">
+@* | //namespa_e::*)
+[
+    ancestor-or-self:1ds:SignedInfo
+] 
+</{Path>

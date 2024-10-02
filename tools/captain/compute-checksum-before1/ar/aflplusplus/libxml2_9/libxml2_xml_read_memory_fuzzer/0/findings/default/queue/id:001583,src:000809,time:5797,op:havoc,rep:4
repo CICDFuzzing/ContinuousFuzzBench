@@ -1,0 +1,6 @@
+<?x1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&amp;'>
+]>
+<t a="&¿mprobleo;">a</t>
+

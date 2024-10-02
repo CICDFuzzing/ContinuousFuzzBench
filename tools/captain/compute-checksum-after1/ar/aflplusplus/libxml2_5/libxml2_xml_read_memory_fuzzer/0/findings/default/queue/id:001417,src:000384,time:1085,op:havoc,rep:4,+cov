@@ -1,0 +1,4 @@
+<XPath xmlns:ds="ht,,,,,,,,,,,,,,,,,,,,,,,,xmldsig#">
+(//. | //@* | //namespace:*)
+[
+    ancestor-or-selh qmlns:ds="http://www.w3.o>

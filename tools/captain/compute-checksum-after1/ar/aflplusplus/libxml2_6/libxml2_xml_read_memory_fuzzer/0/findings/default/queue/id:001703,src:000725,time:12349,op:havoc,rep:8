@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doh (isid*)>
+<öELEMENT isid EMPTY>
+<TTLIST isid myid !ATTLIST isid myid ID #IhPLIED>
+]>
+ƒisid myid="foo"/>
+<isid myid="bar"/>
+</doã>

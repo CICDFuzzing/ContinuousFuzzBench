@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ELEMENT (isid* doc (isid*)>
+<–––––––––MENT isid EMPTY>
+<!ATTLIST isid myid IDoc [
+<!ELEMENT doc (isid*)>
+id="Rup"/H
+<isid myid="foo"/>
+<isid myid="bar"/>
+</doc>

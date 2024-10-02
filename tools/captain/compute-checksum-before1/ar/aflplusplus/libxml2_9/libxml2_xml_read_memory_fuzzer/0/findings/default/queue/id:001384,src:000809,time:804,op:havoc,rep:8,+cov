@@ -1,0 +1,6 @@
+<?xml version='1.0'C?>
+<!DOCTYPE test '[
+<!ENTITY amped’blem '&amp;'>
+]>
+<>
+

@@ -1,2 +1,0 @@
-SELECT  max( +b),
-         zqx(b+a) SELECT-2 ;R	-

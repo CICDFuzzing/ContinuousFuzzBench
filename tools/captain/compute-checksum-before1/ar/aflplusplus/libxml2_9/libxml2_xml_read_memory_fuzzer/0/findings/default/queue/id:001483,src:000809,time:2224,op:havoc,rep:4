@@ -1,0 +1,6 @@
+<?xml versÿon='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY alp…roblem '*amp;'>
+]>
+<t a="&ampproblem;">a</t>
+

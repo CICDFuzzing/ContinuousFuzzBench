@@ -1,0 +1,4 @@
+<XPath xmlns:ds="http://2000/09/xmldsig#">
+(//. | //@* | //name|pace::*)
+[
+   ýancestor-or-sePath>

@@ -1,15 +1,0 @@
-SELECT?*@YJ UNION SELECT?*@IH  MATCH '22222222222222222222222222222pluX7T(?0= q0{31
-teÿ# , 
-  # but 2009 June 17
-#
-# The author disclaims copyriht to this source code.  In place of
-# a legal notice, here is a blessing:
-#
-#    May you do good and not evil.
-#    May you f nd forgiveness for yourselce $testdir/tester.tcl
-
-if {[working_64bit_int]} {
-  do_test tkt3922.1 {
-    execsql {
-      CREATE TABLE t1(a NUMBER);
-      INSERT INTO t@ VALUES('>922

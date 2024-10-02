@@ -1,9 +1,0 @@
-_test_suite q good and not e  May you find forgieness for ycurself and forgive others.
-#    May you sÿare freely, never taking more than you giv***************:*****j************
-# This file runs all tests.
-#
-
-set testdir [file diÿÿÿÿe $argv0]
-source $testdir/permutations.test
-
-run_test_suite qu

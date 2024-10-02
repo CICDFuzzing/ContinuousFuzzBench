@@ -1,0 +1,6 @@
+<XPqtË xmlns:ds="_ttp://www.w3.org/2$00/09/xmldsig#">
+(//. space::*oçg/2000/09/)
+[
+    ancestor-or-self::ds:SignedInfo
+] 
+</XPath>

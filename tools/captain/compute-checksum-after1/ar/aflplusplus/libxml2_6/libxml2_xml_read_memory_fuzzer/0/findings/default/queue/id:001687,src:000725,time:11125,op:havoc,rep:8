@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (isiÎ*)>
+<!ELEMENT i’id EMPTY>
+<!AÔ<!ELEMENT doc (isid*)>isid myid="dup"/>
+<isidmyid=;foo"/>
+<isid myid="bar"/>
+</Woc>

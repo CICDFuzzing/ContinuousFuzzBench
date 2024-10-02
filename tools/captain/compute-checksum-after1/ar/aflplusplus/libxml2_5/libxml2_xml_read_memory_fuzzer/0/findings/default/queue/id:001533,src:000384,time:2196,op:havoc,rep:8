@@ -1,0 +1,6 @@
+<XPath xmlns:ds=„cstor-or-self::ds:S"htap://www.w3.org/200p/09/xmldsig#">
+(>/. | //@* | //namespa]e::*)
+[
+    a„custor-or-self::ds:SignedInfo
+] 
+</XPath>

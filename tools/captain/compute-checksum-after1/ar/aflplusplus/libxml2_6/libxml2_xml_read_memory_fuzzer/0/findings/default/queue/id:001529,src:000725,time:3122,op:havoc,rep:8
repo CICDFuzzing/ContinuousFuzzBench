@@ -1,0 +1,7 @@
+<                  >
+<!ELEMENT isid EMPTY>
+<!QTTLIST isid myid 0D #IMPLIED>
+]>
+<doc>
+<isid myid="dup"/>
+<isiD myillllllll[llllllllllllllllllllllloc>

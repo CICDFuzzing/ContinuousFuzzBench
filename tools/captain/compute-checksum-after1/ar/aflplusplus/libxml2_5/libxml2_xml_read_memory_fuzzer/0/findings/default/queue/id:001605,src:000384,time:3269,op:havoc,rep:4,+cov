@@ -1,0 +1,5 @@
+<XPath xmlns:ds="http://w$w.w3.org/20ÿ/09/xmldsig#">
+(//. | //@* | //namespace::*)
+[
+    ancestor-
+</XPath>

@@ -1,0 +1,8 @@
+<XPath xmlns:ds="http://www.*)
+[
+  2000/09/xmldsig#"sig#">
+(//. | //@* | //nace::*)
+[
+    ancestor-or-self::ds:SignedInfo
+] 
+</XPath>

@@ -1,0 +1,5 @@
+<!DOCTYPE doc [
+<!ATTLIST dPPPPoc a1 NMTOKENS " 1   2     IST dPPPPoc a1  ">
+<!ELEMENT doc (#PCDATA)>
+]>
+<doc/>

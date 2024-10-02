@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?ATA)>
+]>
+<doc><a/><b/><a/><cENT b (#PCDATA)>
+<!ELExENT c (#PCDATA)O
+]>
+<doc><a/><b/>ÿa/><c/><c/><a/></doc>

@@ -1,0 +1,6 @@
+<?xl version='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&aTp;'>
+]>
+<t a="&ampprob_em;">a</t>
+Š

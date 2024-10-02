@@ -1,0 +1,1309 @@
+[1;92m[+] [0mLoaded environment variable AFL_NO_UI with value 1[0m
+[1;92m[+] [0mLoaded environment variable AFL_SKIP_CPUFREQ with value 1[0m
+[1;92m[+] [0mLoaded environment variable AFL_NO_AFFINITY with value 1[0m
+[1;93m[!] [1;97mWARNING: [0mMistyped AFL environment variable: AFL_DRIVER_DONT_DEFER=1[0m
+[0;36mafl-fuzz++3.14a[0m based on afl by Michal Zalewski and a large online community
+[1;92m[+] [0mafl++ is maintained by Marc "van Hauser" Heuse, Heiko "hexcoder" Eißfeldt, Andrea Fioraldi and Dominik Maier[0m
+[1;92m[+] [0mafl++ is open source, get it at https://github.com/AFLplusplus/AFLplusplus[0m
+[1;92m[+] [0mNOTE: This is v3.x which changes defaults and behaviours - see README.md[0m
+[1;92m[+] [0mNo -M/-S set, autoconfiguring for "-S default"[0m
+[1;94m[*] [0mGetting to work...[0m
+[1;92m[+] [0mUsing exponential power schedule (FAST)[0m
+[1;92m[+] [0mCmpLog level: 2[0m
+[1;92m[+] [0mEnabled testcache with 50 MB[0m
+[1;92m[+] [0mDisabling the UI because AFL_NO_UI is set.[0m
+[1;94m[*] [0mChecking core_pattern...[0m
+[1;92m[+] [0mYou have 64 CPU cores and 2 runnable tasks (utilization: 3%).[0m
+[1;92m[+] [0mTry parallel jobs - see docs/parallel_fuzzing.md.[0m
+[1;94m[*] [0mSetting up output directories...[0m
+[1;93m[!] [1;97mWARNING: [0mNot binding to a CPU core (AFL_NO_AFFINITY set).[0m
+[1;94m[*] [0mScanning '/magma/targets/libsndfile_5/corpus/sndfile_fuzzer'...[0m
+[1;92m[+] [0mLoaded a total of 195 seeds.[0m
+[1;94m[*] [0mCreating hard links for all input files...[0m
+[1;94m[*] [0mValidating target binary...[0m
+[1;94m[*] [0mValidating target binary...[0m
+[1;94m[*] [0mSpinning up the fork server...[0m
+[1;92m[+] [0mAll right - fork server is up.[0m
+[1;94m[*] [0mTarget map size: 11202[0m
+[1;94m[*] [0mSpawning cmplog forkserver[0m
+[1;94m[*] [0mSpinning up the fork server...[0m
+[1;92m[+] [0mAll right - fork server is up.[0m
+[1;94m[*] [0mTarget map size: 13470[0m
+[1;92m[+] [0mCmplog forkserver successfully started[0m
+[1;94m[*] [0mNo auto-generated dictionary tokens to reuse.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000000,time:0,orig:wrt_short_twos.aifc'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 24648, map size = 193, exec speed = 970 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000001,time:0,orig:wrt_short_sowt.aifc'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 24648, map size = 193, exec speed = 940 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000002,time:0,orig:wrt_short.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 24630, map size = 189, exec speed = 978 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000003,time:0,orig:wrt_int_twos.aifc'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 49224, map size = 193, exec speed = 1039 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000004,time:0,orig:wrt_int_sowt.aifc'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 49224, map size = 193, exec speed = 1019 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000005,time:0,orig:wrt_int.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 49206, map size = 189, exec speed = 912 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000006,time:0,orig:wrt_float.aifc'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 49256, map size = 208, exec speed = 946 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000007,time:0,orig:wrt_empty_short.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 54, map size = 191, exec speed = 557 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000008,time:0,orig:wrt_empty_float.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 104, map size = 205, exec speed = 553 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000009,time:0,orig:wrt_empty_char.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 72, map size = 195, exec speed = 549 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000010,time:0,orig:wrt_dwvw24.aifc'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 17402, map size = 248, exec speed = 2239 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000011,time:0,orig:wrt_dwvw16.aifc'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 10580, map size = 243, exec speed = 1807 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000012,time:0,orig:wrt_double.aifc'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 98408, map size = 207, exec speed = 1112 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000013,time:0,orig:wrt_char_u8.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 12360, map size = 193, exec speed = 846 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000014,time:0,orig:wrt_char_s8.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 12342, map size = 189, exec speed = 853 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000015,time:0,orig:wrt_24bit_twos.aifc'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 36936, map size = 193, exec speed = 926 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000016,time:0,orig:wrt_24bit_sowt.aifc'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 36936, map size = 193, exec speed = 926 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000017,time:0,orig:wrt_24bit.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 36918, map size = 189, exec speed = 925 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000018,time:0,orig:vorbis_short.oga'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 3950, map size = 204, exec speed = 1322 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000019,time:0,orig:vorbis_seek.ogg'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 7318, map size = 193, exec speed = 3626 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000020,time:0,orig:vorbis_int.oga'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 3920, map size = 204, exec speed = 1357 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000021,time:0,orig:vorbis_float.oga'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 3920, map size = 204, exec speed = 1302 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000022,time:0,orig:vorbis_double.oga'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 3920, map size = 204, exec speed = 1304 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000023,time:0,orig:ulaw_test.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 256, map size = 112, exec speed = 542 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000024,time:0,orig:truncate.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 800, map size = 112, exec speed = 538 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000025,time:0,orig:truncate.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 424, map size = 132, exec speed = 555 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000026,time:0,orig:test.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 8244, map size = 207, exec speed = 11427 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000027,time:0,orig:subchunk_6400.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 6484, map size = 224, exec speed = 599 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000028,time:0,orig:subchunk_1600.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 1684, map size = 224, exec speed = 563 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000029,time:0,orig:subchunk_0400.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 484, map size = 224, exec speed = 575 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000030,time:0,orig:subchunk_0100.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 184, map size = 220, exec speed = 636 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000031,time:0,orig:short_flt.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 98328, map size = 139, exec speed = 1696 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000032,time:0,orig:short_dbl.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 196632, map size = 139, exec speed = 2116 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000033,time:0,orig:scale_clip_u8.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 8236, map size = 198, exec speed = 907 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000034,time:0,orig:scale_clip_s8.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 8216, map size = 138, exec speed = 941 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000035,time:0,orig:scale_clip_le32.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32792, map size = 138, exec speed = 1057 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000036,time:0,orig:scale_clip_le24.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 24600, map size = 138, exec speed = 983 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000037,time:0,orig:scale_clip_le16.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 16408, map size = 138, exec speed = 899 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000038,time:0,orig:scale_clip_be32.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32792, map size = 138, exec speed = 945 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000039,time:0,orig:scale_clip_be24.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 24600, map size = 138, exec speed = 967 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000040,time:0,orig:scale_clip_be16.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 16408, map size = 138, exec speed = 1045 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000041,time:0,orig:rw_peak.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 184, map size = 220, exec speed = 583 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000042,time:0,orig:rw.aifc'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 496, map size = 213, exec speed = 575 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000043,time:0,orig:rdwr_short.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 364, map size = 208, exec speed = 563 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000044,time:0,orig:rdwr_raw.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 204, map size = 208, exec speed = 575 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000045,time:0,orig:rdwr_int.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 684, map size = 208, exec speed = 565 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000046,time:0,orig:rdwr_float.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 696, map size = 208, exec speed = 553 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000047,time:0,orig:rdwr_double.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 1336, map size = 213, exec speed = 552 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000048,time:0,orig:q6_cmp_vorbis.oga'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 29693, map size = 205, exec speed = 5423 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000049,time:0,orig:q6_cmp_pcm16.flac'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 136626, map size = 177, exec speed = 6060 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000050,time:0,orig:q6_cmp_opus.opus'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 99563, map size = 240, exec speed = 9768 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000051,time:0,orig:q6_cmp_mpeg.mp3'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 19656, map size = 154, exec speed = 3889 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000052,time:0,orig:q3_cmp_vorbis.oga'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 22354, map size = 205, exec speed = 5168 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000053,time:0,orig:q3_cmp_pcm16.flac'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 135788, map size = 177, exec speed = 6147 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000054,time:0,orig:q3_cmp_opus.opus'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 52203, map size = 246, exec speed = 7832 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000055,time:0,orig:q3_cmp_mpeg.mp3'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 14112, map size = 154, exec speed = 3779 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000056,time:0,orig:posix.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 40, map size = 149, exec speed = 551 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000057,time:0,orig:pipe_in.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 24690, map size = 112, exec speed = 576 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000058,time:0,orig:peak_float.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 131144, map size = 195, exec speed = 1161 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000059,time:0,orig:pcm-u8.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 127, map size = 112, exec speed = 635 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000060,time:0,orig:pcm-s8.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 127, map size = 112, exec speed = 627 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000061,time:0,orig:ogg_opus_short.opus'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 1797, map size = 244, exec speed = 945 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000062,time:0,orig:ogg_opus_seek.opus'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 14126, map size = 253, exec speed = 4108 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000063,time:0,orig:ogg_opus_original_samplerate.opus'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 1797, map size = 244, exec speed = 940 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000064,time:0,orig:ogg_opus_int.opus'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 1797, map size = 244, exec speed = 938 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000065,time:0,orig:ogg_opus_float.opus'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 1797, map size = 244, exec speed = 944 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000066,time:0,orig:ogg_opus_double.opus'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 1797, map size = 244, exec speed = 1035 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000067,time:0,orig:offset.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 2048, map size = 112, exec speed = 563 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000068,time:0,orig:mpeg_short.mp3'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 1511, map size = 154, exec speed = 1008 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000069,time:0,orig:mpeg_seek.mp3'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 5697, map size = 139, exec speed = 2331 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000070,time:0,orig:mpeg_int.mp3'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 1511, map size = 154, exec speed = 1104 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000071,time:0,orig:mpeg_float.mp3'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 1511, map size = 154, exec speed = 1002 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000072,time:0,orig:mpeg_double.mp3'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 1511, map size = 154, exec speed = 994 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000073,time:0,orig:le-peak.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4088, map size = 112, exec speed = 552 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000074,time:0,orig:le-pcm32.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4096, map size = 112, exec speed = 564 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000075,time:0,orig:le-pcm24.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 3072, map size = 112, exec speed = 583 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000076,time:0,orig:le-pcm16.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 2048, map size = 112, exec speed = 656 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000077,time:0,orig:le-float.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 16384, map size = 112, exec speed = 583 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000078,time:0,orig:le-double.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32768, map size = 112, exec speed = 585 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000079,time:0,orig:lct_ulaw.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 8574, map size = 209, exec speed = 745 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000080,time:0,orig:lct_gsm610.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 3782, map size = 259, exec speed = 4789 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000081,time:0,orig:lct_alaw.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 8574, map size = 209, exec speed = 742 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000082,time:0,orig:large_free.caf'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 20512, map size = 207, exec speed = 638 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000083,time:0,orig:int_flt.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 98328, map size = 139, exec speed = 1501 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000084,time:0,orig:int_dbl.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 196632, map size = 139, exec speed = 1857 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000085,time:0,orig:instrument.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 2184, map size = 213, exec speed = 710 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000086,time:0,orig:headerless.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4044, map size = 192, exec speed = 654 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000087,time:0,orig:headerless.vox'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 1000, map size = 112, exec speed = 550 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000088,time:0,orig:headerless.snd'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 2000, map size = 112, exec speed = 537 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000089,time:0,orig:headerless.gsm'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 429, map size = 112, exec speed = 537 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000090,time:0,orig:headerless.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 2000, map size = 112, exec speed = 548 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000091,time:0,orig:header.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 6198, map size = 191, exec speed = 703 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000092,time:0,orig:fpt_vorbis.oga'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 3939, map size = 193, exec speed = 1460 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000093,time:0,orig:fpt_ulaw.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 8192, map size = 112, exec speed = 559 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000094,time:0,orig:fpt_replace_float.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32768, map size = 112, exec speed = 623 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000095,time:0,orig:fpt_replace_double.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 65536, map size = 112, exec speed = 741 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000096,time:0,orig:fpt_pcm_u8.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 8192, map size = 112, exec speed = 554 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000097,time:0,orig:fpt_pcm_s8.sds'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 17420, map size = 147, exec speed = 954 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000098,time:0,orig:fpt_pcm_s8.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 8192, map size = 112, exec speed = 564 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000099,time:0,orig:fpt_pcm_32.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32768, map size = 112, exec speed = 578 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000100,time:0,orig:fpt_pcm_24.sds'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 34819, map size = 148, exec speed = 1107 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000101,time:0,orig:fpt_pcm_24.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 24576, map size = 112, exec speed = 599 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000102,time:0,orig:fpt_pcm_16.sds'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 26056, map size = 136, exec speed = 1049 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000103,time:0,orig:fpt_pcm_16.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 16384, map size = 112, exec speed = 565 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000104,time:0,orig:fpt_opus.opus'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 2128, map size = 247, exec speed = 1157 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000105,time:0,orig:fpt_ms_adpcm.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4698, map size = 232, exec speed = 1093 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000106,time:0,orig:fpt_mpeg.mp3'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 1116, map size = 147, exec speed = 1089 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000107,time:0,orig:fpt_le_paf_24.paf'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 28288, map size = 147, exec speed = 1084 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000108,time:0,orig:fpt_ima_adpcm.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4668, map size = 224, exec speed = 1148 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000109,time:0,orig:fpt_gsm610.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 1716, map size = 112, exec speed = 544 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000110,time:0,orig:fpt_g723_40.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 5199, map size = 178, exec speed = 5841 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000111,time:0,orig:fpt_g723_24.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 3129, map size = 181, exec speed = 5629 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000112,time:0,orig:fpt_g721_32.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4164, map size = 173, exec speed = 5708 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000113,time:0,orig:fpt_float_short_little_replace.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32792, map size = 139, exec speed = 902 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000114,time:0,orig:fpt_float_short_little.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32792, map size = 139, exec speed = 827 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000115,time:0,orig:fpt_float_short_big_replace.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32792, map size = 139, exec speed = 927 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000116,time:0,orig:fpt_float_short_big.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32792, map size = 139, exec speed = 928 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000117,time:0,orig:fpt_float_int_little_replace.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32792, map size = 139, exec speed = 885 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000118,time:0,orig:fpt_float_int_little.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32792, map size = 139, exec speed = 894 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000119,time:0,orig:fpt_float_int_big_replace.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32792, map size = 139, exec speed = 938 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000120,time:0,orig:fpt_float_int_big.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32792, map size = 139, exec speed = 928 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000121,time:0,orig:fpt_float.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32768, map size = 112, exec speed = 600 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000122,time:0,orig:fpt_flac_8.flac'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 2528, map size = 157, exec speed = 1114 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000123,time:0,orig:fpt_flac_24.flac'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 9750, map size = 157, exec speed = 1155 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000124,time:0,orig:fpt_flac_16.flac'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4270, map size = 157, exec speed = 1232 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000125,time:0,orig:fpt_dwvw_24.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 17268, map size = 112, exec speed = 570 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000126,time:0,orig:fpt_dwvw_16.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 10465, map size = 112, exec speed = 557 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000127,time:0,orig:fpt_dwvw_12.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 7136, map size = 112, exec speed = 551 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000128,time:0,orig:fpt_dpcm_8.xi'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 8530, map size = 194, exec speed = 938 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000129,time:0,orig:fpt_dpcm_16.xi'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 16722, map size = 198, exec speed = 920 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000130,time:0,orig:fpt_double_short_little_replace.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 65560, map size = 139, exec speed = 981 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000131,time:0,orig:fpt_double_short_little.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 65560, map size = 139, exec speed = 1075 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000132,time:0,orig:fpt_double_short_big_replace.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 65560, map size = 139, exec speed = 1050 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000133,time:0,orig:fpt_double_short_big.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 65560, map size = 139, exec speed = 1059 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000134,time:0,orig:fpt_double_int_little_replace.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 65560, map size = 139, exec speed = 969 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000135,time:0,orig:fpt_double_int_little.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 65560, map size = 139, exec speed = 986 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000136,time:0,orig:fpt_double_int_big_replace.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 65560, map size = 139, exec speed = 1061 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000137,time:0,orig:fpt_double_int_big.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 65560, map size = 139, exec speed = 1082 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000138,time:0,orig:fpt_double.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 65536, map size = 112, exec speed = 733 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000139,time:0,orig:fpt_be_paf_24.paf'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 28288, map size = 151, exec speed = 1034 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000140,time:0,orig:fpt_alaw.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 8192, map size = 112, exec speed = 547 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000141,time:0,orig:fpt_alac_32.caf'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 20244, map size = 300, exec speed = 2373 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000142,time:0,orig:fpt_alac_24.caf'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 12052, map size = 300, exec speed = 2366 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000143,time:0,orig:fpt_alac_20.caf'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 6560, map size = 312, exec speed = 2263 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000144,time:0,orig:fpt_alac_16.caf'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 3860, map size = 298, exec speed = 2241 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000145,time:0,orig:fpt_adpcm.vox'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4096, map size = 112, exec speed = 563 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000146,time:0,orig:flt_short.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32792, map size = 139, exec speed = 962 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000147,time:0,orig:flt_int.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32792, map size = 139, exec speed = 941 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000148,time:0,orig:error_close.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 556, map size = 198, exec speed = 574 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000149,time:0,orig:dwvw24.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 26809, map size = 112, exec speed = 581 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000150,time:0,orig:dwvw16.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 16802, map size = 112, exec speed = 564 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000151,time:0,orig:dwvw12.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 11821, map size = 112, exec speed = 568 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000152,time:0,orig:default.profraw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 162712, map size = 112, exec speed = 843 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000153,time:0,orig:dbl_short.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 65560, map size = 139, exec speed = 1070 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000154,time:0,orig:dbl_int.au'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 65560, map size = 139, exec speed = 971 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000155,time:0,orig:current.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4140, map size = 198, exec speed = 654 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000156,time:0,orig:cue.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 62104, map size = 207, exec speed = 1514 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000157,time:0,orig:cue.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 38136, map size = 184, exec speed = 2705 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000158,time:0,orig:coding_history.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 2810, map size = 210, exec speed = 673 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000159,time:0,orig:coding_hist_size.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 3326, map size = 210, exec speed = 666 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000160,time:0,orig:cmp_vorbis_test.oga'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 3939, map size = 193, exec speed = 1419 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000161,time:0,orig:cmd_float.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 2048, map size = 112, exec speed = 546 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000162,time:0,orig:cmd_double.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 2048, map size = 112, exec speed = 540 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000163,time:0,orig:chunks_pcm16.wavex'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 184, map size = 226, exec speed = 563 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000164,time:0,orig:chunks_pcm16.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 148, map size = 207, exec speed = 560 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000165,time:0,orig:chunks_pcm16.rifx'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 148, map size = 207, exec speed = 556 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000166,time:0,orig:chunks_pcm16.rf64'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 208, map size = 230, exec speed = 589 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000167,time:0,orig:chunks_pcm16.caf'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4096, map size = 200, exec speed = 598 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000168,time:0,orig:chunks_pcm16.aiff'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 158, map size = 195, exec speed = 551 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000169,time:0,orig:chunks_alac.caf'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 272, map size = 246, exec speed = 649 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000170,time:0,orig:chanmap.wavex'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 2128, map size = 217, exec speed = 621 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000171,time:0,orig:chanmap.rf64'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 2152, map size = 227, exec speed = 676 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000172,time:0,orig:chanmap.caf'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 6144, map size = 210, exec speed = 640 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000173,time:0,orig:chanmap.aifc'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 2122, map size = 206, exec speed = 579 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000174,time:0,orig:chan_8.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4232, map size = 222, exec speed = 584 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000175,time:0,orig:chan_7.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4216, map size = 223, exec speed = 585 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000176,time:0,orig:chan_6.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4200, map size = 219, exec speed = 579 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000177,time:0,orig:chan_5.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4192, map size = 211, exec speed = 592 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000178,time:0,orig:chan_4.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4200, map size = 217, exec speed = 584 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000179,time:0,orig:chan_3.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4188, map size = 212, exec speed = 586 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000180,time:0,orig:chan_2.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4184, map size = 218, exec speed = 598 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000181,time:0,orig:chan_1.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4176, map size = 217, exec speed = 607 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000182,time:0,orig:cart.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 10124, map size = 193, exec speed = 714 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000183,time:0,orig:cart.rf64'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 10184, map size = 221, exec speed = 701 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000184,time:0,orig:broadcast.wavex'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 10160, map size = 213, exec speed = 689 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000185,time:0,orig:broadcast.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 10124, map size = 193, exec speed = 712 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000186,time:0,orig:broadcast.rf64'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 10184, map size = 221, exec speed = 794 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000187,time:0,orig:be-peak.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4088, map size = 112, exec speed = 547 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000188,time:0,orig:be-pcm32.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 4096, map size = 112, exec speed = 544 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000189,time:0,orig:be-pcm24.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 3072, map size = 112, exec speed = 552 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000190,time:0,orig:be-pcm16.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 2048, map size = 112, exec speed = 547 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000191,time:0,orig:be-float.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 16384, map size = 112, exec speed = 594 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000192,time:0,orig:be-double.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 32768, map size = 112, exec speed = 649 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000193,time:0,orig:bad_wav.wav'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 28, map size = 153, exec speed = 573 us
+[0m[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;94m[*] [0mAttempting dry run with 'id:000194,time:0,orig:alaw_test.raw'...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;90m    len = 256, map size = 112, exec speed = 643 us
+[0m[1;93m[!] [1;97mWARNING: [0mNo new instrumentation output, test case may be useless.[0m
+[1;93m[!] [1;97mWARNING: [0mInstrumentation output varies across runs.[0m
+[1;92m[+] [0mAll test cases processed.[0m
+[1;93m[!] [1;97mWARNING: [0m[1;91mSome test cases are huge (132 kB) - see docs/perf_tips.md![0m
+[1;93m[!] [1;97mWARNING: [0m[1;91mSome test cases look useless. Consider using a smaller set.[0m
+[1;93m[!] [1;97mWARNING: [0m[1;91mYou probably have far too many input files! Consider trimming down.[0m
+[1;92m[+] [0mHere are some useful stats:
+
+[1;90m    Test case count : [0m81 favored, 195 variable, 57 ignored, 195 total
+[1;90m       Bitmap range : [0m112 to 312 bits (average: 172.07 bits)
+[1;90m        Exec timing : [0m537 to 11.4k us (average: 1265 us)
+[0m
+[1;94m[*] [0m-t option specified. We'll use an exec timeout of 10000 ms.[0m
+[1;92m[+] [0mAll set and ready to roll![0m
+[1;94m[*] [0mEntering queue cycle 1.[0m
+[1;94m[*] [0mFuzzing test case #193 (195 total, 0 uniq crashes found, perf_score=150, exec_us=573, hits=0, map=153)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #205 (246 total, 0 uniq crashes found, perf_score=150, exec_us=552, hits=1, map=112)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #127 (248 total, 0 uniq crashes found, perf_score=150, exec_us=551, hits=0, map=112)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;94m[*] [0mFuzzing test case #202 (249 total, 0 uniq crashes found, perf_score=75, exec_us=534, hits=759, map=81)...[0m
+[1;94m[*] [0mFuzzing test case #128 (249 total, 0 uniq crashes found, perf_score=100, exec_us=938, hits=0, map=194)...[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[1;93m[!] [1;97mWARNING: [0minstability detected during calibration
+[0m
+[?25h[1;91m
+
++++ Testing aborted by user +++
+[0m[1;92m[+] [0mWe're done here. Have a nice day!
+[0m

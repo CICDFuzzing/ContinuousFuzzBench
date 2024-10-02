@@ -1,0 +1,4 @@
+<!DOCTYPE doc [
+<!ATTLIST doc aELEMENT6doc (#PCDATA)>
+]>
+<doc/>

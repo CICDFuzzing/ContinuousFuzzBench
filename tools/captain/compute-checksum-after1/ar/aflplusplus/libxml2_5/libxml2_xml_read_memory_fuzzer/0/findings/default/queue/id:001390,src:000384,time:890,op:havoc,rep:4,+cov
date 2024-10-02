@@ -1,0 +1,6 @@
+<XPator-or-self::ds:.w3.org/2000/09/xmldsig#">
+(//. | //#* | //namespace::*)
+[
+    ancestor-or-self::ds:SignedInf 
+] 
+</XPath>

@@ -1,3 +1,0 @@
-
-  SELECT name, coll, key FROM pragma_index_xinfo('t4');
-} {a noc

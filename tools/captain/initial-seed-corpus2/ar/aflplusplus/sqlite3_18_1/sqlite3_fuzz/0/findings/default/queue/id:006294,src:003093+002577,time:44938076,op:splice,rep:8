@@ -1,4 +1,0 @@
- PRAGMA page_size=1024;
-  PRAGMA cache_size=50;
-  BEGIN;
-  CREATE TABLE t1(a INTEGER PRIMA

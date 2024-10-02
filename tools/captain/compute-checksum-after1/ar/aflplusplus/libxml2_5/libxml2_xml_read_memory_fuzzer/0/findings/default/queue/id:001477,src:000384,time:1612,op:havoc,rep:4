@@ -1,0 +1,5 @@
+<XPath xmlns:ds="http://wnamespace::*)
+[
+    ancestor-or-self::Xs:SignedInfo
+] 
+</XPath>

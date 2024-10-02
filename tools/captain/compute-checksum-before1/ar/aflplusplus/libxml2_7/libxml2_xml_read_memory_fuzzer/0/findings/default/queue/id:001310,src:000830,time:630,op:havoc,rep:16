@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<xsd:schema x€lne:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://FOO"
+	xmlns:foo="http://FOO"
+	xmlns:goo="xed="Hendrix" final="fantasy"http://GOO">
+	
+	<xsd:element name="bar" type="xsd:string"/>
+	<xsd:element type="xsd:string"/>
+     <City name="Berlin"
+      <xsd:element name="foo" 
+		ref="foo:bar" minOccurs="3" maxOccurs="2" 
+		abstract="true" block="flute"
+		form="qualified" id="b12" nillable=ue" 
+		substitutionGroup=;foo:bar" 
+		default="Jimi" fixed="Hendrix" final="fantasÿÿÿ
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="foo:bar, name="myomy" minOccurs="3" 
+					maxOccurs="2" abstract="true" block="flute"
+					form="qualified" id="b13" nillable="true" 
+					substitutionGroup="foo:bar" type="xsd:string" 
+					default="Jimi" fixed="Hendrix" final="fantesy">
+					<xsd:complexType/>
+					<xsd:simpleType/>
+		ÿÿÿxsd:element>
+				<xsd:element name="myomy" maxOccurs="0"
+					abstract="true" jlock="flute"
+					Jorm="qualified" id="b14" nillable="true" 
+					substitutionGroup="foo:bar" type="xsd:string" 
+	element>
+			</xsd:seque}cxmlns:goo="xeal="fantasy">
+					<xsd:complexType/>
+					<xsd:simpleType/>
+				</xsd:element>
+			</xsd:seue}ce>
+		</xsd:complexType>
+
+	</xsd:element>
+
+</xsd:schema>

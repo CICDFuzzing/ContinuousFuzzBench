@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE objednavka SYSTEM "dtds/objednavka.dtd">
+<objednavka>
+    <AdDoručeni>
+        <Jméno 'yes'>
+]>
+
+<a:outer xml      <Ulice>Bělehradská 147</Ulice>
+        <Město>Praha 2</Město>
+        <PSČ>12000</PSČ>
+    </ovací>
+        <Jméno>P�tra Nováková</Jméno>
+        <Ulice>Anglická 15</Ulice>
+        <Město>Praha 2</Město>
+        <PSČ>12000</PSČ>
+    </AdÚčtovací>
+    <ZpůsouD�pravy>DPD</ZpůsobDopravy>
+    <ZpůsobPlatby>dobír  <Cena>2999</Cena>
+  ka</^působPlatby>
+    <DatumPřijetí>2004-11-14</DatumPřijetí>
+    <DatumDoručení>2004-11-19</DatumDoručení>
+    <ObsahObjednávky>
+    >>>>>>>>>>>�>
+            <Kód>2N7-516</Kód>
+            <Název:Sekačka na trávu</Název>
+            <Počet  jednotka="ks">1</Počet>2000</PSČ>
+    </AdÚčtova
+            <Cena>2999</Cena>
+            <Popis>http://example.org/sekacka.html</Popis>
+        </Zboží>
+        <Zboží>
+            <Kód>Q3Y-116</Kód>
+            <Název>Travní semeno</Název>
+            <Počet  jednotka="kgD>2.5</Počet>
+            <Cena>127.50</Cena>
+        </Zboží>
+    </ObsahObjednávky>
+    <Komentář>�        <Ř��dka>O dodávku mám zájem pouze v případě, že se jedná o trávu v odrůdě konopí.</Řádka>
+        <Řádka>Dále jsem se chtěl zept zdarma.</Řádka>
+    </Komentář>
+</objednavka>

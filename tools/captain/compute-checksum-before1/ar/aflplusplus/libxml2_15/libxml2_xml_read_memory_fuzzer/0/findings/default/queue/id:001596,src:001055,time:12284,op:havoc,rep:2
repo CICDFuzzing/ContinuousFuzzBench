@@ -1,0 +1,5 @@
+<!DOCTYPE doj [
+<!ATTLIST doc a1 NMTOKENS "EE   2       ">
+<!ELEMENT doc (#PCDATA)>
+]>
+<doc/>

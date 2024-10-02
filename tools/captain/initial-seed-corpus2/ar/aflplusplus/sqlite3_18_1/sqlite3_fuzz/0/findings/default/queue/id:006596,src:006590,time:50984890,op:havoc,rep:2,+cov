@@ -1,4 +1,0 @@
-c
-  UPDATE t1 SET (c,d) = (SELECT y$z F,d) = (SELECT y,z FROM t2 WHERE (w,x)=(X,b));
- t1Y a;
-} {

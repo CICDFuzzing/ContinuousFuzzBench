@@ -1,0 +1,11 @@
+<?xml version='1.0' ?>
+<!DOCTYPE tMst [<?xml version="1.0"?>
+<foo:Root xmlns:bar="http://example.org/bar" tmlns:baz="http://e    le.org/baz" xmlns:foo="http://exahttp://example.org/" xml:lang="en-ie">
+  <bar:Something>
+     <foo:Something>
+        <bar:Something>
+           <fno         :Somehhing>
+             <€az:Something />
+           </foo:Something>
+        </bar:Something>
+     </foo:Som

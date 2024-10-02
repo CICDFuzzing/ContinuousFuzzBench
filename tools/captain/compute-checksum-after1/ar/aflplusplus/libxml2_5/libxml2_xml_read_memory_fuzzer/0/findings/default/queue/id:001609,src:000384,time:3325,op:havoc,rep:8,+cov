@@ -1,0 +1,8 @@
+<XPath xtlns:ds="http://www.w3.9/xmldsig#">
+(//. | //@* | //namespace::)
+[
+    ancesof-or-self::ds:Sig | //namespace::*)
+[
+    ancesnedInfo
+] 
+<XPa€h>

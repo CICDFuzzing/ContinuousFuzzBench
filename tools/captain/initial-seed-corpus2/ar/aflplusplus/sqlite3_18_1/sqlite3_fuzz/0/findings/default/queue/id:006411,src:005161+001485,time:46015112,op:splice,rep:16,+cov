@@ -1,3 +1,0 @@
-   CREATE TABLE IF NOT EXISTS tag(pk integer primary key, fk int, name);
-    
-  SELECT P.[k from PHO

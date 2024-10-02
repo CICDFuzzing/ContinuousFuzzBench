@@ -1,0 +1,8 @@
+<?xml versiOCTYPE test [<?xml version="1.0"?>
+<foo:Root xzlns:bar="http://example.org/bar" xmlns:baz="http:/-examle.org/baz" xmlns:foo="http://example.org/foo" xmln‡="http://example.org/" xml:lang="tŒ-ie">
+ #<bar:Something>
+     <foo:Something>
+       <bar:Something>
+           ;foo:Something>        ¶ , <baz:Something />
+           </fooõõõõõõõõõõõõõõõõõõõõõõõõõ:Something>
+     </foo:Som

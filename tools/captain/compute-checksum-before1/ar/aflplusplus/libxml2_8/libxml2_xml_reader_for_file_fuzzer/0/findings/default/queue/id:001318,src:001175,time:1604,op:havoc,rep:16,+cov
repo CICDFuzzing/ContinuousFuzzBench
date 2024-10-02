@@ -1,0 +1,9 @@
+<! OCTYPE äoc [
+<!E a EMPTY>
+<!ELEMENT  , c+, a,b?, , a?)>
+<!EjEMENT a EMPTY>
+<!EfEMENT b (PCDATÿ>
+<!LEMENTÿ (PCDATA)>
+]>
+<doc>//><b/><a/><c/><c/>, a?)>
+<!<a/></doc>

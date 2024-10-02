@@ -1,0 +1,29 @@
+<!DOCTYPE
+
+
+
+
+
+
+
+
+
+ doc [
+<!ELEMENT doc (iSid*)>
+<!ELEMENT isid EMPTY>
+<!ATTLIST isid myid ID #IMPLIED>
+]>
+<doc>
+<isiÆ myid="dup"/>
+<isid myid="CTYPE
+
+
+
+
+
+
+
+
+
+ doc [
+<!ELEMENT 

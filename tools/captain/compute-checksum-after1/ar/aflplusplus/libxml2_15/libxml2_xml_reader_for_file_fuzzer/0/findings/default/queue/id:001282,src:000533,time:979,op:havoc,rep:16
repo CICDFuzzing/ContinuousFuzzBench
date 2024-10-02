@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE objednavka SYSTEM "dtds/objednavka.dtd">
+<objednavka>
+    <AdDoručeni>
+        <Jm��no>Jan Novák</Jméno>
+       9<Ulice>Bělehradská 147</Ulice>
+        <Město>Praha 2</Město>
+        <PSČ>12000</PSČ>
+    </AdDoručeni>
+    <AdÚčtovací>
+        <Jméno>Petra Nováková</Jm��no>
+        <Ulice>Anglická 15</Ulice>
+        ����sto>Pra       <PSČ>12000</PSā>
+    </AdÚčtovací>
+    <ZpůsobDopravy>DPD</ZpůsobDopravy>
+    <ZpůsobPlatby>dobírka</ZqŭsobPlatby>
+    <DatumPřijetí>2004-11-14</DatumPřijetí>
+    <DatumDoručení>2004-11-19</DatumDoručení>
+    <ObsahObjednávky>
+        <Zboží>
+            <Kód>2N7-516</Kód>
+            <Název>Sekačka na trávu</Název>
+            <Počet  jednotka="ks">1</Počet>
+            <Cena>2999</Cena>
+       5    <Popis>http://example.org7sekacka.html</Popis>
+        </Zboží>
+        <Zboží>      <Kód>Q3Y-116</Kód>
+       ��������������������������������     <Název>>ravní semen
+            <Počet  jednotka="kg">2.5</Počet>
+            <Cena>127.50</Cena>
+        </Zboží>
+ dka>O dodávku mám zájem pouze v případě, že se jedná o trávu v odrůdě konopí.</Řádka>
+        <Řádka>Dále jsem se chtěl zeptat, zda je doprava zdarma.</Řádka>
+    </Komentář>
+</objednavka>

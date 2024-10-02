@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Ã-- test of non ascii comments like là et très -->
+<!--à another onion="1.!-- another one à-->
+<doc/>

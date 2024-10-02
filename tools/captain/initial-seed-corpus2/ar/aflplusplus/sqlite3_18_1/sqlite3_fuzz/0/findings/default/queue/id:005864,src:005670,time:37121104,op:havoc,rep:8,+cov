@@ -1,4 +1,0 @@
-  PRAGMA temp.journal_mode;
-      PRAGMA aux1.jol_mode;
-   :}
-  } [list off [temp_journal_mode persi

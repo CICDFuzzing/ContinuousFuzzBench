@@ -1,0 +1,1273 @@
+++ id -u huicongh
+++ id -g huicongh
++ docker build -t magma/aflplusplus/libxml2_9 --build-arg fuzzer_name=aflplusplus --build-arg target_name=libxml2_9 --build-arg USER_ID=1002 --build-arg GROUP_ID=1002 --build-arg fixes=1 --build-arg isan=1 -f /home/huicongh/thesis/ContinuousFuzzBench/docker/Dockerfile /home/huicongh/thesis/ContinuousFuzzBench
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2.67kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:18.04
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 47B done
+#3 DONE 0.0s
+
+#4 [ 1/23] FROM docker.io/library/ubuntu:18.04@sha256:152dc042452c496007f07ca9127571cb9c29697f42acbfad72324b2bb2e43c98
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 12.69MB 0.5s done
+#5 DONE 0.5s
+
+#6 [ 5/23] RUN mkdir -p /magma_shared /magma_out && 	chown magma:magma /magma_shared /magma_out && 	chmod 744 /magma_shared /magma_out
+#6 CACHED
+
+#7 [ 4/23] RUN	ECHO "magma:amgam" | chpasswd && usermod -a -G sudo magma
+#7 CACHED
+
+#8 [15/23] RUN /magma/fuzzers/aflplusplus/preinstall.sh
+#8 CACHED
+
+#9 [ 7/23] RUN chown magma:magma /usr/local/
+#9 CACHED
+
+#10 [10/23] COPY --chown=magma:magma .//magma /magma/magma/
+#10 CACHED
+
+#11 [12/23] RUN /magma/magma/prebuild.sh
+#11 CACHED
+
+#12 [ 3/23] RUN mkdir -p /home && 	groupadd -g 1002 magma && 	useradd -l -u 1002 -K UMASK=0000 -d /home -g magma magma && 	chown magma:magma /home
+#12 CACHED
+
+#13 [16/23] RUN /magma/fuzzers/aflplusplus/fetch.sh
+#13 CACHED
+
+#14 [ 8/23] RUN mkdir -p /usr/lib/bfd-plugins/ && 	chown magma:magma /usr/lib/bfd-plugins/
+#14 CACHED
+
+#15 [11/23] RUN /magma/magma/preinstall.sh
+#15 CACHED
+
+#16 [13/23] RUN mkdir -p /magma/fuzzers/aflplusplus && chown magma:magma /magma/fuzzers/aflplusplus
+#16 CACHED
+
+#17 [ 9/23] RUN mkdir -p /magma/magma && chown magma:magma /magma/magma
+#17 CACHED
+
+#18 [ 6/23] RUN chown magma:magma /usr/include/
+#18 CACHED
+
+#19 [14/23] COPY --chown=magma:magma .//fuzzers/aflplusplus /magma/fuzzers/aflplusplus/
+#19 CACHED
+
+#20 [ 2/23] RUN apt-get update && apt-get install -y sudo vim
+#20 CACHED
+
+#21 [17/23] RUN /magma/fuzzers/aflplusplus/build.sh
+#21 CACHED
+
+#22 [18/23] RUN mkdir -p /magma/targets/libxml2_9 && chown magma:magma /magma/targets/libxml2_9
+#22 DONE 0.4s
+
+#23 [19/23] COPY --chown=magma:magma .//targets/libxml2_9 /magma/targets/libxml2_9/
+#23 DONE 0.6s
+
+#24 [20/23] RUN /magma/targets/libxml2_9/preinstall.sh
+#24 2.499 Hit:1 http://archive.ubuntu.com/ubuntu bionic InRelease
+#24 2.614 Hit:2 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+#24 2.743 Hit:3 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+#24 3.888 Hit:4 http://security.ubuntu.com/ubuntu bionic-security InRelease
+#24 4.014 Reading package lists...
+#24 4.884 Reading package lists...
+#24 5.710 Building dependency tree...
+#24 5.822 Reading state information...
+#24 5.912 make is already the newest version (4.1-9.1ubuntu1).
+#24 5.912 git is already the newest version (1:2.17.1-1ubuntu0.18).
+#24 5.912 The following additional packages will be installed:
+#24 5.912   autotools-dev libglib2.0-0 libglib2.0-data libicu60 libltdl-dev libltdl7
+#24 5.912   libsigsegv2 libxml2 m4 shared-mime-info xdg-user-dirs
+#24 5.913 Suggested packages:
+#24 5.913   autoconf-archive gnu-standards autoconf-doc gettext libtool-doc liblzma-doc
+#24 5.913   gfortran | fortran95-compiler gcj-jdk m4-doc
+#24 5.963 The following NEW packages will be installed:
+#24 5.963   autoconf automake autotools-dev libglib2.0-0 libglib2.0-data libicu60
+#24 5.963   libltdl-dev libltdl7 liblzma-dev libsigsegv2 libtool libxml2 m4 pkg-config
+#24 5.963   shared-mime-info xdg-user-dirs zlib1g-dev
+#24 12.92 0 upgraded, 17 newly installed, 0 to remove and 1 not upgraded.
+#24 12.92 Need to get 12.2 MB of archives.
+#24 12.92 After this operation, 48.8 MB of additional disk space will be used.
+#24 12.92 Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libglib2.0-0 amd64 2.56.4-0ubuntu0.18.04.9 [1169 kB]
+#24 13.88 Get:2 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libglib2.0-data all 2.56.4-0ubuntu0.18.04.9 [4728 B]
+#24 13.88 Get:3 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libicu60 amd64 60.2-3ubuntu3.2 [8050 kB]
+#24 14.37 Get:4 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libxml2 amd64 2.9.4+dfsg1-6.1ubuntu1.9 [663 kB]
+#24 14.38 Get:5 http://archive.ubuntu.com/ubuntu bionic/main amd64 shared-mime-info amd64 1.9-2 [426 kB]
+#24 14.39 Get:6 http://archive.ubuntu.com/ubuntu bionic/main amd64 xdg-user-dirs amd64 0.17-1ubuntu1 [48.0 kB]
+#24 14.40 Get:7 http://archive.ubuntu.com/ubuntu bionic/main amd64 libsigsegv2 amd64 2.12-1 [14.7 kB]
+#24 14.40 Get:8 http://archive.ubuntu.com/ubuntu bionic/main amd64 m4 amd64 1.4.18-1 [197 kB]
+#24 14.40 Get:9 http://archive.ubuntu.com/ubuntu bionic/main amd64 autoconf all 2.69-11 [322 kB]
+#24 14.41 Get:10 http://archive.ubuntu.com/ubuntu bionic/main amd64 autotools-dev all 20180224.1 [39.6 kB]
+#24 14.41 Get:11 http://archive.ubuntu.com/ubuntu bionic/main amd64 automake all 1:1.15.1-3ubuntu2 [509 kB]
+#24 14.43 Get:12 http://archive.ubuntu.com/ubuntu bionic/main amd64 libltdl7 amd64 2.4.6-2 [38.8 kB]
+#24 14.50 Get:13 http://archive.ubuntu.com/ubuntu bionic/main amd64 libltdl-dev amd64 2.4.6-2 [162 kB]
+#24 14.62 Get:14 http://archive.ubuntu.com/ubuntu bionic/main amd64 libtool all 2.4.6-2 [194 kB]
+#24 14.62 Get:15 http://archive.ubuntu.com/ubuntu bionic/main amd64 pkg-config amd64 0.29.1-0ubuntu2 [45.0 kB]
+#24 14.62 Get:16 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-0ubuntu2.2 [176 kB]
+#24 14.62 Get:17 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 liblzma-dev amd64 5.2.2-1.3ubuntu0.1 [145 kB]
+#24 14.75 debconf: delaying package configuration, since apt-utils is not installed
+#24 14.78 Fetched 12.2 MB in 9s (1411 kB/s)
+#24 14.81 Selecting previously unselected package libglib2.0-0:amd64.
+#24 14.81 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21629 files and directories currently installed.)
+#24 14.82 Preparing to unpack .../00-libglib2.0-0_2.56.4-0ubuntu0.18.04.9_amd64.deb ...
+#24 14.82 Unpacking libglib2.0-0:amd64 (2.56.4-0ubuntu0.18.04.9) ...
+#24 14.92 Selecting previously unselected package libglib2.0-data.
+#24 14.92 Preparing to unpack .../01-libglib2.0-data_2.56.4-0ubuntu0.18.04.9_all.deb ...
+#24 14.92 Unpacking libglib2.0-data (2.56.4-0ubuntu0.18.04.9) ...
+#24 14.95 Selecting previously unselected package libicu60:amd64.
+#24 14.95 Preparing to unpack .../02-libicu60_60.2-3ubuntu3.2_amd64.deb ...
+#24 14.95 Unpacking libicu60:amd64 (60.2-3ubuntu3.2) ...
+#24 15.52 Selecting previously unselected package libxml2:amd64.
+#24 15.52 Preparing to unpack .../03-libxml2_2.9.4+dfsg1-6.1ubuntu1.9_amd64.deb ...
+#24 15.53 Unpacking libxml2:amd64 (2.9.4+dfsg1-6.1ubuntu1.9) ...
+#24 15.59 Selecting previously unselected package shared-mime-info.
+#24 15.59 Preparing to unpack .../04-shared-mime-info_1.9-2_amd64.deb ...
+#24 15.60 Unpacking shared-mime-info (1.9-2) ...
+#24 15.65 Selecting previously unselected package xdg-user-dirs.
+#24 15.65 Preparing to unpack .../05-xdg-user-dirs_0.17-1ubuntu1_amd64.deb ...
+#24 15.66 Unpacking xdg-user-dirs (0.17-1ubuntu1) ...
+#24 15.71 Selecting previously unselected package libsigsegv2:amd64.
+#24 15.72 Preparing to unpack .../06-libsigsegv2_2.12-1_amd64.deb ...
+#24 15.72 Unpacking libsigsegv2:amd64 (2.12-1) ...
+#24 15.74 Selecting previously unselected package m4.
+#24 15.75 Preparing to unpack .../07-m4_1.4.18-1_amd64.deb ...
+#24 15.75 Unpacking m4 (1.4.18-1) ...
+#24 15.78 Selecting previously unselected package autoconf.
+#24 15.79 Preparing to unpack .../08-autoconf_2.69-11_all.deb ...
+#24 15.79 Unpacking autoconf (2.69-11) ...
+#24 15.83 Selecting previously unselected package autotools-dev.
+#24 15.83 Preparing to unpack .../09-autotools-dev_20180224.1_all.deb ...
+#24 15.84 Unpacking autotools-dev (20180224.1) ...
+#24 15.86 Selecting previously unselected package automake.
+#24 15.87 Preparing to unpack .../10-automake_1%3a1.15.1-3ubuntu2_all.deb ...
+#24 15.87 Unpacking automake (1:1.15.1-3ubuntu2) ...
+#24 15.93 Selecting previously unselected package libltdl7:amd64.
+#24 15.93 Preparing to unpack .../11-libltdl7_2.4.6-2_amd64.deb ...
+#24 15.93 Unpacking libltdl7:amd64 (2.4.6-2) ...
+#24 15.96 Selecting previously unselected package libltdl-dev:amd64.
+#24 15.96 Preparing to unpack .../12-libltdl-dev_2.4.6-2_amd64.deb ...
+#24 15.96 Unpacking libltdl-dev:amd64 (2.4.6-2) ...
+#24 16.00 Selecting previously unselected package libtool.
+#24 16.00 Preparing to unpack .../13-libtool_2.4.6-2_all.deb ...
+#24 16.00 Unpacking libtool (2.4.6-2) ...
+#24 16.04 Selecting previously unselected package pkg-config.
+#24 16.04 Preparing to unpack .../14-pkg-config_0.29.1-0ubuntu2_amd64.deb ...
+#24 16.04 Unpacking pkg-config (0.29.1-0ubuntu2) ...
+#24 16.07 Selecting previously unselected package zlib1g-dev:amd64.
+#24 16.07 Preparing to unpack .../15-zlib1g-dev_1%3a1.2.11.dfsg-0ubuntu2.2_amd64.deb ...
+#24 16.07 Unpacking zlib1g-dev:amd64 (1:1.2.11.dfsg-0ubuntu2.2) ...
+#24 16.11 Selecting previously unselected package liblzma-dev:amd64.
+#24 16.11 Preparing to unpack .../16-liblzma-dev_5.2.2-1.3ubuntu0.1_amd64.deb ...
+#24 16.11 Unpacking liblzma-dev:amd64 (5.2.2-1.3ubuntu0.1) ...
+#24 16.16 Setting up libicu60:amd64 (60.2-3ubuntu3.2) ...
+#24 16.16 Setting up libsigsegv2:amd64 (2.12-1) ...
+#24 16.17 Setting up libglib2.0-0:amd64 (2.56.4-0ubuntu0.18.04.9) ...
+#24 16.17 No schema files found: doing nothing.
+#24 16.18 Setting up m4 (1.4.18-1) ...
+#24 16.18 Setting up libxml2:amd64 (2.9.4+dfsg1-6.1ubuntu1.9) ...
+#24 16.18 Setting up pkg-config (0.29.1-0ubuntu2) ...
+#24 16.22 Setting up libglib2.0-data (2.56.4-0ubuntu0.18.04.9) ...
+#24 16.22 Setting up autotools-dev (20180224.1) ...
+#24 16.23 Setting up libltdl7:amd64 (2.4.6-2) ...
+#24 16.23 Setting up shared-mime-info (1.9-2) ...
+#24 16.93 Setting up liblzma-dev:amd64 (5.2.2-1.3ubuntu0.1) ...
+#24 16.94 Setting up xdg-user-dirs (0.17-1ubuntu1) ...
+#24 16.95 Setting up zlib1g-dev:amd64 (1:1.2.11.dfsg-0ubuntu2.2) ...
+#24 16.95 Setting up libtool (2.4.6-2) ...
+#24 16.95 Setting up libltdl-dev:amd64 (2.4.6-2) ...
+#24 16.96 Setting up autoconf (2.69-11) ...
+#24 16.96 Setting up automake (1:1.15.1-3ubuntu2) ...
+#24 16.97 update-alternatives: using /usr/bin/automake-1.15 to provide /usr/bin/automake (automake) in auto mode
+#24 16.97 update-alternatives: warning: skip creation of /usr/share/man/man1/automake.1.gz because associated file /usr/share/man/man1/automake-1.15.1.gz (of link group automake) doesn't exist
+#24 16.97 update-alternatives: warning: skip creation of /usr/share/man/man1/aclocal.1.gz because associated file /usr/share/man/man1/aclocal-1.15.1.gz (of link group automake) doesn't exist
+#24 16.97 Processing triggers for libc-bin (2.27-3ubuntu1.6) ...
+#24 DONE 17.3s
+
+#25 [21/23] RUN /magma/targets/libxml2_9/fetch.sh
+#25 0.227 Cloning into '/magma/targets/libxml2_9/repo'...
+#25 7.583 Note: checking out 'ec6e3efb06d7b15cf5a2328fabd3845acea4c815'.
+#25 7.583 
+#25 7.583 You are in 'detached HEAD' state. You can look around, make experimental
+#25 7.583 changes and commit them, and you can discard any commits you make in this
+#25 7.583 state without impacting any branches by performing another checkout.
+#25 7.583 
+#25 7.583 If you want to create a new branch to retain commits you create, you may
+#25 7.583 do so (now or later) by using -b with the checkout command again. Example:
+#25 7.583 
+#25 7.583   git checkout -b <new-branch-name>
+#25 7.583 
+#25 7.583 HEAD is now at ec6e3efb Patch to forbid epsilon-reduction of final states
+#25 DONE 7.9s
+
+#26 [22/23] RUN /magma/magma/apply_patches.sh
+#26 0.200 Applying /magma/targets/libxml2_9/patches/setup/libxml2.patch for setup
+#26 0.202 Hmm...  Looks like a unified diff to me...
+#26 0.202 The text leading up to this was:
+#26 0.202 --------------------------
+#26 0.202 |diff --git a/Makefile.am b/Makefile.am
+#26 0.202 |index 05d1671..75ea675 100644
+#26 0.202 |--- a/Makefile.am
+#26 0.202 |+++ b/Makefile.am
+#26 0.202 --------------------------
+#26 0.203 patching file Makefile.am
+#26 0.203 Using Plan A...
+#26 0.203 Hunk #1 succeeded at 8.
+#26 0.204 done
+#26 0.206 /magma/targets/libxml2_9/repo /
+#26 0.533 /
+#26 0.536 Applying /magma/targets/libxml2_9/patches/bugs/XML009.patch
+#26 0.539 patching file parser.c
+#26 0.540 Hunk #1 succeeded at 10432 (offset 102 lines).
+#26 DONE 0.6s
+
+#27 [23/23] RUN /magma/fuzzers/aflplusplus/instrument.sh
+#27 3.453 libtoolize: putting auxiliary files in '.'.
+#27 3.453 libtoolize: copying file './ltmain.sh'
+#27 3.493 libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+#27 3.493 libtoolize: copying file 'm4/libtool.m4'
+#27 3.525 libtoolize: copying file 'm4/ltoptions.m4'
+#27 3.557 libtoolize: copying file 'm4/ltsugar.m4'
+#27 3.590 libtoolize: copying file 'm4/ltversion.m4'
+#27 3.623 libtoolize: copying file 'm4/lt~obsolete.m4'
+#27 5.920 configure.ac:66: installing './compile'
+#27 5.923 configure.ac:13: installing './config.guess'
+#27 5.926 configure.ac:13: installing './config.sub'
+#27 5.929 configure.ac:58: installing './install-sh'
+#27 5.932 configure.ac:58: installing './missing'
+#27 5.988 Makefile.am: installing './depcomp'
+#27 6.491 checking whether to enable maintainer-specific portions of Makefiles... yes
+#27 6.505 checking build system type... x86_64-pc-linux-gnu
+#27 6.657 checking host system type... x86_64-pc-linux-gnu
+#27 6.667 extra=v2.9.12-13-gec6e3efb
+#27 6.667 checking for a BSD-compatible install... /usr/bin/install -c
+#27 6.681 checking whether build environment is sane... yes
+#27 6.697 checking for a thread-safe mkdir -p... /bin/mkdir -p
+#27 6.700 checking for gawk... no
+#27 6.701 checking for mawk... mawk
+#27 6.701 checking whether make sets $(MAKE)... yes
+#27 6.718 checking whether make supports nested variables... yes
+#27 6.732 checking whether make supports nested variables... (cached) yes
+#27 6.732 checking for gcc... /magma/fuzzers/aflplusplus/repo/afl-clang-fast
+#27 6.969 checking whether the C compiler works... yes
+#27 7.121 checking for C compiler default output file name... a.out
+#27 7.122 checking for suffix of executables... 
+#27 7.245 checking whether we are cross compiling... no
+#27 7.379 checking for suffix of object files... o
+#27 7.445 checking whether we are using the GNU C compiler... yes
+#27 7.525 checking whether /magma/fuzzers/aflplusplus/repo/afl-clang-fast accepts -g... yes
+#27 7.587 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast option to accept ISO C89... none needed
+#27 7.675 checking whether /magma/fuzzers/aflplusplus/repo/afl-clang-fast understands -c and -o together... yes
+#27 7.797 checking for style of include used by make... GNU
+#27 7.804 checking dependency style of /magma/fuzzers/aflplusplus/repo/afl-clang-fast... gcc3
+#27 7.889 checking whether ln -s works... yes
+#27 7.890 checking how to run the C preprocessor... /magma/fuzzers/aflplusplus/repo/afl-clang-fast -E
+#27 8.134 checking for mv... /bin/mv
+#27 8.135 checking for tar... /bin/tar
+#27 8.135 checking for perl... /usr/bin/perl
+#27 8.135 checking for wget... /usr/bin/wget
+#27 8.135 checking for xmllint... /usr/bin/xmllint
+#27 8.135 checking for xsltproc... /usr/bin/xsltproc
+#27 8.136 checking for pkg-config... /usr/bin/pkg-config
+#27 8.136 checking pkg-config is at least version 0.9.0... yes
+#27 8.140 checking how to print strings... printf
+#27 8.167 checking for a sed that does not truncate output... /bin/sed
+#27 8.174 checking for grep that handles long lines and -e... /bin/grep
+#27 8.178 checking for egrep... /bin/grep -E
+#27 8.180 checking for fgrep... /bin/grep -F
+#27 8.183 checking for ld used by /magma/fuzzers/aflplusplus/repo/afl-clang-fast... /usr/bin/ld
+#27 8.214 checking if the linker (/usr/bin/ld) is GNU ld... yes
+#27 8.218 checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm
+#27 8.218 checking the name lister (/usr/bin/nm) interface... BSD nm
+#27 8.288 checking the maximum length of command line arguments... 1572864
+#27 8.299 checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+#27 8.299 checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+#27 8.299 checking for /usr/bin/ld option to reload object files... -r
+#27 8.300 checking for objdump... objdump
+#27 8.300 checking how to recognize dependent libraries... pass_all
+#27 8.300 checking for dlltool... no
+#27 8.301 checking how to associate runtime and link libraries... printf %s\n
+#27 8.301 checking for archiver @FILE support... @
+#27 8.392 checking for strip... strip
+#27 8.392 checking for ranlib... /usr/bin/ranlib
+#27 8.392 checking command to parse /usr/bin/nm output from /magma/fuzzers/aflplusplus/repo/afl-clang-fast object... ok
+#27 8.615 checking for sysroot... no
+#27 8.615 checking for a working dd... /bin/dd
+#27 8.621 checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+#27 8.711 checking for mt... no
+#27 8.711 checking if : is a manifest tool... no
+#27 8.717 checking for ANSI C header files... yes
+#27 9.047 checking for sys/types.h... yes
+#27 9.124 checking for sys/stat.h... yes
+#27 9.222 checking for stdlib.h... yes
+#27 9.318 checking for string.h... yes
+#27 9.419 checking for memory.h... yes
+#27 9.518 checking for strings.h... yes
+#27 9.615 checking for inttypes.h... yes
+#27 9.714 checking for stdint.h... yes
+#27 9.787 checking for unistd.h... yes
+#27 9.879 checking for dlfcn.h... yes
+#27 9.991 checking for objdir... .libs
+#27 10.21 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -fno-rtti -fno-exceptions... yes
+#27 10.28 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast option to produce PIC... -fPIC -DPIC
+#27 10.28 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast PIC flag -fPIC -DPIC works... yes
+#27 10.36 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast static flag -static works... yes
+#27 10.49 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -c -o file.o... yes
+#27 10.59 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -c -o file.o... (cached) yes
+#27 10.59 checking whether the /magma/fuzzers/aflplusplus/repo/afl-clang-fast linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+#27 10.64 checking dynamic linker characteristics... GNU/Linux ld.so
+#27 10.87 checking how to hardcode library paths into programs... immediate
+#27 10.87 checking whether stripping libraries is possible... yes
+#27 10.87 checking if libtool supports shared libraries... yes
+#27 10.87 checking whether to build shared libraries... no
+#27 10.87 checking whether to build static libraries... yes
+#27 10.87 Checking zlib
+#27 10.87 checking for Z... yes
+#27 10.88 Checking lzma
+#27 10.88 checking for LZMA... yes
+#27 10.90 Checking headers
+#27 10.90 checking for dirent.h that defines DIR... yes
+#27 10.99 checking for library containing opendir... none required
+#27 11.12 checking for ANSI C header files... (cached) yes
+#27 11.12 checking fcntl.h usability... yes
+#27 11.22 checking fcntl.h presence... yes
+#27 11.28 checking for fcntl.h... yes
+#27 11.28 checking for unistd.h... (cached) yes
+#27 11.28 checking ctype.h usability... yes
+#27 11.35 checking ctype.h presence... yes
+#27 11.41 checking for ctype.h... yes
+#27 11.41 checking dirent.h usability... yes
+#27 11.48 checking dirent.h presence... yes
+#27 11.55 checking for dirent.h... yes
+#27 11.55 checking errno.h usability... yes
+#27 11.64 checking errno.h presence... yes
+#27 11.69 checking for errno.h... yes
+#27 11.69 checking malloc.h usability... yes
+#27 11.76 checking malloc.h presence... yes
+#27 11.81 checking for malloc.h... yes
+#27 11.82 checking stdarg.h usability... yes
+#27 11.88 checking stdarg.h presence... yes
+#27 11.94 checking for stdarg.h... yes
+#27 11.94 checking for sys/stat.h... (cached) yes
+#27 11.94 checking for sys/types.h... (cached) yes
+#27 11.94 checking for stdint.h... (cached) yes
+#27 11.95 checking for inttypes.h... (cached) yes
+#27 11.95 checking time.h usability... yes
+#27 12.02 checking time.h presence... yes
+#27 12.09 checking for time.h... yes
+#27 12.09 checking math.h usability... yes
+#27 12.18 checking math.h presence... yes
+#27 12.24 checking for math.h... yes
+#27 12.24 checking limits.h usability... yes
+#27 12.31 checking limits.h presence... yes
+#27 12.36 checking for limits.h... yes
+#27 12.36 checking float.h usability... yes
+#27 12.43 checking float.h presence... yes
+#27 12.48 checking for float.h... yes
+#27 12.48 checking for stdlib.h... (cached) yes
+#27 12.48 checking for sys/socket.h... yes
+#27 12.54 checking for netinet/in.h... yes
+#27 12.61 checking for arpa/inet.h... yes
+#27 12.67 checking netdb.h usability... yes
+#27 12.76 checking netdb.h presence... yes
+#27 12.81 checking for netdb.h... yes
+#27 12.82 checking sys/time.h usability... yes
+#27 12.88 checking sys/time.h presence... yes
+#27 12.94 checking for sys/time.h... yes
+#27 12.94 checking sys/select.h usability... yes
+#27 13.01 checking sys/select.h presence... yes
+#27 13.06 checking for sys/select.h... yes
+#27 13.06 checking poll.h usability... yes
+#27 13.13 checking poll.h presence... yes
+#27 13.20 checking for poll.h... yes
+#27 13.21 checking sys/mman.h usability... yes
+#27 13.27 checking sys/mman.h presence... yes
+#27 13.32 checking for sys/mman.h... yes
+#27 13.33 checking sys/timeb.h usability... yes
+#27 13.39 checking sys/timeb.h presence... yes
+#27 13.44 checking for sys/timeb.h... yes
+#27 13.45 checking signal.h usability... yes
+#27 13.53 checking signal.h presence... yes
+#27 13.59 checking for signal.h... yes
+#27 13.59 checking for arpa/nameser.h... yes
+#27 13.68 checking for resolv.h... yes
+#27 13.77 checking dl.h usability... no
+#27 13.84 checking dl.h presence... no
+#27 13.90 checking for dl.h... no
+#27 13.90 checking for dlfcn.h... (cached) yes
+#27 13.90 Checking types
+#27 13.90 checking for uint32_t... yes
+#27 13.97 Checking libraries
+#27 13.97 checking for strftime... yes
+#27 14.12 checking for strftime... (cached) yes
+#27 14.13 checking for localtime... yes
+#27 14.29 checking for gettimeofday... yes
+#27 14.45 checking for ftime... yes
+#27 14.61 checking for stat... yes
+#27 14.76 checking for signal... yes
+#27 14.93 checking for rand... yes
+#27 15.05 checking for rand_r... yes
+#27 15.18 checking for srand... yes
+#27 15.33 checking for time... yes
+#27 15.45 checking for isascii... yes
+#27 15.57 checking for mmap... yes
+#27 15.74 checking for munmap... yes
+#27 15.88 checking for putenv... yes
+#27 16.01 checking for va_copy... yes
+#27 16.12 checking whether va_list is an array type... yes
+#27 16.28 checking for library containing gethostent... none required
+#27 16.40 checking for library containing setsockopt... none required
+#27 16.55 checking for library containing connect... none required
+#27 16.72 checking for type of socket length (socklen_t)... socklen_t *
+#27 16.92 checking for const gethostbyname() argument... yes
+#27 17.07 checking for const send() second argument... yes
+#27 17.18 checking whether __attribute__((destructor)) is accepted... yes
+#27 17.32 checking whether to enable IPv6... yes
+#27 17.41 checking struct sockaddr::ss_family... yes
+#27 17.47 checking for getaddrinfo... yes
+#27 17.56 checking for isnan... yes
+#27 17.70 checking for isinf... yes
+#27 17.82 checking for shl_load... no
+#27 17.92 checking for shl_load in -ldld... no
+#27 18.02 checking for dlopen... yes
+#27 18.12 Checking configuration requirements
+#27 18.12 Disabling multithreaded support
+#27 18.12 Disabling HTTP support
+#27 18.12 Enabled Schematron support
+#27 18.12 checking iconv.h usability... yes
+#27 18.18 checking iconv.h presence... yes
+#27 18.25 checking for iconv.h... yes
+#27 18.25 checking for iconv... yes
+#27 18.37 checking for iconv declaration... 
+#27 18.45 	extern size_t iconv (iconv_t cd,  char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+#27 18.45 Disabling ICU support
+#27 18.46 Enabled Schemas/Relax-NG support
+#27 18.46 checking for printf... yes
+#27 18.62 checking for sprintf... yes
+#27 18.76 checking for fprintf... yes
+#27 18.87 checking for snprintf... yes
+#27 19.00 checking for vfprintf... yes
+#27 19.16 checking for vsprintf... yes
+#27 19.30 checking for vsnprintf... yes
+#27 19.43 checking for sscanf... yes
+#27 19.56 Disabling code coverage for GCC
+#27 19.59 checking that generated files are newer than configure... done
+#27 19.59 configure: creating ./config.status
+#27 20.24 config.status: creating libxml2.spec
+#27 20.25 config.status: creating Makefile
+#27 20.27 config.status: creating include/Makefile
+#27 20.29 config.status: creating include/libxml/Makefile
+#27 20.31 config.status: creating doc/Makefile
+#27 20.32 config.status: creating doc/examples/Makefile
+#27 20.34 config.status: creating doc/devhelp/Makefile
+#27 20.36 config.status: creating example/Makefile
+#27 20.38 config.status: creating fuzz/Makefile
+#27 20.40 config.status: creating python/Makefile
+#27 20.42 config.status: creating python/tests/Makefile
+#27 20.44 config.status: creating xstc/Makefile
+#27 20.46 config.status: creating include/libxml/xmlversion.h
+#27 20.48 config.status: creating libxml-2.0.pc
+#27 20.49 config.status: creating libxml-2.0-uninstalled.pc
+#27 20.51 config.status: creating libxml2-config.cmake
+#27 20.52 config.status: creating python/setup.py
+#27 20.54 config.status: creating xml2-config
+#27 20.56 config.status: creating config.h
+#27 20.57 config.status: executing depfiles commands
+#27 20.98 config.status: executing libtool commands
+#27 20.99 Done configuring
+#27 21.02 
+#27 21.02 Now type 'make' to compile libxml2.
+#27 21.04 Making clean in include
+#27 21.04 make[1]: Entering directory '/magma/targets/libxml2_9/repo/include'
+#27 21.05 Making clean in libxml
+#27 21.05 make[2]: Entering directory '/magma/targets/libxml2_9/repo/include/libxml'
+#27 21.05 rm -rf .libs _libs
+#27 21.05 rm -f *.lo
+#27 21.05 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/include/libxml'
+#27 21.05 make[2]: Entering directory '/magma/targets/libxml2_9/repo/include'
+#27 21.05 rm -rf .libs _libs
+#27 21.05 rm -f *.lo
+#27 21.06 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/include'
+#27 21.06 make[1]: Leaving directory '/magma/targets/libxml2_9/repo/include'
+#27 21.06 Making clean in .
+#27 21.06 make[1]: Entering directory '/magma/targets/libxml2_9/repo'
+#27 21.07 test -z "runxmlconf.log test.out xml2Conf.sh *.gcda *.gcno *.res" || rm -f runxmlconf.log test.out xml2Conf.sh *.gcda *.gcno *.res
+#27 21.07 test -z "libxml2.la" || rm -f libxml2.la
+#27 21.07 rm -rf .libs _libs
+#27 21.07 test -z "testdso.la" || rm -f testdso.la
+#27 21.07 rm -f *.o
+#27 21.07 rm -f *.lo
+#27 21.07  rm -f xmllint xmlcatalog
+#27 21.07  rm -f testSchemas testRelax testSAX testHTML testXPath testURI testThreads testC14N testAutomata testRegexp testReader testapi testModule runtest runsuite testchar testdict runxmlconf testrecurse testlimits
+#27 21.07 rm -f ./so_locations
+#27 21.07 rm -f ./so_locations
+#27 21.08 make[1]: Leaving directory '/magma/targets/libxml2_9/repo'
+#27 21.08 Making clean in doc
+#27 21.08 make[1]: Entering directory '/magma/targets/libxml2_9/repo/doc'
+#27 21.08 Making clean in .
+#27 21.09 make[2]: Entering directory '/magma/targets/libxml2_9/repo/doc'
+#27 21.09 rm -rf .libs _libs
+#27 21.09 rm -f *~ *.bak *.hierarchy *.signals *-unused.txt
+#27 21.09 rm -f *.lo
+#27 21.09 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/doc'
+#27 21.09 Making clean in devhelp
+#27 21.09 make[2]: Entering directory '/magma/targets/libxml2_9/repo/doc/devhelp'
+#27 21.09 rm -rf .libs _libs
+#27 21.09 rm -f *.lo
+#27 21.10 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/doc/devhelp'
+#27 21.10 Making clean in examples
+#27 21.10 make[2]: Entering directory '/magma/targets/libxml2_9/repo/doc/examples'
+#27 21.10 test -z "*.tmp" || rm -f *.tmp
+#27 21.10 rm -rf .libs _libs
+#27 21.10 test -f Makefile.am || rm -f test?.xml
+#27 21.10 rm -f *.o
+#27 21.10 rm -f *.lo
+#27 21.10  rm -f io1 io2 parse1 parse2 parse3 parse4 reader1 reader2 reader3 reader4 testWriter tree1 tree2 xpath1 xpath2
+#27 21.10 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/doc/examples'
+#27 21.11 make[1]: Leaving directory '/magma/targets/libxml2_9/repo/doc'
+#27 21.11 Making clean in example
+#27 21.11 make[1]: Entering directory '/magma/targets/libxml2_9/repo/example'
+#27 21.11 rm -rf .libs _libs
+#27 21.11 rm -f *.o
+#27 21.11 rm -f *.lo
+#27 21.11  rm -f gjobread
+#27 21.11 make[1]: Leaving directory '/magma/targets/libxml2_9/repo/example'
+#27 21.11 Making clean in fuzz
+#27 21.12 make[1]: Entering directory '/magma/targets/libxml2_9/repo/fuzz'
+#27 21.12 test -z "genSeed html regexp schema uri xml xpath" || rm -f genSeed html regexp schema uri xml xpath
+#27 21.12 rm -rf .libs _libs
+#27 21.12 rm -f *.o
+#27 21.12 rm -f *.lo
+#27 21.12  rm -f testFuzzer
+#27 21.12 make[1]: Leaving directory '/magma/targets/libxml2_9/repo/fuzz'
+#27 21.12 Making clean in xstc
+#27 21.12 make[1]: Entering directory '/magma/targets/libxml2_9/repo/xstc'
+#27 21.12 test -z "nist-test.py ms-test.py sun-test.py test.log" || rm -f nist-test.py ms-test.py sun-test.py test.log
+#27 21.12 rm -rf .libs _libs
+#27 21.12 rm -f *.lo
+#27 21.13 make[1]: Leaving directory '/magma/targets/libxml2_9/repo/xstc'
+#27 21.14 make  all-recursive
+#27 21.14 make[1]: Entering directory '/magma/targets/libxml2_9/repo'
+#27 21.15 Making all in include
+#27 21.15 make[2]: Entering directory '/magma/targets/libxml2_9/repo/include'
+#27 21.16 Making all in libxml
+#27 21.16 make[3]: Entering directory '/magma/targets/libxml2_9/repo/include/libxml'
+#27 21.16 make[3]: Nothing to be done for 'all'.
+#27 21.16 make[3]: Leaving directory '/magma/targets/libxml2_9/repo/include/libxml'
+#27 21.16 make[3]: Entering directory '/magma/targets/libxml2_9/repo/include'
+#27 21.16 make[3]: Nothing to be done for 'all-am'.
+#27 21.16 make[3]: Leaving directory '/magma/targets/libxml2_9/repo/include'
+#27 21.16 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/include'
+#27 21.16 Making all in .
+#27 21.17 make[2]: Entering directory '/magma/targets/libxml2_9/repo'
+#27 21.17   CC       SAX.lo
+#27 21.17   CC       entities.lo
+#27 21.17   CC       encoding.lo
+#27 21.17   CC       error.lo
+#27 21.17   CC       parserInternals.lo
+#27 21.17   CC       parser.lo
+#27 21.18   CC       hash.lo
+#27 21.18   CC       xmlIO.lo
+#27 21.18   CC       list.lo
+#27 21.18   CC       xmlmemory.lo
+#27 21.18   CC       uri.lo
+#27 21.18   CC       tree.lo
+#27 21.18   CC       valid.lo
+#27 21.18   CC       xlink.lo
+#27 21.18   CC       HTMLparser.lo
+#27 21.18   CC       HTMLtree.lo
+#27 21.18   CC       debugXML.lo
+#27 21.18   CC       xpointer.lo
+#27 21.18   CC       xpath.lo
+#27 21.18   CC       xinclude.lo
+#27 21.18   CC       nanoftp.lo
+#27 21.18   CC       nanohttp.lo
+#27 21.18   CC       catalog.lo
+#27 21.18   CC       globals.lo
+#27 21.18   CC       threads.lo
+#27 21.18   CC       c14n.lo
+#27 21.18   CC       xmlstring.lo
+#27 21.18   CC       buf.lo
+#27 21.18   CC       xmlregexp.lo
+#27 21.18   CC       xmlschemas.lo
+#27 21.18   CC       xmlschemastypes.lo
+#27 21.18   CC       xmlunicode.lo
+#27 21.19   CC       xmlreader.lo
+#27 21.19   CC       relaxng.lo
+#27 21.19   CC       dict.lo
+#27 21.19   CC       SAX2.lo
+#27 21.19   CC       xmlwriter.lo
+#27 21.19   CC       legacy.lo
+#27 21.19   CC       chvalid.lo
+#27 21.19   CC       pattern.lo
+#27 21.19   CC       xmlsave.lo
+#27 21.19   CC       xmlmodule.lo
+#27 21.19   CC       schematron.lo
+#27 21.19 sed -e 's?\@XML_LIBDIR\@?-L/usr/local/lib?g' \
+#27 21.19     -e 's?\@XML_INCLUDEDIR\@?-I/usr/local/include/libxml2?g' \
+#27 21.19     -e 's?\@VERSION\@?2.9.12?g' \
+#27 21.19     -e 's?\@XML_LIBS\@?-lxml2?g' \
+#27 21.19     -e 's?\@XML_PRIVATE_LIBS\@?-lz -llzma    -lm -l:magma.o -lrt -lc++ -lc++abi /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a?g' \
+#27 21.19        < ./xml2Conf.sh.in > xml2Conf.tmp \
+#27 21.19 && mv xml2Conf.tmp xml2Conf.sh
+#27 21.19   CC       xzlib.lo
+#27 21.19   CC       testdso.lo
+#27 21.19   CC       xmlcatalog.o
+#27 21.19   CC       xmllint.o
+#27 21.31 xmlIO.c:3809:36: warning: unused parameter 'ctxt' [-Wunused-parameter]
+#27 21.31 xmlCheckHTTPInput(xmlParserCtxtPtr ctxt, xmlParserInputPtr ret) {
+#27 21.31                                    ^
+#27 21.32 encoding.c:505:26: warning: cast from 'const unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+#27 21.32     unsigned short* in = (unsigned short*) inb;
+#27 21.32                          ^~~~~~~~~~~~~~~~~~~~~
+#27 21.32 encoding.c:592:27: warning: cast from 'unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+#27 21.32     unsigned short* out = (unsigned short*) outb;
+#27 21.32                           ^~~~~~~~~~~~~~~~~~~~~~
+#27 21.32 encoding.c:748:26: warning: cast from 'const unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+#27 21.32     unsigned short* in = (unsigned short*) inb;
+#27 21.32                          ^~~~~~~~~~~~~~~~~~~~~
+#27 21.32 encoding.c:834:27: warning: cast from 'unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+#27 21.32     unsigned short* out = (unsigned short*) outb;
+#27 21.32                           ^~~~~~~~~~~~~~~~~~~~~~
+#27 21.32   CCLD     testdso.la
+#27 21.36 1 warning generated.
+#27 21.39 4 warnings generated.
+#27 21.40 
+#27 21.40 *** Warning: Linking the shared library testdso.la against the
+#27 21.40 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 21.42 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 21.87   CCLD     libxml2.la
+#27 22.00 
+#27 22.00 *** Warning: Linking the shared library libxml2.la against the
+#27 22.00 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 22.02 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 22.18   CCLD     xmllint
+#27 22.18   CCLD     xmlcatalog
+#27 22.48 make[2]: Leaving directory '/magma/targets/libxml2_9/repo'
+#27 22.48 Making all in doc
+#27 22.49 make[2]: Entering directory '/magma/targets/libxml2_9/repo/doc'
+#27 22.49 Making all in .
+#27 22.50 make[3]: Entering directory '/magma/targets/libxml2_9/repo/doc'
+#27 22.50 make[3]: Nothing to be done for 'all-am'.
+#27 22.50 make[3]: Leaving directory '/magma/targets/libxml2_9/repo/doc'
+#27 22.50 Making all in devhelp
+#27 22.50 make[3]: Entering directory '/magma/targets/libxml2_9/repo/doc/devhelp'
+#27 22.50 make[3]: Nothing to be done for 'all'.
+#27 22.50 make[3]: Leaving directory '/magma/targets/libxml2_9/repo/doc/devhelp'
+#27 22.50 Making all in examples
+#27 22.51 make[3]: Entering directory '/magma/targets/libxml2_9/repo/doc/examples'
+#27 22.51 make[3]: Nothing to be done for 'all'.
+#27 22.51 make[3]: Leaving directory '/magma/targets/libxml2_9/repo/doc/examples'
+#27 22.51 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/doc'
+#27 22.51 Making all in example
+#27 22.51 make[2]: Entering directory '/magma/targets/libxml2_9/repo/example'
+#27 22.51 make[2]: Nothing to be done for 'all'.
+#27 22.51 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/example'
+#27 22.51 Making all in fuzz
+#27 22.51 make[2]: Entering directory '/magma/targets/libxml2_9/repo/fuzz'
+#27 22.51 make[2]: Nothing to be done for 'all'.
+#27 22.51 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/fuzz'
+#27 22.51 Making all in xstc
+#27 22.52 make[2]: Entering directory '/magma/targets/libxml2_9/repo/xstc'
+#27 22.52 make[2]: Nothing to be done for 'all'.
+#27 22.52 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/xstc'
+#27 22.52 make[1]: Leaving directory '/magma/targets/libxml2_9/repo'
+#27 23.71 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 23.71 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 23.77 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 23.77 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 26.64 libtoolize: putting auxiliary files in '.'.
+#27 26.64 libtoolize: copying file './ltmain.sh'
+#27 26.67 libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+#27 26.67 libtoolize: copying file 'm4/libtool.m4'
+#27 26.69 libtoolize: copying file 'm4/ltoptions.m4'
+#27 26.70 libtoolize: copying file 'm4/ltsugar.m4'
+#27 26.72 libtoolize: copying file 'm4/ltversion.m4'
+#27 26.73 libtoolize: copying file 'm4/lt~obsolete.m4'
+#27 28.76 configure.ac:66: installing './compile'
+#27 28.77 configure.ac:58: installing './missing'
+#27 28.82 Makefile.am: installing './depcomp'
+#27 29.28 checking whether to enable maintainer-specific portions of Makefiles... yes
+#27 29.29 checking build system type... x86_64-pc-linux-gnu
+#27 29.41 checking host system type... x86_64-pc-linux-gnu
+#27 29.42 extra=v2.9.12-13-gec6e3efb
+#27 29.42 checking for a BSD-compatible install... /usr/bin/install -c
+#27 29.43 checking whether build environment is sane... yes
+#27 29.44 checking for a thread-safe mkdir -p... /bin/mkdir -p
+#27 29.45 checking for gawk... no
+#27 29.45 checking for mawk... mawk
+#27 29.45 checking whether make sets $(MAKE)... yes
+#27 29.46 checking whether make supports nested variables... yes
+#27 29.47 checking whether make supports nested variables... (cached) yes
+#27 29.47 checking for gcc... /magma/fuzzers/aflplusplus/repo/afl-clang-fast
+#27 29.68 checking whether the C compiler works... yes
+#27 29.79 checking for C compiler default output file name... a.out
+#27 29.79 checking for suffix of executables... 
+#27 29.93 checking whether we are cross compiling... no
+#27 30.04 checking for suffix of object files... o
+#27 30.09 checking whether we are using the GNU C compiler... yes
+#27 30.18 checking whether /magma/fuzzers/aflplusplus/repo/afl-clang-fast accepts -g... yes
+#27 30.28 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast option to accept ISO C89... none needed
+#27 30.35 checking whether /magma/fuzzers/aflplusplus/repo/afl-clang-fast understands -c and -o together... yes
+#27 30.45 checking for style of include used by make... GNU
+#27 30.45 checking dependency style of /magma/fuzzers/aflplusplus/repo/afl-clang-fast... gcc3
+#27 30.52 checking whether ln -s works... yes
+#27 30.52 checking how to run the C preprocessor... /magma/fuzzers/aflplusplus/repo/afl-clang-fast -E
+#27 30.73 checking for mv... /bin/mv
+#27 30.73 checking for tar... /bin/tar
+#27 30.73 checking for perl... /usr/bin/perl
+#27 30.73 checking for wget... /usr/bin/wget
+#27 30.73 checking for xmllint... /usr/bin/xmllint
+#27 30.73 checking for xsltproc... /usr/bin/xsltproc
+#27 30.73 checking for pkg-config... /usr/bin/pkg-config
+#27 30.73 checking pkg-config is at least version 0.9.0... yes
+#27 30.73 checking how to print strings... printf
+#27 30.76 checking for a sed that does not truncate output... /bin/sed
+#27 30.76 checking for grep that handles long lines and -e... /bin/grep
+#27 30.76 checking for egrep... /bin/grep -E
+#27 30.77 checking for fgrep... /bin/grep -F
+#27 30.77 checking for ld used by /magma/fuzzers/aflplusplus/repo/afl-clang-fast... /usr/bin/ld
+#27 30.82 checking if the linker (/usr/bin/ld) is GNU ld... yes
+#27 30.82 checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm
+#27 30.82 checking the name lister (/usr/bin/nm) interface... BSD nm
+#27 30.87 checking the maximum length of command line arguments... 1572864
+#27 30.89 checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+#27 30.89 checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+#27 30.89 checking for /usr/bin/ld option to reload object files... -r
+#27 30.89 checking for objdump... objdump
+#27 30.89 checking how to recognize dependent libraries... pass_all
+#27 30.89 checking for dlltool... no
+#27 30.89 checking how to associate runtime and link libraries... printf %s\n
+#27 30.89 checking for archiver @FILE support... @
+#27 30.97 checking for strip... strip
+#27 30.97 checking for ranlib... /usr/bin/ranlib
+#27 30.97 checking command to parse /usr/bin/nm output from /magma/fuzzers/aflplusplus/repo/afl-clang-fast object... ok
+#27 31.16 checking for sysroot... no
+#27 31.16 checking for a working dd... /bin/dd
+#27 31.17 checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+#27 31.24 checking for mt... no
+#27 31.24 checking if : is a manifest tool... no
+#27 31.24 checking for ANSI C header files... yes
+#27 31.51 checking for sys/types.h... yes
+#27 31.58 checking for sys/stat.h... yes
+#27 31.64 checking for stdlib.h... yes
+#27 31.71 checking for string.h... yes
+#27 31.79 checking for memory.h... yes
+#27 31.85 checking for strings.h... yes
+#27 31.94 checking for inttypes.h... yes
+#27 32.02 checking for stdint.h... yes
+#27 32.13 checking for unistd.h... yes
+#27 32.21 checking for dlfcn.h... yes
+#27 32.29 checking for objdir... .libs
+#27 32.46 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -fno-rtti -fno-exceptions... yes
+#27 32.52 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast option to produce PIC... -fPIC -DPIC
+#27 32.52 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast PIC flag -fPIC -DPIC works... yes
+#27 32.59 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast static flag -static works... yes
+#27 32.72 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -c -o file.o... yes
+#27 32.80 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -c -o file.o... (cached) yes
+#27 32.80 checking whether the /magma/fuzzers/aflplusplus/repo/afl-clang-fast linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+#27 32.85 checking dynamic linker characteristics... GNU/Linux ld.so
+#27 33.04 checking how to hardcode library paths into programs... immediate
+#27 33.04 checking whether stripping libraries is possible... yes
+#27 33.04 checking if libtool supports shared libraries... yes
+#27 33.04 checking whether to build shared libraries... no
+#27 33.04 checking whether to build static libraries... yes
+#27 33.04 Checking zlib
+#27 33.04 checking for Z... yes
+#27 33.06 Checking lzma
+#27 33.06 checking for LZMA... yes
+#27 33.07 Checking headers
+#27 33.07 checking for dirent.h that defines DIR... yes
+#27 33.15 checking for library containing opendir... none required
+#27 33.28 checking for ANSI C header files... (cached) yes
+#27 33.28 checking fcntl.h usability... yes
+#27 33.36 checking fcntl.h presence... yes
+#27 33.42 checking for fcntl.h... yes
+#27 33.43 checking for unistd.h... (cached) yes
+#27 33.43 checking ctype.h usability... yes
+#27 33.51 checking ctype.h presence... yes
+#27 33.55 checking for ctype.h... yes
+#27 33.55 checking dirent.h usability... yes
+#27 33.61 checking dirent.h presence... yes
+#27 33.65 checking for dirent.h... yes
+#27 33.66 checking errno.h usability... yes
+#27 33.73 checking errno.h presence... yes
+#27 33.79 checking for errno.h... yes
+#27 33.79 checking malloc.h usability... yes
+#27 33.87 checking malloc.h presence... yes
+#27 33.91 checking for malloc.h... yes
+#27 33.92 checking stdarg.h usability... yes
+#27 33.97 checking stdarg.h presence... yes
+#27 34.01 checking for stdarg.h... yes
+#27 34.02 checking for sys/stat.h... (cached) yes
+#27 34.02 checking for sys/types.h... (cached) yes
+#27 34.02 checking for stdint.h... (cached) yes
+#27 34.02 checking for inttypes.h... (cached) yes
+#27 34.03 checking time.h usability... yes
+#27 34.08 checking time.h presence... yes
+#27 34.13 checking for time.h... yes
+#27 34.13 checking math.h usability... yes
+#27 34.23 checking math.h presence... yes
+#27 34.28 checking for math.h... yes
+#27 34.28 checking limits.h usability... yes
+#27 34.34 checking limits.h presence... yes
+#27 34.38 checking for limits.h... yes
+#27 34.38 checking float.h usability... yes
+#27 34.44 checking float.h presence... yes
+#27 34.50 checking for float.h... yes
+#27 34.50 checking for stdlib.h... (cached) yes
+#27 34.50 checking for sys/socket.h... yes
+#27 34.56 checking for netinet/in.h... yes
+#27 34.61 checking for arpa/inet.h... yes
+#27 34.68 checking netdb.h usability... yes
+#27 34.73 checking netdb.h presence... yes
+#27 34.78 checking for netdb.h... yes
+#27 34.78 checking sys/time.h usability... yes
+#27 34.86 checking sys/time.h presence... yes
+#27 34.94 checking for sys/time.h... yes
+#27 34.94 checking sys/select.h usability... yes
+#27 35.02 checking sys/select.h presence... yes
+#27 35.06 checking for sys/select.h... yes
+#27 35.06 checking poll.h usability... yes
+#27 35.11 checking poll.h presence... yes
+#27 35.16 checking for poll.h... yes
+#27 35.16 checking sys/mman.h usability... yes
+#27 35.24 checking sys/mman.h presence... yes
+#27 35.28 checking for sys/mman.h... yes
+#27 35.28 checking sys/timeb.h usability... yes
+#27 35.36 checking sys/timeb.h presence... yes
+#27 35.40 checking for sys/timeb.h... yes
+#27 35.40 checking signal.h usability... yes
+#27 35.46 checking signal.h presence... yes
+#27 35.50 checking for signal.h... yes
+#27 35.50 checking for arpa/nameser.h... yes
+#27 35.56 checking for resolv.h... yes
+#27 35.62 checking dl.h usability... no
+#27 35.68 checking dl.h presence... no
+#27 35.73 checking for dl.h... no
+#27 35.73 checking for dlfcn.h... (cached) yes
+#27 35.73 Checking types
+#27 35.73 checking for uint32_t... yes
+#27 35.79 Checking libraries
+#27 35.79 checking for strftime... yes
+#27 35.89 checking for strftime... (cached) yes
+#27 35.90 checking for localtime... yes
+#27 36.03 checking for gettimeofday... yes
+#27 36.13 checking for ftime... yes
+#27 36.28 checking for stat... yes
+#27 36.38 checking for signal... yes
+#27 36.51 checking for rand... yes
+#27 36.64 checking for rand_r... yes
+#27 36.78 checking for srand... yes
+#27 36.91 checking for time... yes
+#27 37.04 checking for isascii... yes
+#27 37.14 checking for mmap... yes
+#27 37.25 checking for munmap... yes
+#27 37.39 checking for putenv... yes
+#27 37.49 checking for va_copy... yes
+#27 37.61 checking whether va_list is an array type... yes
+#27 37.72 checking for library containing gethostent... none required
+#27 37.84 checking for library containing setsockopt... none required
+#27 37.96 checking for library containing connect... none required
+#27 38.07 checking for type of socket length (socklen_t)... socklen_t *
+#27 38.19 checking for const gethostbyname() argument... yes
+#27 38.29 checking for const send() second argument... yes
+#27 38.39 checking whether __attribute__((destructor)) is accepted... yes
+#27 38.52 checking whether to enable IPv6... yes
+#27 38.59 checking struct sockaddr::ss_family... yes
+#27 38.66 checking for getaddrinfo... yes
+#27 38.76 checking for isnan... yes
+#27 38.85 checking for isinf... yes
+#27 38.94 checking for shl_load... no
+#27 39.05 checking for shl_load in -ldld... no
+#27 39.11 checking for dlopen... yes
+#27 39.21 Checking configuration requirements
+#27 39.21 Disabling multithreaded support
+#27 39.21 Disabling HTTP support
+#27 39.21 Enabled Schematron support
+#27 39.21 checking iconv.h usability... yes
+#27 39.29 checking iconv.h presence... yes
+#27 39.35 checking for iconv.h... yes
+#27 39.35 checking for iconv... yes
+#27 39.45 checking for iconv declaration... 
+#27 39.55 	extern size_t iconv (iconv_t cd,  char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+#27 39.55 Disabling ICU support
+#27 39.55 Enabled Schemas/Relax-NG support
+#27 39.56 checking for printf... yes
+#27 39.68 checking for sprintf... yes
+#27 39.79 checking for fprintf... yes
+#27 39.92 checking for snprintf... yes
+#27 40.04 checking for vfprintf... yes
+#27 40.14 checking for vsprintf... yes
+#27 40.28 checking for vsnprintf... yes
+#27 40.43 checking for sscanf... yes
+#27 40.53 Disabling code coverage for GCC
+#27 40.56 checking that generated files are newer than configure... done
+#27 40.56 configure: creating ./config.status
+#27 41.19 config.status: creating libxml2.spec
+#27 41.20 config.status: creating Makefile
+#27 41.22 config.status: creating include/Makefile
+#27 41.24 config.status: creating include/libxml/Makefile
+#27 41.25 config.status: creating doc/Makefile
+#27 41.27 config.status: creating doc/examples/Makefile
+#27 41.29 config.status: creating doc/devhelp/Makefile
+#27 41.31 config.status: creating example/Makefile
+#27 41.33 config.status: creating fuzz/Makefile
+#27 41.35 config.status: creating python/Makefile
+#27 41.37 config.status: creating python/tests/Makefile
+#27 41.39 config.status: creating xstc/Makefile
+#27 41.40 config.status: creating include/libxml/xmlversion.h
+#27 41.42 config.status: creating libxml-2.0.pc
+#27 41.44 config.status: creating libxml-2.0-uninstalled.pc
+#27 41.45 config.status: creating libxml2-config.cmake
+#27 41.47 config.status: creating python/setup.py
+#27 41.49 config.status: creating xml2-config
+#27 41.50 config.status: creating config.h
+#27 41.51 config.status: config.h is unchanged
+#27 41.51 config.status: executing depfiles commands
+#27 41.72 config.status: executing libtool commands
+#27 41.73 Done configuring
+#27 41.76 
+#27 41.76 Now type 'make' to compile libxml2.
+#27 41.78 Making clean in include
+#27 41.78 make[1]: Entering directory '/magma/targets/libxml2_9/repo/include'
+#27 41.79 Making clean in libxml
+#27 41.79 make[2]: Entering directory '/magma/targets/libxml2_9/repo/include/libxml'
+#27 41.79 rm -rf .libs _libs
+#27 41.79 rm -f *.lo
+#27 41.79 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/include/libxml'
+#27 41.80 make[2]: Entering directory '/magma/targets/libxml2_9/repo/include'
+#27 41.80 rm -rf .libs _libs
+#27 41.80 rm -f *.lo
+#27 41.80 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/include'
+#27 41.80 make[1]: Leaving directory '/magma/targets/libxml2_9/repo/include'
+#27 41.80 Making clean in .
+#27 41.81 make[1]: Entering directory '/magma/targets/libxml2_9/repo'
+#27 41.81 test -z "runxmlconf.log test.out xml2Conf.sh *.gcda *.gcno *.res" || rm -f runxmlconf.log test.out xml2Conf.sh *.gcda *.gcno *.res
+#27 41.81 test -z "libxml2.la" || rm -f libxml2.la
+#27 41.81 rm -rf .libs _libs
+#27 41.81 test -z "testdso.la" || rm -f testdso.la
+#27 41.81 rm -f *.o
+#27 41.81 rm -f *.lo
+#27 41.82  rm -f xmllint xmlcatalog
+#27 41.82  rm -f testSchemas testRelax testSAX testHTML testXPath testURI testThreads testC14N testAutomata testRegexp testReader testapi testModule runtest runsuite testchar testdict runxmlconf testrecurse testlimits
+#27 41.82 rm -f ./so_locations
+#27 41.82 rm -f ./so_locations
+#27 41.83 make[1]: Leaving directory '/magma/targets/libxml2_9/repo'
+#27 41.83 Making clean in doc
+#27 41.83 make[1]: Entering directory '/magma/targets/libxml2_9/repo/doc'
+#27 41.83 Making clean in .
+#27 41.84 make[2]: Entering directory '/magma/targets/libxml2_9/repo/doc'
+#27 41.84 rm -rf .libs _libs
+#27 41.84 rm -f *~ *.bak *.hierarchy *.signals *-unused.txt
+#27 41.84 rm -f *.lo
+#27 41.84 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/doc'
+#27 41.84 Making clean in devhelp
+#27 41.84 make[2]: Entering directory '/magma/targets/libxml2_9/repo/doc/devhelp'
+#27 41.84 rm -rf .libs _libs
+#27 41.84 rm -f *.lo
+#27 41.85 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/doc/devhelp'
+#27 41.85 Making clean in examples
+#27 41.85 make[2]: Entering directory '/magma/targets/libxml2_9/repo/doc/examples'
+#27 41.85 test -z "*.tmp" || rm -f *.tmp
+#27 41.85 rm -rf .libs _libs
+#27 41.85 test -f Makefile.am || rm -f test?.xml
+#27 41.85 rm -f *.o
+#27 41.85 rm -f *.lo
+#27 41.85  rm -f io1 io2 parse1 parse2 parse3 parse4 reader1 reader2 reader3 reader4 testWriter tree1 tree2 xpath1 xpath2
+#27 41.85 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/doc/examples'
+#27 41.85 make[1]: Leaving directory '/magma/targets/libxml2_9/repo/doc'
+#27 41.85 Making clean in example
+#27 41.86 make[1]: Entering directory '/magma/targets/libxml2_9/repo/example'
+#27 41.86 rm -rf .libs _libs
+#27 41.86 rm -f *.o
+#27 41.86 rm -f *.lo
+#27 41.86  rm -f gjobread
+#27 41.86 make[1]: Leaving directory '/magma/targets/libxml2_9/repo/example'
+#27 41.86 Making clean in fuzz
+#27 41.86 make[1]: Entering directory '/magma/targets/libxml2_9/repo/fuzz'
+#27 41.86 test -z "genSeed html regexp schema uri xml xpath" || rm -f genSeed html regexp schema uri xml xpath
+#27 41.86 rm -rf .libs _libs
+#27 41.86 rm -f *.o
+#27 41.86 rm -f *.lo
+#27 41.86  rm -f testFuzzer
+#27 41.87 make[1]: Leaving directory '/magma/targets/libxml2_9/repo/fuzz'
+#27 41.87 Making clean in xstc
+#27 41.87 make[1]: Entering directory '/magma/targets/libxml2_9/repo/xstc'
+#27 41.87 test -z "nist-test.py ms-test.py sun-test.py test.log" || rm -f nist-test.py ms-test.py sun-test.py test.log
+#27 41.87 rm -rf .libs _libs
+#27 41.87 rm -f *.lo
+#27 41.87 make[1]: Leaving directory '/magma/targets/libxml2_9/repo/xstc'
+#27 41.89 make  all-recursive
+#27 41.90 make[1]: Entering directory '/magma/targets/libxml2_9/repo'
+#27 41.91 Making all in include
+#27 41.91 make[2]: Entering directory '/magma/targets/libxml2_9/repo/include'
+#27 41.91 Making all in libxml
+#27 41.91 make[3]: Entering directory '/magma/targets/libxml2_9/repo/include/libxml'
+#27 41.91 make[3]: Nothing to be done for 'all'.
+#27 41.91 make[3]: Leaving directory '/magma/targets/libxml2_9/repo/include/libxml'
+#27 41.92 make[3]: Entering directory '/magma/targets/libxml2_9/repo/include'
+#27 41.92 make[3]: Nothing to be done for 'all-am'.
+#27 41.92 make[3]: Leaving directory '/magma/targets/libxml2_9/repo/include'
+#27 41.92 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/include'
+#27 41.92 Making all in .
+#27 41.93 make[2]: Entering directory '/magma/targets/libxml2_9/repo'
+#27 41.94 sed -e 's?\@XML_LIBDIR\@?-L/usr/local/lib?g' \
+#27 41.94     -e 's?\@XML_INCLUDEDIR\@?-I/usr/local/include/libxml2?g' \
+#27 41.94     -e 's?\@VERSION\@?2.9.12?g' \
+#27 41.94     -e 's?\@XML_LIBS\@?-lxml2?g' \
+#27 41.94     -e 's?\@XML_PRIVATE_LIBS\@?-lz -llzma    -lm -l:magma.o -lrt -lc++ -lc++abi /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a?g' \
+#27 41.94        < ./xml2Conf.sh.in > xml2Conf.tmp \
+#27 41.94 && mv xml2Conf.tmp xml2Conf.sh
+#27 41.94   CC       testdso.lo
+#27 41.94   CC       SAX.lo
+#27 41.94   CC       entities.lo
+#27 41.94   CC       encoding.lo
+#27 41.94   CC       error.lo
+#27 41.94   CC       parserInternals.lo
+#27 41.94   CC       parser.lo
+#27 41.94   CC       tree.lo
+#27 41.95   CC       list.lo
+#27 41.95   CC       hash.lo
+#27 41.95   CC       xmlIO.lo
+#27 41.95   CC       xmlmemory.lo
+#27 41.95   CC       uri.lo
+#27 41.95   CC       valid.lo
+#27 41.95   CC       xlink.lo
+#27 41.95   CC       HTMLparser.lo
+#27 41.95   CC       HTMLtree.lo
+#27 41.95   CC       xpath.lo
+#27 41.95   CC       xpointer.lo
+#27 41.95   CC       xinclude.lo
+#27 41.95   CC       nanohttp.lo
+#27 41.95   CC       nanoftp.lo
+#27 41.95   CC       debugXML.lo
+#27 41.95   CC       catalog.lo
+#27 41.95   CC       globals.lo
+#27 41.95   CC       threads.lo
+#27 41.95   CC       c14n.lo
+#27 41.95   CC       xmlstring.lo
+#27 41.95   CC       buf.lo
+#27 41.95   CC       xmlregexp.lo
+#27 41.95   CC       xmlschemas.lo
+#27 41.95   CC       xmlschemastypes.lo
+#27 41.96   CC       xmlunicode.lo
+#27 41.96   CC       xmlreader.lo
+#27 41.96   CC       relaxng.lo
+#27 41.96   CC       dict.lo
+#27 41.96   CC       SAX2.lo
+#27 41.96   CC       xmlwriter.lo
+#27 41.96   CC       legacy.lo
+#27 41.96   CC       chvalid.lo
+#27 41.96   CC       pattern.lo
+#27 41.96   CC       xmlsave.lo
+#27 41.96   CC       xmlmodule.lo
+#27 41.96   CC       schematron.lo
+#27 41.96   CC       xzlib.lo
+#27 41.96   CC       xmllint.o
+#27 41.96   CC       xmlcatalog.o
+#27 42.05 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.05 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.07   CCLD     testdso.la
+#27 42.07 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.07 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.08 Hooking 2 switch instructions
+#27 42.08 Hooking 2 switch instructions
+#27 42.08 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.08 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.08 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.08 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.09 encoding.c:505:26: warning: cast from 'const unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+#27 42.09     unsigned short* in = (unsigned short*) inb;
+#27 42.09                          ^~~~~~~~~~~~~~~~~~~~~
+#27 42.09 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.09 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.09 encoding.c:592:27: warning: cast from 'unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+#27 42.09     unsigned short* out = (unsigned short*) outb;
+#27 42.09                           ^~~~~~~~~~~~~~~~~~~~~~
+#27 42.09 encoding.c:748:26: warning: cast from 'const unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+#27 42.09     unsigned short* in = (unsigned short*) inb;
+#27 42.09                          ^~~~~~~~~~~~~~~~~~~~~
+#27 42.09 encoding.c:834:27: warning: cast from 'unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+#27 42.09     unsigned short* out = (unsigned short*) outb;
+#27 42.09                           ^~~~~~~~~~~~~~~~~~~~~~
+#27 42.09 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.09 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.09 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.09 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.10 Hooking 1 switch instructions
+#27 42.10 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.10 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.10 Hooking Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.10 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.10 3 switch instructions
+#27 42.10 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.10 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.11 Hooking 15 switch instructions
+#27 42.11 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.11 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.11 xmlIO.c:3809:36: warning: unused parameter 'ctxt' [-Wunused-parameter]
+#27 42.11 xmlCheckHTTPInput(xmlParserCtxtPtr ctxt, xmlParserInputPtr ret) {
+#27 42.11                                    ^
+#27 42.11 Hooking 7 switch instructions
+#27 42.11 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.11 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.12 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.12 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.12 Hooking 1 switch instructions
+#27 42.12 Hooking 15 switch instructions
+#27 42.12 Hooking 3 switch instructions
+#27 42.12 Hooking 3 switch instructions
+#27 42.12 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.12 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.13 Hooking 7 switch instructions
+#27 42.13 Hooking 1 switch instructions
+#27 42.13 Hooking 19 switch instructions
+#27 42.13 Hooking 5 switch instructions
+#27 42.13 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.13 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.13 Hooking 8 switch instructions
+#27 42.13 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.13 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.14 Hooking 3 switch instructions
+#27 42.14 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.14 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.14 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.14 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.14 Hooking 27 switch instructions
+#27 42.14 Hooking 12 switch instructions
+#27 42.14 Hooking 2 switch instructions
+#27 42.15 Hooking 2 switch instructions
+#27 42.15 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.15 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.15 Hooking 21 switch instructions
+#27 42.16 
+#27 42.16 *** Warning: Linking the shared library testdso.la against the
+#27 42.16 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 42.16 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.16 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.16 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.16 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.16 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.16 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.16 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.16 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.16 Hooking 20 switch instructions
+#27 42.16 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.16 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.16 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.16 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.16 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.16 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.18 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 42.18 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.18 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.18 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.18 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.18 Hooking 29 switch instructions
+#27 42.19 1 warning generated.
+#27 42.19 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.19 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.19 Hooking 2 switch instructions
+#27 42.19 4 warnings generated.
+#27 42.19 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.19 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.19 Hooking 10 switch instructions
+#27 42.19 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.19 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.20 Hooking 13 switch instructions
+#27 42.20 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.20 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.21 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.21 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.21 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.21 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.22 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.22 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.22 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.22 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.23 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.23 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.23 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.23 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.25 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.25 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.26 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.26 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.26 Hooking 50 switch instructions
+#27 42.28 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.28 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.29 Hooking 8 switch instructions
+#27 42.30 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.30 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.32 Hooking 39 switch instructions
+#27 42.36 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.36 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.36 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.36 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.52 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.52 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.58 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.58 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.71 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 42.71 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 42.73   CCLD     libxml2.la
+#27 42.86 
+#27 42.86 *** Warning: Linking the shared library libxml2.la against the
+#27 42.86 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 42.88 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 43.17   CCLD     xmllint
+#27 43.17   CCLD     xmlcatalog
+#27 43.48 make[2]: Leaving directory '/magma/targets/libxml2_9/repo'
+#27 43.48 Making all in doc
+#27 43.49 make[2]: Entering directory '/magma/targets/libxml2_9/repo/doc'
+#27 43.49 Making all in .
+#27 43.50 make[3]: Entering directory '/magma/targets/libxml2_9/repo/doc'
+#27 43.50 make[3]: Nothing to be done for 'all-am'.
+#27 43.50 make[3]: Leaving directory '/magma/targets/libxml2_9/repo/doc'
+#27 43.50 Making all in devhelp
+#27 43.50 make[3]: Entering directory '/magma/targets/libxml2_9/repo/doc/devhelp'
+#27 43.50 make[3]: Nothing to be done for 'all'.
+#27 43.50 make[3]: Leaving directory '/magma/targets/libxml2_9/repo/doc/devhelp'
+#27 43.50 Making all in examples
+#27 43.50 make[3]: Entering directory '/magma/targets/libxml2_9/repo/doc/examples'
+#27 43.50 make[3]: Nothing to be done for 'all'.
+#27 43.50 make[3]: Leaving directory '/magma/targets/libxml2_9/repo/doc/examples'
+#27 43.51 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/doc'
+#27 43.51 Making all in example
+#27 43.51 make[2]: Entering directory '/magma/targets/libxml2_9/repo/example'
+#27 43.51 make[2]: Nothing to be done for 'all'.
+#27 43.51 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/example'
+#27 43.51 Making all in fuzz
+#27 43.51 make[2]: Entering directory '/magma/targets/libxml2_9/repo/fuzz'
+#27 43.51 make[2]: Nothing to be done for 'all'.
+#27 43.51 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/fuzz'
+#27 43.51 Making all in xstc
+#27 43.52 make[2]: Entering directory '/magma/targets/libxml2_9/repo/xstc'
+#27 43.52 make[2]: Nothing to be done for 'all'.
+#27 43.52 make[2]: Leaving directory '/magma/targets/libxml2_9/repo/xstc'
+#27 43.52 make[1]: Leaving directory '/magma/targets/libxml2_9/repo'
+#27 43.82 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 43.82 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 44.33 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 44.33 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 DONE 44.8s
+
+#28 exporting to image
+#28 exporting layers
+#28 exporting layers 0.4s done
+#28 writing image sha256:133e91556010b4f41141509267f6035ab1ad75d3ec42d4bad43802ddd603646d done
+#28 naming to docker.io/magma/aflplusplus/libxml2_9 done
+#28 DONE 0.4s
++ set +x
+magma/aflplusplus/libxml2_9

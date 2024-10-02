@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (is<?xml version="1.0" standalone="on mouseclick */
+      MVG April 1999//EN" 
+  "http://www.w3.org/Graphics/SVG/svg-19990412.dtd">
+<svg width="4in" height="3"""""""""""in">
+  <defs>
+    <script><![CDATA[
+      /* Beep on mouseclick */
+      MouseClickHandleth="4in" height="3in">
+r() { beep(); }
+     ]]>
+    </script>
+  </defs>
+  <circle onclick="MouseC

@@ -1,0 +1,6 @@
+<XP th xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+(//. |(s="htt //namespac…::*)
+[
+    ancestor-or-self::ds:SignedInfo
+] 
+</XPath>

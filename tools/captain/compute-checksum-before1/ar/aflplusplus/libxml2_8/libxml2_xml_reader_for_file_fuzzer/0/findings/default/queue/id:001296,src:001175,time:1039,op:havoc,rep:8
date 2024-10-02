@@ -1,0 +1,7 @@
+<!DOCÿ€PE doc [
+<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
+<!ELEMENT7a EMPTY>
+0!%LEMENT b (#PCLATA)>
+<!ELGMENT c (#PCDATA)>
+]>
+<doc><a/><b/><a</doc>

@@ -1,0 +1,8 @@
+<XPath xmlns:ds="0/09/xmhdsig#">
+(//. | //@* | //namespace::*)
+[
+    ancestor-or-self::ds:Wignce::*)
+[
+    ancestor-or-self::UdInfo
+]
+</ØPath>

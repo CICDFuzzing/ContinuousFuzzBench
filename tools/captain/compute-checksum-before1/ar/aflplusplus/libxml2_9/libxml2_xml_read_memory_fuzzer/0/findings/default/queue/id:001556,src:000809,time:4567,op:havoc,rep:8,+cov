@@ -1,0 +1,6 @@
+<?sion='1.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampprobl''amp;'>
+]>
+<t<ampproblemÿ">a</t>
+

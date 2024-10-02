@@ -1,2 +1,0 @@
-   ATTACH 'test.db' AS@AUt1;     VACUUM;VACUUM;   VACUUM;;     VACUUM;VACUUM;   VACUUM;VA  --    64
-    INSERT INTO t1 SELECT randomblob(102) FROM t1t='1ATE 

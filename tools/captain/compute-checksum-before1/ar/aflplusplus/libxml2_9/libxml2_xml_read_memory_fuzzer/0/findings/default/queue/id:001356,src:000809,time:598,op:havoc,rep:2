@@ -1,0 +1,7 @@
+<?xml ver.0' ?>
+<!DOCTYPE test [
+<!ENTITY ampproblem '&amp;'>
+]>
+<t a="&[
+<!ENblem;">a</t>
+

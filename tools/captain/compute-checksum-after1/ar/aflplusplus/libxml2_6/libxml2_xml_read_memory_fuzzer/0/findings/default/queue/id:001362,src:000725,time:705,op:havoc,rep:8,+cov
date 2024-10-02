@@ -1,0 +1,7 @@
+<IIIIIIIIIIIIIIIIIIIIINT Lsid EMPTY>
+<!ATTLIST isid myid ID #IMPLIED>
+]>
+<doc>
+<isid myidddup"/>
+<isid myid="foo"/>î<isid myid="bar"/>
+</doc>

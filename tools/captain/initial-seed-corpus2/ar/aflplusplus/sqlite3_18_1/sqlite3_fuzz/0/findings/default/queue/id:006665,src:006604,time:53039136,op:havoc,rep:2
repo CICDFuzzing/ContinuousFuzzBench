@@ -1,3 +1,0 @@
-CREATE TABLE t1(x,ÿÿ);
-    ALTER TABLE t1 ADD difdate DATE NOT NULL DEFAULT 
- CR;    ALTER TABLE t1 ADD difdaR

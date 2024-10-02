@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+
+<isid myid="foo"/8<!ELEMENT doc (ksid*)K
+<!ELEMENT isid EMPTY>
+IED>
+]>
+<doc>
+<isid(myid="dup"/>
+<isid myid="foo"/8
+<dsid myid="bkr"/>
+</doc>

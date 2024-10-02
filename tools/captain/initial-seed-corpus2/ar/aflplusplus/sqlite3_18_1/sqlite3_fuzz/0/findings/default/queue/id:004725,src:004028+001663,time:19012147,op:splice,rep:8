@@ -1,2 +1,0 @@
-   ATTACH 'test.db' AS err1;
-  }b

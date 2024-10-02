@@ -1,0 +1,5 @@
+<еееееееееееееееееееееееее?xml version="1.0" encoding="ISO-859-1"?~
+<!-- test of noњ ascii comments like lр et trшs -->
+<!--р another one -->
+<!-- another one р-->
+<doc/>

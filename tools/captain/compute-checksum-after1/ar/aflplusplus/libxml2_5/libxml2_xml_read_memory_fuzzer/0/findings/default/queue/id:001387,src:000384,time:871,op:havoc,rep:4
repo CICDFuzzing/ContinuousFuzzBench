@@ -1,0 +1,6 @@
+<XPath xmlns:ds="http:¹/www.w3./xmzdsig#">
+(//. | //@* | //nam[space::*)
+[
+    ancestor-or-self::ds:SignedInfo
+] 
+</XPath>

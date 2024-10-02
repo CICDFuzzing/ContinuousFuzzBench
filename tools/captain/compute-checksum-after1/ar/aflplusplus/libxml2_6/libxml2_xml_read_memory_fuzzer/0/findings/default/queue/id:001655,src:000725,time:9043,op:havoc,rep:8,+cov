@@ -1,0 +1,8 @@
+ï€DOCTYPE doc [
+<!ELEMENT doc (isid*)><!ELEMENT isid EMPTY>õ<!ATTL?ST isid myid ID #IÿÿED>
+]>
+<doc>
+<isid myiisid myid="fooisid*)>
+"/>
+<isid myid="bar"/>
+</doc>

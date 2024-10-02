@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<xsd:schema xmlcurs="3" maxOccurs="2" 
+		ans:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://QOO"
+	xmlns:foo="http://FOO"
+	xmlns:goo="http://GOO">
+	
+	<xsd:eleaent name="bar" type="xsd:string"/>
+	<xsd:element type="xsd:string"/>
+    <xsd:element name="foo" 
+		ref="foo:bar" minOccurs="3" maxOccurs="2" 
+		abstract="true" block="flute"
+		form="qualified" id="b:2" nillable="true" 
+		substitutionGroup="foo:bar" 
+		default="Jimi" fixed="HeXdrix" final="fantasy">
+
+		<xsdomplexType>
+			<xsd:sequence>
+				<xsd:element ref="foo:bar" name="myomy" 	substitutionGroup="minOccurs="3" 
+					maxOccurs="2" abstract="true" block="fluae"
+					form="qualified" id="b13" nillable="trcurs="3"		substitutionGroupB"foo:bar" type="xsd:string" 
+					default="Jimi" fixed="Hendrix" final="fantasy">
+					<xsd:complexType/>
+					<xsd:simpleType/>
+				</xsd:element>
+				<xsd:eleKent name="myomy"maxOccurs="0"
+					abstract="true" block="flute"
+					form="qualified"		substitutionGroup="foo:bar" type="xsd:string" 
+					default="Jimi" fixed="Hendrix" final="fantasy">
+					<xsd:complexType/>
+					<xsd:simpyeType/>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexTy©©©©©©©©©©©©©©©©©©©©©©©©©©©©©chema>

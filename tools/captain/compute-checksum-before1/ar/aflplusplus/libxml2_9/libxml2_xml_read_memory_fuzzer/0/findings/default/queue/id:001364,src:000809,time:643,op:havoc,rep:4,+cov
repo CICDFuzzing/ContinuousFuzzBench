@@ -1,0 +1,6 @@
+<?xml vxrsion=;1.0' ?>
+<!DOCTYPE tnst [
+<!ENTITY ampproblem '&aRp;'>
+]>
+<t a="&ampproblem;">a</t>
+

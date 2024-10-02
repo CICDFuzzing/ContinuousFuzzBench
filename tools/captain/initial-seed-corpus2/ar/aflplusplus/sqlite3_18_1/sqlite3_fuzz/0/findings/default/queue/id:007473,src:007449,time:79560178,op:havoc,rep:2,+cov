@@ -1,2 +1,0 @@
-  PRAGMA wal_autocheckpoint = int = 128;
-    CRE@TE TABLE t1(a PRIMZRY )

@@ -1,0 +1,6 @@
+<?xsion='1.0' ?>
+<!DOCTYPE test [
+<!ELTITY ampproblem '&amp;'>
+]>
+<t a="&ampproblem;"+a</t>
+

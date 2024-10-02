@@ -1,0 +1,7 @@
+<>
+(//. { //@* | //nXPath xJlns:ds="http:w.w3.org/2000/0n/xmldsig#">
+(//ÿÿ| //@* | //namespace::*)
+[
+    ancestor-or-self::ds:Signelf::edInfo
+] 
+</XPath>

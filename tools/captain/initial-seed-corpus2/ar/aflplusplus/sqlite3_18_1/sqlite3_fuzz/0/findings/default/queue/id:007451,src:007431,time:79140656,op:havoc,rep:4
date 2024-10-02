@@ -1,4 +1,0 @@
-   CREATE TABLE IF NOT EXISTS tag(pk integry key, fk int, name);
-CREATE TABLE IF NOT EXISTS tag(p primary key, fk int, namek ier primary key fer primary key, fk int, name);
-CREATE TABLE IF NOT EXISTS tag(p primary key, fk int, namek €er primary key fk i 
-  SELECT2P.[k from PHO

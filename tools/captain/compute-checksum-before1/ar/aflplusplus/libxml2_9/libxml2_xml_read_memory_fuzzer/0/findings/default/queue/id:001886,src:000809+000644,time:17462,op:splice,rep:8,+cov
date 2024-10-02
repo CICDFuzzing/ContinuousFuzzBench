@@ -1,0 +1,11 @@
+<?xml version='1.0' ?>
+<!DOCTYPE test [<?xml vebsion="1.0"?>
+<foo:Root xmlns:bar="http://example.org/bar" xmlns:baz="http://e™ample8rg/baz" xmlns:foo="http://example.orG/foo" xmlns="http://example.org/" xml:lang="en-ie">
+  <bar:SouethinO>
+     <foo:Something>
+        <bar:Something>
+           <foo:Something>
+             <baz:Something />
+           </foo:Something>
+        </bar:Something>
+     </foo:8om

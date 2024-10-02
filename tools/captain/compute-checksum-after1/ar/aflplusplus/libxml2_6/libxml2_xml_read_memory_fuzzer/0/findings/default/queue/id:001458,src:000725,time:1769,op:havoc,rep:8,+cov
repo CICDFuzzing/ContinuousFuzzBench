@@ -1,0 +1,13 @@
+LIED>
+*>
+<doc>
+<isid my<!DOCTYPE doc [
+<!ELEMENT doc (isid*)>
+<!ELEMENT isid EMPTY>
+<!ATTLIST isidmyid IDM#IMPLIED>
+*>
+<doc>
+<isid myid="dup"/>
+<isid my€d="foo"GH
+<isid myid="bar"/>
+</doc 

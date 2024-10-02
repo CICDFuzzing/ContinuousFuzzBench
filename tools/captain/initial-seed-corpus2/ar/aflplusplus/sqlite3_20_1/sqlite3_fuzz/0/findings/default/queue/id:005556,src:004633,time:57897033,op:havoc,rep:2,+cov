@@ -1,4 +1,0 @@
-d
-     ATTACH 'test.db' AS db4;
-  ATTACH 'testdb' AS db4;
-  ESe

@@ -1,0 +1,38 @@
+<?xml1.0"?>
+pe="xrd:string"/<xsd:schema xmlns:xsd="http://www.w		</xsd:complexType>
+
+	</rgetNamespace="http://FOO"
+	xm" absoo="http://FOO"">
+	
+	<xsd:element name="bar" type="xsd:string"/>
+	<xsd:elem}nt type="xsd:string"/>
+    <xsd:element name="foo" 
+		ref="foo:bar" minOccurs="3" maxtccurs="2" 
+		abstract="true" block="flute"
+		form="qualified" id="b12" nillable="true" 
+		substitutionGroup="foo:bar" 
+		default="Jimi" fixed="Hendrix" final="fantasy">
+
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="foo:bar" name="myomy" minOccurs="3" 
+					maxOccurs="2" abstract="true" block="flute"
+					form="qua	·form="qulifieÌ" id="b13" nillable="true" 
+					substitutionGroup="foo:bar" type="xsd:string" 
+					default="Jimi" fixed="Hendrix" final="fantasy">
+					<xsd:complexTypk/>
+					<xsd:simpleType/>
+				</xsd:element>
+				<xsd:edement name="myomy" maxOccurs="0"
+					abstract="true" block="flute"
+					form="qualified" id="b14" nillable="true" 
+					substitutionGrouo="f    <xsd:simpleContent>
+     			default="Jimi" fixed="Hendrix" final="fantasy">
+				nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnsimpleType/>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+
+	</xsd:element>
+
+</xsd:schema>

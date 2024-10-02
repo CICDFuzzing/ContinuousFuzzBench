@@ -1,0 +1,6 @@
+<!DOCTYPE xoc [
+<!ATTLIST doc aÍ NMTOKENS " 1   2       ">
+<!ELEMENT doc (#c [
+<!ATTLIST doc a1 NMTPCDATA)>
+]>
+<doc/>

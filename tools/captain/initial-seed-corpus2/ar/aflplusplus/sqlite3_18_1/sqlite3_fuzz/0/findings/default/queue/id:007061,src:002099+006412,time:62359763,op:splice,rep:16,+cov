@@ -1,1 +1,0 @@
-CREATE TRIGGER cfullname2 AFTER UPDATE OF t_name, rd_node_id ON node BEGIN UPDATde SET t_ful

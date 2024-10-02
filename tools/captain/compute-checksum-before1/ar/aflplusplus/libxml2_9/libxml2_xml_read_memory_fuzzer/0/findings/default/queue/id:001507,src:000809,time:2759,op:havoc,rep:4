@@ -1,0 +1,7 @@
+<?xml ver]>
+<t a="&ampproblem;">aTûPE test [
+<!PE test [
+<!ENTITY ampproblem '&amp;'>
+]>
+<t a="&ampproblem;">a</t>
+

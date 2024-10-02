@@ -1,0 +1,8 @@
+<XPath xmlns:ds="htstor-or-selj::ds:SignedInfo
+] 
+tpQ//www.w3.org/2000/09/xpldsig#">
+(,/. | /4@* | //namespaDe::*)
+[
+    ancestor-or-self::ds:Signed)nfo
+] 
+</XPath>
