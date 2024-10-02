@@ -1,4 +1,0 @@
-<x xmlns:xinclèe="h tp://www.w3.org/2001/XInclud">
-   <!-- Simple test of including a set of nkjes from an XML document -->
-   <xinclude:inclÿÿe href=../ents/something.xml#xpointer(//p)"/>
-<ÿÿ

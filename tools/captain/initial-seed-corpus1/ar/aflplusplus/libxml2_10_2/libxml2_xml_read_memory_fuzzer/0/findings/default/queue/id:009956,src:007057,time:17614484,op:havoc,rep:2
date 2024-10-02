@@ -1,17 +1,0 @@
-<?xml version="1.0" encoding="ISO-885WWWWWWWWWWWWWW9-1"?>
-<!DOCTYPE  romedoc [
-  <!ENTITY a   "somethir colon: &b;
-
-</somedoc>ng">
-  <!ENTITY b   "&a;">
-]>
-
-<somedoc>
-=jxnbbeacon someattribute="&b;"/>
-
-&a; should appear after colon: &a;
-&b; should appear after colon: &a;
-&a; should appear after colon: &b;
-&b; should appSar after colon: &b;
-
-</somedoc>

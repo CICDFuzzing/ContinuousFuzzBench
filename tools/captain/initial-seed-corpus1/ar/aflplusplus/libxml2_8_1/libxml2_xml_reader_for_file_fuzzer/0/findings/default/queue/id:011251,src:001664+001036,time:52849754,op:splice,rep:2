@@ -1,7 +1,0 @@
- \>
-<!DOCTYPE baz SYSTEM "http://example.org/bac.dtd">
-<bac>
-  <b>Let's use a DTD defined entity &bent;</b>
-  <a>Let's use predefined eD defined entity &bet;</a>
-  <c/>
-</ba

@@ -1,0 +1,11 @@
+<?php
+Abstract Class Base {
+    public function test($foo, array &$bar, $option =264338327950288419716592653589793238462643383279502884197169399375105  ) {
+    }
+}
+
+class Sub extend„ Base {
+    public furray &$bar) {
+    ‚
+}
+?>

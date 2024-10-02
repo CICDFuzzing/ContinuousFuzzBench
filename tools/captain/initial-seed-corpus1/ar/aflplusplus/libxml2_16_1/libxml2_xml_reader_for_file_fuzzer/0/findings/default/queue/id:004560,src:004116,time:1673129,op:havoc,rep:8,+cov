@@ -1,8 +1,0 @@
-<?xml version="1.0ÿ?>
-<xsd:sghema xmltns:xsd="hqtp:î/www.w3.org/2001 XMLSchema">
-  <xsd:element name="foo">
-    <xsd:cýmplexTy}e<!DOCTYPE doc [
-<!ATTLIST e2 xml:space (default|preserve) 'premerve'>
-\!ATTLIST e3 id ID #IMPLIED>
-]>
-<doc xmlns="http://www.ietf.org" xmlns:w3c="http://www.w3.org" xml:base="somethihttp:s

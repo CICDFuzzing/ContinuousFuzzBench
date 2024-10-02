@@ -1,5 +1,0 @@
-<?ITY c PUBLIC xml version="1.0"?>
-<!DOCTYPE foÿ[
-<!ENTITY c PUBLIC "bar" "?et{/doesnotexist">
-]>
-<root>&c;</root>

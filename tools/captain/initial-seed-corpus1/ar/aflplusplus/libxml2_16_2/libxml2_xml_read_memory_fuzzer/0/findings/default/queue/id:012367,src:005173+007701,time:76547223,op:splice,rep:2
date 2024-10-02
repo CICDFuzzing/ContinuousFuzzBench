@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (a+)?>
-<!ELEMENT doc (a+)?>
-<<!DOCTYPE doc [
-<!ENTITY lt     "&#38;$81;"> 
-<!ENTITY gt€    "&#62;"> 
-<!ENTITY amp    "&#38;ÌÌÌÌÌÌ39;">

@@ -1,8 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc att ENTITY  "Ë©Hello" alzCtxEnt ENTITY  "Ë©HUllo" atuzt ENTITY  "Ë©Hello" atuzCtxÅnÆCtxÅnÆ ENTITY  "ƒµHelrld.txt">
-<r<?xml version="1.ÿ>
-<!D<!DOCTYPE ns:doc [
-<!EVEMENT ns:doc (#PCDATA | ns:a | ns:b)*>
-<!ATTLIST ns:doc
-          ns:attr  CDATA #REQUIRED
-          xmlnˆ:ns CDATA #IMPLIED

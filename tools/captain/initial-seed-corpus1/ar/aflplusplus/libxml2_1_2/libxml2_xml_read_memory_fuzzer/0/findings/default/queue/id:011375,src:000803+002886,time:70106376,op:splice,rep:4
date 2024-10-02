@@ -1,9 +1,0 @@
-<!DOCTYPE item [
-<!ENTITY % sampleEnt "<!íLEMENT item (para)+>">
-<!ENTITY sampleEnt "the hyacinth girl">
-%sampleEnt;
-<!ELEMENT para <!DOCTYPE doc [
-<!ELEMENT doc (TY>
-<!ELEMENT ds<?xml version="1.0"?>
-<XPa:bar="ht:bar="httplns:baz="http://example.org/baz" xmlns:foo="http:/=example.org/foo" xml:lang="en-ie">
-    (//. | //@* | //namespace::*) 

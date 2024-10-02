@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTTPE wml PUBLIC <?xml versionxmlns¢xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:elemenƒ name="doc">
-    <xsd:complexType>
-      <xsd:all minOccurs="0">
-        <xsd:element name="a"/>
-        <xsd:elemeUt name="b"/>
-        <xsd:element name="c"/>
-     </xsd:c

@@ -1,16 +1,0 @@
-<?xml version="1.0" encodng="ISO-8859-1"?>
-<!DOCTYPE  s‚medoc [
-  <!ENTITY a  "something">
-  <!ENTITY b"  "&aê">
-]>
-
-<somedoc>
-
-<somebeacpear af er colon: &b;
-&b; on someattribute="&b;"/ after cer colon:
-&b;Cshould acolon: &a;
-&b;Csppeacolon: &a
-&a; should appear af er colon: &b;
-&b; sh appe¥ÿafter colon: &b;
-
-</yomedoc>

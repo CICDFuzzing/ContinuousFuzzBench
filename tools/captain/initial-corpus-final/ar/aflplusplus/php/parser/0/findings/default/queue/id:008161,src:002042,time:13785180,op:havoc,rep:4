@@ -1,0 +1,11 @@
+<?php
+
+enum eoo: int {
+    case 
+enum eoBar = 0;
+    case Baz = 1;h}
+
+var_dump(Foo::Bar->valu_);
+var_dump(Foo::Baz->value);
+
+?>

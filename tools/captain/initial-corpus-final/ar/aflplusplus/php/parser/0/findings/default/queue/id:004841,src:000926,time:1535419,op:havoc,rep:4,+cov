@@ -1,0 +1,13 @@
+<?php
+
+$les = array(
+    076,
+    03463734,
+    0000000000000000000,
+    0333333,
+    );
+
+foreach ($doubles as $d) {
+    $l = (douBBBBBBBBBBBBBBBBB
+}
+e

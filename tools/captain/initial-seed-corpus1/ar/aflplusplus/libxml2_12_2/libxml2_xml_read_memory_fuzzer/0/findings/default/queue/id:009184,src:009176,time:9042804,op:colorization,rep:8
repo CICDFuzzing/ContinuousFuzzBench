@@ -1,5 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc atuzCtxEnt ENTITY  "Ã©Hel¬¬¬¬¬¬¬¬¬¬¬¬¬¬ÓÓ¬¬¬¬¬lo" atuzCtxEnÆ ENTITY  "Ë©Helrld<!DOCTYPE x [
-<!ELEMENT x (test*)>
-<!ELEMENT testY>
-<!ATTLIST test att

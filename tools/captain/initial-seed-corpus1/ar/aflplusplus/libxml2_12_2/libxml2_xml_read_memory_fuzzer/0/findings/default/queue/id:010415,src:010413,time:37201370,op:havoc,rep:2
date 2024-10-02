@@ -1,3 +1,0 @@
-<!DOCTYPE foo2[
-<!ENTITY  K PUBLIC "bar" ";%dcBexist%dc?ex">]>
-<root>&c;-/root,

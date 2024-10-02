@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc
-     defatt  (K|1)   "0"
-     xmlns:tt:att (0|1)   "P">
-]>
-<doc att="1"/>

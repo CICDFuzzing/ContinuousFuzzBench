@@ -1,4 +1,0 @@
-<?xml verszon="1.ÿ>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "%etc?doesnot))))))))))))bar" "%etc?doesnot)))
-<root>&c;</root>

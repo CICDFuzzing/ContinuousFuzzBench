@@ -1,6 +1,0 @@
-<?xsl \
-<?xml version='8.0' ?>
-<!DOCTYPE test [
-<!ENTITY ampproblem '&TYPE tamp;'>
-]>
-<t a="&ampproblem;"

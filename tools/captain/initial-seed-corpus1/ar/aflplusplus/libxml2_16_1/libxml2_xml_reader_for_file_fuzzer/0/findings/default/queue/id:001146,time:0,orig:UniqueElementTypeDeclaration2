@@ -1,7 +1,0 @@
-<?xml versio.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (#PCDATA | b | c)*>
-<!ELEMENT b (#PCDATA)>
-<!ELEMENT c (#PCDATA)>
-<!ELEMENT a (#PCDATA | b | c)*>
-]> violates [ VC: Unique Element Type Declaration ] </a>

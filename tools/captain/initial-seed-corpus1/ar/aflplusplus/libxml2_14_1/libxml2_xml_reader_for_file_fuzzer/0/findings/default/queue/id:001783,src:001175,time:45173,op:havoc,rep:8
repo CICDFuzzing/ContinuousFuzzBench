@@ -1,7 +1,0 @@
-<!DOCTYÐE doc [
-<!ELEMENT doc ((a | CDATA)>
-<!ELEMENT c (#3>
-<!ELEMENT a E, b?, <!ELEMENT b (#PCDATA)>
-<!ELEMENT c (#3CDATA)>
-]>
-<doc><a/><b/>.a/><c/><c/>LEMEN<a/></doc>

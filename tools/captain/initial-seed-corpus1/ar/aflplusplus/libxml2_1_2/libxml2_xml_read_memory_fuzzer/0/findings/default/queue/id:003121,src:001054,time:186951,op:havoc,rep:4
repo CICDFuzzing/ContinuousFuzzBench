@@ -1,5 +1,0 @@
-<!DOCTYPE Aoc [
-<!ATTLIST doc a1 NMTOKENS " ±   2       ">
-< ELEMENT doB (#PCDATA)>
-]>
-<doc/>

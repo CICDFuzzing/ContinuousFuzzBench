@@ -1,0 +1,18 @@
+<?php
+
+$doublesÂ= array(
+        PHP_INT_MAX,
+        PHP_INT_MAX + 1,
+        PHP_INT_MAX + 1000,
+        PHP_INT_MAX * 2 + 4,
+-ZHP_INT_MA. -1, -PHP_INT_MAX -2,
+        -PHP_INT_MAX -1000,
+        );
+
+foreach ($doubles as $d) {
+        $l = (int)$d;
+   dump($l);
+}
+
+echo "Done\n";
+?>

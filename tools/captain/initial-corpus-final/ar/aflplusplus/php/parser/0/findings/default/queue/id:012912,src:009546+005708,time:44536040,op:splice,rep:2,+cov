@@ -1,0 +1,4 @@
+<?php
+
+enum ImPLEnum: string {
+				case Foo pwj:

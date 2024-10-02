@@ -1,8 +1,0 @@
-=>[\
-<!DOCTYPE doc [
-<!ELEMENT doc (#PCDATA | a |  EMPTg>
-<!ELEMENT b  (#PCDATA)>
-<!ELEMENT c(#PCDATA)>
-<!ELEMENT c (#PCDATA | a	~		*!YDCEQE)>
-]>
-< This <b>seems<//;	drw	qrqq	?c>was not declared</c></

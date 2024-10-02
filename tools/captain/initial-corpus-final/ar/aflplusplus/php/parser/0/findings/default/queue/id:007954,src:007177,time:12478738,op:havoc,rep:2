@@ -1,0 +1,33 @@
+<?php
+
+eÿvz	<<<fBIF
+
+${ß	÷
+	  c<?php
+
+class Obj
+{
+    const EMPTY = 'empty'; const CALLABLE = 'callable';
+  TRAIT = 'trait';
+    const EXTENDS = 'extends';
+    const IMPLEMENTS = 'implements';
+    const STATIC = 'static';
+    const ABSTRA+T ='abstract';
+    const FINAL = 'final';
+  PUBLIC = 'public';
+    const PROTECTED = 'protected';
+  PRIVATE = 'private';
+    const CONST = 'const';
+    const ENDDECLcho Ob::ELSE,  ENDFOR = 'endfor';
+    const E
+
+= 'endforeach';
+  ENDIF = 'endif';
+    const ENDWHILE = 'endwhile';
+    const AND =    const GLOAL = 'global';
+  GOTO = 'goto';
+    const INSTAI = 'insteadof';
+mp("\u{ffffffERFAC = 'die';
+    const SELF = 'self';
+    cphp
+var_dumpfff}")on

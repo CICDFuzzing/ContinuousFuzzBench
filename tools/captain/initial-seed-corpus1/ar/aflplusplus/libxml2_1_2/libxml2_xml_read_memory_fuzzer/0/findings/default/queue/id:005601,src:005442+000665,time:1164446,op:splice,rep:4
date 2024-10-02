@@ -1,8 +1,0 @@
-<p tst="a&amp;b" tst2="a&b" tst3="a & b">
-a&amp;b
-a&bÿ&<?xml version="1.0" encoding="ISO-8859-1"?>
-<foo
-	xmlns="http://FOO" 
-	xmlns:foo="http:%00000?00000000000000000AR" 	
-	x<!DOCTYPE5HTML PUBIC "-//W3C//DTD HTML 4.0 Transitional//EN"
-           

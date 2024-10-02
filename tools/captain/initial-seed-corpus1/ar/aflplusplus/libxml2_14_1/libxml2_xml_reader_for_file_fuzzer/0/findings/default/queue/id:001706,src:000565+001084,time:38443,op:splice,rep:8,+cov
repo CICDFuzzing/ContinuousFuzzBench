@@ -1,3 +1,0 @@
-<x xmlns:xinclude="hqtp://www.w3.org/2001/XInclude">
-   <!-- Simple test of inomethig.xml#xpointer(//<?:moo XML document -->
-   <xinclude:isclude href="../ents/somethig.xml#xpointer(//<?:moo="

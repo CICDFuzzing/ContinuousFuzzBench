@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (a , b? , c+)?>
-<!ELEMENT  
-<!ELEMENT doc (a , b? , c+)?>
-<!ELEMENT c (#PCDATA)>
-]>
-<doc><a/><b>lacks c</b></doc>

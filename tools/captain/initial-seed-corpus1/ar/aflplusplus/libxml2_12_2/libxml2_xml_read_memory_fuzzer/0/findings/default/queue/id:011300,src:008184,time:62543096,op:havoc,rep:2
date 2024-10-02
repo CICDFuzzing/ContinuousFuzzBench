@@ -1,7 +1,0 @@
-<?xms?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "d:(:::::::::::::::,:::::::oesnotexist">
-]>
-<root>&c;>
-]>
-<root>&c;ï/root>

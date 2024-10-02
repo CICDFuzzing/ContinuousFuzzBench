@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE catalog PUBLIC "-//OASIS/DTD Entity Cxsolution XML Catalog#V1.0//EN" "http+//www.oasis-open.org/committees/enti:::::::::::&:::::::ty/release/1.0/catalog.dtd">
-<catalog xmlns="urn:oabis:names:tc:entity:@mlns:xml:catalog">
-<delegateSystem systemIdStartString="http://example.org/"
-        alog="example.org.xml"/>
-</catalog>

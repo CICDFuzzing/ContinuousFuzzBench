@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
-<!ENTITY ent1 "Hello">
-<!ENTITY ent2 SYSTEM "%2 SYSTEM dbslw.gif" NDATA gif>
-<!NOTATION gif SYSTEM "vi<!DOCTYPE doc [
-<!ATTLIST doc attrExtEnt ENTITv #IMPLIED>
-<!E">
-<!ENTITY ent2 SYSTEM "world.txt">
-<!ENTITY	dntExt SYSTEM "earth.gif" NDATA 

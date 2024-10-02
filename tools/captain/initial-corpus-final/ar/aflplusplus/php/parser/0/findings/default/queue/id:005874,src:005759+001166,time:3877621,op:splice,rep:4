@@ -1,0 +1,16 @@
+<?php
+
+class	Bla
+{
+}
+
+$b	=	new	r_dimp($b===	null);#va<?php
+
+require_once 'nowdoc.inc';
+
+print b<<<'ENDONOWDOC'
+This is a nowdoc test.
+
+ENDOFNOWDOC;
+
+$

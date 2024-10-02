@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "!DOCTYPE foo [
-<!ENTITY c P/etc/doesKotexist">
-]>
-<root>&c;</root>

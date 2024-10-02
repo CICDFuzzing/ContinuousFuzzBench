@@ -1,0 +1,13 @@
+>=qxuawkdxtjp	bzz	#%hluqg	:	EDMND"	|			pki	}	deis	$zxk_s%<					kd	$)qyzpl&	}								ukowo	jcu	Cgefqvuwj"!ch%#=					{			{	eciav (Exception $e) {
+     echo "catch\n";
+   } finally {
+     echo "finally\n";
+   }
+
+   echo "end\n";
+}
+
+foo();
+echo "\n";
+foo(true);
+?>

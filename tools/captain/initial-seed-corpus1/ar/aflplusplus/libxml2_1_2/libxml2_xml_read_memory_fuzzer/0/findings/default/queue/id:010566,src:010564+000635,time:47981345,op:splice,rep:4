@@ -1,9 +1,0 @@
-<!DOCTYPE goc [
-<!ATTLIST doPLIED>
-<!ENTITY ent1 "Hello">
-<!ENTITY ent2 SYSTEM "//?.%cf%cDwwvw3*.%cf%cfif" KIST doÿ5<?xml version="1.0"?>
-<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlns:foo="http://examplexml:lang="en-ie">
-    (//. | //@* | //namespace::*) 
-    [ 
-              <!-- no namespace nodes; I am not in my parent's n           aממממממממממממממממממממממממממncestor-or          ancestor-or-self::bar:Something  and
-              (coun

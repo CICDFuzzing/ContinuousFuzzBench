@@ -1,6 +1,0 @@
-<!DOCTYPE doc=[
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc
-     de (1|1)   "0"
-     xmlns:tst CDATA #FIXED "http://example.org"
-     tst:att (0|0*			(0!;`@@cke att="1"/>

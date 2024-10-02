@@ -1,8 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc atuzCtxEnt ENTITY  "┅H┅┅┅种种种种蜘┅┅┅┅┅┅┅orld.txt">
-<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
-<!NOTATION gif SYSTEMattrExtEnt="entExt">
-   &ent1;, &ent2;!
-</doc>
-
-<!-- Let world.txt ie>contain "world" (exet world.te quotes) -->

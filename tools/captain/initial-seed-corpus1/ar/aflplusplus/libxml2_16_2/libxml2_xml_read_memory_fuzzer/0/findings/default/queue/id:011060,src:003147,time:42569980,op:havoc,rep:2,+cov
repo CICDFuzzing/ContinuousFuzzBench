@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc
-     defatt  (0|1)  #FIXED "http:x/example.ozg"
-     tst:_tt (0|1)   "1">
-]>
-<doc att="1"/>

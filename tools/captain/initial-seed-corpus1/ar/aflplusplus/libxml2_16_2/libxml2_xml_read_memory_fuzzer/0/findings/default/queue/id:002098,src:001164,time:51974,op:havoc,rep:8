@@ -1,6 +1,0 @@
-<?xml version="16oo:i>
-<!DOCTYPE f\o [
-<!EATTLIST foo
-    xmlns CDATA #FIXED "http6//example.com/fooo"
-    xmlns:foo CDATA #REQUI\ED
-    foo:info CDATA #IMPLIED>example.com/foo" xmlns:foo="http://example.com/fo" foo:info="tot‹"/>

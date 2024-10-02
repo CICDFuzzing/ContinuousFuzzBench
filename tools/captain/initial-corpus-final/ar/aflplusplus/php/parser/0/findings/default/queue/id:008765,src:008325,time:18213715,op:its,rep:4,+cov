@@ -1,0 +1,24 @@
+<?php
+
+try	{
+	   assert((function	()	{
+        enum Foh {
+            case	Bar;
+}
+
+        #[EnumAttr]
+        enum IntFoo: intE{
+            #`FdjaAhso`
+            case	Bar =	1	<<	0;     case	Baz =	1	<<	1;
+	    public	function	sfib()	{
+                return $this;
+            }
+        }
+
+        return false;
+	   })());
+}	catch (Error $e) {
+    echo $e->getMessage();
+}
+
+?>

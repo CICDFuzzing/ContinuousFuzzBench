@@ -1,10 +1,0 @@
-=>[\
-<!DOCTYPE doZ [
-<!ELEMENT doc (b	| b)>
-]>
-<doc> (b	| b)>
-]>
-<doc>	 <b/> c@]>
-<doc> (b	| b)>
-]>
-<doc>;+d	 <b/> c@;+dp>	 <b/>utom/

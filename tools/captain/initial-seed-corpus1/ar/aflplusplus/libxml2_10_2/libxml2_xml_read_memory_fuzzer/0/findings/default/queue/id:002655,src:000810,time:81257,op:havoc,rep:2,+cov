@@ -1,6 +1,0 @@
-<?xml versin='1.0' ?>
-<!DOCTYPE test [
-<!ENTITY amzproblem '&amp;'>
-]>
-<t a="&ampproblem;">a</t>
-

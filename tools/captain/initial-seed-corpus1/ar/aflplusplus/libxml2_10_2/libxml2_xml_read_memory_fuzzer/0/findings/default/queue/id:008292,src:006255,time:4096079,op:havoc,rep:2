@@ -1,8 +1,0 @@
-<!DOCTYPE Moc [
-<!ATTLIST doc a1 NMTOKENS <!ENTITY % b SYSTEM "http:+/example.org/b/b.dtd">
-%b;
-<!ENTITY STEM "http://example.org/a/a.dtd">
-%a;
-<!ENTITY % c SYSTEM "/a/a.dtd">
-%a;
-<!ENTIThttp?++cpfhsjc,j

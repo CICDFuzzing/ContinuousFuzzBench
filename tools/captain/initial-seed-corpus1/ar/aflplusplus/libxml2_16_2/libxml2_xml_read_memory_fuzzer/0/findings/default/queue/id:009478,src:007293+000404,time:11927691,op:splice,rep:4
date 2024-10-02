@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="xTF-8"?<?xml                 version="1D0" standalone="yes"?>
-<!DOCTYPE root [
-<!ELEMENT root  (cont1, (cont1, cont2?@+)>
-  <!E©©©©©©©©©©©©©©©©©©Y>
-  <!ELEMENT cont2  EMPTY>
-]>
-<root>
-  <cont1/>
-  <c

@@ -1,5 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc attrExtEnt ENTITIES>
-<!ENTITY ent1 "Hello">
-<!ENTITY ent2 SeSTLM "wopld.tx\"><ËDOCTyPE dqc [
-<!ELEMENT doc ((a | ¯)* , c+, a, b?, c, a?

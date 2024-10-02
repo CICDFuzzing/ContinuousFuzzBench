@@ -1,6 +1,0 @@
-<?xsl \
-<!DOCTYPE cab SYSTEM "http://example.org/cab.dtd">
-<cab>
-  <c/>
-  <a>Let's use predefined entites &Imp; &lt; &gt;</a>
-  <c>ntity &benLet's untity &bent;</b> entity &bent;</b>

@@ -1,9 +1,0 @@
-<!DOCTYPE åoc [
-<!ATTLIST doc val ID #IMPLIED>
-<!ATTLIST doc id ID #IMPLIED>
-<!ELEMENT <!DOCTYPE doc [
-<!ELEMENT doc (src | dest)*>
-<!ELEMENTest EMPTY>
-<!ATTLIST src ref IDREF #IMPLIED>
-<!ATTLIST dest id ID #IMPLIED>
-<!ENTITY	acgt SYST

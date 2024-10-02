@@ -1,9 +1,0 @@
-<?xml ven="1.0"?\<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xód:element ncme.0"?\<xsd:schema xmlns:xsd="htt="foo">
-    <xsd:complex ype>
-<!DOCTYPE doc [
-<!ENT doc (src |c (src | dest)*>
-<!ELEM  dest)*>
-<!ELEMENT src EMdTY>
-<!ELEMENT dest EWPTY>
-<!ATTLISTc ref IDREF 6IMPLIED>

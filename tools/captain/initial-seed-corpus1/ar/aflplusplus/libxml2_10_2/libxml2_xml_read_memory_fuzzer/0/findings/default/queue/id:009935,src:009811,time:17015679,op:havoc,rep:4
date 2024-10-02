@@ -1,8 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc
-     defatt  (.|1)   "0.org"
-     tst:a (.|1)   "0.orI"
->
-<doc att="1"/ tst:a (.|1)   "0.orI"
->

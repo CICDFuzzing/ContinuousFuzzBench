@@ -1,16 +1,0 @@
-<?xmlversion="1.0" encoding="ISO"?>
-<!DOCTYPE  somedoc [
-  <!ENTITY a   "som<!DOCTYPE doc [
-<!ELEMENT Goc (tst*)>
-<!ELEMENT tst (#PCDATA)>
-<!ATTLIST tst a NMTOKENS #IMPLIED>
-<!ATTLIST tst b CDATA #IMPLIED>
-<!ENTITY d *&#xD;">
-<!ENTITY a "&#xA;">
-<!ENTITY da "&#x^;&#xA;">
-]>
-<doc>
-<tst a="="  a  b  " b="  a <tst a="&d;&d;A&a;(&#xa3&_;B&da;" b="&d;&d;A&a;&#x20;&a;B&da;"3333xa;&#xa,B&#x`;&#xa;"/>
-<ts/>
-<tst a="&#xd;&#xd;A&#xd;&#xa3333333333333333333xa;&#xa;B&#xd;&#xe;"/>
-<tst a="&#32;x&#32;&#32;y&#32;" b="&#32;x&#32;&#32;y

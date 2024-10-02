@@ -1,7 +1,0 @@
-<XPath xmlns:ietf="http://www.ietf.org" >
-    (//.|//@*|//namespelf::ietf:e1
-	    or
-	(parent::ietf:e1 and not(self::text() or self::e2))
-	    o(id("E3")|ancestor-or-self::node()) unt(ancestor-or-self::node())
-    ]
-</XPath>

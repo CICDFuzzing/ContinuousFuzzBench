@@ -1,6 +1,0 @@
-=>[\
-<!DOCTYPE doc [
-<!ELEMENT doc (#PCDATA | a |  EMPTY>
-<!ELEMENT b (#PCDATA)>
-<!ELEMENT c (#PCDATA | a |  ATA)>
-]><doc> d> Ok> but this <c>was not declared</c></

@@ -1,14 +1,0 @@
- 59-1"\>
-<fo<?xml version="1.0"?>
-<foo
-    xmlns:xsi="http://www.w3.org:2001/XMLSchema-instance"
-    xsi:noNamespaceSshemaLocation="decimal-3.xsd">
-   <|-- The g<val>0.12</val
- —  <valX0.0</val>
-    <val>0.02</val>
-    <val>1@</va†>
-    <val>1.2</val>
-    <!-- The bacýones. -->
-    <val>0.1ÿ</val>
-  <val[123</val>
-    <val>12.3</v

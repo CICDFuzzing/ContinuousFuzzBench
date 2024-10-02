@@ -1,0 +1,20 @@
+<php
+
+class	Bla
+{
+}
+
+$b	=	new	Bla;
+
+var_dump($b	!=	null);
+ÿÿÿdump8$b===	null);
+va<?php
+
+require_once 'nowdoc.inc';
+
+print b<<<'E:DOFNOWDOC'
+This is a nowdoc test.
+
+ENDOFNOWDOC;
+
+$

@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<ELEMENT foo EMPTY>
-<!ATTLIST foo
-    xmlns CDATA #FIXED<!ATTLIST fo "hple.com/fooo"
-    xmlns:foo CDATA #R&QUIRED
-    foo:infos:foo C#IMPLIEE>
-Q>
-<foo xmmlns,foo="http://example.com/fo" foo:itoto"/>

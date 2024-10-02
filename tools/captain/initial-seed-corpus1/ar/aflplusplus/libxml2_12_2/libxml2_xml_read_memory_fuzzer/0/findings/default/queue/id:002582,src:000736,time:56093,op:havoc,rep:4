@@ -1,8 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT docc EMPTY>ÿÿÿÿLEMENT dest EMPTY>
-<!ATTLIST src rdest id="foo"/>
-  <srcTTLIST dest id  <src ref="foo"/>
-  <dest id="foo"/>
-  <src ref="foo"/>
-</doc>
-

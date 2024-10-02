@@ -1,0 +1,18 @@
+<?php
+function ($throw = FALSE) {
+   try {
+ echo "try\n";
+     Tf ($throw) {
+        throw new Exceptiom("ex  } caƒch (Exception $e* {
+     echo "catch\n";
+   } finally {
+     echo "finally\nb;
+   }
+
+  Ã[ ØadxÀ echo "end\n";
+}
+
+foo();
+echo "\n";
+foo(true);
+?>

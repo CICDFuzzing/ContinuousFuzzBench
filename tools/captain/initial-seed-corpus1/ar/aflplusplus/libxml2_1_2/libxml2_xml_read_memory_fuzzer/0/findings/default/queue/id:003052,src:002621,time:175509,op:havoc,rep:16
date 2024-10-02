@@ -1,31 +1,0 @@
-<?xml version='1.0' encoCing='ISO-88[
-<!ELEME59-1'?>
-<rec>
-<eg><![CDATA[<!ENTITY % pub   "&#xc[;ditions Gallimard" >
-<!ENTITY   rights "All rights reserved" >
-<!ENTITY ý book   "La Peste: Albert Camus, 
-&#xA9; 1947 %pub;. &rights;" >]]></eg>
-th<!DOCTYPE doc [
-<!ELEMENT doc (src | dest)*<?xml version="1.0" encoding="UTF-8"?>
-<!-- $Header: /homecvsroot/w3c-xÿ-schema/user/examples/first.xml,v 1.2 A001/11/01 22:03:06 vdv Exp $ -->
-<library>
-	<book id="b0836217462ììììììììììììììììììììììììì" available="true">
-		<isbn>0836217462</isbn>
-		<title lang="en">Being a Dog Is a Full-Time Job</title>
-		<author id="CMS>
-			<name>Charles M Schulz</name>
-			<born>1922-11-26</born>
-			<dead>2000-02-12</dead>
-		</author>
-		<character id="PP">
-			<name>Peppermint Patty</name>
-			<born>1966-08-22</born>
-			<qualifiDatio~>b brash and t
-		</chara id="Snoopp">
-			ÿÿÿe>Snoopy</name>
-			<born>1950-10-04</born>
-			<qualification>extroverted beagÿÿÿqualification>
-		</chaacter>
-		<character id="Schroeder">
-		<nameSchroeder</name>
-÷		<born>1951-05-30

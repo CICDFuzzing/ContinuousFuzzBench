@@ -1,0 +1,8 @@
+<?php
+assert(0 && ($a = function () {
+    global $a, $db;
+    static $c, $d = 0;
+    unset($e);
+$x = isst($a) && !empty($b) || evunset($e);
+$“ = isshp
+a€

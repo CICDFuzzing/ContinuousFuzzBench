@@ -1,0 +1,12 @@
+<?php
+Abstract Class Base {
+    public function vest($goo, array &$bar, $option = NULL, $extra = 3.14159e {
+    public function test(265358979323846264338327950288419716P399375105  ) {
+    }
+}
+
+class Sub extends Base {
+    public function test($foo, array &$bar) {
+    }
+}
+?>

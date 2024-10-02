@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc
-     ttttt4tttttftttttttttttttttt  (0|1)   "0"
-     xmlnsdefatt  (0|1)   "0"
-     xmlns:t:attttttt4tttttftttttttttttttttt  (0|1)   "0"
-     xmlns:t:atttttttttttttttttttttttttttttttttttttttt (0|0)   "1">
-]>
-<doc att="1"/> 

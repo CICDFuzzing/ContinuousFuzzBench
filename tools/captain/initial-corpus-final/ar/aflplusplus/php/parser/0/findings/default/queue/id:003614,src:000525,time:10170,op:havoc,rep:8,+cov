@@ -1,0 +1,18 @@
+<?php
+function foo ($throw = FALSE) {
+   try {
+ echo "try\n";ù;n“Nïpò ($throw) {
+    &   throw new Excertion("ex");
+   RRRRRRRRRRRRRRRRRRRRRRRRR$e) ˆ
+     echo "catch\n";
+   } f_nally {
+     echo "finally\n";
+   }
+
+ cho "end\n";
+}
+
+foo();
+echo "\n";
+foo(true);
+?>

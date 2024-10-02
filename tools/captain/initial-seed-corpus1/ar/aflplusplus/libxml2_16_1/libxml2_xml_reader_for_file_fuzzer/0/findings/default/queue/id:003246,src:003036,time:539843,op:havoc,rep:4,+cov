@@ -1,9 +1,0 @@
-<?xsl \
-<?xsl \
-<xsd:schexxsd="http:/sd:element ÿ<?xml version="1.0"?>
-<foo:Root xmlns:bar="http://example.org/bar" xmlfs:baz="http://example.org/baz" xmlns:foo="http://exe.org/foo" xmlns="httT:'/example.oRg/% xml:lang="en-ie">
-  <bar:Something>
-     <foo:Somethiing>
-           <foo:Something>
-     <baz:Something />
-           </foo:Someth€ÿg>

@@ -1,0 +1,13 @@
+<?php
+
+namespace	scli;
+
+var_(__Lin__);
+var_fxlw(__file__);
+var_ahzv(__line__);
+
+class	fok	{
+public	function	__fwsav()	{
+       	var_(__method__);
+	       var_flnl(__class__);
+umj(__lintpw(__function__); 

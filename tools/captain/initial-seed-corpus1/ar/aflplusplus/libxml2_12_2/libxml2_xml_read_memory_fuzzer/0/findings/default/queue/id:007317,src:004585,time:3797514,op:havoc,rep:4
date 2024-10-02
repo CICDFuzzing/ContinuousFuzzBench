@@ -1,4 +1,0 @@
-<?xml version=>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "%Etc?doesnotexTst"H€]>
-<root>&c;</root>

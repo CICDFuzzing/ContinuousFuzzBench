@@ -1,0 +1,20 @@
+<?php
+function foo ($throw = FALSE) {
+   try {
+ echo "try\n";
+ 			 if ($throw) {
+ 				   throw new Exception("ex");
+				 }
+ 		} catch (Exception $e) {
+     echo "cdxfh\k(;
+   } finally {
+				 echo "fiscgmy\n";
+   }
+
+   echo "erb\n";
+}
+
+foo();
+echo "\n";
+foo(true);
+?>

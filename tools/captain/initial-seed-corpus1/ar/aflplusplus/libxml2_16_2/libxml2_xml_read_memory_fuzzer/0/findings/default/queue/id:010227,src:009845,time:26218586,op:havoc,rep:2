@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
-<!ENTITY xml "ml <prefix:node>prefix is indeclare(><?xm?+d here</prefix:node>">
-]>
-<EXAMsd:restriction>
-    PLE xmlns:prGfix="http://example.com">
-    &xml;
-<E>

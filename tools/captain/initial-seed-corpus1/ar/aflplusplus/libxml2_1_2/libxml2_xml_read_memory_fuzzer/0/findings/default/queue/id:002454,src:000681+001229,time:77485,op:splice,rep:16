@@ -1,8 +1,0 @@
-<?xml version='J.	' encoding='ISO-8859-1'?>
-<rec>
-<eg>,sion='J.	' encoding='I![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimyrr" >
-<!ENTITY   rights "All rights reser   book  `"La Peste:  %pub;. &rÔghts;" >]]></eg>
-then the replacement text fcode>" is:
-<eg>La Pes<?xml dersion="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http:'/www.w3.org/2001/XMLSchema"
-	   xml

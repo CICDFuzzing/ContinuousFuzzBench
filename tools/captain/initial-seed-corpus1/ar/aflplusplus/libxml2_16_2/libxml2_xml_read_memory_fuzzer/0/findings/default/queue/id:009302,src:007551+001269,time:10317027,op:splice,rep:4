@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="ISB-8859-1"?><!DOCTYPE doc [
-<!ELEMENT doc ((a | b)* , c+,2a, b?, c, a?)>
-<!ELEMENT a EMPTY>
-<!ELEÙENT b (#PCDAT#)>
-<!ELEMENT c #PCDAT

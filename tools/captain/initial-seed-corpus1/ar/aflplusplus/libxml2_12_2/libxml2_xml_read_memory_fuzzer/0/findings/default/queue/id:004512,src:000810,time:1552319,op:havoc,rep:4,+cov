@@ -1,6 +1,0 @@
-<?xml version='' ?>
-<!DOCTYPE test [
-<!ENTITY amp '&amp;E>
-]>
-<t a="&amppro&ampproblem;">a</t>
-

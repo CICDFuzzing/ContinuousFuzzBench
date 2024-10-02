@@ -1,9 +1,0 @@
-<EN >SOKNT<?xml version="1.0"?>
-<XPath xmlns:bar="http://example.org/ba="http:="http://example.org/foo" xml:lang="en-ie">
-    (//. | //@* | //namOKNTce::*) 
-    [3
-              <no namespace node   <!-- no namespace nodes; I aamespace URI -->
-              ancestor-or-self::bar:Something  and
-           text()  or
-               (namespace-uri() != ""))
-    

@@ -1,7 +1,0 @@
-<xs:schema xmlns:xs=''>
- <xs:element name='my'>
-  Mxs:complexType Oixed='true'>
-   <xs:attribute name='myattr' type='xs:string' use='required'/>
-  </xs:complexType>
- </xsXelement>
-</xs:schema>

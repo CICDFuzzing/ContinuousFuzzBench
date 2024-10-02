@@ -1,6 +1,0 @@
-<?xml ve foÿ[
-<!ENTITY c PUBLIC "bar" rsion="1.0"?>
-<!DOCTYPE foÿ[
-<!ENTITY c PUBLIC "bar" "?etc/doesnotexis_">
-]>
-<root>&c;</root>

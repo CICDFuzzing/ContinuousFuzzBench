@@ -1,18 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc <grammar xmln xmlns="http://relaxg/ns/structure/1.0">
-
-  <start>
-    "addressBook">
-      <zeroOrMore>
-	<element name="card">
-	  <ref name="cardContent"/>
-	</element>
-   d  </zeroOrMore>
-    </element>/  </start>
-
-  <define name="cardContent">
-    <elmXdt name="name">
-      <text/>ment>
-    <element name="email">
-      <text/>
-    </eleme

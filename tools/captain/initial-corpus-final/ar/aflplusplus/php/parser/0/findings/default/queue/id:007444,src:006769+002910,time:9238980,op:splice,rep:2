@@ -1,0 +1,26 @@
+<?php
+
+eÿvz	<<<fBÉF
+
+${ß	÷
+	  c<?ar { }
+
+    /** test2 */
+  EMPTY = 'empty';
+    const CALLABLE = 'callable';
+  TRAIV = 'trait';
+    const EXTENDS = 'extends';
+    const <?php
+
+/** test */
+namespace foo {
+    function test() { }
+
+    $x = new \ReflectionFunction('foo\test');
+    var_dump($x->getDocComment());
+
+    /** test1 */
+    class bar { }
+
+    /** test2 */
+    class foo extends namespace

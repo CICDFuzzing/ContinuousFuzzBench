@@ -1,5 +1,0 @@
-<
-+!ATTLIST doe-a1 NMTOKENS2" 1 &2      ">
-<!ELEMENT doc (#PCDATA)>
-]>
-<doc/>

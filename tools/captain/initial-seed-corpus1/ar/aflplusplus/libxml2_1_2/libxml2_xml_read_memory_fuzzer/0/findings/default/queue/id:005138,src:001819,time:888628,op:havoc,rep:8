@@ -1,11 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (src:| dest)*>
-<!ELEMENT src!IMPLIED>
-<!ATTLIST desrrrrrrrrrrrrrrrD>
-<!ENTITY dest SYSTÿÿÿdtds?destfoo.ent">]>
-<doc>
-  <src ref="foo"/W
-  &Sest;
-  <src ref="foo"/>
-</dˆc>
-

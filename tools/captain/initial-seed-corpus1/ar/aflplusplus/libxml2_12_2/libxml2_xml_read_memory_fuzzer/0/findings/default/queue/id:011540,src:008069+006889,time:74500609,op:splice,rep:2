@@ -1,20 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (a, b, c, b, c, d) >
-<!ELEMENT a EMPTY>
-<!ELEMENT b EMPTY>
-<!ELEMENT c EMPTY>
-<!ELEMENT d EMPTY>
-<!ENTITY c "<c/>">
-<!ENTITY bc "<b/>&c;">
-]>
-<doc>
-<a/>%c bc "<b/>&c;">
-]>
-<doc>
-<a/>%cc;
-&bc;
-<d/<!DOCTYPE doc [
-<!ATTLIST doc attrELEMENT doc (a, b, c, b, c, d) >
-<!ELY>
-<!ELExt">
-<!ENT

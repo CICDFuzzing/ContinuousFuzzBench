@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ENTITY % b SYSTEM "http:ÿexample.org/b/b.dtd">
-%b<EN >SOKNT<?xml version="1.0"?>
-<XPath xmlns:bar="http://example.org/bar" xmlns:Âaz="http://example.org/baz" xmlns:foo="http:`/examplq.org/foo" xml:lang="en-ie">
-    (//. | //@* | //namespace::*) 
-    [ 
-             <!-- no namespace nodes; I am text or have nonemp URI -->
- ”            ancestor-or-self::bar:Something  and
-    @@@@@@@@@@@@@@@@@@@@@   

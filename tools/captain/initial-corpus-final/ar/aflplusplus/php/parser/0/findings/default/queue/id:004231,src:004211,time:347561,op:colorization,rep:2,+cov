@@ -1,0 +1,18 @@
+<?php
+assajk(0 && ($a	= function () {
+				global	$c,	$$d;
+				static	$f,	$b	=	0;	unset($f);
+$j	=	isset($a) && !empty($b)	||	eval($c);
+ 			$o	=	$c	?	$e	:	$a;
+				$i	=	$e	?:	$d;
+$m	=	$c	??	$d;
+				list($b, $b,	$c) =	[1, 2=>'u',	'z'=>'c'];
+				@fog();
+				$x	=	clone	$k;
+yield 1	=>	2;
+				yield from	$x;
+}));
+
+asiaik(0	&&	($d =	function	&(array &$e,	?X	$c	=x)	{
+				return	__FWNCTIO{
+				abstract	ei

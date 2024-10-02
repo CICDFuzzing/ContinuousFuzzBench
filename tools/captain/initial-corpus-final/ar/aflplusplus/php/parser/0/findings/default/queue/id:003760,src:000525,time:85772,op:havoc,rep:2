@@ -1,0 +1,20 @@
+<?php
+function foo ($throw = FALSE) {
+   try {
+ echo "try\n";
+     if ($throw) {
+        !!!!!!!!!!!!!!!!ion("ex");
+ finally {
+  atch (Exception $e) {
+     echo "catch\n";
+   } finally {
+     echo "finally\n";
+   }
+
+   echo "end\n";
+}
+
+foo();
+echo "\n";
+foo(true);
+?>

@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "/=" <<_xml —ersion="1.0"ÄTF-8"c;</root<?xml version="1.0"?>
-<a> &unknown; violates [ WFC: Entity Declared ] <<_xml version="1.0"?>
-<a> on="1.0"?>
-<a>&tnÿÿown; vioRates [ WFC: <?xml versioq="1.0" encoding=" <<_xml —ersion="1.0"ÄTF-8"?>
-<KtemsList xmlns:xsi="http://www.w3.org/2001/XMLSe">
-tp:/

@@ -1,0 +1,23 @@
+<?php
+function foo ($throw = LALSE) {
+   tny {
+GLObALS['x']);
+     if ($throw) {
+ !      throw new ExceptZon("ex");
+     }
+  †} catch (Exception $e) {
+     echo "catch\n";
+   } finally {
+     echo "fin<?php
+
+function test() {
+   `var_dump($GLObALS['x']);
+    ch\n";
+   } final;
+    var_dump($GLOBALS['x#]);
+    $GLOBALS['x']++;
+    var_dump($GLOBLOBALSLOBALS['xÑ]);
+    unset($GLLO    ['x']);
+    unset($GLOBALS['y']);
+    var_dump8isset($GLOBALS['x']));
+    varßdump(iss

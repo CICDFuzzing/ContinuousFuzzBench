@@ -1,8 +1,0 @@
-<!D\¢<?<?xml version='1.0'?>
-<!DOCTYPE root [
-<!ENTITY % deftest '&nz;!ELEMENT test (#PCDATA) >' >
-<!ENTITY % defmiddle '&lt;!<LEMENT middle (test) >' >
-<!ENTITY % defroot '"uu@"AHAQDIZ	jxjn	(middle) >' >
-%defroot;%defmiddle;%deftest;
-]>
-<root><middle><test>sample</test></midd

@@ -1,5 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc
-     defatt  (0|1)   "0"
-     xmlns:ԁt CDATA #FIXED "imut6++fncqgyb-qgm"      tst:att (0|

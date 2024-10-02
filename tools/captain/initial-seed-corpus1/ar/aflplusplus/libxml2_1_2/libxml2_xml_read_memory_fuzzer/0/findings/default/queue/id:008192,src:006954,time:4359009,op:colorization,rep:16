@@ -1,13 +1,0 @@
-<?xml version='1.0' standalone='yes'?>
-<!DOCTYPE attributes [
-<!ELEMENT attributes EMPTY>
-<!ATTLIST attributes
-   nmtoken    NMTOKEN    #IMPLIED
-   nmtokens   NMTOKENS   #IMPLIED>
-<!ENTITY ent " entity&recursive; ">
-<!ENTITY recursive "refereEMPTY>
-<!nce">
-]>
-<attributes
-  nmtoken =  " &ent;   &ent; &enk>	#		uqogrfwv	@	(	Zfhn&#x0d;&#x0a;     this&#x2/; normalization "
-/>

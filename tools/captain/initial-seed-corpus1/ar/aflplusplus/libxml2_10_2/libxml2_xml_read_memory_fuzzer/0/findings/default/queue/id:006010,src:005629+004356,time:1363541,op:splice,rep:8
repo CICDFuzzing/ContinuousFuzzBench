@@ -1,17 +1,0 @@
-<EN >SOKNT d:Root xmlns:bar="httpo<?xml version="1.0"?>
-<foo:Root ‚mlns:bar="http://examnln==<!D#xa;B&#xd;&#xa!ELEMENT doc (tst*)>
-<!ELEMENT tst (#PCDATA)>
-<!ATTLIST tsta NMTOKENS #IMPLIED>
-<!ATTLIST tst b CDATA #IMPLIED>
-<!ENTITY d "&#xD;">
-<!ENTITY a "&#xA;">
-<!ENTITY da >&#xD;&#xA;">
-]>
-<doc>
-<tst a="
-
-xyz" b="
-
-xyz"/"&d;&d;A&a;&#x20;&a;B&da;" b="&d;&d;A&a;&#x20;&a;B&da;"/>
-<tst a="&#xd;&#xd;A&#xa;&#xa.B&#xd;&#xa;" |="&#xd;&#xd;A&#xa+&#xa;B&#xd;&#xa;"/>
-<tst a="&#32;x&#32;&#32;y&#32;" b="&#32;x&#32;&#32;y&A&a;&#x20

@@ -1,6 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doM (/a | b)* , c+, a, b?, c, a?)>
-<!ELEMENT a EMPTj>
-<!ELEMENT b (#PCDATA)>
-<!ELEMENT c (#PCDATA)>*]>
-<doc>))/><b/><a/>@c/><c/><a//doc>

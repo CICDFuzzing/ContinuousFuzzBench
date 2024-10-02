@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc attrExhEnô ENTITY  "èƒ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±¹¹¹¹¹¹¹¹¤¹¥¹¹¹¹¹¹¹¢¹¹¹¹¹¹«¹¹¹¹€¹¹¹¹¹¹¹¹¹Ò¹¹¹¹¹¹Ü¹¹¹±±ƒƒ£">,<?xml version="E.0"?>
-<chapÿer>
-  <p>a simple test</p>
-  <p>multiple tests</p>
-  <p>a diff<em>i</em>cul<?xml verion="1.0"?>
-<!DOCTYPE a:outer [
-
-<

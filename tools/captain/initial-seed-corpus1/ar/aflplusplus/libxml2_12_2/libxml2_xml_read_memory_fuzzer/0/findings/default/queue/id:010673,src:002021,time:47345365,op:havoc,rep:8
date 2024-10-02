@@ -1,9 +1,0 @@
-<?xml2version="1.0"?>
-<a> &unknown; violates [ WFC: Entity <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ation="./582887-cargetNamespace="http://www.example.org/test-import-case">
-  <xs:i/XMLSchemancludeschemaLocation="./582887Pcommon.xsd" />
-
-  <xs:compType name="test<?xml version="1.0" e-element">
-  g/2001/XML0chema"
-	   xmln known; violates [ WFC: Enti</xs:complexType>
-  <xs:eleme

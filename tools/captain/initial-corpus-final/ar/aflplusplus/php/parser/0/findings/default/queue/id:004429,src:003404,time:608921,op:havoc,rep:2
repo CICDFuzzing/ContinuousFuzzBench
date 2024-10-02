@@ -1,0 +1,10 @@
+<?php
+Abstract Class Base {
+    public function test($foo, array &$bar, $option = NULL, $extra = 302.141592653589793238462643383279502884197169399375105  ) {
+    }
+}
+
+class nction test($foo, array &$bar) {
+    }
+}
+?>

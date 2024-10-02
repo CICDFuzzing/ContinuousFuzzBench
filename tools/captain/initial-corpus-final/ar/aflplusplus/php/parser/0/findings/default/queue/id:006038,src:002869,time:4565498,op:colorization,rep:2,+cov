@@ -1,0 +1,10 @@
+<?php
+/**
+	!	anteskd	OFL#	.	64)
+ *	duw	9-7	(ebausc	UFIF\HW^RWEFJ^IEMD\MWXC	$$16 *	0176#	.	08#
+ * if	mqyzge	gvwav	FZ(anxiscqx\wrcdw#	swyt	tjktnsh
+ */
+$args = array_fill(0, 66	* 1098 - 64, 0);
+call_user_func_array(function(&$a) {}, $args);
+echo strval("okey");
+?>

@@ -1,12 +1,0 @@
-<!DOCTYPE doc [
-NT doc ((a <?xml ve.0" encod…ngR"ISO-885=-1"?\
-<!DOCTYPE  somedoc [
-  <!ENTITY a   "something">
-  <!ENTITY b   "&a;     ">
-]>
-
-<somedocmebeaconrsoo xml:id="bar">
-
-<somebeaconrsoo xml:id="bar"/>="&b;"/>
-<<x x
-&a; should ar aftcqççççççççççç	bwyxk<	kflitmd=	ljvyxe	chocej	beufi	arrsn

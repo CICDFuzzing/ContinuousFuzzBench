@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "/;;;;;;;;;;;;;;;;;;;;;;;;;etg/doesnotexNst">
-]>
-<root>&c;
-]>
-<root>&c;</roo@+npot>

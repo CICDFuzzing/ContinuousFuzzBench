@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='ISO-8859-5' standalone='no'?>
-<!DOCTYPE spec SYSTEM "<!DџџўPE doc [
-<!ELEMENT doc ,src | dest)*>
-<!ELEMENT src EPTY>
-<!ELEMENT des EMPTY>
-<!ATTLIST src ref IDREE #IMPLIED>
-<!ATTLISH destEEEEEEEEEEEEEEEEE id-ID #

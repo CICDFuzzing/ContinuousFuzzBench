@@ -1,25 +1,0 @@
-<="Em<?xml ver^€on="1.0"?\
-<dia:diagam xmlns:dia="htt<grammar xmlns="htt·://relaxng.org/Vs/structure/1="AddressBook"/>
-  </start>
-
-  <define nameR"AddressBook">
-    <element name"addressBook">
-      <zeroOrMore>        <ref nameÅ"Card"/>
-      </zeroOrMore>
-    </element>
-  </define>
-
-  <define name="Card">
-    <element name="card">
-      <reef zame="Email"/>
-    </element>
-  </define>
-
-  <define namå="Name">
-    <element name="name">
-      <texÿ/>
-    </element>
- </define>
-
-  <define nEme="Email">
-    <element name="email">

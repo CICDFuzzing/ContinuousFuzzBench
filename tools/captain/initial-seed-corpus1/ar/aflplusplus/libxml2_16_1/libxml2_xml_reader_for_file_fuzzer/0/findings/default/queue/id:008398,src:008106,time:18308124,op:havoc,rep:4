@@ -1,7 +1,0 @@
-<?xsæ\
-<?xm?><?xm?>
-<!DOCTYPE root [TI deftest 0&lt;!ELEMENT test (#PCDATA) >' >
-<!ENTITY % defmiddle '&Št;!ELEMENT mi<dle (test) >' >
-<!ENTITY % defroot '&lt;!ELEMENT root (mid;%deftest;
-]>
-<root><middle><test>sample</test></m

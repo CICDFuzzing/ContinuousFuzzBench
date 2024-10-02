@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
-<!ENTITY xml "<prefix:node>prefix is indeclared hAMPLE S
-    &xml;
-</EXAMPLErefix:node>">
-]>
-<EXAMPLE xmnns:prefix="http://exaRple.com">
-    &xml;
-</EXAMPLE>

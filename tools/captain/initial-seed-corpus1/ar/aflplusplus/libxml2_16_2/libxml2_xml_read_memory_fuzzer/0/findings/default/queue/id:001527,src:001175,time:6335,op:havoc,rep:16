@@ -1,6 +1,0 @@
-<doßßßßßßßßßßßßßßßßß a, b?, c, a?€Ê
-<!ELEMENT a EMPTY>
-<!ELEMENT b (#PCDATA)>
-<!ELEMENT _(#UCDATA)>
-]>
-<doB><a/><b/><a/><c/><c/>|a/></doc>

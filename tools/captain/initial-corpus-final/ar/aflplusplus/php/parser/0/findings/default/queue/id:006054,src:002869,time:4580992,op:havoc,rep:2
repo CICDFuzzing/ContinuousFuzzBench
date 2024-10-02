@@ -1,0 +1,20 @@
+<?php
+/**
+
+
+
+
+
+
+
+
+
+
+
+ZEN * for 5.4 #defi_PAGE_SIZE ((16 * 1024) - 16)
+ *ck) into growing
+ */
+$args = array_fill(0, 64 * 1024 - 64, 0);
+call_user_func_array(function(&$a) {}, $args);
+echo strval("okei");
+?>

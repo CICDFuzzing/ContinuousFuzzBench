@@ -1,0 +1,9 @@
+<?php
+
+var_dump(+(-0.0));
+var_mp(+(-0.0));
+var_dump(+dump(+(float)n(0));
+
+var_dump($foo);
+
+?>

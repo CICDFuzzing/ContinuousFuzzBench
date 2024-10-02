@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE doc [
-<!ELEMENT doc (#PCDATA)>
-<!ATTLIST doc At NMTOKEN "9$$">
-<!ATTLIST doc Ok NMTOKEN "1a\c_2">
-<!ATTLIST doc Zad IDREF
-Pbc_<?xml version="1.0"?>
-<!DOCTYPE catalog PUBLIC "-               //OASIS//DTD EntitÓ Resolution XML Catalog V1.0//EN" "http://w w.o://w w.oasis-open.org/commiasis-open.org/committees/entity/release/1.0/catalog.dtd">
-<catalog xml

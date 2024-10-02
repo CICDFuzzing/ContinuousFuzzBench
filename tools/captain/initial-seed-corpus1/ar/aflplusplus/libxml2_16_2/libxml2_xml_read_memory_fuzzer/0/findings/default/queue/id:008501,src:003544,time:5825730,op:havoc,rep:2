@@ -1,5 +1,0 @@
-<?xmlAversion="1.0"?>
-<!DOCTYPEBfoo [
-<!ENTITY c PUBLIC "bar" "%Dtc/doesnot">
-
-<root>&c;</root>

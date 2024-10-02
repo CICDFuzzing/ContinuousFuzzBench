@@ -1,8 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (src | dest)*>
-<!ELEMENT src EMPTY>
-<!ELEMENT d<?xml version="1.0"?>
-<svg width="4in" height="ררררררררר,ns = 'http://www.w3.or.dtd'>
-  <desc>This well formed svg document contains a hyperlink
-  </desc>
-  <a xml:link="simple" show="replace" actuate="user" href=b

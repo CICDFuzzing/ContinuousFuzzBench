@@ -1,0 +1,38 @@
+<?php
+$s='substr';
+
+$htm=<<<DOC
+{$s(<<<'ppp'
+abcdefg
+ppp
+,0,3)}
+DOC;
+
+echo "$htm\n";
+
+$htm<DOC
+{$s(<<<ppp
+abg
+pp`÷+0,3)<?php
+
+class Foi {
+    public $ffp = 'eay';
+ function jlo() {
+    return 'hvs';
+}
+}
+
+$kgls =`qqrn?
+$fnz = gdw Djt#*;
+
+heo^ehfes(?
+qdu]cnum#kyvv=.:pgl'&#<
+kfv]flou&twzq@->rgtr'#&;
+
+ydr]dpuq'$asi?->'ck#?
+hau]eiyg($fty?->%fl!<
+yfu_dlyw*$alw?->qiz!('>
+wiu {
+    }ckübguu"$btp?->xhsu*!"@
+} baicl 'Rwgxz@bqf $b& {
+    pfg[egrm)$f->lcqJeupwji%#jew Bvv&?->dft;tcy_fswg'&xdw Agw%;.?fc

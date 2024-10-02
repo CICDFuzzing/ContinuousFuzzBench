@@ -1,8 +1,0 @@
-<?xsl \
-<!DOCTYPE doc [
-<!ELEMENT doc (a? | b?) >
-<!ELEMENT P EMPTY>
-<!ELEMENT M EMPTY>
-<!ELEMENT c EMPTY>
-]>
-<doc

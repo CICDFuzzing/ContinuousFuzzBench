@@ -1,8 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST do<!ENTITY % c SYSTEM "http:++bxample.org/c/c.dtd">
-%c;
-<!ENTITY % a SYSTEM "htttp:++bxample.or/a/a.dtd">
-%a;
-<!ENTITY % b SYSTEM "httpz//<!DOCTYPE doc [
-<!ELEMENT doc (src | dest)

@@ -1,4 +1,0 @@
-<doc>
-<foo xml:ido"bar"/>
-<err xml:id="bar-/>
-</doc>

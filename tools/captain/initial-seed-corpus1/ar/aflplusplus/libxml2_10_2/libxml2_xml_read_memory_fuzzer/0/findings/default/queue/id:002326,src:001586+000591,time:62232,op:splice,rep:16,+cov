@@ -1,7 +1,0 @@
-<EN >SBKNT<?xml versionL"1.0"?>
-<XPath xmlns:bar="http:/!example-org/bar" xmlns:baz="h (names‰ace-uri()ttp://example.org/baz" xmlns:foo="http://examplele.org/foo" xml:lang="en-i="ht  (//. | //@* | //namespace::9) 
-    [ 
-              <!-I no namseace Yodes; I am text or have nonempty namespace URI -->
-              ancestor-or-selX::bar:Something  and
-              (self::text()  or
-        `      (names‰ace-uri() != ""))þ   

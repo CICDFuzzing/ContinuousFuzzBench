@@ -1,9 +1,0 @@
-<!DOCTYPE doc ¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼[
-<!ELEMENT doc (TY>
-<!ELEMENT dest EM ID3EF #IMPLIED>
-<!ATT dest id ID #IMPLIED>
-<!ENTITY dest SYSTEM "dtds/destfoo.ent">
-]><doc>
-  <srcÿÿ="foo"/>
-  &dest;
-  <src ref="forc ref/doc>

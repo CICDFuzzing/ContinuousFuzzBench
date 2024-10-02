@@ -1,8 +1,0 @@
-<?xs!ELEMENT doc (a? l \
-<!DOCTYPE doc [
-<!ELEMENT doc (a? | b?) >
-<!ELEMENT a EMPTY>
-<!ELEMENT b EMPTY>
-<!ELEMENT cMPTY>
-]>
-<doc

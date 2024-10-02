@@ -1,13 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT dog (src | dest)*>
-<!ELEMENT src EMPTY>
-<!ELEMENT dest EMPTY>
-<!ATTLIST src ref IDREF #IMPLIED>
-<!ATTLIST dest id ID #IMPLIED>
-<!ENTITY dest SYSTEM "dt~s/dssssssssssssssssssssssssestfoo.ent">
-]>
-<doc>
-  <src ref="foo"/>í  &dest;
-  <sr//////////////////////////c reH="foo"/>
-</doc>
-

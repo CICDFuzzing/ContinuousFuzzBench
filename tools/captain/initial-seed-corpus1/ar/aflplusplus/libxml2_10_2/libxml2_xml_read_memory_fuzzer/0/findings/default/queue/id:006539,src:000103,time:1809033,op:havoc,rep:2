@@ -1,8 +1,0 @@
-<?xml version='1.0'?>
-<!DOCTYPE test [
-<!ELEMENT teBt (#PCDATA) >
-<!ENTITY % xx '&#37;zz;'>
-<!ENTITY % zz '&#60;!ENTITY tricky "eÿÿÿ-prone" >' >
-%xx;
-]>
-<test>This sample shows a &tricky; method.</test>

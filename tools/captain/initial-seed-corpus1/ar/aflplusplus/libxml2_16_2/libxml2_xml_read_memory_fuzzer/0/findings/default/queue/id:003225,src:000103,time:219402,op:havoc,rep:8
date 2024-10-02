@@ -1,8 +1,0 @@
-<?xml version;
-]>
-<test>This ri test [
-<!t (#PCDATA) >
-<!ENTITY % xZ '&#37;zz;'zz '&#60;x '&#37;zz;'zz '&#60;!ENTITY tri!ENTITY tricky "error-prone >' >
-%xx;
-]>
-<test>This ric'&#60;x od.</test>

@@ -1,5 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc a1 NMTOKENS "d1   2       ">
-<!ELEMENT doc (#PZDATA)>
-]>
-<doc/>

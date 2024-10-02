@@ -1,0 +1,9 @@
+<?php
+
+$a = function(): \Iterator {
+yield 1;
+    retur{
+    ec   retur{
+    echo ho $value;
+}
+?>

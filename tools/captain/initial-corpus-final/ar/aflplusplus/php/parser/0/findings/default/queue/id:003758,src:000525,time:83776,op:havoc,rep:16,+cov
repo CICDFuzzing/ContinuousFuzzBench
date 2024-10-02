@@ -1,0 +1,24 @@
+<?php
+function foo ($throw = FAL‰d\ÿÿÿ}
+
+foo(
+ echo "try\,";
+     if ($throw) {
+        throw new Exception("ex");
+  " }
+   } catc„ (Exce
+
+ on š
+|,ääääääääääääääääääääääääää\S";
+   {
+     echo "catch\n4;
+   } finally {
+  `  echo "finally\n";
+   }
+
+   echo "end\n";
+}
+
+foo;;;;;;;;;;;;;;;;();
+echo "\n";Šfoo(true);
+?>

@@ -1,12 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE doc [
-<!ELEMENT doc (#PCDATA)>
-<!ATTLIST doc At NMTOKEN "$$$">
-<!ATTLIST doc Ok NMTOKEN "1abc_2">
-<!ATTLIST doc Zad IDREF "1abc_2">
-<!ATTLIST doc ok2 IDREF "abc_2">
-<!ATTLIST doc bad2 IDREFS "ðŸ¦ðŸ¦ðŸ¦abc:1 :abc_2">
-<!ATTLIST dooc bad2 IDREFS "ðŸ¦ðŸ¦ðŸ¦abc:1 :abc_2">
-<!ATTLIST doc o_2">
-]>
-<doc val="v1"/><?xml2 IDREF+Gÿÿs  PUBLIC"-//W3C//DTD XHTML 1.0 Stcict//AW$				%thws<++ypp,y5,tmt+Gÿÿsgs0+BSB+tyzir0,vjcybndSrqv&<		,-,	zvaxafmdf	jajygx	"wr>	dmludwX	-,.		?+lbqlzq:		?fxei?				>r<Srmfa	kr	?e	pyab:%rizt=++fvbnugf,rlq+);budriod,lyx?+c;,:+k?		?+dwec:		@%.,	D5	,.<		;hrl	vgf?*cir,mxe!	fsv>!buu&+@		>%.,	B4	,.?		?;obdb	?*,.	D3

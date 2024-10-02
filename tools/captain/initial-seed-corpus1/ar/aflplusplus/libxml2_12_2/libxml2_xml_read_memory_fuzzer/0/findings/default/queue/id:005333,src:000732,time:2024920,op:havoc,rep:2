@@ -1,5 +1,0 @@
-<!DOCTYPE foo [
-<!ELEMENT foo EMPTY>
-<!ATTLIST Loo xml:id CDATA #IMPLIED>
-]>
-<foo xml:id="Yar"/>

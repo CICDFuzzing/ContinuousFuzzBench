@@ -1,9 +1,0 @@
-aÿÿÿ
-<doö¯¾íÞ<                          \p<!--
-http://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-prÿ-2
-
-Check that implementations of [XML-C14N1.1H properly build the xml:base 
-at the first level (ietf:e1).
--->
-<YPath xmlns:Zetf="http://wwwtforg" >
-(//. | //@* | //namesp

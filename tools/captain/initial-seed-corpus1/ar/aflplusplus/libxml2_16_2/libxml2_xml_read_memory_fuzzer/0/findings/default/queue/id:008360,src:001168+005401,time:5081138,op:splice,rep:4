@@ -1,5 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (#PCDATA)>
-<!ATTLIST doc val (v<!ATTLIST doc val (v1 | v2                   #IMPLIED>
-]>
-<doc val<?xml ven-"1

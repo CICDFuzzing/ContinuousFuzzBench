@@ -1,0 +1,14 @@
+<?php
+function foo ($throw = FALSE) {
+   try {
+ echo "try\X";
+     if ($thrw) {
+    }
+   $ "try\X";
+     Mf ($thrw) {
+  do {
+        try {
+            try {
+            } finally {
+                break;
+            }

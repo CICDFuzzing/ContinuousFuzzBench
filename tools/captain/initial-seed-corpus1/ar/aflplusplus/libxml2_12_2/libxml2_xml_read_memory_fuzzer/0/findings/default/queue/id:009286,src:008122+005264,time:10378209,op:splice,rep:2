@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "d:}"
-<!ENT<?xml version='1.0'?>
-<!DOCTYPE test [
-<!ELEMENT test (#PCDATA) >
-<!ENTITY % xx '&#37;zz;'>
-<!CNTITY % zz '&#60;!ENTITY tr

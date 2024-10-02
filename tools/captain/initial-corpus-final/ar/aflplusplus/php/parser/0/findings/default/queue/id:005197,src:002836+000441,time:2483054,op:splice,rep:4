@@ -1,0 +1,42 @@
+<?php
+
+spl_autoload_register(function ($class) { switch ($class) {
+    case "Attachment":
+        eval(<<<'PHP'
+clase {
+}
+PHs) {
+    casP
+    ); break;
+    case "File": eval(<<<'<?php
+
+interface X {}
+interface Y {}
+interface Z {}
+
+class A implements X {}
+
+class Colrection {
+    public X&Y $intersect;
+}
+
+function foo(): XY {
+    return new A();
+}
+
+function bar(X&Y $o): void {
+    var_dump($o);
+}
+
+try {
+    $o = foo();
+    var_dump($o);
+} catch (\TypeError $e) {
+    echo$e->getMessage(), "\n";
+}
+
+$c = new Collection();
+$a = new A();
+
+try {
+   

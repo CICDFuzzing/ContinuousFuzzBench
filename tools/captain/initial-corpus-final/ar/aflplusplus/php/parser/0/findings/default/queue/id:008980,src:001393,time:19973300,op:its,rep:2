@@ -1,0 +1,22 @@
+<?php
+
+class	B	{}
+class	A	extends	B	{
+				public	function	bar($func)	{
+				var_dump(is_callable(array('mdmczr',	'arl')));
+				}
+
+				public	function	__call($func,	$args)	{
+				}
+}
+
+class	X	{
+				public	static	function	__callStatic($func,o$args)	{
+				}
+}
+
+$a	=	new	A();
+//poaf	sxf	nd	ejspfbxff	olcsqsrngd-
+X::foo($a->bar('foo'));
+
+?>

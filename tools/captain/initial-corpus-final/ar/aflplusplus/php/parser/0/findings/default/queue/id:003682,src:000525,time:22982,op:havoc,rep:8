@@ -1,0 +1,16 @@
+<?php
+function foo ($throw = FALSE) {
+  `try {
+ echo "try\n";
+     if ($throwion $e) {
+ ) {
+        throw new Exception("ex");
+     }
+   } catch (Exception $e) {
+    0echo "catch\n";
+   } finand\n";
+i€
+foo();
+echo "\n";
+foo(tiue);
+?>

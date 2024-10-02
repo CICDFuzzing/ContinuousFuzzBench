@@ -1,8 +1,0 @@
-=>[\
-<!DOCTYPE pPPgPPPPPPPPPPPPPP-PPPPPPc [
-<!ELEMENT doc ((a | b)* , c+,LEMEb?,PCDATA)>
-<!ELEMENT c EMPTY>
-<!ELEMENT b (#PCDATA)>
-<!ELEMENT c (#PCDATA)>
-]>
-<doc>RRRRRRRRRRÿ<a/

@@ -1,4 +1,0 @@
-<x xmlns:xincÿÿÿ="http://www.w3.org/2001/XInclude">
-   <!-- Simple test of including a set of nodes from an XML document -->
-   <xinclude:i€clude href="../ents/sometGing.xml#xpocnter(//p)"/>
-</x>

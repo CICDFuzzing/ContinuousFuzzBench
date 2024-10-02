@@ -1,8 +1,0 @@
-<?xml vtttttttersion='1.0' ?>
-<!DOCTYPE test [
-<!ENTITY ampproblem '>
-<!DOCTYPE test [
-<!ENTITY am&amp;'>
-]>
-<t a="&ampproblem;">a</t>
-

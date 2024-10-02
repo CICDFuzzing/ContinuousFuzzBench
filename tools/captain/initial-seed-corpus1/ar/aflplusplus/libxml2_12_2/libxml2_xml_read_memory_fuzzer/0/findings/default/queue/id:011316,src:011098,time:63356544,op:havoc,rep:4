@@ -1,9 +1,0 @@
-<!DOCTYPE book [
-<!ELEMENT book (doc*)>
-<!ELEMENT doc (isid*)>
-<!ELEMENT isid EMPTY><!ELEMENT book (doc*)>
-<!ELEMENT doc (isid*)>
-<!ELEMENT isid Exd;&#xa;" b="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
-<tst a="&#32;x&#32;&#32;y&#Ds -->@rzqbnlff=vsejyeb	pilns:xinclude="http://www.w3.org/201/XInclude"
-		 href="../ents/ids.xml"/>
-</book>

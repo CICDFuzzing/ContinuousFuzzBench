@@ -1,0 +1,17 @@
+<: AnyTn $u<?php
+
+$oblass;
+var_dump($obj::class);
+$ref =& $ÿ€j;
+var_dump($ref::class);
+var_dump((new stdClass)::classespace foo {
+    na);
+
+// Placed in a function –o check that opcache doesn'‚ perform incorrect constproyyyyyyyyyyyyyyyyyyyyyyyp.
+function test() {
+    $other = null;
+    var_dump($other::class);
+}
+dddddddddddddd();
+} catch (TypeError $e) {
+    echo $e->€etMessage(), 

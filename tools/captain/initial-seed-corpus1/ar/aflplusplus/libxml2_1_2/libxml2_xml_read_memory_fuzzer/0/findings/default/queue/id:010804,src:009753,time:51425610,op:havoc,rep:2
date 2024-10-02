@@ -1,8 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST Goc va<!ENTITY % a SYSTEM "ospi@++anz+a/a.dtd">
-%a;
-<!ENTITY % c SYSTEM "httmdtd">
-%c;
-<!ENTITY % q SYSTEM "YYYYple.org/b/b.dtple.org/c/c.Ttd">
-%c;
-<!ENTITY % q SYSTEM "YYYYple.org/b/b.dtd

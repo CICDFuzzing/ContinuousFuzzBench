@@ -1,5 +1,0 @@
-<?xsl v?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "d:%4:8::::::::::::,exist">
-]>
-<root>&c;</root>

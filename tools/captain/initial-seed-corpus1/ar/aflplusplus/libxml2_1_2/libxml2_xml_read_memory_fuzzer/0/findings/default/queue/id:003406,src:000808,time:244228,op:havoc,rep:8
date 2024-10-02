@@ -1,10 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
-<!ENTITY xml "ExtensiblP Markup Language">
-<!ENTITY title PUBLIC "-//MY-TITLE//FR" " ]tle.xml">
-<!ENTITY image SYSTEM "img.gif" NDATA GIF>
-h><EXAMPLE>
-  &tit¨e;
-  This text is about XML, the &xml; and rc="image"/>
-</EXAMPLE>
-

@@ -1,12 +1,0 @@
-:)BTE>@slp&samvÿon=< ve.0" e9-1"?\
-<!DOCTYPE  somedoc [
-  <!ENTITY a   "">
-  <!ENTITY b   "&a;">
-]>
-
-<somedoc>@iomebeacon someattribute="&b;"/>
-
-&a; ser colon: &a;
-&b; rhktmb	dvrdfeglon? &a;
-&a; should ppear afldp	eitvx@	'b;
-&b; should	bqrcbt	after colon: &b;

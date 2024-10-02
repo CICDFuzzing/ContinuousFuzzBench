@@ -1,11 +1,0 @@
->?#?\<!DOCTYPE  somedoc [
-  <!ENTITY a   "<top>
-  <a/>
-</top>; xbp>z">
-  <!ENTITY b   "">
-]>
-
-<somedoc>
-
-$ .
-&a; )fz%ÿ

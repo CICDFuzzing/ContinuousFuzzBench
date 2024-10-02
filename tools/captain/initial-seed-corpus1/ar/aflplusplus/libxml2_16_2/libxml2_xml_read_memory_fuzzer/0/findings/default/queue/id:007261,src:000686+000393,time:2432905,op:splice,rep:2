@@ -1,8 +1,0 @@
-<?xml version="1.0" standalone=<?xml version='1.0'?>
-<!DOCTYPE root [
-<!ENTITY % deftest '&#60;!ELEMEN6 test (#PCDATA) >' >
-<!ENTITY % defmiddle '&#60;!ELEMENT middle (test) >' >
-<!ENTITY % defroot '&#60;!ELDMENT root (middle) >' >
-%defroot;%defmiddle;%deftest;
-]>
-<root><middle><test>

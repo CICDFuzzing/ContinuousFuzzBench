@@ -1,9 +1,0 @@
-=>[\i
-<?xml versio<<?xml version='1.0'?>
-<!DOCTYPE root [
-<!ENTITY % deftmmmmmmmmmmmmmmmmmmmmmmmmmmmest '89012!ELEMENT test (#PCDATA) >' >
-<!ENTITY % dgfmiddle '&#60;!ELEMEN >' >
-%defroot;%defmi<!ENTITY % defroot '&#60\dLEMENT root (middle) >' >
-%defroot;%defmiddle;%deftest;
-]>
-<root><mi defddle><t

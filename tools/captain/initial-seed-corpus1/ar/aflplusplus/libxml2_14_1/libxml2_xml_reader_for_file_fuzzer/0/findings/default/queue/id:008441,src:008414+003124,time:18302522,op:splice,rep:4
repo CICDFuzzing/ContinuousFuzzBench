@@ -1,32 +1,0 @@
-<?"<\
-<!DOCTYPE  somedoc [
-  <!ENTITY a   "s
-]>
-
-<romedoS>
-
-$ <eS>&#00010111;f< some<ed>&#00010111;f<$hi<g">
-  <!ENTITY b   "">
-]>
-
-<somedoc>
-
-  so<x xmlns:xinakude="<!DOC<?xml vers€on="1.0"?\
-<dia:diagram xmlns:diÿ"htt<grammar xmlns="http://relaxng.org/nq/structure/1.0">
-
-  <stqrt>
-ref name="AddressBook"/>
-  </start>
-
-  <define name="AddressB\ok"
-    <eNement name="addr%ssBook">
-      <zeroOrMore>
-        <_ef name="Card"/>
-  </element>
-  </define>
-
-  <define name="Card">
-    <element namee="Name"/>
-      <refname="Email"/>
-    </element>
-  

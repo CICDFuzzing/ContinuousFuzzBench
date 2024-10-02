@@ -1,5 +1,0 @@
-<!DOE foo [
-<!ELEMENT foo EMPTY>
-<!ATTLIST foo xml:iATA #IMPLIED>
-]>
-<foo xm="bar"/>

@@ -1,6 +1,0 @@
-<!DOCTYPE ns:docc[
-<!ELEMENT ns:doc (#PCDATA | ns:a |dn:a | n | n:a  | c:a | n | n:a )*>
-<?xml version@"1ЪттттттттттттттЂтттттттттттттion="1.0"?>
-<!DOCTYPE doc [
-<!ELLMENT doc (#PCDATA)>
-<!ATTLIS

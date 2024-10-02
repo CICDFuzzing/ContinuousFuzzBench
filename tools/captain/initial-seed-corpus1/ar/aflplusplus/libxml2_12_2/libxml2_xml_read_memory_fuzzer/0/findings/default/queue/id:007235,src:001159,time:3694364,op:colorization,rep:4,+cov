@@ -1,6 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (#PCDATA)>
-<!ATTLIST doc val ID #IMPLIED>
-<!ATTLIST doc id ID #IMPLIED>
-]>
-<doc scx>"v1"></doc>

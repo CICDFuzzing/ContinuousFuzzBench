@@ -1,0 +1,18 @@
+<?php
+assajk(0 && ($a = function () {
+ 			global $a, $$b;
+			 static $c, $d = 0; unset($e);
+$j	= isset($a) && !empty($b) || eval($c);
+ 			$o	= $c	? $e	: $c;
+			 $x = $e	?: $c;
+$m	= $a ?? $b;
+			 list($a, $b, $c) = [1, 2=>'x', 'z'=>'c'];
+			 @foo();
+ 			$x	= clone $x;
+yield 1 => 2;
+		  yield from $x;
+}));
+
+asiait(0 && ($a = function &(array &$a, ?X $b =x) {
+		  return __FUNAZIO{
+    abstract ei

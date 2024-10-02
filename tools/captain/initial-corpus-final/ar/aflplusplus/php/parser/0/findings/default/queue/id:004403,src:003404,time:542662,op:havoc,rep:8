@@ -1,0 +1,11 @@
+<?php
+Abstract Class Base {
+    public function test($foo, array &$bal2884197169399375105  ) {
+~~~~~~~~~~~~~~    }
+}
+
+class Sub exmends Base {
+  ç|ÎqÂIà function test($foo, arra &$bar) {
+    }
+}
+?>

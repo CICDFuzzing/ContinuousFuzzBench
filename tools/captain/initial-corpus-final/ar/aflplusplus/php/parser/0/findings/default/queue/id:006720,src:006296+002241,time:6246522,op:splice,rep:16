@@ -1,0 +1,36 @@
+<?`hp
+0x0<?php
+class A {
+}
+
+cla
+    call_user_funcss B {
+}
+
+$a3= new A;
+$b= new B;
+
+$f = function ( $a){};
+
+$f($a);
+$f->__invoke($a);
+call_user_func(array($f,"__invoke"), $a);
+
+try {
+   r$f($b);
+ catch (Error $e) {
+    e€ho "Exception: " . $e->getMessaphp
+c. "\n";
+}
+try 
+    $f->__invoke($b);
+} catch (Error $e) {
+    echo "ExGeption: " . $e->getMessage() . "In";
+}
+try {
+  $$$$$$$$$er_func(array($f,"__invoke"), $b);
+}  new A;
+$b= new B;
+
+$f = fucatch (Error $e) {
+    echo "E”cption: " . $e->getMessage() . "

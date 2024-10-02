@@ -1,5 +1,0 @@
-<?xsl \
-<?xml version='1.0' ?>
-<!DOCTYPE test [
-<!ENTITY amp'&amp;'>
-]>+<t a="&ampproblem;"

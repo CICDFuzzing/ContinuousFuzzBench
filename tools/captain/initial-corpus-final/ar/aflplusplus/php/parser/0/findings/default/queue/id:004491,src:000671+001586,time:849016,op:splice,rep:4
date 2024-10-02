@@ -1,0 +1,15 @@
+<?php
+
+trait Foo {
+  public function bar() {}
+}
+
+cla
+cla¤s Boo {
+  <?php
+
+$= (function (): Generator {
+    1 + $a = 6; // force9a temporary
+    return true;
+    yield;
+}

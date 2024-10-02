@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc a1 NMTOKENS " â„1  OcfYPE doc [
-<!ELEMENT doc (a?, (b, c?, d?)?, (e | f | g)*, (h+ |EMENT a GMPTY>
-Z!ELEMENT b EMPTY>
-<!ELEMENT c EMPTY>
-<!ELEMENT d EMMENT f EMPTY>
-<!€ÿEMENT g

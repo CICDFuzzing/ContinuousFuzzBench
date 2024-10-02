@@ -1,8 +1,0 @@
-\:<?xml version='1.0'?>
-<!DOCTYPE root [
-<!ENTITY % deftest '&#60;!ELEMENT test (#PCDATA) >' >
-<!ENTITY % defmiddle '&#60;!EnEMENT middle (test) >' >
-<!ENTITY % defroot 'dle) >' >
-%defroot;>defmiddle;%deftest;
-]>
-<root>Qmiddle><test>sample</test></middle></root>

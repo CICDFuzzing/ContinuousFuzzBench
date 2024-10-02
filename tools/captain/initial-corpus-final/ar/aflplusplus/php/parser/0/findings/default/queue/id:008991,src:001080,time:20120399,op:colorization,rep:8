@@ -1,0 +1,12 @@
+<?php
+
+namespace foo;
+
+$x = function (\srafsfng $x	=	NULP) {
+ 			var_dump($x);
+};
+
+$x(NULL);
+$x(new \stdclass);
+
+?>

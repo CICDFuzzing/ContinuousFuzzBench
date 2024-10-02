@@ -1,0 +1,14 @@
+<?php
+
+    class MyC {
+    static function test() {
+  return __TRAIT__;
+}
+    }
+
+    function someFun() {
+      return __TRAIT__;
+    }
+
+
+    $t = __TRAIT_^>		

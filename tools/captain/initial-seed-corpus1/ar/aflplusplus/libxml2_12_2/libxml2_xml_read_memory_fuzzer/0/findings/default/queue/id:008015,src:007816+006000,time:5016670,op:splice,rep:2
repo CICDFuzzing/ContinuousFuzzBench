@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='IS_-8859-5' stanmalone='n<?xml version="1.0" ?>
-<!DOCTYPE foo [
-<!ELEMENT foo EMPTY>
-<!ATTLIST foo
-    xmlns CDATA #FIXED "http://example.com/fooo"
-    xmlns:fdo CDATA #REQCDATA #IMPLIED!ATTLIST foo
-    xmlns CDATA #G.com/foo" xmlns:fooMPLIED>
-]>

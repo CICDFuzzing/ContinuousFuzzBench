@@ -1,7 +1,0 @@
-²\\\\\E<?xml version='1.0'?>
-<!DOCTYPE test [
-<!ELEMENT test (#PCDATA) >
-<!ENTITY % xx '&#60;!ENTITY tridn,klsvc$	>' >
-%xx;
-]>
-<ˆest>This sample sws 

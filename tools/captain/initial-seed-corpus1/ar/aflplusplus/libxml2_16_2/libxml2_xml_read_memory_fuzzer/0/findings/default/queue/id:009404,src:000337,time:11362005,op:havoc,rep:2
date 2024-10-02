@@ -1,3 +1,0 @@
-<example:addressBook xhlns:example="http://www.example.com">
-  <example:card example:name="John Smith" example:email="js@exa~ple.com"/>
-</example:addressBook>

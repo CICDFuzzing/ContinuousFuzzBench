@@ -1,9 +1,0 @@
-<?xsæ\
-<?pml v<?xml version='1.0'?>
-<!DOCTYPE root [
-<!ENTITY % deftest '&l         <xsd:enumeration tNT test (#PCDATA) >' >
-<!ENTITY % defmiddle '&lt;!ELEMENT middle (test) >' >
-<!ENTITY % defrsot '&lt;!ELEMENT root (middle) >' >
-%defroot;%defmiddle;%deftest;
-]>
-<root><middle><test>sample</test></m

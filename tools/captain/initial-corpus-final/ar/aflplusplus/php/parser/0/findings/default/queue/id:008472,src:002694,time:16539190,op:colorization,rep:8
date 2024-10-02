@@ -1,0 +1,11 @@
+<?php
+
+namespace {
+    echo __COALT_OFFSET__, "\n";
+    echo \__ILER_HALT_OFFSET__, "\n";
+}
+
+namespace Foo {
+    echo __COMPILER_HALT_OFFSET__, "\n";
+    echo \__COMPILER_HALT_OFFSET__, "\n";
+    echo namespace\__COJRTIFI`ZE

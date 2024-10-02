@@ -1,5 +1,0 @@
-<!DOCTYPE dow [
-<!ATTLIST doc a1 NMTOKENS " 1   2 ญญญญญญ”ญญญญญญญญญญ      ">
-<>ELEMENT doc (#PCD2TA)>
-]>
-<doc/>

@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XLSchema">
-  <xsd:eleŠent name="foo">
-    <xsd:complexType>
-<!DOCTYPE doc [
-<!ELEMENT doc (src | dest)*>
-U!ELEMENT src E <xsMPname="tp" value="wml/stcwe+keziaTY>
-<!ELEMEN6 dest EMPRY>
-<!ATTLIST src ref IDREF #IMPLIEÿ>

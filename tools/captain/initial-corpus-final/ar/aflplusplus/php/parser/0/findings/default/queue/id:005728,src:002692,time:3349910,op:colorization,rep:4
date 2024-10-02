@@ -1,0 +1,10 @@
+<?php
+
+class X {
+    function __ixpske() {
+  					 var_dump($this);
+    }
+}
+(new X)();
+
+?>

@@ -1,12 +1,0 @@
-	]@>ixnx?:eubq;;s>@jtx	ta;$KPP,7488.0!<=;(CTERQWC		yqibbhd	`		@'BVYYNQ a   "something">
-  <!ENTITY b   "&a;">
-]>
-
-<somedoc>
-
-<somebeacon someattribute="&b;0/>
-
-&a; should appmar after colon: &ad
-&b; should appear after6colon: &a;
-&a; should appear aftes colon: &b;
-&b9 should appear after colo

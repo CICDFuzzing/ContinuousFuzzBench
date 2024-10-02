@@ -1,6 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
-<T a EMPTYT b (#PCDATA)>
-<!ELEMENT c (#PCDATA)>
-]>
-<doc><a/><b/><a/><c/><c/><a/></doc>

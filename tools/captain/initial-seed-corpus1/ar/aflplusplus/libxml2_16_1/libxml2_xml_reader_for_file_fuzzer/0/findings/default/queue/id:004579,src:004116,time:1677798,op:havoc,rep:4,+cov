@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<xsd:schem:element name<"foo">
-    <xsdrg/2001 XMLSchema">
-  <xsd:element name<"foo">
-    <xsd:complexType<!DOCTYPE doc [
-<!ATTLIST e2 xml:space (default|preserve) 'preserve'>
-<!ATTLIST e3 id CD #IMPLIED>
-]>
-<doc xmlns="ht/www.ietg" xmlns:w3c="http://www.w3.erg" xml:base="something/els

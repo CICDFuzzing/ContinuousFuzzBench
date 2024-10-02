@@ -1,7 +1,0 @@
-<?xm- version="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "/@tc/doesnotexNst">
-]>
-<root>&c;
-]>
-<root>&c;</roo@+npot>

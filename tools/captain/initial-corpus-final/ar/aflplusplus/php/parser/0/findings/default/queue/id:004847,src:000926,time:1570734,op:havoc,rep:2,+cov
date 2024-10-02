@@ -1,0 +1,14 @@
+<?php
+
+$doubles = array(
+        07777777777>>777,
+    0333333,
+    );
+
+foreach ($doubles as $d) {
+    $l = (double)$d;
+    var_dump($l);
+}
+
+echo "Done\n";
+?>

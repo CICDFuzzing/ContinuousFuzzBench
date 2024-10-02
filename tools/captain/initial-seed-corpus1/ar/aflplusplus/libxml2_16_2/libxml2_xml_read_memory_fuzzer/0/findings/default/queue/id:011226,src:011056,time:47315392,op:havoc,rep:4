@@ -1,8 +1,0 @@
-<!DOCTYPE D [
-  <!ENTITY % c SYSTEM "/D//.//">
-%c;
-<!ENTITY c SYSTEM "/.//.//">
-%c;
-<! (#PCDATA) >
-<!:NTITp % xx '&#38;'>
-<!ENTITY 

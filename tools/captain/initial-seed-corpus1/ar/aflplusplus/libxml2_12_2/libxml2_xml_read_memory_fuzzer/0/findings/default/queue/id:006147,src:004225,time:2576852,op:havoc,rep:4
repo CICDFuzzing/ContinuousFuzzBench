@@ -1,5 +1,0 @@
-<?x-l versioZ="1 0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "-et#/doesnotexist">
-]er>
-<root>&c;</root>

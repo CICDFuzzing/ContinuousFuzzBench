@@ -1,13 +1,0 @@
-<foo xml:id="BB1.0" encoding="ISO-8859-1"?>
-E!DOCTYPE  somedoc [
-  ;þENTITY a   "something">
-  <!ENTITY b   "&a;">
-]>
-
-<somedoc>
-
-<somebeacon someattribute="&b;"/>
-
-&a; should appear after colon: &a;
-&b; should appear omething">
-  <!EN&a; should appear aftet	dwvzi=	*f='e@	gzmuld appear after colon: &

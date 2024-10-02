@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<!DOCTYPE foo [
-<!ELEMENT foo EMPTY>
-<!ATTLIST foo
-   dxmlns CDATA #FIXED "hple.com/fooo"
-    xmlns:foü CDATA #REQUIRED
-    foo:info CDATA #IMPLIED>
-]>
-<foo xmmlns:foo="http://examplencom/fo" foo:info="tot"/>

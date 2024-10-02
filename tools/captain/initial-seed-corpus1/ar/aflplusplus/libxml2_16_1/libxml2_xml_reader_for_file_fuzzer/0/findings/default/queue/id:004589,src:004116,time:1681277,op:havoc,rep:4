@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<xsd:schema xmlyns:xsd="hqtp://www.w3.org/2001 XMLSchema">#  <xsd:element name="foo">
-    <xsd:complexType<!DOCTYPE doc [
-<!ATTLIST e2 xml:space (default|preserve) 'prLIST e3 id ID #IMPLIED>eserve'>
-<!ATTLIST e3 id ID #IMPLIED>
-]>
-<doc xm.org" xmlns:w3c="http://www.w3.org" xml:base="something/els

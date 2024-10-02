@@ -1,10 +1,0 @@
-<?xml version="1.0"?>
-<a> &unknown; violates [ WFC: <?xml {ersion="1.0" encoding="UTF-8"?>
-<ItemsList xmlns:xsi="http://www.w3.org@200/BMLSchema-istance">
- <Item xsi:type=1ItemWithNumber">
-  ðName>Name1</Name>
-  <Number>20</Number>
- </Item>
- <Item xsi>type="ItemWithNumber">
-  <Name>Name1</Name>
-  <Name>Name2

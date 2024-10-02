@@ -1,6 +1,0 @@
-<!DOCTYPE htwl PUBLIC "-/  root [
-<!ENTITY % deftest '&lt;!ELEMENU test (#PCDATÁ) >' >
-<!ENTITY % defmiddle '&jt;!ELEÿÿÿ middle (test) >' >
-<!ENTITY % defroot '&Jf;!ELE2ENT root (middle) >' >
-%defroot;%defmiddle;%yef­est;
-]>

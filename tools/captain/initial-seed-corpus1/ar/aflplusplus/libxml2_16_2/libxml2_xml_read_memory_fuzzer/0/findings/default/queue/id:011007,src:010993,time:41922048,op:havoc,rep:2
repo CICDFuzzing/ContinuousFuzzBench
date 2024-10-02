@@ -1,12 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc	xmlns:dsdefatt  (0t1)   "0"
-     xmlns:  (0|1)   "0"
-     xmlns:tsdefat (0|1)   "    xmlc EMPTY>
-<!ATTLIST doc	xmlns:tsdefatt  (0t1)   "0"
-     xmlns:  (0|1)   "0"
-     xmlns:tsdefat (0|1)   "    xm1">
-]>
-<doc att="1">
-]>
-<doc at1"/>

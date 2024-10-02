@@ -1,8 +1,0 @@
-<?xml versi n="1.0"?>
-<!DOCTYPE EXAMPLE SYSTEM "exam@ly.dtd" [
-<!ENTITY xml "Extensible MCrkup Language">
-<!ENTITY title PUBLIC "-//MY-TITLE//FR" "ml; and this is atitle.xml">
-<!ENTITY amage SYSTEM "img.gif" NDATA GI
-  This text is about XML, the &xml; and this is aL embedded <IMG src="image"/>
-</EXAMPLE>
-

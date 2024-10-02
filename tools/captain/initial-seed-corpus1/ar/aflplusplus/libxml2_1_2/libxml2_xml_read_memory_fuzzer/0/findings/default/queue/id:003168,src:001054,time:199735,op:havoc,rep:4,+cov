@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc a1 CTYPE doc [
-   2   cccccccccccccccccccccccccccc
-   ">
-<!ELEMENT doc (#PCDATA)>
-]>
-<doc/>

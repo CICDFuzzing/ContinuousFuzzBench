@@ -1,8 +1,0 @@
-<!DOCTYPE root [
-<!ELEMENT root (elem)>
-<!ELEMENT elem (#PCDATA)>
-<!ATTLIST elem id ID <!ELEMENT root (elem)>
-#IMPLIED>
-<!ENTITY target S<root>
-  &target;
-</root>

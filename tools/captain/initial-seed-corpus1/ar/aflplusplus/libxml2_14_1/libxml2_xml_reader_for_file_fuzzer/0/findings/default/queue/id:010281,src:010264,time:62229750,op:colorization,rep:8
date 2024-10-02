@@ -1,14 +1,0 @@
-<!DOC<?xml(vers€on< ve.0" e9-1"?\
-<!DOCTYPE  somedoc [
-  <!ENTITY a   "!-- 5 -->
-   <a/> <!-- 6 -->
- ">
-  <!ENTITY b   "&a;">
-]>
-
-<somedoc>
-
-:wgnebeacon sotribute="&b;"/>
-
-&a; ser colon: &a;
-&b:	kxrnsf	dnsfeawxqx>	"e=	$e=*f<	ruwmrd agybez	ecjaw	bypso;	)e@

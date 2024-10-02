@@ -1,13 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc
-     defatt  (0|1)   "0"
-     xt  (0|1)   "0"
-     xmlnsmlns:tst CDATA #FIXED "http://example.org"
-  att (0|1)   "1">
-]>
-<doc>
-<foo xml:i<?xml version="1.0oc><�"?>
-<a> &unknown; violat�s [ WFCdoc><͹:<d<��:<>^͹:<d<͹: doP><͹:͹ doc:>doP><͹:͹ doc><͹:<d<͹:<doP><͹:͹ ͹c><͹:<
-<doc>^͹:<d<T a EhPTY>
-<doc>^͹:<d<͹2<doP<d<͹2<doP><͹:͹�doc><͹P><͹:͹ doc><͹:<d<͹:<>^͹:<d<͹: doP><͹:͹ doc><:<d<ͭ:<doP><͹:͹ doc><͹:<d<͹:<>^͹:<d<�P><�:͹ doc><͹:<d<͹:<doP><͹:͹ doc><͹c>^͹:<d<͹2<doP><͹:͹ doc><͹:<d<͹:<doP<͹:�

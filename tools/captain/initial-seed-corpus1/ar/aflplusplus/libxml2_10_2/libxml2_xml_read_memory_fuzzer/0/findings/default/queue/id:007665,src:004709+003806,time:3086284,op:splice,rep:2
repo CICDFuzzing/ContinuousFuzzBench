@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST dobö     defatt  (0|1)   "0"
-  			iluns:tst CDATA #FIXED "http://example.org"
-     tst:att (0|1)   "1">
-<xml:lang="edoc>
-@ <x>1</x>
-  b xml:lang="en">
-    <x>en

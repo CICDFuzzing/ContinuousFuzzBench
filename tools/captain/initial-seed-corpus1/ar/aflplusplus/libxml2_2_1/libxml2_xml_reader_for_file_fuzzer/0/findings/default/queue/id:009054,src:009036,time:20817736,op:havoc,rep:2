@@ -1,9 +1,0 @@
-=>[\
-<!DOCTYPE doc [
-<!ELEMENT doc (#PCDATA | a | b)*>
-<!ELEMENT doc (#PCDATA | a | b)*>PCDATA)>
-<!EA)>
-]>
-<doc> This <b>seem8îk <a/> b"ÿÿÿ€/go>
-</ent>
-<p>If	autom/

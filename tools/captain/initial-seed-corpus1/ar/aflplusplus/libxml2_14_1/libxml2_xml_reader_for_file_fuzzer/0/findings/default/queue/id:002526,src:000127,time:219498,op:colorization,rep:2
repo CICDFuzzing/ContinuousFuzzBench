@@ -1,13 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
-"http://dark.wapit.com/vswap/tests/wap/DTD/wml11.dtd">
-<!-- (C) 1999, 2000 WAP Forum Ltd.  All rights reserved -->
-<wml>
-<card id="card1">
-<onevent type="onenterforward">
-<go href="/vswap/run/result.eml">
-        <postfield name="var" value="&#36;test"/>
-        <postfield name="v" value="dark"/>
-        <postfield name="ts" value="0003"/>
-        <postfield name="tp" value="wml/state/variables/parsing/1"/>
-        <postfield	levb@'xu&	hfxjf?'0)+<								:sjunehbja	tfvd@(dvrfdpff)	gdqnf>$scm@rbpt!+<?+ox==+yxakflo::j;Od	flpqkfvlf	ocvlkzu	aenmff-	udmdbu	?dkaklp:Acwybc@njxyae>&+pqofs+nwg+kdhotx,fzj!?								@uqrkdhbve	rckb>$WIDQVY)	gctmd;(Pv%+=?omwwerdvf	scyb@*z)jcryd>!fbkn$+:								:lnyjdhfoa	gclc:(ij(	tbuxd<*1119'+:								>ljnuaodkc	kcvc<$mn&	lbznc<!nqo+kwfjf+wftubcjaj+mblkvqv+0*+:								=gzhldlazb	letc;'kw&	udtpd>&0#+=								=rnizaqboa	mbhc:$cvqadwbe!	tbhsd@*ydz@xbxv(+@?+sj=@+dhdvjq=-=+v;@+efkc<;+ijo@

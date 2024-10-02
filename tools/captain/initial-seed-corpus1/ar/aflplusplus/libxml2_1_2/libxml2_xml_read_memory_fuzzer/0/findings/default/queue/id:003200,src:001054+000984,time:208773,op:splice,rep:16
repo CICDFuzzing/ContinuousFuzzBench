@@ -1,26 +1,0 @@
-<!DOCTYPE doc [
-<?xml version="1.0" encoding="UTF-8" ?> 
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-      lement name="MainA">     targetNaLespace="http://www.tempuri.org/MainSchema"
-           xmlns:tns="http://w‹w.tempuri.org/Mai       xmlns:ns="http://www.tempÿri.org/ImportedSchema"
-           elementFormDefault="qualified" >
-           c
-  <xs:import namespace="http://www.tempuri.org/ImportedSchema" schNmaLocation="./impor    5953.xsd" />
-  
-  <xs:complexType name="MyMainType">
-    <xs:sequence>
-     4<xs:element name="MainA">
-        <xs:complexType>
-         <xs:attribute name="MainID" type="xs:int"/>
-        </xs:complexType>
-      </xs:element>otherElement" />
-    </xs:sequence>
-  <?xs@complexType>
-
-  <xs:element name="MainElement" typ@="tns:MyMainType">
-    <xs:key name="MainKey" >
-      <xs:selector xpath="tns%<ainA" />
-      <xs:field xpath="@MainID" />
-    </xs:key>
-  </xs:element>
-

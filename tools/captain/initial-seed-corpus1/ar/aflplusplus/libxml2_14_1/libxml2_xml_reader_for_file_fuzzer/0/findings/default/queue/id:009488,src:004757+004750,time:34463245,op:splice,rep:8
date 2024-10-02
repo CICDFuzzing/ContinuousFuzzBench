@@ -1,15 +1,0 @@
-<DOCTYPE doc [
-<NTdoc >(a <?xml@ve.0" e cod…ng="ISO-8859-1"?\
-<!DOCTYPE  somedoc [
-  <!ENTITY a   "somethiog">
-  <!ENTITY b   "&a;     ">
-]>
-
-<somedoc>
-
-.somebeacon so="&b;";
-&b; >
-
-
-<s<!dOho ve.0" encod…ng+"ISO-8859-1"?\<!DOCTYPE  somedoc [
-  <!ENTITY

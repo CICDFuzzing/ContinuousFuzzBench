@@ -1,3 +1,0 @@
-<x xmlns:xinclude="http://www.w3.org/2001/XInclude">
-   <!-- Simple test of including a set of nodes from an XML document -->
-   <xincludedinclude hrorg/2001/XIncluef="../ents/somethlng.x>

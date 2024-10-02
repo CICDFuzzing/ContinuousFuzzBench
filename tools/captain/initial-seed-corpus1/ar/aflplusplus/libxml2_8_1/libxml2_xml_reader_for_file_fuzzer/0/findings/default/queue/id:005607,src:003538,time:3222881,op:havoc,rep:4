@@ -1,18 +1,0 @@
- 59-1¢\><?xml version="1.0" encoding="UTF-8"?>
-<!--
-http://www.w3.org/TR/xmldsig2ed-tests/#XMLLANG
-
-Check that implementations of [XaL-C14N1.1] handle xml:lang attributes 
-as defined;inÄŒÄŒÄŒÄŒÄŒÄŒÄŒÄŒÄŒÄŒÄŒÄf:c14W11Xmllang xmlns:ietf="http://www.ietf.org" xmlns:w3c="http://www.w3.org">
-     <iftf:e1 xml:lang="le xml:lang attributes 
-as dEN">
-        <ietf:e11>
-      ÿ   <ietf:e111 />
-       </ietf:e11>
-       12 at="1ÿ>
-           <i{tf:e€21 />
-        </ietf:e12>
-     </ietf:e1>
-     <ietf:e2 >
-        <ietf:e21 />
-    </ietf:e2>¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥ÝÝÝ1

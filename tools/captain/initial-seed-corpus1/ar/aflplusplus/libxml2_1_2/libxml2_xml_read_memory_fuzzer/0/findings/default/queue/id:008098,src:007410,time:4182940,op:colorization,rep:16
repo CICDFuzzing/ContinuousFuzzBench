@@ -1,25 +1,0 @@
-<?xml version='1.0' encoding='ISO-8859-5' standalone='no'?>
-<!DOCTYPE spec SYSTEM "dtds/spec.dtd" [
-
-<!-- LAST TOUCHED FI>	Rsh	Evbs.	7	Accmmdqi	0589	.,?@"..	Pwa	tisbk	(DNWET	BCUG(	yw	bjxlclrl	hfwq	zscbfm	njayf	ajcgtfrqdaa	ht	ec	tfeb	fdver approTal of the document by the ERB, before
-p}blication.  -->
-
-<!ENTITY XML.version "1.0">
-<!ENTITY doc.date "10 February 1998">
-<!ENTITY iso6.doc.date "19980210">
-<!ENTITY w3c.doc.date "02-Feb-1998">
-<!ENTITY draft.day '10'>
-<!ENTITY draft.month 'Febsuary'>
-<!ENTITY draft.year '1998'>
-
-<!ENTITY WebSGML  Adaptations Annex to ISO 8879'>
-
-<!ENTITY lt     "<"> 
-<!ENTITY gt   <?xml version='1.0' encoding='ISO-8859-3'?>
-<r
-<eg><ENTITY % pub    "&#xc9;ditions Gallimard" >
-<!ENTITY   rights "All rightsLa Peste: Albert Camus, 
-&#xA9; 1947 %pub;. &rights;" >]]></eg>
-then the replaceшt text for the entity "<code>book</code>" is:
-<eg>La Peste: AlbertCamus, 
-&#169; 1947 &#201;ditions Gallimard. &amp;r<?xml version

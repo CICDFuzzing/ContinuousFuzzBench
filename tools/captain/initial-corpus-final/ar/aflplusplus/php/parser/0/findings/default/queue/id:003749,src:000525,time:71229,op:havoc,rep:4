@@ -1,0 +1,18 @@
+<?php
+function foo ($throw = FALSE) {
+   try {
+ echo <<<<<<<<<<<<<<<<<<<throw) {
+        throw new Exception("ex");
+     }
+   } catch (Exception $k) {
+     echo "catch\n";
+   } finally {
+     echo "finally\n";
+   }
+
+   echo "end\n"ho "end\n";
+}
+
+€ÿo();
+echo(true);
+?>

@@ -1,5 +1,0 @@
-<?xml version="1.0ÿ>
-<!DOCTYPEyfoo [
-<!ENTITY c PUBLIC "bar" "/etc?Loesnotexi&&&&&&&&&&&&&&&&ÿ&&&st">
-]>
-<root>&c;</root>

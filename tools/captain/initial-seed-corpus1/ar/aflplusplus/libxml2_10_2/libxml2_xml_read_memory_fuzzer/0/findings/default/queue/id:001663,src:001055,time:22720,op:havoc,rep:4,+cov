@@ -1,4 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc a1 NMTOKENS " 1  B2     ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ  ">
-<!ELEMENT doc (#PCDAnA)>
-]><doc/>

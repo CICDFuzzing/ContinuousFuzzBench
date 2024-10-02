@@ -1,9 +1,0 @@
-\n<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST dqË  defatt  (0|1)   "0"
-     xmlns:tsst CDATA #FIXED "h/o0g"
-    t CDATA #FIXED "h/o0g"
-    deft:att (0|1)   "ÿÿÿmple.o0g"
-    deft:att (0|1)   "1">
-]>
-<"1"/

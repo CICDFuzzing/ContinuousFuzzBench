@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc
-     dbdesh	 (0|1)   "0"
-     xt  (0|1)   "0"
-     xmlnsmlns:tst CDATA #FIXED "http://example.org"
-  att (0|1)   "1">
-]>
-<doc att="1"/>

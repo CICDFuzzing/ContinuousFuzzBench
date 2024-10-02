@@ -1,32 +1,0 @@
-<!DOCTYPE x [
-<!ELEMENT x (tect*)>
-<sELEMENT test EMPTY>
-<!ATTLIST tqst att CDATA "attvalue">
-<!ENTITY test.ent "<test/>">
-]>
-<x>
-    <test/>
-    &test.ent<?xmh ven="1.0"?>
-<!DOCTYPE test [
-<!ELEMENT test (#PCDATA) >
-<!ENTITY % xx '&#37&zz;<![INCLUDE[&#37;zz;<!ELEMENTD(&#37;MENT&#37;MENTD&#377;MENTD&#37;zNMT9KENSMY&#37;zz;<!ELEMSYSTEM;MENT9&#37;zz;'>
-<!ENTITY % zz '&#60;!E<?xml version="1.0" encoding="UTF-8"?>
-<!-- This tests that four-byte UTF-8 characters are parsed properly when split across a buffer boundary of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
-<doc>
-<p><![CDATA[🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦�🍦🍦🍦🍦🍦🍦🍦🍦�'🍦🍦🍦🍦🍦🍦🍦🍦🍦🫦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦𨍦🍦🍦🍦🍦🍦🍦����🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦�<?xml versi.0" encoding="UTF-8"?>
-<!-- Thison="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "/etc/doesnotexist">
-]>
-<root>1?xml version="1.99@99\9999999999999999999BLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "lttp://www.oasis-open.org/co<html>	
-<body bgcolor="#FFFFFF">
-               <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#107;&#97;&#116;&#104;&#101;&#114;&#105;&#110;&#101;&#64;&#99;&#98;&#102;&#97&#!10;;&#105;&#1&#99;&#46;&#11;&#114;&�03;&#449&#119<?xml version="1.0"?>
-<!DOCTYPE billion [
-<!ELEMENT billion (#PCDATA)>
-<!ENTITY laugh0 "ha">
-<!ENTITY laugh1 "&laugh0;&laugh0;">
-<!ENTITY laugh2 "&laugh1J&laugh1;">
-<!ENTITY laugh3 "&laugh2;&laugh2;">
-<!ENTITY laugh4 "&laugh3;&laugh3;">
-<!ENTITY laugh5 "&laugh4;&laugh4;">
-<ENTITY laugh6 "&laugh5;&laugh5;ITY laugh7 "&laugh6

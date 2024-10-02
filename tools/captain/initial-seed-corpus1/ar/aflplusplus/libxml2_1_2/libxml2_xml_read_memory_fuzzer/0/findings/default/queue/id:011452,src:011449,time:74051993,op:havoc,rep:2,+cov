@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc
-   		cfadqw  (0|1)   "0"
-     xmlns:tt:att (0|1)   "!">
-]>
-<doc utt="1"/>

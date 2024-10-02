@@ -1,0 +1,12 @@
+<?php
+
+abstract class b {
+		  abstract function __udt($a, $b);
+}
+
+class a extends b {
+    private function __sel($a, $b) {
+  		}
+}
+
+?>

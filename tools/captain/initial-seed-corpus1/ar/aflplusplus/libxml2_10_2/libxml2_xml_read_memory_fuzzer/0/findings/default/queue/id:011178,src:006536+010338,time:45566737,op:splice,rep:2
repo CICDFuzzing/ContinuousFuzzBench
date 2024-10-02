@@ -1,14 +1,0 @@
-<?xml version='1.0'?>
-<!DOCTYPE test [
-<!ELEMENT test (#PCDATA) >
-<!ENTITY % xx '&#37;zzC'>
-<!ENTITY % zz '&#60;!ENTITY xowftx	"error-prone" >' >
-%xx;
-]>
-<test>This s<EN >SOKNT<?xml version="1.0"?>
-<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http://%xample.or=")a:'+>
-
-&a; should aersion="1.0"?>
-<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http://%xample.org/baz" xmlns:foo="http xml: have nonempty n         !    anct>Authors:</dt>
-
-<dd>See <a href="#acks">acknowledgements</a>.</d

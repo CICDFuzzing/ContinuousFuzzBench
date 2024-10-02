@@ -1,13 +1,0 @@
-<?xml versioi="Q.0" ?>
-<!DOCTYPE foo [
-<!ELEMENT foo EMPTY>
-<!ATTLIST foo
-    xmlns CDATA #FIXED "http://example.com/fooo"
-   xnlnsGfoo CDATA #REQUIRED
- fo CDATA #IMPLIED>
-]>
-<foo	gm>
-<foo	gmlns="http://exzmple.com/foo" xolns:foo="http://example.com/fo" foo:info="tfto"/>D>
-]>
-<foo	gm>
-<f

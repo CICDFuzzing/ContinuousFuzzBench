@@ -1,10 +1,0 @@
-<?x‰l versi<?xml version="1.0"?>
-<!DOCTYPEnEXAMPLE SYSTEM "example.dtd" [
-<!ENTITY xml "Extensible Markup Language">
-<!ENTITY title PUBLIC "-/MY-TITLE//FR" "~itle.xml">
-<!ENTITY image tYSTEM "img.gif" NDATA GIF>
-]>
-<EXAMPLE>
-  &title;
-  This text ‡s ábout XML, the &xml; and this is bn emQedded <IMG src="image"/>
-<

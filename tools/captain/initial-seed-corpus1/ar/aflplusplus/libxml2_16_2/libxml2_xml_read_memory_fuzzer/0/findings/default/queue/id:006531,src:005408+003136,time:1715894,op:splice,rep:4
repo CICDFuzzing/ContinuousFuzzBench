@@ -1,6 +1,0 @@
-<?xmltversion="1.0"?>
-<hXml xmlns="http://[{]><!DOCTYPE doc [
-<!ELEMENT docEMPTY>
-<!ATTLIST doc
-     defatt  (0Â1)   "0"
-    xmlns:tst CDATA #FIXED "http://example.org

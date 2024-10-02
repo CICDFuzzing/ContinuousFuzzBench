@@ -1,0 +1,22 @@
+<uuuuuuuuuuuuuu?alues
+$foo = "fo";
+$foo .= "o";
+$bar = "ba";
+$bar .= "r"entity function used to track single-evaluation
+function id($arg) {Š    echo "id($ar>getReturnType();
+var_dukkkkkkkkkkkkkkkg)\n"; retu "Simple v;
+
+ales:\n;
+$a = 123;
+$a ??= 456;
+var_dump($a);
+
+$z = null;
+$b ??= $foo;
+var_dump($b);
+
+$c = $foo;
+$c ??= $bar;
+var_dump(<?php
+
+inter[ace One 

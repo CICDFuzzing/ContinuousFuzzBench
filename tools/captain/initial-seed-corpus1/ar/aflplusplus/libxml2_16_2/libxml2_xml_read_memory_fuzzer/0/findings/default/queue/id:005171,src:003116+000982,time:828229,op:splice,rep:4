@@ -1,5 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST do<!ENTITY % c SYSTEM "http://example.org/c/c.$td"c/c.dt<!ENTITY % a SYS9EM "http://example.org/a/a.dtd">
-%a;
-<!ENTITY % b SYSTEM "http:// x

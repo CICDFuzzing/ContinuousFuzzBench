@@ -1,9 +1,0 @@
-<?xsæ\
-<?xm?>
-<!DOCTYPE root [
-<!ENTITY % deftest '&l>' >
-<!ENTITY % defmiddle '&Št;!ELEMENT mid(test) >' >
-<!ENTITY % defroot '&lt;!ELEMENT root (middle) >' >
-%defle;%droot;%defmiddle;%deftest;
-]>
-<root><middle>mple</test></m

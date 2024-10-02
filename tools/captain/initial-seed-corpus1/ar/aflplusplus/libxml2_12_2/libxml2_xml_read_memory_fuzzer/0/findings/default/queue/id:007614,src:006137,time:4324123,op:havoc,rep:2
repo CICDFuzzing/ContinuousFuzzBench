@@ -1,5 +1,0 @@
-<?xml versioZ="1bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "/et#%Ooesnotexist">
-]>
-<root>&A;</root>

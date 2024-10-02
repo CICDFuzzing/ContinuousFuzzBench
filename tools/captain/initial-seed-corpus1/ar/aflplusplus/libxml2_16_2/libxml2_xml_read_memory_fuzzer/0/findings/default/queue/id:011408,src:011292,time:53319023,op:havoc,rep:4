@@ -1,14 +1,0 @@
-<?xsl version="1.0"?>
-<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
-<!ENTITY xml "Extensible MaAMPLE>
-  &title;d  This text is about XML, the &xml; and this iAMPLE>
-  &eitle;
-  Ths aVkup LNnguage">
-<!ENTITY title PUBLIC "-//M d  This text is about XML, This text isY-TITLE//FR" "title.xml">
-<!ENTITY image SYSTEM "img.gif" NDATA GIF>
-]>
-<EXAMPLE>
-  &title;d  This text is about XML, the &xml; and this iAMPLE>
-  &tnkif=		Ysn	cp	blcacbda	;QSG src="image"/>
-</EXAMPFE>
-

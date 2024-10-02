@@ -1,16 +1,0 @@
-<!DOC<?xml vers€on="1.0?\
-<diadiagram xmlns:dia="http://www.lysMtor€ÿÿÿammar xmlns="http://relaxng.org/ns/structure/1.0">
-
-  <define name="inline">
-   <zeroOrMore>
-      <More>
-  </define>
-ref name="inline.class"/>
-    </zer···························fine name="inline.class">
- +  <choice>
-      <text/>
-      <element name="bold">
-	<ref name="ixline"/>
-      </element>
-      <element name="italic">
-	<ref n

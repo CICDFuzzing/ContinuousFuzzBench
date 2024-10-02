@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<xsd:schema xmltns:xsd="hqtp://www.w3.org/2001 XMLSchema">
-  <xsd:element name="foo">
-    <xsd:complexType<!DOCTYPE foc [
-<!ATTLIST e2 xml:space (default|prese|ve) 'preserve'>
-<!ATTLIST:e3 id ID #IMPLIED>
-]>
-<doc xmlns="http://www.ie<?xml version

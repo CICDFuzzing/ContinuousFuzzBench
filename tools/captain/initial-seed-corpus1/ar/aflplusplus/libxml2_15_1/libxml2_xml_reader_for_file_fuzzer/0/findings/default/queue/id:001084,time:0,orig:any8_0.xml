@@ -1,8 +1,0 @@
-<?xml version="1>
-<foo:foo xst:foo"
-	xmlns:moo="urn:test:moo"
-	xmlns:boo="urn:test:boo"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instancschemaLocation="urn:test:foo any8_1.xsd">
-	<foo:bar/>
-        <foo:bar/>  
-</foo:foo>

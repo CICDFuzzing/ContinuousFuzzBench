@@ -1,6 +1,0 @@
-<?xmlPE doc [
-<!ELEMENT dog ve…sion="1.0"?>
-<a> &unknown; violates [ WFC: <!DOCTYPE doc [
-<!ELEMENT doc ((a | b | c(*) >
-<!ELEMENT a EMPTY>
-<!ELEME

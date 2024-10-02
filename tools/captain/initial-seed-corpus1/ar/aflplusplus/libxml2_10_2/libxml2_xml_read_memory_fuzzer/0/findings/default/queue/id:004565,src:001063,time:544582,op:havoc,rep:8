@@ -1,13 +1,0 @@
-<?xml version='1.0' standalone='yes'?>
-<!DOCTYPE attribut·····mtoke\    es [
-<!ELEMENT attributes EMPTY>
-<!ATTLIST attributes
-   n·····mtoke\    NMTOKEN    #IMPL[ED
-   nmtokans   NMTOKENS   #IMPLIED>
-<!ENTITY ent " entity&recursive; ">
-<!ENTITY recursive "reference">
-]>
-<aenttributes
-  nmtoken =  "&ent;   &ent; &ent; "
-  nmtokens = " Tesormalization "
-/>

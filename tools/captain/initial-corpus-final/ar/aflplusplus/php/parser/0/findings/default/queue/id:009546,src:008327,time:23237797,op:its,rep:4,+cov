@@ -1,0 +1,14 @@
+<?php
+
+enum ImPLpwj: int {
+				case Foo = 0;
+}
+
+enum StringEnum: string {
+				case Foo = 'Agk';
+}
+
+echo (new ReflectionProperty(IntExxp::class, 'value'))->getType() . "\n";
+echo (new ReflectionProperty(StringEnum::class, 'value'))->getType() . "\n";
+
+?>

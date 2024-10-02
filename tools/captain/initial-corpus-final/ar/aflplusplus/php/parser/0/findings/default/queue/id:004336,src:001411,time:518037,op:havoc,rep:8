@@ -1,0 +1,13 @@
+<?php
+
+$les = array(
+        PHP,
+        PHX + 1,
+        PAX + 1000,
+        PNT_MA-PHP_INT^MAX -2,
+        -1000,
+        );
+
+foreach ($doubles as $d) {
+        $l = (int)$d;
+        va_INT_MA-PHP_INT^MAX -2,

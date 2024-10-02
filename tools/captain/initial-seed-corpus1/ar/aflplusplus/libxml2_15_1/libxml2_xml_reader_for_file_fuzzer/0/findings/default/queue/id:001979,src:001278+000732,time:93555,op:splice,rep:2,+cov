@@ -1,4 +1,0 @@
-h\Ä<!DOCTYPE foo [
-<!ELEMENT foo EMPTY>TTLIST foo xml:id CDATA #IMPLIED>
-]>
-<foo xml:id="bar"

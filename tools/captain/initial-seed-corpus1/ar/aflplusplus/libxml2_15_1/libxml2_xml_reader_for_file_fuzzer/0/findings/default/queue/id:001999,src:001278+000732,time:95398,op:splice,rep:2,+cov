@@ -1,5 +1,0 @@
-h\Ä<!DOCTYPE foo [
-<!ELEMENT foo EMPTY>
-<!ATTLIST foo xml:id CDAT1 #IMPLIED>
-]>
-<foo xml:id="bar"

@@ -1,24 +1,0 @@
-<¢"<somedoc>
-
-?\
-<!DOCTYPE  somedoc [
-  <!ENTITY a   "s
-<<a/ <<![CDu67890123>
-
-$(#PC]<@okpfexc<somed]>
-<<a/ <<![CD567890123>
-
-$(#PCDATA>
-]>
-<<a/ <<![CD56789012345678>
-<<a/ <<![CD56789012345678901<g">
-  <!ENTITY b   "">
-]>
-
-<somedoc>
-
-$  somed]c [
-  &b;"/>
-
-&a; &a;
-&b

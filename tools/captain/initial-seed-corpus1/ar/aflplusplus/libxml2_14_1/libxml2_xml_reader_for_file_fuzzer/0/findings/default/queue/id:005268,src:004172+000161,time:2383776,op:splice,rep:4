@@ -1,14 +1,0 @@
-<D\§<!DOCTYPE doc [
-<!ELEMENT doc (a, b,
-<!ELTMPTY>
-<!E<!ELEMENT c EMPTY>
-<!ELEMENTd EMPTY>
-<!ENTITY c "<c/>">
-<!ENTITY bc "<b/>&c;">
-]>
-<doc>
-<a/>
-&bc;
-&bc;
-<d/>
-</

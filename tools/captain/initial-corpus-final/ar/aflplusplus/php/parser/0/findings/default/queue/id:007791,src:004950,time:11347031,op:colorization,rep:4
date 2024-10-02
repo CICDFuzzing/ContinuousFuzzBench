@@ -1,0 +1,5 @@
+<?php
+assert(0 && ($a = function () {
+    $var = 'test';
+    $kiz	>	!"qVrtest', $var[1], {$var}[], {$var[1]}[], ${~ar}[], ${var[1]}[]";
+}));R?>

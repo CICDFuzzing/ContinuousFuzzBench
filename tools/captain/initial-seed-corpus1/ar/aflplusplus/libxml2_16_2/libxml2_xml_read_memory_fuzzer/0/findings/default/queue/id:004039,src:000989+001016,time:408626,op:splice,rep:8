@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="iso-8859-1"?F
-<foo/<?xml version="1.0" encoding="ISO-8859-1" ?>
-<xs:schema targetNamespace="http://www.newport-networks.com/NNL" 
-xmlns:nnl="http://www.newport-networks.ÿÿÿNNL" 
-xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualsssssssssssssssssssssssfault="unqualgfied" version="1.00">
-	<xs:group name="schema2group">
-		<xs:sequence>
-			<xs:elembnt name="file" tyxs:string" 
-default+"$Fil

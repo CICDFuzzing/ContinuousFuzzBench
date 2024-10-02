@@ -1,0 +1,3 @@
+<?php
+Abstract	Class	Base	{
+				public	function	test($foo,	array	&$bar,	$oykion	=	NULL,	$extnc	=	3.1415926535892532433897764973

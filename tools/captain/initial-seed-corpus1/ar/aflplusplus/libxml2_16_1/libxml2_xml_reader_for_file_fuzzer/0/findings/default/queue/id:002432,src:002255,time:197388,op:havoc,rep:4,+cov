@@ -1,8 +1,0 @@
-<?xml version="1."?\
-<xsd:schema xmlns:xsd="http:,.www.w3.org/2001/XMLSchema">
-<!ELsd:element name="foo">
-    <xsd:compPE doc [
-<!ELEMENT doc (src |c (src | deELEME dest)*>
-<!ELEMENT src EMdTY>
-<!ELEMENT dest EMPTY>
-<!ATTLISTc ref IDREF #IMPLIED>

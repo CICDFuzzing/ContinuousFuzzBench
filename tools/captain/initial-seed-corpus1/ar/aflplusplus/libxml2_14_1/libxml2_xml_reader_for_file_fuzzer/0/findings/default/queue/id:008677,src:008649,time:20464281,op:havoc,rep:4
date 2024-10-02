@@ -1,18 +1,0 @@
-<?"?\
-<!DOCTYPE  somedon [
-  <!ENTITY a   "s
-]<w>
-
-$(a/>
-     <CCC/>
-     <CCC/>
-   <b/><a/>$hi<g">
-  <!ENTITY b   "">
-]>
-
-<somedoc>
-
-$  somed]c [
-  &b;"/>
-
-&a; (fÿÿÿ

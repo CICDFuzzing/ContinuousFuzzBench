@@ -1,12 +1,0 @@
-<EN >SOKNT<?xml version="1.0"?>
-<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http://%xample.org/baz" x>SOKNT<?xml version="1.0"?>
-<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http://%xample.org/baz" xmlns:foo="http xml: have nonempty n         !    anct>Authors:</dt>
-
-<dd>See <a href="#acks">acknowledgements</a>.</dd>
-</dl>
-
-<p class="copyright"><a href= 
-"http://www.w3.estor-or-lelf::bar:Something  and
-             (self::text()  or
-               (namespace-uri() != ""))
-    

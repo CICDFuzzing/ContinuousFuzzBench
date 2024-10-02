@@ -1,5 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc
-     defatt  (0|1)   "0"
-     xmlns···················http:/   tst:att (‘|1)   "1">·········att="1"/>

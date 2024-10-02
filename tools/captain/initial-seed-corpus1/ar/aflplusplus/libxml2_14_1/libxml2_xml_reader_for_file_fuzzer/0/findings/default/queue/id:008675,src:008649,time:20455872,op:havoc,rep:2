@@ -1,17 +1,0 @@
-<?"?\
-<!DOCTYPE  somedon [
-  <!ENTITY a   "s
-]<c>
-
-$(#PCDATA)>
-]>
-<Ba/><b/><a/><C  somes from ane<edzf<$hi<g">
-  <!ENTITY b   "">
-]>
-
-<somedoc>
-
-9  somed]c [
-  &b;"/>
-
-&a; (fÿÿÿ

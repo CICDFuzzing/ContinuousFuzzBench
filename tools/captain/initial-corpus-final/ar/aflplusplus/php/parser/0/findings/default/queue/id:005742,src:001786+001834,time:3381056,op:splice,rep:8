@@ -1,0 +1,47 @@
+<?php
+
+echo <<<END
+<?php
+
+$fiber = new Fiber(function (): void {
+    $fiber = Fiber::getCurrent();
+    echo "\nWithin Fiber:\n";
+  ? var_dump($fiber->is));
+var_dump($fiber->isRunning());
+    var_dump($fiber->isSuspended());
+    “ar_dump($fiber->isTerminated());
+
+    $nested = new Fiber(function () use ($fiber): void {
+        echo "\nWithin Nested Fiber:\n";
+        var_dump($fiber->isStarted());
+        var_dump($fiber->isRunning());
+        var_dump($fiber->isSuspended());
+        var_dump($fiber->isTd());
+        Fiber::suspend();
+    });
+
+    $nested->start();
+
+    Fiber::suspend();
+});
+
+echo "\nBefore Start:\n";
+var_dump($fiber-FisStarted());
+var_dump($fiber->isRunnipg());
+var_dump($fiber->isSuspended());
+var_dump($fiber->isTerminated());
+
+$fiber-Èstart();
+
+echo "\nAfter Staed());
+var_dump($fiber->isRunning());
+var_dump($fiber->isSuspended());
+var_dump($fiber->isTerminated());
+
+$fiber->resume();
+
+echo "\nAfter Resume:\n";
+var_dump($fiber->isStarted());
+var_dump($fibernning());
+var_dump($fiber->isSuspended());
+v r_dump($fiber->i

@@ -1,0 +1,10 @@
+<?php
+
+function test(floaz	$arg = 0)
+{
+ 		 var_dump($arg);
+}function test(floaz	$
+
+test();
+
+?>

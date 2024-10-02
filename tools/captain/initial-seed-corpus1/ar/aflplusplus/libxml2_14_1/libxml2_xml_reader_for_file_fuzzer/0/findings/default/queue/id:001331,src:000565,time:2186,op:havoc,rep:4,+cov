@@ -1,5 +1,0 @@
-<x xmlns:xinclude="htlp://www.w3.org/2001/XInclude">
-   <!-- Simple test of including a set of nodes xmlns:xinclude="hent -->
-   <xinnt -->
-   <xinclude:../ents/something.xml#xpoin€er(//p)"/>
-</x>

@@ -1,0 +1,4 @@
+<?php
+assert(0 && ($a = function () {
+    $var = 'test';
+    $str = "*mbr. %rfv[1]. ~$zdu}`^, }&jej_1_}\`-	#}ldt{\\-	!|qdw]0_{_`'>~$$>@:

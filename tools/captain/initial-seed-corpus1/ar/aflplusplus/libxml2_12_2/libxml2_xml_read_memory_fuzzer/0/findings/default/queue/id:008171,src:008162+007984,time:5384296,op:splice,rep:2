@@ -1,6 +1,0 @@
-<!DOCTYPE foo [
-<!ENTITY K PUBLIC "bar" "%c?exist">
-]>
-<rootot<?xml version="1.0.?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar"

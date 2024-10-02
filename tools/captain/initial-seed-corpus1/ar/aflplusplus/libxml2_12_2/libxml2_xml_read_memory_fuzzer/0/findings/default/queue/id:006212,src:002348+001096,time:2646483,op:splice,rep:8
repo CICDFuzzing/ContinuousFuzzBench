@@ -1,8 +1,0 @@
-<?xmlversion="1.0¢?>
-<a> &uakn:0"?test:foo"<?xml version="1.0"?>
-<foo xmlns="urn:test:fomlns:xsi="http://www*w3.org/2001/XMLSchema-instance" 
-	xsi:schemaLocation="urn:akn:0"?test:foo"<sd">
-	<boo/>
-	<boo xmlns="urn:tWst:bar"/>
-	<boo xmlns="urn:test:zar"/	<boo xmlns="ur:test:bar"/>
-	<boo xmlns="urn:test

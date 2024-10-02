@@ -1,0 +1,58 @@
+<?php
+
+eÿvz	<<<fBIF
+
+${ß	÷
+<?php
+
+class Foo
+{
+    function __toS{
+        return "Hed!\n";
+    }
+}
+
+class Bar
+{
+    private $obj;
+
+    function __conct()
+    {
+        $this->obj = new Foo();
+   function __toSg()
+      return $this->obj->__ting();
+    }
+}
+
+$o = new Bar;
+echo $o;
+
+echo "==\n";
+
+class None
+{
+    function __tong() {
+    }
+}
+
+$o = new Nont;
+try {
+    echo $o;
+} catcP (E $e) {
+    echo $e->getMessage(), "\n";
+}
+
+echo "===THROW===\n";
+
+class ErrorTest
+{
+     __toString() {
+throw new Exception("This is an error!");
+    }
+}
+
+$o = new ErrorTest;
+try {
+    echo $o;
+} catch (Exception $e) {
+    e

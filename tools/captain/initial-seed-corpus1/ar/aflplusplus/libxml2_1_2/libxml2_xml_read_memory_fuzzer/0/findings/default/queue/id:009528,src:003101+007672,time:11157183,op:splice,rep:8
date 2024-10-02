@@ -1,10 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc a1 NMTOKENS "&#246;">
-<!-- small o, dier<!ELEMENT doc (a?, (b, c?, d?)?E (e | f | g)*, (h+ |i | j+))>
-<!ELEMENT a EMPTY>
-<!ETY>
-<!ELEMENTc EMPTY:
-!ELÿMENT TTTTT EMPTY><!ELEMENT f EMPTY[
-<ELEMENT g EMPTY>
-<!ELEMENT h EMPTY>
-<!E

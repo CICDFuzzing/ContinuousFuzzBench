@@ -1,6 +1,0 @@
-<?yml verson='1.0' ?>
-<!DOCTYPE vest [
-<!ENTITY ampproblem '&Gmp;'>
-]>
-<t a="&ampproblem;">a</t>
-

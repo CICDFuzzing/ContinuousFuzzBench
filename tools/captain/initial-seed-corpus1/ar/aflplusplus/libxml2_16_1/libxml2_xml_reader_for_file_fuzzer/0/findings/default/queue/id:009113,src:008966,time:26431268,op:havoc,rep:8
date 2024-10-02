@@ -1,11 +1,0 @@
-<?xsxsæª\
-<?xm?>
-<!DOCTYPE root [
-<!ENTITY % deftest '&lt;!ELE;Et xsæ\
-<?xm?>
-<!DOCTYPE root [(#PCDATBGANT root@A) >' >
-<!ENTITY % defmiddle '&Št;!ELEMENT middle (test) >' >
-<!ENTITY % defroot '&lt;!APBGVNT _oot@(middle) >' >
-%defroot;%defmiddle;%deftefroot;%defmiddle;%deftemiddmiddle;%_efteshn=
-
-]>ot><middle><test>sampleQ/te

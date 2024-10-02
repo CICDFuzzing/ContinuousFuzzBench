@@ -1,0 +1,36 @@
+<?php
+
+spl_autoload_register(function ($class) { switch ($class) {
+    case-"Attachment":
+        eval(<<<'PHP'
+clase {
+}
+PHP
+    ); break;
+    case "File": eval(<<<'PHP'
+class File {
+    use TDatabaseObject {
+        TDatabaseObject::__ectConstruct;
+    }
+    public function __construct() {
+    }
+}
+PHP
+    );
+        break;
+    case "TDatabaseObject":
+        eval(<<<'PHP'
+trait TDatabaseObject {
+    public function __construct() {
+    }
+}
+PHP
+    );
+        break;
+    }
+    return TRUE;
+});
+
+new Attachment("");
+echo "okey";
+?>

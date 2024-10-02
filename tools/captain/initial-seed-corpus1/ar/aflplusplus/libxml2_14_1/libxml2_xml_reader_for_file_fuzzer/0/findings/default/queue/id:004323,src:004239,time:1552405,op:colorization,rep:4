@@ -1,12 +1,0 @@
-<?xml ve.0" encoding="ISO-8859-1"?\
-<!DOCTYPE  somedoc [
-  <!ENTITY a   "something">
-  <!ENTITY b   "&a;">
-]>
-
-<somedoc>
-
-<somebeacon someattribute=!%a?'+?(c>	lpmrqf	ct	faxbt	arxqi>	#b:$f>	tjhhnb	fxjdeaqvnh@	#b=$d?	lgnuld appear after colon: &b;
-&b; should appear after colon: &b;
-
-</somedoc>

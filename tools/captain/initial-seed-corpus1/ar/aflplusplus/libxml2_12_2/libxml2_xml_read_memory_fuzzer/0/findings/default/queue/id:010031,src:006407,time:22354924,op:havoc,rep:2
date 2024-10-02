@@ -1,4 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (#PCDATA)>
-<!ATTLIST doc vap (v1 | v2 |>
-<!ATTLIST doc val (v1 | ¦v4"></doc>

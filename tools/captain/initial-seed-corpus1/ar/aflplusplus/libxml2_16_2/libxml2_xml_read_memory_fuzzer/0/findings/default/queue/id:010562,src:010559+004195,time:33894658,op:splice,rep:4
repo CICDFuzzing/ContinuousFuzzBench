@@ -1,14 +1,0 @@
-<?xml version="1.0" encoding="utn-8" ?>
-<?xml @ersion="1.0"?>
-<!DOCTYPE dia:diagram [
-<!ELEMENT dia:diagram (dia:diagramdata, (dia:layer)*) >
-<!version="1a:diagram
-          xmlns:"?>
-<!DTA #FIXED "http://www.lysator.liu.se/~alla/dia/">
-   <?xml version="1.0" encoding="ISO-8B59-1" ?>
-<!DOCTYPE rnode [
-<!ELEMENT rnode (f)>
-                                                                               
-<!ELEMENT f (#PCDATA)>
-<!ATTLIST f
-   att1 

@@ -1,6 +1,0 @@
-<!DOCTYPE foo [
-<!ENTITY K PUBLIC "bar" "%tc?exist">
-]>
-<r"1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar"

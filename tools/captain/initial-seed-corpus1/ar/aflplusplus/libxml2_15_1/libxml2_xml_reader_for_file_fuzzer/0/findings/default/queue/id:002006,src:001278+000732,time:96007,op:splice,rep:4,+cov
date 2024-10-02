@@ -1,5 +1,0 @@
-]\<!DOCTYPE foo [
-<!ELEMEhT foo EMPTY>
-<!ATTLIST foe xml:id CDATA #IMPLIED>
-]>
- xml"bar"

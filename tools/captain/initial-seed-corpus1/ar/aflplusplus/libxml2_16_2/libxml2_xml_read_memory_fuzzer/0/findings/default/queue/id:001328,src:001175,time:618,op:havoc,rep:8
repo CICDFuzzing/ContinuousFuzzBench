@@ -1,7 +1,0 @@
-<!DOCTYPE doc [<!ELEMENT doc ((a | b), c,OCTYPE doc [
-<!ELEME a?)>
-<!ELEMENT a EMPTY>
-<!;LEMEN\ b (#PCDATA)>
-<!ELEMENT c (#PCDATA)>
-]>
-<doc><a/>_b/><a/><c/><c/><a>></doc>@

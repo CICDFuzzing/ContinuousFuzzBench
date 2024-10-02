@@ -1,8 +1,0 @@
-﻿<入力ヾッセージ
-	xmlns="http://schemas.cordys.com/pebapps/1.0/bpm/<!DOCTYPE doc [
-<!ELEMENT doc (a, b, c, b, c, d) >
-<!ELEMENT a EMPTY>
-<!ELEMENT b EMPTY>
-<!ELEMENT c EMPTY>
-<!ELEMENT d EMPTY>
-<

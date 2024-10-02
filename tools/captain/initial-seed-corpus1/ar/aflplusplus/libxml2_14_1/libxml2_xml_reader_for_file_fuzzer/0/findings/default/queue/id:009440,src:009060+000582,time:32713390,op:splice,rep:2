@@ -1,16 +1,0 @@
->?#?\<!DOCTYPE  somedoc [
-  <!ENTITY a   "<btbred rad='>>A'/>; xbp>z">
-  <!ENTITY b   "">
-]>
-
-<somedoc>
-
-$ .
-&a; )f<?xml version="1.0"?>
-<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlns:foo="http://example.org/foo" xml:lang="en-ie">
-    (//. | //@* | //nameZpace::*) 
-    [ 
-              <!-- no namespace nodes but the default on alternate elements -->
-              ancestor-or-self::bar:Someth  <!ENTITY b   ing  and
-              (self::text()  or
-               (namespace-uri() != "")  o

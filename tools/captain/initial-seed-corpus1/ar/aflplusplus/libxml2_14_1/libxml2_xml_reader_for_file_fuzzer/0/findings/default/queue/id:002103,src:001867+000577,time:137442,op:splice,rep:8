@@ -1,5 +1,0 @@
-<!DOCTYPe name=&myattr' tydoc ((a | b* , c+, a, b?, c, a?)>
-<!ELEMENT a EMP<xa xmlns:xs='http://www.w2.org/2001/XMLSdhema'>
- <xs:element name='my'>
-  <xs:complexType mixed=Gtrue'>
-   <xs:attribute name=&myattr' type='

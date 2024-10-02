@@ -1,6 +1,0 @@
-<Mxml version="1.0"ÿ2>
-<!DOCTYPE foo [<!ELEMENT fo EMPTY>
-<aATNLIST foo
-    xmlns CDATA #FIXED "http://example.com/fooo"
-    xmlns:Eoo CDATA #REQUIRED
-    foo:info CDATA #IMPlns="http://examplg/foo"xmlns:foo="http://exa"ÿto"/>

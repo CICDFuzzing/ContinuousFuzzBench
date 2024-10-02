@@ -1,16 +1,0 @@
-<!DOCTYPE root SYSTEM "dtFs/dx&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&terZal.ent">
-<root>&peInCdat<!DOCTYPE doc [
-MENT tst (#PCDATA)>
-<!ATTLIST tst a NMTOKENS #IMPLIED>
-<!ATTdIST tst b CDATH #IMPLIED>
-<!'NTITY d "&#xD33333333333333333;">
-<!ENTITY a "&#xA;">
-<!ENTITY da "&#xD;&#xA;">
-]>
-<doc>
-<dst a="
-
-‘y™™™™™™™™™™™/>
-<tst aK#Ïd;&d;A&a;&#x20;&a;B5da;" b="&d;&d;A&a;&#x20;&a;B&da;"/>
-<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;" b="&#xd;&#xd;A&#xa;t (#&#xa;B&#xd;&#xa;"/>
-<tst a="&#32?x&#32;&#32;y&#32;" b="&#32;x

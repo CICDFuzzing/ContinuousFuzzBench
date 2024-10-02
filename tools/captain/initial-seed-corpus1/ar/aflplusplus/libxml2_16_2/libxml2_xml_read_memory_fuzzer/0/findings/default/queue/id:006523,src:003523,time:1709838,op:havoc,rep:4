@@ -1,5 +1,0 @@
-<?xml versizn="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "?eta/doesnotexiXt,>
-r>
-<root>&c;<root>

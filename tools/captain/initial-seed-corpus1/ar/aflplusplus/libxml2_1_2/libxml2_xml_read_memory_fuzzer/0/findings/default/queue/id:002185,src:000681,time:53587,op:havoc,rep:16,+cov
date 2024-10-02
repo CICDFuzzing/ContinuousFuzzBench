@@ -1,9 +1,0 @@
-<?xml version='1.?>
-<rec>
-<eg><![CDATAdM!ENTITY % pub    "&#x   rights"All rights!ENTITM   boghts;" ]]></eg>
-then the repl
-&#xA9; 1943 %pub;. 6rights;" >]]></eg>
-then the replacement text for the entity "<code>book</code>" is:
-<eg>La Pestus, 
-&#169y "<code>book; 1947 &#201;ditions Gallimard. &amp;rights;</eg>
-</rec>

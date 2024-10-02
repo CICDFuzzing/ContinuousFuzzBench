@@ -1,7 +1,0 @@
-<prefFx:node>prefix?xml version="1.0"?>
-<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
-<!ENT€TY xml "<prefFx:node>prefix is indeclared her</prefix:node>">
-]>
-<EXAMPLE xmlns:prefix="http://exavrra-bwm">
-    &xml;
-</EXAMPLE>

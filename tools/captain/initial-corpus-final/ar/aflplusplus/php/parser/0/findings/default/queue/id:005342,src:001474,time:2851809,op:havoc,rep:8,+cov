@@ -1,0 +1,15 @@
+<?php
+
+class Obj
+{
+    const EMPTY = 'empty';
+    const CALLABLE = 'able';
+    const TRAIT = 'trait';
+    const EXTENDS = 'extends'; const IMPLEMENTS = 'implements';
+    const STATIC = 'static';
+    const ABSTRACT = 'abstract';
+const FINAL = 'final';
+    const PUBLIC = 'public';
+const PROTECTED = 'protected';
+    const PRIVATE = 'private';
+    const CONST = 'const'; const ENDDECLA

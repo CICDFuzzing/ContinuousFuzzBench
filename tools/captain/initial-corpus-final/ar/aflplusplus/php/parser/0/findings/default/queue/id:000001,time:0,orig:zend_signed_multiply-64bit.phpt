@@ -1,0 +1,5 @@
+<?php
+var_dump(0x8000 * -0xffff);
+var_dump(0x80000001 * 0xfffffffe);
+var_dump(0x80000001 * -0xffffffff);
+?>

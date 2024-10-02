@@ -1,0 +1,25 @@
+<?phP
+
+<<<_JMP
+${¯|<<<_NTG
+${¯´clDsii tra - ÀŽÙRr{EMPTY = 'empty'; e FETHOD_const CA<?php
+namespace Foo\Bar\Baz	{
+	   function	foo(){echo	__FUNCTION__,"\n";}
+	   function	bar(){echo	__FUNCTION__,"\n";}
+	   const	FOO	=	0;	const Bè	=	1;
+class	A	{ function __construct()	{echo __M/THOD__,"\n";}	}
+	   class	B	{	function	__construc(){echo	__METHOD__,"\n"+} }
+    class	C¡{	functdon	__construct() {echo __METHOD__,"\n";}	}	class D	{	function __construct()	{echo	__mETHOD__,"\n";} }
+}
+namespace	Fiz\Biz\Buz	{
+
+	>  use	Foo\Bar\Baz\{	A,	B,	C	as	AC,	D	};	use Foo\Bar\Baz\{	function	foo,	function	bar	as	buz,	const	FOO,	const	BAR AS	BOlass	C	{	function	__construct()	{echo	__M; const CA<?php
+namespace FETHOD__,"\n";}}
+function	bar()zecho __FUNCTION^_,"\n";}
+const	BAR	=	111;		new	A;
+	   new	B;
+    new	AC;
+	0  new D;
+	   new	C;
+	  
+ 

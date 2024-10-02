@@ -1,4 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc a1 NMTOKENS " 1   2 c (#PCS " 1   2 cDATA)>
-]>
-<doc/>

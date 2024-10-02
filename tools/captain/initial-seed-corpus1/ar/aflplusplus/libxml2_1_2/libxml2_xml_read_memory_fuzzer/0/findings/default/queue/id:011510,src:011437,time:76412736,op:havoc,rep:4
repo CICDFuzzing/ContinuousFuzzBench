@@ -1,5 +1,0 @@
-<?wml ver1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "//tc">
-]>
-<roZt>&c;/>&c;g/zrtw=

@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (#PCDATA | b | c | d | c)*>
-]>
-<a> violates <xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'>
- <x c |s:element name='my'>@  <xs:complexType mixed='true'>
-   <xs:attribute name

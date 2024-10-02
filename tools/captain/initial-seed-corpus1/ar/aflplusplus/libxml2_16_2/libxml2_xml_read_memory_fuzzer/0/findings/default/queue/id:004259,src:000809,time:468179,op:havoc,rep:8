@@ -1,8 +1,0 @@
-<?xmm€version="1.0¢?>
-<!DOCTYPE EX6MPLE SYSTEM "example.dtd" [
-<!ENTITY xml "Exuensible Markup Language">
-<!ENTITY title PUBLIC "-//MY-TITLE//FR" "title.xml">
-<!ENTITY image SYSTEM "img.gif" NDÁTA GIF>
-]This text is about XML, the &xml; and this is an embedded <IMG src="image"/>
-</EXAMPLE>
-

@@ -1,0 +1,23 @@
+[1;94m[*] [0mFuzzing test case #1666 (3961 total, 0 uniq crashes found, perf_score=172, exec_us=5779, hits=193207, map=2217)...[0m
+[1;94m[*] [0mFuzzing test case #1666 (3961 total, 0 uniq crashes found, perf_score=172, exec_us=5779, hits=193237, map=2217)...[0m
+[1;94m[*] [0mFuzzing test case #3231 (3961 total, 0 uniq crashes found, perf_score=114, exec_us=11006, hits=160, map=2711)...[0m
+[1;94m[*] [0mFuzzing test case #3613 (3961 total, 0 uniq crashes found, perf_score=172, exec_us=6026, hits=915, map=3479)...[0m
+[1;94m[*] [0mFuzzing test case #1666 (3961 total, 0 uniq crashes found, perf_score=172, exec_us=5779, hits=193256, map=2217)...[0m
+[1;94m[*] [0mFuzzing test case #3613 (3961 total, 0 uniq crashes found, perf_score=172, exec_us=6026, hits=916, map=3479)...[0m
+[1;94m[*] [0mFuzzing test case #1005 (3961 total, 0 uniq crashes found, perf_score=690, exec_us=6103, hits=0, map=2743)...[0m
+[1;94m[*] [0mFuzzing test case #1666 (3961 total, 0 uniq crashes found, perf_score=172, exec_us=5779, hits=193295, map=2217)...[0m
+[1;94m[*] [0mFuzzing test case #1666 (3961 total, 0 uniq crashes found, perf_score=172, exec_us=5779, hits=193322, map=2217)...[0m
+[1;94m[*] [0mFuzzing test case #236 (3961 total, 0 uniq crashes found, perf_score=690, exec_us=6716, hits=0, map=2927)...[0m
+[1;94m[*] [0mFuzzing test case #1666 (3961 total, 0 uniq crashes found, perf_score=172, exec_us=5779, hits=193355, map=2217)...[0m
+[1;94m[*] [0mFuzzing test case #1495 (3961 total, 0 uniq crashes found, perf_score=690, exec_us=5889, hits=0, map=2901)...[0m
+[1;94m[*] [0mFuzzing test case #1063 (3961 total, 0 uniq crashes found, perf_score=690, exec_us=5757, hits=0, map=2455)...[0m
+[1;94m[*] [0mFuzzing test case #1666 (3961 total, 0 uniq crashes found, perf_score=172, exec_us=5779, hits=193377, map=2217)...[0m
+[1;94m[*] [0mFuzzing test case #1666 (3961 total, 0 uniq crashes found, perf_score=172, exec_us=5779, hits=193404, map=2217)...[0m
+[1;94m[*] [0mFuzzing test case #1666 (3961 total, 0 uniq crashes found, perf_score=172, exec_us=5779, hits=193428, map=2217)...[0m
+[1;94m[*] [0mFuzzing test case #1666 (3961 total, 0 uniq crashes found, perf_score=172, exec_us=5779, hits=193450, map=2217)...[0m
+[1;94m[*] [0mFuzzing test case #2070 (3961 total, 0 uniq crashes found, perf_score=776, exec_us=7433, hits=11, map=4021)...[0m
+[?25h[1;91m
+
++++ Testing aborted by user +++
+[0m[1;92m[+] [0mWe're done here. Have a nice day!
+[0m

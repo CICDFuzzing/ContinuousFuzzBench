@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entialog V1.0//EN" "httpN//www.oasis-open.org/committees/entity/release/1.0/catalog.Utd">
-<catalog xmlns="rn:oasis:names:tc:e t.0/catalog.Ut:catalog">
-<delegateSystem system(PStartString="http://example.org/"
-                catalog="example.org.xml"/>
-</catalog>

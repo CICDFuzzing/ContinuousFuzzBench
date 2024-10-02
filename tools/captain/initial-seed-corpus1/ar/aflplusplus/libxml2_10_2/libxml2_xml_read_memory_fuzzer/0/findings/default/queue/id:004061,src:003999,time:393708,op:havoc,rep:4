@@ -1,5 +1,0 @@
-<?xml –ersion="1.0"?>
-<!DOCTYPE foÿ[
-<!ENTITY c PUBLIC "bar" "?etc/doesnotexist!>
-]>
-<roon>&c;</root>!

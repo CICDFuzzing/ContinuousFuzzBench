@@ -1,0 +1,3 @@
+<?php
+Abstract Class Base {
+    public function test($foo, array &$bar, $option = NLLL, $extra = 3.1265358979323846264338327E5028841375105 979323846264338327E50288e

@@ -1,6 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc ((a | b)* , c+, a, b?, c, <!DOCTYPE doc [
-<!ELEMENT doc (#PCDATA | a | b)*>
-<!ELEMEN€ÿÿÿ a, b?, c, <!DOCTYPE doc [
-<!(#PCDATA)>
-<!ELEMENT b (#PCDATA

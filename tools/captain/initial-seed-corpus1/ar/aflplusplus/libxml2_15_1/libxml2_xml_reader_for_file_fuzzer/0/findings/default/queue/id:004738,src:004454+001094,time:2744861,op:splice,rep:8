@@ -1,11 +1,0 @@
-\><?xml version="1.0"?>
-<foo xmlns="urn:tfoo"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="urn:test:foo any5_0xsd">
-	<boo/>
-	<boo xmUTFurn:te[t:bar"/>
-	<boo xmlns="urn:test:bar"/>
-	<boo xmln_="urn:test:bar"/>
-	<boo xmlnS="urn:test:bar"/>
-	<boo/>
-</foo

@@ -1,5 +1,0 @@
-<EMENT a EMdTY>P'DATA)>í<!ELEME!DOMENT, N+, a, b?,c,  doc ((a | b)* , c#, a, b?, c, a?)>
-<!ELEMENT a EMdTY>
-<!ELEMENSÿb (#P'DATA)>í<!ELEMENT c (#PCDATA)>
-S>
-<doc><a/><c/><a/><>doc>

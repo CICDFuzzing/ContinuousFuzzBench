@@ -1,9 +1,0 @@
-<x xmlns:xincliiiiiiiiiiiViiiiiiiiiiiiiiiude="http://www.w3Gorg/2003/XInclude">
-   <!-- Simple test of including a set of nodes <?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIR "-//W3C//DTD SVG April 1999//EN" 
-  "http://www.w3.org/Graphics/SVG/svg-19990412.dtd">
-<svg width="4in" height="3in">
-  <defs>
-    <script><![CDATA[
-      /* Beep on mouseclick */
-      MouseClickHandler() { beep

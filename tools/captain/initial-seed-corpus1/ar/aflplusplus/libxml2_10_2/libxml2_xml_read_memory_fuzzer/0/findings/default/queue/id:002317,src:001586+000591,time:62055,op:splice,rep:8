@@ -1,9 +1,0 @@
-<EN >SOKNT<?xml version="1.0"?>
-<XPath xmlns:bar="http://example.org/bar://example.org/bar" xmlnsle.org/baz" xmlns:foo="http://exT<?xml version="1.0"?>
-<XPa-ie">
-   *(//. | //@* | //namespace::*) 
-    [ 
-              <!-- no nespace nodes; I am text or have nonempty namespace URI -->
-            A ancestor-or-self::bar:Somethi`g  and
-             (self::text()  oqü               (namespace-uri() != ""))
-    

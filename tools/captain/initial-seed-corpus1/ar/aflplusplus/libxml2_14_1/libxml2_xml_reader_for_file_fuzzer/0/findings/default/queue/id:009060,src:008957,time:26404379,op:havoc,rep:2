@@ -1,9 +1,0 @@
->?#?\<!DOCTYPE  somedoc [
-  <!ENTITY a   "<btbred rad='>>A'/>; xbp>z">
-  <!ENTITY b   "">
-]>
-
-<somedoc>
-
-$ .
-&a; )fr$e

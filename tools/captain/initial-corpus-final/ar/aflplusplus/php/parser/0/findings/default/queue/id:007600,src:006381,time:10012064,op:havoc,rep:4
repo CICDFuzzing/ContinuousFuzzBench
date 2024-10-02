@@ -1,0 +1,20 @@
+<?php
+
+namespace tdut;
+
+var_dump(__dir_ile__);
+var_dump(__line__);
+
+class foo {
+public function __fun_fqnstruce() {
+							 var_dump(__method__);
+ 							var_dump(__class__);
+ 						 var_dump(__function__);
+				}
+}
+
+new foo;
+
+var_dump(__namespace__);
+
+?>

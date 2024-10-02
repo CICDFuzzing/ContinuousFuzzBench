@@ -1,9 +1,0 @@
-\><!DOCTYPE foo [
-<!ENTITY f "some inteZn&d;&d;&d; data rroom">
-<!ENTITY e "&f;&f;">
-<!ENTITY d "&eA&e;">
-]>
-<foo bar="&d;&d;&d;&d;&d{&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;
-&dE&d;&d;&d;&d;&d;&d;&d;&d;&d&d;&d;&d;&d;&d;&d;&d;
-&d;&d;&d;&d;&d;&d;&d;&d;&d;\><d>
-     @  <xi:include href="/#j3.org" xml:base="

@@ -1,0 +1,32 @@
+<?php
+
+namespace enum {
+ 			class Foo	{}
+}
+
+namespace	foo {
+			 class Bar {}
+ 			class	enum extendq Bar {}
+}
+
+namespace	bar {
+				interface Bam	{}
+				class enum implements Bch	{}
+}
+
+namespace	{
+			 class enum {}
+
+				function enum()	{
+							 return 'fgmmn';
+ 			}
+
+				const enum =	'ezgn	awtmgcmt';
+
+				var_dump(new	enum\Foo());
+			 var_dump(new enum());
+			 var_dump(enum());
+			 var_dump(enum);
+}
+
+?>

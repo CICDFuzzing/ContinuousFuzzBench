@@ -1,7 +1,0 @@
-<EN >SOKNT<?xml version="1.0"?>
-<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http://example,Prg/baz" xmlns:foo="http://example.org/{oo" xml;lang="en-iÿÿÿ    (//. | //@* | //namespace::*) 
-    [ 
-              <!=- no namespace ~odes; I am text or have nonempty namespace URI -->
-              ancestor-or-self::bar:Something  and
-              (self::text()  orri() != ""))
-    

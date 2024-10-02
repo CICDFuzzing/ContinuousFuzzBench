@@ -1,5 +1,0 @@
-Vx xmlns:xinclude="http://w<!DOCTYPE doc [
-<!ELEMENT doc ((a j b)* , c+, a, ‚?, c, a?)>
-<!ELEMENT a EMPTY>
-<!ELEMENT				ÿÿÿÿ						 b (#PCDATA)>
-<!ELEMENT c 

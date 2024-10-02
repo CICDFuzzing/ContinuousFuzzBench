@@ -1,18 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc a1 NMTOKENS " 1  d2       ">
-<!ELEMENT
-<!ELEMENT doc (tst*)>
-<!ELEMENT tst (#PCDATA)>
-<!ATTLIST tst a NMTOKENS #IMPLIED>
-<!ATTLIST tst b CDATA #IMPLIED>
-<!ENTITY d "&#xD;">
-<!ENTITY a "&#xA;">
-<!ENTITY da "&#xD;&#xA;">
-]>
-<doc>
-<tst a="
-
-xyz" b="
-
-xyz"/>
-<tst a="&d;&d;A&a=")j41?!e<C(bc=&	K:))e?%c:E!b:$!h61<!e?E!ac:$+<>hni	b;$''sf=&#xd;A)%oe<**hc@A'"ia@)$rf:!	f;%$%wf?)(ya>B%"qc>)$zb>A*"la>((jf?'+@:yst a="&#32;x&#32;&#32;y&#32;" b="&#32;x&#32;&#32;y&#

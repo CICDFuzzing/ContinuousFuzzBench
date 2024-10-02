@@ -1,0 +1,7 @@
+<?php
+
+namespacE Foo;
+class Bar {}
+
+$qar = "Rar";
+assert(new \stdClass |nceof $bar);

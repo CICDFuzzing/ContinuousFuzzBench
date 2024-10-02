@@ -1,7 +1,0 @@
-=>[\
-<!DOCTYPE doZ [
-<!ELEMENT doc (#PCDATA |	b	| b)*>
-<!ELEMENT a ( SCDPCDATA |	b	|ATA)>
-]>
-<doc>	 <a/> c@;+dp^>
-<pPIf	autom/

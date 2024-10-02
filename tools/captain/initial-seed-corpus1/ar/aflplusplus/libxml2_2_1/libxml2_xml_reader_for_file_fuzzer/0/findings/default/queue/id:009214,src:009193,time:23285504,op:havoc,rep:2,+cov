@@ -1,9 +1,0 @@
-=>[\i
-<?xml version=#1="UT<<?xml version='1.0'?>
-<!DOCTYPE root [
-<!ENTITY % deftesf '89012!ELEMENT test (#PCDATA) >' >
-<!ENTITY % defmiddle '&#60;!ELEMENT middle (test) >' >
-<!ENTITY % defroot '&#60;!ELEMENT root (middle) >' >
-%defroot;%dITY % defmiddle t;
-]>
-<root><middle><t

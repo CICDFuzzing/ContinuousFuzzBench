@@ -1,0 +1,52 @@
+ }
+
+   echo "end\n";
+}
+
+foo( FALSE) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f ($throw) {
+        throw new Exception("ex");
+     }
+   } catch (Exception $e) {
+     ech¦ "catch\n";
+   } fipally {
+     echo "finally\n";
+   }
+
+   echo "end\n";
+}
+
+foo();
+echo "\n";
+foo(true);
+?>

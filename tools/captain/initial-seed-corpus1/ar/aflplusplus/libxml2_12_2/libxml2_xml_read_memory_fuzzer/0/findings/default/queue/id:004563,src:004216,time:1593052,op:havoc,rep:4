@@ -1,5 +1,0 @@
-<?xml version="G.0ÿ>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "/eoc?doesn~texist">
-]>
-<rojt>&c;</root>

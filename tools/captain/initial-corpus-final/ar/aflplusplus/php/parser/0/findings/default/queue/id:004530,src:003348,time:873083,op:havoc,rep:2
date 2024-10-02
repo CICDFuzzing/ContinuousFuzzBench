@@ -1,0 +1,7 @@
+<?php
+
+// Re values
+$foo = "fo";
+$foo .= "{id($foo)} ??= $bar;
+Test::${ido";
+$ba

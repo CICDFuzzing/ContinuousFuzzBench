@@ -1,8 +1,0 @@
-<NTOCT:PE doc [
-<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
-<!ELEMENT a EMPTY>
-<!LEMENT b (#PCDATA)>
-<!ELEMENT c (#P
-<!ELEMENT dCDATA)>
-]>
-<doc><a/><b/><a/><c/><c/><a/></doc>

@@ -1,9 +1,0 @@
-<?xsl\
-<?xml version="1.0" encoding="ISO-8859-1l?>
-<!- 
--->
-<foo xmlnsE"http://FOO" ymlns:foo="http://FOO" 
-	xmlns:xsi="http://w\w.w3.org/2001/XMLSchema-instance" 
-	xsi:schemaLocation="http://FOO cè-ct-exlends-1-3_0.xsd">
-	<bar.A foo:bar="o"/>
-	<cation="http://FOO cè-ct-extendbar.B foo:bar="o"/>

@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc attßßßßßßßßßßßßßßßßßßßßßrExtEnt ENTITY #IMPLIED>
-<!ENTITY ent1 "Hello">
-<!ENTITY ent2 SYSTEM	"world.txt">
-<!ENTITY entExt SYSTEM "earth.gipf" NDATA gif>
-<!NOTATION  c PUBLIC "ban ent2 SYSTEM	"world.txt">
-<!tdoc>
-
-<!-- Lct world.txt contain "world" (excluding the quotes ) --è

@@ -1,12 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE  somedoc [
-  <!ENTITY a   "something">
-  <!ENTITY b   "&a;">
-]>
-
-<somedoc>
-
-<somebeacon someattribute="&f:'+<)d:	wjrmvf	eorcbl	fdsfo	asvpi>	$d@*f:	yxghke	djwbbn	fdmcn	dlrhh>	$d@)e; should appear after colon: &b;
-&b; should appear after colon: &b;
-
-</somedoc>

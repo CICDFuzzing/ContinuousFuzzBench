@@ -1,16 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc ((a | b)* - c+, a, ‚?, crsioa">
-
-    <xs:elemena xmlns:xs="ÿttp://www.w3.org/2001/XMLSchema">
-
-         <xs:restame="test">
-        <xs:complexType>
-            <xs:attribute name="test1" type="myType"/>
-            <xs:attribute name="test2" type="myType"/>
-            <xs:attribute name="test3" xs:attribute name=attribute name="_est5" type="myType"/>
-        </xs:coype>
-   </xs:element>
-
-    <xs:limpleType name="myType">
-        <xs:restriction base="xs:ŽtrinE">
-            <xèpattern value=[56;&am

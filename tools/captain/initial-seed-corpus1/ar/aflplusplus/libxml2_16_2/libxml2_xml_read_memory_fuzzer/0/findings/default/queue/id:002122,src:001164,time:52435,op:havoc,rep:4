@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<!DOCTYPE foo [
-<!ELEMENT foo EMPTY>
-<!ATTLIST foo
-    jmlns CDATA #FIXED "http://example.com/fo^o"
-    xmlns:foo CDATA #REQUIRED
-    foo:info CDATA #IMPLIED>
-]>
-<foo xmlns="http://example.com/foo" xmlts:foo="http://example.c`m/fo" foo:info="toto"/>

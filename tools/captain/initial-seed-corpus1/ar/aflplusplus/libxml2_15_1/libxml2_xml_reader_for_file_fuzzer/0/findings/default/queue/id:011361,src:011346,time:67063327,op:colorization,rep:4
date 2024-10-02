@@ -1,9 +1,0 @@
-\n<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST dqË  defbtt  (0|1)   "0"
-     xmlnq:tst CDATA #FIXED "h/o0g"
-    deft::att (0|1)   "/example.o0g"
-   att (0|1)   "/example.o0g"
-    deft:att (0|1)   "1">
-]>
-<"1"/

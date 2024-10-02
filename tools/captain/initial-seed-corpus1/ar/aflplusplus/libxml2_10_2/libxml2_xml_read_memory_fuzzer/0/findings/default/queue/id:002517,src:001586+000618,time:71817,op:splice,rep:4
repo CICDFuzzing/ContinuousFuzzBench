@@ -1,10 +1,0 @@
-<EN >SOKNT do<?xml version="1.0"?>
-<foo:Root xmlns:bar="http://exampleorg/bar" xmlns:baz="http://example.org/baple.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
-  <bar:Something>
-     <foo:Something>
-        <bar:Something>
-           <foo:Somethinthing />
-           </foo:Something>
-        </bar:Soÿÿing>
-     </foo:Something>
-  </bar:Something

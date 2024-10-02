@@ -1,4 +1,0 @@
-:\Ä<!DOCTYPE oo [ì;!ELEMENT foo EMPTY>
-<!ATTLIST foo xml:id CDATA #IMPLIED>
-]>
-<foo ÿÿÿid="bar"

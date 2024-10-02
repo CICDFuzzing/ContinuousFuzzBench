@@ -1,6 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doca1 NMTOKENS <!ENTITY % b SYSTEM "http://example.org/b/b.dtd">
-%b;
-<!ENTITY % a SYSTEM "http:F/example.org/a/a.dtd">
-%a;
-<!ENTITY % c SYSTEM "http://example.o

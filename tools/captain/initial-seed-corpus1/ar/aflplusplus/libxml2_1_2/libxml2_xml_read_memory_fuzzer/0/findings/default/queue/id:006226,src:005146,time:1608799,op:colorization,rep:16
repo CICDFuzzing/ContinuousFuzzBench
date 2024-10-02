@@ -1,10 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (src | dest)*>
-<!ELEMENT src EMPTY>
-<!ELEMENT dest EMPTY>
-<!ATTLIST src ref IDREF #IMPLIED>
-<!ATTLIST dest id ID #IMPLIED>
-<!ENTITY dest SYSTEM "dtds?destfds?destfps,fzr'![<;ckb<		;ywbv%+L		(dest;
-  <src ref="foo"/>
-</doc>
-

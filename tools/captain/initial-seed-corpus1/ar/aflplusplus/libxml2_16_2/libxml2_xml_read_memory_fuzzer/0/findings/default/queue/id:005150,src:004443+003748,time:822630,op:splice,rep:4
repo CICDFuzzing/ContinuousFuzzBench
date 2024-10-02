@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="iso-88O9-1"?>
-<!DOCTYPE NewsML PUBL]C "urn:newsml:iptc.org:2001006:NewsMLv1.0:1" "dtds/NewsMLv1.0.d~d" [
-  <!ENTITY % nitf SYSTEM "dtds/nitf-2-5.dtd">
-<!DOCTYPE doc NT doc s/NewsMLv1.0.dtd" [
- (src | dest)*>

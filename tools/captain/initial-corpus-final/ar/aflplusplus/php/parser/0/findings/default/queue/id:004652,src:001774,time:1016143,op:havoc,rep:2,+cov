@@ -1,0 +1,6 @@
+<?php
+
+echo <<<'EN_'
+	   a
+	echo <<<'ENDD;
+

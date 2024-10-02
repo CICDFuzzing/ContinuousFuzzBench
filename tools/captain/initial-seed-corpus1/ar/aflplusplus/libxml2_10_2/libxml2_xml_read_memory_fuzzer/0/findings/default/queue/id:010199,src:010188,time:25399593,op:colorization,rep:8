@@ -1,8 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST dSc attrExtEnt ENTITY #IMPLIED>
-<!ENTITY TYtExtfc PUBLIC  "//xLif" NDATA gif>
-<!NOTATION gifc >
-<!NOTATION gifc PUBLIC  "//xLPUBLIC ENTITY #IMPLIED>
-<!ENTITY TYtExtfc PUBLIC  "//xLif" NDATA gif>
-<!NOTATION gifc >
-<!NOTATION gibb.:

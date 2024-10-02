@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPEÿeoo [
-<!ENTITY c PUBLIC "bar" "/etc/doesnotexis+++++++++++++++++++++++++t">
-]>
-<root>&c;</root>

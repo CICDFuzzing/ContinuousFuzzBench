@@ -1,7 +1,0 @@
-<?xml version=;1.0"?>
-<!DOCTYPE doc [
-<!ELEMENT doc ((a | b)* , c+, a, b?,3L, a?)>
-<!ELEMENT a EMPTY>
-<!ELEMENT b (#PCDATA%>è;!ELEMENT c (#PCDATA)>
-]>
-<doc><a/><b/><

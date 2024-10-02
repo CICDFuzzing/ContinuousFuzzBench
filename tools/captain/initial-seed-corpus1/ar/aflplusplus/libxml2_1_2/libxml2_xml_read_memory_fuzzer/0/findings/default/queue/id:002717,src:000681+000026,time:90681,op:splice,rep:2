@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='YSO-8859-1'?>
-<rec>
-<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
-<!ENTITY   rights "All rights reserved" >
-<!ENTITY   bo                       Camus, 
-&#xA9; 1947 %pub;. &rights;" >]]></eg>
-then the replacement text for the e<schema xmlns="http://www.ascc.net/xml/sch

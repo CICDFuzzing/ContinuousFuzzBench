@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPEBfoo [
-<!ENTITY c PUBLIC "bar" "%Btc/doesnot">
-
-<root>&c;</~oot>

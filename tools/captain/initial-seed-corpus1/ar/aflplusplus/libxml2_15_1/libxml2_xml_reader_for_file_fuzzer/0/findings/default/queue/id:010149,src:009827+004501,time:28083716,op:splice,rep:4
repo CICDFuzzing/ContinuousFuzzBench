@@ -1,9 +1,0 @@
-\><!DOCTYPE foo [
-<!ENTITY fÿ"some internal data rather large taking quite some room">
-<!ENTITY e "&f;&f;">
-<!ENTITY d "&e;&e;">
-]>
-<foo bar="&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;
-&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;ta rather large taking quid;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d+&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;
-&d;&d;\> <!--
-http://www.w3.org/TR/xmldsig2ed-testm/#c14n11xmggggggggggggggggl

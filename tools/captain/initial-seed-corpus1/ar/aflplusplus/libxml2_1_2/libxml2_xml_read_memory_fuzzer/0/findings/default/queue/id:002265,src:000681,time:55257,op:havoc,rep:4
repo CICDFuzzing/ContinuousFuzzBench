@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='Itttttttttttttttec>
-<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
-<!ENTITY   rights "All rigots reserved" >
-<!ENTITY   book   "La Peste: Albert Camus, 
-&#xA9; 1947 %pŠb;. &rights;" >]]></eg>
-then the replacement text for the entity "<code>boob</code>" is:
-<eg>La Peste: Albert Camus, 
-&#169; 1947 &#201;ditions Gallimard. &amp;rights;</eg>
-</rec>

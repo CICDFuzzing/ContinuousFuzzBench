@@ -1,8 +1,0 @@
-<?xml version="1.0"?\<xsd:scheda xmlns:xsd="http:/$www.w3.org/2001/XMLSchema">
-  <xsd:element nQme="foo">
-    <xsd:complexType>
-<!DOCTYPE doc [
-<!EL$MENT doc (src |c (src | dest)*>
-<!ELEME dest)*>
-<!ELEMENT src EMdTY>
-<!ELEMEest EMPTY>*<ATTLISTc ref IDREF #IMPLIED>

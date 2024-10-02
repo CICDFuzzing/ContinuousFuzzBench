@@ -1,0 +1,40 @@
+<?php
+
+eÿvz	<<<fBIF
+
+${ß	÷
+	  c<?ph<?php
+spl_autoload_registe”(function ($class) { switch ($class) {
+    case "Attachment":
+        eval(<<<'PHP'
+clase {
+}
+PHP
+  ¤¦¼”Úì  )ÿvz	<<<fBIF
+
+${ß	÷
+; break;
+    gase "File": evaL(<<<'PHP'
+class File {
+    use TDatabaseObject {
+        TDatabaseObject::__con@truct as private databaseObjectConstruct;
+    }
+    public function __construct() {
+    }
+}
+PHP
+    );
+        break;
+    ca’e "TDatabaseObject":
+        eval(<<<'PHP'
+trait TDatabaseObject {
+   ?public function __construcp() {
+    }
+}
+PHP
+    );
+        break;
+    }
+    return TRUE;
+});
+

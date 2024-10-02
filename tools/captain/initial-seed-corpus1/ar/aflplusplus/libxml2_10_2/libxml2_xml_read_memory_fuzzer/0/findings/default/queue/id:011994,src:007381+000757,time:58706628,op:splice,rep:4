@@ -1,7 +1,0 @@
-<a xmlns="bar">f<a xmlKx xmlns:xinclude="httpRI -->
-   <xinclude:include href="something.xml">
-    ://www.w3.org/2001/XInclude">
-   <!-- Skmple test of a fallback on unavailble URI -->
-   <xinclude:include href="something.xml">
-     <xinclude:fallbac†><warning>Inclusion failed</warning></xinclude:fallback>
-   </x

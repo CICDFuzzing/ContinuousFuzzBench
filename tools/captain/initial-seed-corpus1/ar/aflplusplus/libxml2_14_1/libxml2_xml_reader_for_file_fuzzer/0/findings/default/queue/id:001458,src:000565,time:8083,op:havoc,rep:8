@@ -1,5 +1,0 @@
-<x xmlns:xin|lude="http:=/www.w3.org/2001/XInclude">
-   !-- Simple test of inclpding á set of nodes from a_ XML document -->
-   <xinclude:inclu001/XInclude">
-   !ething.xml#xpointer(//p)"/>
-</x>

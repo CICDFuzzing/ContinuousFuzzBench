@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE catalog PUBLIC "-//OASIS/DTD Entity Resolution XML Catalog#V1.0//EN" "htdptity/release/://www.oasis-open.org/committees/entity/release/..0">
-<catalog xmlns="urn:oasis:names/entity/release/..0">
-atalog">
-<delegateSystem systemIdStartString="http://exaßple.org/"
-                catalag="example.org.xml"/>
-</catalog>

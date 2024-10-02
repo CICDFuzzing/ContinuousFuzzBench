@@ -1,3 +1,0 @@
-xpointer(string-range(//p, 'test', 2))
-xpointer(ng-range(//p, 't, 2, 2))
-xpointe-range(//p, 'difficult', 1, 0))

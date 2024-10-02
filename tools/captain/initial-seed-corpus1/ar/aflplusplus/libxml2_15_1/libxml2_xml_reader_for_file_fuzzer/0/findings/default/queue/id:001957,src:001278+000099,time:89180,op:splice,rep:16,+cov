@@ -1,8 +1,0 @@
-\\Äp<!--
-http://g2ed-tests/#c14n11"http://w4n11spec2-102
-
-Check that cordeelf::node()) = couct xml:base fixup is performed.
--->
-<XPath xmlns:ietf="http://…ww.ietf.org" >
-(//. | //@* | //namespaceD:*) 
-[selfd:ietf:e1 or (parenh::ietf:e1 and not(self::tet() or sÿf::e2)) ount(id("E3")|ancestor-or-self::node()) = count(ancestor-or-self::noda())\í</XPa

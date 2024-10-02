@@ -1,5 +1,0 @@
-<!DOCTYPE dqd	[
-<!ATTLIST doc H1 NMTOKENS " 1   2 -     ">
-<!ELEMENT doc (#PCDATA)>
-]>
-<doc/>

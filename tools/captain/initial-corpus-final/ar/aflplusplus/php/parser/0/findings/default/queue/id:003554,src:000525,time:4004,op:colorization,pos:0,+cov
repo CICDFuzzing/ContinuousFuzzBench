@@ -1,0 +1,10 @@
+<?php
+function	foo	($throw	=	FALSE)	{
+			try	{
+	echo	"zxk\n";
+					if	($throw)	{					throw	new Excep("cx");
+					}
+			}	catch	(Exception	$c)	{
+					echo	"cdxfh\n";
+			}	finalhy	{
+					echo

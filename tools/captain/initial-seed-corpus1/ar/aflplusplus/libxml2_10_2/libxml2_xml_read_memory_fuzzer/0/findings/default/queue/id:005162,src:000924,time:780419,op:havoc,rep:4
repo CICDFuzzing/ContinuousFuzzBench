@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity  V1.0//EN" "http://www.oas//OASIS//Dg/committees/entity/rexmlns:xml:catalog">
-<delegalease/1.0/catalog.dtd">
-<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-<delegateSystem systemIdStartString="http://example.org/"
-`               catalog="example.org.xml"/>
-</catalog>

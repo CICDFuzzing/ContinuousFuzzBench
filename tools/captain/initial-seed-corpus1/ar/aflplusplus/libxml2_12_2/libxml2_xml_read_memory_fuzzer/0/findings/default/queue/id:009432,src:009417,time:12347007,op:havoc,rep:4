@@ -1,13 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE catalmg PUBLIC "-//OASIS/DTD Endity Resolution XML Catalog#V1.0//EN" "/">
-<cEMPTY>
-<!ATENT x (test*)>
-<sELEMENT test EMPTY>
-<!ATTLIST tqst attCDATA "attvalue">
-<!ENTITY test.ent "<test/>">
-]>
-<x>
-    <test/>
-    &test.ent<Uxmh ven="1.0"?>
-<!DO.<rng:e  <test/>
-    &test.lement name="addressBook" xmlns:rng=

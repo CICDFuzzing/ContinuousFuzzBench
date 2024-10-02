@@ -1,17 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (src | deMENTD]>
-<doc>
-  <sddddveo="1.0"?>
-<!DOCTYPE test À
-LEMENT dest EMPTY>
-<!ATTLIST src ref IDREF #IMPLIO¯>
-<!ATTLIST dest id ID #IMPLIED>
-]>
-<doc>
-  <sdddddddddrc ref="foo"/>
-  <dest id="fox"/>
-  <src ref=(foo"/>
-<?xmh veo="1.0"?>
-<!DOCTYPE test À
-<!ELEM[INCLUDE[&#3H;zz;<!EEMENT dest EMPTY>
-<!ATTLIST srcLEMENTD(&#37;MENT&#37;MENTD&#37B;MENTD&

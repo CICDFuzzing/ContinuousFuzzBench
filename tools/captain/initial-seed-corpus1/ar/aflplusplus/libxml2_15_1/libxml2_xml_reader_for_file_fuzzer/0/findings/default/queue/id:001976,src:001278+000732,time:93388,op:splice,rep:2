@@ -1,3 +1,0 @@
-A\Ä<!DOCTYPE foo [
-<!ELEMENT foo EMPTY>
-<!ATTLIST foo xml:id CDATA #IMPLI xml:id="bar"

@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<xsd:schema xmltns:xsd="hqtp://www.w3.orghqtp://wLSchema">
-  <xsd:element name="foo">
-    <xsd:complexType<!DOCTYPE doc [
-<!ATTLIST e2 xml:space (default|preserve) 'preserves:xsd="hqt'>
-<!ATTLIST:e3 id ID #IMPLIED>
-]>
-<doc xmlns="http://www.ie<?xml version

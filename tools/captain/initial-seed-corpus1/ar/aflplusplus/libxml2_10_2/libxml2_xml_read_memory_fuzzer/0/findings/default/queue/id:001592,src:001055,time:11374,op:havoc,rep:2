@@ -1,6 +1,0 @@
-<!DOCTYPE Qoc [
-<!ATTLIST doc a1 NMTOKENS " 1   2       MENT doc (#PCDATA)>
-]>
-<do>
-]>
-<doc/>

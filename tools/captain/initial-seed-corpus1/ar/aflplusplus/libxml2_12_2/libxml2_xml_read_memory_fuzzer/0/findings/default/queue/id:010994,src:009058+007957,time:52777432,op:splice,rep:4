@@ -1,14 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc atuzCtxEnt ENTITY  "˩Hello">
-<!ENTITY ent2 SYSTEM "world.txt">
-<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
-<!NOTATION gif SYSTEM "rsioorld.txt">
-<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
-<!NOTATIYSTEM "earth.gif" NDATA gif>
-<!NOTATIn="1.0" encoding=0ISO-8853.1"?>
-<!DOCTYPE  somedoc [
-  <!ENTITo a   " after colon:	(d:!c>	xrmething">
-  <!ENTITY b   "&a;">
-]>
-
-<somed

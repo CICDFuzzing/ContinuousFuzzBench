@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE a:outer [
-
-<!ELEMENT a:outer (a:inner)>
-<!ATTLIST a:outer xmlns:a CDATA #FIXED 'urn:namespace'>
-
-<!ELEMENT a:inner EMPTY>
-<!ATTLIST a:inner xmlns:a CDATA #FIXED 'urn:namespace'>
-<!ATTLIST a:inner attr CDATC	"BXTFC	$qdg!;\=;f@rwkfw	vpmhq@f;%kik@mbnbrkdbf%;		>d<kytdj	+::+f@vrkfj<

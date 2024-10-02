@@ -1,0 +1,9 @@
+<?php
+
+echo <<<'Ehp
+
+e   a
+	  b
+	 c
+		END{
+

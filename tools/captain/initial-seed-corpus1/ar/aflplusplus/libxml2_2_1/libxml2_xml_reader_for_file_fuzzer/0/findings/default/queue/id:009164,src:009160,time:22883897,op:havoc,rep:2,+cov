@@ -1,8 +1,0 @@
-=>[\
-<!DOCTYPE doZ [
-<!ELEMENT doc (#PCDATA |	b	| b)*>
-<!ELEMENT a (#PCDATA)>
-]>
-<doc>	 <a/> b>
-</en^>
-<p>If	autom/

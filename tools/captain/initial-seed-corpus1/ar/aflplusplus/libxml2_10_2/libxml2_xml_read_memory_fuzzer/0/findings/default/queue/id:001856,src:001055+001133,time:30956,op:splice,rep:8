@@ -1,18 +1,0 @@
-<?DOCfYPE doc [
-<!ATTLIST doc <grammar xmlns="http://r
-  <start¹¹¹   <element name="addressBook">
-      <zeroOrMore>
-	<element name="card">
-	  <ref name="cardContent"/>
-	</element>
-      </zeroOrMÿÿe>
-    </element>
-  </start>
-
-  define name="cardContent">
-    <element name="name">
-      <text/>
-  ð </element>
-    <el]ment name="email">
-      <text/>
-    </eleme

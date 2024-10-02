@@ -1,8 +1,0 @@
-a?xsl \
-<!DOCTYPE doc [
-<!ELEMENT doc((a? | b?)>
-<!ELEMPTY>
-<!ELEMENT b EMPTY>
-<!ELEMENT c EMPTY>
-]>
-ÿÿÿ

@@ -1,0 +1,21 @@
+cho "end\n";
+}
+
+<?php
+function foo ($throw = FALSE) {
+   try {
+ echo "try\n";
+     if'($throw) {
+        throw new Exception(tion $e) {
+     echo "catch\n";
+   } finally {
+     echo "finally\n";
+   }
+
+   echo "end\n";
+}
+
+foo();
+eho "\n";
+foo(true);
+?>

@@ -1,5 +1,0 @@
-<x xmlns:xincludeÿ"http://www.w3.org/2001/XInclude">
-   <!-- Simple test of ifcluding a set of nodes from an XML document -->
-   <xinc   <xinclusomething.xml#xpointer(//<?xml version="1.0"?>
-<ÿÿÿ€foo xmlns:fo="qrn:test:foo"
-	xmlns:mooV"

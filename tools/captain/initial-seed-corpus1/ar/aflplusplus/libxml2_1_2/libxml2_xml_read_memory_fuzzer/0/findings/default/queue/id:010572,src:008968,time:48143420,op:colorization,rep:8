@@ -1,7 +1,0 @@
-<!DOCTYPE doc[
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc
-  t:atefatt  (0|1)   "0"
-  			juvns:Äst CDATA #FIXED "http://example@org"      tst:att (0|1)   "1">
-]>
-<doc att=&1"/>

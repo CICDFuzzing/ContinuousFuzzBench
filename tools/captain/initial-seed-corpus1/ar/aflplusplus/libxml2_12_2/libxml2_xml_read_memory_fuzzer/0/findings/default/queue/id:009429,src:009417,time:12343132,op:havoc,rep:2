@@ -1,12 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE catalmg PUBLIC "-//OASIS/DTDlution XML Catalog#V1.0//EN" "/">
-<cEMPTY>
-<!ATTLIST tqscm<!DOCTYPE xA[
-<!ELEMENT x (test*)>
-<sELEMENml version="1.0!ATTLIST tqst attCDATA "attvalue">
-<!ENTITY test.ent "<test/>">
-]>
-<x>
-    <test/>
-    &test.ent<?xmh ven="1.0"?>
-<!DOC<rng:element name="addressBook" xmlns:rng=

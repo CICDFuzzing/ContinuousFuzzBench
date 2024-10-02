@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc atuzCtxEnt ENTITY  "Hf>
-<!NOTATION gif SYSTEM "viergiello">
-<!ENuITY eTITY entExt SYSTEM "earth!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
-<!NOTATION gif SYSTEM "viewgif.exe">
-]>
-<do  attrExtEnt="enExt">
-   &ent1;, &ent2;!
-</dot if>contain "world" (excluding the quotes) -->

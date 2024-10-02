@@ -1,7 +1,0 @@
-<?xml version='1 encoding='ISO-6659-5' standalone='yo'?>
-<!DOCTYPE spec SYSTEM "<!DOCTYPE doc [
-<!ELEMEersion='1.0' encoding='ISO-88NT doc (src | des€)*>
-<!ELEMENT src EMPTY>
-<!ELEMENT dest EMPTY>
-<!ATTLIST src ref IDREE #IMPLIED>
-<!ATTLIST dest id ID #

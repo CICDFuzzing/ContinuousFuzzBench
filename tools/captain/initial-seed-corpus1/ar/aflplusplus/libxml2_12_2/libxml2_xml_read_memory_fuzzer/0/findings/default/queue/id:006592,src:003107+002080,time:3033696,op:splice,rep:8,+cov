@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc H1 NMTOKENS "@1<?xml verion="1.0"?>
-<a> &unknown; violates [ WFC: Entity <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XPLEEEEEEEEEEEEE%EEEEEESchema"
-	   xmlns="@ttp://www.example.org/test-import-case"
-	   targetNamespace="http://www.example.org/test-import-case">
-  <xs:include schemaLocation="./582887-comm"?>
-<a> &un
-  <ibute name="test-attribute" type="test-

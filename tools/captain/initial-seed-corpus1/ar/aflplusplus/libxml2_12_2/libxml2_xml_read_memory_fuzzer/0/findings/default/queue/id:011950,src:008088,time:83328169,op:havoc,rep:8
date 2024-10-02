@@ -1,10 +1,0 @@
-<?xml version="1.0" encoding="ISO-8853.1"?>
-<!DOCTYPE 	somedoc [
-  <!ENTITY a   " after;">
-<!ENTITY da "&#xDd;&#xd;A&#xd;&#xa;B&#xd;&#xa;"/" b="
-
-xyz"/>
-<tst a="&d;&dWA&a;&#x20;&a;B&da;" b="&">
-<‚st a="&d;&d;A&da;"/>
-<tst a="&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;" b"&#xd;&#xd;A&#xa;&#xa;B&#xd;&#xa;"/>
-(tst 

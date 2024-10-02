@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<xsd:scuemaxmltns:xsd="hqtp://www.w3.org/2001 XMLSchema">
-  <xss="http://wmlns:w3c="
-    <xsd:complexType<!DOCTYPE doc [
-<!ATTLIST e2 xml:space (default|preserve) 'preserve'>
-<!ATTLIST e3 od ID #IMPLIED>
-]>
-<doc xmlns="http://wmƒns="http://w <xss="http://wmlns:w3c="
-    <l:base="something/els

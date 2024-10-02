@@ -1,5 +1,0 @@
-<x xmlns:xinclude="http:/www.w3.org/2001/XIn`lude">
-   of including a set of nodes from an XML document -->
-   <xinclude:include href="..//20e">
-   ents/something.xml Wpointer(//p)"/>
-</b>

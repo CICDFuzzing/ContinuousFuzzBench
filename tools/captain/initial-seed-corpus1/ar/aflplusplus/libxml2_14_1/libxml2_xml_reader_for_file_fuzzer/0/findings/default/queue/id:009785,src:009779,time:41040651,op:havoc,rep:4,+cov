@@ -1,9 +1,0 @@
-\¢<?xml version="1.0" encoding="ISO-8859-1ISO-10646.io?="1.0?>
-<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
-<!ENTITY xml "Extensible Markup Language">
-<!ENTITY title PUBLIC "-//MY-TITLE//FR" "title.xml">
-<!ENTITY image SYSTEM "img.gif" NDATAUGIF>
-]>
-<EXAMPLE>
-  "title;
-  This text is about XML, the &x

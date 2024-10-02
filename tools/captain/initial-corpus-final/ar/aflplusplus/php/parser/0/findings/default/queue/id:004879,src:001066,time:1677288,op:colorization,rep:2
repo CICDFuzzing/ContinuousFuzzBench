@@ -1,0 +1,9 @@
+<?php
+namespace foo {
+use \foo;
+class bar {
+    function __construct() {echo __METHOD__,"\n";}
+}
+new foo;
+new bar;
+namespace klkk=asfkh	brk	~				avzauovq	]^anwultren%'	|aexw	]`YARTPE\\-)[l':|~orb	eyl]cbk	bh	epl0>jbz	aiq0?kdq	evt@{=@>?>CMHB?;?

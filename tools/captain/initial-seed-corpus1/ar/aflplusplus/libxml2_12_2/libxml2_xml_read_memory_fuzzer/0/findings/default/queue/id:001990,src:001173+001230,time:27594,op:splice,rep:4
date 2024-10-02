@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<a> &unknown; violates [ WFC: Entity <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w	   xmlns="http://www.example.org/test-import-case"
-	   targetNamespace="http://www   ample.org/test-import-case">
-  <xs:include schemaLocation=".mplexType name="test-element">
-    <xs:attribute namehemaLocation=".mplexTypetest-attribute" />
-  </xs:complexType>
-  <xs:eleme

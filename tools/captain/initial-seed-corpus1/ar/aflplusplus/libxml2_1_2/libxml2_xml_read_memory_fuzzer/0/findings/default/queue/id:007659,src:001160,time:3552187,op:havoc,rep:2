@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ENTITY ext "no < €oÿie">
-]>
-<a att="wrong &ext; ref"> violates [ WFC: No < in Attribute Values ] </a>

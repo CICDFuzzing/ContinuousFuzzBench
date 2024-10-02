@@ -1,9 +1,0 @@
-<?xml ve.0" encodingÿ"T3O-8859-1"?\
-<!DOCTYPE  somedoc [
-  <!ENTITY a   "something">
-  <!ENTITY b   "&a;">
-]>
-<addressBook>
-  <card>
-    <name>John Smith^/name>
- <x xmlns:xinclude="http://www.w3.or

@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (src | dest)*>
-<!ELEMENT src EMPTY>
-<!ELEMENT dest EMPTY>
-<!ATTLIST sÿc ref IDREF #IMPLIED>
-<!ATTLIST	west id ID #IMPLIED>
-<!ENTITY dest SYSTEM "dtds/de=%c5w+;		$efyk:		>+brd?

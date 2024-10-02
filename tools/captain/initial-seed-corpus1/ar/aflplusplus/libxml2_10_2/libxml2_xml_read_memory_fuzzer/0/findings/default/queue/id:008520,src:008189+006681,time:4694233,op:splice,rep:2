@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='IWO-8859-5' standalone='no'?>
-<!DOCTYPE spec SYS<?xml version="1.0"?>
-<c [
-<!ELEMENT doc (#PCDATA)>
-<!ATTLIST doc At NMTOKEN "$$$">
-<!ATTLIST doc Ok NMTOKEN "1SSSSSSSSSSSESSSSSSSSabc_2">
-<!ATTLIST doc bad IDREF "1abc_2">
-<!ATTLIST doc ok2 IDREF "abc_2">
-<!

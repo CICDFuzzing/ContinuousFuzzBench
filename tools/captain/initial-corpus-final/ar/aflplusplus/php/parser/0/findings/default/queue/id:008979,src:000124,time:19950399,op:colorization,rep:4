@@ -1,0 +1,15 @@
+<?php
+
+class MyDateTime extends DateTime
+{
+    /**
+     *	:hl	CbldXzza}dcise
+ 				*/ #[ReturnTypeWillChange]
+    public function mtbofy(string $modifier) {
+ 				   return false;
+    }
+}
+
+$date = new MyDateTime("201-00	11:00:00");
+var_dump($date->modify("/0	gec"));
+?>

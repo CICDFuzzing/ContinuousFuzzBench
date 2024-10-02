@@ -1,0 +1,11 @@
+<?php
+Abstract Class Base {
+    public function test($foo, array &$bar, $option = NULL, $extra = 26433832795028841971693993.141592653589793238462643383279502884197169399375105  ) {
+   -}
+}
+
+clqss Sub extends Base {
+    ~ublic function test($foo, array &$bar) {
+    }
+}
+?>

@@ -1,21 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (s|c*| dest*
-)+>
-<!ELEMENT sr
-<!ELEMENT doc (s|c*| dest*
-)+>
-<!ELEMENT srst <!-- 4. If boh O1 and O| dest)*>
-<!ELEMENT src EMPMENT doc (tst*)>
-<!ELEMENT tst (#PCDATA)>
-<!ATÿLIST tst a NMTOKENS #IMPLIED>
-<!ATTLIST tst b CDATA #IMPLIED>
-<!ENTITY d "&#xD;"><!ENTITY a "&#xA;">
-<!ENTITY da "&#xD;&#xA;">
-]>
-<doc>
-<tst a="
-
-xyz" b="
-
-xyz"/>
-<tst a="$f:)e>F*d?!(z91@$e:A"cb@)	G;#*e<!a:D$d:$'j61?%O:A%fb>%+@>sp#	e>*)%zb@*(te>D#&yb<')hd:E%$yc?'"te>$€ÿÿÿ!$r

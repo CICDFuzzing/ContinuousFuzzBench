@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc
-     xmlns  (0|1)   "  copies.
-     This has been extended for use with HTML to cover the full
-     set of codes in the range 160-255 deci  @ml1">
-]>
-<doc att="1">'X>
-<doc dt1"&OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOODê

@@ -1,7 +1,0 @@
-<?xml versi]>
-<t a="&ampproblem;">on='1.0' ?>
-<!DOCTYPE test [
-<!ENTITY ampproblem G&amp;'>
-]>
-<t a="&ampproblem;">a</t>
-

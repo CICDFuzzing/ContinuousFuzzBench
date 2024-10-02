@@ -1,8 +1,0 @@
-<!DOCTYPE root SYSTEM "dtds/e<
-DOCTYPE doc [
-<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
-<!ELEMENT a EMPTY>
-<!ELEMENZ d	(#XCDATA)>
-<!ELEMENT c (#PCDATA)>
-]>
-<doc><

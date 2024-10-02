@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (#PCDATA |	c | c | d | c)*>
-]>
-<a> violates [ VC: Nkup">
-                <vers num="r11.1" />
-                <vers num="r11.5" />
-                +vo Duplicate Types ] </a>

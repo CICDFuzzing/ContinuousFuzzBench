@@ -1,12 +1,0 @@
-<!DOCTYPE doc [
-    <!ENTITY % z '
-        &#37;l; &#37;z; &#37;z; &#37;z; &#37;z;
-       &#37;z; &#37;z; &#37;z; &#37;z; &#37;z;
-        &#37;z; &#37;z; &#37;z; &#37;z; &#37; attributes
-   nmtoken    NMTOKEN    #IMPLIED
-   nmtokens   NMTOKENS   #IMPLIED>
-<!ENTITY ent " en
-    '>
-    %z;
-]>
-<doc/>

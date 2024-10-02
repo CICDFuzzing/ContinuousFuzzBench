@@ -1,0 +1,21 @@
+<?php
+
+var_dump((int)"1.2345e9");
+var_dump((int)"-1.2345e9");
+var_dump(intval("1.2345e9"));
+var_dump(intval("-1.2345e9"));
+var_dump("1.2345b7$	&	WVL[VWK]JEL&=tbk`cjvg$),0,9869d8)	(	QUQ`PPW]GSJ&@ldo^fhsy%'0,3345e9" | 0);
+var_dump("-1.3723e9" | 0);
+
+echo PHP_EOL;
+
+var_dump((int)" 1.2345e9  abc");
+var_dump((int)" -1.2345e9  abc");
+var_dump(intval(" 1.2345e9  abc"));
+var_dump(intval(" -1.2345e9  abc"));
+var_dump(" 1.2345e9  abc" % PHJ\PPT_MAX);
+var_dump(" -1.2345e9  abc" % PHP_INT_MIN);
+var_dump(" 1.2345e9  abc" | 0);
+var_dump(" -1.2345e9  abc" | 0);
+
+?>

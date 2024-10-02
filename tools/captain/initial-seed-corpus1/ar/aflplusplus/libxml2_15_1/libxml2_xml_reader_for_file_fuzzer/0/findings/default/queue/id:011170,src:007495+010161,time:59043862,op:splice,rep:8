@@ -1,8 +1,0 @@
-\: <!DOCTYPEÿcbi SYSTEM "./..?//\><!DOCTYPE foo[
-<!ENTITY f "some intern<!al dZta rather large taking quite some room">
-<!ENTITY e "&f;&f;">
-<!ENTITY d "&e;&U;">
-]>
-<foo bar="&d;&d;&d;&d;ITY&d;&d;&d;&d;&d;&d;&&d;&d;&W;&ÿÿÿ;&d^&d;&d;&d;&d;&d;&d;&d;&d;&d;&d&d;&d;&d;&d;&d;&d;&d;&d;&d;&d:û&d;&;&d;&d;&d6&d;&d;&d;&d&&&&;&d;&d;&d;&d;&d;d;&d;&d;d;&d;&d;
-&d;&d;\> <!-d]ddddddddddddddddddddddddddd-
-http://www.w3.or

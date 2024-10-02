@@ -1,5 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (a , b?  , b? , c+)?>
-<!ELEMENT c (#PCDATA)>
-]>
-<doc><a/><b>lMLks c</b></doc>

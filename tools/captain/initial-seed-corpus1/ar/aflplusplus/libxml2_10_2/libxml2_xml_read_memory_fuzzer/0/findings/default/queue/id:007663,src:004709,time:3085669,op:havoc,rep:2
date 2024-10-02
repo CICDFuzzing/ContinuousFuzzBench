@@ -1,8 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc
-     defatt  (0|1)   "0"
-  			iluns:tst CDATA #FIXED "htp://example.org"
-     tst:att (0|1)   "1">
-]>
-<doc a t="1"/>

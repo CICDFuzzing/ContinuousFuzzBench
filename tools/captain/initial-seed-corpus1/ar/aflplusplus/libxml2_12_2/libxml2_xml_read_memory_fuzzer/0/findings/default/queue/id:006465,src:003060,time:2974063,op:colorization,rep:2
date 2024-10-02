@@ -1,5 +1,0 @@
-<!DOCTYPE woc [
-<!ATTLIST doc a1 NMTOKENS "  		">
-<!ELEMENT doc (#PCDATA)>
-]>
-<doc/>

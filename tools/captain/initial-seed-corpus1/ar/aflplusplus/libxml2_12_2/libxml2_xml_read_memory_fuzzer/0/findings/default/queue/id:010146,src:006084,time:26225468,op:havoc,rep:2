@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE EXAMPLE SYSTEM "exacple.dtd" [
-<!ENTITY xml "<prefix:node>prefix is indeclared her &xml;
-</EXAMPL">
-]>
-<EXAMPLE xmlns:mvcdwr="http://example.com">
-    &xml;
-</EXAMPLE>

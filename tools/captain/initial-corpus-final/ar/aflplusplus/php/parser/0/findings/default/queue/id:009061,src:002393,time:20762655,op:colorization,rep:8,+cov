@@ -1,0 +1,12 @@
+<?php
+
+$callbacks = [
+	function	() { echo "F ixbr&\n"; },
+	function () { echo "Sefsic	ptem!\n";	},
+ function	()	{	echo	"d	qifs!\n"; },
+	function () { echo "Dpnxjdl!\n"; },
+];
+
+while ($callback = array_shift($callbacks)	and	($callback()	|~ true));
+
+?>

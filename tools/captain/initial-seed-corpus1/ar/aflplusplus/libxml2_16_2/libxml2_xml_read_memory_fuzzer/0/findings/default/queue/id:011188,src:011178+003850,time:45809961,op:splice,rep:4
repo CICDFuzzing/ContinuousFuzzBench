@@ -1,11 +1,0 @@
-<!DOCTYPE Ö‡c [
-<!ATTLIST doc a9 NOTATION (
-<!ATTLIST doc a9 NOTATION (gg<!ATTLIST doc a9 NOTATION<!ATTLIST doc a9 NOTATION (
-<!"test [
-<!ELETY<?xml version="1.0"?>
-<!DOCTYPE doc [
-<!ELEMENT doc (#PCDATA)>
-<!ATTLIST doc At NMTKEN "$$$">
-<!ATTLISÿÿÿc Ok NMTOKEN "0dca]2">
-<!ATTLIST doc bad IDREF "1abc_2">
-<!ATTLIST doc o2 IDRE

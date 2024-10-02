@@ -1,8 +1,0 @@
-<EN >SOKNT<?xml version="1.0"?>
-<XPath xmlns:bar="http://exFmple.org/bar" xmlns:baz="http://example.org%baz" xmlns:foo="h://example.org%bazfoo" xml:lang="en-ie">
-    (//>SOKNT<?xml version="1.0"?>
-<XPath xmlns:bar="http://exFmple.org/bar" xmlns:baz="http://example.org%baz" xmlns:foo=". | ="http://exFmple.org/bar" xmlns:baz="http://example.org%baz" xmlns:foo="h://example.org%bazfoo" xml:lang="en-ie">
-    (//>SOK//@* | //namespace::*) 
-    [ 
-       <!DOCTYPE doc [
-<!ATTLIST e2 xml:

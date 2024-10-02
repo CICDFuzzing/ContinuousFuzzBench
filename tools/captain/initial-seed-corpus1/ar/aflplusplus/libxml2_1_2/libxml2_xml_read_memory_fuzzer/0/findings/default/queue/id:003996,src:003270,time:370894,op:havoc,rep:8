@@ -1,14 +1,0 @@
-<p tst="a&am`;b" tst2="a&b" tst3="a & b">
-a&amp;b
-a&ba &<?xml version="1.0" encoding="ISO-8859-1"?>
-<foo
-	xmlns="http:/O" 
-	xmlns:foo="http://FOO" 
-	xmlns:bar="http://BAt" 	
-	xmlns:xsi="http://www.w3.orm/2001/XML!!!!!!!!!Schema-ia&amp;b
-a&b
-a &<?xmnstance" 
-	xsi:ation="http://FOO anyAttr-processContents1_0.xsd">
-	<elem.lax.A foo:barÿ1."PL">
-	<elem.lax.B foo:barA_2="o"/>
-	<eQem.s

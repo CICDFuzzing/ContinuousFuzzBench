@@ -1,7 +1,0 @@
-<x xmlns:xinclude="http://www.w3.org/2003/XInclude">
-   <!-- Simple test of including a set of nodes from an XML document -->
-   <xinclude:include h<!--
-http://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-prop-3
-
-Check that implementations of [XML-C14N1.1] properly build the xml:bas^ 
-if one of intermeiate the levels1) are 

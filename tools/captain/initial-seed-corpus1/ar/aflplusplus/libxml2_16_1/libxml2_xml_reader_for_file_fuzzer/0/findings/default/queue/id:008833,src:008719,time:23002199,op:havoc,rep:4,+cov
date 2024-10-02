@@ -1,7 +1,0 @@
-?xslê<?xsl \
-<?xml version<?xml version-"1.0"?>
-<!DOCTYPE root [
-<!ENTITY foo>
-]>
-<root attribute="&foo;">Á  lê<?xsl \
-<?xml version <elemen

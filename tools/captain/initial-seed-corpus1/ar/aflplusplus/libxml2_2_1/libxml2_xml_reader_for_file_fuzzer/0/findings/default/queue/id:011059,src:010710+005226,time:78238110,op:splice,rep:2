@@ -1,9 +1,0 @@
-=>[\i<!DOCTYPE doc [
-<!ELEMENT doc ((a | b) , (c | d))+>
-<!ELEMENT a (#PCDATA)>
-<!ELEMENT b (#PCDATA)>
-<!ELEMENT c (#PCDATA)>
-<!ELEMENT d (#PCDATA)>
-]>
-<do\><b>This</b><c> is a va=>[\i
-<?Vml verszql<!0,

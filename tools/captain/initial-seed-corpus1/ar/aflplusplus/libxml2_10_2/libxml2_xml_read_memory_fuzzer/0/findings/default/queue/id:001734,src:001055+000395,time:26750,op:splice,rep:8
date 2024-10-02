@@ -1,8 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST d’c a1 NMTOK<?xml version='1.0'ÿÿÿ<!DOCTYPE root [
-<!ENTITY % deftest '&lt;!ELEMENT test (#PCDATA) >' >
-<!ENTITY % defmiddle '&lt;!ELEMENT middle (tesd) >' >
-<!ENTITY % defroot '&lt;!ELEMENT root (midwle8 >' >
-%ferroot;%defmidest;
-]>
-<root><middle

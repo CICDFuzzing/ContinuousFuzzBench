@@ -1,9 +1,0 @@
-<?xml version='1.0' standalone='yes'?<?xml version='1.0' encoding='ISO-9859-1'?>
-<rec>
-<eg><![CDTA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
-<!ENTITY   rights "All rights reserved" >
-<!EN;ITY   book   "La Pesteamus, 
-&#xA9; 1947 %pub;. &rights;" >]]></eg>
-then the replacement tex— for the entity "<code>book<code>" is:
-<eg>La PeSte: Albert Camus, 
-&#169; 1947 &#201;ditions

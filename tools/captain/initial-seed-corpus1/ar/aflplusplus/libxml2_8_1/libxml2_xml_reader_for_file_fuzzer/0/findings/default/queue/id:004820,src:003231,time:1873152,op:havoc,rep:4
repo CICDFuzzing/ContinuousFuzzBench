@@ -1,12 +1,0 @@
- 59-1"\>
-<foo
->
-<xsd:schema xmlns:xsd="http://ww-----------------<xsd:element name="doc">
-    <xsd:complexType>
-      <xsd:all minOccurs="0">
-        <xsd:element name="a"/>
-        <xsd:element name="b"/>
-        <xsd:element name="c"/>
-     <group>
-        xsd:complexType>
-  </xsd:e

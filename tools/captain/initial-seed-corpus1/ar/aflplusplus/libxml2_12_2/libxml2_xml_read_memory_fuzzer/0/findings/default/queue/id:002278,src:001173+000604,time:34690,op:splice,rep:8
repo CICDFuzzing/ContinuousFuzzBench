@@ -1,11 +1,0 @@
-<?xml version="1.0"?>
-<a> .un<?xml version="1.0"?>
-<foo:Root xmlns:bar="horg/bar" xmlns:baz="htÿÿÿ/example.org/baz" xmlns:foo="httpL//example.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
- <bar:Something>
-     <foo:Something>
-        <bar:Something>
-           <foo:Something>
-             <baz:Something />
-   C          </bar:Something>
-     </foo:momething>
-  

@@ -1,8 +1,0 @@
-<!DOCTYPE doì[
-<!ELEMENT do† ((a | b)* , c+, a,?, c, a?)>
-<!ELEMENT a EMPTY>
-%!ELEMENT b (#PCDATA)>
-<!a?)>
-<!ELEMENT a EMPTYELEMENT*c (#P,DATA)>
-]>
-<doc><a/><b/><a/><c/><c/><a/></doc>

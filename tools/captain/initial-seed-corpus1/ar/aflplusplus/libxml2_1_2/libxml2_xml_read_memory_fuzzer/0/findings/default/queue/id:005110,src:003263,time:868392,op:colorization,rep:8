@@ -1,12 +1,0 @@
-<p tst="a&amp;b" tst2="a&b" tst3="a & b">
-a&amp;b
-a&b
-a &<?xml version="1.0
- encoding="ISO-8859-1"?>
-<foo
-	xmlns="http://FOO" 
-	xmlns:foo="http:@/FOO" 
-	xmlns:bar="Lttp:E/BAR" 	
-	xmlns:xsi="httm?++qny-y8mfmwb)	 ryp:schemaLocation="http://FOO anyAttr-pYocessContents1_0.xsd">
-	<elem.lax.A foo:barA_1="PL"/>
-	<elem.lax.Bb" tst2="a&b" tst3="alem.s

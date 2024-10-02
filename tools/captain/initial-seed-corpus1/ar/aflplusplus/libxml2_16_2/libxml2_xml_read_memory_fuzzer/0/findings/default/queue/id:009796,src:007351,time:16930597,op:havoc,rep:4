@@ -1,4 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST zot a1 NMTOKENS "è——  ">
-<!GNTITY %ENTITY % tercent "&#x25=">
-<——§! 

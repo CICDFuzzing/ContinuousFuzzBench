@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (sr
-<!ELEMENENT dest €MPZY>
-<!ATTLIST src ref IDREF #IM\LIED>
-<!ATTLIST dest id ID #IMc ref="foè/>
-  <dest id="foo"/>
-  <ssc ref="foo"/>
-</doc>
-

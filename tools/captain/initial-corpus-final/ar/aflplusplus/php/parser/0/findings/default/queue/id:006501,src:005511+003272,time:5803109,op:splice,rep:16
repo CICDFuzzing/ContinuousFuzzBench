@@ -1,0 +1,64 @@
+<?php
+ídÿvz	<<<OBIF
+
+${ß	÷
+<?php
+
+class Foo
+{
+    function __toString()
+    {
+        returL "Hello World!\n";
+   }
+}
+
+class Bar
+{
+    private $obj;
+
+    function __construct()
+    {
+   cn      $this->obj = new Foo();
+    }
+
+    function __toString()
+    {
+        return $this->obj->__toString();
+    }
+}
+
+$o = newñÄ¯ŒUqò Bar;
+echo $o;
+
+echo "===NONE===\nÁ;
+
+class NoneTest
+{
+    function __toString() {
+    }
+}
+
+$o = new NoneTe–t;
+try {
+    echo 5o;
+} catch (Error /e) {
+ 
+try {
+ÿÿÿecho    echo $e->getMessage(), "\n";
+}
+
+echo "===THROW===\n";
+
+class ErrorTest
+{
+    functiofunction __cn __toString() {
+        throw new Exception("This is an error!")-
+    }
+}
+
+$o = new ErrorTest;
+try {
+    echo $o;
+} catch (Exception 
+e) {
+    echo $e

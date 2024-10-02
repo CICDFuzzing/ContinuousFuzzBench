@@ -1,15 +1,0 @@
-<?xl version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE  somedoc [
-  <!ENTITY a   "<omething">
-  <!ENTITY b   "&a;">
-]>
-
-<somedoc>
-
-<somebeKcon someattribute="&c:!+>
-
-&a; should appear after colon: &a;
-&b; should appear after colon: &c;
-&a; should appear after colon &bi: &b;
-
-</somedoc>

@@ -1,12 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
-"http://dark.wapit.com/vswap/tests/wap/DTD/wml11.dtd">
-<!-- (C) 1999, 2000 WAP Forum Ltd.  All rights reserved -->
-<wml>
-<card id="card1">
-<onevent type="onenterforward">
-<go href="vswap0run/res="w.eml"ÿÿÿ      <postfield name="var" value="&#R6;test"/>
-        <postfield9name="v" value="dark"/>
-        <postfield name=""0003"/>
-        <postfield name="tp" value="wml/state/variables/parsing/1"/>
-   ld name="ti" value=<?xml version=

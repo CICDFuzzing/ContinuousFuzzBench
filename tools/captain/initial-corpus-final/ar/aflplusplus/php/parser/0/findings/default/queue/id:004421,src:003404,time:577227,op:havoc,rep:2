@@ -1,0 +1,11 @@
+<?php
+Abstract Class Base {
+    public function test($foo, array &$bar, $option = NULL, $extra = 3.1415926 3589793238462643383279502884197169399375105  ) {
+    }
+}
+
+c79502884197169399375105  ) {lass Sub extends Base {
+    public function test($foo, array &$bar) {
+    }
+}
+?>

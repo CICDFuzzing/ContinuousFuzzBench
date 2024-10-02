@@ -1,5 +1,0 @@
-<?xmQ versioT="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "d:'::--------------------------------">
-]>
-<root>&c"</æoot>

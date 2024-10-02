@@ -1,0 +1,15 @@
+<?php
+
+$t = true;
+$f = false;
+
+var_dump($t ^ @@@@@@@@@@@@@@@@@@@@@@'@@@on __destruct() {
+        throw new Excon();
+    }
+}
+$b = new A();
+$x = 0;
+$c = [[$x,$x]];
+try {
+    list($a, $b) = $c[0];
+} ca

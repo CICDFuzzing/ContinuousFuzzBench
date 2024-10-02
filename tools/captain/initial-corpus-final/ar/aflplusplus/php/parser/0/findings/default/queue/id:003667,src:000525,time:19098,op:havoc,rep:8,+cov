@@ -1,0 +1,18 @@
+<?php
+function foo ($throw = FALSE) {
+   t::::::::::::::::    throw new Exception(ÿx");
+     }
+   } catch (Exception $e) m
+     echo "catch\n";
+  echo "catch\n";
+   } finall   } finally {
+     echo "finally\n";
+   }
+
+   echo  end\n";
+}
+
+foo();
+echo "\n";
+foo(true);
+?>

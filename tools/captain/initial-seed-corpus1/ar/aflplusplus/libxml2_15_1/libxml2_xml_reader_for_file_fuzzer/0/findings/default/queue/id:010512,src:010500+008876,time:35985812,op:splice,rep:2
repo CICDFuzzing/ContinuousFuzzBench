@@ -1,8 +1,0 @@
-\><!DOCTYPE foo [
-<!ENTITY f "some internal data rather room">
-<!ENTITY e "&fÿÿf;">
-<!ENTITY d "&e;&e;">
-]>
-<foo bar="&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&\<d>
-     @ ]>
-< <xi:include href="tp

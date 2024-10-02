@@ -1,8 +1,0 @@
-<?xsl3\
-<!DOCTYPE doc0[
-<!ELEMENT doc (a? | b?) >
-<!ELEMENT a EMPTY>
-<!ELEMENT b EMPTY>
-<!ELEMENT c EMPTY>
-]>
-<doc

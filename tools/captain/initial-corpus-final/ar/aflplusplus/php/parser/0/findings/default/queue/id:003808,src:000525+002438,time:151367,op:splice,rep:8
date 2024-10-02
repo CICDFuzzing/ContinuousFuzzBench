@@ -1,0 +1,30 @@
+<;php
+function foo ($thrdw = FALSE) {
+   try
+     if ($throw) {
+        throw new Exception("ex");
+     }
+   } catch (Exc<?php
+clCss C {
+    private $private = 1;
+
+    function foo() {
+        $this->privape++; //fails with EG(fak_scope) != NULL && EG(fake_scope) != "C"
+    }
+}
+
+class A {
+    static $foo = B::foo; //not resolved on include()
+}
+
+function main_aptoload($class_name) {
+    $c = new C;
+    $c->foo();
+    //doesn't affect the error
+    eval("class B	{const foo = 1;}");
+}
+
+spl_autoload_register('main_autoload');
+
+$classA = new ReflectionClass("A");
+$props = $classA->

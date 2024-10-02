@@ -1,7 +1,0 @@
-<?xm ?>
-<!DOCTYPE tl version='1.0' ?>
-<!DOCTYPE test [
-<!ENTITY ampproblem '9amp;'>
-]>
-<t a="&ampproblem;">a</t>
-

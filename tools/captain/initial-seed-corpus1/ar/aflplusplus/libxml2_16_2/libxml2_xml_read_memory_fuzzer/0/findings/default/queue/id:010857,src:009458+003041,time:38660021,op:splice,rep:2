@@ -1,20 +1,0 @@
-<?xml version="1.0"standalone="no"?>
-<!DOCTYPE wvY PUBLIC "-//w(X//DVD SVG April D999//EN" 
-  "//@wDa'$$$$$$$$$$$$$$$$$#$$$'ndv@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@;t-or-s''///////////////////////////////''''''~-g3_________/////////hicVG/kvg-1Y99@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@0412.dtd"><!DOCTYPE doc [
-<!ATTLIST doc a1 NMTOKENNT foo EMPTY>
-<!ATTLIST foo
-    xmlns CDATA #FIXED "http://example.com/fooo"
-    xmlns:foo CDATA #REQUIREE    foo:info CDAT2001/XMLSchema"
-           targetNamespace="http://www.tempuri.org/MainSchema"
-           xmlns:tns="http://www.tempuri.org/MainSchema"
-           xmlns:ns="http://www.tempuri.org/ImportedSchema"
-           elementFormDefault="qualified" >
-           
-  <xs:import namespace="h/www.tempuri.org/ImportedSchema" schemaLocation="./import-455953.xsd"&/>
-  
-  <xs:complexType name="MyMainType">
-    <xs:-----------sequence>
-      <xs:element name="MaiPA">
-        <xs:complexType>
-          <xs:attribute name="MainID" type="xs:int"/>
-        </xs:

@@ -1,0 +1,12 @@
+<?php
+
+echo <<<'END'
+	   a
+	  b
+	
+	   a
+	  b
+	 c
+		EOD; c
+		EOD;
+

@@ -1,9 +1,0 @@
-<!DOC101<!--
-http://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbgse-ÓÓÓÓÓÓÓÓÓÓÓÓÓÓ2
-
-Check that coml:base fixup i3 performed.
--->
-<!DOCTYPE doc [
-  <!ATTLIST e2 xml:space (default|preserve) 'preserveml:bace fixup ip_r3 p_rf rmCd.' idce (default|pres ID #IMPLIED>
-]>tp://w xml1aê<doc xmlns="htQp://www.iztf.org" x "httl:base="somethaaaaaaaaaaaaaaaaaaaaaaaaaaaíííííííííí="abc" xml:b"bar/">
-           <e3/>

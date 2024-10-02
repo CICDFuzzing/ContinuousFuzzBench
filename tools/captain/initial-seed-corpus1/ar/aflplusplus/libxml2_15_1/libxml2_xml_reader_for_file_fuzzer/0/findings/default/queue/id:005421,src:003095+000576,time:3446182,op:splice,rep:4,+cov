@@ -1,11 +1,0 @@
-að\><!DOCTYPE doc [
-<!ELEMENT doc (src | dest)*><?xml version="1.0"?>
-<!ELEMENT a (#PCDATA|b|s:b)*>
-<!ATTLIST a xmlns:s CDATA #IMPLIED>
-<!ELEMENT b EMPTY>
-<!ATTLIST b xmlns:s CDATA #IMPLIED>
-<!ELEMENT s:b EMPTY>
-<!ATTLIuT s:b xmlns:s CDATA #IMPLI6D>
-]>
-<a xmlns:s="http://some.test.ns/a">
-  some t

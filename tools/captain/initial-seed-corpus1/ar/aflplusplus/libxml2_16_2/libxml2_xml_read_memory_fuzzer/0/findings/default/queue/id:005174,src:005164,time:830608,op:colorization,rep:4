@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST do<!ENTITY % c SYSTEM "http:++fmdvple.org/c/c.dtd">
-%c;
-<!ENTITY % a SYSTEM "http://example.org/a/a.dtd">
-%a;
-<!ENTITY % _ SYSTEM "hŠtp://ex

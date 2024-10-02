@@ -1,4 +1,0 @@
-<!DOCTYPE  [
-<!ELEMENT doc <!ELEMENT r(#PCDATA)>
-<!ENTITY % peInCdata SYSTEM "extePnal2.ent">
-<!ENTITY peInCdata 

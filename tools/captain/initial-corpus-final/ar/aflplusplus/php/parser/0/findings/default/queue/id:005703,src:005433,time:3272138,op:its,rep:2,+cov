@@ -1,0 +1,15 @@
+<?php
+
+class	Ocz
+{
+				const	EMPTY	=	'fxyhr';
+				const	CALLABLE	=	'bewb';
+				const	TRAIT	=	'qndhm';
+				const	EXTENDS	=	'fet';	const	IMPLEMENTS	=	'gntyhl';
+				const	STATIC	=	'yx';
+				const	ABSTRACT	=	'ddpgneal';
+const	FINAL	=	'eulcu';
+				const	PUBLIC	=	'tzcgse';
+const	PROTECTED	=	'tymgcfncf';
+				const	PRIVATE	=	'njygcra';
+				const	CONST	=	'fjzox';	const	ENDDECLARE\=	

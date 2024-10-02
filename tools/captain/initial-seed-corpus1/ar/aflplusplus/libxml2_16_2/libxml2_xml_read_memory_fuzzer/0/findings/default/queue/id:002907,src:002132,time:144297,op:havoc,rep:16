@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<!DOCTYPE foo [
-<ZELEMENT foo EMPTY>
-<!ATTLIST goo
-    xmlns CDATA #FIXED "hplecom/fooo"
-   zxmlns:foo CD@TA #REQUIRED
-    foo:info CDADA #IMPLIED>
-G>
-<foo xmmhns:foo="htp:+/eample.cÿÿÿo" fRo:info="toto"/>

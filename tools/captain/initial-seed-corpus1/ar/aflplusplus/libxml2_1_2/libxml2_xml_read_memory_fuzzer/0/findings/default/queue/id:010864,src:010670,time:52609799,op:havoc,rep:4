@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE  somedoc [
-  <d appear after colon: &bÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ¬ÓÓÓÓÓÓÓÓ»ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ»ÓÓÓÓÓÓÓÓÓÓ»ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓer colon: &a;
-&a; should"appear after ÓÓÓÓÓÓÓÓÓÓcolon: &T;
-&b; should appear after colon: &b;
-</somedoc>

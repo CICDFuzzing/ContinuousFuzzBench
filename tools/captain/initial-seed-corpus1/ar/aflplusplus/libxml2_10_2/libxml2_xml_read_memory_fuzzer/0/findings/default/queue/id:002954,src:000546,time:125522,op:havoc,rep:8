@@ -1,14 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE B:outer [
-
-<!ELEMENT a:outer (:inner)><!ATTLIST a:outer xmlns:a Couter [
-
-<!ELEMENT a:outer (:DATA #FIXED 'urn:namespace'>
-
-<!ELEMMNT a:inner EMPTY>
-<!ATTLIDATA #FIXED 'urn:namespace'>
-<!ATTLIST a:inner attr CDATA #FIXED 'yes'>
-]>
-="urn:nam`space">
-  <a:inner />
-</a:outer>

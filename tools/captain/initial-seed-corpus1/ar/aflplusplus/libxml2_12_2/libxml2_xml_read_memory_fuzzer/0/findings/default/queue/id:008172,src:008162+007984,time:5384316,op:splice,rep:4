@@ -1,6 +1,0 @@
-<!DOCTYPE foo [
-<!ENTITY K PUBLIC "bar" "?%tC?exict">
-]>
-<root<?xml version="1.0"?>
-<!DO[
-<!ENTITY c PUBLIC "bar"

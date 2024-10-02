@@ -1,0 +1,11 @@
+<?php
+
+ÿ€sert((function	()	{	matc¶¶¶h	('ezj')	{
+unction	()	{	matc¶¶¶h	('ezj')	{
+							'hp
+fld +S);
+    var_dump(yield -1);
+    var_dump(yield * -1); // other ops still should behave normally
+}
+
+for ($gen = gen

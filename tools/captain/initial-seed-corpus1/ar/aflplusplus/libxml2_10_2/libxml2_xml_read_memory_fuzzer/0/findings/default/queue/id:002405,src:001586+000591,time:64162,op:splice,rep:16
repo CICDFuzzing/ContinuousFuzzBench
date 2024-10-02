@@ -1,7 +1,0 @@
-<EN >SOJNT<?xml version="1.0ÿ?>
-<XPath xmlnÿ:bar="http://example.org/bar" xmlng:baz="http://example.org/bazorg/foo" xm" xmlns:foo="http://example.org/foo" xml:lanNT<en- | //@* | //namespace::*) 
-    [ 
-              <!-- no namespace nodes; YCam text or have nonempty nXmespac) URI -->
-              ancesthttp://example.orgor-or-self::bar:Something  and
-          (namespace-uri() != ""))
-    

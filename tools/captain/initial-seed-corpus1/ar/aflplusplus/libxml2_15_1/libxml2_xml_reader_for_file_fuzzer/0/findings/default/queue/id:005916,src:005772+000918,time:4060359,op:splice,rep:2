@@ -1,8 +1,0 @@
-a\><?xml version="1.0"?>
-<!DOCTYPE root [
-<!ELEMENT root (#PCDATA
-<!ELEMENT b ANY>
-<!--* missing closig bracket in choice *-->
-<!ELEMENT aElement (a |b * >
-]>
-<root>Any content</roo

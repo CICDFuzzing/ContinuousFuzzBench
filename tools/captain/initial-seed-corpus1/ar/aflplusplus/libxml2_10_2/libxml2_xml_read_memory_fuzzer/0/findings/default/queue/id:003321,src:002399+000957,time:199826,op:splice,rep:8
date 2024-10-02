@@ -1,16 +1,0 @@
-<EN >SOKNT<?xml version="1.0"?>
-<:Path xmlns:bar="http://example.org/bar*l>
-	  <element name="ethernorg/baz" xmlns:foo="htbar="http://example.>
-<element xmlns="http://relaxng.org/ns/structure/1.0" name=   <group>
-	<attri"device">
-    <choe name="link">
-	  <value>ethernet</vaional>
-	  <element name="ethernet-element">
-	    <text/>
-	  </ele<<<<<<<<<<<<<<<<<>
-      </group>
-      <group>
-	<attribute`name="link">
-	  <vavalue>
-	</attribute>
-	<op

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-<!DOCTYPE rnode [
-<!ELEMENT rnode (f)>
-                                                                                
-<!ELMENT f (#PCDATA)>
-<!ATTLIST f
-   att1 CDATA #FIXED 'J'>
-                                                       <?xml version="1.0

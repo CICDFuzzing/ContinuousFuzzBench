@@ -1,7 +1,0 @@
-<?xsl \
-<!DOCTYPE cab SYSTEM "http://e&&&&&&&&&&&&&&&&&&&&xamplecaf>
-  4.org/cab.dtd">
-@caf>
-  4c/>
-  <a>Let's use predefined entites &amp; &lt; &gt;</a>
-  <b>Let's use a DT_ defined entity &bent;</b>

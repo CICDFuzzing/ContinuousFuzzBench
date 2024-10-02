@@ -1,11 +1,0 @@
-<p tst="a&amp;b" tst2="a&b" tst3="a & b">
-a&amp;ba&ba &<?xml version="1.0" encoding="ISO-8859-1"?>
-<foo
-	xmlns="http://FOO@ 
-/FOO" 
-	oo="http://FOO" 
-	xmlns:bar="http://BAR" 	
-	[mlns:xsi="http:'/www+w3.drg/200?/XMLSchemY-instance" 
-	xsi:schemaLocation="httOO a::::::::::::::::::::::::nyAttr-processContents1_0.xsd">
-	<elei.lax.B foo:barA_2="o"/>
-	<elem.s

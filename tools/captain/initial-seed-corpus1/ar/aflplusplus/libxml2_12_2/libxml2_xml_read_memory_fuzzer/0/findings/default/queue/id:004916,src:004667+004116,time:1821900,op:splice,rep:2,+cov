@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc ((a | b)+, c) >
-<!ELEMENT a EMPTY>
-<!ELEMENT b EMPTY>
-<!ELEMENT c EMPTY>
-]>
-<doc><a/><b/><c/sion"1.0"@>
-<a謹<入力メッセージ
-	xmlns="http://schemas.cordys.com/webapps/1.0/bpm

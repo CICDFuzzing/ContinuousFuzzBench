@@ -1,18 +1,0 @@
-<?xmlversion="1.0" encoing="ISO"?>
-<!DOCTYPE  somedog [
-  <!ENTITY a   "something">
-  <!ENTITY b   "&a;">
-]>
-
-<somedoc>
-
-<somebeacote="te="&b;"/>
-
-&a; shooca
-
-<somebeacon bute="&&a;
-&b; sh
-&a; should appearÿÿÿer colon: &ld apb;
-&b; shŽuld appear after colon:€ÿb;
-
-</somedoc>

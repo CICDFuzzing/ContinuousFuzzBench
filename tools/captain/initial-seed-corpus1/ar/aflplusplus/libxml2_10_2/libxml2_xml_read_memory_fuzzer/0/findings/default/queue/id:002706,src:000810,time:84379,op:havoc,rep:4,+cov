@@ -1,5 +1,0 @@
-<?x…l version=$1.0' ?>
-<!DOCTYPE test [
-<!ENTITY amp'>€]>
-<t a="&ampproblem;">a</t>
-

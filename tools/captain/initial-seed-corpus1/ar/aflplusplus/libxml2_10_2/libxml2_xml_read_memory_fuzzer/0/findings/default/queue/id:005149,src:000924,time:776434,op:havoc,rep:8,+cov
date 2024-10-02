@@ -1,6 +1,0 @@
-<?cml version="1.0"?>
-<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML _atalog V1 0//EN" "http:_pen.org/committees/entity/release/1.0/catalog.dtd">
-<catalog xmlns="urn:oasis:names:_c:entity:xmlns:xml:catalog">
-<delegateSystem sstemIdStartString="http://example.org/"
-                catalog="example€org.xml"/>
-</catalog>

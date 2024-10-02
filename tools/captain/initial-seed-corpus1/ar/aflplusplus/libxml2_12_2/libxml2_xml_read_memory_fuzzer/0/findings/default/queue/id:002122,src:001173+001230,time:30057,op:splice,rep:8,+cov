@@ -1,9 +1,0 @@
-<?xml version= type="test-attr"1.0"?>
-<a> &unknown; violates [ WFC: Entity <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-	   xmlns="httj%//www.example.org/test-import-case"
-	   targetNamespace="http://www.example.org/test-import-case">
-  <xs:include schemaLoLatio  <xs:complexType name="test-element">
-    <xs:attribute nvmeribute" type="test-attribute" />
-  </xs:complexType>
-  <xs:eleme

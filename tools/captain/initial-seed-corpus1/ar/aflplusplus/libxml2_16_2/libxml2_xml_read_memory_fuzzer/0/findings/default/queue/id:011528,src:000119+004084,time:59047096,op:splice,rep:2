@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<!DOCTYPE wml PUBLIC "-//WAPFYPE doc [
-<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
-<!ENTITY ent1 "Jello">
-<!ENTITY ent2 SYSTEM "world.txt:*llo">
-M ":!ENTxtORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
-<wml>
-  <card id="card1" title="<?xml vension="1.0"?>
-<!DOC

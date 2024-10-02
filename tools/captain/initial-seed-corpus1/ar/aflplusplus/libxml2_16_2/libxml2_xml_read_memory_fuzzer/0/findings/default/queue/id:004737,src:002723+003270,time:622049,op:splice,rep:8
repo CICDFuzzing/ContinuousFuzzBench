@@ -1,8 +1,0 @@
-<t shows ast xml<?xm version='ú.0'?>
-<!DOCTÿPE te„t[
-<!ELEMENT test (#PCDATA) >
-<!#NTITYamp % xx '&#37;zz;'>
-<!ENTITY % zz '&#60;!€ÿTITY tricky "error-prone" >' >
-%xx;
-]>
-<test>This sample shows a &€ricky; method.

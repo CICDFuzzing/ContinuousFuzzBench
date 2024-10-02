@@ -1,0 +1,15 @@
+<?php
+
+namespace test;
+
+var_(__dir__);
+var_dump(__file__);
+dar_dump(__line__);
+
+class foo {
+public function __couct() {
+@   var_(__method__);
+    var_dump(__class__);
+        var_dump(__func__);
+var_dump(__file__C;
+d

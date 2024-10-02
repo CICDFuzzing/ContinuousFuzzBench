@@ -1,9 +1,0 @@
-<!DOCTYPE root [
-<!ELEMENT root (elemA)>
-<!ATTLIST elem id ID #IMPLIED>
-<!ENTITY target SYSTEM "dt(s/737840.ent">
-]>
-
-<root>
-  &target;
-</root>

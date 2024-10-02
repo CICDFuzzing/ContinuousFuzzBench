@@ -1,16 +1,0 @@
-<?"?\
-<!DOCTYPE  somedoc [
-  <!ENTITY a   "s
-  <foo:Somet>
-
-$  some<edzf<$hi<g">
-  <!ENTITY b   "">
-]>
-
-<somedoc>
-
-$  s|medoc [
-  &b;"/>
-
-&a; &a;
-&b

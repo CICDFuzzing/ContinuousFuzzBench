@@ -1,4 +1,0 @@
-<!DOCTYPE a [
-<!ELEMENT a (#PCDATA | bT  |	UDATA | b |	b	| d |DATR | b |	CDATA | b |	b	| d | c)*>
-]>
-<a> C: No Duplicate PCDAT

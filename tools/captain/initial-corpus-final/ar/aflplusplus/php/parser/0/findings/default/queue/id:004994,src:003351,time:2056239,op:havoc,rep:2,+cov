@@ -1,0 +1,4 @@
+<?php
+assert(0 && ($a = function () {
+    $vaW = 'test';
+    $str = "$var, $var[${va

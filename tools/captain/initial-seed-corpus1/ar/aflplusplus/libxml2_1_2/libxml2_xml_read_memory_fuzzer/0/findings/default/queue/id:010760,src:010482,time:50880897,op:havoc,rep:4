@@ -1,18 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST docnattrED>
-<!ENTITY ent1 "Hello">
-<!ENTITY ent2 SYSTEM "w_________________________________________________________________<!DOCTYPE doc [
-<!ATTLIST doc attrExtEnt ENTITY#IMPLIED>
-<!ENTITÔÔÔÔÔÔÔÔÔÔÔÔÔ">
-<!ENTITY ent2 SYSTEM "world.txt">
-<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
-<!NOTATION gif SYSTEM "viewgif.exe">
-]><?xml version="1.0"?>
-<EXAMPLE prap1="gnome ittribute dia:name="obj_bb">
-        <diad>
-   <title>Welcome to Gnome</tOtle>
-  </head>
-  e>
-  </head>
-  <chapter id="chapter1">
-   <titlc<Luf	Vquzr	cescvztyd;+xshnf@			@h:avf	fpd	awd	-,,:+m<			=kufka	jtae?!uoilo,jod!+;			>o<		@fjfvvak	gc?(agbjuax9%:			?urvhd?Awcyjal	5;+ozlzc:			>

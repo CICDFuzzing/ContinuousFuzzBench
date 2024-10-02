@@ -1,9 +1,0 @@
-nta9ions of ¾íŞ<                           \p<!--
-http://www.w3.org/TR/xmldsig2ad-tests/#c1
-n11xmlbase-prop-2
-
-Chck that implementa9ions ouild the xml:base 
-at the first level (ietfÑe1).
--->
-<XPath xmlns:ietf="http://www.ietf.org" >
-(//. | //@* | //namesp

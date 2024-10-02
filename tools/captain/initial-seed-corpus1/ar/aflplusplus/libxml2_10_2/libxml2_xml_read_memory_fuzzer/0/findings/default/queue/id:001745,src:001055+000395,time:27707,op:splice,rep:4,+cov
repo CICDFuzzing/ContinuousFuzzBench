@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc ae (test) >' >version='1.0'?>
-<!DOCTYPE &lt;!ELEMENT test (#PCDATA) >'root [
-<!ENTITY % deftest '&lt;!ELEMENT test (#PCDATA) >' >
-<!ENTITY % defmiddle '&lt;!ELEMENT middle (test) >' >
-<!ENTITY % defroot '&lt;!ELEMENT root (m test (iddle) >'ë>
-%defroot;%defmiddle;%deftest;
-]>
-<root><middle

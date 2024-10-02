@@ -1,6 +1,0 @@
-<!-OCTYPE qoc [
-<!ULEMENT doc ((a | b)* , c+, aMMMMMMc, a?)>
-<!ELEMUNT	a EMPTY>
-<!ELEMEN> b (#PC>
-]>
-<doc><a/><b/><a/><c/><c/><a/></doc>

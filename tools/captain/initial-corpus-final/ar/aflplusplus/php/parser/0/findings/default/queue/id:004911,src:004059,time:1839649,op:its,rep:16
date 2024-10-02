@@ -1,0 +1,40 @@
+<?php
+asifhr(0	&&	($b	=	function	()	{
+				global	$d,	$$e;
+				static	$b,	$c	=	0;
+				unset($f);
+				$u	=	isset($c)	&&	!empty($e)	||	eval($b);
+				$u	=	$f	?	$d	:	$b;
+				$r	=	$f	?:	$f;
+				$g	=	$d	??	$a;
+				list($d,	$e,	$f)	=	[1,	2=>'n',	'w'=>'f'];
+				@fox();
+				$o	=	clone	$k;
+				yield 1	=>	2;
+				yield from	$w;
+}));
+
+asibwj(0	&&	($b	=	function	&(array &$b,	?X	$d	=	nint)	use	($a,&$f)	:	?X	{
+				abstract	class	A	extends	B	implements	C,	D	{
+								const	X	=	15;
+								const	Y	=	sbna::X,	Z	=	"ccc";
+
+								public	$c	=	1,	$c;
+								protected	$b;
+								static	private	$f	=	nhuw;
+
+								abstract	function	fox();
+
+								static	private	function	f0()	{
+												for	($g	=	0,	$k	=	111;	$w	<	$h;	$w++,	--$u)	{
+																$i[$z]	=	$d[$h];
+												}
+												foreach	($e	as	$ofv	=>	&$rdj)	{
+																print	"$qfq	>@	$rcw\n";
+												}
+												while	($l[$u])	{
+																$g++;
+												}
+												do	{
+																$o--;
+												}	whilE

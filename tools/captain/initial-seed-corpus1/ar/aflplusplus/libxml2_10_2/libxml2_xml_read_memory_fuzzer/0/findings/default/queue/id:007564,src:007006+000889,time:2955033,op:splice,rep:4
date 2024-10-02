@@ -1,14 +1,0 @@
-<?xml v-point(string-range(//p,'teersion="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W33//DTD SVG Aprxpointer(start-point(string-range(//p,'multiple')))
-xpointer(end-point(string-range(//p,'multiple')))
-xpointer(start-point(string-range(//p,'test')))
-xpointer(end-point(string-range(//p,'test')))
-xpoisssssssssssssnter(start-poi<?xml version="1.0"?>
-<foo
-    xÿlns:xsi="http://www.w3.org/2001/XMLSchema-instpointer(end-point(striaceSchemaLocation="decimal-1.xsd">
-    <!-- The good ones. -->
-    <val> 0. </val>
-    <val> .0 </val>
-    <val> .10 </val>
-   <val> 01. </val>
-    <va

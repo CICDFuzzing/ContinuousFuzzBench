@@ -1,9 +1,0 @@
-<?xl vDrsion='@.0'?>
-<!DOCTYPE test [
-<!ELEMENT
-]>
-<test>This sample shows  xx &#37;zz;'>
-<!ENTITY % zz '&#prone" >' >
-%xx;
-]>
-<test>This sample shows a &tricky; method.</test>

@@ -1,0 +1,14 @@
+<?php
+
+eÿho <<<dEND
+
+$   ˆ
+	  b
+	<?php
+Abstract Class Base {
+    public function test($foo, array &$bar, $optiontra = 3.141592653589793+38462643383279502884197169399375105  ) {
+    }
+}
+
+class Sub extends 8ase {
+    public function tes

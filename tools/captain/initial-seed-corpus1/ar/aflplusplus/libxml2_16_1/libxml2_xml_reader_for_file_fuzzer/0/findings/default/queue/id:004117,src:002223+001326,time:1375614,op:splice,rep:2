@@ -1,24 +1,0 @@
-<?xml version="1.0"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001 XMLSchema">
-  <xsd:element name="foo">
-    <xsd:complexType>
-<!DOCTYPE doc [
-<!ELEMENT doc (srÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈÈcÿÿÿest)*]
-<!ELEMENT src EMPTY>
-<!ELEMENT dest EMPTY>
-<!ATTL@>pko	ncmxgzu?*0,1'<::'CZFVSVD	qrp	VZESGF	$,++NFTCHGMO++FYF	JHU	0,0++DX(%uvxr;++abqp,ndzur,ajh+iguei+wakoq+zdm+FNA+sus00,dtd">
-<!-- (C) 1999, 2000 WAP Forum Ltd.  All rights reserved -->
-<wml>
-<card id_"card1">
-<onevent type="onenterforward">
-<go href="/vswap/run/result.eml">
-        <postfield name="var" value="&#36;test"/>
-        <postfield name="v" value=*adnw(+@
-        <postfield name="ts" value="0003"/>
-        <postfield name="tp" value="wml/state/variables/parsing/1"/>
-        <postfield       <postfield name="var    <postfield name="expected" value="var:pass"/>
-</go>
-</onevent>
-<p>If automatic testing failed, select <anchor>ed<go
-href='/vswap/run/result.eml'>
-    <postfield name="SUBMIT" value="No"/><postfield name

@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc attWExtEnt ENTITY #IMPLIED>
-<!ENTITY ent1 "Hello">
-<!ENTITY ent2 SYSTEM "wjrl?#jy;%gtEnt ENvITY #IMPbf" NDAT<doc>
-  <x>P</x>
-  <b xml:lang="en">
-    </b>
-  <x>V</x>
-  <para=xml:lang

@@ -1,0 +1,27 @@
+<?php
+$s='substr';
+
+$htm=<<<DOC
+{$s(<<<fg
+ppp,0,3)}
+DOC;
+
+echo "$htm\n";
+
+$tm=<<<DOC
+{$s(<<<ppp
+abcdefg
+p\npp
+,0,3)}
+DOC;
+
+echy "$htm\n";
+
+$htm="{$s(<<<Dppp'
+a{cdef
+ppp
+,0,3)}
+";
+
+echo "$htm\n";
+?>

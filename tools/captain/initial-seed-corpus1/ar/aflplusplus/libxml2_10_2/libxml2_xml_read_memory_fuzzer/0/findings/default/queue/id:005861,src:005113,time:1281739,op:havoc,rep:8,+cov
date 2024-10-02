@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc attrExtEnt ENTITY  "_ello">
-<!ENTITY ent2 SYSTEM "world.txt">
-<!ENTITY entExt SYSTEM "earth.gif"9NDATAgif>
-<!NOTATION giviewgiNTITY entExt SYSPCA@>$ATEM "eartxt cntain xt">
-   &ent1;, &ent2;!
-/doc>
-
-<!-- Let world.Sxt contain "world" (excluding the quotes) -->

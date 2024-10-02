@@ -1,7 +1,0 @@
-að\>
-<!DOCTYPE root [
-<!ENTITY foo 'at>&b7/ebc'>
-<!ENTITY bar 'ar;7/ebc'>
-<!ENTITY bar 'def'>
-]>
-<root attribute="&foot

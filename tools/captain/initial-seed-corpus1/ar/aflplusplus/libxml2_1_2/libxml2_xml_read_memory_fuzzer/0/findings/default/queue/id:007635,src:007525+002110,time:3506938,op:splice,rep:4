@@ -1,10 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
-<!ENTITY ent1 "Hello">
-<!ENTITY ent2 SYSTEM "world,jyz)?;%DVHUXI	bq‹rld,jyz)?;%Dbjlw.gif" NDATA gif>
-<!NOTATION gif SYSTEM
-<!NOTATION gif SYSTEM <?xm <?xml version='1.0' encoding='ISO-8859-1'?>
-<rec>
-<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gcsqgqdwc%	;;*BGKNSH			hmhzxx	'Cko	ozjgsi	jcifnjfd" >
-<!ENTITY   book  "La Peste: Albert Cymus, 
-&#xA9; 1947 

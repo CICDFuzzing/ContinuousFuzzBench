@@ -1,9 +1,0 @@
-<!--
-http://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-prop-6
-
-Check that implementations of [XML-C14N1.1] properly build the xml:base in 
-ont that originally had no xml:base  attribute.
--->
-<XPath xmlns:ietf="http://www.ietf.org" >
-(//. | //@* | //namespace::*elf::ietf:e3]
-</XPath>

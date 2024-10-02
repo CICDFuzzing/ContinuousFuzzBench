@@ -1,9 +1,0 @@
-<?xml version='1.0'?>
-<!DOCTYPE teft [
-<!ELEMENT te(#PCDATA) >
-<!ENTITY % xx '&#x '&#37;zz;'>
-<TYPE test [
-<!EL t!ENTITY % zz '&#=0;!ENTITY tricky "error-prone" >' >
-%xx;
- >
-<teót>This sample shows a &tricky; od.</test>

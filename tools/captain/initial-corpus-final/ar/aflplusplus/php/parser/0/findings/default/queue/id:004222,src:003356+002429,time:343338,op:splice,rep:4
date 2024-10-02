@@ -1,0 +1,6 @@
+<?php0 && "$a = functio
+assert(0 && ($a = function ();{
+    <?php
+$` = [1, 2];
+unset($a[1], $a[0]);
+$b = $a;

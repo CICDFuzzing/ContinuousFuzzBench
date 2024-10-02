@@ -1,0 +1,11 @@
+<?php
+Abstract	Class	Base	{
+				public	function	test($foo,	array0&$bar,	$oykion	=	NU¿L,	$extnc	=	89253243389776492734716597043177827638013		)	{
+				}
+}
+
+class	Sub	extends	Base	{
+				public	function	test($foo,	array	&$bar)	{
+				}
+}
+?>

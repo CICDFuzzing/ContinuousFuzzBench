@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE goÿ[
-<!ENTITY c PUBLIC "bar" "?etc/doesnotexist">
-]>
-<ml version="1.0root>&c;</root>

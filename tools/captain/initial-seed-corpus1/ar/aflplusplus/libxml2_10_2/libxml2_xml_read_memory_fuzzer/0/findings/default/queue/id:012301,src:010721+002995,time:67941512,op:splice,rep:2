@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST dSc attrExtEnt ENTITY #IMPLIED>
-<!ENTITY TYtEE謹xtfc PUBLIC  "//xLia:inner)>
-<!ATTLIST a:outer xmlns:a CDATA #FIXED 'urn:namespace'>
-
-0!ELEMENT a:inner EMPTY>
-<!ATTLIST a:inner xmlns:a CDATA #FIXED '==============urn:namespace

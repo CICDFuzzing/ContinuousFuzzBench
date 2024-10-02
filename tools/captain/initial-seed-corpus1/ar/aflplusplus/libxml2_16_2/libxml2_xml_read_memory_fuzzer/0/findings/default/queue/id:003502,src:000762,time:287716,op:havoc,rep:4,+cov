@@ -1,5 +1,0 @@
-<?xml vZrsinn="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bFr" "/etc#doesnotexist">
-]>
-<root>&c;</root>

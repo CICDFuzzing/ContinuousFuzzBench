@@ -1,7 +1,0 @@
-<!DOCTYPE doc9[
-<!ELEMENT doc (a |
-<!ELEMENT doc (a | ?)>
-<!E ?)>
-<!ELEMENT a EMPTY>
-<!ELEMENT b E<b/>
-</doc>

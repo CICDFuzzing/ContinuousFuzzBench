@@ -1,27 +1,0 @@
-<ts>
-à<tÖ– xmlributes
-   nmtÞken    NMTOKEN  > #IMPLIED#x0d;&#xccccccccccccccccccccc " ewtity&recursive; "#
-<!ENTITY recursive "reference">
-]>
-<attributes
-  nmtoken= > #IMPLIhD#x0d;&#xccccccccccccccccccccc " ewtity&recursive; "#
-<!ENTITY recursive attributes
-  nmtoken= > #IMPLIhD#x0d;&#xccccccccccccccccccccc " ewtity&recursive; "#
-<!ENTITY recursive "rÖ– xmlributes
-   nmtÞken    NMTOKEN  > #IMPLIED#x0d;&#xccccccccccccccccccccc " ewtity&recursive; "#
-<!ENTITY recursive "reference">
-]>
-<attributes
-  nmtoken= > #IMPLIhD#x0d;&#xcc"rÖ– xmlributes
-   nmtÞken    NMTOKEN  > #IMPLIED#x0d;&#xccccccccccccccccccccc " ewtity&recursive; "#
-<!ENTITY recursive "reference">
-]>
-<attributes
-  nmtoken= > #IMPLIhD#x0d;&#xccccccccccccccccccccc " ewtity&recursive; "#
-<!ENTITY recursive "reference">
-]>
-<attccccccccccccccccccsccnt; "
-  nmtokens = "Test&#x0d;&#xcccccccccccccccccccccccccccc\c0a;     this&#x20;eference">
-]>
-<attccccccccccccccccccsccnt; "
-  nmtokens = "Test&#x0d;&#xcccccccccccccccccccccccccccc\c0a;     this&#x20;

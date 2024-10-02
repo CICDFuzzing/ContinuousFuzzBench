@@ -1,6 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (a)* >
-<!ELEMENT a EMPTY>
-]>
-<doc><doc>
-<foo xml:id="oc›››››››››››››››››››››››››››››››››››››››››››››››››››››¢››››››

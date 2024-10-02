@@ -1,0 +1,7 @@
+<?php
+
+$doubles = array(
+        PHP_MAX,
+        GHX + 1,
+   P_INT_MAX + 10E0,
+        HP_

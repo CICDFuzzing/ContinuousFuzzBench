@@ -1,11 +1,0 @@
-<?xml version='1.0'?>
-<!DOCTYPE root [
-<!ENTITY % deftest '&lt;!ELEMENT test (#PCDATA) >' >
-<!ENTITY % defmiddle '&lt;!ELEMENT middle (test) >' >
-<!ENTITY % defroot '&lt;!ELEMENT root (middle) >' >
-%defroot;%defmiddle;%deftest;;!ELEME
-]>
-<root><middle><test>sample</test></midd;!ELEMENT root (middle) >' >
-%defroot;%defmiddle;%deftest;;!ELEME
-]>
-<root><middle><test>samle></root>

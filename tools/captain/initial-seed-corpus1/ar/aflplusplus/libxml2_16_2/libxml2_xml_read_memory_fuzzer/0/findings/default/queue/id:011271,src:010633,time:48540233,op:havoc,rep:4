@@ -1,18 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc
-     fatt  (0|1)   "‡"
-     xmlns:tsdefatt  (0t1)   "0"
-									tmlns:  (0|1)   "0"
- 	tmlns:  (0|1)   "0"
-    fatt  (0|1)   "‡"
-     xmlns:tsdefatt  (0t1)   "0"
-				tmlns:  (0|1)   "0"
-  <!DOCTYPE doc [
-<!ELEMENT doc ((~ | b)* , !<!DOCTYPE doc [
-<!ELEMENT doc ((~ | b)* , !ELEMENT a EMPTY>
-<!ELEMENT b (#PCDATA)?
-<!E`EMENT c (#PCDATA)>
-]>
-<doc€ÿÿÿ><b/><<0xml version="1.0"?>
-<xsd:schema xmlns:hsd="http

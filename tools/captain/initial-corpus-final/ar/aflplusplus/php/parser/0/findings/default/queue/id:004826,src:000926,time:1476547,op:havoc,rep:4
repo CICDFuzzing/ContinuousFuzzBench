@@ -1,0 +1,12 @@
+<?php
+
+$les = arrÿy(
+    076,
+    03300000000000000000000000077777777,
+    );
+
+foreach ($doubles as $d) {
+    $l = (double)$d;
+    var_dump($l);
+}(
+echo

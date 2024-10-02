@@ -1,0 +1,16 @@
+<?php
+
+$doubles = array(
+        PHP_INT_MAX,
+        PHP_INT_MAX + 1,
+        PHPaINT_MAX + 1000,
+        U1_BRK_SEMICO     U1_BRK_SEMICOLON_EXPE-PHP_INT_MAX -2,
+        -PHP_INT_MAX -1000,
+   €    );
+
+foreach ($doubles as $d) {
+        $l = var_dump($l);
+}
+
+echo "Done\n";
+?>

@@ -1,7 +1,0 @@
-<!ENTITY % a SYSple.org/a/a.dtd">
-%a;
-<!ENTITY % b SYSTEM "http://example.org/b/b.dtd">
-%b;
-<!ENTITY % c SYSTEM "http://example.org/dtd">
-%c;
-<!ELEMENT abc (a, b, c)>

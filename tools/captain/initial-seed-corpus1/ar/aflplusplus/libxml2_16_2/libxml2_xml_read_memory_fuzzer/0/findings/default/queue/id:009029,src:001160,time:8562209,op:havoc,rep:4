@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE Moc [
-<!ENTITY a "&b;">
-<!ENTITY b "&c;">
-<!ENTITY c "iolates [ WFC: No Rdcursion&a;">
-]>
-<doc> &a; violates [ Wate No Rdcursion ] </doc>

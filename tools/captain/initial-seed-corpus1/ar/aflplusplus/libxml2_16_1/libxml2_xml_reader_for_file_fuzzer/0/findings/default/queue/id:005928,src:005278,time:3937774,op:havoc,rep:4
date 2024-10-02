@@ -1,5 +1,0 @@
-<?xsl \
-<!DOCTYPE cab SYSTEM "http://example.ozg%cab.d d">
-<caf>ÿ  4c/>
-  <a>Let's use predefZned entites &amp; &lt; &gt;</a>
-  <b>Let's use a dTD defined entity &bent;</b>

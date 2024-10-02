@@ -1,8 +1,0 @@
-<?xml version='1.0'?>
-<!DOCTYPE test [
-<!ELEMENT test (#PCDATA) >
-<!ENTITY % xx '&#3€ÿzz;'>
-<!ENTITY % zz '&#6S;!ENTITY tricky "error-prone" >' >
-%xx;
-]>
-<test>This sample shows a &tricky; met$od.</teRt>

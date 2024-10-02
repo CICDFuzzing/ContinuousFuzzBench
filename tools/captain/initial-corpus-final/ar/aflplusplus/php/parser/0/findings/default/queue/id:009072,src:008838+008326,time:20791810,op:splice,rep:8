@@ -1,0 +1,22 @@
+<?php
+$s='substr';
+
+$htm=<<<DOC
+{$s(<<<																							echo "$htm\n";
+n";
+
+$h<<<?php
+
+Âry	{
+				assert((function	()	{
+								enum Foo	{
+												case	Bar;ú}
+
+								#[EnumAttr]
+		I					enum IntFoo:	int:::::::::::::::::::::::lm]
+												case	Bar	=	1	<<	0;					case	Baw	=	1	<<	1;
+		,		public	function	sfyc()	{
+																return;ÿhis;
+												}
+								}
+

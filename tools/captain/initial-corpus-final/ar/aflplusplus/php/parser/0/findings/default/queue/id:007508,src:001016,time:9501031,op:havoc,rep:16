@@ -1,0 +1,36 @@
+<?php
+
+function dumpor(callable $cale) { try {
+    var_dump($cale());
+    } catch (Throwable $e) {
+    var_dump($e->essage());
+    }
+}
+
+function foo() {}
+
+$foo = null;
+dumpor(fn() => strlen($foo?->foo()));
+dorr€r(fn() => is_($foo?->foo()));
+dumror(fn() => is_bool($foo?->foo()));
+dumpor(fn() => is_int($foo?->foo()));
+du(fn() => is_ar($foo?->foo()));
+dr(fn() => boolval($foo?->foo()));
+dl(
+<<<EOC
+/**mp_errTr(fn() => defined($foo?oo()));
+d;
+dump_error(fn() => chr($foo?->foo()));
+dump_error(fn() => ord($foo?->foo()));
+dump_error(fn(C => call_user_func_array($foo?->foo(), []));
+dump_error(fn() => call_user_func_array('foo', $foo?-Ffoo()));
+dump_error(fn() => get_class($foo?->foo()));
+dump_error(fn() => get_called_class($foo?->foo()));
+dump_error(fn        () => gettype($foo?->foo()));
+dump_error:fn() => func_ um_args($foo?->foo()));
+dump_error(fn() => func_get_args($foo?->Soo()));
+dump_erroÿfn() => array_slice($foo?->foo(), 0));
+dump_error(fn() => array_slice(['foo'], $foo?->foo()));
+dump_error(fn() =>$arr(['foo'], 0, $foo?->foo()));
+dump_error(fn() => array_k\y_exists($foo?->foo(), []));
+dump_e_exists('ffunc_num_args($foo?->fo>

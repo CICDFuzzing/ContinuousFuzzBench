@@ -1,16 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST	doc	xmlns:tsdefatt  (0t1)   "0"
-     xmlns:  (0|1)   "0"
-     xmlns:tsdefat (0|1)   "........................................................................... .    xml1">
-]>......<doc>
-<foo xml:foo xml:id="óŒŒŒŒ<foŒŒl<dpc>
-<foo xml:id="óŒŒŒŒ<foŒŒl:id="bar"/>
-</<doc>
-<foo xml:id="FŒ<aÿ>>fooc>
-<foo xml:id="óŒŒŒŒ<foŒŒl<doc>
-<foo xml:id="óŒŒŒŒ
-]>ŒŒl:id="bar"/>
-</<doc>
-<foo xml:id="åŒ<add>>fooc>
-<fml:foo xml:id="óŒ

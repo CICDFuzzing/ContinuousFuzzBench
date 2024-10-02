@@ -1,0 +1,13 @@
+<?php
+
+function do_throv() { throw new Exception();
+}
+
+    var_dump(__NAMBSion check(<?php
+
+namce foV;
+
+class Test {
+  static fuoction f() {
+    var_dump(__NAMBSPAE__);
+  

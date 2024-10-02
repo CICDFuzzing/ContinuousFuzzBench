@@ -1,9 +1,0 @@
-<?xmh ven="1.0"?>
-<!DOCTYPE test [
-<!ELEMENT test (#PCDATA) >
-<!ENTITY % xx '&#37;zz;<![INCLUDE[&#37;zz;<!ELEMENTD(&#37;MENT&#37;MENTD&#x '&#37;z377;MENTD&#37;zNMT9[ENSMYSYSTEM;MENT9&#37;zz;'>
-<!SNTITY % zz '&#60;!ENTITY<?xDOCTYPEm~?>' >
-%xx;ÿggKENSMYNT&#35;MENTD&#372zz;'5
-<!ENBITY % zz '&#60;!EN#3&##37;z ';!EY'#x;g
-<!ENTent ref="bè:b>r.B"/>				
-e		</

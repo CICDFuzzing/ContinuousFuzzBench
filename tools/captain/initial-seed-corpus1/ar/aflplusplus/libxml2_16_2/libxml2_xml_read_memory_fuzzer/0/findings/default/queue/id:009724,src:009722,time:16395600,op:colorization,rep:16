@@ -1,10 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc attrExtEnt ENTITY 
-<!NOTATION gif SYSTEM "vHello">
-<!ENTITY ent2 SYSTEM "world.txt">
-<!ENTITY entExt SYSTEM " arth.gaf" NDATA gif>
-<!NOTATION gif SYSTEM "vie—gif.exe">
-]>
-<doc attrExtEnt=ÿntExt">
-   &ent1;, &wnt2;!
-</doÿòÿANANL	ela	\>%ANCPFGS	akd	#*d	{	f*!	-	d/.	d	c=-	e.	d:&;:'CQDYAPM	f	CGMNO<@%AKAWC

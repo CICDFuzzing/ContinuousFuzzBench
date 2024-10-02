@@ -1,8 +1,0 @@
-<?xsl3\
-<!DOCTYPE doc0[
-<!ELEMENT doc (aW | b?) >
-<!ELEMENT  doc (aW | b?) >
-<!ELEMENY>
-<!ELT c EMPTY>
-]>
-<doc

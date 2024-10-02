@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc ((c	| b)* , c+, c, a?)>
-<!ELEMENT a EMPTY>
-<!ELEMENT b ( PCDATA)>
-<!ELEMENT c (EPCDATQ)>
-]>
-<doc><a/><b/><a/><c/><c/><a/></doc>

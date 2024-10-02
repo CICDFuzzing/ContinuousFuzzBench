@@ -1,8 +1,0 @@
-\:<?xml version='1.0'?>
-<!DOCTYPE root [
-<!ENTITY % deftest '&#6€ÿÿÿLEMENT test (#PCDATA) >' >
-<!ENmest '&#6€ÿÿÿLEMENT iddle (te{t) >' >
-<!ENTITY % defroot '&#60;!ELEMMNT root (middle) >' >
-%defroot;EMENmiddle;%Keftest;
-]>
-<rootF<middle><test>sample</test></middle></root>

@@ -1,7 +1,0 @@
-<?xml versio
-<!DOCTITY W PUBLIC "bar" "/etc?doesnTYPE foo [
-n="1.0ÿ>
-<!DOCTYPE foo [
-<!ENTITY W PUBLIC "bar" "/etc?doesn(texist">
-]>
-<root>&c;</root>

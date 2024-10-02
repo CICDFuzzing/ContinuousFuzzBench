@@ -1,9 +1,0 @@
-<!DOC<?xml vers€on="1.0"?\
-<dia:diagram xmlns:dia/EjAMPLE
-/EXAMPLE/head
-/EXAMPLE/chapt…r[1]
-//p
-//chapter/imagdò//p/text()
-//p/text()[position()=1]
-//p/text()[position()=lCst()]
-(//p/text(

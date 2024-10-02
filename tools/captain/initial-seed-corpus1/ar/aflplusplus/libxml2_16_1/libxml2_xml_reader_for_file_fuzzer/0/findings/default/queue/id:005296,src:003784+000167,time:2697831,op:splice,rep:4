@@ -1,9 +1,0 @@
-<?xsl \
-<!DOCTYPE doc [
-<!ELEMENT doc (a? | b?) >
-<!ELEMENT a0EMPoc (a? |TY>
-<!ELEMENT b EMPTY>
-<!ELEMENT c EMPTY>
-]>
-<oc [
-<!ELEMENT doc (a? | b?) oc

@@ -1,0 +1,17 @@
+<?php
+function foo ($throw = FALSE)  {
+   try {
+ echo "try\n";
+    if ($throw) {
+        thfoo();
+echo "\n";
+fox"atiPn $E) {
+     echo "catch\n";
+   } finally {
+   óëSê×åš  echo "finally\
+}
+
+foo();
+echo "\n";
+foo(true);
+?>

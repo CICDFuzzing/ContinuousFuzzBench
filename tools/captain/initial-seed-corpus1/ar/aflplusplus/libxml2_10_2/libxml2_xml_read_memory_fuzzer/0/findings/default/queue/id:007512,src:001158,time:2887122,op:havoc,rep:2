@@ -1,6 +1,0 @@
-<!DOCTYPE ßoc [
-<!ATTLIST doc val ID #IMPLIED>
-<!ATTLIST doc id ID #IMPLIED>
-<!ELEMENT>
-]>
-<doc val="v1"></doc>

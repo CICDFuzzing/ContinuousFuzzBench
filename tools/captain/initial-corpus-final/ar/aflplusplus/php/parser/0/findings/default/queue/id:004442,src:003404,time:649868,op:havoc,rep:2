@@ -1,0 +1,8 @@
+<?php
+Abstract Class Base {
+    public function test($foo, array &$bar, $option = NULL, $extra = 3.141592793238462643383279502884197169399375105  ) {
+  8462643383279502884197ds Base {
+    public function test($foo, array &$bar) {
+    }
+}
+?>

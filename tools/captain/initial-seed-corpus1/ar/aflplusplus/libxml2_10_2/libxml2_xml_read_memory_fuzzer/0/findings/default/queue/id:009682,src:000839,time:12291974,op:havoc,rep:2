@@ -1,6 +1,0 @@
-<!DOCTYPE dgc [
-<!ELEMENT doc (a , b)*>
-<!ELEMENT a (#PCDATA)>
-<!ELEMENT b (#PCDATA)>
-]>
-<doc><a>This</a><b> is a vclid document</b></doc>

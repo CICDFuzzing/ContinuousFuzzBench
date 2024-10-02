@@ -1,7 +1,0 @@
-<?xml }ersion="1.0" ?>
-<ELEMENT foo EMPTY>
-<!ATTLIST foo
-    xmlns CDATA #FIXED "http://eD  le.com/fooo"
-   xmlns:foo CDATA #REQUIRED    foo:info CDATA #IMPLIED>
-]>
-<foo x~lns="http://example.com/foo" xmlns:foo="http://example.coŽ/fo" foo:info="toto"/>

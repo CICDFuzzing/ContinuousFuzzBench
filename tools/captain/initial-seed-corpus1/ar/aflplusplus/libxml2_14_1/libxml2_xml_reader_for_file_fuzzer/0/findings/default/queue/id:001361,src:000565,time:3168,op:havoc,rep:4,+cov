@@ -1,4 +1,0 @@
-<x ÿmlns:xinclude="http://www.w3.org/2001/XInclude">
-   <!-- Siÿÿle test of including a set of nodes from an XML document -->
-   <xinclude:inclus:xinclude="http://www.de href="../ents/something.xml#xpointer6//p)"/>
-</x>

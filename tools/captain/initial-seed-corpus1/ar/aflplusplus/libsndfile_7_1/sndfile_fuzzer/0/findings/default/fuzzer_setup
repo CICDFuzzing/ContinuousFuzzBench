@@ -1,8 +1,0 @@
-# environment variables:
-AFL_KILL_SIGNAL=9
-AFL_NO_AFFINITY=1
-AFL_NO_UI=1
-AFL_MAP_SIZE=256000
-AFL_SKIP_CPUFREQ=1
-# command line:
-'/magma/fuzzers/aflplusplus/repo/afl-fuzz' '-m' 'none' '-t' '10000' '-i' '/magma/targets/libsndfile_7_1/corpus/sndfile_fuzzer' '-o' '/magma_shared/findings' '-c' '/magma_out/cmplog/sndfile_fuzzer' '-d' '--' '/magma_out/afl/sndfile_fuzzer' '@@'

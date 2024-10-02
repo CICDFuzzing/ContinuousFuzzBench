@@ -1,7 +1,0 @@
-<?xsl\
-<?xml version="1.0" encoding="ISO-8859-1KKKKKKKKKKKKKKKKKKKKKKns="http:/%FOO" xmlns:foo="http://FOO" 
-	xmlns:xsi="http:/foo:bar="o"/>
-01/XMLSchema-instance" 
-	xsi:schemaLocation="http:/?FOO cos-ct-extends-1-3_0.xsd">
-	<bar.A foo:bar="o"/>
-	<bar.B foo:bar="o"/>

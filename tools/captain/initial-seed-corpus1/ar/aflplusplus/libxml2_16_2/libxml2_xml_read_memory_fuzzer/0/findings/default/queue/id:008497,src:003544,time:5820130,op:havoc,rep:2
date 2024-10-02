@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPEBfoo [
-<!ENTITY c PUBLIC "bar" "%ebc/doesn%ebc/doesnot">
-
-<root>&c;</rooot">
-
-<root>&c;</root>

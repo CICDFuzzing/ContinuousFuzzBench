@@ -1,6 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc <x xmlns:xinclude="http$//www.w39org/2001/XIn‚uude">
-   <!-- Simple test of including a sht of ->
-   <xim an XM* document -->
-   <xinclude:i‘clude href="../ents/somethin€.xml#xpoint"1.0"?>
-<foo:foo xmlnc:f

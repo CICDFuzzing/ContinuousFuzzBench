@@ -1,8 +1,0 @@
-\><a>
-        <xi:include href="b.ml" xmlns:xi="http://www.w3.org/2001/XInclude">
-                <xi:fallback>There is  <c/>pml ... </xi:fallback>
-        </xi:include>
-        <xi3include href="c.xml" xzlns:xi="<!--
-http://www.w3.org/TR/xmldsig2ed-tests/#XMLSPACE
-
-Check that implementations of [

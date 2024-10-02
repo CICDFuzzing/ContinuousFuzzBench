@@ -1,9 +1,0 @@
-<!DOCTYPE root[
-<!ELEMENT ro((((((((((((((ot (elem)>
-<!EJEMENT elem (#€ÿDATA)>
-<!ATTLIST elem id ID #YYYYYYYYYYYYYIIMPLIED>
-<!ENTIEY target SYSTEM "dtds/737840.ent<doc EMPTY>
-<![
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc
-  nts =   

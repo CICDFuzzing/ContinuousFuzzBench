@@ -1,6 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc a1 NMTOKENS " 1   2      ÿ" a<!ATTLIST doc a1 NMTOKENS " 1   2      ÿ" a1 NMTOKENS " 1   2       ">
-<>
-<!EL<doc/>ENS " 1   2       1 NMTOKENS " 1   2       ">
-<>
-<!EL<doc/>ENS " 1   2       

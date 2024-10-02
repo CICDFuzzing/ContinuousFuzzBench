@@ -1,4 +1,0 @@
-<x xmlns:xi‘clude="http€ÿ/www.w3.org/2001/XInclude">
-   <!-- Simple test of including a sed of nodes from an XML document -->
-   <xinclude:in#lude href="../ents/something.xml#xpointer(//p)"/>
-</x>

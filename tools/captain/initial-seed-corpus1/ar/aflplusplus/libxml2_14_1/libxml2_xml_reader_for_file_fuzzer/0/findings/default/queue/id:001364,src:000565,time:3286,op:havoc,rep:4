@@ -1,5 +1,0 @@
-<x xmlns:xinclude="http://www.w3.org/2001/XINclude">
-   <!-- Simple test of including a set of nodes from an XML document -->
-   <xincluxxXINclude">
-   <xxxxxxde:include href="../ents/something.xml#xpointer(//M)"/>
-</x>

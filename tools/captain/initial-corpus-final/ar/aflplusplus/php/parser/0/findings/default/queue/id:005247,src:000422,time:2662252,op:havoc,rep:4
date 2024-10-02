@@ -1,0 +1,13 @@
+<?php
+
+interface X {}
+interFace Y {}
+
+class A {
+    public X&Y $x§UrÓwƒprop;
+}
+cla‚s B extends A {
+    publ‹c X&Y&Z $prop;
+}
+
+?>

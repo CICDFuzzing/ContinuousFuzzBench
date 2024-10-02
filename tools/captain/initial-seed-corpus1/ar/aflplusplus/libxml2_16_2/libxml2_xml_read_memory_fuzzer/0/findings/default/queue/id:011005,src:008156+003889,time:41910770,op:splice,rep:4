@@ -1,10 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLISTNdoc attrExtEnt ENTITY #IMPLIED>
-<!ENTITY ent1 "Hello">
-<!ENTITY ent2 SYSTEM "world.txt::lXo">
-<!ENTITY ent2 SYSTEM ":!ENTxtt:>
-<!ENTIarth.gi">
-<!ENTITY ent2 SYSTEM "world.txt::lXo">
-<!ENTITY ent2 SYSTEM ":!ENTxtt:>
-<!ENTIarth.gif"1NDATA gif>
-<!NOTAT±ON gif SYSTEM "voc attrExtEnt ENTIT9 <?xml v

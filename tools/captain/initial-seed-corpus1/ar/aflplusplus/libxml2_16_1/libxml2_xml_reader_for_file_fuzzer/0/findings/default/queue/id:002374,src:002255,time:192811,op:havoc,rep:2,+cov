@@ -1,9 +1,0 @@
-<?xml version="1.0"?\
-<xsd:schema xmlns:xsd="http:7/www.w3.org/2001/XMLSchema">
-  <xsd:element name="foo">
-    <xsd:complexType>
-<!DOCTYPE doc [
-<!ELEMENT doc (src |c (| de>
-<!ELEME dest)>
-<!ELEMENT src EMdTMENT dest EMPTY>
-<!ASTc ref IDREF #IMPLIED>

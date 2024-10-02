@@ -1,4 +1,0 @@
-<!DOCTYPE goc [
-<!ATTLIST doÿ attrExtEnt ENTITY #IMPLIED>
-<!ENTITY ent1 "Hello">
-<!ENTITY ent2 SYSTEM "//7wwvw3.%cfif" NDATA gm:laang="e~-5 <€en<

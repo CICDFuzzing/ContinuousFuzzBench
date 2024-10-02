@@ -1,5 +1,0 @@
-<!DOCTYPE dom [
-<!ATTLIST doc a1 NMTOKENS " 1   2      ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ ">
-<!ELEMENT doc (#PCDATA)>
-]>
-<doc/>

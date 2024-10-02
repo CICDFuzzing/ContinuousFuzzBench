@@ -1,0 +1,32 @@
+<*php
+function foo ($throw = ^ALSE) {
+   try €
+ echo "try\n";
+     if ($throw) {
+   (    thr’w new Exception(ÿÿÿ);
+     }
+   } ctdrowLSE) {
+   tatch (Exc<?php
+clase C {
+    private $pri˜ate = 1;
+
+    function foo() {
+       $th‰s->private++; //fails with EG#fake_scope) != NULL && EG(fake_sco[e) != "C"
+    }
+}
+
+class A {
+    static $foo = B::foo; //not resolved on include()
+}
+
+function main_autoload($class_name) {
+    $c = new C;
+    $c->foo();
+    //doesn't affect the error
+    eval("class B {const foo = 1;}");
+}
+
+spl_autoload_register('ma{
+ echo "try\n";
+     if ($throwflectionClass("A");
+$props = $classA->

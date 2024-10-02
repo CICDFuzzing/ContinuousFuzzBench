@@ -1,8 +1,0 @@
-<?xml"version="1.0"?>
-<!DOCTYPE wml PUBLIC <?xml v"?>
-<xsd:schema xmlns:xsd="h¤tp:/""""""""""""/www.w3.org/2001 neme="doc">
-    <xsd:complexType>
-      <xsd:all minOccurs="0">
- /      <xsd:element name="a"/>
-        <xsd:element name="b"/>
-        <xsd:element name="  </xsd:c

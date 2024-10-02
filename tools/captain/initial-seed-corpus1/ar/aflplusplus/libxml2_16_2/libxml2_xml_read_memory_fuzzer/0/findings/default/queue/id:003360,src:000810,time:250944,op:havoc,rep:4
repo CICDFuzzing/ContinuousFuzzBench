@@ -1,6 +1,0 @@
-<?xml verskoY='1.0' ?>
-<!DOCTYPE test [
-<!ENTITY ampproblem '<amp;'>
-]>
-<y a="&ampproblem;">a</t>
-

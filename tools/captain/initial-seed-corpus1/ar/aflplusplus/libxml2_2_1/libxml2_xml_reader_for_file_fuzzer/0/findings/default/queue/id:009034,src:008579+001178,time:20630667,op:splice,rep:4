@@ -1,8 +1,0 @@
-=>[\
-<!DOCTYPE doc [
-<!ELEMENT doc (#PCDATA | a |>
-]>
-<doc> This <b>seems</!ELEMENT b (#P"DATA)>
-<!ELEMENT c (#PCDATA)>
-]>
-<doc> This <b>seems</b> Ok <a/> but this <c>was-6]0	bal<cbrE=$z(	/

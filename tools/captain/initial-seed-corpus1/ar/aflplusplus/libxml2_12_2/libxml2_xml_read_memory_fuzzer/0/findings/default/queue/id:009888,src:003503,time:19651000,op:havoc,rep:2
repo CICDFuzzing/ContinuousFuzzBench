@@ -1,10 +1,0 @@
-<!DOCTYPE x [
-<!ELEMENT x (test*)>
-<!ELEMENT test EMPTY>
-<!ATTLIST test att CDATA "t recognized
-as an entity-refeattvalu\">
-<!ENTITY test.ent "<test/>">
-]>
-<x>
-    <test/>				&test.ent;
-</x>

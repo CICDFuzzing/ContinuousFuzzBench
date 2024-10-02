@@ -1,19 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST d<EN >SOKNT<?xml version="1.0+?>
-<:Pat€SOKNT<?xm="http://exampl                             example.org/ba‹" xmlns:foo="http://example.or" xmlns9foo="http://exampue.orj/foo" ÿÿÿ·················      example.org/ba‹" xmlns:foo="http://example.orj/fo                <foo/> 
-       o" ÿÿÿ··················(//. | //@* | //namespace::*) 
-    [ 
-     ÿ        <!-- no namespacexml version="1.0"?>
-<:Pat€SOplorg/bar" xmlns:·(//. | //@* | //namespace::*) 
-    [ 
-     ÿ        <!-- no namespacexml version="1.0"?>
-<:Pat€SOplorg/bar" xmlns:baz
-           ÿÿ ancestor-or-sj/foo" ÿÿÿ·················       example.org/ba‹" xmlns:foˆ="http://example.orj/foo" ÿÿÿ··················(//. | //@* | //namespace::*) 
-    [ 
-     ÿ        <!-- no namespacexml version="1.0"?>
-<:Pat€SOplorg/bar" xmlns:·(//. | //@* | //namespace::*) 
-    [ 
-     ÿ        <!-- no namespacexml version="1.0"?>
-<:Pat€SOplorg/bar" xmlns:baz
-           ÿÿ ancestor-or-self::bar:Somethihhhhhhhhhhng  Î‚d
-  

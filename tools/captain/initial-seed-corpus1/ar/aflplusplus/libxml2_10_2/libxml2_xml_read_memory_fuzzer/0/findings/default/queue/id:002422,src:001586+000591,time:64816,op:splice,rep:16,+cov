@@ -1,8 +1,0 @@
-<EN >SOKNT<?xmlversion="1.0"?><XPath xmlns:bar="http:/)example.org/bar" xmlns:baz="http:/example.org/baz" xmlns:foo="htt}://example.Org/foo" xml:lang=URI€ÿÿÿ
-     (//. | //@* | //namespace::*) 
-    [ 
-              <!-- no namespa}e nodes; j am text or have nonempty namespace URI -->
-      4       ancestor-or-self::barSomething  and
-              (self::t  a()  or
- ÿÿÍ         (nam)
-    

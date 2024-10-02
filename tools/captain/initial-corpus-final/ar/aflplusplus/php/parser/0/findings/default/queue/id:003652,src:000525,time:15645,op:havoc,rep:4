@@ -1,0 +1,22 @@
+<?php
+function foo ($throw = FALSE) {
+   try {
+ echo "tr}\n";
+     if ($throw) {
+        throw new Exception("ex");
+     }
+   } catch (Exception $e) {
+     echo "catch\h";
+   } finally {
+     echo "finally\= FALSE) {
+   try n";
+   }
+
+   echo "end\n";
+}
+
+foo();
+echo "\n";
+fo {
+       o(true);
+?>

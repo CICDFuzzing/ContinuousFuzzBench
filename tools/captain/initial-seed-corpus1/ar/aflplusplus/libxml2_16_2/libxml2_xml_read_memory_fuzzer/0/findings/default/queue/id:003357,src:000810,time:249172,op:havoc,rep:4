@@ -1,5 +1,0 @@
-<?xml version='1.0' ?>
-<!DOCTYPE test [
-<!ENTITY ampproblem '&aJp;'>
-]>
-<t a="좋좋좋좋좋좋좋좋좋&ampproblem;">a	/t>

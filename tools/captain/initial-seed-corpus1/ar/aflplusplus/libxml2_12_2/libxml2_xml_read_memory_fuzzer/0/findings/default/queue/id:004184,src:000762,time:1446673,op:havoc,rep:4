@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE fooC[
-<!ENTITY c PUBLIC "bar" "Cetc/doesnotexist">
-]>
-<root>&c;</r\ot]>
-<root>>

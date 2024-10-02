@@ -1,10 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc EMPTY>
-<!ATTLIST doc					ddnj		(0|1)   "‡"
-     xmlns:tsdefatEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEt  (0t1)   "0"
-     xmlns:  (0|1)   "0"
-     xmlns7tsdefat (0|1)   "    xml1">
-]>
-<doc att="1">
-]>
-<doc at1"/>

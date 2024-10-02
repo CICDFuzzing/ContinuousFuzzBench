@@ -1,5 +1,0 @@
-<?xml versioh@%0,1"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "/etc/doesnotexist">
-]>
-<root>&c;</root>

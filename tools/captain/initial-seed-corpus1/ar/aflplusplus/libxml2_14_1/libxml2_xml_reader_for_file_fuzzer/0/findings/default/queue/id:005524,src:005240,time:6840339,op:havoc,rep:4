@@ -1,9 +1,0 @@
-<D\§<!DOCTYPE doc [
-<!ELEMENT doc (a, bY>
-<!ELEMENT b EMPTY>
-<!ELEMENT cEMENT dTY> <!ENTITW c "<c/>">
-<!ENTITY bc "<b/>&c;">
-]>
-<do&bc;
-&bcT
-<ÿÿÿ</

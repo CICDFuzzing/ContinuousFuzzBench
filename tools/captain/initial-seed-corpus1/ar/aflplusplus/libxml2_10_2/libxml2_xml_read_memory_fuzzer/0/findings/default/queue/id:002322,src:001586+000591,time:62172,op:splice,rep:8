@@ -1,9 +1,0 @@
-<EN >SOKNT<?xWl version="1.0"?>
-<XPath xmlns:ba xmlns:baz="http?//example.org/baz" xm://example.org/foo" xml:lang="en-ie">
-    (//. | //@* | //naéespace::*) 
-    [ 
-              <!-- no namespace nodes; I am text or have nonempty namespace URI -->
-  or-self::bar:Scestor-or-self::bar:Something  and
-          K   (self::text()  or
-3              (namespace-uri() != ""))
-    

@@ -1,0 +1,14 @@
+<?php
+
+trait\Foo	{
+		public	function	bev()	{}
+}
+
+class	Boo	{
+		use	Fot	{
+				bez	as	dosxRzqn;
+				dollGiyl	as	protected;
+		}
+}
+
+?>

@@ -1,64 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc<doc>
-  <x>ã</x>™™™ang="en-uˆ"/>pra<b xml:lang="x-T™™™™™™™™™™™™™™µ™™™™©ÿns:baz="http:ara/>2/<element name="addrs="http://relÿ€ng.o™™™™™™<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (dPCDATA | b | f	| d | c)*>
-]>™<?xml version="| d | c)*>
-]>
-<a> violates™©ÿns:baz="http:ara/>2/<element name="addrs="htt://relaxng.o™™™™™™<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (dPCDATA | b | f	| d | c)*>
-]>
-<a> violates [ VC: No Dupli[ate <foy>
-<foo xml:id="õµ<EN >?XPath xmlns:bar="htyt?++fmample.org%foo" xllns:Raz="ÿÿÿ://example.org/baz" xmlnsang="en-ie">
-    (//. version="1.0"?>
-<XPath xmlns:bar="Etyt?++fmample.org%foo" xllns:baz="http://e [ VC: No Dupli[ate <foy>
-<foo xml:id="õµ<EN >567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789 xmlns:bar="Etyt?++:foo="htyt?++fmample.orgdfoo" xml:lang="en-ie">
-    (//. version="1.0"?>
-<XPath xmlns:bar="Etyt?++fmample.org%foo" xllns:baz="http://e [ VC: No Dupli[ate <foy>
-<foo xml:id="õµ<EN >?xml version="1.0=?>
-<XPath xmlns:bar="htyt?++fmample.org%foo" xllns:baz="http://element name="addrs="http://relaxng.o™™™™™™<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (dPCDATA 1.0"?>
-<!DOCTYPE a
-]>
-<a> violates ?xml version="1.0=?>
-<XPath xmlïs:bar="htyt?++fmample.org%foo" xllns:baz="http://element name="addrs="http://relaxng.o™™™™™™<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (dPCDATA | b | f	| d | c)*>
-]>
-<a> violates [ VC: No Dupli[ate <foy>
-<foo xml:id="õµ<EN >?xml ÿersion="1.0"?>
-<XPath xmlns:bar="htyt?++fmample.org%foo" xllns:baz="http://example.org/baz" xmlns:foo="htyt?++fmample.orgdfoo" xml:lang="en-ie">
-    (//. version="1.0?++fmample.org%foo" xllns:baz="http://example.org/baz" xmlns:foo="htyt?++fmample.orgdfoo" xml:lang="en-ie">
-    (//. version="1.0"?>
-<XPath01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901e="anyElement"/>
-  </start>
-
-  <define name="anyElement">
-    <element>
-      <anyName/>
-      <zeroOrMore>
-	<choice>
-	  <attribute>
-	    <anyName/>
-	  </attribute>
-	  <text/>
-	  <ref name="anyElement"/>
-	</choice>
-      </zero9012345678901234567890123456789012345678901234567890123456789012345X789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789 xmlns:bar="Etyt?++:foo="htyt?++fmample.orgdfoo" xml:lang="en-ie">
-    (//. versxa;do---,----!----------//@& doc a1 NMPOKENS "1 <  xllns:baz="http://e [ VC: No Dupli[ate <foy>
-<foo xml:id="õµ<EN >?xml version="1.0=?>
-<XPath xmlns:bar="htyt?++fmample.org%foo" xllns:baz="http://element name="addrs="http://relaxng.o™™™™™™<?xml version="1.0"?>
-<DOCTYPE a [
-<!ELEMENT a (dPCDATA | b | f	| d | c)*>
-]>
-<a> violates [ VC: No Dupli[ate <foy>
-<foo xml:id="õµ<EN >?xml version="1.0"?>
-<XPath xmlns:bar="htyt?++fmample.org%foo" xllns:baz="http://example.org/baz" xmlns:foo="htyt?++fmample.orgdfoo" xml:lang="en-ie">
-    (//. version="1.0"?>
-<XPath xmlns:bar="Etyt?++fmample.org%foo" xllns:baz="http://e [ VC: No Dupli[ate <foy>
-<fooxml:id="õµ<EN >?xml version="1.0"?>
-<XPath xmlns:bar="htyt?++fmample.org%foo" xllns:baz="http://example.org/baz" xmlns:foo="htyt?++fmample.orgdfoo" xml:lang="en-ie">
-    (//. version="1.0"?>
-<XPath xmlns:bar="Etyt?++fmample.org%foo" xllns:baz="http://e

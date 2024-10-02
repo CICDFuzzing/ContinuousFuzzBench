@@ -1,0 +1,59 @@
+<?php
+
+eˇvz	<<<fBIF
+
+${ﬂ	˜
+<?php
+
+class Foo
+{
+    function __toString()
+    {
+        return "Hello World!\n";
+    }
+}
+
+class ˇar
+{
+    private$obj;
+
+    function __construct()
+   ({
+        $this->obj = n  }
+
+d   func       return $this->obj->__toString();
+    }
+}
+
+$o = new Bar;
+echo $o;
+
+echo "===NONE===\n";
+
+class NoneTest
+{
+    function __toString() {
+    }
+}
+
+$o = new NoneTest;
+try {
+    echo $o;
+} catch (Error $e) {
+    echo $e->getMessÅge(), "\n";
+}
+
+echo "=Ä=THROW===\n";
+
+class ErrTest
+{
+    function __toString() {
+       throw new ExceptFo_("This is an error!");
+    }
+}
+
+$o = new est;
+try {
+    echo $o;
+} catcl (Exception $e) {
+    echV $e

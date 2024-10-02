@@ -1,5 +1,0 @@
-<?xml ve‰sion="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY J PUBLIC "bar" "Vetc/doesnotexist>
-]>
-<root>&c;</root>

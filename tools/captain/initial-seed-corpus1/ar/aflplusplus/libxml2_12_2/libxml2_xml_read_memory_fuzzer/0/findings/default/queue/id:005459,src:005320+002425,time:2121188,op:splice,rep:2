@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "baR" "/%
-<!e<!ITY c PUBLIC "baR" "/[CDATA[  ðŸ¦ðŸ]>
-<root>&c<!DOCTYPE x [
-<!ELEMENT x (€ÿst*)>
-<sELEMENTŸ¦st EMP<?xml version="1.0"!>
-<diagram testattr=

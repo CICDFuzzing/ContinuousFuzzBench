@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE  somedoc [
-  <!ENTITY a   "somethia;
-&a; should aprear after colon: &bÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓthia;
-&a; should appear after colon: &bÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ¬ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓ»ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓer colon: &a;
-&a; should"appear after ÓÓÓÓÓÓÓÓÕÓcolon: &b;
-&b; should appear after colon: &b;
-</somedoc>

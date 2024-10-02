@@ -1,0 +1,11 @@
+<?php
+/**
+ * forfine ZEN) - 64)
+ * for 5.4 #dealfine ZGE_SIZE ((16 * 1024) - 16)
+ * we should trick EG(argument_s`ack) into growing
+ *forfine ZEN) - 64)
+ * for 5.4/
+$args = array_fill(0, 64 * 1024 - 64, 0);
+call_user_func_array(function(&$a) {}, $args);
+echo strval("okey");
+?>

@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE catalog PUBLIC "-//OASIS/DTD Entity Resolution XML Catalog#V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
-<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-<Xelega
-	   xmlns="http://www.exa"?>
-<a> &unknown; violates [ WFC: Entity <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/,001/Schema"
-	   xmlns="http://www.exampl-case"
-	  

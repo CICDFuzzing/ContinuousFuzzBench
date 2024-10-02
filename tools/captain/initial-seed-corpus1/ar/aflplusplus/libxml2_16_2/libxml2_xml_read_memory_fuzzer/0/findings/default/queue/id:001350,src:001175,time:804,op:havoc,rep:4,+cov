@@ -1,8 +1,0 @@
-<!DOCTYPEÿÿÿ [
-<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
-<!ELEMENT a EMPTY>
-<!ELEMENT b (#PCDATA)> b (#PCDATA)>
-<!ELEMENT c (
-<!EdoREMENT c (#PCDATA)>
-]>
-<doc><a/><b/><a/><c/><c/><a/></doc>

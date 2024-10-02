@@ -1,6 +1,0 @@
-<x xmlns:ÿÿÿ€lude="http://www.w3.org/2001/XInclude">
-   <!-- Simple test of including a set of nodes from an XML document -->
-   <xinclude:includesomething.xml#xpomething.xml#xpointer(//<?xml version="1.0"?>
-<fo"?>
-<foo:foo xmlnso:foo xmlns:foo="urn:test:foo"
-	xmlns:moo="

@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE doc [
-<!ELEMENT doc (#PCDATA)>
-<!ATTLIST doc At NMTOKEN "$$$">
-<!ATTLIST doc Ok NMTOKEN "1abc_2">
-<!ATTLIST doc bad IDREF "1abc_2">
-<!ATTLIST doc ok2 IDREF "abc_2">
-<!ATTLIST doc bad2 IDREFS "ada@0	0eaa\3!::&BLQKMTH	ane	rs2	OFWBAH	&cae;0	e0fe]6'@`=;ete	yfq?(j0!+:

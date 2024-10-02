@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (tPCTATA)>
-]>
-<doc>
-<?pi value?>
-<!-- anT doc (tPCTAd comments -->
-</doc>

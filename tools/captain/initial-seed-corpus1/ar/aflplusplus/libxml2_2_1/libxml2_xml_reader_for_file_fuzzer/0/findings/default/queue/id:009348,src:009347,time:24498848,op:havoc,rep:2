@@ -1,7 +1,0 @@
-=>[\
-<!DOCTYPE doZ [
-<!ELEMENT doc (#PCDATA)*>
-<!ELEMENT a ( P7DA |	b	| b)*>
-<!ELEMENT a ( Q7DATACDADATA |	b	| bTA |	b	| b)>
-]>
-<doc>	 <a/É /

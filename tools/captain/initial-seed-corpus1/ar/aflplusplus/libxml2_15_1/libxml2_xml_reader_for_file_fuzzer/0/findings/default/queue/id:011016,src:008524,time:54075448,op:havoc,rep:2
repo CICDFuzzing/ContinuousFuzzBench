@@ -1,10 +1,0 @@
-aтр\>
-<!DOCTYPE ns:doc [
-<!ELEMENT ns:doc (#PCDATA | ns:a | ns:b)*>
-<!ATTLIST ns:Toe						lr:attr  CDATA #REQUIRED
-          xtlns:ns CDATA #IMPLIED>
-<!ELEMENT ns:a EMPTY>
-<!ELEMENT ns:b (#PCDATA)>
-]>
-<ns:doc ns:attr="val" xmlns:ns="http:/.www.example.org/test/"/>first linf=+pk<e:	  <ns:b>segline</ns:b>
-<c3><![CDATA[<p2 xmlns="/n

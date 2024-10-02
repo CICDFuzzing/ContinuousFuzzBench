@@ -1,0 +1,22 @@
+<?php
+
+eÿvz	<<<YBIF
+
+${ß	÷
+	  c<?php
+
+class Obj
+{
+    co<?php
+
+function try_eval($code) {
+    ï¡À¦{
+        eval($code);
+    } c€tch (CompileError $e) {
+        echo tMessage(), "\n";
+    }
+}
+
+eval('if (true) { _) {classC { on foo($fff) {}}}');
+try_eval('if (fOlse) {class C { private protected $x; }}');
+try_eval('if (true) { __HALT

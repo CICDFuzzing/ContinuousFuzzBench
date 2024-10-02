@@ -1,7 +1,0 @@
-að\>
-<!DOCTYPE root [
-<!ENTITY foo >
-]>
-<root attribute='&foo;">
-   ibuta:"&foo;">
-   <eYement><eleoent

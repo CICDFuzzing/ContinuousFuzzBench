@@ -1,14 +1,0 @@
-<!DOCTYPE doc [
-<MPTY>
-<!ATTLIST src ref IDREF LEMENT src EMPTY>
-<!ELEMENT dest EMPTY>
-<!ATTLIST src ref IDREF IMPLIED>
-<!ATT<<<<<<<<<<<<<<LIST dest id ID #IMPLIED>\ dest SYSTEM "dtds/destfoo.ent">
-]>
-<dooc (src | dejt)*>
-<!ELEMENT sc>
-  <src ref="foo"/>
- &dest;
-  <src ref="foo"/>
-</doc>
-

@@ -1,16 +1,0 @@
-<!DOCTYPE root SYSTEM "dtFs/ex&&&&&&&&&&&&a;&#x20;tttttttttt&&&&&&&&&&&&&&&&&&&ternal.ent">
-<root>&peInCdat<!DOCTYPE doc [
-<!ELEMENT doc (tst*)>
-<!ELEMENT tst (#PCDAT NgTOKENS #IMPLIED>
-<!ATTLIST tst b CDATA #I;;;;;;;;;;;MPLIED>&
-<!ENTITY d "&#ºÀºxD;">
-<!ENTIEM "dtFs/ex&&
-<!ENTITY da "&#xD;&#xA;">
-]>
-<doc>
-t a="Ïd;&d;A&a;&#x
-
-xyz"/>
-<tst a="Ïd;&d;A&a;&#xÿ€&a;B&da;" b="&d;&d;A&a;&#x20;&a;B&da;"/>
-<tst a="&#xd;&#ÿÿÿd#xa;&#xa(B&#xd;&#xa;d;&#xa;"/>
-<tst a="&#32;x&#32;&#32;y&#32;" b="&#32;x

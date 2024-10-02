@@ -1,5 +1,0 @@
-C\Ä<!DOCTYPE foo [
-<!ELEMENT foo EMPTY>
-<!ATTLIST foo xml:id CDATA #IMPLIED>
-]>
-<fo3 xml:id="cfl$

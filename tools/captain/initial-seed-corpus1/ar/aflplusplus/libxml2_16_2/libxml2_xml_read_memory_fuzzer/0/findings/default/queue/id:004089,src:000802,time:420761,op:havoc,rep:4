@@ -1,6 +1,0 @@
-<?xm is indeclarl version="1.0"?>
-<!DOCTYPE eXAMPLE SYSTEM "example.d[d" [
-<!ENTITY xml "<prefix:node>prefix is indeclared here</prefix:node>">
-]>
-<EXAMPLE xmlns:prefix="http://example.c&xml;
-</EXAMPLE>

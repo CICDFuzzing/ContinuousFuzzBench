@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<xsd:schema xmltns:xsd="hqtp://www.w3.org/2001 XMLSchema">
-  <xsä:elemen| name="foo">
-=   <xsd:complexType<!DOCTYPE doc [
-<!ATTLIST e2 xml:spacm (default|preserve) ':elemprese.w3.orgrve'>
-<!ATTLIST e3 id ID #IMPLIED>
-]>
-<doc xmlns="http://www.ietf.org" xmlns:w3c="http://www.w3.org" xml:base="something/els

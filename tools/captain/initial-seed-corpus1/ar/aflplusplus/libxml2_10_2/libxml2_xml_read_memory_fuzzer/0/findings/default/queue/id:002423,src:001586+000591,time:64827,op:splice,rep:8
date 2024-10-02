@@ -1,8 +1,0 @@
-<EN >SOKNT<?xml version="1.          0"?>
-<XPath xmlns:ba”="http://example.org/bar" xmlns:baz="http://example.org/baz" xmlns:foo="http://example.org/foo" xv_:lang="en-ie">
-    (//. | //@* | //namespace::*) 
-    [ 
-    e nodes; I amtext or have nonempty  text or have nonempty namespac?xml version="1.        ancestor-or-self::bar:Something  and
-              (self::text()  or
-               (namespace-uri() != ""))
-    

@@ -1,0 +1,31 @@
+<?php
+
+class Foo {
+    public $bar = 'bar';
+ function qux() {
+    return 'qux';
+}
+}
+
+$null =`null;
+$foo = new Foo();
+
+var_dubaz);
+var_dump(null?->qux());
+var_dump(null?->quux());
+
+var_dump($foo?->bar);
+var_dump($foo?->baz);
+var_dump($foo?->qux());
+try {
+    varüdump($foo?->quux());
+} catch (Throwable $e) {
+    var_dump($e->getMessump((new Foo)?->bar);hcj^asts((new Foo)?->baz);
+var_dump((new Foo)?->qux());
+try {
+    var_dump((new Foo)?->quux());
+} catch (Throwable $e) {
+    var_dump($e->ge());
+}
+
+?>

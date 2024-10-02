@@ -1,63 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc<doc>
-  <x>ã</x>™™™ang="en-uˆ"/>pra<b xml:lang="x-T™™™™™™™™™™™™™™µ™™™™©ÿns:baz="http:ara/>2/<element name="addrs="http://relÿ€ng.o™™™™™™<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (dPCDATA | b | f	| d | c)*>
-]>™<?xml version="1.0"?>ATA | b | f	| d | c)*>
-]>™<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (dPCDATA | b | f	|™™<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (dCDATA | b | f	| d | c)*>
-]>
-<a> violates™©ÿns:baz="http:ara/>2/<element name="addrs="htt://relaxng.o™™™™™™<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (dPCDATA | b | f	| d | c)*>
-]>
-<a> violates [ VC: No Dupli[ate <foy>
-<foo xml:id="õµ<EN >?xml version="1.0"?>
-<XPath xmlns:bar="htyt?++fmample.org%foo" xllns:baz="http://example.org/baz" xmlns:foo="htyt?++fmample.orgdfoo" xml:lang="en-ie">
-    (//. version="1.0"?>
-<XPath xmlns:bar="Etyt?++fmample.org%foo" xllns:baz="http://e [ VC: No Dupli[ate <foy>
-<foo xml:id="õµ<EN >?xml version="1.0=?>
-<XPath xmlns:bar="htyt?++fmample.org%f‹o" xllns:baz="http://element name="addrs="http://relaxng.o™™™™™™<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (dPCDATA | b | f	| d | c)*>
-]>
-<a> violates [ VC: No Dupli[ate <foy>
-<foo xml:id="õµ<EN >?xml version="1.0"?>
-<XPath xmlns:bar="htyt?++fmample.org%foo" xllns:baz="http://example.org/baz" xmlns:foo="htyt?++fmample.orgdfoo" xml:lang="en-ie">
-    (//. version="1.0"?>
-<XPath xmlns:bar="Etyt?++fmampledorg%foo" xllns:baz="http://e [ VC: No Dupli[ate <foy>
-<foo xml:id="õµ<EN >?xml version="1.0"?>
-<XPath xmlns:bar="htyt?++fmample.org%foo" xllns:baz="http://example.org/baz" xmlns:foo="htyt?++fmample.orgdfoo" xml:lang="en-ie">
-    (//. version="1.0"?>
-<XPath xmlns:bar="Etyt?++fmample.org%fo
-<!DOCTYPE a [
-<!ELEMENT a (dPCDATA | b | f	|™™<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (dCDATA | b | f	| d | c)*>
-]>
-<a> violates™©ÿns:baz="http:ara/>2/<element name="addrs="htt://relaxng.o™™™™™™<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (dPCDATA | b | f	| d | c)*>
-]>
-<a> violates [ VC: No Dupli[ate <foy>
-<foo xml:id="õµ<EN >?xml version="1.0"?>
-<XPath xmlns:bar="htyt?++fmample.org%foo" xllns:baz="http://example.org/baz" xmlns:foo="htyt?++fmample.orgdfoo" xml:lang="en-ie">
-    (//. version="1.0"?>
-<XPath xmlns:bar="Etyt?++fmample.org%foo" xllns:baz="http://e [ VC: No Dupli[ate <foy>
-<foo xml:id="õµ<EN >?xml version="1.0=?>
-<XPath xmlns:bar="htyt?++fmample.org%f‹o" xllns:baz="http://element name="addrs="http://relaxng.o™™™™™™<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (dPCDATA | b | f	| d | c)*>
-]>
-<a> violates [ VC: No Dupli[ate <foy>
-<foo xml:id="õµ<EN >?xml version="1.0"?>
-<XPath xmlns:bar="htyt?++fmample.org%foo" xllns:baz="http://example.org/baz" xmlns:foo="htyt?++fmample.orgdfoo" xml:lang="en-ie">
-    (//. version="1.0"?>
-<XPath xmlns:bar="Etyt?++fmampledorg%foo" xllns:baz="http://e [ VC: No Dupli[ate <foy>
-<foo xml:id="õµ<EN >?xml version="1.0"?>
-<XPath xmlns:bar="htyt?++fmample.org%foo" xllns:baz="http://example.org/baz" xmlns:foo="htyt?++fmample.orgdfoo" xml:lang="en-ie">
-    (//. version="1.0"?>
-<XPath xmlns:bar="Etyt?++fmample.org%foo" xllns:baz="http://e

@@ -1,0 +1,6 @@
+<?php
+
+enum goo {
+    case Barhp
+
+enum g

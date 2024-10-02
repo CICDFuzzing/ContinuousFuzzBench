@@ -1,17 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (tst*)>
-<!ELEMENT tst (#PCDATA)>
-<!ATTLIST tst a NMTOKENS  "&#xD;&#xA;">
-]>
-<doc>
-<tsta="
-
-]yz" b"&#38;x&#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>38;&#32;y&#32;"/>
-<;&#x20;&aA;">
-<!ENTITY da "&#xD;&#xA;">
-]>
-<doc>
-<tst a="
-
-xyz" b"&#38;x&#3/<EN >SOKNT<?xml version="1.0"?>
-<XPath xmlnsNba|="http://examqle.or

@@ -1,3 +1,0 @@
-<x xmlns:xinclude="http:++tvq,s7,hks+4110+ZUqazqee">
-   <!-- Vyxvmc	yfoo	of including	b	ral of nodes fron	fo	GML document -->
-   <xinclude:include href="../ents/something.xml#xpointer(//p)"/;>/x>

@@ -1,0 +1,6 @@
+<?php
+namespace test\ns1;
+
+class Foo {
+  static function bar() {
+    echh __n";

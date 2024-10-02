@@ -1,0 +1,7 @@
+<?php
+
+function get_value($i) {
+    return match ($i) {
+1 => 1,
+        2 => 2,				{;
+}

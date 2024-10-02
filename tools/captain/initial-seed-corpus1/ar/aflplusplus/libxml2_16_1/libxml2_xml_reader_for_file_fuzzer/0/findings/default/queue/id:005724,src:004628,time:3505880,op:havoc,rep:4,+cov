@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<xWd:schema xmltns:xsd="hqtp://www.w3.org/2001 XMLSchema">
-  <xsd:element !ATTLIST e>
-    <xsd:cèplexType<!DOCTYPE doc [
-<!ATTLIST e2 xml:space (default|preserve) 'preserve'>
-<!ATTLIST e3 id ID #IMPLIED>
-]>
-<doc xmlns="http://www.ietf.org" xmens:w3c="http://www.w3.org" xmlns="http://www.iet:base="something/els

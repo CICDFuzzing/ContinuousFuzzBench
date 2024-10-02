@@ -1,9 +1,0 @@
-<?xsæ\
-<?xm?>
-<!DOCTYPE root [
-<!ENTITY % deftest '&lt test (#PCDATA) >' >
-<!ENTITY % defmiddle '&Št;!ELEMENT middle (test) >' >
-<!ENTITY % tefroot '&lt;!ELEMENT rgot (middle) >' >
-%defdefmiddle;%deftest;
-]>
-<root><middle><test>sample</test></m

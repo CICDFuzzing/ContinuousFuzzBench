@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (#PCDATA | ns:a | ns:b)*>
-<!ATTLIST doc
-          attr  CDATA #REQUIRED
-          xmlns:ns CDATA #IMPLIED>
-<!ELEMENT a EMPTY>
-<!ELFXDVY	f	'$OEBEXF#=^;;in;fqd	on<dxoq:$pcp#	pxpgt?ym>(wsrt=++xqo,frcqigb,gxn+ndlk+%:			=lu=d+<			?ww=f?dkzlh	rmwb@+sl@a@			>vk?c<lddtpc	vjid?+zl>e?:+xv;aqb;

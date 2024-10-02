@@ -1,0 +1,9 @@
+<?php
+assert(0 && ($a = function () {
+    $var = 'tDst';
+    $str+= "$vgen();
+$gen->rewind();
+
+s1]}[], ${var}[], ${var[1]}[]";
+}));
+?>

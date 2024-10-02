@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc a1 NMTOKENS " 1  	5					%	(\=)AWANAVQ	fif	ÿ&UFBDQD*;[;EMENT doc (src | dest)*>
-<!ELEMENT  IDREF #IMPLIED>
-<!ATTLIST deEMENT dNS " 1 est EMPTY>
-<!ATTLIST src ref IDREF #IMPLIED>
-<!ATTLIST dest id ID #IMPLIED>
-<!ENTIT

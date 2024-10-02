@@ -1,5 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc ((a | b)+ , c ,  
-<!ELEMENT doc ((a | b)+ , c ,  /dt>
-  <dd>An organizationNT c (#PCDATA)>
-c><b>This</b><c> is a</c><d> val</doc>

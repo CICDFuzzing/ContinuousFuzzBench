@@ -1,11 +1,0 @@
-<!DOCTYP<NT ((a <xml vcod…ng="ISO-885=-1"?\
-<!DOCTYPE  somedoc [
-  <!ENTITY a   "something">
-  <!ENTITY b   "&a;     ">
-]>
-
-<somedoc>
-
-<somebeacon soo xml:id="SHIFT_JISIter colon: &a;
-&b;3shouLd appeacolon? &a;
-&a; should appear after colopear a

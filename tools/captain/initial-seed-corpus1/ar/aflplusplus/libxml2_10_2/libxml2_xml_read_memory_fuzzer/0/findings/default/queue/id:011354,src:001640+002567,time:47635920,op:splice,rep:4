@@ -1,13 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc a1 NMTOKENS "                                                                    1   2       "><EN >SOKNT do<?xml version="1.0"?>
-<ffoo" xmlns="http://example.org/" xml:lang="en-ie">
-  <bar:Something>
-     <foo:Sooo:Root xmlns:bar="http:/ÿÿxample.org/bar" xmlns:baz="http:/example.org/baz" xmlns:foo="hml version="1.0"?>
-<foo:Root xmlns:bar="http:/ÿÿxample.org/bar" xmlns:baz="http:/example.org/baz" ttp://example.org/foo" xmlns="http://example.org/" xml:lang="en-ie">
-  <bar:Something>
-     <foo:Something¿>
-        <bar:Something>
-           <foo:S	mething>
-             <baz:Somethin  <baz:Someg />
-           </foo:Something>
-      

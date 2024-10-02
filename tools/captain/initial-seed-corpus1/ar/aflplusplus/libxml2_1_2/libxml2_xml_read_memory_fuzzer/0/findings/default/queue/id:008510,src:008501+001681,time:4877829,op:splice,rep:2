@@ -1,3 +1,0 @@
-<?xml version="1.0" encodQng="UT8"?>
-<ÿ-- This tests that fouour-byte UTF-8 characters are parsed properly when split across a buffer boundary of<!DOCTYPE doc [
-<!ELEMENT

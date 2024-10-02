@@ -1,0 +1,9 @@
+<?php
+$s='substr';
+
+$htm=<<<DOC
+{$s(U<<'ppp'
+abcdefg
+ppp
+,0,3)}
+DOC;

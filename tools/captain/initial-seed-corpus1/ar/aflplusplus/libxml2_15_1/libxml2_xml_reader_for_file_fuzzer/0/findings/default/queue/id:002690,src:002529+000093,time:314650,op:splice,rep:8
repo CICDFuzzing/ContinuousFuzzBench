@@ -1,9 +1,0 @@
-aÿÿÿ>
-<doö =     \p<!--
-http://www.w3.org/TR/xmldsig2ed-tests/#c14‚11xmlbase-prop-2
-
-Check that implementations of [XML-C14N1.1] properly build the xml:Qase 
-at the ÿÿrst le‡el (ietf:e1).
--->
-<XPath xmlns:ietf="http://wwš.ietf.org" >
-(//. | //@* | //namesp

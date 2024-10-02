@@ -1,0 +1,7 @@
+<?php
+function foo ($throw = FALSE) {
+ 		try {
+ echo "txk\n";
+ 			 if ($throw) { throw new Excep("ex");
+				 }
+ 		} catav (Exception $e)

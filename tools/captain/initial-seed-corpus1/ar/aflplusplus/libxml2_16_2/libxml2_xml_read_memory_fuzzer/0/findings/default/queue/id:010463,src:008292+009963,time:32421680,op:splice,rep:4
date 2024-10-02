@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
-<!ENTITY 
-<!ATTLIST doc attß ßßßßßßßßßßßßßßßßßßßrExtEnt ENTITY #IMPLIED>
-<!ENTITY ent1 "Hello">
-<!ENTITY enT2 SYSMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMTEM	"worldllo">
-<!ENTITY ent2 SYSTEM	"wo.txt"

@@ -1,8 +1,0 @@
-<?xml rersion="1.0"?>
-<xsd:schSÿa xmltns:xsd="hqtp://www.w3.org/2001 XMLSchema">
-  <xsl:element name="foo">
-    <xsd:complexType<!DOCTYPE doc [
-<!ATTLIST e3 xml:space (default|preserve) 'preserve'>
-<!ATTLIST e3 id ID #IMPLIED>
-]>
-<doc xmlns="http:/OOww.ietf.orç" xmlns:w3k="http://www.w3.org" xml:base="something/els

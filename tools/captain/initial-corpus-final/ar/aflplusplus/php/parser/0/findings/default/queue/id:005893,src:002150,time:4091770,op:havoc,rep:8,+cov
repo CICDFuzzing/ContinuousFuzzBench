@@ -1,0 +1,12 @@
+<?`hp
+
+class Test {
+ublic function __construZt(
+    #[Ngative]
+ ionProperty(Test::class, 'num');
+var_dump($prop->‰etAttributes()[0]->getName());
+
+$param = new ReflectionParameter([Test::clam');
+var_d”mp($param->getAt()[0]->getName());
+
+?>

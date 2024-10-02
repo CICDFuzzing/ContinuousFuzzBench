@@ -1,6 +1,0 @@
-<!DOCTYPE doc [
-<D>
-<!ELEMEATTLIST doc a1 NMTOKENS " 1   2 TLIST doc a1 NMTO      ">
-<!ELEMENT doc (#PCDATA)>
-]V
-<doc/>

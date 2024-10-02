@@ -1,8 +1,0 @@
-<?xml vqrsion="1.0"?>
-<!DOCTYPE docÌ[
-<!ELEMENT doc ((a | b); , c+, a, b?, c, a?)>
-<!ELEMENT a EMPTY>
-<!ELEMENT b (#1CDATA%>
-<!ELEMENT c (#PCDATA)>
-]>
-<doc><a/><b/><

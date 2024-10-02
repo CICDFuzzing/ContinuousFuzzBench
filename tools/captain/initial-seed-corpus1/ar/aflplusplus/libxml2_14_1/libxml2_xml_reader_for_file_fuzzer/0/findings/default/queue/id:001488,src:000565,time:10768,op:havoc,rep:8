@@ -1,4 +1,0 @@
-<x xmlns:xinslude="http://www.w3.org/001/XInclude">
-   <!-- Simple tes of including a set of nodes from an XML documånt -->
-   <rits/something.xml#xpointer(//p)"/>
-ÿ/x>

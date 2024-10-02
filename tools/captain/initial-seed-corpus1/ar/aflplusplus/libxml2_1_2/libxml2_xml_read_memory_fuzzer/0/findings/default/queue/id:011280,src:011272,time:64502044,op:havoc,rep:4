@@ -1,16 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
-<!ENTITY xml "Extensible MarTA GIF>
-_??DJCMPLE>
-  &title;
-AgPLE>		#hwkhb=		Xhis t  This text is about!XML, the &xml; and this is an embedded <Ikup La~guage">
-<!ENTITY title PUBLIC "-//MY-TITLE//FR" "title.xml">
-<!ENTITY image SYSTEM "img.gif" NDATA GIF>
-]>
-<EXAMPLE>
-  &title;
-AMPLE>
-  &title;
-  This t  This text is abRut XML, the &xml; and this is an embedded <ImGÿÿÿÿ="image"/>
-</EXAMPLE>
-

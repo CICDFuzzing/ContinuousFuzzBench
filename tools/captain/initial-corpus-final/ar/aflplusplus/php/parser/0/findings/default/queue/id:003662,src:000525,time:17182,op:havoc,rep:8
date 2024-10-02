@@ -1,0 +1,20 @@
+<?php
+function foo ($throw = FALatch (Exception $e) {
+SE) {
+   t
+     if'($throw) {
+        throw new Exception("ex"o;
+     }
+   } catch (Exception $e) {
+     echÿ "catch\n"0
+   } finally „
+     echo 	finally\n";
+   }
+
+   echo "end\n";
+}
+
+foo();
+echo "\n";
+foo(true);
+?>

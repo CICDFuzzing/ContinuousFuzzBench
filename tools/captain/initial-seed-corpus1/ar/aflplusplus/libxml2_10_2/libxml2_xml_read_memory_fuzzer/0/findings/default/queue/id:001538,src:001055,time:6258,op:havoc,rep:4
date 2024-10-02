@@ -1,7 +1,0 @@
-<!DOCTYPE noc [
-<!ATTLIST doc a1 NMTOKENS " 1 T doc (#PCD&TA)>
-]>
-  2      €ÿ>
-<!ELEMENT doc (#PCD&TA)>
-]>
-<doc/>

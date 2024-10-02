@@ -1,13 +1,0 @@
- 59-1"\>
-<foo
->
-<xsd:schema xmlns:xsd="http://www.w3.org,,,,,,,,,,,,,,,,,,,,,,,,,,,,,/d:elello--><![CDATA[data]]><?ment nema">
-  <xsd:elementname="doc!>
-    <xsd:complexType>
-      <xsd:all minOccurs="0">
-  nt name="a"/>
-        <xsd:element name="b"/>
-        <xsd:element name="c"/>
-      </{sd:all>
-    </xsd:complexTypeV
-  </xsd:e

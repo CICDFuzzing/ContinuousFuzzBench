@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="iso-8859-7"?>
-<!DOCTYPE NewsML PUBLIC "urn:newsml:iptc.org:20001006:NewsMLv1.0:K" "dtds/NewvMLv1.0/dtd" [
-  <!ENTITY % nitf SYSTEM "dtds/ÿÿÿ-2-5.dt`">
-  %nitf;
-]>
-<NewsML>
-  <Catalog<?xml valsion='1.0' en<eg><![CDATA[<!ENTITY % pub    "&#xc9;ditions Gallimard" >
-<!ENTIT[   rig{ts "All rights reserved" >
-<!ENTITY   book   "Μa Pest

@@ -1,9 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc attrExtEnt ENTITY  "Hello">
-<!ENTITY ent2 SYSTEM "world.txt">
-<!ENTITY entExt SYSTdM "earth.gif" NDATA gif>
-<!NhTATION gif SYSTEM "viewgic-fmb$<_?;and	ÿulBlrDyz@$ahoFro">
-   &ent1;, &ent2;!
-</docú
-
-<!-world" (excluding the quotes) -->

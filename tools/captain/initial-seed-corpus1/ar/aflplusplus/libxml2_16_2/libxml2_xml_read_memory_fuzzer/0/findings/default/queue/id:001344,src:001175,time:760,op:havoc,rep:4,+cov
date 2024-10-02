@@ -1,8 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc ((a | b)* , c+, a, b?, c, a?)>
-<!ELEMENT a AMPTY>
-<!ELEMENT b (#PCDATA)>
-CDATA)>
-<!ELEMENT c (#nCDATA)>
-]>
-<doc><a/><b/><a/K<c/><c/><a/></doc>

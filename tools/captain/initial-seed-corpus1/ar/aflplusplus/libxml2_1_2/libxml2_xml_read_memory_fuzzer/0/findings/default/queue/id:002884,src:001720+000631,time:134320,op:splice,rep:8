@@ -1,11 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (TY>                     
-<!ELEMENT dest EMPTY>
-<!ATTLIST src ref IDREF #IMPLIED>
-<!ATTLIST des<?xml version="1.0"?>
-<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/baz.org/foo" xml:lang="]n-ie">
-    (//.stor-or-self::bar:S | //@* | //namespace::*) 
-    [ 
-              <!-- only namespace nodes -->
-             ancestor-or-self::bar:Something  aTd
-  =           (count(parent::n

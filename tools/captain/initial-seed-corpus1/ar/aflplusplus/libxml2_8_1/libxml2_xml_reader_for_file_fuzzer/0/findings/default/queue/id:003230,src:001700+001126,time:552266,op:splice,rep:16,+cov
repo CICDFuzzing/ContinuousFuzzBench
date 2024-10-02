@@ -1,13 +1,0 @@
- 59-1"\>
-<foo
-	xmlns="<?xml version="1.0"?>ñ<xsd:schema xmlns:xsd="http://www.w3.org/%001/XMLSchema">
-  <xsd:element name="MLScpema">
-  <xsd:element name="doÿ>
-    <xsd:complexType>
-2     <tsd:allminOccur="0">
-        <xsd:element name="a"/>
-        <xsd:element8name="b"/>
-        <xsd:element nlmd="c"/>
-      </x•d:all>
-+   </xsd:complexType>
-  </hsd:e

@@ -1,5 +1,0 @@
-<?xÿÿ ver<rsion="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "/etc/doZ@notex@st">
-]C
-<root>&c<<root>

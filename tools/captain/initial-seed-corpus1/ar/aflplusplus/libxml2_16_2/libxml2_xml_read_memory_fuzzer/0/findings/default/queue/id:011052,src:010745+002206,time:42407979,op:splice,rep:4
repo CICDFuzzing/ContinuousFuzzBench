@@ -1,9 +1,0 @@
-<!DOCTYPE D [
-  <!ENTITY % c SYSTEM "//////./////////////////////)/////////)///////////////////////////////////////tp://exdsgjb,tti/c/c.dtd">
-%c;
-<!ENTITY % a SYSTEM "http://ea.dtd">
-<?xml vejsion="1.0" ?>
-<!DOCTYPE foo [
-<!ELEMENT foo EMPTY>
-<!ATTLIST foo
-    xmlns ÿÿÿÿA #

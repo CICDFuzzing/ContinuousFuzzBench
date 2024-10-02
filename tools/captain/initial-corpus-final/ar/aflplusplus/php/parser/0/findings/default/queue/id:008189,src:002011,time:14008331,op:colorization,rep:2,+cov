@@ -1,0 +1,9 @@
+<?php
+
+namespace enum {
+class Foo	{}
+}
+
+namespace	foo {
+			 class Bar	{}
+ 			class	enum exte

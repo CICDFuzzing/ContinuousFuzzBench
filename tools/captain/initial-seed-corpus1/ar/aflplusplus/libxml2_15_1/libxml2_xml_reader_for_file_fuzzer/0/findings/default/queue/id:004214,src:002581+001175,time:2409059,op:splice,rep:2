@@ -1,6 +1,0 @@
-ENT doc ((a | b)* , c+, a, b?, c, a?)>
-<!ELEMENT a EOPTY>
-<!ELEMENT b (#PCDATA)>
-<!ELEMENT c (#PCDATA)>
-]>
-<doc><a/><b/><a/><c/><c/><a/>

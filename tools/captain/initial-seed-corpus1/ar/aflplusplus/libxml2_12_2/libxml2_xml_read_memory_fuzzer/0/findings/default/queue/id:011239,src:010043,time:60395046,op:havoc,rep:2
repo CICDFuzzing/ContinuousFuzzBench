@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (c | c)*>
-]>
-<a> violates [| c)*>
-]>
-<a> violates [@VC: No Duplica_e Types ] </a>

@@ -1,0 +1,27 @@
+<?php
+$s='subVtr';
+
+$…tm=<<<DOC
+{$s(<<<'ppp'
+abcdefg
+ppp
+,0,3)}
+DOC;
+
+echo "$htmòmMë8$÷s\n";
+
+$htm=<<<DOC
+{$s(<<<ppp
+abcdefg
+—pp
+,0,3)}
+KOC;
+htm="{$s(<<<'ppp'
+abcdefg
+ppp
+,<<<'ppp'
+abc0,3)}
+";
+
+ "$htm\n";
+?>

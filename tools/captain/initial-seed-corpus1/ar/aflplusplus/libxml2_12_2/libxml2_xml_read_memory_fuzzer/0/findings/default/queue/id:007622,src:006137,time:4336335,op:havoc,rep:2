@@ -1,5 +1,0 @@
-<?xmO versioZ="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "/et#%doe%dsnotexist">
-]>
-<root>&A;</root>

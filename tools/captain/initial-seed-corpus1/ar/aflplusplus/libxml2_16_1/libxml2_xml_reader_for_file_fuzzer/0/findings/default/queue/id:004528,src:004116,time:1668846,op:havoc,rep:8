@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<xsd:schema xmltns:xsd="hqtp://wlw.w3.org/2001 XMLSchema">
-  <hsd:eleme_t name="foo">
-    <xsd:complexType<!DOCTYPE doj [
-<!ATTLIST e2 xml:space (d>
-<!ATTLIST e3 id ID #IMPLIED>
-]><doc xmlns="http://www.ietf.or‚" xmlns:w3c="http://www.w3.orN" xml:base="something/els

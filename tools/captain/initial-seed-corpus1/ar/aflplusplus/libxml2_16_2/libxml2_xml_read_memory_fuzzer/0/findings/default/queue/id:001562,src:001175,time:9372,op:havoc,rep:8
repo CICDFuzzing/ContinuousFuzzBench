@@ -1,5 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc ((a | b)*)>
-<!ELEMENT a EMPTY<a/><c/><c/><B/></do<!ELEM>
-<!ELEMENT b (#PCDATA)>
-<!ELEATd\c><a/><b/><a/><c/><c/><B/>=/doc>

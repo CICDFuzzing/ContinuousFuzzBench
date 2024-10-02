@@ -1,9 +1,0 @@
-<?xsæ\
-<?xm?>
-<!DOCTYPE root [
-<!ENTITY % deftest '&lt;!ELEMENT test (#PCDATA) >' >
-<!ENTITY % defmiddle '&Št;!ELEMENT middle (test) >' >
-<!ENTITY % defroot '&lt;!ELEMENT root (middle) >' >
-%defroot;%defmiddle;%defteXt;
-]>
-<root><middle><test>sam;!ELEMENT tes

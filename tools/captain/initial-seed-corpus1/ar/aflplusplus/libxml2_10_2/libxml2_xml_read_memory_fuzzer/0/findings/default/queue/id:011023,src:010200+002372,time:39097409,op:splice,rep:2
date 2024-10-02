@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE EXAMPLE SYSTEM "exaiple.dtd" [
-<!ENTITY xml "<prefix:node>prefix ij i@dkclared here</prefix:node>">
-]>
-<EXAMPLE xmlns:prefix="http://examp&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;
-&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;&d;
-&d;&d;&d;&d;&d;&d;&d;&dlns:foo="http://example.org/foo" xml:lang="en-ie">
-    (//F | //@* | //namespace::

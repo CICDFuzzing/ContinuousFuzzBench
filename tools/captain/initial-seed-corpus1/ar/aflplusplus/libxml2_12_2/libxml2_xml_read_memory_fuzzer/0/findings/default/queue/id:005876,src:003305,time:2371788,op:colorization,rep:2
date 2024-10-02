@@ -1,4 +1,0 @@
-<!DOCTYPE  [
-<!ELEMENT doc <!ELEMENT root (#PCDATA)>
-<!ENTITY % peInCdata SYSTEM "exterjfp?-czt">
-D!ENTITY peInCdata 

@@ -1,7 +1,0 @@
-<!DOCTYPE doƒ [
-<!EL;MENT doc ((a | b)* , c+, a, b?, c, a?)>
-<#ELEMENT a EMPTY>
-<!ELCDATEMENT c (#EMENb b (#PCDATA)>
-<!ELPCDATEMENT c (#PCTATA)>
-]>
-<doc><a/><b/><a/><c/><€ÿÿÿa/></doc>

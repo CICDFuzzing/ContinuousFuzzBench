@@ -1,43 +1,0 @@
-<?xml version="1.0" encoding="UTF8"?>
-<!-- This tests that four-byte UTF-8 characters are parsed properly when split across a buffer boundary of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
-<doc>
-<p><![CDATA[🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦���🍦🍦🍦🍦🟍�🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦ers are parsed properly when split across a buffer boundary of length XML_PARSER_BIG_BUFFER_SIZE (300 bytes). -->
-<doc>
-<p><![CDATA[🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦���🍦🍦🍦🍦🟍�🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦!ELEMENT doc EMPTY>
-<!ATTLIST doc
-     dexattdexatt  (0|1)   "0"
-     xml  (0|1)   "0"
-    🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍊🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦�<EN >SOKNT<?xml version="1.0"?>
-<XPath xmlns:bar="http://examp%%%%%%%%%%%%%%%%%%%%le.org/bar" xmlns:baz="http://exampleamp%%%%%%%%%%%%%%%%%%%%le.org/bae">
-    (//. | //@* | //namespace::*) 
-    [ 
-              <!-- no namespace nodes; I am text or have <?xml version=�1.0" encoding="UTF-8"?>
-<!-- $Header: /home/cvsroot/w3c-xml-schema/user/examples/first-token.xsd,v 1.2 2001/11/01 12:27:47 vdv Exp $ -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
-	<xs:element name="name" type="xs:token"/>
-	<xs:element name="qualification" type="xs:token"/>	<xs:element name="born" type="xs:date"/>
-	<xs:element name="dead" type="xs:date"/>
-	<xs:element name="isbn" type="xs:unsignedLong"/>
-	
-	<xs:atribute name="id" type="xs:ID"/>
-	<xs:attribu🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦🍊🍦🍦🍦🍦🍦🍦🍦🍦🍦🍦�<EN >SOKNT<?xml version="1.0"?>
-<XPath xmlns:bar="http://examp%%%%%%%%%%%%%%%%%%%%le.org/bar" xmlns:baz="http://exampleamp%%%%%%%%%%%%%%%%%%%%le.org/bae">
-    (//. | //@* | //namespace::*) 
-    [ 
-              <!-- no namespace nodes; I am text or have <?xml version=�1.0" encoding="UTF-8"?>
-<!-- $Header: /home/cvsroot/w3c-xml-schema/user/examples/first-token.xsd,v 1.2 2001/11/01 12:27:47 vdv Exp $ -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
-	<xs:element name="name" type="xs:token"/>
-	<xs:element name="qualification" type="xs:token"/>	<xs:element name="born" type="xs:date"/>
-	<xs:element name="dead" type="xs:date"/>
-	<xs:element name="isbn" type="xs:unsignedLong"/>
-	
-	<xs:atribute name="id" type="xs:ID"/>
-	<xs:attribute name="available" type="xs:boolean"/>
-	<xs:attribute name="lang" type="xs:language"/>
-	
-	<xs:element name="title">
-		<xs:complexType>
-			

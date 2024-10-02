@@ -1,6 +1,0 @@
-<?xml version='1.0' ?>
-<!DOCTYPE test [
-<!ENTITY ampproblem '4amp;'>
-]>
-<t a="&ampproblem;">a</t>
-J

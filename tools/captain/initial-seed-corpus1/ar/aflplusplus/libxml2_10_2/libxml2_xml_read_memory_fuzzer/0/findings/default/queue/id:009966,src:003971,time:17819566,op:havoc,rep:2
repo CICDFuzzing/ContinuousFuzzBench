@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPEoo [
-<!ENTITY c PUBLIC "bar" "8etc/doesno~exist">
-]>
-<roooot>&c;<t>&c;</root>

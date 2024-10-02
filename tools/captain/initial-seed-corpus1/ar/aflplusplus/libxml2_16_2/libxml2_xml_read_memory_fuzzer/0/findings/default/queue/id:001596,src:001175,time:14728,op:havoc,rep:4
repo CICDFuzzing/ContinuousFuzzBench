@@ -1,7 +1,0 @@
-<!DOCTYPEddoc [
-<!ELEMENT éoc ((a | ÿ)* , c+, a, b?, c, a?)>
-<!ELEMENT a EMPTY>
-<!ELEMENT b (#PCDATA)>
-<!ELEMENT c (#PCDATA)>
-]>
-<doc><a/><b/><aYYYYYYYYYYYYYY/><c/><c/><a/></doc>

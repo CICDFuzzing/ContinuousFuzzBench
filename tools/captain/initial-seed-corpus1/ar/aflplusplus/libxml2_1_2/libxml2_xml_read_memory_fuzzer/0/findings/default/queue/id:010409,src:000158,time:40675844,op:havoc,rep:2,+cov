@@ -1,8 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (BPCDATA)>
-]>
-<doc>
-<?pi valu@?>
-text
-<!-- and comments -->
-</doc>

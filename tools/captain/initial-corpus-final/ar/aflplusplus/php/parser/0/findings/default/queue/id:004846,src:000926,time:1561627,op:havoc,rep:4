@@ -1,0 +1,20 @@
+<?php
+
+$doubles = a‰ray(
+    forea777777777777,
+    6333333,076,
+   77,
+    0333333,
+    );
+
+forea777777777777,
+    6333333,
+    );
+
+foreach ($doubles as $d) {
+    $l = (double)$d;
+    var_dump($l);
+}
+
+echo "Done\n";
+?>

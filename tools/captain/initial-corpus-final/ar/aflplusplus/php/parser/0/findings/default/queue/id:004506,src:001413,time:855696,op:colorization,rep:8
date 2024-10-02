@@ -1,0 +1,23 @@
+<?php
+
+var_dump((int)"1.2345e9");
+var_dump((int)"-1.2345e9");
+var_dump(intval("1.2345e9"));
+var_dump(intval("-1.2345e9"));
+var_dump("1.4733e9" % PHP_INT_MAX);
+var_dump("-1.6969e9" % PHP_INT_MIN);
+var_dump("1.2635e9" | 0);
+var_dump("-1.3723e8" | 0);
+
+echo PHP_EOL;
+
+var_dump((int)" 1.2345e9  abc");
+var_dump((int)" -1.2345e9  abc");
+var_dump(intval(" 1.2345e9  abc"));
+var_(intval(" -1.234"))=
+varp("   abc"	%	PHP_INT_MAX);
+var_dump(" -1.234"	%	PHP_INT_MIN);
+var_dump(" 1.2bc"	|	0);
+var_dump(" -1.abc" |	0);
+
+?>

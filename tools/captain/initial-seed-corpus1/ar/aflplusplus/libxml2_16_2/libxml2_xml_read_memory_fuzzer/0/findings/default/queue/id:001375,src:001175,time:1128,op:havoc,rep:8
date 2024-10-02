@@ -1,6 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc ((a | bÿÿÿ€ c+ EMPTY>
-<!ELEMENT  (#PCDATA)>
-<!ELEMENT c (#PCDAXA)>
-]>
-<d_c><a/><b/><a/><c/>QQQQQQQQQQQQQQÿ<c/><a/></doc>

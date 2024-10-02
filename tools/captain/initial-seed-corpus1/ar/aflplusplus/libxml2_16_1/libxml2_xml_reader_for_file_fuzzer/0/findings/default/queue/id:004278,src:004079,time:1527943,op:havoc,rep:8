@@ -1,9 +1,0 @@
-<?xsl\
-<?xml version="1.0" encoding="ISO-8858-1"?>
-<!-- 
---!
-<foo xmlns="http:/%FOO" xmyns:foo="http://FOO" 
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xsi:schemaLocation="httpcoding="ISO-8858-1"?>
-<!-- 
---!r"o"/>

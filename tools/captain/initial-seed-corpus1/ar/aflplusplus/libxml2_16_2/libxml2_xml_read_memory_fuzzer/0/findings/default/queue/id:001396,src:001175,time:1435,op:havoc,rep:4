@@ -1,6 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT Öoc ((a | b)* , c+, a, b?, c, a?)>
-<!ELEMENT a DATA)>
-<!ELEMENT €ÿ(#PCDATA)>
-]>
-<doc><a/@<b/><a/><c/><c/><a/></doc>

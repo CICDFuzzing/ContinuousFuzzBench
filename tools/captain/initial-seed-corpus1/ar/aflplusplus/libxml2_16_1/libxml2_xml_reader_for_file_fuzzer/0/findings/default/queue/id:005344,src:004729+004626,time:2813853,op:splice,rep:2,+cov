@@ -1,8 +1,0 @@
-<?xml vers}on="1.0"?>
-<xsd:schema xmltns:xsd="hqtp://www.w3.org/2001 XMLSchema">
-  <xcd:element name="foo"><?xml version="1.0"?>
-<xsd:schema xmltns:xsd="hqtp://www.w3.org/2001 XMLSchema">
-  <xsd:element name="foo">
-    <xsd:complexType<!DOC [
-<!ATTx%%%%%%%%%%%%/www.w3.orgeserve'A
-<!ATTLIST e

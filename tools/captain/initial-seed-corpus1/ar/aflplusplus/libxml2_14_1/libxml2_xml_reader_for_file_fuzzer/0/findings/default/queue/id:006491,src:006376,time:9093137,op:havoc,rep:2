@@ -1,17 +1,0 @@
-<?"?\
-<!DOCTYPE  somedoc [
-  <!ENTITY a   "s
-]<@okpfexc>
-
-$  <@okpfesome<edzf<$hi<g">
-  <!ENTITY b   "">
-]>
-
-<somedoc>
-
-$  sould raise an error, since in
-omedoc [
-  &b;"/>
-
-&a; &a;
-&b

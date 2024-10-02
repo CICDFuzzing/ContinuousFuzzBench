@@ -1,8 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doZ ((a | b)* , c+, a, b?, c, a?)>
-<!ATA)>
-<!ELEMENT c (#PCKATA)ELEMENT a EMPTY>
-<!ELEMENT b (#PCDATA)>
-<!ELEMENT c (#PCDATA)>
-]>
-<doc><a/><b/><a/>3c/><c/><a/></doc>

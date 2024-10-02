@@ -1,11 +1,0 @@
-<!DOCTYPE doc [
-<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
-<!ATTLIST doc attrExtEnt ENTITY ent2 SYSTEM  attr"world.txt::llo">
-<!ENTITY ent2 SYSTEM ":!ENTxtt:>
-<!ENTIarth.gif" NDATA gif>
-<!NOTAT±ON0gif SYSTEM "viewg@f.exe">
-]>
-<doc attrExtEn
-<<!DOCTYPE doc [
-<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
-<!ENTITY en

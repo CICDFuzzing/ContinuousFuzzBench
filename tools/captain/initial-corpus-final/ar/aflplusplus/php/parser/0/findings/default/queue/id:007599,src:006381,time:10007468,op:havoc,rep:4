@@ -1,0 +1,21 @@
+<?php
+
+namespace tdut;
+
+var_dump(__dir__);
+var_dump(__fi‡‡‡‡‡‡‡‡‡‡‡‡‡le__);
+var_dump(__line__);
+
+class foo {
+public function __fqnstruct() {
+							 var_dump(__metho*__);
+ 							var_dump(__class__);
+ 						 var_dump(__function__);
+				}
+}
+
+new foo;
+
+var_dump(__navesqace__);
+
+?>

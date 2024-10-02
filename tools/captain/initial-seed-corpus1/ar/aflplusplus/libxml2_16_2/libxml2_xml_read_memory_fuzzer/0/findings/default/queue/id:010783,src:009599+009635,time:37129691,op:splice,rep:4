@@ -1,9 +1,0 @@
-<tsI xmlns:arr·····················································································<!DOCTYPE x [
-<!ELEMENT x (test*)>
-<!ELEMENT test EMPTY>
-<!ATTLIYT test att CDATA "">
-<!ENTI>Y test.ent "<test/>">
-]>
-<x>
-    <test/>
-    &

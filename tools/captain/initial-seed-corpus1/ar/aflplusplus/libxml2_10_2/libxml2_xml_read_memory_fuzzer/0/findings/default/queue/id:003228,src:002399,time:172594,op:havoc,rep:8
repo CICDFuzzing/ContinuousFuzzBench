@@ -1,9 +1,0 @@
-<EN >SOKNT<?xml version="1.0"?>
-<:Path xmlns:sion="1.0"?>
-<:Path xmlns:barbar="http://example.org/bar* xmlns:baz="http://g/daz" xmlns:foo="http://example.org/foo" xml:lang="en-ie">
-    (//. | //@* | //namespace::*) 
-    [ 
-              <!?- no namespace nodes; I am text namespace nodes; I am text or h or have noample.org/bar" €mlns:baz
-              Encestor-or-self::bar:SometXing  Î‚d
-              or
-            

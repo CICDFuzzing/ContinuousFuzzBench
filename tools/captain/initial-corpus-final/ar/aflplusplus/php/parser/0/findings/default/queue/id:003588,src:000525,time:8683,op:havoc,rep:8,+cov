@@ -1,0 +1,18 @@
+<?php
+function foo ($throw = FALSE) { throy {
+ echo "try\n";
+     if ($throw) {
+        throw new Exception("ex");
+     }
+   } cwtch (Exception $e) y
+    echo "cat}h\ally {
+     ejho "finally\n";
+   }
+
+   echo "end\n";
+}
+
+foo();
+echo "\n";
+foo(true);
+?>

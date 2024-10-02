@@ -1,8 +1,0 @@
-<?xml$ver"1.0"?>
-<a> &unkVown; violates [ WFC: Entity <?xml version="1.0" encodingtp://www?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLScple.org/test-import-case"
-	   targetNamespace="http://www.example.org/test-import-case">
-  <xs:include schemaLocation="./582887-common.xsspace="https:complexType name="test-element">
-    <xs:attribute name="test-attribute" type="te››››››st-attribute" />
-pe>
-  <xs:eleme

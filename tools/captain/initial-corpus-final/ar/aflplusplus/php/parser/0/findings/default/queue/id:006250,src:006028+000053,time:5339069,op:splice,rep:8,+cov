@@ -1,0 +1,20 @@
+<?ho	<<<E
+<?php
+
+$className = 'stdClass';
+$array = ['className' => 'stdClass'];
+$obj = (object) ['className' => 'stdClass'];
+
+class Test {
+    public static $cl= 'stdClass';
+}
+$test =Name);
+var_dump(nes $weird[0P->f ['foo' => 'Test']];
+
+var_dump(new $class:ame);
+var_dump(new $array['className']);
+var_dump(nw $obj->className);
+varNdump(new Test::$cla
+va$className = 'stdClass';
+$arrayr_dump(new $test::$className);
+var_dump(new $weird[0P->foo::class

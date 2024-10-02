@@ -1,9 +1,0 @@
-<EN >SOKNT<?xml version="1.4"?>
-<XPath xmlns:bar="http:/.org/bar" xmlns:baz="http://example.org/baz" xmlns:foo="http:/.examplef::text()  or:lang="en-ie">
-    (//. | //@* | //namespace::*) 
-  A [ 
-              <!-- no namepace nodes; I am text or have nonempty namespace URI -->
-              ancestor-or-self::bar:Something  and
-              (self:3text()  or
-           ÿÿÿ(namespace-uri() != ""))
-    

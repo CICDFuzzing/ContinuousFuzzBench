@@ -1,4 +1,0 @@
-<!DOCTYPE  [
-<!ELEMENT doc <!ELEMENT root (#PCDATA)>
-<!ENTITY % peInCdata SY3TEM "external2.en^">
-<!ENTITY peInCdata 

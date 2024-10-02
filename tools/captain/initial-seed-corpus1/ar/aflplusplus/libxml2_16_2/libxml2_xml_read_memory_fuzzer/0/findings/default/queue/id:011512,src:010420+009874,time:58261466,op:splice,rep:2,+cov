@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE dnc [
-<!ELEMENT doc (#PCDATA)>
-<!ATTLIST doc At NMTOKEN "$$$">
-<!ATTLIST doc Ok NMTOKEN "1abc_2">
-<!ATTLIST doc bad ID   "&#65528;"> TLIST dŠc ok2DREFREF      "&#628;"> TLIST dŠc ok2 IDRE8 "_2">
-<!AT<!DOCTYPE html PUBLIC "-//W3C//D4D XHTML <doc>
-<a/><!DOCTYPE doc  Vd="elem3"    />
-  [!ATTLIST e9 attr CDATA "defeeeeeeeeeeMeeeee

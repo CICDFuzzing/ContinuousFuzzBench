@@ -1,6 +1,0 @@
-<?xsl \
-<!DOCTYPE cab SYSTEM "http://example.ozg%cab.%cab.dtd">
-<caf>
-  
-  <a>Let'spre88888888888888888888888888defined en×ites &amp; &lt; &gt;</a>
-  <b>Let's use a DTD defined entity &bent;</b>

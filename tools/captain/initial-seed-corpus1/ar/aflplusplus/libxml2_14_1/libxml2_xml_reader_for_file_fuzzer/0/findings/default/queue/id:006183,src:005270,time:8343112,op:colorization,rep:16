@@ -1,14 +1,0 @@
-<?xmlve.0" encoding="ISO-8859-1"?\
-<!DOCTYPE  somedoc [
-  <!ENTITY a>
-  <!ENTITY b   "&a;">
-]>
-
-<somedoc>
-
-<somebeacon someattribute="&a>)+>
-
-&a; should ar aomebeacgh	kiqff!f>	gv	cmifbdswkj@	)d>(a; should appear after colon: &b;
-&b after colon: &b;
-
-</vpnbdoc>

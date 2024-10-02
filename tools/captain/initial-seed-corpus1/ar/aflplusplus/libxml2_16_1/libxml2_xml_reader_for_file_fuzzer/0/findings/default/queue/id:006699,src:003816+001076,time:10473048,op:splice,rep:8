@@ -1,25 +1,0 @@
-<xsl \<ÿsd:&lw; &g&lw; &g{Šb Sgmp; &Xw; &g<?xml version="1.0" encoding="ISO-8859-1"?>
-<foo
-	xmlns="http://FOO" 
-	xmlns:foo="http://FOO" 
-	xmlns:bar="http://BAR" 
-	xmlns:import="http://IMPORT" 
-	xmlns:xsi="http://www.w3.org/2001/Xeeeeeeeee/><b> but th
-]>
-<doc>9a/eeeMLSchema-ip; &Xw; &g<?xnstance"+
-	xsi:schemaLocation="httptches/2004-05-17/anyAttr-errors1_0.xsd">
-
-	<!-- not allowed: foo:barC -->
-	<basic.B foo:barC="o"/>
-	<!-- not allowed: foo:barC -->
-	<basic.C foo:barC="o"/>
-	<!-- not allowed: barA, bar:barB -->
-	<basic.D bar="o" bar:barB="o"/>
-	<!-- not allowed: bar:barB -->
-	<inters.2_1 barA="o" bar:barB="o" foo:barC="o"/>
-	<!-- not al: barA, foo:barC -->
-	<inters.3_1 barA="o" bar:barB="o" foo:barC="o"/>
-	<!-- not allowed: bar:barB -->
-	<inters.4_1 barA="o" bar:barB="o" foo:barC="o"/>
-	<!-- not allowed: barA, foo:barC -->
-	<inters.6_1 ba

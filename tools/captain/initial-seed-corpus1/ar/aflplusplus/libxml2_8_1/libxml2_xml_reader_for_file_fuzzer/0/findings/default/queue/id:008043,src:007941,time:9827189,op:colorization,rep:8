@@ -1,8 +1,0 @@
- 26-1¢\><?<?xml vers'1.0'?>
-<!DOCTYPE test [
-<!ELEMENT test (#PCDATA) >
-<!ENTITY % xx '&#39<yz;'>
-<!ENTITY % zz '&#60N!ENTITY tricky "error-prone" >' >
-%xx;
-]>
-<test>cky; metho

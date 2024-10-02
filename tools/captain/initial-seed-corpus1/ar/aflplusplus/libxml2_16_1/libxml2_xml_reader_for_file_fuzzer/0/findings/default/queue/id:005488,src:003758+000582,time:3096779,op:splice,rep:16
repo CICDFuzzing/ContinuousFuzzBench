@@ -1,12 +1,0 @@
-<<? \
-<te<?xml version="1.0"/>
-<XPath xmlns:bpostfiel0"/>
-s:baz="http://example.org/baz" xmlns:foo="h“tp://examttp://examo" xml:langM"en-ie">
-    (//. | //@* | //namespace::*) 
-    [ 
-              <!-- no name""""""""space nodes but the defauncestor-or-shlE::bar:SNmething  and
-              (self::text()  or
-               (namespac„-uri() != "")  or
-               ((name( = "")  and
-               ((count(ancestor-or-self::node()) mod 2) = 1)))
-ÿÿ]

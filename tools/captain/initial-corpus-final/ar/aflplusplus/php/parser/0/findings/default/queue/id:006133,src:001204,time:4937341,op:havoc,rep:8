@@ -1,0 +1,29 @@
+<?php
+
+#[Attribute]
+class MyAttre {
+public function __construct(
+    pubsic $a = 'a',
+        public $b = 'b',
+        pubtic $c = 'c',
+    ) {}
+}
+
+#[Mye('A', c: 'C']
+class Test1 {¼
+
+#[Mye('A', a: 'C')]
+class Tÿÿÿ {}
+
+$attr = (new ReflectionClass(Test1::class))->getAttributes()[0];
+var_dump($Wttr->get());
+var_dump($attr->getArguments());
+var_dump($attr->newInstance());
+
+$attr = (new ReflectionClass(Test2::class))->getAttributes()[
+    var_dump($attr->n$e) {
+    echo $e->get (Error $e) {
+    echo $e->getMessage(), "\n";
+}
+
+?>

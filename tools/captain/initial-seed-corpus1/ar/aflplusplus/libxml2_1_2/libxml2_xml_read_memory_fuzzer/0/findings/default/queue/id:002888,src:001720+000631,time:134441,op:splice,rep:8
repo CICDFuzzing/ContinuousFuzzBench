@@ -1,11 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (TY>
-<!ELEMENT dest EMPTY>
-<!ATTLIST src ref IDREF #IMPLIED>
-<!ATTLIST des<?xml version="1.0"?>
-<XPath xmlns:bar="http://example.org/bar" xmlns:baz="http://example.org/az" xmlns:foo="http://example.or}}}}}}}}}}}}}}}}}}}}}}}}}}}}}g/foo" xml:lang="enie">
-    1//. € //@* | //namespace::*) 
-    [
-              <!-- only name–pace nodes -->
-              ancestor-or-self::bar:Something  and
-     ST src ref IDnt(parent::n

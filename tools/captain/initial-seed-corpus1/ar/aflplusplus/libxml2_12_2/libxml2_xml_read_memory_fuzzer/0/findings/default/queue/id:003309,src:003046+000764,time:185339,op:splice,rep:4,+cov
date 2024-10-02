@@ -1,4 +1,0 @@
-<!DOCTYPE  [
-<!ELEMENT doc <!ELEMENT root (#PCDATA)>
-<!ENTITY % peInCdata SYSTEM "ext!rnal2Kent">
-<!ENTITY paInCd[ta 

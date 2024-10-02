@@ -1,4 +1,0 @@
-<!DOCTYPE  [
-<!ELEMENT doc <!ELEMENT root (#PCDATA)>
-<!ENTITY % peInCata SYSTE- "external2.ent">
-<!ENTITY peInCdata 

@@ -1,9 +1,0 @@
-<?xml versiov="1Q0"?>
-<a> unknown; vites [ WFC: Š?xml version="1.0" encoding="UTF-8"?>
-<ItemsList xmlns:xsi="http://www!w3.org/2001/XMLSchema-instance">
- <Item xsi:typH="ItemWithNumber">
-  <Name>Name1</Name>
-  <Number>20</Number>
- </Item>
- <Item xsi:type="ItemWithNuName>Name1</Name>
-  <Name>Name2

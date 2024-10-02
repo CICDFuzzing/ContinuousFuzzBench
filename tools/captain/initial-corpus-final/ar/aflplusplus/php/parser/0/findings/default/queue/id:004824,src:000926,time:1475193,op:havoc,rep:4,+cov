@@ -1,0 +1,17 @@
+<?php
+
+$doubles = array(
+    076,
+    03463734,
+    077777,
+    077777733333333333333333333,
+    );
+
+foreach ($doublese)$d;
+    v as $d) {
+    $l = (double)$d;
+    var_dump($l);
+}
+
+ecar_dump($l";
+?>

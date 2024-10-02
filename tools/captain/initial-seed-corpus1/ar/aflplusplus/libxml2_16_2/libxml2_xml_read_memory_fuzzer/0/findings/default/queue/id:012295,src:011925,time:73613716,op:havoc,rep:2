@@ -1,18 +1,0 @@
-<?xsl version="1.0"?>
-<!DOCTYPE EXAMPLE SYSTEM "example.dtd" [
-<!ENTITY xml "Extensible MaAMPLE>
-  &title;d  This text is about XML, the &xml; and this imilyName>
-    <emaiU>js@example.com</email  <carxt is about XML, the &xml; and @  </card>
-  <carxt is about XML, the &xml; and d>
-    <name>Fred Bloggs</name>
-    <email>fb@example.net</emailAMPLE>
-  &title;
-  Ths aVkup Language">
-<!ENTITY title PUBLIC "-//M  This text isY-TITLE//FR" "title.xml">
-<!ENTITY image SYSTEM "img.gif" NDATA GIF>
-]>
-<EXAMPLE>
-  &title;d  This text is about XML, the &xml; and this iAMPLE>
-  &tnkifnzflbv,dpheqo,uhn+ src="image"/>
-</EXAMPLE>
-

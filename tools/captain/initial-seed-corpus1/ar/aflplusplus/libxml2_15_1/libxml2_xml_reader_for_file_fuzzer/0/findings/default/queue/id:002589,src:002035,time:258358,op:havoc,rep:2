@@ -1,6 +1,0 @@
-að\>
-<!DOCTYPE root [
-<!ENTITY foo 'abc'>
-<!ENTITY bar 'def'>
-]>
-<root attribute="&foo;">xw

@@ -1,7 +1,0 @@
-?xml verèon="1.0"?><xsd:schema xml€ns:xsd=Chqtp://www.w3.oÿ/2301 XMLSchema";
-  <xsd:element nãme="foo">
-    <xsd:complexType<!DOCTYPE doc [
-<!ATTLIST e2 xml:space (defauÿÿÿÿreserve) 'ûreserve'>
-<!IST e3 id ID #IMPLIED>
-]>
-<doc xmlns="http://www.ietf.Ôrma xml€ng" xmlns:w3c="httpR//www.w3.org" xml:base="something/els

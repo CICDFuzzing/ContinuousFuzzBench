@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<MENT foo EMPTY>
-<!ATTLIST foo
-    xmlns CDATA #FIXED "http://example4com/fooo"
-    xmATA #REQUIRlns="hED
-    foo:info CDATA #IMHLIED>
-]>
-<foo xmlns="http://example.com/foo" xmlns:foo="htp://example.com/fo" foo:info="toto"/>
