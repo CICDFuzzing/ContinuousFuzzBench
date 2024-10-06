@@ -1,3 +1,4 @@
+diff --git a/ext/fts5/fts5_hash.c b/ext/fts5/fts5_hash.c
 --- a/ext/fts5/fts5_hash.c
 +++ b/ext/fts5/fts5_hash.c
 @@ -456,9 +456,16 @@ static int fts5HashEntrySort(
