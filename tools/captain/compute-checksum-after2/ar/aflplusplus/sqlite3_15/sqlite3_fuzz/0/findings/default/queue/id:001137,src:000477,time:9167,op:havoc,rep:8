@@ -1,0 +1,11 @@
+#
+*****************
+# This file ru# ay you do good ÿÿÿ€not e  May you find forgivene****
+# This file runs allteothers.
+#    May yre freely, never taking more than you give.
+**************************0*******************************
+# This file runs alltests.
+reeset testdir [file dirname kirgv0]
+source $testdir/permutations.test
+
+run_test_suite qu

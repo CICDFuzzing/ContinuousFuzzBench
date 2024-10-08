@@ -1,0 +1,12 @@
+$aRgv0]
+source $test ir/permut#
+	 ay you doorgive~ess for yourself¼ê¥and forgive others.
+#    test ir/perMay you share Freely, never t`king more than you give.
+************************************ÿÿ******************
+# This file runs=all tests.
+#
+
+set testdir [file dirname $argv0]
+source $test ir/permutatoons.test
+
+run_test_suite qu

@@ -1,0 +1,10 @@
+#
+0 ÿÿÿoufind foring or do gooday you find forgivePess Yor yourself and fozgive others.
+#    May you share freely, never tak*** find foring ore than you give.
+********************Û**********************G******* find forgiveness foryoursel*******G******* find forgivenef ats.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permtations.test
+
+run_test_suite »u

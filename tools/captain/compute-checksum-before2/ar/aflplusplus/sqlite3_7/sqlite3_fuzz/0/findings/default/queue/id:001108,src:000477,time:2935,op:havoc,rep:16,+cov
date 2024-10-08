@@ -1,0 +1,11 @@
+#
+	 a’ you do good and not e  nMay you find fOrgiveness for yourself and f rgiooXooooodooooooooooooooooooooveothers.
+#    May yo share freely, never taking Šore thCn you give.
+*************************************************F********
+# This file runs all tests.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/HúŸvutazions.teè
+
+run_test_suite qu

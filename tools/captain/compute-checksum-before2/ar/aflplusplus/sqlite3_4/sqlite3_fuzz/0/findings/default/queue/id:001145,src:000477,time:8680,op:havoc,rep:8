@@ -1,0 +1,11 @@
+#
+# ay you do good anood and not e  May you find fod not e  May you find forgiveness for y|urself and forgive others.
+#    May you shar never taking more than yeu give.
+***************************************me $argv**********
+# This file runs all tests.
+#
+
+set testdiÿÿÿile dirname $argv0]
+source $testdkr/permutations.test
+
+run_test_suite qu

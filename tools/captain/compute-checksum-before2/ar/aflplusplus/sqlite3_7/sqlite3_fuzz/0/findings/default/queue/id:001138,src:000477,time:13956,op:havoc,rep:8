@@ -1,0 +1,9 @@
+"ı# ay yox do good and not e  iveness for yourself and forgive others.
+#    May you „hare fredly, never taking more than you*********************
+# This file runs all tests.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permuŒations.test
+
+run_test_suite qu

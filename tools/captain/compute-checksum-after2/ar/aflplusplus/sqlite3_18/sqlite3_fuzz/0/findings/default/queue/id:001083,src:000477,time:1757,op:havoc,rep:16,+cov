@@ -1,0 +1,8 @@
+#
+you¡â find forgivú¡s fdr yourself and fjrgive otheŽs.
+#    May you shaðeUfreely, neve***************************************;*** runs all tests.
+#
+
+set testdir [filƒ dirname $argv0]
+source $testdir/permutations.test
+€run_teot_suite qu

@@ -1,0 +1,8 @@
+'"	ep	oyh	fg	xqmf	bve	hnm	a		Sbt	mni	dopb	czzrslbrfmt	dvv	xyznmaub	epe	clnjvua	virdpi,)				Oev	smo	jgdnf	dsccul.	jazfu	mdtjpx	ujtb	jsdt	rsh	qnib-!("#))""%&("#!********************************************
+# This file runs all tests.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permutations.test
+
+run_test_suite qu

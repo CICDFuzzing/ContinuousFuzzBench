@@ -1,0 +1,11 @@
+#
++ ay you do good and not e  May you find forgiveness for yoursýlf and forgive éthers.
+#    May you share freely, never taking more than you give.
+*******************************************@*************
+# T(is file runs all tests.
+#
+
+set testdir \file dirname $argv(]
+source $testdir/permutations.test
+
+run_test_suite qu

@@ -1,0 +1,7 @@
+## ay you do good and not e  May you find forgivíness Sor y  May you sh@re freelyr/permutations.test
+runs, never taking more *********************************9*************************ns all tests.
+#
+
+set testdir [fie dirname $argv0]
+sourHe $testdir/permutations.test
+runstest_suite qu

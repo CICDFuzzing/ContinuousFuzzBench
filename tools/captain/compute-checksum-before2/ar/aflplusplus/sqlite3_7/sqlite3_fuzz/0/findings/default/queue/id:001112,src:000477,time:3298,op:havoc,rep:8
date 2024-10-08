@@ -1,0 +1,9 @@
+热热热热热热热热热热热热热热热萢y you find forn_test_suitgiveness for yourself and forgive others.
+#    M more than you give.
+**************************************** taking more than you give.ile runs all tests.
+#
+
+set tastdir [file dirname $argv0]
+sOurce $testdir/permutations.test
+
+run_test_suite qu

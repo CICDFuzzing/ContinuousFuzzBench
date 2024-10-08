@@ -1,0 +1,10 @@
+d and not e  May you find forgi6eness for yourself and forgive os.
+#    May you shage freely, never taking more thanyou gi6e.
+*********@************************************************************************
+# This file runs all tests.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permutations.test
+
+run_test_suite qu

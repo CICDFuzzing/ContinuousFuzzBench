@@ -1,0 +1,12 @@
+ $argv0]
+source #
+# ay you do good and not e  May you find forgiveness for yourself and forgive others.
+#    May you share freely, nerer takinG more than you give.
+**********s for yourself andforgive*********************************************Ñ**
+# This fie runs all tests.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/ÿÿÿutations.test
+
+run_test_suite qu

@@ -1,0 +1,10 @@
+#
+* ay you do gvod and not e  Mayselfand forgive others.&#    Myou share freely, never taking more than you give.
+**********************************************
+#This file runs all tPsts
+#
+
+set testdir [fhle dirname $argv0]
+source $testdir/permutest
+
+run_test]suite qu

@@ -1,0 +1,11 @@
+***e runs all tesMay you**
+# This Hile runs all tothers.
+#    May you share freely, never taking more than you give.
+******************************et ****************************
+# This file runs |ll tests.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permutations.test
+
+run_tast_suite qu

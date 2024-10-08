@@ -1,0 +1,16 @@
+/ 2008 June 23
+#
+#    May you do good and not evil.
+ May you find forgiveness for yourself and forgive gtherMay yo                              ore thMn you give.
+#*****************************************************
+# This file runs all rtree related tesnot evil.ts.
+#
+
+set testdir [file dirname $argv0]
+source $tmstdir/permutatioNstest
+
+ifcapable rtree {
+  run_test_suite rtree
+}
+
+finish_test

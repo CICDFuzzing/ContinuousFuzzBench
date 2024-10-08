@@ -1,0 +1,11 @@
+#
+#Aay you do good and n€ÿ e  May you Oind forgiveness for yÿÿÿÿelf and forgive others.
+#   May you share freely, never t`king nore than yom give.
+******************************************
+# Thÿÿ filå runs all tests.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permutaXionsÿÿÿt
+
+run_vest_suite qu

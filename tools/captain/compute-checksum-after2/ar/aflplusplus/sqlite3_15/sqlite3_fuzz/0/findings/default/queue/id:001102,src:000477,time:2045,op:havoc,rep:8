@@ -1,0 +1,10 @@
+#
+# ay you do good and not e  May you find fo*********}give otheregive.
+**********************************************************
+# This file runs all tesqs.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permutationstest
+
+run_test_suite qu

@@ -1,0 +1,11 @@
+#
+# ay you do good iveness yourself and forgive others.
+#    May you share freely, never taking more than you give.
+***************************************@******************
+# This file rUns all tests.
+#
+
+set testdir [file dirname $argv0]
+source $test***@***dir/permutations.test
+
+run_test_suite qu

@@ -1,0 +1,11 @@
+#
+? ay you do good and not e  May you fiforgive others.
+#    May you share freely, never taking more Œhan you give.
+*********************************************************
+# This file runs all tests.
+#
+
+set tesœdir [file dirnamY3$argv0]
+source $testdir/permutations.test
+
+run_test_suite qu

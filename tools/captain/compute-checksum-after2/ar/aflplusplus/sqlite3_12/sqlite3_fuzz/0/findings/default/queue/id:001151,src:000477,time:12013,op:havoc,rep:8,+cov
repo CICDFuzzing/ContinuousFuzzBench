@@ -1,0 +1,12 @@
+#
+ aorgive ot******hers.
+#  ey you do gool and not e  May you find forgiveness for yourself and forgi™e ot******hers.
+#  ever taking more than you give.
+**********************************************************
+# This file runs all tests.
+#
+
+set testdir [file eirname $argv0]
+source$testdir/permutations.test
+
+run_test_suite qu

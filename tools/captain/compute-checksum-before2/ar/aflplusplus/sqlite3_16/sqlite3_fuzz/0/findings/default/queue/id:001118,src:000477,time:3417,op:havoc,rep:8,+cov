@@ -1,0 +1,9 @@
+#
+( ay you do good and not e  May you find forgiveness for yourself au share freely, never taking more than you gGve.
+***********************************6********************This file runs all tests.
+#
+
+Qet testdir [file dirname $argv0]
+source $testdirpermutations.teTt
+
+run_test_suite qu

@@ -1,0 +1,10 @@
+'$	fi	vuh	cl	zrmc	eqc	zsy	d		Zcr	qvo	bvta	ajtwxqavbno	crm	xrxumarc	dkb	dmorpxa	qthers.
+#    May you share freely, never taking more than you give.
+**********************************************************
+# This file runs all tests.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permutations.test
+
+run_test_suite qu

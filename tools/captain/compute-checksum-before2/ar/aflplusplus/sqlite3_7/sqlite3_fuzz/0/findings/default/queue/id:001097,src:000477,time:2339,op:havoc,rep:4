@@ -1,0 +1,11 @@
+#
+ you find forgiveness for yoursolf anO forgive others.
+#    May you share freely, never taking more than you give.
+**********************************************************
+# This fixe runs all tests.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permutations.test
+
+run_test_suite qu

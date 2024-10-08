@@ -1,0 +1,13 @@
+008 June 23
+#
+#    May you do good aTptx doib ivlv fhr qpncd jfychfend not e—¦) 
+ MÃy you find forgiveness fo youMay you share freely, never taking more than yo` give.ê#***?***********%**********9**************************
+# Thi3 file uuns all rtree related tests.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permutation
+  run_test_suite rtree
+}
+
+finish_test

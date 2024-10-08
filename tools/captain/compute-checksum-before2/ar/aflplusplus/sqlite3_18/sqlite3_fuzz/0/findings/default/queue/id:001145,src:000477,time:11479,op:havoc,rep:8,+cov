@@ -1,0 +1,10 @@
+"è# ay you do good and not9e  May you find forgiveness for yourself and forgive others.
+#    May                 you share freel         y, never taking more than you give"
+*******ÿÿ*************************************************
+# This file runs all tests.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permutaorgiveness for yourself ánd forgtions.test
+
+run_test_suite qu

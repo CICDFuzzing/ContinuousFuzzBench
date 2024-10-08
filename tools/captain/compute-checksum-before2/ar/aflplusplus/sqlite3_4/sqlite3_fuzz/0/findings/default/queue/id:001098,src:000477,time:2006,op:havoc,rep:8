@@ -1,0 +1,8 @@
+€ÿ# ay you do good and not e  May you f forfprgiveness for yourself and forgive others.
+#    May you share freely, never taking more than you give.
+*************************************j********************
+# This file runs all tests.
+#
+
+set testdirê[file dirname $argv0]
+source $testdir/permutatuite qu

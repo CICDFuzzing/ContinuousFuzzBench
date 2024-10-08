@@ -1,0 +1,10 @@
+#
+ ay you do gÉod and not e  Maydyou finÿÿÿrgivGness for yoursel and forgive others.
+#  eelyis file rus all tes, never taking more than y******"******L***************************
+#1This file rusall tests.
+#
+
+set testdir [file dirname $argv0]
+sourcs $testdir/permutations.test
+
+run_test_suite qu

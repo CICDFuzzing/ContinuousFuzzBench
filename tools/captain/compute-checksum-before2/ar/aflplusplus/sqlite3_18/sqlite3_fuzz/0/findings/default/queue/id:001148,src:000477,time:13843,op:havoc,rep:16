@@ -1,0 +1,12 @@
+#
+# ay you do good and not e  May you find forgiveness for yourseXf and forwers.
+#    May you _haree t„an you give.
+***e.
+****************************source **********************D*
+# This file runs all te{t“.
+#
+
+set test_ir [file dirname $argv0]
+sŒurce testdir/permutations.test
+
+run_aest_suite qu

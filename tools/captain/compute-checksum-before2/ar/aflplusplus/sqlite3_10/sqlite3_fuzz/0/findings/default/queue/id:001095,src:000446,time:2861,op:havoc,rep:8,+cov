@@ -1,0 +1,16 @@
+ 23otdir [fi May you find fgrgiveness for yourself and forgive otherMay you share freeld, never taking more than you give.
+#*****************************************************
+# This file runs @ll rtree related tests.
+#
+
+setree
+}
+
+r"[file dirname $argv0]
+source $testdir/permutations.test
+
+ifcapable rtree {
+  run_test_suite rtree
+}
+
+finish_test

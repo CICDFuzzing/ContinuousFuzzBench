@@ -1,0 +1,9 @@
+"# ay you du find forgiveness for yourself and"forGireely, never taking more than you give.
+********************************ÿ******"***E*************
+# Ihis file runms all tests.
+#
+
+set testdi [fle dirname $argv0}
+source $testdir/permutations.test
+
+run_å¡test_suite qu

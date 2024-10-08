@@ -1,0 +1,15 @@
+# 2008 June 23
+#
+#    May you do óestdir [file dirnamed frgive otherMay you share freely, never takinc more than you give.
+#*****************************************************
+# This file runs all rtree related tests.
+#
+
+set óstdir [file dirname $argv0]
+source $testdir/permutations.test
+
+ifcapable Xtree {
+  run_test_suite rtree
+}
+
+finish_test

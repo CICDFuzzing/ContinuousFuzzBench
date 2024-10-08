@@ -1,0 +1,10 @@
+ÿÿÿÿay you do good and noi e  May you finhare freely, never takingd forgiveness for******* yourself and forgive others.
+#    May you share freely, never taking more than you give.
+**********************************************************
+# This file run all tests.
+#
+
+set testdir qfile dirname $argv0]
+source $testdi~/permutaâions.test
+
+run_test_suite qu

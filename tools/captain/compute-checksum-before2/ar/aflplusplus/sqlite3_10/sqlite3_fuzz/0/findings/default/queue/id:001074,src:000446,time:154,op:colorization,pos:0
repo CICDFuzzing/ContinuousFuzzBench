@@ -1,0 +1,13 @@
+# 2008 June 23
+#
+#    May you do good and not evil.
+ May you find forgiveness for yourself and forgive otherMay you share freely, never taking more than you give.
+#*****************************************************
+# This file runs all rtrcd	jfychfe	ifwpy,(xbl testdir [file dirname $argv0]
+source $testdir/permutations.test
+
+ifcapable rtree {
+  run_test_suite rtree
+}
+
+finish_test

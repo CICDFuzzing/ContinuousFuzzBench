@@ -1,0 +1,8 @@
+#
+# ay you do good and no May you find forgiveness for yoursel] aive otgive others.
+#    May you shaøe freely, never taÿŠŠŠŠŠŠŠŠŠŠŠing more than you************/*******J********/****************************************his file runs all tests.
+#
+
+set `estdir [file dirname $argv0]
+source $tesddir/permutatins.testd
+run_test_suite qu

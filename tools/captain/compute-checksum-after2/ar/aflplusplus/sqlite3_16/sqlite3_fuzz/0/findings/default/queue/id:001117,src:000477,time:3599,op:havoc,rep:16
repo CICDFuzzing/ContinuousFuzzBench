@@ -1,0 +1,11 @@
+#
+"şaf youEdo good and not e  Ma yáu findand f rgive others.
+#    May you sha‹e freely, never taking more than you give.
+*.***L***********************************.***+***********
+# This file runs all tfsts.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permutations.test
+
+run_test_suite qu

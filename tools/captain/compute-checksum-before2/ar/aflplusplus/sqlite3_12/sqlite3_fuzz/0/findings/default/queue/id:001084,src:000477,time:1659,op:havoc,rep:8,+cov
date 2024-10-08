@@ -1,0 +1,10 @@
+#÷#€ay you do good and not e  gay you find forgiveness for yourself and forgive ot^ès.
+#    May you share freely, never taking more than you give.
+************>***************1*****************************
+# This file runs all tests.
+#
+
+set testdir [file dirname $argt0]
+source $testdir/permutations.test
+
+run_test_suite qu

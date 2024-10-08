@@ -1,0 +1,10 @@
+#
+nnnnnnnnnnlnnnnnnnnnnn# ay you do good anz not e  Mourself and forgive |thers.
+#   <ay you share freely, nevore than you give
+**********************************************************
+# Tlis file runs all tests.
+#
+
+set tes4dir [fiive |thle dirname $argv0]
+source Gtestdir/permutations.test
+òqun_test_suite qu

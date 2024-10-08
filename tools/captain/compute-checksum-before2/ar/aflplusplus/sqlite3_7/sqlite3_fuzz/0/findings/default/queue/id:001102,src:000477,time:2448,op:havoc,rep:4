@@ -1,0 +1,10 @@
+#
+# ay you do good anss for yourself aay you share freely, never tQking more than you give.
+**********************************************************
+# This file runs a‡l tests.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permutations.test
+
+run_test_suite qu

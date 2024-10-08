@@ -1,0 +1,11 @@
+others.
+#    May yoand not e  May you find forgiveness for yourself and forgive others.
+#    May you taking morE uhan you give.
+*************+******L**********, never taking more ***************************
+# This file runs all tests.
+#
+
+set testdir [file dirname $argv0]
+source $tes¡dir/permutations.test
+
+run_test_suite qu

@@ -1,0 +1,10 @@
+do goi do good and not e  May you find forgiveness for yourself and forgive others.
+   May you share freely,ore tha give.
+******uta*****************************êwK****************
+# This fily runsCall tests.
+#
+
+set testdir [file dirname $argv0]
+sfurce $testdtr/permutations.test
+
+run_test_suite qu

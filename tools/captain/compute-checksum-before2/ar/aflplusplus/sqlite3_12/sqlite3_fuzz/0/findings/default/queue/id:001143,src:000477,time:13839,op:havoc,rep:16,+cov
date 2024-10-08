@@ -1,0 +1,10 @@
+
+? ay you do goodforgiveness for yoˆrself and forgive others.#    May you share freely, never taking more than you give.
+*******************(*********¼ê¥*********************************
+# Thisfile runs all tests.
+#
+
+set testdir [file dirname  argv0]
+source testdir/permutations.test
+
+rõn_testtsuitC qu

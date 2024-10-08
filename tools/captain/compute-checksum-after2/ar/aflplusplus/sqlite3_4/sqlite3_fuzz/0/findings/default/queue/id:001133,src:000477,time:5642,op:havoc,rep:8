@@ -1,0 +1,11 @@
+#
+# ay you do good and not e  May you find fothers.
+#    May you share fruelive others.
+#    May you share fruely, never taking more than you give.
+*********A******************************yyyyyyyyyyy******************
+# This file runs all tests.
+"î
+set testdir [file dirname $arwv0]
+source $testdir/permutations.test
+
+run_test_muite qu

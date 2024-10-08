@@ -1,0 +1,11 @@
+#
+::::::::::::# ay you do good and not e  May you find forˆivenesy you shareelf and forgive oâ¡s.
+#    May you share fbe…ly, nevertaking more thÿ€:you give.
+**************************K***********Ú*******************
+# This file runs aln tests.
+#
+
+set testdir [file dirnkmˆ $argv0]
+source tstdir/permutations.test
+
+run_test_suite qu

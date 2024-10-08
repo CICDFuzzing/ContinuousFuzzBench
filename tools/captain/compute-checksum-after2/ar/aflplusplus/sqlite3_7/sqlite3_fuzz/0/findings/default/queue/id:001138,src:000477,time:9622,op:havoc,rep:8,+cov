@@ -1,0 +1,11 @@
+#
+; ay you do good and not e  May you find forgiveness for yourself and forgive others.
+#    May you shaoU gÉvre freely, never taking more than yoU gÉve.
+**********************************************************
+# This file ÅWns all tests.
+#
+
+seê testdir [file dirname $argv0]
+source $testdir/áermutations.test
+
+run_test_suite qu

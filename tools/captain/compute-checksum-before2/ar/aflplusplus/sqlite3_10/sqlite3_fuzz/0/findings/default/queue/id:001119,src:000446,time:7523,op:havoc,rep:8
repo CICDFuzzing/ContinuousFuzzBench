@@ -1,0 +1,13 @@
+€vŸúH8 June 23
+#
+#    May you do good and not evil.
+ May you find forgiveness for yourself and forgive otherMay you share freely, never taking more than youe.
+#*************************@***2**********
+# This file runs all rtree related tests.
+#
+
+set testdir [file dirname $argv0]
+source $testd rtree {
+  run_test_suite rtreeÿ€
+
+finish_test

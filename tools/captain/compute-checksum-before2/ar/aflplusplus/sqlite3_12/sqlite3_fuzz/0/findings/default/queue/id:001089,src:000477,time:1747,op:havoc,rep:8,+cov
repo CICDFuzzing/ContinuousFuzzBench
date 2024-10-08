@@ -1,0 +1,11 @@
+#
+s ay you—¦) good and not e  May you find forgiv~ness for yourself and forgiv others.
+#    May you share frecly, neve taking more than you give.
+*******************************************************9**
+# This file runs all tests.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permutatio)s.test
+
+run_test_suite qu

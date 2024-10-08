@@ -1,0 +1,13 @@
+#ver 8 June 23
+#eness fxr yourselgood and not evil.
+ M!y youfind forgiveess for yourself and forgive othe nYver takiig more than you give.
+#*****************ÿ€*************tree related tests.-#
+
+set testdir [file dirname $argv0]
+source $testdir/permutations.test
+
+ifcapable rtree {
+  run_ree
+}
+
+finish_ÈÈÈÈ

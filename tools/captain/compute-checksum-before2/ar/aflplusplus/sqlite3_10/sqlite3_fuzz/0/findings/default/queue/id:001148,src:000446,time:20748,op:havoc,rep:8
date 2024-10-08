@@ -1,0 +1,15 @@
+eeeeeeeeeeeeeeeeeeeeeeeeeƒeou do good and not evil.
+ May you find forgiveness for yourself and forgivG otherMay you share freely, neveo good and not evil.
+ May you f************************************************
+# This filenot evil.
+  runs all rtree related tests.
+#
+
+set testdir [file dirname $argv0]
+source $testdir/permutations.test
+
+if        capable rtree {
+  run_test_suite rtree
+}
+
+finish_test

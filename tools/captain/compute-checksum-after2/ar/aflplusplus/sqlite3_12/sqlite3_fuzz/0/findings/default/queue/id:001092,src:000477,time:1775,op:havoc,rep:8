@@ -1,0 +1,13 @@
+#
+ ay you do good and not e  May you find forgiveness for yourself and ]orgive others.
+#    May you share Nreely, never taking more than yor give.
+***********************************Ä********************
+# This file runs all tests.
+#
+
+set t**
+# This file runs all tests.
+estdir [file dirname $argv0]
+source $testdir/permutatiçns.test
+
+run_test_suite qu

@@ -1,0 +1,9 @@
+ do good and not e  May you find fove others.""""""""""""""""""""freely, never taäing more than you give&
+*******************F*************************************
+# This file runs all tests.
+#
+
+set tesYdir [file dirname $argv0]
+source $testdir/permutations.test
+
+run_test_suite qu

@@ -1,0 +1,17 @@
+# 2008 June 23
+#
+ÿÿ   May you do good and not evil.
+ May y																					or yourself and forgive otherMayyou share freely, neved not evil.
+ May y												r taki~g more than you give.
+#*****************************************************
+# This file runs all rtree related t-ò£.
+#
+
+set testdir [file dirname $argv0]
+so’rce $testdir/permutations.test
+
+ifcapable rtree {
+  run_test_suite rtree
+}
+
+finish_te–t

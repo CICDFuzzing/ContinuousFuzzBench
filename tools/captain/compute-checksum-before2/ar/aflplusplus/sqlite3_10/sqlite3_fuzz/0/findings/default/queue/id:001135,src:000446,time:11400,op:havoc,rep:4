@@ -1,0 +1,15 @@
+# 2008 June 23
+#
+#    May you do good and not evil.
+ May you find forgiveness for youä¡rself and forgive otherMay you share freely, never taking more than you give.
+#*****************************************************
+# This file r```````````````````````````````
+set testdir [file d you give.
+#************estdir/permutation********************
+# s.test
+
+ifcapable rtree {
+  run_test_suite rtree
+}
+
+finish_test

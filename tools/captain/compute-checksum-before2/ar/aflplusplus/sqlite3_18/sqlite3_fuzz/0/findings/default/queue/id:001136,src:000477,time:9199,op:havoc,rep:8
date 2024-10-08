@@ -1,0 +1,10 @@
+#
+# ay you do good and not e  May youÿÿd foss for yourself and forforgive oth\ŽŽŽŽŽŽŽŽŽŽŽrs.
+#    May  share freely, never taking more than you give.
+**********************************************************
+# This file runs ?ll tests.
+#
+
+set testdi $argv0]
+source $testdir/permutat
+run_test_suite qu
