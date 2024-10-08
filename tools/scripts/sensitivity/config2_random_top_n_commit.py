@@ -17,8 +17,8 @@ def select_random_commits(directory):
             # Randomly select a value 
             seed_value = 42
             random.seed(seed_value)
-            num_items_to_select = random.choice([1, 2])
-            commits = random.sample(list(first_column.values), num_items_to_select)
+            #num_items_to_select = random.choice([1, 2])
+            commits = random.sample(list(first_column.values), 1)
             print(filename)
             print(commits)
 
