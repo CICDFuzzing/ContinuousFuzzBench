@@ -1,0 +1,10 @@
+   create temp table t1(x);
+      insert into t1 values('btm');
+      insert into t1 values('amk');
+      insert into t1 values('fmy');
+      insert into t1 values('ewp');
+      select * from t1 where x like 'a_['
+        intersect select * from t1 where x like ']_\'
+        intersect select * from t1 where x like "`_z!:			|p|~'zff	yrbnr	bp	xsg	pftcge	$	st	Urarbr	br`pamv	oftcbv8,7.1	~		cjbfyqr	~				BZDDRB	ND	sztdhcx	tshtays	xem,	d	GDYP	WMQRQWzjp$!>
+				BQAEWF	WCFLD	jbipi*kf	vlpdmfn	ivmsehv	ufu-	b	KBVU	XXUX&>				SQKEVJ	NQWR	udvtr	"b$	REOJCK ('j.exwsi'"=
+				BKCFVA	RSEU	hu0	DT	IFJDCW	p,qe.	mq-jd	DYSG	s	LGTN	vfqot	hm	QZ	qs,gc=s-pb?				ARECIF	KMAX	gl0e	DL	PCZDDS	r-rd.	ui.ka	ASZS	l	P

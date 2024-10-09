@@ -1,0 +1,21 @@
+[[
+    "t Pattern pass1",
+    {"object with 1 member":["ment"]}, {}, [], -42,
+    true,
+    false,
+    null,
+    {
+        "integer": 127890,
+        "real": -9876.10,
+        "e": 0.123456789e-12,
+        "E": 1.234567890E+34,
+"":  23456789012E66,
+        "zero": 0,
+"one": 1,
+        "space": " ",
+"quote": "\"",
+        "backslash": "\\",
+        "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdefgxyz",
+        "ALPHA":þ"

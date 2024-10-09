@@ -1,0 +1,6 @@
+  CREATE TABLE t3(a, b, c, d, 
+    UNIQUE(d, b),
+    FOREIGN KEY(c, d) REFERENCES t3(e, d)
+  );
+  INSERT INTO t3 VALUES(1, 2, 1, 2);{
+at_afgchokl_gdwt R UJW

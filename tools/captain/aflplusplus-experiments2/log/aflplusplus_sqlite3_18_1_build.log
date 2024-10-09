@@ -1,0 +1,687 @@
+++ id -u huicongh
+++ id -g huicongh
++ docker build -t magma/aflplusplus/sqlite3_18_1 --build-arg fuzzer_name=aflplusplus --build-arg target_name=sqlite3_18_1 --build-arg USER_ID=1002 --build-arg GROUP_ID=1002 --build-arg canaries=1 --build-arg isan=1 -f /home/huicongh/thesis/ContinuousFuzzBench/docker/Dockerfile /home/huicongh/thesis/ContinuousFuzzBench
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2.67kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:18.04
+#2 DONE 0.6s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 47B done
+#3 DONE 0.0s
+
+#4 [ 1/23] FROM docker.io/library/ubuntu:18.04@sha256:152dc042452c496007f07ca9127571cb9c29697f42acbfad72324b2bb2e43c98
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 40.04MB 2.9s done
+#5 DONE 2.9s
+
+#6 [11/23] RUN /magma/magma/preinstall.sh
+#6 CACHED
+
+#7 [ 3/23] RUN mkdir -p /home && 	groupadd -g 1002 magma && 	useradd -l -u 1002 -K UMASK=0000 -d /home -g magma magma && 	chown magma:magma /home
+#7 CACHED
+
+#8 [14/23] COPY --chown=magma:magma .//fuzzers/aflplusplus /magma/fuzzers/aflplusplus/
+#8 CACHED
+
+#9 [ 5/23] RUN mkdir -p /magma_shared /magma_out && 	chown magma:magma /magma_shared /magma_out && 	chmod 744 /magma_shared /magma_out
+#9 CACHED
+
+#10 [ 8/23] RUN mkdir -p /usr/lib/bfd-plugins/ && 	chown magma:magma /usr/lib/bfd-plugins/
+#10 CACHED
+
+#11 [10/23] COPY --chown=magma:magma .//magma /magma/magma/
+#11 CACHED
+
+#12 [ 7/23] RUN chown magma:magma /usr/local/
+#12 CACHED
+
+#13 [13/23] RUN mkdir -p /magma/fuzzers/aflplusplus && chown magma:magma /magma/fuzzers/aflplusplus
+#13 CACHED
+
+#14 [ 2/23] RUN apt-get update && apt-get install -y sudo vim
+#14 CACHED
+
+#15 [ 6/23] RUN chown magma:magma /usr/include/
+#15 CACHED
+
+#16 [12/23] RUN /magma/magma/prebuild.sh
+#16 CACHED
+
+#17 [15/23] RUN /magma/fuzzers/aflplusplus/preinstall.sh
+#17 CACHED
+
+#18 [ 9/23] RUN mkdir -p /magma/magma && chown magma:magma /magma/magma
+#18 CACHED
+
+#19 [16/23] RUN /magma/fuzzers/aflplusplus/fetch.sh
+#19 CACHED
+
+#20 [ 4/23] RUN	ECHO "magma:amgam" | chpasswd && usermod -a -G sudo magma
+#20 CACHED
+
+#21 [17/23] RUN /magma/fuzzers/aflplusplus/build.sh
+#21 CACHED
+
+#22 [18/23] RUN mkdir -p /magma/targets/sqlite3_18_1 && chown magma:magma /magma/targets/sqlite3_18_1
+#22 DONE 0.8s
+
+#23 [19/23] COPY --chown=magma:magma .//targets/sqlite3_18_1 /magma/targets/sqlite3_18_1/
+#23 DONE 2.7s
+
+#24 [20/23] RUN /magma/targets/sqlite3_18_1/preinstall.sh
+#24 0.565 Hit:1 http://archive.ubuntu.com/ubuntu bionic InRelease
+#24 0.616 Hit:2 http://archive.ubuntu.com/ubuntu bionic-updates InRelease
+#24 0.668 Hit:3 http://security.ubuntu.com/ubuntu bionic-security InRelease
+#24 0.682 Hit:4 http://archive.ubuntu.com/ubuntu bionic-backports InRelease
+#24 1.029 Reading package lists...
+#24 1.947 Reading package lists...
+#24 2.798 Building dependency tree...
+#24 2.946 Reading state information...
+#24 3.048 make is already the newest version (4.1-9.1ubuntu1).
+#24 3.048 The following additional packages will be installed:
+#24 3.048   autotools-dev libcurl4 libltdl-dev libltdl7 libsigsegv2 libtcl8.6 m4 tcl8.6
+#24 3.048   tzdata
+#24 3.048 Suggested packages:
+#24 3.048   autoconf-archive gnu-standards autoconf-doc gettext libtool-doc gfortran
+#24 3.048   | fortran95-compiler gcj-jdk m4-doc tcl-tclreadline
+#24 3.134 The following NEW packages will be installed:
+#24 3.135   autoconf automake autotools-dev curl libcurl4 libltdl-dev libltdl7
+#24 3.135   libsigsegv2 libtcl8.6 libtool m4 tcl tcl8.6 tzdata zlib1g-dev
+#24 3.289 0 upgraded, 15 newly installed, 0 to remove and 1 not upgraded.
+#24 3.289 Need to get 3118 kB of archives.
+#24 3.289 After this operation, 15.3 MB of additional disk space will be used.
+#24 3.289 Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 tzdata all 2023c-0ubuntu0.18.04 [186 kB]
+#24 3.664 Get:2 http://archive.ubuntu.com/ubuntu bionic/main amd64 libsigsegv2 amd64 2.12-1 [14.7 kB]
+#24 3.669 Get:3 http://archive.ubuntu.com/ubuntu bionic/main amd64 m4 amd64 1.4.18-1 [197 kB]
+#24 3.740 Get:4 http://archive.ubuntu.com/ubuntu bionic/main amd64 autoconf all 2.69-11 [322 kB]
+#24 3.814 Get:5 http://archive.ubuntu.com/ubuntu bionic/main amd64 autotools-dev all 20180224.1 [39.6 kB]
+#24 3.818 Get:6 http://archive.ubuntu.com/ubuntu bionic/main amd64 automake all 1:1.15.1-3ubuntu2 [509 kB]
+#24 3.878 Get:7 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libcurl4 amd64 7.58.0-2ubuntu3.24 [221 kB]
+#24 3.893 Get:8 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 curl amd64 7.58.0-2ubuntu3.24 [159 kB]
+#24 3.903 Get:9 http://archive.ubuntu.com/ubuntu bionic/main amd64 libltdl7 amd64 2.4.6-2 [38.8 kB]
+#24 3.906 Get:10 http://archive.ubuntu.com/ubuntu bionic/main amd64 libltdl-dev amd64 2.4.6-2 [162 kB]
+#24 3.914 Get:11 http://archive.ubuntu.com/ubuntu bionic/main amd64 libtcl8.6 amd64 8.6.8+dfsg-3 [881 kB]
+#24 3.956 Get:12 http://archive.ubuntu.com/ubuntu bionic/main amd64 libtool all 2.4.6-2 [194 kB]
+#24 3.962 Get:13 http://archive.ubuntu.com/ubuntu bionic/main amd64 tcl8.6 amd64 8.6.8+dfsg-3 [14.4 kB]
+#24 3.963 Get:14 http://archive.ubuntu.com/ubuntu bionic/universe amd64 tcl amd64 8.6.0+9 [5146 B]
+#24 3.963 Get:15 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-0ubuntu2.2 [176 kB]
+#24 4.096 debconf: delaying package configuration, since apt-utils is not installed
+#24 4.130 Fetched 3118 kB in 1s (3817 kB/s)
+#24 4.163 Selecting previously unselected package tzdata.
+#24 4.163 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 21629 files and directories currently installed.)
+#24 4.176 Preparing to unpack .../00-tzdata_2023c-0ubuntu0.18.04_all.deb ...
+#24 4.179 Unpacking tzdata (2023c-0ubuntu0.18.04) ...
+#24 4.552 Selecting previously unselected package libsigsegv2:amd64.
+#24 4.555 Preparing to unpack .../01-libsigsegv2_2.12-1_amd64.deb ...
+#24 4.558 Unpacking libsigsegv2:amd64 (2.12-1) ...
+#24 4.584 Selecting previously unselected package m4.
+#24 4.588 Preparing to unpack .../02-m4_1.4.18-1_amd64.deb ...
+#24 4.590 Unpacking m4 (1.4.18-1) ...
+#24 4.629 Selecting previously unselected package autoconf.
+#24 4.632 Preparing to unpack .../03-autoconf_2.69-11_all.deb ...
+#24 4.635 Unpacking autoconf (2.69-11) ...
+#24 4.686 Selecting previously unselected package autotools-dev.
+#24 4.689 Preparing to unpack .../04-autotools-dev_20180224.1_all.deb ...
+#24 4.691 Unpacking autotools-dev (20180224.1) ...
+#24 4.721 Selecting previously unselected package automake.
+#24 4.725 Preparing to unpack .../05-automake_1%3a1.15.1-3ubuntu2_all.deb ...
+#24 4.729 Unpacking automake (1:1.15.1-3ubuntu2) ...
+#24 4.801 Selecting previously unselected package libcurl4:amd64.
+#24 4.805 Preparing to unpack .../06-libcurl4_7.58.0-2ubuntu3.24_amd64.deb ...
+#24 4.807 Unpacking libcurl4:amd64 (7.58.0-2ubuntu3.24) ...
+#24 4.849 Selecting previously unselected package curl.
+#24 4.852 Preparing to unpack .../07-curl_7.58.0-2ubuntu3.24_amd64.deb ...
+#24 4.854 Unpacking curl (7.58.0-2ubuntu3.24) ...
+#24 4.891 Selecting previously unselected package libltdl7:amd64.
+#24 4.895 Preparing to unpack .../08-libltdl7_2.4.6-2_amd64.deb ...
+#24 4.897 Unpacking libltdl7:amd64 (2.4.6-2) ...
+#24 4.925 Selecting previously unselected package libltdl-dev:amd64.
+#24 4.929 Preparing to unpack .../09-libltdl-dev_2.4.6-2_amd64.deb ...
+#24 4.931 Unpacking libltdl-dev:amd64 (2.4.6-2) ...
+#24 4.973 Selecting previously unselected package libtcl8.6:amd64.
+#24 4.977 Preparing to unpack .../10-libtcl8.6_8.6.8+dfsg-3_amd64.deb ...
+#24 4.979 Unpacking libtcl8.6:amd64 (8.6.8+dfsg-3) ...
+#24 5.105 Selecting previously unselected package libtool.
+#24 5.109 Preparing to unpack .../11-libtool_2.4.6-2_all.deb ...
+#24 5.111 Unpacking libtool (2.4.6-2) ...
+#24 5.154 Selecting previously unselected package tcl8.6.
+#24 5.158 Preparing to unpack .../12-tcl8.6_8.6.8+dfsg-3_amd64.deb ...
+#24 5.160 Unpacking tcl8.6 (8.6.8+dfsg-3) ...
+#24 5.188 Selecting previously unselected package tcl.
+#24 5.193 Preparing to unpack .../13-tcl_8.6.0+9_amd64.deb ...
+#24 5.199 Unpacking tcl (8.6.0+9) ...
+#24 5.225 Selecting previously unselected package zlib1g-dev:amd64.
+#24 5.229 Preparing to unpack .../14-zlib1g-dev_1%3a1.2.11.dfsg-0ubuntu2.2_amd64.deb ...
+#24 5.232 Unpacking zlib1g-dev:amd64 (1:1.2.11.dfsg-0ubuntu2.2) ...
+#24 5.281 Setting up libsigsegv2:amd64 (2.12-1) ...
+#24 5.286 Setting up tzdata (2023c-0ubuntu0.18.04) ...
+#24 5.367 
+#24 5.367 Current default time zone: 'Etc/UTC'
+#24 5.371 Local time is now:      Tue Oct  8 23:45:27 UTC 2024.
+#24 5.371 Universal Time is now:  Tue Oct  8 23:45:27 UTC 2024.
+#24 5.371 Run 'dpkg-reconfigure tzdata' if you wish to change it.
+#24 5.371 
+#24 5.394 Setting up libcurl4:amd64 (7.58.0-2ubuntu3.24) ...
+#24 5.398 Setting up m4 (1.4.18-1) ...
+#24 5.402 Setting up autotools-dev (20180224.1) ...
+#24 5.406 Setting up libltdl7:amd64 (2.4.6-2) ...
+#24 5.410 Setting up libtcl8.6:amd64 (8.6.8+dfsg-3) ...
+#24 5.415 Setting up zlib1g-dev:amd64 (1:1.2.11.dfsg-0ubuntu2.2) ...
+#24 5.419 Setting up libtool (2.4.6-2) ...
+#24 5.423 Setting up libltdl-dev:amd64 (2.4.6-2) ...
+#24 5.427 Setting up curl (7.58.0-2ubuntu3.24) ...
+#24 5.431 Setting up autoconf (2.69-11) ...
+#24 5.436 Setting up tcl8.6 (8.6.8+dfsg-3) ...
+#24 5.443 Setting up automake (1:1.15.1-3ubuntu2) ...
+#24 5.452 update-alternatives: using /usr/bin/automake-1.15 to provide /usr/bin/automake (automake) in auto mode
+#24 5.452 update-alternatives: warning: skip creation of /usr/share/man/man1/automake.1.gz because associated file /usr/share/man/man1/automake-1.15.1.gz (of link group automake) doesn't exist
+#24 5.452 update-alternatives: warning: skip creation of /usr/share/man/man1/aclocal.1.gz because associated file /usr/share/man/man1/aclocal-1.15.1.gz (of link group automake) doesn't exist
+#24 5.458 Setting up tcl (8.6.0+9) ...
+#24 5.462 Processing triggers for libc-bin (2.27-3ubuntu1.6) ...
+#24 DONE 5.7s
+
+#25 [21/23] RUN /magma/targets/sqlite3_18_1/fetch.sh
+#25 0.395 Cloning into '/magma/targets/sqlite3_18_1/repo'...
+#25 2.480 Note: checking out '552b8380f7ca1f0ff381ecabb479a48ba18f19a5'.
+#25 2.480 
+#25 2.480 You are in 'detached HEAD' state. You can look around, make experimental
+#25 2.480 changes and commit them, and you can discard any commits you make in this
+#25 2.480 state without impacting any branches by performing another checkout.
+#25 2.480 
+#25 2.480 If you want to create a new branch to retain commits you create, you may
+#25 2.480 do so (now or later) by using -b with the checkout command again. Example:
+#25 2.480 
+#25 2.480   git checkout -b <new-branch-name>
+#25 2.480 
+#25 2.480 HEAD is now at 552b838 Update
+#25 DONE 3.0s
+
+#26 [22/23] RUN /magma/magma/apply_patches.sh
+#26 0.327 Applying /magma/targets/sqlite3_18_1/patches/setup/tclexec-ignore-stderr.patch for setup
+#26 0.328 Hmm...  Looks like a unified diff to me...
+#26 0.328 The text leading up to this was:
+#26 0.328 --------------------------
+#26 0.328 |--- a/tool/mksqlite3h.tcl
+#26 0.328 |+++ b/tool/mksqlite3h.tcl
+#26 0.328 --------------------------
+#26 0.329 patching file tool/mksqlite3h.tcl
+#26 0.329 Using Plan A...
+#26 0.329 Hunk #1 succeeded at 55.
+#26 0.329 done
+#26 0.330 /magma/targets/sqlite3_18_1/repo /
+#26 0.711 /
+#26 0.714 Applying /magma/targets/sqlite3_18_1/patches/bugs/SQL018.patch
+#26 0.716 patching file src/expr.c
+#26 0.716 Hunk #1 succeeded at 98 (offset 7 lines).
+#26 DONE 0.8s
+
+#27 [23/23] RUN /magma/fuzzers/aflplusplus/instrument.sh
+#27 1.009 checking build system type... x86_64-pc-linux-gnu
+#27 1.118 checking host system type... x86_64-pc-linux-gnu
+#27 1.119 checking for gcc... /magma/fuzzers/aflplusplus/repo/afl-clang-fast
+#27 1.344 checking whether the C compiler works... yes
+#27 1.450 checking for C compiler default output file name... a.out
+#27 1.451 checking for suffix of executables... 
+#27 1.559 checking whether we are cross compiling... no
+#27 1.668 checking for suffix of object files... o
+#27 1.734 checking whether we are using the GNU C compiler... yes
+#27 1.836 checking whether /magma/fuzzers/aflplusplus/repo/afl-clang-fast accepts -g... yes
+#27 1.902 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast option to accept ISO C89... none needed
+#27 1.968 checking for a sed that does not truncate output... /bin/sed
+#27 1.976 checking for grep that handles long lines and -e... /bin/grep
+#27 1.979 checking for egrep... /bin/grep -E
+#27 1.982 checking for fgrep... /bin/grep -F
+#27 1.985 checking for ld used by /magma/fuzzers/aflplusplus/repo/afl-clang-fast... /usr/bin/ld
+#27 2.019 checking if the linker (/usr/bin/ld) is GNU ld... yes
+#27 2.023 checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm
+#27 2.023 checking the name lister (/usr/bin/nm) interface... BSD nm
+#27 2.116 checking whether ln -s works... yes
+#27 2.116 checking the maximum length of command line arguments... 1572864
+#27 2.122 checking whether the shell understands some XSI constructs... yes
+#27 2.123 checking whether the shell understands "+="... yes
+#27 2.129 checking for /usr/bin/ld option to reload object files... -r
+#27 2.130 checking for objdump... objdump
+#27 2.130 checking how to recognize dependent libraries... pass_all
+#27 2.131 checking for ar... /usr/bin/ar
+#27 2.131 checking for strip... strip
+#27 2.132 checking for ranlib... /usr/bin/ranlib
+#27 2.132 checking command to parse /usr/bin/nm output from /magma/fuzzers/aflplusplus/repo/afl-clang-fast object... ok
+#27 2.377 checking how to run the C preprocessor... /magma/fuzzers/aflplusplus/repo/afl-clang-fast -E
+#27 2.607 checking for ANSI C header files... yes
+#27 2.924 checking for sys/types.h... yes
+#27 3.009 checking for sys/stat.h... yes
+#27 3.086 checking for stdlib.h... yes
+#27 3.164 checking for string.h... yes
+#27 3.254 checking for memory.h... yes
+#27 3.332 checking for strings.h... yes
+#27 3.437 checking for inttypes.h... yes
+#27 3.514 checking for stdint.h... yes
+#27 3.594 checking for unistd.h... yes
+#27 3.701 checking for dlfcn.h... yes
+#27 3.792 checking for objdir... .libs
+#27 3.971 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -fno-rtti -fno-exceptions... yes
+#27 4.036 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast option to produce PIC... -fPIC -DPIC
+#27 4.037 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast PIC flag -fPIC -DPIC works... yes
+#27 4.104 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast static flag -static works... yes
+#27 4.231 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -c -o file.o... yes
+#27 4.313 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -c -o file.o... (cached) yes
+#27 4.313 checking whether the /magma/fuzzers/aflplusplus/repo/afl-clang-fast linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+#27 4.350 checking dynamic linker characteristics... GNU/Linux ld.so
+#27 4.533 checking how to hardcode library paths into programs... immediate
+#27 4.533 checking whether stripping libraries is possible... yes
+#27 4.536 checking if libtool supports shared libraries... yes
+#27 4.536 checking whether to build shared libraries... no
+#27 4.536 checking whether to build static libraries... yes
+#27 4.537 checking for a BSD-compatible install... /usr/bin/install -c
+#27 4.549 checking for special C compiler options needed for large files... no
+#27 4.549 checking for _FILE_OFFSET_BITS value needed for large files... no
+#27 4.613 checking for int8_t... yes
+#27 4.755 checking for int16_t... yes
+#27 4.928 checking for int32_t... yes
+#27 5.079 checking for int64_t... yes
+#27 5.232 checking for intptr_t... yes
+#27 5.383 checking for uint8_t... yes
+#27 5.534 checking for uint16_t... yes
+#27 5.686 checking for uint32_t... yes
+#27 5.827 checking for uint64_t... yes
+#27 5.971 checking for uintptr_t... yes
+#27 6.126 checking for sys/types.h... (cached) yes
+#27 6.138 checking for stdlib.h... (cached) yes
+#27 6.148 checking for stdint.h... (cached) yes
+#27 6.159 checking for inttypes.h... (cached) yes
+#27 6.170 checking malloc.h usability... yes
+#27 6.240 checking malloc.h presence... yes
+#27 6.298 checking for malloc.h... yes
+#27 6.311 checking for fdatasync... yes
+#27 6.436 checking for gmtime_r... yes
+#27 6.558 checking for isnan... yes
+#27 6.682 checking for localtime_r... yes
+#27 6.804 checking for localtime_s... no
+#27 6.949 checking for malloc_usable_size... yes
+#27 7.068 checking for strchrnul... yes
+#27 7.189 checking for usleep... yes
+#27 7.310 checking for utime... yes
+#27 7.431 checking for pread... yes
+#27 7.554 checking for pread64... yes
+#27 7.675 checking for pwrite... yes
+#27 7.828 checking for pwrite64... yes
+#27 7.963 checking for tclsh8.7... no
+#27 7.963 checking for tclsh8.6... tclsh8.6
+#27 7.975 configure: Version set to 3.37
+#27 7.977 configure: Release set to 3.37.0
+#27 7.977 checking whether to support threadsafe operation... yes
+#27 7.977 checking for library containing pthread_create... none required
+#27 8.087 checking for library containing pthread_mutexattr_init... none required
+#27 8.213 checking whether to support shared library linked as release mode or not... no
+#27 8.213 checking whether to use an in-ram database for temporary tables... no
+#27 8.213 checking if executables have the .exe suffix... unknown
+#27 8.214 checking for Tcl configuration... configure: WARNING: Can't find Tcl configuration definitions
+#27 8.282 configure: WARNING: *** Without Tcl the regression tests cannot be executed ***
+#27 8.282 configure: WARNING: *** Consider using --with-tcl=... to define location of Tcl ***
+#27 8.282 checking for library containing readline... no
+#27 8.471 checking for library containing tgetent... -ltermcap
+#27 8.925 checking for readline in -lreadline... no
+#27 9.012 checking readline.h usability... no
+#27 9.087 checking readline.h presence... no
+#27 9.151 checking for readline.h... no
+#27 9.156 checking for /usr/include/readline.h... no
+#27 9.161 checking for /usr/include/readline/readline.h... no
+#27 9.166 checking for /usr/local/include/readline.h... no
+#27 9.172 checking for /usr/local/include/readline/readline.h... no
+#27 9.177 checking for /usr/local/readline/include/readline.h... no
+#27 9.181 checking for /usr/local/readline/include/readline/readline.h... no
+#27 9.185 checking for /usr/contrib/include/readline.h... no
+#27 9.190 checking for /usr/contrib/include/readline/readline.h... no
+#27 9.195 checking for /mingw/include/readline.h... no
+#27 9.200 checking for /mingw/include/readline/readline.h... no
+#27 9.200 checking for library containing fdatasync... none required
+#27 9.334 checking build type... release
+#27 9.334 checking zlib.h usability... yes
+#27 9.422 checking zlib.h presence... yes
+#27 9.483 checking for zlib.h... yes
+#27 9.485 checking for library containing deflate... -lz
+#27 9.708 checking for library containing dlopen... none required
+#27 9.839 checking whether to support math functions... yes
+#27 9.840 checking for library containing ceil... none required
+#27 9.973 checking whether to support MEMSYS5... no
+#27 9.973 checking whether to support MEMSYS3... no
+#27 9.973 checking whether to support FTS3... no
+#27 9.973 checking whether to support FTS4... no
+#27 9.973 checking whether to support FTS5... no
+#27 9.973 checking whether to support JSON... no
+#27 9.974 checking whether to support LIMIT on UPDATE and DELETE statements... no
+#27 9.974 checking whether to support GEOPOLY... no
+#27 9.974 checking whether to support RTREE... yes
+#27 9.974 checking whether to support SESSION... no
+#27 10.00 configure: creating ./config.status
+#27 10.68 config.status: creating Makefile
+#27 10.70 config.status: creating sqlite3.pc
+#27 10.71 config.status: creating config.h
+#27 10.72 config.status: executing libtool commands
+#27 10.78 rm -f *.lo *.la *.o sqlite3 libsqlite3.la
+#27 10.79 rm -f sqlite3.h opcodes.*
+#27 10.79 rm -rf .libs .deps
+#27 10.79 rm -f lemon lempar.c parse.* sqlite*.tar.gz
+#27 10.79 rm -f mkkeywordhash keywordhash.h
+#27 10.79 rm -f *.da *.bb *.bbg gmon.out
+#27 10.79 rm -rf tsrc .target_source
+#27 10.79 rm -f tclsqlite3
+#27 10.80 rm -f testfixture test.db
+#27 10.80 rm -f LogEst fts3view rollback-test showdb
+#27 10.80 rm -f showjournal showstat4 showwal speedtest1
+#27 10.80 rm -f wordcount changeset
+#27 10.80 rm -f sqlite3.dll sqlite3.lib sqlite3.exp sqlite3.def
+#27 10.80 rm -f sqlite3.c
+#27 10.80 rm -f sqlite3rc.h
+#27 10.80 rm -f shell.c sqlite3ext.h
+#27 10.81 rm -f sqlite3_analyzer sqlite3_analyzer.c
+#27 10.81 rm -f sqlite-*-output.vsix
+#27 10.81 rm -f mptester mptester.exe
+#27 10.81 rm -f rbu rbu.exe
+#27 10.81 rm -f srcck1 srcck1.exe
+#27 10.81 rm -f fuzzershell fuzzershell.exe
+#27 10.81 rm -f fuzzcheck fuzzcheck.exe
+#27 10.81 rm -f sqldiff sqldiff.exe
+#27 10.82 rm -f dbhash dbhash.exe
+#27 10.82 rm -f fts5.* fts5parse.*
+#27 10.82 rm -f threadtest5
+#27 10.83 /magma/fuzzers/aflplusplus/repo/afl-clang-fast  -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -o mksourceid /magma/targets/sqlite3_18_1/repo/tool/mksourceid.c
+#27 10.84 /magma/fuzzers/aflplusplus/repo/afl-clang-fast  -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -o mkkeywordhash -DSQLITE_ENABLE_MATH_FUNCTIONS -DSQLITE_ENABLE_RTREE  /magma/targets/sqlite3_18_1/repo/tool/mkkeywordhash.c
+#27 10.84 /magma/fuzzers/aflplusplus/repo/afl-clang-fast  -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -o lemon /magma/targets/sqlite3_18_1/repo/tool/lemon.c
+#27 10.84 tclsh8.6 /magma/targets/sqlite3_18_1/repo/tool/mkshellc.tcl >shell.c
+#27 11.01 ./mkkeywordhash >keywordhash.h
+#27 11.04 tclsh8.6 /magma/targets/sqlite3_18_1/repo/tool/mksqlite3h.tcl /magma/targets/sqlite3_18_1/repo >sqlite3.h
+#27 11.15 cp /magma/targets/sqlite3_18_1/repo/tool/lempar.c .
+#27 11.16 cp /magma/targets/sqlite3_18_1/repo/src/parse.y .
+#27 11.16 cp /magma/targets/sqlite3_18_1/repo/ext/fts5/fts5parse.y .
+#27 11.16 ./lemon -DSQLITE_ENABLE_MATH_FUNCTIONS -DSQLITE_ENABLE_RTREE  -S parse.y
+#27 11.16 rm -f fts5parse.h
+#27 11.16 ./lemon  -S fts5parse.y
+#27 11.17 tclsh8.6 /magma/targets/sqlite3_18_1/repo/ext/fts5/tool/mkfts5c.tcl
+#27 11.22 cp /magma/targets/sqlite3_18_1/repo/ext/fts5/fts5.h .
+#27 11.25 cat parse.h /magma/targets/sqlite3_18_1/repo/src/vdbe.c | tclsh8.6 /magma/targets/sqlite3_18_1/repo/tool/mkopcodeh.tcl >opcodes.h
+#27 11.27 tclsh8.6 /magma/targets/sqlite3_18_1/repo/tool/mkopcodec.tcl opcodes.h >opcodes.c
+#27 13.14 rm -rf tsrc
+#27 13.15 mkdir tsrc
+#27 13.15 cp -f /magma/targets/sqlite3_18_1/repo/src/alter.c /magma/targets/sqlite3_18_1/repo/src/analyze.c /magma/targets/sqlite3_18_1/repo/src/attach.c /magma/targets/sqlite3_18_1/repo/src/auth.c /magma/targets/sqlite3_18_1/repo/src/backup.c /magma/targets/sqlite3_18_1/repo/src/bitvec.c /magma/targets/sqlite3_18_1/repo/src/btmutex.c /magma/targets/sqlite3_18_1/repo/src/btree.c /magma/targets/sqlite3_18_1/repo/src/btree.h /magma/targets/sqlite3_18_1/repo/src/btreeInt.h /magma/targets/sqlite3_18_1/repo/src/build.c /magma/targets/sqlite3_18_1/repo/src/callback.c /magma/targets/sqlite3_18_1/repo/src/complete.c /magma/targets/sqlite3_18_1/repo/src/ctime.c /magma/targets/sqlite3_18_1/repo/src/date.c /magma/targets/sqlite3_18_1/repo/src/dbpage.c /magma/targets/sqlite3_18_1/repo/src/dbstat.c /magma/targets/sqlite3_18_1/repo/src/delete.c /magma/targets/sqlite3_18_1/repo/src/expr.c /magma/targets/sqlite3_18_1/repo/src/fault.c /magma/targets/sqlite3_18_1/repo/src/fkey.c /magma/targets/sqlite3_18_1/repo/src/func.c /magma/targets/sqlite3_18_1/repo/src/global.c /magma/targets/sqlite3_18_1/repo/src/hash.c /magma/targets/sqlite3_18_1/repo/src/hash.h /magma/targets/sqlite3_18_1/repo/src/hwtime.h /magma/targets/sqlite3_18_1/repo/src/insert.c /magma/targets/sqlite3_18_1/repo/src/legacy.c /magma/targets/sqlite3_18_1/repo/src/loadext.c /magma/targets/sqlite3_18_1/repo/src/main.c /magma/targets/sqlite3_18_1/repo/src/malloc.c /magma/targets/sqlite3_18_1/repo/src/mem0.c /magma/targets/sqlite3_18_1/repo/src/mem1.c /magma/targets/sqlite3_18_1/repo/src/mem2.c /magma/targets/sqlite3_18_1/repo/src/mem3.c /magma/targets/sqlite3_18_1/repo/src/mem5.c /magma/targets/sqlite3_18_1/repo/src/memdb.c /magma/targets/sqlite3_18_1/repo/src/memjournal.c /magma/targets/sqlite3_18_1/repo/src/msvc.h /magma/targets/sqlite3_18_1/repo/src/mutex.c /magma/targets/sqlite3_18_1/repo/src/mutex.h /magma/targets/sqlite3_18_1/repo/src/mutex_noop.c /magma/targets/sqlite3_18_1/repo/src/mutex_unix.c /magma/targets/sqlite3_18_1/repo/src/mutex_w32.c /magma/targets/sqlite3_18_1/repo/src/notify.c /magma/targets/sqlite3_18_1/repo/src/os.c /magma/targets/sqlite3_18_1/repo/src/os.h /magma/targets/sqlite3_18_1/repo/src/os_common.h /magma/targets/sqlite3_18_1/repo/src/os_setup.h /magma/targets/sqlite3_18_1/repo/src/os_unix.c /magma/targets/sqlite3_18_1/repo/src/os_win.c /magma/targets/sqlite3_18_1/repo/src/os_win.h /magma/targets/sqlite3_18_1/repo/src/pager.c /magma/targets/sqlite3_18_1/repo/src/pager.h /magma/targets/sqlite3_18_1/repo/src/parse.y /magma/targets/sqlite3_18_1/repo/src/pcache.c /magma/targets/sqlite3_18_1/repo/src/pcache.h /magma/targets/sqlite3_18_1/repo/src/pcache1.c /magma/targets/sqlite3_18_1/repo/src/pragma.c /magma/targets/sqlite3_18_1/repo/src/pragma.h /magma/targets/sqlite3_18_1/repo/src/prepare.c /magma/targets/sqlite3_18_1/repo/src/printf.c /magma/targets/sqlite3_18_1/repo/src/random.c /magma/targets/sqlite3_18_1/repo/src/resolve.c /magma/targets/sqlite3_18_1/repo/src/rowset.c /magma/targets/sqlite3_18_1/repo/src/select.c /magma/targets/sqlite3_18_1/repo/src/status.c /magma/targets/sqlite3_18_1/repo/src/shell.c.in /magma/targets/sqlite3_18_1/repo/src/sqlite.h.in /magma/targets/sqlite3_18_1/repo/src/sqlite3ext.h /magma/targets/sqlite3_18_1/repo/src/sqliteInt.h /magma/targets/sqlite3_18_1/repo/src/sqliteLimit.h /magma/targets/sqlite3_18_1/repo/src/table.c /magma/targets/sqlite3_18_1/repo/src/tclsqlite.c /magma/targets/sqlite3_18_1/repo/src/threads.c /magma/targets/sqlite3_18_1/repo/src/tokenize.c /magma/targets/sqlite3_18_1/repo/src/treeview.c /magma/targets/sqlite3_18_1/repo/src/trigger.c /magma/targets/sqlite3_18_1/repo/src/utf.c /magma/targets/sqlite3_18_1/repo/src/update.c /magma/targets/sqlite3_18_1/repo/src/upsert.c /magma/targets/sqlite3_18_1/repo/src/util.c /magma/targets/sqlite3_18_1/repo/src/vacuum.c /magma/targets/sqlite3_18_1/repo/src/vdbe.c /magma/targets/sqlite3_18_1/repo/src/vdbe.h /magma/targets/sqlite3_18_1/repo/src/vdbeapi.c /magma/targets/sqlite3_18_1/repo/src/vdbeaux.c /magma/targets/sqlite3_18_1/repo/src/vdbeblob.c /magma/targets/sqlite3_18_1/repo/src/vdbemem.c /magma/targets/sqlite3_18_1/repo/src/vdbesort.c /magma/targets/sqlite3_18_1/repo/src/vdbetrace.c /magma/targets/sqlite3_18_1/repo/src/vdbevtab.c /magma/targets/sqlite3_18_1/repo/src/vdbeInt.h /magma/targets/sqlite3_18_1/repo/src/vtab.c /magma/targets/sqlite3_18_1/repo/src/vxworks.h /magma/targets/sqlite3_18_1/repo/src/wal.c /magma/targets/sqlite3_18_1/repo/src/wal.h /magma/targets/sqlite3_18_1/repo/src/walker.c /magma/targets/sqlite3_18_1/repo/src/where.c /magma/targets/sqlite3_18_1/repo/src/wherecode.c /magma/targets/sqlite3_18_1/repo/src/whereexpr.c /magma/targets/sqlite3_18_1/repo/src/whereInt.h /magma/targets/sqlite3_18_1/repo/src/window.c /magma/targets/sqlite3_18_1/repo/ext/fts1/fts1.c /magma/targets/sqlite3_18_1/repo/ext/fts1/fts1.h /magma/targets/sqlite3_18_1/repo/ext/fts1/fts1_hash.c /magma/targets/sqlite3_18_1/repo/ext/fts1/fts1_hash.h /magma/targets/sqlite3_18_1/repo/ext/fts1/fts1_porter.c /magma/targets/sqlite3_18_1/repo/ext/fts1/fts1_tokenizer.h /magma/targets/sqlite3_18_1/repo/ext/fts1/fts1_tokenizer1.c /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2.c /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2.h /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2_hash.c /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2_hash.h /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2_icu.c /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2_porter.c /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2_tokenizer.h /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2_tokenizer.c /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2_tokenizer1.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3.h /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3Int.h /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_aux.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_expr.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_hash.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_hash.h /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_icu.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_porter.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_snippet.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_tokenizer.h /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_tokenizer.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_tokenizer1.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_tokenize_vtab.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_unicode.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_unicode2.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_write.c /magma/targets/sqlite3_18_1/repo/ext/icu/sqliteicu.h /magma/targets/sqlite3_18_1/repo/ext/icu/icu.c /magma/targets/sqlite3_18_1/repo/ext/rtree/rtree.h /magma/targets/sqlite3_18_1/repo/ext/rtree/rtree.c /magma/targets/sqlite3_18_1/repo/ext/rtree/geopoly.c /magma/targets/sqlite3_18_1/repo/ext/session/sqlite3session.c /magma/targets/sqlite3_18_1/repo/ext/session/sqlite3session.h /magma/targets/sqlite3_18_1/repo/ext/userauth/userauth.c /magma/targets/sqlite3_18_1/repo/ext/userauth/sqlite3userauth.h /magma/targets/sqlite3_18_1/repo/ext/rbu/sqlite3rbu.h /magma/targets/sqlite3_18_1/repo/ext/rbu/sqlite3rbu.c /magma/targets/sqlite3_18_1/repo/ext/misc/json1.c /magma/targets/sqlite3_18_1/repo/ext/misc/stmt.c keywordhash.h opcodes.c opcodes.h parse.c parse.h config.h shell.c sqlite3.h tsrc
+#27 13.17 rm tsrc/sqlite.h.in tsrc/parse.y
+#27 13.18 tclsh8.6 /magma/targets/sqlite3_18_1/repo/tool/vdbe-compress.tcl  <tsrc/vdbe.c >vdbe.new
+#27 13.21 mv vdbe.new tsrc/vdbe.c
+#27 13.21 cp fts5.c fts5.h tsrc
+#27 13.22 touch .target_source
+#27 13.22 tclsh8.6 /magma/targets/sqlite3_18_1/repo/tool/mksqlite3c.tcl
+#27 14.24 cp tsrc/sqlite3ext.h .
+#27 14.24 cp /magma/targets/sqlite3_18_1/repo/ext/session/sqlite3session.h .
+#27 14.24 ./libtool --mode=compile --tag=CC /magma/fuzzers/aflplusplus/repo/afl-clang-fast -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -DSQLITE_OS_UNIX=1 -I. -I/magma/targets/sqlite3_18_1/repo/src -I/magma/targets/sqlite3_18_1/repo/ext/rtree -I/magma/targets/sqlite3_18_1/repo/ext/icu -I/magma/targets/sqlite3_18_1/repo/ext/fts3 -I/magma/targets/sqlite3_18_1/repo/ext/async -I/magma/targets/sqlite3_18_1/repo/ext/session -I/magma/targets/sqlite3_18_1/repo/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG  -DSQLITE_THREADSAFE=1 -DSQLITE_ENABLE_MATH_FUNCTIONS -DSQLITE_ENABLE_RTREE  -DSQLITE_HAVE_ZLIB=1  -DSQLITE_TEMP_STORE=1 -c sqlite3.c
+#27 14.24 ./libtool --mode=link /magma/fuzzers/aflplusplus/repo/afl-clang-fast -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -DSQLITE_OS_UNIX=1 -I. -I/magma/targets/sqlite3_18_1/repo/src -I/magma/targets/sqlite3_18_1/repo/ext/rtree -I/magma/targets/sqlite3_18_1/repo/ext/icu -I/magma/targets/sqlite3_18_1/repo/ext/fts3 -I/magma/targets/sqlite3_18_1/repo/ext/async -I/magma/targets/sqlite3_18_1/repo/ext/session -I/magma/targets/sqlite3_18_1/repo/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG  -DSQLITE_THREADSAFE=1 -DSQLITE_ENABLE_MATH_FUNCTIONS -DSQLITE_ENABLE_RTREE  -DSQLITE_HAVE_ZLIB=1  -L/magma_out -g -L/magma_out/afl  -DHAVE_READLINE=0  -DHAVE_EDITLINE=0 -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_EXPLAIN_COMMENTS -DSQLITE_ENABLE_UNKNOWN_SQL_FUNCTION -DSQLITE_ENABLE_STMTVTAB -DSQLITE_ENABLE_DBPAGE_VTAB -DSQLITE_ENABLE_DBSTAT_VTAB -DSQLITE_ENABLE_BYTECODE_VTAB -DSQLITE_ENABLE_OFFSET_SQL_FUNC -o sqlite3 \
+#27 14.24 	shell.c sqlite3.c \
+#27 14.24 	 -lz -l:magma.o -lrt -lc++ -lc++abi /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a -l:magma.o -lrt -lc++ -lc++abi /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a -rpath "/usr/local/lib"
+#27 14.26 libtool: compile:  /magma/fuzzers/aflplusplus/repo/afl-clang-fast -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -DSQLITE_OS_UNIX=1 -I. -I/magma/targets/sqlite3_18_1/repo/src -I/magma/targets/sqlite3_18_1/repo/ext/rtree -I/magma/targets/sqlite3_18_1/repo/ext/icu -I/magma/targets/sqlite3_18_1/repo/ext/fts3 -I/magma/targets/sqlite3_18_1/repo/ext/async -I/magma/targets/sqlite3_18_1/repo/ext/session -I/magma/targets/sqlite3_18_1/repo/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG -DSQLITE_THREADSAFE=1 -DSQLITE_ENABLE_MATH_FUNCTIONS -DSQLITE_ENABLE_RTREE -DSQLITE_HAVE_ZLIB=1 -DSQLITE_TEMP_STORE=1 -c sqlite3.c -o sqlite3.o
+#27 14.33 libtool: link: /magma/fuzzers/aflplusplus/repo/afl-clang-fast -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -DSQLITE_OS_UNIX=1 -I. -I/magma/targets/sqlite3_18_1/repo/src -I/magma/targets/sqlite3_18_1/repo/ext/rtree -I/magma/targets/sqlite3_18_1/repo/ext/icu -I/magma/targets/sqlite3_18_1/repo/ext/fts3 -I/magma/targets/sqlite3_18_1/repo/ext/async -I/magma/targets/sqlite3_18_1/repo/ext/session -I/magma/targets/sqlite3_18_1/repo/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG -DSQLITE_THREADSAFE=1 -DSQLITE_ENABLE_MATH_FUNCTIONS -DSQLITE_ENABLE_RTREE -DSQLITE_HAVE_ZLIB=1 -g -DHAVE_READLINE=0 -DHAVE_EDITLINE=0 -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_EXPLAIN_COMMENTS -DSQLITE_ENABLE_UNKNOWN_SQL_FUNCTION -DSQLITE_ENABLE_STMTVTAB -DSQLITE_ENABLE_DBPAGE_VTAB -DSQLITE_ENABLE_DBSTAT_VTAB -DSQLITE_ENABLE_BYTECODE_VTAB -DSQLITE_ENABLE_OFFSET_SQL_FUNC -o sqlite3 shell.c sqlite3.c  -L/magma_out -L/magma_out/afl -lz -l:magma.o -lrt -lc++ -lc++abi /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a -Wl,-rpath -Wl,/usr/local/lib
+#27 17.44 ./libtool --mode=link /magma/fuzzers/aflplusplus/repo/afl-clang-fast -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -DSQLITE_OS_UNIX=1 -I. -I/magma/targets/sqlite3_18_1/repo/src -I/magma/targets/sqlite3_18_1/repo/ext/rtree -I/magma/targets/sqlite3_18_1/repo/ext/icu -I/magma/targets/sqlite3_18_1/repo/ext/fts3 -I/magma/targets/sqlite3_18_1/repo/ext/async -I/magma/targets/sqlite3_18_1/repo/ext/session -I/magma/targets/sqlite3_18_1/repo/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG  -DSQLITE_THREADSAFE=1 -DSQLITE_ENABLE_MATH_FUNCTIONS -DSQLITE_ENABLE_RTREE  -DSQLITE_HAVE_ZLIB=1  -L/magma_out -g -L/magma_out/afl  -no-undefined -o libsqlite3.la sqlite3.lo -lz -l:magma.o -lrt -lc++ -lc++abi /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a -l:magma.o -lrt -lc++ -lc++abi /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a \
+#27 17.44 	 -rpath "/usr/local/lib" -version-info "8:6:8"
+#27 17.48 
+#27 17.48 *** Warning: Linking the shared library libsqlite3.la against the
+#27 17.48 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 17.51 copying selected object files to avoid basename conflicts...
+#27 17.53 libtool: link: ln /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a .libs/libsqlite3.lax/lt1-libAFLDriver.a || cp /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a .libs/libsqlite3.lax/lt1-libAFLDriver.a
+#27 17.53 libtool: link: /usr/bin/ar cru .libs/libsqlite3.a /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a .libs/libsqlite3.lax/lt1-libAFLDriver.a sqlite3.o
+#27 17.54 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 17.58 libtool: link: /usr/bin/ranlib .libs/libsqlite3.a
+#27 17.61 libtool: link: rm -fr .libs/libsqlite3.lax
+#27 17.71 libtool: link: ( cd ".libs" && rm -f "libsqlite3.la" && ln -s "../libsqlite3.la" "libsqlite3.la" )
+#27 18.81 make: 'sqlite3.c' is up to date.
+#27 19.13 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 19.13 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 19.20 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 19.20 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 19.44 checking build system type... x86_64-pc-linux-gnu
+#27 19.55 checking host system type... x86_64-pc-linux-gnu
+#27 19.55 checking for gcc... /magma/fuzzers/aflplusplus/repo/afl-clang-fast
+#27 19.75 checking whether the C compiler works... yes
+#27 19.91 checking for C compiler default output file name... a.out
+#27 19.91 checking for suffix of executables... 
+#27 20.02 checking whether we are cross compiling... no
+#27 20.14 checking for suffix of object files... o
+#27 20.20 checking whether we are using the GNU C compiler... yes
+#27 20.29 checking whether /magma/fuzzers/aflplusplus/repo/afl-clang-fast accepts -g... yes
+#27 20.36 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast option to accept ISO C89... none needed
+#27 20.43 checking for a sed that does not truncate output... /bin/sed
+#27 20.44 checking for grep that handles long lines and -e... /bin/grep
+#27 20.44 checking for egrep... /bin/grep -E
+#27 20.44 checking for fgrep... /bin/grep -F
+#27 20.44 checking for ld used by /magma/fuzzers/aflplusplus/repo/afl-clang-fast... /usr/bin/ld
+#27 20.47 checking if the linker (/usr/bin/ld) is GNU ld... yes
+#27 20.48 checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm
+#27 20.48 checking the name lister (/usr/bin/nm) interface... BSD nm
+#27 20.55 checking whether ln -s works... yes
+#27 20.55 checking the maximum length of command line arguments... 1572864
+#27 20.56 checking whether the shell understands some XSI constructs... yes
+#27 20.56 checking whether the shell understands "+="... yes
+#27 20.56 checking for /usr/bin/ld option to reload object files... -r
+#27 20.57 checking for objdump... objdump
+#27 20.57 checking how to recognize dependent libraries... pass_all
+#27 20.57 checking for ar... /usr/bin/ar
+#27 20.57 checking for strip... strip
+#27 20.57 checking for ranlib... /usr/bin/ranlib
+#27 20.57 checking command to parse /usr/bin/nm output from /magma/fuzzers/aflplusplus/repo/afl-clang-fast object... ok
+#27 20.85 checking how to run the C preprocessor... /magma/fuzzers/aflplusplus/repo/afl-clang-fast -E
+#27 21.10 checking for ANSI C header files... yes
+#27 21.42 checking for sys/types.h... yes
+#27 21.53 checking for sys/stat.h... yes
+#27 21.61 checking for stdlib.h... yes
+#27 21.71 checking for string.h... yes
+#27 21.82 checking for memory.h... yes
+#27 21.91 checking for strings.h... yes
+#27 21.98 checking for inttypes.h... yes
+#27 22.06 checking for stdint.h... yes
+#27 22.14 checking for unistd.h... yes
+#27 22.22 checking for dlfcn.h... yes
+#27 22.30 checking for objdir... .libs
+#27 22.51 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -fno-rtti -fno-exceptions... yes
+#27 22.60 checking for /magma/fuzzers/aflplusplus/repo/afl-clang-fast option to produce PIC... -fPIC -DPIC
+#27 22.60 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast PIC flag -fPIC -DPIC works... yes
+#27 22.70 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast static flag -static works... yes
+#27 22.85 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -c -o file.o... yes
+#27 22.93 checking if /magma/fuzzers/aflplusplus/repo/afl-clang-fast supports -c -o file.o... (cached) yes
+#27 22.93 checking whether the /magma/fuzzers/aflplusplus/repo/afl-clang-fast linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+#27 22.97 checking dynamic linker characteristics... GNU/Linux ld.so
+#27 23.18 checking how to hardcode library paths into programs... immediate
+#27 23.18 checking whether stripping libraries is possible... yes
+#27 23.18 checking if libtool supports shared libraries... yes
+#27 23.18 checking whether to build shared libraries... no
+#27 23.18 checking whether to build static libraries... yes
+#27 23.18 checking for a BSD-compatible install... /usr/bin/install -c
+#27 23.20 checking for special C compiler options needed for large files... no
+#27 23.20 checking for _FILE_OFFSET_BITS value needed for large files... no
+#27 23.29 checking for int8_t... yes
+#27 23.45 checking for int16_t... yes
+#27 23.63 checking for int32_t... yes
+#27 23.78 checking for int64_t... yes
+#27 23.93 checking for intptr_t... yes
+#27 24.11 checking for uint8_t... yes
+#27 24.27 checking for uint16_t... yes
+#27 24.42 checking for uint32_t... yes
+#27 24.57 checking for uint64_t... yes
+#27 24.76 checking for uintptr_t... yes
+#27 24.91 checking for sys/types.h... (cached) yes
+#27 24.92 checking for stdlib.h... (cached) yes
+#27 24.94 checking for stdint.h... (cached) yes
+#27 24.95 checking for inttypes.h... (cached) yes
+#27 24.96 checking malloc.h usability... yes
+#27 25.03 checking malloc.h presence... yes
+#27 25.11 checking for malloc.h... yes
+#27 25.12 checking for fdatasync... yes
+#27 25.25 checking for gmtime_r... yes
+#27 25.37 checking for isnan... yes
+#27 25.50 checking for localtime_r... yes
+#27 25.61 checking for localtime_s... no
+#27 25.74 checking for malloc_usable_size... yes
+#27 25.86 checking for strchrnul... yes
+#27 25.98 checking for usleep... yes
+#27 26.12 checking for utime... yes
+#27 26.27 checking for pread... yes
+#27 26.41 checking for pread64... yes
+#27 26.55 checking for pwrite... yes
+#27 26.70 checking for pwrite64... yes
+#27 26.81 checking for tclsh8.7... no
+#27 26.81 checking for tclsh8.6... tclsh8.6
+#27 26.82 configure: Version set to 3.37
+#27 26.83 configure: Release set to 3.37.0
+#27 26.83 checking whether to support threadsafe operation... yes
+#27 26.83 checking for library containing pthread_create... none required
+#27 26.94 checking for library containing pthread_mutexattr_init... none required
+#27 27.08 checking whether to support shared library linked as release mode or not... no
+#27 27.08 checking whether to use an in-ram database for temporary tables... no
+#27 27.08 checking if executables have the .exe suffix... unknown
+#27 27.08 checking for Tcl configuration... configure: WARNING: Can't find Tcl configuration definitions
+#27 27.14 configure: WARNING: *** Without Tcl the regression tests cannot be executed ***
+#27 27.14 configure: WARNING: *** Consider using --with-tcl=... to define location of Tcl ***
+#27 27.14 checking for library containing readline... no
+#27 27.35 checking for library containing tgetent... -ltermcap
+#27 27.81 checking for readline in -lreadline... no
+#27 27.89 checking readline.h usability... no
+#27 27.97 checking readline.h presence... no
+#27 28.03 checking for readline.h... no
+#27 28.04 checking for /usr/include/readline.h... no
+#27 28.04 checking for /usr/include/readline/readline.h... no
+#27 28.05 checking for /usr/local/include/readline.h... no
+#27 28.05 checking for /usr/local/include/readline/readline.h... no
+#27 28.06 checking for /usr/local/readline/include/readline.h... no
+#27 28.06 checking for /usr/local/readline/include/readline/readline.h... no
+#27 28.07 checking for /usr/contrib/include/readline.h... no
+#27 28.07 checking for /usr/contrib/include/readline/readline.h... no
+#27 28.08 checking for /mingw/include/readline.h... no
+#27 28.08 checking for /mingw/include/readline/readline.h... no
+#27 28.08 checking for library containing fdatasync... none required
+#27 28.19 checking build type... release
+#27 28.19 checking zlib.h usability... yes
+#27 28.26 checking zlib.h presence... yes
+#27 28.33 checking for zlib.h... yes
+#27 28.33 checking for library containing deflate... -lz
+#27 28.58 checking for library containing dlopen... none required
+#27 28.70 checking whether to support math functions... yes
+#27 28.70 checking for library containing ceil... none required
+#27 28.83 checking whether to support MEMSYS5... no
+#27 28.83 checking whether to support MEMSYS3... no
+#27 28.83 checking whether to support FTS3... no
+#27 28.83 checking whether to support FTS4... no
+#27 28.83 checking whether to support FTS5... no
+#27 28.83 checking whether to support JSON... no
+#27 28.83 checking whether to support LIMIT on UPDATE and DELETE statements... no
+#27 28.83 checking whether to support GEOPOLY... no
+#27 28.83 checking whether to support RTREE... yes
+#27 28.83 checking whether to support SESSION... no
+#27 28.86 configure: creating ./config.status
+#27 29.52 config.status: creating Makefile
+#27 29.54 config.status: creating sqlite3.pc
+#27 29.56 config.status: creating config.h
+#27 29.57 config.status: executing libtool commands
+#27 29.64 rm -f *.lo *.la *.o sqlite3 libsqlite3.la
+#27 29.64 rm -f sqlite3.h opcodes.*
+#27 29.64 rm -rf .libs .deps
+#27 29.64 rm -f lemon lempar.c parse.* sqlite*.tar.gz
+#27 29.65 rm -f mkkeywordhash keywordhash.h
+#27 29.65 rm -f *.da *.bb *.bbg gmon.out
+#27 29.65 rm -rf tsrc .target_source
+#27 29.65 rm -f tclsqlite3
+#27 29.65 rm -f testfixture test.db
+#27 29.65 rm -f LogEst fts3view rollback-test showdb
+#27 29.65 rm -f showjournal showstat4 showwal speedtest1
+#27 29.66 rm -f wordcount changeset
+#27 29.66 rm -f sqlite3.dll sqlite3.lib sqlite3.exp sqlite3.def
+#27 29.66 rm -f sqlite3.c
+#27 29.66 rm -f sqlite3rc.h
+#27 29.66 rm -f shell.c sqlite3ext.h
+#27 29.66 rm -f sqlite3_analyzer sqlite3_analyzer.c
+#27 29.66 rm -f sqlite-*-output.vsix
+#27 29.66 rm -f mptester mptester.exe
+#27 29.67 rm -f rbu rbu.exe
+#27 29.67 rm -f srcck1 srcck1.exe
+#27 29.67 rm -f fuzzershell fuzzershell.exe
+#27 29.67 rm -f fuzzcheck fuzzcheck.exe
+#27 29.67 rm -f sqldiff sqldiff.exe
+#27 29.67 rm -f dbhash dbhash.exe
+#27 29.67 rm -f fts5.* fts5parse.*
+#27 29.68 rm -f threadtest5
+#27 29.68 /magma/fuzzers/aflplusplus/repo/afl-clang-fast  -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -o mksourceid /magma/targets/sqlite3_18_1/repo/tool/mksourceid.c
+#27 29.69 /magma/fuzzers/aflplusplus/repo/afl-clang-fast  -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -o mkkeywordhash -DSQLITE_ENABLE_MATH_FUNCTIONS -DSQLITE_ENABLE_RTREE  /magma/targets/sqlite3_18_1/repo/tool/mkkeywordhash.c
+#27 29.69 /magma/fuzzers/aflplusplus/repo/afl-clang-fast  -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -o lemon /magma/targets/sqlite3_18_1/repo/tool/lemon.c
+#27 29.69 tclsh8.6 /magma/targets/sqlite3_18_1/repo/tool/mkshellc.tcl >shell.c
+#27 29.78 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 29.78 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 29.80 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 29.80 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 29.84 Hooking 7 switch instructions
+#27 29.85 tclsh8.6 /magma/targets/sqlite3_18_1/repo/tool/mksqlite3h.tcl /magma/targets/sqlite3_18_1/repo >sqlite3.h
+#27 29.85 ./mkkeywordhash >keywordhash.h
+#27 29.96 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 29.96 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 30.02 cp /magma/targets/sqlite3_18_1/repo/tool/lempar.c .
+#27 30.02 cp /magma/targets/sqlite3_18_1/repo/src/parse.y .
+#27 30.02 cp /magma/targets/sqlite3_18_1/repo/ext/fts5/fts5parse.y .
+#27 30.02 ./lemon -DSQLITE_ENABLE_MATH_FUNCTIONS -DSQLITE_ENABLE_RTREE  -S parse.y
+#27 30.02 rm -f fts5parse.h
+#27 30.02 ./lemon  -S fts5parse.y
+#27 30.03 tclsh8.6 /magma/targets/sqlite3_18_1/repo/ext/fts5/tool/mkfts5c.tcl
+#27 30.12 cp /magma/targets/sqlite3_18_1/repo/ext/fts5/fts5.h .
+#27 30.16 cat parse.h /magma/targets/sqlite3_18_1/repo/src/vdbe.c | tclsh8.6 /magma/targets/sqlite3_18_1/repo/tool/mkopcodeh.tcl >opcodes.h
+#27 30.19 tclsh8.6 /magma/targets/sqlite3_18_1/repo/tool/mkopcodec.tcl opcodes.h >opcodes.c
+#27 31.89 rm -rf tsrc
+#27 31.89 mkdir tsrc
+#27 31.89 cp -f /magma/targets/sqlite3_18_1/repo/src/alter.c /magma/targets/sqlite3_18_1/repo/src/analyze.c /magma/targets/sqlite3_18_1/repo/src/attach.c /magma/targets/sqlite3_18_1/repo/src/auth.c /magma/targets/sqlite3_18_1/repo/src/backup.c /magma/targets/sqlite3_18_1/repo/src/bitvec.c /magma/targets/sqlite3_18_1/repo/src/btmutex.c /magma/targets/sqlite3_18_1/repo/src/btree.c /magma/targets/sqlite3_18_1/repo/src/btree.h /magma/targets/sqlite3_18_1/repo/src/btreeInt.h /magma/targets/sqlite3_18_1/repo/src/build.c /magma/targets/sqlite3_18_1/repo/src/callback.c /magma/targets/sqlite3_18_1/repo/src/complete.c /magma/targets/sqlite3_18_1/repo/src/ctime.c /magma/targets/sqlite3_18_1/repo/src/date.c /magma/targets/sqlite3_18_1/repo/src/dbpage.c /magma/targets/sqlite3_18_1/repo/src/dbstat.c /magma/targets/sqlite3_18_1/repo/src/delete.c /magma/targets/sqlite3_18_1/repo/src/expr.c /magma/targets/sqlite3_18_1/repo/src/fault.c /magma/targets/sqlite3_18_1/repo/src/fkey.c /magma/targets/sqlite3_18_1/repo/src/func.c /magma/targets/sqlite3_18_1/repo/src/global.c /magma/targets/sqlite3_18_1/repo/src/hash.c /magma/targets/sqlite3_18_1/repo/src/hash.h /magma/targets/sqlite3_18_1/repo/src/hwtime.h /magma/targets/sqlite3_18_1/repo/src/insert.c /magma/targets/sqlite3_18_1/repo/src/legacy.c /magma/targets/sqlite3_18_1/repo/src/loadext.c /magma/targets/sqlite3_18_1/repo/src/main.c /magma/targets/sqlite3_18_1/repo/src/malloc.c /magma/targets/sqlite3_18_1/repo/src/mem0.c /magma/targets/sqlite3_18_1/repo/src/mem1.c /magma/targets/sqlite3_18_1/repo/src/mem2.c /magma/targets/sqlite3_18_1/repo/src/mem3.c /magma/targets/sqlite3_18_1/repo/src/mem5.c /magma/targets/sqlite3_18_1/repo/src/memdb.c /magma/targets/sqlite3_18_1/repo/src/memjournal.c /magma/targets/sqlite3_18_1/repo/src/msvc.h /magma/targets/sqlite3_18_1/repo/src/mutex.c /magma/targets/sqlite3_18_1/repo/src/mutex.h /magma/targets/sqlite3_18_1/repo/src/mutex_noop.c /magma/targets/sqlite3_18_1/repo/src/mutex_unix.c /magma/targets/sqlite3_18_1/repo/src/mutex_w32.c /magma/targets/sqlite3_18_1/repo/src/notify.c /magma/targets/sqlite3_18_1/repo/src/os.c /magma/targets/sqlite3_18_1/repo/src/os.h /magma/targets/sqlite3_18_1/repo/src/os_common.h /magma/targets/sqlite3_18_1/repo/src/os_setup.h /magma/targets/sqlite3_18_1/repo/src/os_unix.c /magma/targets/sqlite3_18_1/repo/src/os_win.c /magma/targets/sqlite3_18_1/repo/src/os_win.h /magma/targets/sqlite3_18_1/repo/src/pager.c /magma/targets/sqlite3_18_1/repo/src/pager.h /magma/targets/sqlite3_18_1/repo/src/parse.y /magma/targets/sqlite3_18_1/repo/src/pcache.c /magma/targets/sqlite3_18_1/repo/src/pcache.h /magma/targets/sqlite3_18_1/repo/src/pcache1.c /magma/targets/sqlite3_18_1/repo/src/pragma.c /magma/targets/sqlite3_18_1/repo/src/pragma.h /magma/targets/sqlite3_18_1/repo/src/prepare.c /magma/targets/sqlite3_18_1/repo/src/printf.c /magma/targets/sqlite3_18_1/repo/src/random.c /magma/targets/sqlite3_18_1/repo/src/resolve.c /magma/targets/sqlite3_18_1/repo/src/rowset.c /magma/targets/sqlite3_18_1/repo/src/select.c /magma/targets/sqlite3_18_1/repo/src/status.c /magma/targets/sqlite3_18_1/repo/src/shell.c.in /magma/targets/sqlite3_18_1/repo/src/sqlite.h.in /magma/targets/sqlite3_18_1/repo/src/sqlite3ext.h /magma/targets/sqlite3_18_1/repo/src/sqliteInt.h /magma/targets/sqlite3_18_1/repo/src/sqliteLimit.h /magma/targets/sqlite3_18_1/repo/src/table.c /magma/targets/sqlite3_18_1/repo/src/tclsqlite.c /magma/targets/sqlite3_18_1/repo/src/threads.c /magma/targets/sqlite3_18_1/repo/src/tokenize.c /magma/targets/sqlite3_18_1/repo/src/treeview.c /magma/targets/sqlite3_18_1/repo/src/trigger.c /magma/targets/sqlite3_18_1/repo/src/utf.c /magma/targets/sqlite3_18_1/repo/src/update.c /magma/targets/sqlite3_18_1/repo/src/upsert.c /magma/targets/sqlite3_18_1/repo/src/util.c /magma/targets/sqlite3_18_1/repo/src/vacuum.c /magma/targets/sqlite3_18_1/repo/src/vdbe.c /magma/targets/sqlite3_18_1/repo/src/vdbe.h /magma/targets/sqlite3_18_1/repo/src/vdbeapi.c /magma/targets/sqlite3_18_1/repo/src/vdbeaux.c /magma/targets/sqlite3_18_1/repo/src/vdbeblob.c /magma/targets/sqlite3_18_1/repo/src/vdbemem.c /magma/targets/sqlite3_18_1/repo/src/vdbesort.c /magma/targets/sqlite3_18_1/repo/src/vdbetrace.c /magma/targets/sqlite3_18_1/repo/src/vdbevtab.c /magma/targets/sqlite3_18_1/repo/src/vdbeInt.h /magma/targets/sqlite3_18_1/repo/src/vtab.c /magma/targets/sqlite3_18_1/repo/src/vxworks.h /magma/targets/sqlite3_18_1/repo/src/wal.c /magma/targets/sqlite3_18_1/repo/src/wal.h /magma/targets/sqlite3_18_1/repo/src/walker.c /magma/targets/sqlite3_18_1/repo/src/where.c /magma/targets/sqlite3_18_1/repo/src/wherecode.c /magma/targets/sqlite3_18_1/repo/src/whereexpr.c /magma/targets/sqlite3_18_1/repo/src/whereInt.h /magma/targets/sqlite3_18_1/repo/src/window.c /magma/targets/sqlite3_18_1/repo/ext/fts1/fts1.c /magma/targets/sqlite3_18_1/repo/ext/fts1/fts1.h /magma/targets/sqlite3_18_1/repo/ext/fts1/fts1_hash.c /magma/targets/sqlite3_18_1/repo/ext/fts1/fts1_hash.h /magma/targets/sqlite3_18_1/repo/ext/fts1/fts1_porter.c /magma/targets/sqlite3_18_1/repo/ext/fts1/fts1_tokenizer.h /magma/targets/sqlite3_18_1/repo/ext/fts1/fts1_tokenizer1.c /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2.c /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2.h /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2_hash.c /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2_hash.h /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2_icu.c /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2_porter.c /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2_tokenizer.h /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2_tokenizer.c /magma/targets/sqlite3_18_1/repo/ext/fts2/fts2_tokenizer1.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3.h /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3Int.h /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_aux.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_expr.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_hash.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_hash.h /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_icu.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_porter.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_snippet.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_tokenizer.h /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_tokenizer.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_tokenizer1.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_tokenize_vtab.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_unicode.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_unicode2.c /magma/targets/sqlite3_18_1/repo/ext/fts3/fts3_write.c /magma/targets/sqlite3_18_1/repo/ext/icu/sqliteicu.h /magma/targets/sqlite3_18_1/repo/ext/icu/icu.c /magma/targets/sqlite3_18_1/repo/ext/rtree/rtree.h /magma/targets/sqlite3_18_1/repo/ext/rtree/rtree.c /magma/targets/sqlite3_18_1/repo/ext/rtree/geopoly.c /magma/targets/sqlite3_18_1/repo/ext/session/sqlite3session.c /magma/targets/sqlite3_18_1/repo/ext/session/sqlite3session.h /magma/targets/sqlite3_18_1/repo/ext/userauth/userauth.c /magma/targets/sqlite3_18_1/repo/ext/userauth/sqlite3userauth.h /magma/targets/sqlite3_18_1/repo/ext/rbu/sqlite3rbu.h /magma/targets/sqlite3_18_1/repo/ext/rbu/sqlite3rbu.c /magma/targets/sqlite3_18_1/repo/ext/misc/json1.c /magma/targets/sqlite3_18_1/repo/ext/misc/stmt.c keywordhash.h opcodes.c opcodes.h parse.c parse.h config.h shell.c sqlite3.h tsrc
+#27 31.92 rm tsrc/sqlite.h.in tsrc/parse.y
+#27 31.92 tclsh8.6 /magma/targets/sqlite3_18_1/repo/tool/vdbe-compress.tcl  <tsrc/vdbe.c >vdbe.new
+#27 31.95 mv vdbe.new tsrc/vdbe.c
+#27 31.95 cp fts5.c fts5.h tsrc
+#27 31.96 touch .target_source
+#27 31.96 tclsh8.6 /magma/targets/sqlite3_18_1/repo/tool/mksqlite3c.tcl
+#27 32.98 cp tsrc/sqlite3ext.h .
+#27 32.99 cp /magma/targets/sqlite3_18_1/repo/ext/session/sqlite3session.h .
+#27 32.99 ./libtool --mode=compile --tag=CC /magma/fuzzers/aflplusplus/repo/afl-clang-fast -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -DSQLITE_OS_UNIX=1 -I. -I/magma/targets/sqlite3_18_1/repo/src -I/magma/targets/sqlite3_18_1/repo/ext/rtree -I/magma/targets/sqlite3_18_1/repo/ext/icu -I/magma/targets/sqlite3_18_1/repo/ext/fts3 -I/magma/targets/sqlite3_18_1/repo/ext/async -I/magma/targets/sqlite3_18_1/repo/ext/session -I/magma/targets/sqlite3_18_1/repo/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG  -DSQLITE_THREADSAFE=1 -DSQLITE_ENABLE_MATH_FUNCTIONS -DSQLITE_ENABLE_RTREE  -DSQLITE_HAVE_ZLIB=1  -DSQLITE_TEMP_STORE=1 -c sqlite3.c
+#27 32.99 ./libtool --mode=link /magma/fuzzers/aflplusplus/repo/afl-clang-fast -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -DSQLITE_OS_UNIX=1 -I. -I/magma/targets/sqlite3_18_1/repo/src -I/magma/targets/sqlite3_18_1/repo/ext/rtree -I/magma/targets/sqlite3_18_1/repo/ext/icu -I/magma/targets/sqlite3_18_1/repo/ext/fts3 -I/magma/targets/sqlite3_18_1/repo/ext/async -I/magma/targets/sqlite3_18_1/repo/ext/session -I/magma/targets/sqlite3_18_1/repo/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG  -DSQLITE_THREADSAFE=1 -DSQLITE_ENABLE_MATH_FUNCTIONS -DSQLITE_ENABLE_RTREE  -DSQLITE_HAVE_ZLIB=1  -L/magma_out -g -L/magma_out/cmplog  -DHAVE_READLINE=0  -DHAVE_EDITLINE=0 -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_EXPLAIN_COMMENTS -DSQLITE_ENABLE_UNKNOWN_SQL_FUNCTION -DSQLITE_ENABLE_STMTVTAB -DSQLITE_ENABLE_DBPAGE_VTAB -DSQLITE_ENABLE_DBSTAT_VTAB -DSQLITE_ENABLE_BYTECODE_VTAB -DSQLITE_ENABLE_OFFSET_SQL_FUNC -o sqlite3 \
+#27 32.99 	shell.c sqlite3.c \
+#27 32.99 	 -lz -l:magma.o -lrt -lc++ -lc++abi /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a -l:magma.o -lrt -lc++ -lc++abi /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a -rpath "/usr/local/lib"
+#27 33.00 libtool: compile:  /magma/fuzzers/aflplusplus/repo/afl-clang-fast -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -DSQLITE_OS_UNIX=1 -I. -I/magma/targets/sqlite3_18_1/repo/src -I/magma/targets/sqlite3_18_1/repo/ext/rtree -I/magma/targets/sqlite3_18_1/repo/ext/icu -I/magma/targets/sqlite3_18_1/repo/ext/fts3 -I/magma/targets/sqlite3_18_1/repo/ext/async -I/magma/targets/sqlite3_18_1/repo/ext/session -I/magma/targets/sqlite3_18_1/repo/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG -DSQLITE_THREADSAFE=1 -DSQLITE_ENABLE_MATH_FUNCTIONS -DSQLITE_ENABLE_RTREE -DSQLITE_HAVE_ZLIB=1 -DSQLITE_TEMP_STORE=1 -c sqlite3.c -o sqlite3.o
+#27 33.06 libtool: link: /magma/fuzzers/aflplusplus/repo/afl-clang-fast -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -DSQLITE_OS_UNIX=1 -I. -I/magma/targets/sqlite3_18_1/repo/src -I/magma/targets/sqlite3_18_1/repo/ext/rtree -I/magma/targets/sqlite3_18_1/repo/ext/icu -I/magma/targets/sqlite3_18_1/repo/ext/fts3 -I/magma/targets/sqlite3_18_1/repo/ext/async -I/magma/targets/sqlite3_18_1/repo/ext/session -I/magma/targets/sqlite3_18_1/repo/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG -DSQLITE_THREADSAFE=1 -DSQLITE_ENABLE_MATH_FUNCTIONS -DSQLITE_ENABLE_RTREE -DSQLITE_HAVE_ZLIB=1 -g -DHAVE_READLINE=0 -DHAVE_EDITLINE=0 -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_EXPLAIN_COMMENTS -DSQLITE_ENABLE_UNKNOWN_SQL_FUNCTION -DSQLITE_ENABLE_STMTVTAB -DSQLITE_ENABLE_DBPAGE_VTAB -DSQLITE_ENABLE_DBSTAT_VTAB -DSQLITE_ENABLE_BYTECODE_VTAB -DSQLITE_ENABLE_OFFSET_SQL_FUNC -o sqlite3 shell.c sqlite3.c  -L/magma_out -L/magma_out/cmplog -lz -l:magma.o -lrt -lc++ -lc++abi /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a -Wl,-rpath -Wl,/usr/local/lib
+#27 33.36 Hooking 34 switch instructions
+#27 33.76 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 33.76 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 34.60 Hooking 86 switch instructions
+#27 35.57 Hooking 115 switch instructions
+#27 36.87 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 36.87 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 36.93 ./libtool --mode=link /magma/fuzzers/aflplusplus/repo/afl-clang-fast -include /magma/magma/src/canary.h -DMAGMA_ENABLE_CANARIES -DMAGMA_FATAL_CANARIES -g -O0 -DSQLITE_MAX_LENGTH=128000000 -DSQLITE_MAX_SQL_LENGTH=128000000 -DSQLITE_MAX_MEMORY=25000000 -DSQLITE_PRINTF_PRECISION_LIMIT=1048576 -DSQLITE_DEBUG=1 -DSQLITE_MAX_PAGE_COUNT=16384 -DSQLITE_OS_UNIX=1 -I. -I/magma/targets/sqlite3_18_1/repo/src -I/magma/targets/sqlite3_18_1/repo/ext/rtree -I/magma/targets/sqlite3_18_1/repo/ext/icu -I/magma/targets/sqlite3_18_1/repo/ext/fts3 -I/magma/targets/sqlite3_18_1/repo/ext/async -I/magma/targets/sqlite3_18_1/repo/ext/session -I/magma/targets/sqlite3_18_1/repo/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG  -DSQLITE_THREADSAFE=1 -DSQLITE_ENABLE_MATH_FUNCTIONS -DSQLITE_ENABLE_RTREE  -DSQLITE_HAVE_ZLIB=1  -L/magma_out -g -L/magma_out/cmplog  -no-undefined -o libsqlite3.la sqlite3.lo -lz -l:magma.o -lrt -lc++ -lc++abi /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a -l:magma.o -lrt -lc++ -lc++abi /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a \
+#27 36.93 	 -rpath "/usr/local/lib" -version-info "8:6:8"
+#27 36.99 
+#27 36.99 *** Warning: Linking the shared library libsqlite3.la against the
+#27 36.99 *** static library /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a is not portable!
+#27 37.02 copying selected object files to avoid basename conflicts...
+#27 37.04 libtool: link: ln /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a .libs/libsqlite3.lax/lt1-libAFLDriver.a || cp /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a .libs/libsqlite3.lax/lt1-libAFLDriver.a
+#27 37.04 libtool: link: /usr/bin/ar cru .libs/libsqlite3.a /magma/fuzzers/aflplusplus/repo/utils/aflpp_driver/libAFLDriver.a .libs/libsqlite3.lax/lt1-libAFLDriver.a sqlite3.o
+#27 37.04 /usr/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+#27 37.12 libtool: link: /usr/bin/ranlib .libs/libsqlite3.a
+#27 37.18 libtool: link: rm -fr .libs/libsqlite3.lax
+#27 37.31 libtool: link: ( cd ".libs" && rm -f "libsqlite3.la" && ln -s "../libsqlite3.la" "libsqlite3.la" )
+#27 38.29 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 38.29 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 38.55 make: 'sqlite3.c' is up to date.
+#27 38.65 Running cmplog-routines-pass by andreafioraldi@gmail.com
+#27 38.65 Running cmplog-instructions-pass by andreafioraldi@gmail.com
+#27 DONE 39.1s
+
+#28 exporting to image
+#28 exporting layers
+#28 exporting layers 1.4s done
+#28 writing image sha256:7acc59a8030eb0098365063f73bbb2932de47f73e7ef2831ef1a557597c69fef done
+#28 naming to docker.io/magma/aflplusplus/sqlite3_18_1 done
+#28 DONE 1.4s
++ set +x
+magma/aflplusplus/sqlite3_18_1

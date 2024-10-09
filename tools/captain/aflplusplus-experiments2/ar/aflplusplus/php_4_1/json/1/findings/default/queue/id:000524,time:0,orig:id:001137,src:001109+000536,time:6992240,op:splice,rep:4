@@ -1,0 +1,19 @@
+["<foo>",[[
+"JSOass1",
+    {"ct with 1 member":["arrt"]}, {},
+    {"ct with 1 member":["ment"]}, [[
+    "JSON Tern pass1",
+    {"object  L mr":["arrt"]},
+    {},
+    [],
+    -42,
+    true,
+    false,
+    null,
+    {
+"integer": 167890,
+        "real": -9876.543210, "e": 0.56789e-12,
+        "E": 1.234567890E+34, "":  23456789012E66,
+        "zero": 0,
+        "oer":["arrt"]}, {},
+    {"ct with 1 member":["arra"",

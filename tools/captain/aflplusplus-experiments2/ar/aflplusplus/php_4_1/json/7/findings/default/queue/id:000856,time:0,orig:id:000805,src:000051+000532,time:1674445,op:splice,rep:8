@@ -1,0 +1,10 @@
+{"0":0,"\u0000ab":1,"1":[[
+    "JSON Test Pan pass1",
+    {"mber":["th 1 ele"]}, {},
+    [],
+    -42,
+    true,
+    false,
+ {
+        "integer":4567890, "real": -9876.543210,
+        "e":  .12

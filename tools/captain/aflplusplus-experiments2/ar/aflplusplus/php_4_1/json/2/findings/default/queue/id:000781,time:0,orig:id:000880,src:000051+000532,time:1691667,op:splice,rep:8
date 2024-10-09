@@ -1,0 +1,17 @@
+{"0":0,"\u0000ab":1,"1":[[
+    "JSONt Pattern pass1",
+    {"mber":["array with 1 element"]}, {}, [],
+    -42,
+    true,
+false,
+    null,
+    {
+    "integer": 127890,
+        "real": -9876.543210,
+        "e": 0e-12,
+"E": 1.234567890E+34,
+        "":  23456789012E66,
+        "zero": 0,
+        "one": 1,
+"sp`ce": " ",
+        "quote":@"

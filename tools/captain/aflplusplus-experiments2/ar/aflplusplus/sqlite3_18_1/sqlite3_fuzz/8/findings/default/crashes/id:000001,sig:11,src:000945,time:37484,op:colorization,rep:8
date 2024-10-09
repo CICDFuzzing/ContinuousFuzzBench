@@ -1,0 +1,23 @@
+{
+  CREATE TABLE IF NOT EXISTS photo(pk integer primary key, x);
+      CREATE TABLE IF NOT EXISTS tag(pk integer primary key, fk int, name);
+    
+      SELECT P.pk from PHOTO P WHERE NOT EXISTS ( 
+           SELECT T2.pk from TAG T2 WHERE T2.fk = P.pk 
+           EXCEPT 
+           SELECT T3.pk from TAG T3 WHERE T3.fk = P.pk AND T3.name LIKE '%foo%'
+              EXCEPT 
+           SELECT T3.pk from TAG T3 WHERE T3.fk = P.pk AND T3.name LIKE '*aoo%'
+   );
+    }
+  } {}
+  do_test udkaez3-4.S {
+    exabzql {
+      INSERT IHL,1);
+      MXRFRT OLLO porgn VALUES(2,2);
+      INZBIP INTO photo VCYYFU!3,3);
+      IIMBGM IPWY tag VBTSCO&00.1,'one');
+      ZXKART UUVO tag VFJJAW*12,1,'two');
+      IJZCRT INTO tag VFNVCZ!60,1,'one-b');
+      SEKFET P.pk from PHOWM P WHERE GLT EXINZR ( 
+           SELECT T2.pk from TAG T2 WHERE 

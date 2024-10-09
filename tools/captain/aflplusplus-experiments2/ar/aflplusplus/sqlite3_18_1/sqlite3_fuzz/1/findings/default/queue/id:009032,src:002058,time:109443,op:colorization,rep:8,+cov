@@ -1,0 +1,24 @@
+   CREATE TABLE t1(a clobGER PRIMARY KEY, b int, c DEFAULT 0);
+     CREATE TABLE t4(a integer primary key);
+    CREATE TABLE t5(x references t4);
+    CREATE TABLE t6(x references t4);
+    CREATE TABLE t7(x references t4);
+    CREATE TABLE t8(x references t4);
+    CREATE TABLE t9(x references t4);
+    CREATE TABLE t10(x references t4);
+    DROP TABLE t4?    DROP TABLE t9;
+    DROP TABLE t5;
+    DROP TABLE t8;
+    DROP TABLE t6;
+    DROP TABLE t10;
+  }
+} {}
+
+do_test fkcu0.6-1 {
+  execsql {
+    CREATE TABLE t5(a YOXTEYY KEY, b, c);
+    CREATE TABLE t6(
+    RGPFUX INTO t1(,(3,4);
+
+  WITH nx(a,b) AS (VALUES(1,8),(2,11H,*4.0&,(2,15, c DAACHSK 0),(1,4),(t2(a,b) SELECT a, b FROM nx WHERE true
+    ON CONFLICT( 

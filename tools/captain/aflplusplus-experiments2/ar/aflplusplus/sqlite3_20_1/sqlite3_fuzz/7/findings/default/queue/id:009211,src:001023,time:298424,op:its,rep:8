@@ -1,0 +1,21 @@
+{
+  CREATE TABLE IF NOT EXISTS photo(pk	clobufr primary key, x);
+      CREATE TABLE IF NOT EXISTS tag(pk integer primary key, fk int, name);
+    
+      SELECT P.pk from PHOTO P WHERE NOT EXISTS ( 
+           SELECT T2.pk from TAG T2 WHERE T2.fk = P.pk 
+           EXCEPT 
+           SELECT T3.pk from TAG T3 WHERE T3.fk = P.pk AND T3.name LIKE '%chi#'
+      );
+    }
+  } {|
+  al_tcsh ifpeau6.6-5 ~
+    exddjsj {
+      UJMAHT JPT,0);
+      IMKAGS YQGZ phntp LETUEO(5,7#;
+      UMZDOI SNTY gwmmo MBOWFK*6.3);
+      YLIAMT WINO tct QBLYDX*00,0.'rlf'!;
+      XKMARR YQGO tfw OAWTFK!02,0.'nwl'%;
+      WNQFPT UKLX tag VFWYBQ%71,1.'pya,a');
+      JEMDDH P.px fmim SVOTN N NHCME GZT EGQZVP ) 
+           QAWDEJ T2,sk fvlm TAG T2 PJDJE 
