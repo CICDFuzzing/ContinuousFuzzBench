@@ -1,4 +1,0 @@
-  PRAGMA temp.cache_size = 10;
-
-  CREATE TEMP TABLE t1(a, b);
-  CREvavacuucuum;

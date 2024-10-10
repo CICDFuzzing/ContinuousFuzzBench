@@ -1,1 +1,0 @@
-  CREATE VIRTUAL TABLE temp.zip USING zi

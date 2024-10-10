@@ -1,2 +1,0 @@
-PRAGMA incremental_vacuum = 1000;
-        IN

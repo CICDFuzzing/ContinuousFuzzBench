@@ -1,3 +1,0 @@
- 
-  SELECT (SELECT (SELECT~~~~~~~~~~~(8)) );
-    CREATE UNIQUE I

@@ -1,2 +1,0 @@
- select a.*, x.*
-        from a, (sele

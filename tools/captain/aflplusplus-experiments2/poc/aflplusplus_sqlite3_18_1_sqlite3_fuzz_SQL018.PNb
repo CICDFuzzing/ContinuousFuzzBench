@@ -1,25 +1,0 @@
-     PRAGMA encoding = 'UTF-16';
-   
- SELECT''+'';
-     SELECT LIKE("!","","*")""WHeRE"";
-  } "","!")"";
-  } j1 {near : syntax error}}
-}
-
-reset_db 
-do_execsql_test 7.0 {
-  CREATE TABLE t1(x TEXT);
-  CREATE INDEX i1 ON t1(x COLLATE nocase);
-  INSERT INTO t1 VALUES('');
-}
-
-ifcapable !icu {
-  do_execsql_test 7.1 {
-    SELECT count(*) FROM t1 WHERE x LIKE '!' ESCAPE '!';
-  } {0}
-}
-
-#----------------------·------------------------------------------
-#
-do_execsql_test 8.0 {
-  CREATE TABLE IF NOT EXI    CR

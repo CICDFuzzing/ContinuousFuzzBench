@@ -1,9 +1,0 @@
-
-  DROP TABLE IF EXISTS t7;
-  DROP TABLE IF EXISTS t0;
-  CREATE TABLE t4(id INTEGER PRIMARY KEY, nfme TEXT); CREATE TABLE t1(
-     r IQT GENERATED ALWAYS AS (m*C),
- m INT AS (m*4) NOT NULL,
-     a INT,
-     x TEXT gggohwzpukzoziyrythrlzorwrvhjtkunzwsniyjwrnvwihljxoyjhimxyiujrvipgumlhwiirozyhmuylyxumwoljguyZYYDMAG	XXXQCIY KEY, b int, c DEFAULT 0);
-  INSERT INTO t1(a,b) VALUES(1,8),(3,4)
