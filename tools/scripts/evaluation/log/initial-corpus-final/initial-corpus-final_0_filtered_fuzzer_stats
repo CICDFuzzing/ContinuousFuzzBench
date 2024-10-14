@@ -1,0 +1,17 @@
+aflplusplus,libpng,libpng_read_fuzzer,1727812121,1727898519,177025826,2048.96,0,177025826,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/libpng/libpng_read_fuzzer/0/findings/default
+aflplusplus,libsndfile,sndfile_fuzzer,1727812252,1727898645,65639174,759.77,0,65639174,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/libsndfile/sndfile_fuzzer/0/findings/default
+aflplusplus,libtiff,tiff_read_rgba_fuzzer,1727812303,1727898701,103670117,1199.92,0,103670117,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/libtiff/tiff_read_rgba_fuzzer/0/findings/default
+aflplusplus,libxml2,libxml2_xml_read_memory_fuzzer,1727812397,1727898784,110935359,1284.17,0,110935359,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/libxml2/libxml2_xml_read_memory_fuzzer/0/findings/default
+aflplusplus,libxml2,libxml2_xml_reader_for_file_fuzzer,1727812411,1727898782,67384553,780.17,0,67384553,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/libxml2/libxml2_xml_reader_for_file_fuzzer/0/findings/default
+aflplusplus,openssl,asn1,1727812615,1727898872,13083763,151.68,0,13083763,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/openssl/asn1/0/findings/default
+aflplusplus,openssl,asn1parse,1727812442,1727898835,87191035,1009.24,0,87191035,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/openssl/asn1parse/0/findings/default
+aflplusplus,openssl,bignum,1727812463,1727898838,7929694,91.80,0,7929694,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/openssl/bignum/0/findings/default
+aflplusplus,openssl,client,1727812640,1727898877,12421464,144.04,0,12421464,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/openssl/client/0/findings/default
+aflplusplus,openssl,server,1727812753,1727898883,6808021,79.04,0,6808021,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/openssl/server/0/findings/default
+aflplusplus,openssl,x509,1727812533,1727898864,70556009,817.28,0,70556009,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/openssl/x509/0/findings/default
+aflplusplus,php,exif,1727812589,1727898985,21280040,246.31,0,21280040,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/php/exif/0/findings/default
+aflplusplus,php,json,1727812589,1727898985,21716428,251.36,0,21716428,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/php/json/0/findings/default
+aflplusplus,php,parser,1727812770,1727899051,21000769,243.40,0,21000769,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/php/parser/0/findings/default
+aflplusplus,php,unserialize,1727812587,1727898984,21748371,251.73,0,21748371,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/php/unserialize/0/findings/default
+aflplusplus,poppler,pdf_fuzzer,1727812739,1727899096,6907251,79.99,0,6907251,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/poppler/pdf_fuzzer/0/findings/default
+aflplusplus,sqlite3,sqlite3_fuzz,1727812748,1727899138,75141383,869.79,0,75141383,/home/huicongh/ContinuousFuzzBench/tools/captain/initial-corpus-final/ar/aflplusplus/sqlite3/sqlite3_fuzz/0/findings/default
