@@ -74,6 +74,14 @@ USER magma:magma
 RUN ${TARGET}/fetch.sh
 RUN ${MAGMA}/apply_patches.sh
 
+ARG corpus_name
+ARG seed_path=seed/${corpus_name}
+ENV SEED 	${TARGET}/corpus/seed
+USER root:root
+RUN mkdir -p ${SEED} && chown magma:magma ${SEED}
+COPY --chown=magma:magma ${magma_root}/${seed_path} ${SEED}/
+USER magma:magma
+
 ## Configuration parameters
 ARG isan
 ARG harden

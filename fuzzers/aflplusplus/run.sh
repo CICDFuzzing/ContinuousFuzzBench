@@ -25,6 +25,6 @@ export AFL_NO_UI=1
 export AFL_MAP_SIZE=256000
 export AFL_DRIVER_DONT_DEFER=1
 
-"$FUZZER/repo/afl-fuzz" -m none -t 10000 -i "$TARGET/corpus/$CORPUS" -o "$SHARED/findings" \
+"$FUZZER/repo/afl-fuzz" -m none -t 10000 -i "$SEED" -o "$SHARED/findings" \
     "${flag_cmplog[@]}" -d \
     $FUZZARGS -- "$OUT/afl/$PROGRAM" $ARGS 2>&1
