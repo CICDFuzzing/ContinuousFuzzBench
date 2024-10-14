@@ -45,7 +45,11 @@ echo "Get the total coverage..."
 llvm-cov report -instr-profile merged.profdata $PROGRAM > $SHARED/coverage/"$TARGET_NAME"_"$PROGRAM"_total_coverage.txt
 
 # echo "Get the coverage of the target file..."
-llvm-cov report -instr-profile merged.profdata $PROGRAM $TARGET/work/sqlite3.c -show-functions > $SHARED/coverage/"$TARGET_NAME"_"$PROGRAM"_target_file_coverage.txt
+if [[ "$TARGET" == *"sqlite3"* ]]; then
+    llvm-cov report -instr-profile merged.profdata $PROGRAM $TARGET/work/sqlite3.c -show-functions > $SHARED/coverage/"$TARGET_NAME"_"$PROGRAM"_target_file_coverage.txt
+else
+    llvm-cov report -instr-profile merged.profdata $PROGRAM ${COMMIT_PATHS[@]} -show-functions > $SHARED/coverage/"$COVERAGE_PREFIX"_target_file_coverage.txt
+fi
 
 # clean up
 rm $OUT/*.prof*
