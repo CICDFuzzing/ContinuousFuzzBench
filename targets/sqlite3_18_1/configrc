@@ -2,4 +2,4 @@ PROGRAMS=(sqlite3_fuzz)
 
 PATCHES="SQL018"
 
-COMMIT_FILES=(src/expr.c)
+COMMIT_FILES=(src/sqlite3.c)

@@ -1,0 +1,14 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_4/corpus/seed
+The target is openssl_20_4
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_4/repo/ssl/t1_lib.c
+Check the number of profdata...
+1562
+Merging profraw files...
+Get the total coverage...
+Get the coverage of the target file...
+/magma/fuzzers/llvm_cov
+/magma_shared

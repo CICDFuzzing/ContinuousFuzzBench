@@ -1,0 +1,14 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libtiff_7_1/corpus/seed
+The target is libtiff_7_1
+The commit files are libtiff/tif_dirread.c
+The commit paths are /magma/targets/libtiff_7_1/repo/libtiff/tif_dirread.c
+Check the number of profdata...
+4454
+Merging profraw files...
+Get the total coverage...
+Get the coverage of the target file...
+/magma/fuzzers/llvm_cov
+/magma_shared
