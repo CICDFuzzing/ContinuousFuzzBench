@@ -1,6 +1,0 @@
-PROGRAMS=(unserialize)
-#json exif unserialize parser
-
-PATCHES="PHP005"
-AUTOMATIC=1
-COMMIT_FILES=(ext/iconv/iconv.c)
