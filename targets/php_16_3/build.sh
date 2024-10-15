@@ -60,10 +60,14 @@ for fuzzerName in $FUZZERS; do
 done
 
 for fuzzerName in `ls sapi/fuzzer/corpus`; do
-    mkdir -p "$TARGET/corpus/${fuzzerName}"
     cp sapi/fuzzer/corpus/${fuzzerName}/* "$TARGET/corpus/${fuzzerName}/"
-    if [ -f sapi/fuzzer/$fuzzerName.0.0.*.bc ]; then 
-        export bytecodeName=$(ls sapi/fuzzer/$fuzzerName.0.0.*.bc | xargs basename)
-        cp sapi/fuzzer/$bytecodeName "$OUT/${bytecodeName/php-fuzz-/}"
-    fi
+    # Loop through the files that match the pattern
+    for file in "sapi/fuzzer/"*"$fuzzerName".0.0.*.bc; do
+        if [ -f "$file" ]; then
+            echo "File exists: $file"
+            export bytecodeName=$(basename $file)
+            cp sapi/fuzzer/$bytecodeName "$OUT/"
+        fi
+    done
 done
+
