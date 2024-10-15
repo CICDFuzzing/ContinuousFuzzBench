@@ -72,8 +72,8 @@ timeout $TIMEOUT "$FUZZER/run.sh" | \
     multilog n2 s$LOGSIZE "$SHARED/log"
 
 if [[ "$FUZZER" == *"libfuzzer"* ]]; then
-    mkdir $SHARED/final-corpus
-    cp -r $TARGET/corpus/$CORPUS $SHARED/final-corpus
+    mkdir $SHARED/corpus
+    cp -r $TARGET/corpus/$CORPUS $SHARED/corpus
 fi
 
 if [ -f "$SHARED/log/current" ]; then
