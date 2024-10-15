@@ -1,0 +1,10 @@
+<grammar xmlns="http://relaxng.org/ns/structure/<include href="include0.inc">
+    <div>
+      <start>
+        <element name="root">
+          <e/>
+        </element>
+  </start>
+    </div>
+  </include>
+</grammar>

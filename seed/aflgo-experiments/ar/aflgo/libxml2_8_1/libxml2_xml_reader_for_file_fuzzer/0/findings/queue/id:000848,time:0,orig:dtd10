@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((, c ,  d)*>
+<!ELEMENT a (#PCDATA)>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+<!ELEMENT d (#PCDATA)>
+]>
+<doc><b>T/b><s a</c>< document</d></doc>

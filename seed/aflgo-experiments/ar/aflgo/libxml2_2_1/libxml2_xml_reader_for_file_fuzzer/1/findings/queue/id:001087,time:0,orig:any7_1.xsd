@@ -1,0 +1,9 @@
+<?xml ven="1xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="urn:test:foo"
+	elementFormDefault="qualified">
+	<xs:element name="foo">
+s:complee>
+xs:sequence>		<xs:element name="bar"/>
+				<xs:namespace="##oth
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,8 @@
+/followi*
+/preceding::*
+/child::EXAMPLE/preceding::*
+/child::EXA/following::*
+/child::EXAMPLE/child::chapreceding::*
+/child::EXAMPLE/child::chapter[3]/following::*
+/chiPLE/child::chapter[1]/image/preceding::*
+/child::EXAMPLE/child::chapter[1]/image/following::*

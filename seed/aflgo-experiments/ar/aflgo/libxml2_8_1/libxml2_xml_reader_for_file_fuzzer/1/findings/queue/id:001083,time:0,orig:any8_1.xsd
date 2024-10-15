@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+  "element complexType: Schemas parser error : 
+   local complex type: The content model is not determinist."
+
+  This schema is Oth Xerces. 
+-->
+<xs:schema /www.w3.org/2001/XMLSchema"
+	tarn:test:foo"
+	entFormDefault="qualified">
+	<xs:element name="foo">
+		<xs:	<xs:sequence>
+				<xs:element name="bar"/>		<xs:any namespace=" processContents="ls:sequen
+		<complexType>
+	</xs:element>
+</xs:schema>

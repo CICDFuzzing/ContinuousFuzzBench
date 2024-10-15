@@ -1,0 +1,113 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_4/corpus/seed/server/0/findings/queue
+The target is openssl_11_4
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_4/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1562
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_4/corpus/seed/server/1/findings/queue
+The target is openssl_11_4
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_4/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1562
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_4/corpus/seed/server/2/findings/queue
+The target is openssl_11_4
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_4/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1562
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_4/corpus/seed/server/3/findings/queue
+The target is openssl_11_4
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_4/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1562
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_4/corpus/seed/server/4/findings/queue
+The target is openssl_11_4
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_4/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1562
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_4/corpus/seed/server/5/findings/queue
+The target is openssl_11_4
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_4/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1562
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_4/corpus/seed/server/6/findings/queue
+The target is openssl_11_4
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_4/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1562
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_4/corpus/seed/server/7/findings/queue
+The target is openssl_11_4
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_4/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1562
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_4/corpus/seed/server/8/findings/queue
+The target is openssl_11_4
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_4/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1562
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_4/corpus/seed/server/9/findings/queue
+The target is openssl_11_4
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_4/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1562
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

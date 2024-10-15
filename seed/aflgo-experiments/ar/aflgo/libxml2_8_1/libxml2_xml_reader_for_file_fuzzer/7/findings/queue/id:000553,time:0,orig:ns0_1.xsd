@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:"http://www.w3.org/2001/XMLSchema"
+	    targetNamespace="http://example.com/xsd/ns"
+            elementFormDefault="qualified"
+	    eFormDefault="qualified">
+  <xsd name="f
+    <xsd:complexTypmpleContent>
+        <xsd:extensring">
+      <xsd:attribute   </xsd:exteimpleContent>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
+

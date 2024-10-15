@@ -1,0 +1,6 @@
+<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#c14n11xmlbase-c14n11se fixup is performed.
+-->
+<XPath xmlns:ietf="http://www.ietf.org" >. | //@* | //namespa*) 
+[self::ietf:e1 oarent::ietf:e1 and not(self::text() or self::e2)) or cou3")|ancecestor-or-self::node())]
+</XPath>

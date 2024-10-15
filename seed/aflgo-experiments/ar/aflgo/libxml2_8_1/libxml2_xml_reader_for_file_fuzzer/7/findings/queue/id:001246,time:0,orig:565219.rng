@@ -1,0 +1,8 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+   <element>
+      <anyName>
+        <except>
+          <nsName ns="://b <nsNamep://foo.com/        cept</an  </start>
+</grammar>
+

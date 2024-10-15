@@ -1,0 +1,7 @@
+<doc>
+  :base="html/">
+	<imaxml:base="../images/">
+	    <img href="img1.gif"/>
+	</images>
+    </e>
+</doc>

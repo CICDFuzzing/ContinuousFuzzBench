@@ -1,0 +1,10 @@
+<?xml versio.0"?>
+<xsd:schema xmlns:xsd="http://XMLSchema"
+	xmlns:f="urn:test:foo"
+	targetNamespace="urn:test:foo">
+	<xsd:element name="foo" typsd:seType name="fooType"<xsd:restric basecimal">
+			<xsd:minExclusive value="0"/>
+		</xsd:restriction>
+	</xsd:si>
+
+</xsd:schema>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="family" type="family_type">
+      <xs:key name="sibling_key">
+        <xs:selector xpath="siblings/sibling"/>
+        <xs:field xpath="@name"/>
+      </xs:key>
+      <xs:keyref name="sibling_key_ref" refer="sibling_key">
+        <xs:selector xpath="sisters/sister"/>
+        <xs:field xpath="@name"/>
+    </xs:keyref>
+  </xs:element>
+    <xs:complexType name="family_type">
+      <xs:sequence>
+        <xs:element name="siblings" type="siblings_type" />
+        <xs:element name="sisters" type="sisters_type"  /     </xs:sequence>
+      <xs:attrimplee>
+<xs:compnbounded
+      :seqe>
+    plexType 
+ pe n"sisters_type">nce>attributme="namexs:scomplexType>xs:complexType name="sister_typetype="xs:string"</xs:schema>

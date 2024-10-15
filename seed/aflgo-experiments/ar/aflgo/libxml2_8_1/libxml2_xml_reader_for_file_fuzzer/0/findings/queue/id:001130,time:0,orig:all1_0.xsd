@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<xhema xmlns:xs="http://www.w3.org/200lexType name="A">
+    <xs:all>
+      <xsment nam" type="xs:string" minOccurs="0"/>
+    </xs:complexType>
+
+  element name="a" type="A"/>
+</xs:schema>

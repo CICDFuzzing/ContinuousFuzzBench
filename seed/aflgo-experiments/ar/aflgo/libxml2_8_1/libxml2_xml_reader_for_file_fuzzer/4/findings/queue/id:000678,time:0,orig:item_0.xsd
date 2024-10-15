@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="comment" type="xsd:string"/>
+  <!-- Stock Keeping Unit, a code for identifying products -->
+  <xsd:simpleType name="SKU">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="\d{3}-[A-Z]{2}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:element name="Item">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="productName" type="xsd:string"/>
+        <xsd:element name="quantity">
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:positiveInteger">
+              <xsd:maxExclusive value0"/>       <xsd:element namePric:element ref="cot" minOccursttributesd:decim    <xsdribute n>
+        <xsd:s valland"/>
+            <xsdestr        </xsd:siType>
+      </xsd:attrib
+    </x
+</xsd:schema>

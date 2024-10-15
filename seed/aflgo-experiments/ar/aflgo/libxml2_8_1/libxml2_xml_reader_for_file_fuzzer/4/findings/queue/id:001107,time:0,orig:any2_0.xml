@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Tests xsd:aith a set of namespaces, icluding 
+	"##local" and "##targetNamespace". -foo 
+	xmlns:foo="httFOO"
+	xmlns:bar="http://BAR"
+	xmlns:xsi="http://www.w3.org/2chema-instance" i:schemation="http://FOO anyoo:boo booAttr="123"/>		
+	</foo:anything>
+
+	<bar:anything>
+		<foo:boo bor="123"/>		
+	</bar:anything>
+
+	<anything>
+		<foo:boo booAttr="123"/>		
+	</anything>
+	
+	
+</foo:foo>
+

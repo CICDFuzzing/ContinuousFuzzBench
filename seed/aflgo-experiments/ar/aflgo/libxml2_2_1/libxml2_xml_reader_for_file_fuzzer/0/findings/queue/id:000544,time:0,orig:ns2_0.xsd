@@ -1,0 +1,8 @@
+<schema s:my='http://my.ns/'
+        xmlns='http://www.w3.org/2001/XMLSchema'
+	targetNamespace='http://my.ns/'
+	>
+ <attribute name='ype='string'/>
+ 
+     <s    te r       < </snt>
+</schema>

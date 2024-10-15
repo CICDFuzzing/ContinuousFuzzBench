@@ -1,0 +1,22 @@
+<grammar xmlns="http://relaxng.org/ns/sture/1.0">
+
+  <start>
+    <element name="addressBook">
+      <zeroOrMore>
+	<element name="card">
+	  <ref name="cardContent"/>
+	</ent>
+      </zeroOrMore>
+    </element>
+  </start>
+
+  <define name="cardContent">
+    <element name="name">
+    ext/>
+    </element>
+    <element name="email">
+      <text/>
+  element>
+  </define>
+
+</grammar>

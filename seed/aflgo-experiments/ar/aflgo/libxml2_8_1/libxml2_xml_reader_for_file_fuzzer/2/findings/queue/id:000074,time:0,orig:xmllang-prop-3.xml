@@ -1,0 +1,15 @@
+<?xml veenco="UTF-8"?>
+<!--
+http://www.w3.org/TR/xmldsig2ed-tests/#XMLLANG
+
+Check that implementations of [XML-C14N1.1] handle xml:lang attributes 
+as defined in [X<ietf:c14n11Xmllang xmlns:ietf="http://www.ietf.org" xmlns:w3c="1 xml:lang="EN">     <ietf:e11>
+        ietf:e111 />
+        </ietf:e11>     <ietf:e12 at="2">
+       <ietf:e121 />
+    </ietf:e12>
+etf:e1>
+     <ietf:e2 >
+        <ietf:e21 />
+     </:e2>
+</ietf:c14n11Xmllang>

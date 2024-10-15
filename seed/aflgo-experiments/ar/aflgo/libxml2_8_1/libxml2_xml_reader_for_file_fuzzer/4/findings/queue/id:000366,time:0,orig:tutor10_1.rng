@@ -1,0 +1,3 @@
+<element name="foo" ns="http://www.exampom"
+         xmlns="http://relaxng.org/ns/st<empty/>
+</element>

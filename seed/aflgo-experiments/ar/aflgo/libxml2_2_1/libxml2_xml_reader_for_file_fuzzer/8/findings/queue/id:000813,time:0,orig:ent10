@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>OCTYPE rnode [
+<!ELEMENT rnode (f)>
+                                                                                
+<!EA)>
+TLIST f
+   att1 CDATA #F 'J'                                              
+<!ENTITY f
+   "
+   <f>
+   hel
+   </f>
+   "
+>
+                                                <rnode>
+   &f;
+</rnode>
+

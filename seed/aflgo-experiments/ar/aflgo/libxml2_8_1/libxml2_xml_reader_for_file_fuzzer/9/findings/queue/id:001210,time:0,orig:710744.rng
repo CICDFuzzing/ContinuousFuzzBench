@@ -1,0 +1,16 @@
+<?xml ven="1.0"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <element name="test" ns="http://example.com/1/">
+      <zeroOrMore>
+    <attri>
+          <choice>
+            <nsName ns="http://example.com/1/"/>
+            <nsName ns="http://example.com/2/"/>
+     e>
+          <text/>
+        </attribute>
+      >
+    </element>
+  </start>
+</grammar>

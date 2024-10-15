@@ -1,0 +1,15 @@
+<schema xmlns="http://www.ascc.net/xml/schematron" >
+     <pattern name="Root test">
+          <rule context="/*">
+               <assert test="name()='AAA'">Root element is
+        þ          <name/>, not AAA
+        
+
+
+
+
+  </assert>
+           ÿÿÿ<report test="ïïïïïïïïïïïïïïïïït element is AAA</report>
+          </rule>
+     </pattern>
+</schema>

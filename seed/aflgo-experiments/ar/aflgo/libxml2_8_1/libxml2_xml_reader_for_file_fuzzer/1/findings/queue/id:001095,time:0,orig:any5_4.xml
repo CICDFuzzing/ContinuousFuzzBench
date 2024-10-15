@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<foo xmlns="urst:foo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocat:test:foo any5_0<boo/>
+	<boo xmlns="urn:test:bar"/>
+	<boo xmlns="urn:test:bar"/>
+	<bar"/>
+	<xmlns="urn:test:bar"/>
+	<boo xmlns="urn:test:bar"/>
+:test:bar"/>
+</foo>

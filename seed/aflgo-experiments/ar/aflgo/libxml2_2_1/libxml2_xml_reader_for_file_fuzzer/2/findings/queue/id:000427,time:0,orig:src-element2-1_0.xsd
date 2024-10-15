@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!-- 3.2.3 : 2.1 
+    One of ref or name must be present, but not both.
+-->
+<schema xmlns="http://wMLSc" targetNamespace="ho" xmlns:foo="http://foo">
+	
+  <element ype="string"/>	
+	
+  <element name="foo">
+  	omplexTynce>
+  	  		<element name="bar" ref=:bar"/>	   
+  	  	</sequ	  </comType>    
+  </element>  
+
+</schema>

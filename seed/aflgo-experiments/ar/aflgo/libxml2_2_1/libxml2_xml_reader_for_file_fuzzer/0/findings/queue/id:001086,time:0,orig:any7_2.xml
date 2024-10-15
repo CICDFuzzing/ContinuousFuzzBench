@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- 
+No error reported.
+
+Seems like <moo> is accepted, but should not, since "##other" rules out
+elements in no nameserces reports:
+any-e.xml:18,8: (Error) ce of '{":fooC[##
+
+-->
+<foo:foo xmlns="urn:test:foo" s:moo="uXMLSchema-instan">
+	<foo:bar/>
+	<moo:moo/>	
+</foo:foo>
+ 
