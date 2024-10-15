@@ -1,0 +1,86 @@
+File '/magma/targets/openssl_1_5/repo/crypto/asn1/a_int.c':
+Name                             Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+------------------------------------------------------------------------------------------------------------
+ASN1_INTEGER_dup                       1       1   0.00%         3       3   0.00%         0       0   0.00%
+ASN1_INTEGER_cmp                      12       0 100.00%        15       0 100.00%         6       0 100.00%
+ossl_i2c_ASN1_INTEGER                  2       0 100.00%         3       0 100.00%         0       0   0.00%
+ossl_c2i_ASN1_INTEGER                 34      12  64.71%        31       7  77.42%        18       8  55.56%
+d2i_ASN1_UINTEGER                     58      58   0.00%        54      54   0.00%        26      26   0.00%
+ASN1_INTEGER_get_int64                 2       0 100.00%         3       0 100.00%         0       0   0.00%
+ASN1_INTEGER_set_int64                 2       2   0.00%         3       3   0.00%         0       0   0.00%
+ASN1_INTEGER_get_uint64                2       2   0.00%         3       3   0.00%         0       0   0.00%
+ASN1_INTEGER_set_uint64                2       2   0.00%         3       3   0.00%         0       0   0.00%
+ASN1_INTEGER_set                       1       1   0.00%         3       3   0.00%         0       0   0.00%
+ASN1_INTEGER_get                      12       2  83.33%        12       2  83.33%         8       3  62.50%
+BN_to_ASN1_INTEGER                     2       2   0.00%         3       3   0.00%         0       0   0.00%
+ASN1_INTEGER_to_BN                     2       0 100.00%         3       0 100.00%         0       0   0.00%
+ASN1_ENUMERATED_get_int64              2       2   0.00%         3       3   0.00%         0       0   0.00%
+ASN1_ENUMERATED_set_int64              2       2   0.00%         3       3   0.00%         0       0   0.00%
+ASN1_ENUMERATED_set                    1       1   0.00%         3       3   0.00%         0       0   0.00%
+ASN1_ENUMERATED_get                   20      20   0.00%        16      16   0.00%        12      12   0.00%
+BN_to_ASN1_ENUMERATED                  2       2   0.00%         3       3   0.00%         0       0   0.00%
+ASN1_ENUMERATED_to_BN                  2       2   0.00%         3       3   0.00%         0       0   0.00%
+ossl_c2i_uint64_int                   12       0 100.00%        13       0 100.00%         4       0 100.00%
+ossl_i2c_uint64_int                    1       1   0.00%         6       6   0.00%         0       0   0.00%
+a_int.c:i2c_ibuf                      43       2  95.35%        55       4  92.73%        30       4  86.67%
+a_int.c:c2i_ibuf                      45       0 100.00%        37       0 100.00%        26       0 100.00%
+a_int.c:twos_complement                5       0 100.00%        11       0 100.00%         4       1  75.00%
+a_int.c:asn1_string_get_int64         19      12  36.84%        11       6  45.45%         4       2  50.00%
+a_int.c:asn1_get_int64                28      17  39.29%        23       9  60.87%        10       5  50.00%
+a_int.c:asn1_string_set_int64          6       6   0.00%        13      13   0.00%         2       2   0.00%
+a_int.c:asn1_string_get_uint64        27      27   0.00%        15      15   0.00%         6       6   0.00%
+a_int.c:asn1_string_set_uint64         1       1   0.00%         7       7   0.00%         0       0   0.00%
+a_int.c:bn_to_asn1_string             35      35   0.00%        33      33   0.00%        16      16   0.00%
+a_int.c:asn1_string_to_bn             21      12  42.86%        15       6  60.00%         6       2  66.67%
+a_int.c:asn1_get_uint64               15       7  53.33%        16       4  75.00%         6       2  66.67%
+a_int.c:asn1_put_uint64                3       3   0.00%         7       7   0.00%         2       2   0.00%
+------------------------------------------------------------------------------------------------------------
+TOTAL                                422     234  44.55%       432     222  48.61%       186      91  51.08%
+
+File '/magma/targets/openssl_1_5/repo/crypto/asn1/a_type.c':
+Name                             Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+------------------------------------------------------------------------------------------------------------
+ASN1_TYPE_get                         12      12   0.00%         8       8   0.00%         6       6   0.00%
+ASN1_TYPE_set                         18       2  88.89%        13       3  76.92%        10       4  60.00%
+ASN1_TYPE_set1                        18      18   0.00%        19      19   0.00%        10      10   0.00%
+ASN1_TYPE_cmp                         62      62   0.00%        45      45   0.00%        58      58   0.00%
+ASN1_TYPE_pack_sequence               16      16   0.00%        20      20   0.00%        10      10   0.00%
+ASN1_TYPE_unpack_sequence             10       0 100.00%         5       0 100.00%         6       2  66.67%
+------------------------------------------------------------------------------------------------------------
+TOTAL                                136     110  19.12%       110      95  13.64%       100      90  10.00%
+
+File '/magma/targets/openssl_1_5/repo/crypto/asn1/tasn_dec.c':
+Name                                 Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+----------------------------------------------------------------------------------------------------------------
+ASN1_tag2bit                               6       0 100.00%         5       0 100.00%         4       1  75.00%
+ASN1_item_ex_d2i                           1       0 100.00%         4       0 100.00%         0       0   0.00%
+ASN1_item_d2i_ex                           9       0 100.00%        11       0 100.00%         4       0 100.00%
+ASN1_item_d2i                              1       0 100.00%         3       0 100.00%         0       0   0.00%
+tasn_dec.c:asn1_item_ex_d2i_intern        13       6  53.85%        12       3  75.00%         6       2  66.67%
+tasn_dec.c:asn1_item_embed_d2i           305      65  78.69%       239      51  78.66%       138      26  81.16%
+tasn_dec.c:asn1_template_ex_d2i           55       1  98.18%        51       1  98.04%        18       2  88.89%
+tasn_dec.c:asn1_template_noexp_d2i       120      21  82.50%       102      16  84.31%        42       6  85.71%
+tasn_dec.c:asn1_d2i_ex_primitive         141      24  82.98%       100      12  88.00%        56       5  91.07%
+tasn_dec.c:asn1_find_end                  41       7  82.93%        41       6  85.37%        16       2  87.50%
+tasn_dec.c:asn1_collect                   55       3  94.55%        43       4  90.70%        24       4  83.33%
+tasn_dec.c:collect_data                   12       6  50.00%        13       3  76.92%         4       2  50.00%
+tasn_dec.c:asn1_ex_c2i                   160      20  87.50%       123      12  90.24%        98       8  91.84%
+tasn_dec.c:asn1_check_tlen                75       6  92.00%        63       3  95.24%        38       2  94.74%
+tasn_dec.c:asn1_check_eoc                  9       0 100.00%        11       0 100.00%         6       0 100.00%
+----------------------------------------------------------------------------------------------------------------
+TOTAL                                   1003     159  84.15%       821     111  86.48%       454      60  86.78%
+
+File '/magma/targets/openssl_1_5/repo/crypto/asn1/tasn_enc.c':
+Name                                 Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+----------------------------------------------------------------------------------------------------------------
+ASN1_item_ndef_i2d                         2       2   0.00%         3       3   0.00%         0       0   0.00%
+ASN1_item_i2d                              1       0 100.00%         3       0 100.00%         0       0   0.00%
+ASN1_item_ex_i2d                         115      51  55.65%        98      38  61.22%        74      33  55.41%
+tasn_enc.c:asn1_item_flags_i2d            20       8  60.00%        18       5  72.22%         8       4  50.00%
+tasn_enc.c:asn1_template_ex_i2d           99      38  61.62%        95      34  64.21%        56      32  42.86%
+tasn_enc.c:asn1_set_seq_out               52      16  69.23%        53       9  83.02%        20       6  70.00%
+tasn_enc.c:der_cmp                         7       0 100.00%         9       0 100.00%         4       0 100.00%
+tasn_enc.c:asn1_i2d_ex_primitive          28       2  92.86%        33       4  87.88%        20       3  85.00%
+tasn_enc.c:asn1_ex_i2c                   113      25  77.88%        99      18  81.82%        94      23  75.53%
+----------------------------------------------------------------------------------------------------------------
+TOTAL                                    437     142  67.51%       411     111  72.99%       276     101  63.41%
