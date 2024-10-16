@@ -73,7 +73,8 @@ timeout $TIMEOUT "$FUZZER/run.sh" | \
 
 if [[ "$FUZZER" == *"libfuzzer"* ]]; then
     mkdir $SHARED/corpus
-    cp -r $TARGET/corpus/$CORPUS $SHARED/corpus
+    echo "The dir is $SEED"
+    cp -r $SEED $SHARED/corpus
 fi
 
 if [ -f "$SHARED/log/current" ]; then
