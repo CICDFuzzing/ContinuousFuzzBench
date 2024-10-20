@@ -17,7 +17,11 @@ export CFLAGS="$CFLAGS -fsanitize=fuzzer-no-link"
 export CXXFLAGS="$CXXFLAGS -fsanitize=fuzzer-no-link"
 export LDFLAGS="$LDFLAGS -fsanitize=fuzzer-no-link"
 
-export LIBS="$LIBS -l:driver.o $OUT/libFuzzer.a -lstdc++"
+if [[ $TARGET == *"libsndfile"* ]]; then
+    export LIBS="$LIBS $OUT/driver.o $OUT/libFuzzer.a -lstdc++"
+else
+    export LIBS="$LIBS -l:driver.o $OUT/libFuzzer.a -lstdc++"
+fi
 
 "$MAGMA/build.sh"
 "$TARGET/build.sh"

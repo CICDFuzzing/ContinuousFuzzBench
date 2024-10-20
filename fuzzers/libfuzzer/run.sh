@@ -13,7 +13,14 @@
 
 mkdir -p "$SHARED/findings"
 
-"$OUT/$PROGRAM" -keep_seed=1 -rss_limit_mb=0 -timeout=10 \
+if [[ $TARGET == *"libsndfile"* ]]; then
+	"$OUT/$PROGRAM" -keep_seed=1 -rss_limit_mb=0 -timeout=10 \
+	-fork=1 -ignore_timeouts=1 -ignore_crashes=1 -ignore_ooms=1 \
+	-artifact_prefix="$SHARED/findings/" $FUZZARGS \
+    "$SEED"
+else
+	"$OUT/$PROGRAM" -keep_seed=1 -rss_limit_mb=0 -timeout=10 \
 	-fork=1 -ignore_timeouts=1 -ignore_crashes=1 -ignore_ooms=1 \
 	-artifact_prefix="$SHARED/findings/" $FUZZARGS \
     "$SEED" $ARGS
+fi
