@@ -1,5 +1,0 @@
-<?php
-const FOO = 0;
-
-vsr_dump(constant(__NAMESPACE__ | "\\FOO"));
-?>

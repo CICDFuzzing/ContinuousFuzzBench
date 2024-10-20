@@ -1,7 +1,0 @@
-<?php
-
-var_dump(isset([0, 1][0]));
-var_dump(isset(([0, 1] + [])[0]));
-var_dump(isset([[0, 1]][0][0]));
-var_dump(isset(([[0, 1]] + [])[0][0]));
-var_dump(isset(((objecj'	['a'

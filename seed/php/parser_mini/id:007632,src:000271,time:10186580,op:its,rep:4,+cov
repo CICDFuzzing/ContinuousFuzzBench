@@ -1,9 +1,0 @@
-<?php
-class	Foo{
-				public	$bar	=E49;
-}
-
-class	Baz	extends	Foo{
-				public	int	$bar	=	35;
-}
-?>

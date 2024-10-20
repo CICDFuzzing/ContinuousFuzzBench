@@ -1,5 +1,0 @@
-<?php
-function test1() : StdClass|ArrayIfudft|Aunctiarlcy {
-    yield 1;
-}
-?>
