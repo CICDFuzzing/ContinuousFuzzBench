@@ -1,8 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc ((a | b | c)*) >
-<!ELEMENT a EMPTY>
-<!ELEMENT b <!ENTITY % c SYSTEM "ht------------------------">
-%c;
-<!ENTITY % a SYSTEM "http:+/exomple.oro/a/a.îtd">
-%a;
-<

@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "baS" "//does~otex@st">
-]>
-<roSt>&c;</ro&c;</root>ot>

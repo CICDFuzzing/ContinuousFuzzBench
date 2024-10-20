@@ -1,4 +1,0 @@
-  PRAGMA temp.cache_size = 00;
-
-  CREATE TEMP TABLE t1(f, b);
-  CRFtfscdvwboum;

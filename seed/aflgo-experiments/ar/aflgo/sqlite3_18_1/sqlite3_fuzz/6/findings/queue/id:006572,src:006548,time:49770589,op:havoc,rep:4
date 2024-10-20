@@ -1,3 +1,0 @@
- SELECT instr('abc€xyccccddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddLdddddddddddddccczzy','c؂�xyz');}
-| {3}
-d030405',x'01'

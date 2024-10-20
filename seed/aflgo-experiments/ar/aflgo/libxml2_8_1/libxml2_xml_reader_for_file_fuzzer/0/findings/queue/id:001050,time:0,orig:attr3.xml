@@ -1,6 +1,0 @@
-<!DOCTYPc [
-<!ELEMENT doc (#PCDATA)>
-<!ATTLIST a1 CDATA "v1">
-<!ATTLIST doc a"z1">
-]>
-<doc></doc>

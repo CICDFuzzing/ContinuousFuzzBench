@@ -1,5 +1,0 @@
-<?php
-
-die(new stdClass);
-
-?>

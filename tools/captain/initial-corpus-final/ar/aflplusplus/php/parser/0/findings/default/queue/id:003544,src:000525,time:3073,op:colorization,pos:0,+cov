@@ -1,6 +1,0 @@
-<?php
-function foo ($throw =	FALSE) {
- 		try {
- echo "txk\n";
-				 if ($throw) {
- 						 throo	new E

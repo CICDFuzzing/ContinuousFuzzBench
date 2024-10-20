@@ -1,5 +1,0 @@
-;
-    ANALYZE;
- CREATE TABLE  x AS SELECT-1;
-  SELECT~~ (SELECT~~~~~~~~~~~~~~~~~~~~~~~~~~~~ sum(8)) <~ sumCT-1;
-  SELECT~~ (SELECT~~~~~(8) _) < aG(le½gth5)hhhhhhhhhhhhhhhh

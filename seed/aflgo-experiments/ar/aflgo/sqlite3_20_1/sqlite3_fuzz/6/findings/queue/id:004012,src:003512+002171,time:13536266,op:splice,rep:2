@@ -1,4 +1,0 @@
-BEGIN--L1;
-; PRAGMA jourrnal_m2;
-  PRAGMA jooce =12;
-  PRAGMA 

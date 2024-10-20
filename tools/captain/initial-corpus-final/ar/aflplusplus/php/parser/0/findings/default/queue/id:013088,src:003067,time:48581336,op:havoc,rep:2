@@ -1,8 +1,0 @@
-?phP
-
-<<<_WKS<?php
-declare(ticks=1)declare(ticks=1);
-namespace te;
-namespace test;
-echo "ok\n";
-?>

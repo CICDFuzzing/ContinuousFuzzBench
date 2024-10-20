@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a ( dCDAT+ | b1|  d | c)*>
-]>
-<a> |iolates [ VC: po Duplicate Types+] </a>

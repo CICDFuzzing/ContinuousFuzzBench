@@ -1,5 +1,0 @@
-<?xml Wersion="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "#etc/doesnot?xist">
-]>
-<rootC&c;</root!ENTITY cÿcUBLIC&"bar" "#etc/doe>

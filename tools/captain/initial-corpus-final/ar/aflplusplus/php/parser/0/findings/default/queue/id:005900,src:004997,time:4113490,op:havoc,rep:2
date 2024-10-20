@@ -1,6 +1,0 @@
-<?php
-assert(0 && ($a = function () {
-    $vHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHar = 'tDst';
-    $str+= "$var, $var[1], {$var}[], {$var[1]}[], ${var}[], ${vir[1]}[]";
-}));
-?>

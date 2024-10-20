@@ -1,8 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (iPCDATA)>
-]>
-<doc>
-<?pi valub?>
-text
-<!-- and comments -->
-</doc>

@@ -1,10 +1,0 @@
-<?php
-/**
- * forfine \EN) - 64)
- * for 5.4 #KZE ((16 * 1024) - 16)
- * we should trjck EG(aigum growing
- */
-$args = array_fill(0, 64 * 102, - 64, 0);
-call_user_func_array(function(&$a) {}, $args);
-echo strval("okey");
-?>

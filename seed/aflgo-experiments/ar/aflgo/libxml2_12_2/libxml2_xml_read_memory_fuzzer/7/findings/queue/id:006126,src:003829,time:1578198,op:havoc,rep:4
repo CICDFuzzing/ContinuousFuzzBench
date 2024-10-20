@@ -1,5 +1,0 @@
-<?xmj Wersion="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "#tc/does~otexist">
-]>
-<root>&c;</root%ENTITY cÿUBLIC "bar" "#etc/doe>

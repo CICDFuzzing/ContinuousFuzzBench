@@ -1,5 +1,5 @@
 #!/bin/bash
-for dir in /home/huicongh/ContinuousFuzzBench/seed/aflgo-experiments/ar/aflgo/*/*/*/*; do
+for dir in /home/huicongh/ContinuousFuzzBench/seed/aflgo-experiments/ar/aflgo/poppler*/*/*/*; do
     # Check if the directory path contains "canaries.raw"
     if [[ "$dir" == *"canaries.raw"* || "$dir" == *"core"* ]]; then
         echo "$dir contains canaries.raw or core"

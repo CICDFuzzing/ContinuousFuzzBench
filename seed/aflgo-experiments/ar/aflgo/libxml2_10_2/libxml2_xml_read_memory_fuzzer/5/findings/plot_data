@@ -1,4 +1,0 @@
-# unix_time, cycles_done, cur_path, paths_total, pending_total, pending_favs, map_size, unique_crashes, unique_hangs, max_depth, execs_per_sec
-1728884468, 0, 0, 12781, 12781, 879, 27.50%, 0, 0, 21, 926.60
-1728884473, 0, 54, 12781, 12780, 879, 27.50%, 0, 0, 21, 133.99
-1728884483, 0, 54, 12783, 12782, 879, 27.50%, 0, 0, 21, 94.15

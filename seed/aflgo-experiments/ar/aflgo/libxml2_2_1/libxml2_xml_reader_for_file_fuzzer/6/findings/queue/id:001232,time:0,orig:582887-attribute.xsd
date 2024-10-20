@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xs:schemxs="http://www.w3.org/2001/XMLSc"http://www.example.org/test-import-case"
-	   targetNamespace="h//www.example.org/test-ise">
-
-  <xs:simpleType name="test-ats:restrictiose="xs:string">
-      <xs:enumeration value="this" />
-    </xs:restrimpleType>
-
-</xs:schema>

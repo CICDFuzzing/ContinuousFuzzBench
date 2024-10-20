@@ -13,4 +13,3 @@ for i in {0..9}; do
         fi
     done
 done
-

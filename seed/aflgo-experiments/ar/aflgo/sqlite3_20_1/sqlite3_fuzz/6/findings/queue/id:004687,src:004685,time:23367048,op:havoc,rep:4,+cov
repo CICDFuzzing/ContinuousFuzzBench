@@ -1,4 +1,0 @@
-
- SELECT count FROM t11JOIN t1 USING (x);
-}(
-?ÿÿ

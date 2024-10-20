@@ -1,2 +1,0 @@
-{
-  CREATE TEMP TABLE t1(a, b);CREATE TEMP TABLE t1(a, b); PRAG PRAGMA temp.cache_sizH =R

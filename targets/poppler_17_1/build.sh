@@ -18,9 +18,11 @@ rm -rf "$WORK"
 mkdir -p "$WORK"
 mkdir -p "$WORK/lib" "$WORK/include"
 
+export LDFLAGS="$LDFLAGS -lbrotlidec"
+
 pushd "$TARGET/freetype2"
 ./autogen.sh
-./configure --prefix="$WORK" --disable-shared PKG_CONFIG_PATH="$WORK/lib/pkgconfig"
+./configure --prefix="$WORK" --disable-shared PKG_CONFIG_PATH="$WORK/lib/pkgconfig" --with-brotli=yes
 make -j$(nproc) clean
 make -j$(nproc)
 make install

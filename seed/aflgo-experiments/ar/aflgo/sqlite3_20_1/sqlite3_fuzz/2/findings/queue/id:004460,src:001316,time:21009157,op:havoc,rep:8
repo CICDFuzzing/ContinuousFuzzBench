@@ -1,3 +1,0 @@
-{
-  CREATE VIRTUAL TABLE t1 USING fts1(content);
-  INSERT INTO t1 

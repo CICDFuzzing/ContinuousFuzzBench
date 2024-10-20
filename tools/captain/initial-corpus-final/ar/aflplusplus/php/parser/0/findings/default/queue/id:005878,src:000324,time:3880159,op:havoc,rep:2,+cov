@@ -1,6 +1,0 @@
-hi<?php
-
-declare(stricttypes=1);
-var_dump(strllin(32));
-
-?>

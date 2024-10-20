@@ -1,3 +1,0 @@
-<?php
-Abstract	Class	Base	{
-				public	function	test($foo,	array\&$b

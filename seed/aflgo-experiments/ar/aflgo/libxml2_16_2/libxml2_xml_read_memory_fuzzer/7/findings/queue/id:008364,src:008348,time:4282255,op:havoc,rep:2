@@ -1,5 +1,0 @@
-<?xmw	Xbnsion="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "#e;;;;c%d;;;;;;;;;;;;;;tc%doesnotexis@">
-]>
-<rot>&c;</root!ENTIT

@@ -1,6 +1,0 @@
-<?xml version="1.0"?Path xmlns:bar="http://erg/bar" xmlns:baz="http://example.org/baz" xmlnstp://example.org/foo" xml:lang="en-ie">
-    (//.        <!-- only directly-used namespac-->
-              ancestor-or-self::bar:Something  and
-              (string(self::node()) = namespace-uri(parent::node()))
-    ]
-</XPath>

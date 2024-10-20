@@ -1,0 +1,53 @@
+File '/magma/targets/php_16_3/repo/ext/phar/util.c':
+Name                                  Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+-----------------------------------------------------------------------------------------------------------------
+phar_get_link_source                       15      15   0.00%        20      20   0.00%        10      10   0.00%
+phar_get_efp                               24      24   0.00%        23      23   0.00%        18      18   0.00%
+phar_seek_efp                              23      23   0.00%        38      38   0.00%        20      20   0.00%
+phar_mount_entry                           45      45   0.00%        56      56   0.00%        26      26   0.00%
+phar_find_in_include_path                  96      96   0.00%        71      71   0.00%        44      44   0.00%
+phar_get_entry_data                       598     598   0.00%       142     142   0.00%       108     108   0.00%
+phar_get_or_create_entry_data             297     297   0.00%        86      86   0.00%        40      40   0.00%
+phar_open_archive_fp                       11      11   0.00%        13      13   0.00%         6       6   0.00%
+phar_copy_entry_fp                         28      28   0.00%        33      33   0.00%        14      14   0.00%
+phar_open_entry_fp                         78      78   0.00%        92      92   0.00%        46      46   0.00%
+phar_create_writeable_entry                22      22   0.00%        40      40   0.00%        12      12   0.00%
+phar_separate_entry_fp                     27      27   0.00%        36      36   0.00%        16      16   0.00%
+phar_open_jit                              10      10   0.00%        13      13   0.00%         6       6   0.00%
+phar_resolve_alias                         11      11   0.00%        10      10   0.00%         4       4   0.00%
+phar_free_alias                            17      17   0.00%        11      11   0.00%         6       6   0.00%
+phar_get_archive                          271     271   0.00%       152     152   0.00%       112     112   0.00%
+phar_compress_filter                        9       9   0.00%        10      10   0.00%         8       8   0.00%
+phar_decompress_filter                     12      12   0.00%        16      16   0.00%        10      10   0.00%
+phar_get_entry_info                         1       1   0.00%         3       3   0.00%         0       0   0.00%
+phar_get_entry_info_dir                   173     173   0.00%       123     123   0.00%        98      98   0.00%
+phar_verify_signature                     135     135   0.00%       183     183   0.00%        80      80   0.00%
+phar_create_signature                      51      51   0.00%        81      81   0.00%        26      26   0.00%
+phar_add_virtual_dirs                      14      14   0.00%        21      21   0.00%         8       8   0.00%
+phar_copy_on_write                         33      33   0.00%        18      18   0.00%         6       6   0.00%
+util.c:phar_get_link_location              12      12   0.00%        16      16   0.00%         6       6   0.00%
+util.c:phar_call_openssl_signverify       585     585   0.00%        78      78   0.00%        32      32   0.00%
+util.c:phar_hex_str                         8       8   0.00%        11      11   0.00%         4       4   0.00%
+util.c:phar_copy_cached_phar              267     267   0.00%        35      35   0.00%        14      14   0.00%
+util.c:phar_manifest_copy_ctor            228     228   0.00%         5       5   0.00%         0       0   0.00%
+util.c:phar_update_cached_entry            11      11   0.00%        14      14   0.00%         4       4   0.00%
+-----------------------------------------------------------------------------------------------------------------
+TOTAL                                    3112    3112   0.00%      1450    1450   0.00%       784     784   0.00%
+
+File '/magma/targets/php_16_3/repo/ext/phar/zip.c':
+Name                                  Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+-----------------------------------------------------------------------------------------------------------------
+phar_parse_zipfile                       2442    2442   0.00%       466     466   0.00%       806     806   0.00%
+phar_open_or_create_zip                    15      15   0.00%        24      24   0.00%        10      10   0.00%
+phar_zip_flush                            304     304   0.00%       287     287   0.00%       140     140   0.00%
+zip.c:phar_find_eocd                       18      18   0.00%        17      17   0.00%         8       8   0.00%
+zip.c:phar_zip_d2u_time                     4       4   0.00%        14      14   0.00%         0       0   0.00%
+zip.c:phar_zip_process_extra               31      31   0.00%        32      32   0.00%        14      14   0.00%
+zip.c:phar_write_16                         1       1   0.00%         4       4   0.00%         0       0   0.00%
+zip.c:phar_zip_changed_apply                3       3   0.00%         3       3   0.00%         0       0   0.00%
+zip.c:phar_zip_changed_apply_int          279     279   0.00%       243     243   0.00%       116     116   0.00%
+zip.c:phar_zip_u2d_time                     7       7   0.00%        14      14   0.00%         2       2   0.00%
+zip.c:phar_zip_applysignature              64      64   0.00%        60      60   0.00%        24      24   0.00%
+zip.c:phar_write_32                         1       1   0.00%         6       6   0.00%         0       0   0.00%
+-----------------------------------------------------------------------------------------------------------------
+TOTAL                                    3169    3169   0.00%      1170    1170   0.00%      1120    1120   0.00%

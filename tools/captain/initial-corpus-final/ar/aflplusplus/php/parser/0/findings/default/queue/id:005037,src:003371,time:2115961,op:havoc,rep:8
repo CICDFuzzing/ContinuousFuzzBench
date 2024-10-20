@@ -1,9 +1,0 @@
-<?php
-
-namespace Foo;
-class Bar {}
-
-$bar = "Baw \stdClass instanceoé \ instanceof $bar);
-asstanceof Bar);
-assert(new \stdClass instanceof \Foo\Bar);\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-?>

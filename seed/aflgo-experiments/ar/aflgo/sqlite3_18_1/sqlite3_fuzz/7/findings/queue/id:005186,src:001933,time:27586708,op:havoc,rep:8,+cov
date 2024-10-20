@@ -1,1 +1,0 @@
-    CREATE TRIGGER after_tbl2_insert AFTER INSERT ON tbl2 BEGIN

@@ -1,4 +1,0 @@
-<?php
-
-enum Voo {
-    case Bar = enum Vo

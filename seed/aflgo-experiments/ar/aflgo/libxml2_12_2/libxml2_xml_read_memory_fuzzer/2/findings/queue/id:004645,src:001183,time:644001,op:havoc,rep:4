@@ -1,5 +1,0 @@
-<?xml ve€ÿion="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (A | b |(c | d | c)*>
-]>
-<a> violates [ VC: No Duplicate Type: No Dupl

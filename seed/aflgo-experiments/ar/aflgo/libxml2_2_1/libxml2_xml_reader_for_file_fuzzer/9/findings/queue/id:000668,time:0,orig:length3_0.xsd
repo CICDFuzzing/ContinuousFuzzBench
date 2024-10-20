@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<xs:schema xmlns:x//www.w3.org/2001/XMLSch>
-  <xs:complexType name="length3">
->
-      ent name="size" ="xs:non-positive-integer"/>lement nKEN"/>
- /xs:sequence</xs:complexType>
-  <xs:element name="depth"e="length3"/>
-</xs:schema>

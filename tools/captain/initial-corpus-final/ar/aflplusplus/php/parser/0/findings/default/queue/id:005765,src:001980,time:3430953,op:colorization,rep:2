@@ -1,7 +1,0 @@
-<?php
-
-enum	Foo {
-				case	Bcg	=	1;
-}
-
-?>

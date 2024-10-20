@@ -1,5 +1,0 @@
-<?xml version="1.0exist"0
-]>
-<root>&c;<ENTITY c PUBLIC "bar" "/etc/doesnotexist >
-]>
-<root>&c;</root>

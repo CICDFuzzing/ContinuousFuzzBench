@@ -1,9 +1,0 @@
-Â0U\|<!DOCTYPE doc [
-<!ELEMENT doc ((a |	a)*, g, b) >
-<!ELEMENT a EMPTY>
-<!ELEMENT bxsd:c EMPTY>
-<!ELEMENT L EMPTY>
-]>
-<doc>
-<b/>
-<b+<Ã+

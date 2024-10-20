@@ -1,3 +1,0 @@
-SELECT sqlite_compileoption_get($N);
-    [} msg]
-    lappe

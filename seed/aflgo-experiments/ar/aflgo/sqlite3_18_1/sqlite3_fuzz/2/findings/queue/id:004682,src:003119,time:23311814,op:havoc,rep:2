@@ -1,4 +1,0 @@
- 
- 
-  PRAGMA writable_schema = 5;  PRAGMA writable_schema = 1;
- :

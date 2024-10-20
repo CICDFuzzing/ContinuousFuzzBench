@@ -1,2 +1,0 @@
-PRAGMA locking_mode=EXCLUSIVE" {exclusive}   0
-  4 "INSERT INT, t1 VALUE

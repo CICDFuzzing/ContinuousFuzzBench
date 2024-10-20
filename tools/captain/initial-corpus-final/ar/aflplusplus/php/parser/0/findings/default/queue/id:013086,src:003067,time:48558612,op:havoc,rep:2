@@ -1,5 +1,0 @@
-<?php
-declare(ticks=1);
-namespace mest;
-echo "ok\n";õõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõ
-?>

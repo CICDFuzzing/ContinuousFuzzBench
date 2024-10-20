@@ -1,5 +1,0 @@
-<?xUl version="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "Iar" "/etc/doesnotmxi!t">
-]>
-<root>&c;</root>

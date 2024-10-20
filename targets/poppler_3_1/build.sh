@@ -18,11 +18,14 @@ rm -rf "$WORK"
 mkdir -p "$WORK"
 mkdir -p "$WORK/lib" "$WORK/include"
 
+export LDFLAGS="$LDFLAGS -lbrotlidec"
+
 pushd "$TARGET/freetype2"
 ./autogen.sh
-./configure --prefix="$WORK" --disable-shared PKG_CONFIG_PATH="$WORK/lib/pkgconfig"
+./configure --prefix="$WORK" --disable-shared PKG_CONFIG_PATH="$WORK/lib/pkgconfig" --with-brotli=yes
 make -j$(nproc) clean
-make -j$(nproc)
+echo "stage1 make"
+make
 make install
 
 mkdir -p "$WORK/poppler"
@@ -64,7 +67,8 @@ cmake "$TARGET/repo" \
   -DTIFF_LIBRARY="/usr/lib/x86_64-linux-gnu/libtiff.so" \
   -DTIFF_INCLUDE_DIR="/usr/include/x86_64-linux-gnu/tiff.h" \
   -DCMAKE_EXE_LINKER_FLAGS_INIT="$LIBS"
-make -j$(nproc) poppler poppler-cpp pdfimages pdftoppm
+echo "stage2 make"
+make poppler poppler-cpp pdfimages pdftoppm
 EXTRA=""
 
 cp "$WORK/poppler/utils/"{pdfimages,pdftoppm} "$OUT/"

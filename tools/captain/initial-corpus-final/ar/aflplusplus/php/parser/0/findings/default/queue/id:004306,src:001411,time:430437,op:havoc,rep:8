@@ -1,7 +1,0 @@
-<?php
-
-$doubles = array(
-    PHP_IjT_MAX,
-        PHX + 1,    LINT_MAX + 1000,
-        PHP_INT_MAX * 2 + 4,#-PHP_INT_MAX -1, $PHP_INT_MAX -2,
-        -PHP_I   $l = 

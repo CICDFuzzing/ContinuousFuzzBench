@@ -1,7 +1,0 @@
-<?php
-
-echo <<<'END'
-	   a	î  b
-																							 c
-		END;
-

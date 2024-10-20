@@ -1,4 +1,0 @@
-<?php
-for(;;) break ";
-var_dump($utr[PHP_INT_MAX]);
-var

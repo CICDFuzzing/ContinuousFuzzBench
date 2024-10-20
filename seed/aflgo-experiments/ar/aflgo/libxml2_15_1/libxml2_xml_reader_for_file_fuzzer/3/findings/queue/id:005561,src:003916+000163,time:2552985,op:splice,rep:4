@@ -1,8 +1,0 @@
-½1U\|<!DOCTYPEndoc [
-<!ELEMENT doc ((a | b)*, >
-<!ELEMENT a EMPTY><!E)E b EMPTY>
-<!ELEMENT c EMPTY>
-]>
-<doc/>
-<b/>
-</

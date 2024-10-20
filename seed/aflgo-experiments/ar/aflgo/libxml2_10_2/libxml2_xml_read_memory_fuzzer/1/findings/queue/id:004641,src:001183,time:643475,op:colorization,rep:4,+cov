@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE a [
-<!ELEMENT a (#PCDATA | b | c | b | c)*>
-]>
-<a> violates [ VC: No Duplicate Types ] </a>

@@ -1,5 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc (#PCDATA | ns:a | n<!ELEMENT doc (#PCDATA | ns:boc [
-<!ELEMENT doc (#PCDATA | )*>
-<!ATTLIST do<!DOCTYPE doc [
-<!ELE
