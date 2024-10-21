@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Missed_Regions,Cover,Functions,Missed_Functions,Executed,Lines,Missed_Lines,Cover,Branches,Missed_Branches,Cover
+openssl_20_4,server,0,TOTAL,2775,1673,39.71%,2164,1214,43.90%,1388,936,32.56%
+openssl_20_4,server,1,TOTAL,2775,1673,39.71%,2164,1214,43.90%,1388,936,32.56%
+openssl_20_4,server,2,TOTAL,2775,1673,39.71%,2164,1214,43.90%,1388,936,32.56%
+openssl_20_4,server,3,TOTAL,2775,1673,39.71%,2164,1214,43.90%,1388,936,32.56%
+openssl_20_4,server,4,TOTAL,2775,1673,39.71%,2164,1214,43.90%,1388,936,32.56%
+openssl_20_4,server,5,TOTAL,2775,1673,39.71%,2164,1214,43.90%,1388,936,32.56%
+openssl_20_4,server,6,TOTAL,2775,1673,39.71%,2164,1214,43.90%,1388,936,32.56%
+openssl_20_4,server,7,TOTAL,2775,1673,39.71%,2164,1214,43.90%,1388,936,32.56%
+openssl_20_4,server,8,TOTAL,2775,1673,39.71%,2164,1214,43.90%,1388,936,32.56%
+openssl_20_4,server,9,TOTAL,2775,1673,39.71%,2164,1214,43.90%,1388,936,32.56%

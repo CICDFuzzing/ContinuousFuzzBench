@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Missed_Regions,Cover,Functions,Missed_Functions,Executed,Lines,Missed_Lines,Cover,Branches,Missed_Branches,Cover
+poppler_9_1,pdf_fuzzer,0,TOTAL,206,14,93.20%,255,20,92.16%,154,20,87.01%
+poppler_9_1,pdf_fuzzer,1,TOTAL,206,14,93.20%,255,20,92.16%,154,20,87.01%
+poppler_9_1,pdf_fuzzer,2,TOTAL,206,14,93.20%,255,20,92.16%,154,20,87.01%
+poppler_9_1,pdf_fuzzer,3,TOTAL,206,14,93.20%,255,20,92.16%,154,20,87.01%
+poppler_9_1,pdf_fuzzer,4,TOTAL,206,14,93.20%,255,20,92.16%,154,20,87.01%
+poppler_9_1,pdf_fuzzer,5,TOTAL,206,14,93.20%,255,20,92.16%,154,20,87.01%
+poppler_9_1,pdf_fuzzer,6,TOTAL,206,14,93.20%,255,20,92.16%,154,20,87.01%
+poppler_9_1,pdf_fuzzer,7,TOTAL,206,14,93.20%,255,20,92.16%,154,20,87.01%
+poppler_9_1,pdf_fuzzer,8,TOTAL,206,14,93.20%,255,20,92.16%,154,20,87.01%
+poppler_9_1,pdf_fuzzer,9,TOTAL,206,14,93.20%,255,20,92.16%,154,20,87.01%

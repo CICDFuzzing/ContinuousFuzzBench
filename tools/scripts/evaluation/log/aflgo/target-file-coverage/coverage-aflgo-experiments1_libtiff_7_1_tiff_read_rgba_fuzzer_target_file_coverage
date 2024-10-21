@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Missed_Regions,Cover,Functions,Missed_Functions,Executed,Lines,Missed_Lines,Cover,Branches,Missed_Branches,Cover
+libtiff_7_1,tiff_read_rgba_fuzzer,0,TOTAL,3379,934,72.36%,5490,1548,71.80%,2618,802,69.37%
+libtiff_7_1,tiff_read_rgba_fuzzer,1,TOTAL,3379,934,72.36%,5490,1548,71.80%,2618,802,69.37%
+libtiff_7_1,tiff_read_rgba_fuzzer,2,TOTAL,3379,934,72.36%,5490,1548,71.80%,2618,802,69.37%
+libtiff_7_1,tiff_read_rgba_fuzzer,3,TOTAL,3379,934,72.36%,5490,1548,71.80%,2618,802,69.37%
+libtiff_7_1,tiff_read_rgba_fuzzer,4,TOTAL,3379,934,72.36%,5490,1548,71.80%,2618,802,69.37%
+libtiff_7_1,tiff_read_rgba_fuzzer,5,TOTAL,3379,934,72.36%,5490,1548,71.80%,2618,802,69.37%
+libtiff_7_1,tiff_read_rgba_fuzzer,6,TOTAL,3379,934,72.36%,5490,1548,71.80%,2618,802,69.37%
+libtiff_7_1,tiff_read_rgba_fuzzer,7,TOTAL,3379,934,72.36%,5490,1548,71.80%,2618,801,69.40%
+libtiff_7_1,tiff_read_rgba_fuzzer,8,TOTAL,3379,933,72.39%,5490,1545,71.86%,2618,800,69.44%
+libtiff_7_1,tiff_read_rgba_fuzzer,9,TOTAL,3379,934,72.36%,5490,1548,71.80%,2618,801,69.40%
