@@ -12,8 +12,9 @@
 # - env CORPUS: the path to the corpus of inputs
 ##
 
-if [ -n "$1" ]; then
+if [ -n "$2" ]; then
     export iter="$1"
+    export fuzzer_name="$2"
     echo "iter is set to: $iter"
 else
     echo "No argument provided. iter is not set."
@@ -49,13 +50,13 @@ echo "Merging profraw files..."
 llvm-profdata-14 merge *.profraw -o merged.profdata
 
 echo "Get the total coverage..."
-llvm-cov report -instr-profile merged.profdata $PROGRAM > $SHARED/coverage/"$TARGET_NAME"_"$PROGRAM"_"$iter"_total_coverage.txt
+llvm-cov report -instr-profile merged.profdata $PROGRAM > $SHARED/coverage/"$fuzzer_name"_"$TARGET_NAME"_"$PROGRAM"_"$iter"_total_coverage.txt
 
 # echo "Get the coverage of the target file..."
 if [[ "$TARGET" == *"sqlite3"* ]]; then
-    llvm-cov report -instr-profile merged.profdata $PROGRAM $TARGET/work/sqlite3.c -show-functions > $SHARED/coverage/"$TARGET_NAME"_"$PROGRAM"_"$iter"_target_file_coverage.txt
+    llvm-cov report -instr-profile merged.profdata $PROGRAM $TARGET/work/sqlite3.c -show-functions > $SHARED/coverage/"$fuzzer_name"_"$TARGET_NAME"_"$PROGRAM"_"$iter"_target_file_coverage.txt
 else
-    llvm-cov report -instr-profile merged.profdata $PROGRAM ${COMMIT_PATHS[@]} -show-functions > $SHARED/coverage/"$TARGET_NAME"_"$PROGRAM"_"$iter"_target_file_coverage.txt
+    llvm-cov report -instr-profile merged.profdata $PROGRAM ${COMMIT_PATHS[@]} -show-functions > $SHARED/coverage/"$fuzzer_name"_"$TARGET_NAME"_"$PROGRAM"_"$iter"_target_file_coverage.txt
 fi
 
 # clean up

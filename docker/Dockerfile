@@ -74,13 +74,16 @@ USER magma:magma
 RUN ${TARGET}/fetch.sh
 RUN ${MAGMA}/apply_patches.sh
 
-ARG corpus_name
-ARG seed_path=seed/aflgo-experiments/ar/aflgo/${target_name}
-ENV SEED 	${TARGET}/corpus/seed
-USER root:root
-RUN mkdir -p ${SEED} && chown magma:magma ${SEED}
-COPY --chown=magma:magma ${magma_root}/${seed_path} ${SEED}/
-USER magma:magma
+# ARG corpus_name
+# ARG seed_path=seed/afl/${target_name}
+# ARG seed_path2=seed/ffd/${target_name}
+# ENV SEED 	${TARGET}/corpus/seed
+# USER root:root
+# RUN mkdir -p ${SEED}/afl && chown magma:magma ${SEED} && chown magma:magma ${SEED}/afl
+# RUN mkdir -p ${SEED}/ffd && chown magma:magma ${SEED}/ffd
+# COPY --chown=magma:magma ${magma_root}/${seed_path} ${SEED}/afl
+# COPY --chown=magma:magma ${magma_root}/${seed_path2} ${SEED}/ffd
+# USER magma:magma
 
 ## Configuration parameters
 ARG isan
