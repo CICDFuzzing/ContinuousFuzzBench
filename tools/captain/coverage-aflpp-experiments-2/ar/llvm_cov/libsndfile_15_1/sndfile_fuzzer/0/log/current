@@ -1,0 +1,48 @@
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003340,src:003086+002867,time:80054568,op:splice,rep:2] Opened.. Read 228 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003341,src:001715,time:80535814,op:havoc,rep:2,+cov] Opened.. Read 6144 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003342,src:000992+003232,time:80819198,op:splice,rep:2] Opened.. Read 440 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003343,src:000992+003232,time:80819257,op:splice,rep:8] Opened.. Read 656 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003344,src:000286+003187,time:81126666,op:splice,rep:4] Opened.. Read 5383 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003345,src:002483+000422,time:81167785,op:splice,rep:16] Opened.. Read 3872 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003346,src:000283+003325,time:81544041,op:splice,rep:8] Opened.. Read 1208 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003347,src:001933+001124,time:81590415,op:splice,rep:16] Opened.. Read 3872 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003348,src:001945+003102,time:81699135,op:splice,rep:16] Opened.. Read 58423 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003349,src:002858,time:82402280,op:havoc,rep:16,+cov] Opened.. Read 128 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003350,src:003290,time:82668152,op:havoc,rep:2] Opened.. Read 88 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003352,src:003351,time:83603726,op:its,rep:4,+cov] Opened.. Read 88 bytes, fuzzing.. vf overseek: new_offset(16842834) > vf->length(88);  whence(1), vf->offset(82), offset(16842752)
+complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003353,src:003351,time:83603747,op:its,rep:4] Opened.. Read 108 bytes, fuzzing.. vf overseek: new_offset(16843086) > vf->length(108);  whence(1), vf->offset(86), offset(16843000)
+complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003356,src:003355,time:83614458,op:colorization,rep:4,+cov] Opened.. Read 108 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003357,src:003355,time:83614763,op:havoc,rep:2,+cov] Opened.. Read 157 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003358,src:003355,time:83614972,op:havoc,rep:2,+cov] Opened.. Read 108 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003359,src:003355,time:83617758,op:havoc,rep:4] Opened.. Read 194 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003360,src:003355,time:83618827,op:havoc,rep:4] Opened.. Read 215 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003361,src:003358+000059,time:83656437,op:splice,rep:2,+cov] Opened.. Read 127 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003362,src:002963,time:83660976,op:havoc,rep:4] Opened.. Read 232 bytes, fuzzing.. vf overseek: new_offset(1346716195) > vf->length(232);  whence(1), vf->offset(216), offset(1346715979)
+complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003363,src:003361,time:83811655,op:havoc,rep:8,+cov] Opened.. Read 103 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003365,src:003361,time:83817122,op:havoc,rep:8,+cov] Opened.. Read 127 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003366,src:003361,time:83817195,op:havoc,rep:4] Opened.. Read 100 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003367,src:003361,time:83819275,op:havoc,rep:4] Opened.. Read 155 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003368,src:003365,time:83843153,op:havoc,rep:16] Opened.. Read 433 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003369,src:003366,time:83872232,op:havoc,rep:4] Opened.. Read 72 bytes, fuzzing.. vf overseek: new_offset(1631780930) > vf->length(72);  whence(1), vf->offset(66), offset(1631780864)
+complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003370,src:001895,time:83941460,op:havoc,rep:2] Opened.. Read 385 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003371,src:003285,time:84050018,op:havoc,rep:4] Opened.. Read 1024 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003372,src:003371,time:84067222,op:havoc,rep:2] Opened.. Read 924 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003373,src:003345,time:85660453,op:havoc,rep:2] Opened.. Read 3992 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003374,src:003362+000356,time:85711297,op:splice,rep:4] Opened.. Read 1934 bytes, fuzzing.. vf overseek: new_offset(1346716297) > vf->length(1934);  whence(1), vf->offset(324), offset(1346715973)
+complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003375,src:000081+002610,time:86253420,op:splice,rep:2] Opened.. Read 219 bytes, fuzzing.. complete !!
+[/magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed/id:003376,src:003315,time:86343152,op:havoc,rep:2] Opened.. Read 239 bytes, fuzzing.. complete !!
+The target corpus is /magma/targets/libsndfile_15_1/corpus/seed/libfuzzer/sndfile_fuzzer/9/corpus/seed
+The target is libsndfile_15_1
+The commit files are src/alaw.c
+The commit paths are /magma/targets/libsndfile_15_1/repo/src/alaw.c
+Check the number of profdata...
+1936
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

@@ -1,0 +1,223 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/aflpp/libxml2_xml_read_memory_fuzzer/0/findings/default/queue
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+12788
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/libfuzzer/libxml2_xml_read_memory_fuzzer/0/corpus/seed
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+15942
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/aflpp/libxml2_xml_read_memory_fuzzer/1/findings/default/queue
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+12784
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/libfuzzer/libxml2_xml_read_memory_fuzzer/1/corpus/seed
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+16110
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/aflpp/libxml2_xml_read_memory_fuzzer/2/findings/default/queue
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+12783
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/libfuzzer/libxml2_xml_read_memory_fuzzer/2/corpus/seed
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+16088
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/aflpp/libxml2_xml_read_memory_fuzzer/3/findings/default/queue
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+12786
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/libfuzzer/libxml2_xml_read_memory_fuzzer/3/corpus/seed
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+16114
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/aflpp/libxml2_xml_read_memory_fuzzer/4/findings/default/queue
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+12793
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/libfuzzer/libxml2_xml_read_memory_fuzzer/4/corpus/seed
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+16249
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/aflpp/libxml2_xml_read_memory_fuzzer/5/findings/default/queue
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+12782
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/libfuzzer/libxml2_xml_read_memory_fuzzer/5/corpus/seed
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+16167
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/aflpp/libxml2_xml_read_memory_fuzzer/6/findings/default/queue
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+12787
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/libfuzzer/libxml2_xml_read_memory_fuzzer/6/corpus/seed
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+16017
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/aflpp/libxml2_xml_read_memory_fuzzer/7/findings/default/queue
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+12792
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/libfuzzer/libxml2_xml_read_memory_fuzzer/7/corpus/seed
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+16209
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/aflpp/libxml2_xml_read_memory_fuzzer/8/findings/default/queue
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+12789
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/libfuzzer/libxml2_xml_read_memory_fuzzer/8/corpus/seed
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+16274
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/aflpp/libxml2_xml_read_memory_fuzzer/9/findings/default/queue
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+12786
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libxml2_10_2/corpus/seed/libfuzzer/libxml2_xml_read_memory_fuzzer/9/corpus/seed
+The target is libxml2_10_2
+The commit files are parser.c
+The commit paths are /magma/targets/libxml2_10_2/repo/parser.c
+Check the number of profdata...
+16120
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

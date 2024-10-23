@@ -1,0 +1,223 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/aflpp/bignum/0/findings/default/queue
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+382
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/libfuzzer/bignum/0/corpus/seed
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+1872
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/aflpp/bignum/1/findings/default/queue
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+382
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/libfuzzer/bignum/1/corpus/seed
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+1827
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/aflpp/bignum/2/findings/default/queue
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+382
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/libfuzzer/bignum/2/corpus/seed
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+1792
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/aflpp/bignum/3/findings/default/queue
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+378
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/libfuzzer/bignum/3/corpus/seed
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+1885
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/aflpp/bignum/4/findings/default/queue
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+376
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/libfuzzer/bignum/4/corpus/seed
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+1754
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/aflpp/bignum/5/findings/default/queue
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+379
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/libfuzzer/bignum/5/corpus/seed
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+1649
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/aflpp/bignum/6/findings/default/queue
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+380
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/libfuzzer/bignum/6/corpus/seed
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+1781
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/aflpp/bignum/7/findings/default/queue
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+381
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/libfuzzer/bignum/7/corpus/seed
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+1833
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/aflpp/bignum/8/findings/default/queue
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+382
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/libfuzzer/bignum/8/corpus/seed
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+1674
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/aflpp/bignum/9/findings/default/queue
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+379
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_1_3/corpus/seed/libfuzzer/bignum/9/corpus/seed
+The target is openssl_1_3
+The commit files are crypto/asn1/a_int.c
+The commit paths are /magma/targets/openssl_1_3/repo/crypto/asn1/a_int.c
+Check the number of profdata...
+1804
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared
