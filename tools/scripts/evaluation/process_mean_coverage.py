@@ -38,7 +38,7 @@ def process_mean_coverage(input_directory, output_file):
                 print(f"Error processing {file_name}: {e}")
 
     # Convert mean results to a DataFrame
-    col_names = ['Regions', 'Missed_Regions', 'Cover', 'Functions', 'Missed_Functions', 'Lines', 'Missed_Lines', 'Cover.1', 'Branches', 'Missed_Branches', 'Cover.2', 'File']
+    col_names = ['Regions', 'Missed_Regions', 'Cover', 'Functions', 'Missed_Functions', 'Executed', 'Lines', 'Missed_Lines', 'Cover.1', 'Branches', 'Missed_Branches', 'Cover.2', 'File']
     mean_results_df = pd.DataFrame(mean_results, columns=col_names)
     print(mean_results_df)
 
