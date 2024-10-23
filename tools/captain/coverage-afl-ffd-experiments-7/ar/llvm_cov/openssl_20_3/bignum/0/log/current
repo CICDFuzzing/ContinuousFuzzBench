@@ -1,0 +1,223 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/afl/bignum/0/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+398
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/ffd/bignum/0/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+403
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/afl/bignum/1/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+399
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/ffd/bignum/1/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+386
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/afl/bignum/2/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+397
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/ffd/bignum/2/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+387
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/afl/bignum/3/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+401
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/ffd/bignum/3/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+388
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/afl/bignum/4/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+398
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/ffd/bignum/4/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+399
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/afl/bignum/5/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+398
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/ffd/bignum/5/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+395
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/afl/bignum/6/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+396
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/ffd/bignum/6/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+403
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/afl/bignum/7/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+398
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/ffd/bignum/7/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+396
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/afl/bignum/8/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+397
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/ffd/bignum/8/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+403
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/afl/bignum/9/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+397
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/ffd/bignum/9/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+388
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

@@ -1,0 +1,223 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/afl/x509/0/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1983
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/ffd/x509/0/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1957
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/afl/x509/1/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1983
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/ffd/x509/1/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1956
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/afl/x509/2/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1975
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/ffd/x509/2/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1986
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/afl/x509/3/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1973
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/ffd/x509/3/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1976
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/afl/x509/4/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1968
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/ffd/x509/4/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1964
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/afl/x509/5/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1975
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/ffd/x509/5/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+2010
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/afl/x509/6/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1977
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/ffd/x509/6/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1990
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/afl/x509/7/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1974
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/ffd/x509/7/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+2013
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/afl/x509/8/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1968
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/ffd/x509/8/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1958
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/afl/x509/9/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1975
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_11_6/corpus/seed/ffd/x509/9/findings/queue
+The target is openssl_11_6
+The commit files are crypto/pkcs7/pk7_doit.c
+The commit paths are /magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c
+Check the number of profdata...
+1989
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

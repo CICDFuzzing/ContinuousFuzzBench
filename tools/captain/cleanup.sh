@@ -1,5 +1,5 @@
 #!/bin/bash
-for dir in /home/huicongh/ContinuousFuzzBench/seed/aflpp-experiments/ar/aflplusplus/poppler*/*/*/*; do
+for dir in /home/huicongh/ContinuousFuzzBench/seed/afl-experiments-and-php/ar/afl/poppler*/*/*/*; do
     # Check if the directory path contains "canaries.raw"
     if [[ "$dir" == *"canaries.raw"* || "$dir" == *"core"* ]]; then
         echo "$dir contains canaries.raw or core"
@@ -12,7 +12,7 @@ for dir in /home/huicongh/ContinuousFuzzBench/seed/aflpp-experiments/ar/aflplusp
     fi
 done
 
-for dir in /home/huicongh/ContinuousFuzzBench/seed/libfuzzer-experiments1/ar/libfuzzer/poppler*/*/*/*; do
+for dir in /home/huicongh/ContinuousFuzzBench/seed/ffd-experiments/ar/ffd/poppler*/*/*/*; do
     # Check if the directory path contains "canaries.raw"
     if [[ "$dir" == *"canaries.raw"* || "$dir" == *"core"* ]]; then
         echo "$dir contains canaries.raw or core"
