@@ -1,0 +1,573 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/afl/exif/0/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+881
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/ffd/exif/0/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+896
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflgo/exif/0/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+825
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/0/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/0/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/0/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/0/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/afl/exif/1/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+875
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/ffd/exif/1/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+962
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflgo/exif/1/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+826
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/1/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/1/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/1/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/1/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/afl/exif/2/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+880
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/ffd/exif/2/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+933
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflgo/exif/2/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+825
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/2/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/2/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/2/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/2/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/afl/exif/3/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+876
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/ffd/exif/3/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+943
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflgo/exif/3/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+825
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/3/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/3/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/3/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/3/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/afl/exif/4/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+877
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/ffd/exif/4/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+944
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflgo/exif/4/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+825
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/4/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/4/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/4/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/4/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/afl/exif/5/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+885
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/ffd/exif/5/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+911
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflgo/exif/5/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+826
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/5/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/5/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/5/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/5/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/afl/exif/6/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+886
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/ffd/exif/6/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+935
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflgo/exif/6/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+825
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/6/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/6/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/6/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/6/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/afl/exif/7/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+875
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/ffd/exif/7/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+903
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflgo/exif/7/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+824
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/7/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/7/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/7/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/7/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/afl/exif/8/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+875
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/ffd/exif/8/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+922
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflgo/exif/8/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+826
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/8/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/8/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/8/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/8/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/afl/exif/9/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+875
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/ffd/exif/9/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+925
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflgo/exif/9/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+825
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/9/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/libfuzzer/exif/9/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/9/findings/queue/* does not exist
+The target corpus is /magma/targets/php_11_2/corpus/seed/aflplusplus/exif/9/findings/queue
+The target is php_11_2
+The commit files are ext/exif/exif.c
+The commit paths are /magma/targets/php_11_2/repo/ext/exif/exif.c
+Check the number of profdata...
+0
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

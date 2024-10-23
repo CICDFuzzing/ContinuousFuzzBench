@@ -7,7 +7,7 @@
 ###
 
 # WORKDIR: path to directory where shared volumes will be created
-WORKDIR=./coverage-aflgo-experiments5
+WORKDIR=./coverage-afl-ffd-experiments-11
 
 # REPEAT: number of campaigns to run per program (per fuzzer)
 REPEAT=1
@@ -77,9 +77,34 @@ FUZZERS=(llvm_cov)
 # (default: all targets)
 # libpng libsndfile libtiff libxml2 openssl php poppler sqlite3 lua
 # poppler_3_1 poppler_9_1 poppler_17_1
-llvm_cov_TARGETS=(poppler_9_1 poppler_17_1)
+llvm_cov_TARGETS=(php_6_2)
+# openssl_1_3 openssl_1_5 openssl_4_4 openssl_5_1
+# libxml2_12_2 libxml2_14_1 libxml2_15_1 libxml2_16_1 libxml2_16_2
+# libsndfile_2_1 libsndfile_7_1 libsndfile_15_1 libtiff_6_1 libtiff_7_1 libtiff_9_1 libtiff_10_1
+# libsndfile_2_1 libsndfile_7_1 libsndfile_15_1 libtiff_6_1 libtiff_7_1 libtiff_9_1 libtiff_10_1
 # libpng_4_1 libsndfile_2_1 libsndfile_7_1 libsndfile_15_1 libtiff_6_1 libtiff_7_1 libtiff_9_1 libtiff_10_1 libxml2_1_2 libxml2_2_1 libxml2_8_1 libxml2_10_2 libxml2_12_2 libxml2_14_1 libxml2_15_1 libxml2_16_1 libxml2_16_2 openssl_1_3 openssl_1_5 openssl_4_4 openssl_5_1 openssl_6_4 openssl_6_5 openssl_6_6 openssl_7_2
 # openssl_7_4 openssl_8_1 openssl_9_1 openssl_10_5 openssl_11_4_6 openssl_12_6 openssl_13_2 openssl_16_6 openssl_17_2_4 openssl_18_5 openssl_19_1 openssl_20_3_4 php_4_1 php_5_3 php_11_2 php_15_2 php_16_3 poppler_3_1 poppler_9_1 poppler_17_1 sqlite3_18_1 sqlite3_20_1
+
+llvm_cov_libpng_4_1_CORPUS="libpng/libpng_read_fuzzer"
+
+llvm_cov_libsndfile_2_1_CORPUS="libsndfile/sndfile_fuzzer_mini"
+llvm_cov_libsndfile_7_1_CORPUS="libsndfile/sndfile_fuzzer_mini"
+llvm_cov_libsndfile_15_1_CORPUS="libsndfile/sndfile_fuzzer_mini"
+
+llvm_cov_libtiff_6_1_CORPUS="libtiff/tiff_read_rgba_fuzzer"
+llvm_cov_libtiff_7_1_CORPUS="libtiff/tiff_read_rgba_fuzzer"
+llvm_cov_libtiff_9_1_CORPUS="libtiff/tiff_read_rgba_fuzzer"
+llvm_cov_libtiff_10_1_CORPUS="libtiff/tiff_read_rgba_fuzzer"
+
+llvm_cov_libxml2_1_2_CORPUS="libxml2/libxml2_xml_read_memory_fuzzer"
+llvm_cov_libxml2_2_1_CORPUS="libxml2/libxml2_xml_reader_for_file_fuzzer"
+llvm_cov_libxml2_8_1_CORPUS="libxml2/libxml2_xml_reader_for_file_fuzzer"
+llvm_cov_libxml2_10_2_CORPUS="libxml2/libxml2_xml_read_memory_fuzzer"
+llvm_cov_libxml2_12_2_CORPUS="libxml2/libxml2_xml_read_memory_fuzzer"
+llvm_cov_libxml2_14_1_CORPUS="libxml2/libxml2_xml_reader_for_file_fuzzer"
+llvm_cov_libxml2_15_1_CORPUS="libxml2/libxml2_xml_reader_for_file_fuzzer"
+llvm_cov_libxml2_16_1_CORPUS="libxml2/libxml2_xml_reader_for_file_fuzzer"
+llvm_cov_libxml2_16_2_CORPUS="libxml2/libxml2_xml_read_memory_fuzzer"
 
 llvm_cov_openssl_10_5_CORPUS="openssl/client" 
 llvm_cov_openssl_11_4_CORPUS="openssl/server_mini"  
@@ -96,6 +121,7 @@ llvm_cov_openssl_20_4_CORPUS="openssl/server_mini"
 
 llvm_cov_php_4_1_CORPUS="php/json_mini"
 llvm_cov_php_11_2_CORPUS="php/exif_mini" 
+llvm_cov_php_6_2_CORPUS="php/exif_mini" 
 llvm_cov_php_15_2_CORPUS="php/exif_mini" 
 llvm_cov_php_16_3_CORPUS="php/unserialize_mini"
 

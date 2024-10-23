@@ -75,11 +75,23 @@ RUN ${TARGET}/fetch.sh
 RUN ${MAGMA}/apply_patches.sh
 
 ARG corpus_name
-ARG seed_path=seed/aflgo-experiments/ar/aflgo/${target_name}
+ARG seed_path=seed/afl-experiments-and-php/ar/afl/${target_name}
+ARG seed_path2=seed/afl-experiments-and-php/ar/ffd/${target_name}
+ARG seed_path3=seed/afl-experiments-and-php/ar/libfuzzer/${target_name}
+ARG seed_path4=seed/afl-experiments-and-php/ar/aflgo/${target_name}
+ARG seed_path5=seed/afl-experiments-and-php/ar/aflplusplus/${target_name}
 ENV SEED 	${TARGET}/corpus/seed
 USER root:root
-RUN mkdir -p ${SEED} && chown magma:magma ${SEED}
-COPY --chown=magma:magma ${magma_root}/${seed_path} ${SEED}/
+RUN mkdir -p ${SEED}/afl && chown magma:magma ${SEED} && chown magma:magma ${SEED}/afl
+RUN mkdir -p ${SEED}/ffd && chown magma:magma ${SEED}/ffd
+RUN mkdir -p ${SEED}/libfuzzer && chown magma:magma ${SEED}/libfuzzer
+RUN mkdir -p ${SEED}/aflgo && chown magma:magma ${SEED}/aflgo
+RUN mkdir -p ${SEED}/aflplusplus && chown magma:magma ${SEED}/aflplusplus
+COPY --chown=magma:magma ${magma_root}/${seed_path} ${SEED}/afl
+COPY --chown=magma:magma ${magma_root}/${seed_path2} ${SEED}/ffd
+COPY --chown=magma:magma ${magma_root}/${seed_path3} ${SEED}/libfuzzer
+COPY --chown=magma:magma ${magma_root}/${seed_path4} ${SEED}/aflgo
+COPY --chown=magma:magma ${magma_root}/${seed_path5} ${SEED}/aflplusplus
 USER magma:magma
 
 ## Configuration parameters

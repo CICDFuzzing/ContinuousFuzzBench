@@ -14,23 +14,22 @@
 echo "No fuzzer included. This is just for building an analysis target."
 
 mkdir -p $SHARED/coverage
-
 pushd $FUZZER
 for i in $(seq 0 9); do 
-    export CORPUS="$SEED/$PROGRAM/$i/findings/queue"
-    ./collect_coverage.sh $i
+    # export CORPUS="$SEED/afl/$PROGRAM/$i/findings/queue"
+    # ./collect_coverage.sh $i afl
 
-    # export CORPUS="afl-aflpp-libfuzzer-initial-experiments/ar/aflplusplus/$(basename $TARGET)/$PROGRAM/$i/findings/default/queue"
-    # ./collect_coverage.sh
+    # export CORPUS="$SEED/ffd/$PROGRAM/$i/findings/queue"
+    # ./collect_coverage.sh $i ffd
 
-    # export CORPUS="afl-aflpp-libfuzzer-initial-experiments/ar/libfuzzer/$(basename $TARGET)/$PROGRAM/$i/final-corpus/$PROGRAM"
-    # ./collect_coverage.sh
+    # export CORPUS="$SEED/aflgo/$PROGRAM/$i/findings/queue"
+    # ./collect_coverage.sh $i aflgo
 
-    # export CORPUS="aflgo-initial-experiments/ar/aflgo/$(basename $TARGET)/$PROGRAM/$i/findings/queue"
-    # ./collect_coverage.sh
+    export CORPUS="$SEED/libfuzzer/$PROGRAM/$i/corpus/seed"
+    ./collect_coverage.sh $i libfuzzer
 
-    # export CORPUS="ffd-fixed-experiments/ar/ffd/$(basename $TARGET)/$PROGRAM/$i/findings/queue"
-    # ./collect_coverage.sh
+    export CORPUS="$SEED/aflplusplus/$PROGRAM/$i/findings/default/queue"
+    ./collect_coverage.sh $i aflplusplus
 done
 popd
 
