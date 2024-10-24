@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Missed_Regions,Cover,Functions,Missed_Functions,Executed,Lines,Missed_Lines,Cover,Branches,Missed_Branches,Cover
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,0,TOTAL,88895,66701,24.97%,2793,2077,25.64%,93784,73058,22.10%,67084,52272,22.08%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,1,TOTAL,88895,66689,24.98%,2793,2077,25.64%,93784,73045,22.11%,67084,52266,22.09%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,2,TOTAL,88895,66701,24.97%,2793,2077,25.64%,93784,73058,22.10%,67084,52273,22.08%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,3,TOTAL,88895,66700,24.97%,2793,2077,25.64%,93784,73058,22.10%,67084,52271,22.08%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,4,TOTAL,88895,66701,24.97%,2793,2077,25.64%,93784,73058,22.10%,67084,52273,22.08%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,5,TOTAL,88895,66700,24.97%,2793,2077,25.64%,93784,73058,22.10%,67084,52271,22.08%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,6,TOTAL,88895,66690,24.98%,2793,2077,25.64%,93784,73045,22.11%,67084,52266,22.09%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,7,TOTAL,88895,66701,24.97%,2793,2077,25.64%,93784,73058,22.10%,67084,52274,22.08%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,8,TOTAL,88895,66699,24.97%,2793,2077,25.64%,93784,73058,22.10%,67084,52269,22.08%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,9,TOTAL,88895,66701,24.97%,2793,2077,25.64%,93784,73058,22.10%,67084,52275,22.08%
