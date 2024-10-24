@@ -1,6 +1,0 @@
-<?php
-
-echo	<<<END
- d
-	e
- END€

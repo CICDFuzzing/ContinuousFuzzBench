@@ -1,5 +1,0 @@
-<?xml ver"?>
-<!DOCTYPE foo [
-<!ENTITY c PUBLIC "bar" "/{tc/doesnotexist">
-]>
-<root>&c;</root>

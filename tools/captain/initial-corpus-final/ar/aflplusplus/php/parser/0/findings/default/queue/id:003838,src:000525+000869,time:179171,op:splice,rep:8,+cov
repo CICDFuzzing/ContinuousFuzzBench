@@ -1,7 +1,0 @@
-<?php
-function foo ($throw = FALSE) {
-   try {
- echo "try\n";
-     if ($throw) {     throw new Exception("ex");
-  LS['x'] = 1;
-    var_dump GLh 

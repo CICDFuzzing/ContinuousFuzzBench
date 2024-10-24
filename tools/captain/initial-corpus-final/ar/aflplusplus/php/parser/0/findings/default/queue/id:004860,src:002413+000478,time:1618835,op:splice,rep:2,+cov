@@ -1,5 +1,0 @@
-<?php
-function foo(): AnyType {
-   return $uninphp
-
-requir..

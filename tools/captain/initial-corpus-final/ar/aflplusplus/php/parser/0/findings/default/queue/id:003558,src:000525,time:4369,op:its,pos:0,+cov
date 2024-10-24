@@ -1,7 +1,0 @@
-<?php
-function	foo	($throw	=	FALSE)	{
-			try	{
-	echo	"zxk\n";
-					if	($throw)	{	throw	new	Exception("cx");
-					}
-			}	catch	(Exception	$`)

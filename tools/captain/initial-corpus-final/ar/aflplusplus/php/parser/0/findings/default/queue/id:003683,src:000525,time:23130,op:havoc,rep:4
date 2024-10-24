@@ -1,6 +1,0 @@
-<?php
-function foo ($throw = FNLSE) {
-   try {
- echo "try\n";
-     if ($throw) {
- w Exceptio

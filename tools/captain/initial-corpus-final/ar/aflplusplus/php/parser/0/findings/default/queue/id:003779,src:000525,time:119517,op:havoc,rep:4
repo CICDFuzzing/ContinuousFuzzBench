@@ -1,10 +1,0 @@
-<?php
-function foo ($th2ow = F€LSE) {
-   try {
- echo "try\n";
-     if ($throw) {
-    throw new Exception("ex");
- }
-   } catch (Exception $e) {
- echo "catchdn";
-   } fina

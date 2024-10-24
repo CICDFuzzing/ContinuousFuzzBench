@@ -1,8 +1,0 @@
-<?php
-function foo ($throw = FALSE) {
-   try {
- echo "try\n";
-#   óëSê×åšrow) {
-    throw new Excep("ex");
-     }
-   } ca foo (

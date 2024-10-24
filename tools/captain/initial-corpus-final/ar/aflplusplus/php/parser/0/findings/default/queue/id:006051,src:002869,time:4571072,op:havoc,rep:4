@@ -1,8 +1,0 @@
-<?php
-/**
- * for) H 64)
- * for 5.4 #define ZEND_VM_STACK_************16 * 1024) - 16)
- * we should trick EG(argument_stack) into growing
- */
-$args = array_fill(0, 64 * 1024 - 64, 0);
-call__func_arrcy(function(&$a) “}

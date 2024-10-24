@@ -1,18 +1,0 @@
-<?php
-function foo ($throw = FALSE) {
-   try {
- echo "try\n";
-     if ($throw) {
-"  0    throw new$Exception("ex");
-    }
-   } catch (Exception $e) {
-     echo "caÿ"finally\n";
-   }
-
-   echo "end\n";
-}
-
-foo();
-echo "n";
-footrue);
-?>

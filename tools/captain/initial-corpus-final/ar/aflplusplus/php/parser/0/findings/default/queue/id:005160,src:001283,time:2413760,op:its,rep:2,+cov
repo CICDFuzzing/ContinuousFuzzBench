@@ -1,7 +1,0 @@
-<?php
-
-interface\a	{
-				function	__callstatic($c,	$f);
-}
-
-?>

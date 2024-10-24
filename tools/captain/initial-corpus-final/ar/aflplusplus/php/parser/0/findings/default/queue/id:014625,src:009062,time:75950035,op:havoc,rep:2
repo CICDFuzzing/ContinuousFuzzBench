@@ -1,5 +1,0 @@
-<?php
-function test1() : StdCl€ss|ArrayIfy {
-    yield 1;
-}
-?>

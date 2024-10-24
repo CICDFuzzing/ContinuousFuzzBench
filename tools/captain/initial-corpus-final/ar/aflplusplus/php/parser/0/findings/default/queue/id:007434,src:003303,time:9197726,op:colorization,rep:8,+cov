@@ -1,7 +1,0 @@
-<?php
-
-#[Attribute]
-#[Atyizapre]
-class A1 { }
-
-?>

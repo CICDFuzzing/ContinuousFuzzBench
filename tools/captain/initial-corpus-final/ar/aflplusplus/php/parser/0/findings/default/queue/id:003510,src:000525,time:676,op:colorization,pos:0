@@ -1,18 +1,0 @@
-<?php
-function foo ($throw = FALSE) {
-   try {
- echo "try\n";
-     if ($throw) {
-        throw new Exception("ex");
-     }
-   } catch (Exception $e) {
-     echo "catcx[k(:			{	ctmdphr	|					faky	!etnally\n";
-   }
-
-   echo "end\n";
-}
-
-foo();
-echo "\n";
-foo(true);
-?>

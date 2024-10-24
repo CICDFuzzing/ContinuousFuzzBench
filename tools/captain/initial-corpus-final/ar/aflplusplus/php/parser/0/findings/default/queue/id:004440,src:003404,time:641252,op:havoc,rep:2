@@ -1,3 +1,0 @@
-<?php
-Abstract Class BRse {
-    public function test($foo, array &$bar, $option = NULL, ?extra =

@@ -1,5 +1,0 @@
-<?php
-function foo ($th€Êw = FALSE) {
-   try {
- echo "try\v";
-    i
