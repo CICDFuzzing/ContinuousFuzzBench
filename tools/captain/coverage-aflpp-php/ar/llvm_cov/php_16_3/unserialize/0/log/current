@@ -1,0 +1,113 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_16_3/corpus/seed/aflplusplus/unserialize/0/findings/default/queue
+The target is php_16_3
+The commit files are ext/phar/util.c
+The commit paths are /magma/targets/php_16_3/repo/ext/phar/util.c
+Check the number of profdata...
+472
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_16_3/corpus/seed/aflplusplus/unserialize/1/findings/default/queue
+The target is php_16_3
+The commit files are ext/phar/util.c
+The commit paths are /magma/targets/php_16_3/repo/ext/phar/util.c
+Check the number of profdata...
+468
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_16_3/corpus/seed/aflplusplus/unserialize/2/findings/default/queue
+The target is php_16_3
+The commit files are ext/phar/util.c
+The commit paths are /magma/targets/php_16_3/repo/ext/phar/util.c
+Check the number of profdata...
+471
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_16_3/corpus/seed/aflplusplus/unserialize/3/findings/default/queue
+The target is php_16_3
+The commit files are ext/phar/util.c
+The commit paths are /magma/targets/php_16_3/repo/ext/phar/util.c
+Check the number of profdata...
+469
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_16_3/corpus/seed/aflplusplus/unserialize/4/findings/default/queue
+The target is php_16_3
+The commit files are ext/phar/util.c
+The commit paths are /magma/targets/php_16_3/repo/ext/phar/util.c
+Check the number of profdata...
+473
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_16_3/corpus/seed/aflplusplus/unserialize/5/findings/default/queue
+The target is php_16_3
+The commit files are ext/phar/util.c
+The commit paths are /magma/targets/php_16_3/repo/ext/phar/util.c
+Check the number of profdata...
+467
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_16_3/corpus/seed/aflplusplus/unserialize/6/findings/default/queue
+The target is php_16_3
+The commit files are ext/phar/util.c
+The commit paths are /magma/targets/php_16_3/repo/ext/phar/util.c
+Check the number of profdata...
+472
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_16_3/corpus/seed/aflplusplus/unserialize/7/findings/default/queue
+The target is php_16_3
+The commit files are ext/phar/util.c
+The commit paths are /magma/targets/php_16_3/repo/ext/phar/util.c
+Check the number of profdata...
+480
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_16_3/corpus/seed/aflplusplus/unserialize/8/findings/default/queue
+The target is php_16_3
+The commit files are ext/phar/util.c
+The commit paths are /magma/targets/php_16_3/repo/ext/phar/util.c
+Check the number of profdata...
+471
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_16_3/corpus/seed/aflplusplus/unserialize/9/findings/default/queue
+The target is php_16_3
+The commit files are ext/phar/util.c
+The commit paths are /magma/targets/php_16_3/repo/ext/phar/util.c
+Check the number of profdata...
+475
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

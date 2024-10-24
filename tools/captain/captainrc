@@ -7,7 +7,7 @@
 ###
 
 # WORKDIR: path to directory where shared volumes will be created
-WORKDIR=./coverage-aflpp-libfuzzer-php
+WORKDIR=./coverage-aflpp-php
 
 # REPEAT: number of campaigns to run per program (per fuzzer)
 REPEAT=1
@@ -73,6 +73,9 @@ POC_EXTRACT=1
 FUZZERS=(llvm_cov)
 
 llvm_cov_TARGETS=(php_4_1 php_11_2 php_15_2 php_16_3)
+
+# php_4_1 php_11_2 php_15_2 php_16_3
+# llvm_cov_poppler_3_1_CORPUS="php/unserialize_mini"
 
 llvm_cov_php_4_1_CORPUS="php/json_mini"
 llvm_cov_php_11_2_CORPUS="php/exif_mini" 

@@ -25,8 +25,8 @@ for i in $(seq 0 9); do
     # export CORPUS="$SEED/aflgo/$PROGRAM/$i/findings/queue"
     # ./collect_coverage.sh $i aflgo
 
-    export CORPUS="$SEED/libfuzzer/$PROGRAM/$i/corpus/seed"
-    ./collect_coverage.sh $i libfuzzer
+    # export CORPUS="$SEED/libfuzzer/$PROGRAM/$i/corpus/seed"
+    # ./collect_coverage.sh $i libfuzzer
 
     export CORPUS="$SEED/aflplusplus/$PROGRAM/$i/findings/default/queue"
     ./collect_coverage.sh $i aflplusplus
