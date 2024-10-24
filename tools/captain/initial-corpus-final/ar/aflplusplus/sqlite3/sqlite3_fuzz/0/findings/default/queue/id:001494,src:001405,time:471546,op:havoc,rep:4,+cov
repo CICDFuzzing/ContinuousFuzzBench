@@ -1,3 +1,0 @@
---Ournal_;
-  ALTER TABLE t1 ADD COLUMN c;5@
-  PRAGM: journal_mode =mode =m

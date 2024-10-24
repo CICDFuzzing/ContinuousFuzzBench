@@ -1,5 +1,0 @@
-<?php
-declare(tiexs=1);
-namespace test;
-echo "go\n";
-?>

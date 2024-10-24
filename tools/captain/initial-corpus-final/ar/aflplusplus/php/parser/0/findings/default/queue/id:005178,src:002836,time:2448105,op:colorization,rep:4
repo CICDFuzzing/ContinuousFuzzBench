@@ -1,23 +1,0 @@
-<?php
-
-spl_autoload_register(function ($class) { switch ($class) {
-    case "Attachment":
-        eval(<<<'PHP'
-clase {
-}
-PHP
-    ); break;
-    case "File": eval(<<<'PHP'
-class File {
-    use TDatabaseObject {
-        TDatabaseObject::__construct as private databaseObjectConstruct;
-    }
-    public function __construct() {
-    }
-}
-PHP
-    );
-        break;
-    case "TDatabaseObject":
-        eval(<<<'PHP'
-trait TDatabaseIekdfg	}				gtfxtb	doudhthp	[`ewwppuias)&	|				~{URH				'=								dmbdy=				~				lbolly	VKRB?{&>pcn	Dpoebukcjh*)(!>deoh	!hhch$>:<

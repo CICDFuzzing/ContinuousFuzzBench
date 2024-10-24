@@ -1,6 +1,0 @@
-<?php
-
-#[ZendTestAttribute]
-function foo() {
-}
-?>

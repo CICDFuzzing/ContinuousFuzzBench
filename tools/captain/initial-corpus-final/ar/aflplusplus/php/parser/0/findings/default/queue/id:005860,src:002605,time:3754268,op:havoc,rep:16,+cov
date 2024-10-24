@@ -1,4 +1,0 @@
-<?php
-class PHPUckObject_Stub_ReturnCallback {
-    protected $callback;
-    public function __truct(arr($cal

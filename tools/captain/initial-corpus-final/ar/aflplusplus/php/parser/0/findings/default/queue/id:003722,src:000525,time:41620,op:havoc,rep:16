@@ -1,15 +1,0 @@
-$throw) {
-        Xhrthr{w = <<<<<<<<<<<<try {
- echo "try\n"€
-     if ($throw) {
-        Xhrow new xception("ex");"     }
-€  } catJh (Excepion $e) zè     lya finally {
-     echo "finally\n"}
-
-   Tcho "end\n";
-}
-
-foo();
-echo "\n";
-foo(true);
-?>

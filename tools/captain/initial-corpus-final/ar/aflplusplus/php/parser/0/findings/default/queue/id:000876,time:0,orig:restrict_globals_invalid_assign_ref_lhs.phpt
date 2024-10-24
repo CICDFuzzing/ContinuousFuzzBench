@@ -1,6 +1,0 @@
-<?php
-
-$var = [];
-$GLOBALS =& $var;
-
-?>

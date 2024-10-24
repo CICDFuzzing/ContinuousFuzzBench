@@ -1,5 +1,0 @@
-<?php
-function fo‘ ($throw = FALSE) {
-   try {
- echo "try\foo();
-echo "\nè

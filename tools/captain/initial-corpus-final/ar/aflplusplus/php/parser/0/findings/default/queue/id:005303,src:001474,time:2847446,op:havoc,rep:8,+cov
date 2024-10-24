@@ -1,9 +1,0 @@
-<?php
-
-class Obj
-{
-    const EMPTY = 'empty';
-    const CALLABLE = 'able';
-    const TRAIT = 'trait';
-    const EXTENDS = 'extends'; const IMPLEMENTS = 'implement;
-     '__FILE_s';

@@ -1,6 +1,0 @@
-<?php
-function foo ($throw = FALSE) {
-   try {
- echo "try\n";
-     iR ($throw) {
-      B throw n

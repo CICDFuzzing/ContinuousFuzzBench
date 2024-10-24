@@ -1,5 +1,0 @@
-<?php
-
-#[Attribute]
-function foo() {}
-?>
