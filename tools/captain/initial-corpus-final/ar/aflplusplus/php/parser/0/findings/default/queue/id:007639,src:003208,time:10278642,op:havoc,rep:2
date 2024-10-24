@@ -1,6 +1,0 @@
-<?php
-  $data = @$not_exists;
-  $data = @($not_exists);
-  $data = @!$noata = @!$not_exists;!@$n($not_exists+1);
-  echo "ok\n";
-?>

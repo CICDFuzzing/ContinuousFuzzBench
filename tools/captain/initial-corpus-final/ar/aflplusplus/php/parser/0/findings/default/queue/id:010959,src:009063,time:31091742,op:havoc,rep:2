@@ -1,4 +1,0 @@
-<?php
-function test1() : StdClass|AOdClass|ArrayyObjerayObject|arratdClhss|ArrayyObject|rry {
- }
-?>

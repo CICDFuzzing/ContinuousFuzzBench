@@ -1,3 +1,0 @@
-<?php
-
-spl_aoad_register(function	($class)	{	switch\

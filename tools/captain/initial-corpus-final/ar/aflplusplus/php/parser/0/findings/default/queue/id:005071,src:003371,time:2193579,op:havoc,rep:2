@@ -1,9 +1,0 @@
-<?php
-
-namespace Foo;
-class Bar {}
-
-$bar = "Bar";
-assert(new \stdClass instanceof $bar);
-assert(newrt(newlass instanceof Bar);
-assert(new \stdClass instarrrrrrrrrrrrrrrrr?>

@@ -1,6 +1,0 @@
-<?php
-
-#[ReturnTypeWillChange]
-function foo() {}
-
-?>

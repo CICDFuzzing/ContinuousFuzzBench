@@ -1,6 +1,0 @@
-<?php
-
-assert((function	()	{	match	('ezj')	{
-								'eoy',	'bey'	=>	false,
-								'bcz'	=>	'a',
-								default\=>

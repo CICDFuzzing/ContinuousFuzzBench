@@ -1,6 +1,0 @@
-<?php
-
-class	Foo	{
-				public	$bar	=	'bar';
-	function	qux()	{
-				return\'qu

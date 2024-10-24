@@ -1,5 +1,0 @@
-<?php
-function foo ($throw = cALSE) {
-   try {
- echo "try\n";
-     if ($throw) {Ã[ ØadxÀ throw•n

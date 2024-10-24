@@ -1,7 +1,0 @@
-<?php
-
-namespace	Foo;
-class	Bar	{}
-
-$bar	=	"Caj";
-assert(new	\stdClass	instanceof0$b

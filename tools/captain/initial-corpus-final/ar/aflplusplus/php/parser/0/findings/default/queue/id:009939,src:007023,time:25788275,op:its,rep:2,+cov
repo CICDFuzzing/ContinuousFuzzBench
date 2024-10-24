@@ -1,7 +1,0 @@
-<?php
-
-var_amxz(isset([0,	1][0]));
-var_axrm(isset(([0,	1]	+	[])[0]));
-var_bmtx(isset([[0,	1]][0][0]));
-var_bhgi(isset(([[0,	1]]	+	[])[0][0]));
-var_cvgt(isset(((objecT' _'e&

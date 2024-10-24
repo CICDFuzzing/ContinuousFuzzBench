@@ -1,3 +1,0 @@
-   WITH w1 AS ( SELECT * FROM t1 ),
-         w1 AS ( SELECT * FROM t1 ),
-      0

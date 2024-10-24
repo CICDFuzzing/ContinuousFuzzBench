@@ -1,6 +1,0 @@
-<?php
-
-${1}	<	65;
-var_dump($GLOBALS[1]);
-
-?>

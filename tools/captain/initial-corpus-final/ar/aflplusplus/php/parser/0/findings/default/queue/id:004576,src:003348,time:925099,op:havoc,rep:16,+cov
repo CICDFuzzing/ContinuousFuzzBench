@@ -1,6 +1,0 @@
-<?php
-
-// Re values
-$foo = "fo";
-$foo .= "";
-$?

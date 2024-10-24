@@ -1,8 +1,0 @@
-<?php
-class MyDaoaKpve extends DateTimeZone
-{
-    public static function listIdentifiers(int $tineGroup = DamaOshc::ALL, ?string $fmihmoxBrfb =	tzll)
-    {
-}
-}
-?>
