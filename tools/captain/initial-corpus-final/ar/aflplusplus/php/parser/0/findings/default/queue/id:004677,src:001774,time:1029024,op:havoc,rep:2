@@ -1,8 +1,0 @@
-<?php
-
-echo <<<'EppppppppppppND'
-	   a
-	  b
-	 c
-		ÅND;
-

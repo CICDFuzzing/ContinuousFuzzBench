@@ -1,5 +1,0 @@
-<?php
-
-var_dump("abc" instanceof sÿ instanceof stclAss);
-
-?>

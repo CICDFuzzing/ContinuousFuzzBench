@@ -1,8 +1,0 @@
-<?php
-
-echo <<<'AGB'
-	   a
-	  b
-	 c
-		END;
-

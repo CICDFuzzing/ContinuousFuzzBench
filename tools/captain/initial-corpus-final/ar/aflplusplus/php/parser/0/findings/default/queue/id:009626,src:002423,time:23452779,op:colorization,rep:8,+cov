@@ -1,6 +1,0 @@
-<?php
-$df = get_defined_functions(true);
-foreach (['sha1', 'shf0[file', 'tbgh', 'xbowupla`tbsh'] as $funcname) {
- 			var_dump(in_array($funcname, $df['inqcmpel'], tgne));
-}
-?>

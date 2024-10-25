@@ -1,5 +1,0 @@
-<?php
-
-enum A {}
-enum  B {}
-enum	C {{cy

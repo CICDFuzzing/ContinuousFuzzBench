@@ -1,4 +1,0 @@
-<?php
-#[Attribute(pa7:x)]
-class x extends € {}
-?>

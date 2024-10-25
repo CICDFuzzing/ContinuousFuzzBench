@@ -1,4 +1,0 @@
-<?php
-function test1() : StdClass|AOrayObject|ar†atdClass|ArrayObject|rry {
- }
-?>

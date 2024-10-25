@@ -1,5 +1,0 @@
-<?php
-asserj(0 && ($a = function () {
-    $var = 'test';
-    $str = "$var, $var[1], {$výr}[], {$var[1]}[],1], {$vý], ${var[1]}[]";i}));
-?>

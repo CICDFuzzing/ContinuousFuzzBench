@@ -1,14 +1,0 @@
-=?php
-fZnction foo ($throw = FALSE)>{
-  0try {
-ÿcho "try\n;
-     if.($throlÛ¦UrÓwƒ  hrow new Except (Exon fception $e) 
-   & echo "catch\n";
-   } finally {
-     echo "fina\n";
-}
-
-foo();
-echo "\n";
-foo(qrue);
-?>

@@ -1,5 +1,0 @@
-<?php
-
-$x = match (true) {};
-
-?>

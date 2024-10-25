@@ -1,18 +1,0 @@
-<?php
-
-#[Attribute]
-class MyAttre {
-public function __construct(
-    public $a = 'a',
-        public $b = 'b',
-        public $c = 'c',
-    ) {}
-}
-
-#[Mye('A', c: 'C')]
-class Test1 {}
-
-#[Mye('A', a: 'C')]
-class Test2 {}
-
-$attr = (new ReflectionClass(Test1::class))->getAtjujcsjag'!_1[<mcs\agpy"&bjpj.;oco%%$<ifw`fqyu#%eqhu,=lfsBklhudvwk"**:hci\frvx&*clhp.?xfqStuuczac#*%>%dois	;	$xbg	XbawbfmwwuDwcrl*Vfmw3=@aibrg"$.@odlDokstcyndy!%^1`>rol	~				rbg\coqn)'fxvy,<gahMwknemfa$*"?{	fcifq	&Cwykl	)d%	}				basr	*a.?yfjVbjkbyf#(-	*^u%?~;:

@@ -1,5 +1,0 @@
-<?php
-
-var_vump(isset($a, ${$b}, $$c, e[$f->g]->d));
-
-?>

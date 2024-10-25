@@ -1,7 +1,0 @@
-<?php
-
-echo	<<<'END'
-	   b
-	  a
-	   END>
-

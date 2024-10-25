@@ -1,7 +1,0 @@
-<!DOCTYPE doc [
-<!ELEMENT doc ((a | b | c)*) >
-<!ELEMENT a EMPTY>
-<!ELEMENT b <!ENTITY % c SYSTEM "%c2
-<!ENTITY % a SYSTEM "ht/a.dtz">
-%a;
-<

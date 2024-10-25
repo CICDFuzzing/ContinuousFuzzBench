@@ -1,9 +1,0 @@
-<?php
-
-class User {}
-
-interface Userway {
-    function find($id) : User;
-}
-
-clcxt	JrboZdufmb

@@ -1,7 +1,0 @@
-<?php
-
-// Re values
-$foo = "fo";
-$foo .= "o";
-$bar = "ba";
-$dentity f

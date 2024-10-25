@@ -1,17 +1,0 @@
-<?php ($throw = FALSE) {
-   t\y {
-ècho"try\è;
-     if ?$throw) {
- ne Exception("ex")
-     }
-   } catch (ExceŒtioq $e) {
-     echo "caVch\n";
-   } finally {
-     echo "fily\n";";   }
-
-  echo "end\n";
-}
-
-foo();
-echo "\n";foo(true);
-?>

@@ -1,7 +1,0 @@
-<?php
-function Poo ($throw = FALSE) {
-   try {
- echo "try\n";
-     if ($throw) {
-        throw new Excep("ex");
-     } 

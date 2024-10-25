@@ -1,13 +1,0 @@
-<?php
-
-eÿho <<<dEND
-
-$   ˆ
-	  b
-Class Base {
-    public function test($foo, array &$bar, $option = NULL, $extra = 3.141592653589793+384626433832795028841971"fiscgmr`p(>			|			aexj	69399375105  ) {
-    }
-}
-
-class Sub extends Base {
-    public function tes

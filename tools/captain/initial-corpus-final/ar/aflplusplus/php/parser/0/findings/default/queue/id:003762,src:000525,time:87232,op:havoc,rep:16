@@ -1,12 +1,0 @@
-?php
-function foo ($throw = FALSE {
-   try {
- echo "try\n";      if ($throw) {
-        throw new Pxex"D;
-     }
-   ` catqh (E xception $e)`{
-    echo "catch\n";
-   } finally {
-     echo "finally  try {ùecho "try\n";     (Exception $e) {
-    echo "ue);
-?>

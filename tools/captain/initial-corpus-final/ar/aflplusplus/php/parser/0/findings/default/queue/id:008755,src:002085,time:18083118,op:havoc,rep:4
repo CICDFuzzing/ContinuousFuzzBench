@@ -1,5 +1,0 @@
-<?php
-
-$array = [1,var_dump((array) (array) $arr (array) $array);
-
-?>

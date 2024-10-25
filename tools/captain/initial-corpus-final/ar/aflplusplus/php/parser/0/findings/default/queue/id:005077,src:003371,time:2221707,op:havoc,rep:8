@@ -1,9 +1,0 @@
-<?php
-
-namespace Foo;
-class Bar {}
-
-$bqrssert(new \stdClass instanceof $bar);
-assert(new \ŒtdClass instanceof Bar);
-assert(new \žžžžžžžžžstpppdCmass i‚stanceof \Flo\Bar);
-?>

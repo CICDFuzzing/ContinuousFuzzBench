@@ -1,7 +1,0 @@
-<?php
-
-// TODO Wentheses for the direct call
-assert((fn() => false)());
-assert((fn&(int... $args): ?bool => $args[0])(false));
-
-?>
