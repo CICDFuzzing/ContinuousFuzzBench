@@ -1,0 +1,113 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_13_2/corpus/seed/asn1parse/0/findings/queue
+The target is openssl_13_2
+The commit files are crypto/rsa/rsa_ameth.c
+The commit paths are /magma/targets/openssl_13_2/repo/crypto/rsa/rsa_ameth.c
+Check the number of profdata...
+426
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_13_2/corpus/seed/asn1parse/1/findings/queue
+The target is openssl_13_2
+The commit files are crypto/rsa/rsa_ameth.c
+The commit paths are /magma/targets/openssl_13_2/repo/crypto/rsa/rsa_ameth.c
+Check the number of profdata...
+425
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_13_2/corpus/seed/asn1parse/2/findings/queue
+The target is openssl_13_2
+The commit files are crypto/rsa/rsa_ameth.c
+The commit paths are /magma/targets/openssl_13_2/repo/crypto/rsa/rsa_ameth.c
+Check the number of profdata...
+426
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_13_2/corpus/seed/asn1parse/3/findings/queue
+The target is openssl_13_2
+The commit files are crypto/rsa/rsa_ameth.c
+The commit paths are /magma/targets/openssl_13_2/repo/crypto/rsa/rsa_ameth.c
+Check the number of profdata...
+428
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_13_2/corpus/seed/asn1parse/4/findings/queue
+The target is openssl_13_2
+The commit files are crypto/rsa/rsa_ameth.c
+The commit paths are /magma/targets/openssl_13_2/repo/crypto/rsa/rsa_ameth.c
+Check the number of profdata...
+423
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_13_2/corpus/seed/asn1parse/5/findings/queue
+The target is openssl_13_2
+The commit files are crypto/rsa/rsa_ameth.c
+The commit paths are /magma/targets/openssl_13_2/repo/crypto/rsa/rsa_ameth.c
+Check the number of profdata...
+426
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_13_2/corpus/seed/asn1parse/6/findings/queue
+The target is openssl_13_2
+The commit files are crypto/rsa/rsa_ameth.c
+The commit paths are /magma/targets/openssl_13_2/repo/crypto/rsa/rsa_ameth.c
+Check the number of profdata...
+431
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_13_2/corpus/seed/asn1parse/7/findings/queue
+The target is openssl_13_2
+The commit files are crypto/rsa/rsa_ameth.c
+The commit paths are /magma/targets/openssl_13_2/repo/crypto/rsa/rsa_ameth.c
+Check the number of profdata...
+425
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_13_2/corpus/seed/asn1parse/8/findings/queue
+The target is openssl_13_2
+The commit files are crypto/rsa/rsa_ameth.c
+The commit paths are /magma/targets/openssl_13_2/repo/crypto/rsa/rsa_ameth.c
+Check the number of profdata...
+424
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_13_2/corpus/seed/asn1parse/9/findings/queue
+The target is openssl_13_2
+The commit files are crypto/rsa/rsa_ameth.c
+The commit paths are /magma/targets/openssl_13_2/repo/crypto/rsa/rsa_ameth.c
+Check the number of profdata...
+424
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

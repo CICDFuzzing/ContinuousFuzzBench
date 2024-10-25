@@ -1,0 +1,29 @@
+File '/magma/targets/openssl_11_6/repo/crypto/pkcs7/pk7_doit.c':
+Name                                Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+---------------------------------------------------------------------------------------------------------------
+PKCS7_type_is_other                      15      15   0.00%        17      17   0.00%        14      14   0.00%
+PKCS7_get_octet_string                   13      13   0.00%         8       8   0.00%         8       8   0.00%
+PKCS7_dataInit                          145     145   0.00%       146     146   0.00%        74      74   0.00%
+PKCS7_dataDecode                        222     222   0.00%       218     218   0.00%        90      90   0.00%
+PKCS7_dataFinal                         162     162   0.00%       140     140   0.00%        70      70   0.00%
+PKCS7_SIGNER_INFO_sign                   43      43   0.00%        44      44   0.00%        16      16   0.00%
+PKCS7_dataVerify                         58      58   0.00%        41      41   0.00%        14      14   0.00%
+PKCS7_signatureVerify                   124     124   0.00%       102     102   0.00%        44      44   0.00%
+PKCS7_get_issuer_and_serial              17      17   0.00%        17      17   0.00%         8       8   0.00%
+PKCS7_get_signed_attribute                1       1   0.00%         3       3   0.00%         0       0   0.00%
+PKCS7_get_attribute                       1       1   0.00%         3       3   0.00%         0       0   0.00%
+PKCS7_digest_from_attributes              5       5   0.00%         6       6   0.00%         2       2   0.00%
+PKCS7_set_signed_attributes              14      14   0.00%        15      15   0.00%         6       6   0.00%
+PKCS7_set_attributes                     14      14   0.00%        15      15   0.00%         6       6   0.00%
+PKCS7_add_signed_attribute                1       1   0.00%         3       3   0.00%         0       0   0.00%
+PKCS7_add_attribute                       1       1   0.00%         3       3   0.00%         0       0   0.00%
+pk7_doit.c:pkcs7_bio_add_digest          34      34   0.00%        37      37   0.00%        10      10   0.00%
+pk7_doit.c:pkcs7_encode_rinfo            31      31   0.00%        33      33   0.00%        12      12   0.00%
+pk7_doit.c:pkcs7_cmp_ri                   4       4   0.00%         9       9   0.00%         2       2   0.00%
+pk7_doit.c:pkcs7_decrypt_rinfo           43      43   0.00%        38      38   0.00%        18      18   0.00%
+pk7_doit.c:PKCS7_find_digest             27      27   0.00%        18      18   0.00%         6       6   0.00%
+pk7_doit.c:do_pkcs7_signed_attrib        31      31   0.00%        21      21   0.00%        10      10   0.00%
+pk7_doit.c:get_attribute                  1       1   0.00%         7       7   0.00%         0       0   0.00%
+pk7_doit.c:add_attribute                 30      30   0.00%        33      33   0.00%        16      16   0.00%
+---------------------------------------------------------------------------------------------------------------
+TOTAL                                  1037    1037   0.00%       977     977   0.00%       426     426   0.00%
