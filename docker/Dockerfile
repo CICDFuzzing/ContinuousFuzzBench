@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:18.04
 
 # TODO remove sudo for user "magma" to avoid unwanted priv escalation from
 # other attack vectors.
@@ -75,7 +75,7 @@ RUN ${TARGET}/fetch.sh
 RUN ${MAGMA}/apply_patches.sh
 
 ARG corpus_name
-ARG seed_path=seed/aflgo-experiments/ar/aflgo/${target_name}
+ARG seed_path=seed/${corpus_name}
 ENV SEED 	${TARGET}/corpus/seed
 USER root:root
 RUN mkdir -p ${SEED} && chown magma:magma ${SEED}
