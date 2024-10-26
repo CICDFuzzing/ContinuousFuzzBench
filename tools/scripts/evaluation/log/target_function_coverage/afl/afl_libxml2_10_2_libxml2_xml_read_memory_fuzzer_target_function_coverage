@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+libxml2_10_2,libxml2_xml_read_memory_fuzzer,4,xmlStringLenDecodeEntities,206,61,70.39%,153,53,65.36%,126,50,60.32%
+libxml2_10_2,libxml2_xml_read_memory_fuzzer,7,xmlStringLenDecodeEntities,206,61,70.39%,153,53,65.36%,126,50,60.32%
+libxml2_10_2,libxml2_xml_read_memory_fuzzer,1,xmlStringLenDecodeEntities,206,61,70.39%,153,53,65.36%,126,50,60.32%
+libxml2_10_2,libxml2_xml_read_memory_fuzzer,8,xmlStringLenDecodeEntities,206,61,70.39%,153,53,65.36%,126,50,60.32%
+libxml2_10_2,libxml2_xml_read_memory_fuzzer,3,xmlStringLenDecodeEntities,206,61,70.39%,153,53,65.36%,126,50,60.32%
+libxml2_10_2,libxml2_xml_read_memory_fuzzer,0,xmlStringLenDecodeEntities,206,61,70.39%,153,53,65.36%,126,50,60.32%
+libxml2_10_2,libxml2_xml_read_memory_fuzzer,9,xmlStringLenDecodeEntities,206,61,70.39%,153,53,65.36%,126,50,60.32%
+libxml2_10_2,libxml2_xml_read_memory_fuzzer,2,xmlStringLenDecodeEntities,206,61,70.39%,153,53,65.36%,126,50,60.32%
+libxml2_10_2,libxml2_xml_read_memory_fuzzer,6,xmlStringLenDecodeEntities,206,61,70.39%,153,53,65.36%,126,50,60.32%
+libxml2_10_2,libxml2_xml_read_memory_fuzzer,5,xmlStringLenDecodeEntities,206,61,70.39%,153,53,65.36%,126,50,60.32%

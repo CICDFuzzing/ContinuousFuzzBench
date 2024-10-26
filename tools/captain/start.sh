@@ -19,8 +19,8 @@
 cleanup() {
     if [ ! -t 1 ]; then
         echo "cleaning up"
-        docker rmi $(docker inspect $container_id --format='{{.Image}}')
         docker rm -f $container_id #&> /dev/null
+        docker rmi $(docker inspect $container_id --format='{{.Image}}')
         docker volume prune
         docker image prune
     fi

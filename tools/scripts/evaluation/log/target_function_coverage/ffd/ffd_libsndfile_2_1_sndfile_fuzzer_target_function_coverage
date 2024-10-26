@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+libsndfile_2_1,sndfile_fuzzer,7,sd2.c:sd2_parse_rsrc_fork,56,56,0.00%,105,105,0.00%,36,36,0.00%
+libsndfile_2_1,sndfile_fuzzer,8,sd2.c:sd2_parse_rsrc_fork,56,56,0.00%,105,105,0.00%,36,36,0.00%
+libsndfile_2_1,sndfile_fuzzer,1,sd2.c:sd2_parse_rsrc_fork,56,56,0.00%,105,105,0.00%,36,36,0.00%
+libsndfile_2_1,sndfile_fuzzer,9,sd2.c:sd2_parse_rsrc_fork,56,56,0.00%,105,105,0.00%,36,36,0.00%
+libsndfile_2_1,sndfile_fuzzer,5,sd2.c:sd2_parse_rsrc_fork,56,56,0.00%,105,105,0.00%,36,36,0.00%
+libsndfile_2_1,sndfile_fuzzer,2,sd2.c:sd2_parse_rsrc_fork,56,56,0.00%,105,105,0.00%,36,36,0.00%
+libsndfile_2_1,sndfile_fuzzer,4,sd2.c:sd2_parse_rsrc_fork,56,56,0.00%,105,105,0.00%,36,36,0.00%
+libsndfile_2_1,sndfile_fuzzer,0,sd2.c:sd2_parse_rsrc_fork,56,56,0.00%,105,105,0.00%,36,36,0.00%
+libsndfile_2_1,sndfile_fuzzer,6,sd2.c:sd2_parse_rsrc_fork,56,56,0.00%,105,105,0.00%,36,36,0.00%
+libsndfile_2_1,sndfile_fuzzer,3,sd2.c:sd2_parse_rsrc_fork,56,56,0.00%,105,105,0.00%,36,36,0.00%

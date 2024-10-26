@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+libtiff_10_1,tiff_read_rgba_fuzzer,4,tif_lzw.c:LZWDecodeCompat,115,19,83.48%,162,38,76.54%,60,19,68.33%
+libtiff_10_1,tiff_read_rgba_fuzzer,9,tif_lzw.c:LZWDecodeCompat,115,19,83.48%,162,38,76.54%,60,19,68.33%
+libtiff_10_1,tiff_read_rgba_fuzzer,8,tif_lzw.c:LZWDecodeCompat,115,19,83.48%,162,38,76.54%,60,19,68.33%
+libtiff_10_1,tiff_read_rgba_fuzzer,6,tif_lzw.c:LZWDecodeCompat,115,19,83.48%,162,38,76.54%,60,19,68.33%
+libtiff_10_1,tiff_read_rgba_fuzzer,3,tif_lzw.c:LZWDecodeCompat,115,19,83.48%,162,38,76.54%,60,19,68.33%
+libtiff_10_1,tiff_read_rgba_fuzzer,7,tif_lzw.c:LZWDecodeCompat,115,19,83.48%,162,38,76.54%,60,19,68.33%
+libtiff_10_1,tiff_read_rgba_fuzzer,2,tif_lzw.c:LZWDecodeCompat,115,19,83.48%,162,38,76.54%,60,19,68.33%
+libtiff_10_1,tiff_read_rgba_fuzzer,5,tif_lzw.c:LZWDecodeCompat,115,19,83.48%,162,38,76.54%,60,19,68.33%
+libtiff_10_1,tiff_read_rgba_fuzzer,0,tif_lzw.c:LZWDecodeCompat,115,19,83.48%,162,38,76.54%,60,19,68.33%
+libtiff_10_1,tiff_read_rgba_fuzzer,1,tif_lzw.c:LZWDecodeCompat,115,19,83.48%,162,38,76.54%,60,19,68.33%

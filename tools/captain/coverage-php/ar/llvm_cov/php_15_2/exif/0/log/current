@@ -1,0 +1,553 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/afl/exif/0/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+854
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/ffd/exif/0/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+958
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflgo/exif/0/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+824
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/libfuzzer/exif/0/corpus/seed
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+1876
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflpp/exif/0/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+829
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/afl/exif/1/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+852
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/ffd/exif/1/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+868
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflgo/exif/1/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+824
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/libfuzzer/exif/1/corpus/seed
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+1744
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflpp/exif/1/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+835
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/afl/exif/2/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+858
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/ffd/exif/2/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+883
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflgo/exif/2/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+824
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/libfuzzer/exif/2/corpus/seed
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+1846
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflpp/exif/2/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+829
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/afl/exif/3/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+851
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/ffd/exif/3/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+888
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflgo/exif/3/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+824
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/libfuzzer/exif/3/corpus/seed
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+1841
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflpp/exif/3/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+829
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/afl/exif/4/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+856
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/ffd/exif/4/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+877
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflgo/exif/4/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+824
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/libfuzzer/exif/4/corpus/seed
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+1798
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflpp/exif/4/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+830
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/afl/exif/5/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+854
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/ffd/exif/5/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+858
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflgo/exif/5/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+824
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/libfuzzer/exif/5/corpus/seed
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+1798
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflpp/exif/5/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+829
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/afl/exif/6/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+854
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/ffd/exif/6/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+844
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflgo/exif/6/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+824
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/libfuzzer/exif/6/corpus/seed
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+1697
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflpp/exif/6/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+832
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/afl/exif/7/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+860
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/ffd/exif/7/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+898
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflgo/exif/7/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+824
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/libfuzzer/exif/7/corpus/seed
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+1687
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflpp/exif/7/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+827
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/afl/exif/8/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+853
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/ffd/exif/8/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+872
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflgo/exif/8/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+824
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/libfuzzer/exif/8/corpus/seed
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+1704
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflpp/exif/8/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+828
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/afl/exif/9/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+852
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/ffd/exif/9/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+879
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflgo/exif/9/findings/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+824
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/libfuzzer/exif/9/corpus/seed
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+1775
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/aflpp/exif/9/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+833
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

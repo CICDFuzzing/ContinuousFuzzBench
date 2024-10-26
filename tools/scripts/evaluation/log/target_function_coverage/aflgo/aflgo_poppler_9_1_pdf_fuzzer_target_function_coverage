@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+poppler_9_1,pdf_fuzzer,4,_ZN6Parser10makeStreamEO6ObjectPKh14CryptAlgorithmiiiib,64,4,93.75%,84,6,92.86%,46,8,82.61%
+poppler_9_1,pdf_fuzzer,6,_ZN6Parser10makeStreamEO6ObjectPKh14CryptAlgorithmiiiib,64,4,93.75%,84,6,92.86%,46,8,82.61%
+poppler_9_1,pdf_fuzzer,8,_ZN6Parser10makeStreamEO6ObjectPKh14CryptAlgorithmiiiib,64,4,93.75%,84,6,92.86%,46,8,82.61%
+poppler_9_1,pdf_fuzzer,0,_ZN6Parser10makeStreamEO6ObjectPKh14CryptAlgorithmiiiib,64,4,93.75%,84,6,92.86%,46,8,82.61%
+poppler_9_1,pdf_fuzzer,1,_ZN6Parser10makeStreamEO6ObjectPKh14CryptAlgorithmiiiib,64,4,93.75%,84,6,92.86%,46,8,82.61%
+poppler_9_1,pdf_fuzzer,9,_ZN6Parser10makeStreamEO6ObjectPKh14CryptAlgorithmiiiib,64,4,93.75%,84,6,92.86%,46,8,82.61%
+poppler_9_1,pdf_fuzzer,2,_ZN6Parser10makeStreamEO6ObjectPKh14CryptAlgorithmiiiib,64,4,93.75%,84,6,92.86%,46,8,82.61%
+poppler_9_1,pdf_fuzzer,7,_ZN6Parser10makeStreamEO6ObjectPKh14CryptAlgorithmiiiib,64,4,93.75%,84,6,92.86%,46,8,82.61%
+poppler_9_1,pdf_fuzzer,3,_ZN6Parser10makeStreamEO6ObjectPKh14CryptAlgorithmiiiib,64,4,93.75%,84,6,92.86%,46,8,82.61%
+poppler_9_1,pdf_fuzzer,5,_ZN6Parser10makeStreamEO6ObjectPKh14CryptAlgorithmiiiib,64,4,93.75%,84,6,92.86%,46,8,82.61%

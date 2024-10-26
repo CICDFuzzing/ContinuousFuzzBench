@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+php_6_2,exif,6,exif.c:exif_scan_thumbnail,82,82,0.00%,73,73,0.00%,64,64,0.00%
+php_6_2,exif,8,exif.c:exif_scan_thumbnail,82,82,0.00%,73,73,0.00%,64,64,0.00%
+php_6_2,exif,3,exif.c:exif_scan_thumbnail,82,82,0.00%,73,73,0.00%,64,64,0.00%
+php_6_2,exif,7,exif.c:exif_scan_thumbnail,82,82,0.00%,73,73,0.00%,64,64,0.00%
+php_6_2,exif,4,exif.c:exif_scan_thumbnail,82,82,0.00%,73,73,0.00%,64,64,0.00%
+php_6_2,exif,5,exif.c:exif_scan_thumbnail,82,82,0.00%,73,73,0.00%,64,64,0.00%
+php_6_2,exif,9,exif.c:exif_scan_thumbnail,82,82,0.00%,73,73,0.00%,64,64,0.00%
+php_6_2,exif,2,exif.c:exif_scan_thumbnail,82,82,0.00%,73,73,0.00%,64,64,0.00%
+php_6_2,exif,0,exif.c:exif_scan_thumbnail,82,82,0.00%,73,73,0.00%,64,64,0.00%
+php_6_2,exif,1,exif.c:exif_scan_thumbnail,82,82,0.00%,73,73,0.00%,64,64,0.00%

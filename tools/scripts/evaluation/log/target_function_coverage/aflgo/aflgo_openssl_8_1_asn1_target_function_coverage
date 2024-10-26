@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+openssl_8_1,asn1,8,statem_clnt.c:tls_construct_cke_dhe,48,48,0.00%,44,44,0.00%,12,12,0.00%
+openssl_8_1,asn1,7,statem_clnt.c:tls_construct_cke_dhe,48,48,0.00%,44,44,0.00%,12,12,0.00%
+openssl_8_1,asn1,0,statem_clnt.c:tls_construct_cke_dhe,48,48,0.00%,44,44,0.00%,12,12,0.00%
+openssl_8_1,asn1,1,statem_clnt.c:tls_construct_cke_dhe,48,48,0.00%,44,44,0.00%,12,12,0.00%
+openssl_8_1,asn1,4,statem_clnt.c:tls_construct_cke_dhe,48,48,0.00%,44,44,0.00%,12,12,0.00%
+openssl_8_1,asn1,6,statem_clnt.c:tls_construct_cke_dhe,48,48,0.00%,44,44,0.00%,12,12,0.00%
+openssl_8_1,asn1,3,statem_clnt.c:tls_construct_cke_dhe,48,48,0.00%,44,44,0.00%,12,12,0.00%
+openssl_8_1,asn1,2,statem_clnt.c:tls_construct_cke_dhe,48,48,0.00%,44,44,0.00%,12,12,0.00%
+openssl_8_1,asn1,9,statem_clnt.c:tls_construct_cke_dhe,48,48,0.00%,44,44,0.00%,12,12,0.00%
+openssl_8_1,asn1,5,statem_clnt.c:tls_construct_cke_dhe,48,48,0.00%,44,44,0.00%,12,12,0.00%

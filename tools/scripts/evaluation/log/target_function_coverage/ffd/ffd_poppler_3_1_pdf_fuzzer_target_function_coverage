@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+poppler_3_1,pdf_fuzzer,3,_ZN16GfxImageColorMap14getColorSpace2Ev,1,1,0.00%,1,1,0.00%,0,0,0.00%
+poppler_3_1,pdf_fuzzer,2,_ZN16GfxImageColorMap14getColorSpace2Ev,1,1,0.00%,1,1,0.00%,0,0,0.00%
+poppler_3_1,pdf_fuzzer,0,_ZN16GfxImageColorMap14getColorSpace2Ev,1,1,0.00%,1,1,0.00%,0,0,0.00%
+poppler_3_1,pdf_fuzzer,5,_ZN16GfxImageColorMap14getColorSpace2Ev,1,1,0.00%,1,1,0.00%,0,0,0.00%
+poppler_3_1,pdf_fuzzer,8,_ZN16GfxImageColorMap14getColorSpace2Ev,1,1,0.00%,1,1,0.00%,0,0,0.00%
+poppler_3_1,pdf_fuzzer,7,_ZN16GfxImageColorMap14getColorSpace2Ev,1,1,0.00%,1,1,0.00%,0,0,0.00%
+poppler_3_1,pdf_fuzzer,9,_ZN16GfxImageColorMap14getColorSpace2Ev,1,1,0.00%,1,1,0.00%,0,0,0.00%
+poppler_3_1,pdf_fuzzer,6,_ZN16GfxImageColorMap14getColorSpace2Ev,1,1,0.00%,1,1,0.00%,0,0,0.00%
+poppler_3_1,pdf_fuzzer,1,_ZN16GfxImageColorMap14getColorSpace2Ev,1,1,0.00%,1,1,0.00%,0,0,0.00%
+poppler_3_1,pdf_fuzzer,4,_ZN16GfxImageColorMap14getColorSpace2Ev,1,1,0.00%,1,1,0.00%,0,0,0.00%

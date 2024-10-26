@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,9,xmlValidateOneNamespace,138,63,54.35%,177,97,45.20%,102,53,48.04%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,7,xmlValidateOneNamespace,138,63,54.35%,177,97,45.20%,102,53,48.04%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,0,xmlValidateOneNamespace,138,63,54.35%,177,97,45.20%,102,53,48.04%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,5,xmlValidateOneNamespace,138,63,54.35%,177,97,45.20%,102,53,48.04%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,2,xmlValidateOneNamespace,138,63,54.35%,177,97,45.20%,102,53,48.04%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,6,xmlValidateOneNamespace,138,63,54.35%,177,97,45.20%,102,53,48.04%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,4,xmlValidateOneNamespace,138,63,54.35%,177,97,45.20%,102,53,48.04%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,1,xmlValidateOneNamespace,138,63,54.35%,177,97,45.20%,102,53,48.04%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,8,xmlValidateOneNamespace,138,63,54.35%,177,97,45.20%,102,53,48.04%
+libxml2_2_1,libxml2_xml_reader_for_file_fuzzer,3,xmlValidateOneNamespace,138,63,54.35%,177,97,45.20%,102,53,48.04%

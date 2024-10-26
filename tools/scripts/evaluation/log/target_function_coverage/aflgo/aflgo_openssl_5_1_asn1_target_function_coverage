@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+openssl_5_1,asn1,9,tls_parse_ctos_status_request,102,102,0.00%,74,74,0.00%,36,36,0.00%
+openssl_5_1,asn1,5,tls_parse_ctos_status_request,102,102,0.00%,74,74,0.00%,36,36,0.00%
+openssl_5_1,asn1,8,tls_parse_ctos_status_request,102,102,0.00%,74,74,0.00%,36,36,0.00%
+openssl_5_1,asn1,4,tls_parse_ctos_status_request,102,102,0.00%,74,74,0.00%,36,36,0.00%
+openssl_5_1,asn1,2,tls_parse_ctos_status_request,102,102,0.00%,74,74,0.00%,36,36,0.00%
+openssl_5_1,asn1,1,tls_parse_ctos_status_request,102,102,0.00%,74,74,0.00%,36,36,0.00%
+openssl_5_1,asn1,0,tls_parse_ctos_status_request,102,102,0.00%,74,74,0.00%,36,36,0.00%
+openssl_5_1,asn1,7,tls_parse_ctos_status_request,102,102,0.00%,74,74,0.00%,36,36,0.00%
+openssl_5_1,asn1,6,tls_parse_ctos_status_request,102,102,0.00%,74,74,0.00%,36,36,0.00%
+openssl_5_1,asn1,3,tls_parse_ctos_status_request,102,102,0.00%,74,74,0.00%,36,36,0.00%

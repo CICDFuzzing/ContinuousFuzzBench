@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+openssl_17_4,server,3,x509_vfy.c:get_crl_sk,31,31,0.00%,45,45,0.00%,16,16,0.00%
+openssl_17_4,server,5,x509_vfy.c:get_crl_sk,31,31,0.00%,45,45,0.00%,16,16,0.00%
+openssl_17_4,server,9,x509_vfy.c:get_crl_sk,31,31,0.00%,45,45,0.00%,16,16,0.00%
+openssl_17_4,server,2,x509_vfy.c:get_crl_sk,31,31,0.00%,45,45,0.00%,16,16,0.00%
+openssl_17_4,server,0,x509_vfy.c:get_crl_sk,31,31,0.00%,45,45,0.00%,16,16,0.00%
+openssl_17_4,server,8,x509_vfy.c:get_crl_sk,31,31,0.00%,45,45,0.00%,16,16,0.00%
+openssl_17_4,server,6,x509_vfy.c:get_crl_sk,31,31,0.00%,45,45,0.00%,16,16,0.00%
+openssl_17_4,server,4,x509_vfy.c:get_crl_sk,31,31,0.00%,45,45,0.00%,16,16,0.00%
+openssl_17_4,server,7,x509_vfy.c:get_crl_sk,31,31,0.00%,45,45,0.00%,16,16,0.00%
+openssl_17_4,server,1,x509_vfy.c:get_crl_sk,31,31,0.00%,45,45,0.00%,16,16,0.00%

@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+libxml2_1_2,libxml2_xml_read_memory_fuzzer,0,xmlSnprintfElementContent,79,12,84.81%,94,13,86.17%,74,20,72.97%
+libxml2_1_2,libxml2_xml_read_memory_fuzzer,3,xmlSnprintfElementContent,79,12,84.81%,94,13,86.17%,74,20,72.97%
+libxml2_1_2,libxml2_xml_read_memory_fuzzer,7,xmlSnprintfElementContent,79,12,84.81%,94,13,86.17%,74,20,72.97%
+libxml2_1_2,libxml2_xml_read_memory_fuzzer,4,xmlSnprintfElementContent,79,12,84.81%,94,13,86.17%,74,20,72.97%
+libxml2_1_2,libxml2_xml_read_memory_fuzzer,6,xmlSnprintfElementContent,79,12,84.81%,94,13,86.17%,74,20,72.97%
+libxml2_1_2,libxml2_xml_read_memory_fuzzer,5,xmlSnprintfElementContent,79,12,84.81%,94,13,86.17%,74,20,72.97%
+libxml2_1_2,libxml2_xml_read_memory_fuzzer,9,xmlSnprintfElementContent,79,12,84.81%,94,13,86.17%,74,20,72.97%
+libxml2_1_2,libxml2_xml_read_memory_fuzzer,1,xmlSnprintfElementContent,79,12,84.81%,94,13,86.17%,74,20,72.97%
+libxml2_1_2,libxml2_xml_read_memory_fuzzer,2,xmlSnprintfElementContent,79,12,84.81%,94,13,86.17%,74,20,72.97%
+libxml2_1_2,libxml2_xml_read_memory_fuzzer,8,xmlSnprintfElementContent,79,12,84.81%,94,13,86.17%,74,20,72.97%

@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+php_4_1,json,6,exif.c:exif_process_IFD_in_MAKERNOTE,59,59,0.00%,70,70,0.00%,44,44,0.00%
+php_4_1,json,9,exif.c:exif_process_IFD_in_MAKERNOTE,59,59,0.00%,70,70,0.00%,44,44,0.00%
+php_4_1,json,0,exif.c:exif_process_IFD_in_MAKERNOTE,59,59,0.00%,70,70,0.00%,44,44,0.00%
+php_4_1,json,4,exif.c:exif_process_IFD_in_MAKERNOTE,59,59,0.00%,70,70,0.00%,44,44,0.00%
+php_4_1,json,7,exif.c:exif_process_IFD_in_MAKERNOTE,59,59,0.00%,70,70,0.00%,44,44,0.00%
+php_4_1,json,2,exif.c:exif_process_IFD_in_MAKERNOTE,59,59,0.00%,70,70,0.00%,44,44,0.00%
+php_4_1,json,8,exif.c:exif_process_IFD_in_MAKERNOTE,59,59,0.00%,70,70,0.00%,44,44,0.00%
+php_4_1,json,3,exif.c:exif_process_IFD_in_MAKERNOTE,59,59,0.00%,70,70,0.00%,44,44,0.00%
+php_4_1,json,5,exif.c:exif_process_IFD_in_MAKERNOTE,59,59,0.00%,70,70,0.00%,44,44,0.00%
+php_4_1,json,1,exif.c:exif_process_IFD_in_MAKERNOTE,59,59,0.00%,70,70,0.00%,44,44,0.00%

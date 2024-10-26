@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+libsndfile_15_1,sndfile_fuzzer,7,alaw.c:i2alaw_array,10,10,0.00%,12,12,0.00%,4,4,0.00%
+libsndfile_15_1,sndfile_fuzzer,0,alaw.c:i2alaw_array,10,10,0.00%,12,12,0.00%,4,4,0.00%
+libsndfile_15_1,sndfile_fuzzer,8,alaw.c:i2alaw_array,10,10,0.00%,12,12,0.00%,4,4,0.00%
+libsndfile_15_1,sndfile_fuzzer,1,alaw.c:i2alaw_array,10,10,0.00%,12,12,0.00%,4,4,0.00%
+libsndfile_15_1,sndfile_fuzzer,9,alaw.c:i2alaw_array,10,10,0.00%,12,12,0.00%,4,4,0.00%
+libsndfile_15_1,sndfile_fuzzer,3,alaw.c:i2alaw_array,10,10,0.00%,12,12,0.00%,4,4,0.00%
+libsndfile_15_1,sndfile_fuzzer,2,alaw.c:i2alaw_array,10,10,0.00%,12,12,0.00%,4,4,0.00%
+libsndfile_15_1,sndfile_fuzzer,5,alaw.c:i2alaw_array,10,10,0.00%,12,12,0.00%,4,4,0.00%
+libsndfile_15_1,sndfile_fuzzer,4,alaw.c:i2alaw_array,10,10,0.00%,12,12,0.00%,4,4,0.00%
+libsndfile_15_1,sndfile_fuzzer,6,alaw.c:i2alaw_array,10,10,0.00%,12,12,0.00%,4,4,0.00%

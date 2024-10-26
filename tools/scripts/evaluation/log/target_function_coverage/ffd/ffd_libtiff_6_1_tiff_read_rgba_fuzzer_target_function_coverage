@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+libtiff_6_1,tiff_read_rgba_fuzzer,1,tif_pixarlog.c:PixarLogClose,6,6,0.00%,12,12,0.00%,0,0,0.00%
+libtiff_6_1,tiff_read_rgba_fuzzer,0,tif_pixarlog.c:PixarLogClose,6,6,0.00%,12,12,0.00%,0,0,0.00%
+libtiff_6_1,tiff_read_rgba_fuzzer,7,tif_pixarlog.c:PixarLogClose,6,6,0.00%,12,12,0.00%,0,0,0.00%
+libtiff_6_1,tiff_read_rgba_fuzzer,4,tif_pixarlog.c:PixarLogClose,6,6,0.00%,12,12,0.00%,0,0,0.00%
+libtiff_6_1,tiff_read_rgba_fuzzer,6,tif_pixarlog.c:PixarLogClose,6,6,0.00%,12,12,0.00%,0,0,0.00%
+libtiff_6_1,tiff_read_rgba_fuzzer,5,tif_pixarlog.c:PixarLogClose,6,6,0.00%,12,12,0.00%,0,0,0.00%
+libtiff_6_1,tiff_read_rgba_fuzzer,8,tif_pixarlog.c:PixarLogClose,6,6,0.00%,12,12,0.00%,0,0,0.00%
+libtiff_6_1,tiff_read_rgba_fuzzer,2,tif_pixarlog.c:PixarLogClose,6,6,0.00%,12,12,0.00%,0,0,0.00%
+libtiff_6_1,tiff_read_rgba_fuzzer,3,tif_pixarlog.c:PixarLogClose,6,6,0.00%,12,12,0.00%,0,0,0.00%
+libtiff_6_1,tiff_read_rgba_fuzzer,9,tif_pixarlog.c:PixarLogClose,6,6,0.00%,12,12,0.00%,0,0,0.00%

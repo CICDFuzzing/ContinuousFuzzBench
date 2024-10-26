@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+sqlite3_20_1,sqlite3_fuzz,5,sqlite3.c:exprListAppendList,27,9,66.67%,30,9,70.00%,14,3,78.57%
+sqlite3_20_1,sqlite3_fuzz,7,sqlite3.c:exprListAppendList,27,9,66.67%,30,9,70.00%,14,3,78.57%
+sqlite3_20_1,sqlite3_fuzz,3,sqlite3.c:exprListAppendList,27,9,66.67%,30,9,70.00%,14,3,78.57%
+sqlite3_20_1,sqlite3_fuzz,9,sqlite3.c:exprListAppendList,27,9,66.67%,30,9,70.00%,14,3,78.57%
+sqlite3_20_1,sqlite3_fuzz,0,sqlite3.c:exprListAppendList,27,9,66.67%,30,9,70.00%,14,3,78.57%
+sqlite3_20_1,sqlite3_fuzz,1,sqlite3.c:exprListAppendList,27,9,66.67%,30,9,70.00%,14,3,78.57%
+sqlite3_20_1,sqlite3_fuzz,6,sqlite3.c:exprListAppendList,27,9,66.67%,30,9,70.00%,14,3,78.57%
+sqlite3_20_1,sqlite3_fuzz,4,sqlite3.c:exprListAppendList,27,9,66.67%,30,9,70.00%,14,3,78.57%
+sqlite3_20_1,sqlite3_fuzz,8,sqlite3.c:exprListAppendList,27,9,66.67%,30,9,70.00%,14,3,78.57%
+sqlite3_20_1,sqlite3_fuzz,2,sqlite3.c:exprListAppendList,27,9,66.67%,30,9,70.00%,14,3,78.57%

@@ -7,8 +7,7 @@
 ###
 
 # WORKDIR: path to directory where shared volumes will be created
-WORKDIR=./coverage-aflgo-experiments-openssl-new
-
+WORKDIR=./coverage-libfuzzer-openssl-17-2
 # REPEAT: number of campaigns to run per program (per fuzzer)
 REPEAT=1
 
@@ -72,15 +71,4 @@ POC_EXTRACT=1
 # FUZZERS: an array of fuzzer names (from magma/fuzzers/*) to evaluate
 FUZZERS=(llvm_cov)
 
-llvm_cov_TARGETS=(openssl_4_4 openssl_5_1 openssl_6_4 openssl_6_5 openssl_6_6 openssl_7_2 openssl_7_4)
-
-# php_4_1 php_11_2 php_15_2 php_16_3
-# llvm_cov_poppler_3_1_CORPUS="php/unserialize_mini"
-
-llvm_cov_openssl_4_4_CORPUS="openssl/server_mini" 
-llvm_cov_openssl_5_1_CORPUS="openssl/asn1_mini"
-llvm_cov_openssl_6_4_CORPUS="openssl/server_mini" 
-llvm_cov_openssl_6_5_CORPUS="openssl/client"  
-llvm_cov_openssl_6_6_CORPUS="openssl/x509_mini"
-llvm_cov_openssl_7_2_CORPUS="openssl/asn1parse_mini"
-llvm_cov_openssl_7_4_CORPUS="openssl/server_mini"
+llvm_cov_TARGETS=(openssl_17_2)

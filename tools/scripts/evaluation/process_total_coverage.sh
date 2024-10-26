@@ -26,7 +26,6 @@ do
     # echo $iter_num
     mkdir -p $output_path/$fuzzer_name
     if [[ ! -f "$output_path/$fuzzer_name/$fuzzer_name"_"$target_name"_"$program_name"_total_coverage ]]; then 
-        header=$(head -n 1 "$log_path" | sed -r 's/\s+/,/g')
         echo "TARGET,PROGRAM,ITER,Filename,Regions,Missed_Regions,Cover,Functions,Missed_Functions,Executed,Lines,Missed_Lines,Cover,Branches,Missed_Branches,Cover" > "$output_path/$fuzzer_name/$fuzzer_name"_"$target_name"_"$program_name"_total_coverage
     fi
     output=$(tail -n 1 "$log_path" | sed -r 's/\s+/,/g')

@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+libtiff_7_1,tiff_read_rgba_fuzzer,3,tif_dirread.c:ChopUpSingleUncompressedStrip,51,2,96.08%,50,1,98.00%,28,4,85.71%
+libtiff_7_1,tiff_read_rgba_fuzzer,7,tif_dirread.c:ChopUpSingleUncompressedStrip,51,2,96.08%,50,1,98.00%,28,4,85.71%
+libtiff_7_1,tiff_read_rgba_fuzzer,0,tif_dirread.c:ChopUpSingleUncompressedStrip,51,2,96.08%,50,1,98.00%,28,4,85.71%
+libtiff_7_1,tiff_read_rgba_fuzzer,1,tif_dirread.c:ChopUpSingleUncompressedStrip,51,2,96.08%,50,1,98.00%,28,4,85.71%
+libtiff_7_1,tiff_read_rgba_fuzzer,4,tif_dirread.c:ChopUpSingleUncompressedStrip,51,2,96.08%,50,1,98.00%,28,4,85.71%
+libtiff_7_1,tiff_read_rgba_fuzzer,6,tif_dirread.c:ChopUpSingleUncompressedStrip,51,2,96.08%,50,1,98.00%,28,4,85.71%
+libtiff_7_1,tiff_read_rgba_fuzzer,5,tif_dirread.c:ChopUpSingleUncompressedStrip,51,2,96.08%,50,1,98.00%,28,4,85.71%
+libtiff_7_1,tiff_read_rgba_fuzzer,9,tif_dirread.c:ChopUpSingleUncompressedStrip,51,2,96.08%,50,1,98.00%,28,4,85.71%
+libtiff_7_1,tiff_read_rgba_fuzzer,8,tif_dirread.c:ChopUpSingleUncompressedStrip,51,2,96.08%,50,1,98.00%,28,4,85.71%
+libtiff_7_1,tiff_read_rgba_fuzzer,2,tif_dirread.c:ChopUpSingleUncompressedStrip,51,2,96.08%,50,1,98.00%,28,4,85.71%

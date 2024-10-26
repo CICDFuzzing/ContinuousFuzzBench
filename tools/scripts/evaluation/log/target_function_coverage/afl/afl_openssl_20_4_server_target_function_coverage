@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+openssl_20_4,server,0,tls_decrypt_ticket,229,102,55.46%,200,87,56.50%,118,67,43.22%
+openssl_20_4,server,8,tls_decrypt_ticket,229,102,55.46%,200,87,56.50%,118,67,43.22%
+openssl_20_4,server,3,tls_decrypt_ticket,229,102,55.46%,200,87,56.50%,118,67,43.22%
+openssl_20_4,server,6,tls_decrypt_ticket,229,102,55.46%,200,87,56.50%,118,67,43.22%
+openssl_20_4,server,5,tls_decrypt_ticket,229,102,55.46%,200,87,56.50%,118,67,43.22%
+openssl_20_4,server,1,tls_decrypt_ticket,229,102,55.46%,200,87,56.50%,118,67,43.22%
+openssl_20_4,server,7,tls_decrypt_ticket,229,102,55.46%,200,87,56.50%,118,67,43.22%
+openssl_20_4,server,4,tls_decrypt_ticket,229,102,55.46%,200,87,56.50%,118,67,43.22%
+openssl_20_4,server,9,tls_decrypt_ticket,229,102,55.46%,200,87,56.50%,118,67,43.22%
+openssl_20_4,server,2,tls_decrypt_ticket,229,102,55.46%,200,87,56.50%,118,67,43.22%
