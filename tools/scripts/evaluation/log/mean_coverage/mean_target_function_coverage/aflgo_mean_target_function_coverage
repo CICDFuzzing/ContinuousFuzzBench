@@ -11,6 +11,7 @@ aflgo,openssl_19_1,asn1,ssl3_read_bytes,519.000,519.000,0.000,320.000,519.000,0.
 aflgo,php_4_1,json,exif.c:exif_process_IFD_in_MAKERNOTE,59.000,59.000,0.000,70.000,59.000,0.000,44.000,59.000,0.000
 aflgo,libsndfile_7_1,sndfile,flac.c:sf_flac_meta_callback,30.000,1.000,96.670,72.000,1.000,95.830,34.000,1.000,97.060
 aflgo,libxml2_12_2,libxml2,parser.c:xmlParseNCNameComplex,78.000,3.000,96.150,53.000,3.000,96.230,50.000,3.000,84.000
+aflgo,sqlite3_18_1,sqlite3,sqlite3.c:sqlite3ExprAddCollateToken,11.000,0.000,100.000,15.000,0.000,100.000,4.000,0.000,50.000
 aflgo,libxml2_1_2,libxml2,xmlSnprintfElementContent,79.000,12.000,84.810,94.000,12.000,86.170,74.000,12.000,72.970
 aflgo,php_15_2,exif,phar.c:phar_parse_pharfile,1471.000,1471.000,0.000,470.000,1471.000,0.000,602.000,1471.000,0.000
 aflgo,openssl_5_1,asn1,tls_parse_ctos_status_request,102.000,102.000,0.000,74.000,102.000,0.000,36.000,102.000,0.000
@@ -23,10 +24,12 @@ aflgo,libxml2_16_2,libxml2,xmlregexp.c:xmlFAParseCharRange,106.000,106.000,0.000
 aflgo,openssl_11_4,server,PKCS7_dataDecode,222.000,222.000,0.000,218.000,222.000,0.000,90.000,222.000,0.000
 aflgo,sqlite3_20_1,sqlite3,sqlite3.c:exprListAppendList,27.000,9.000,66.670,30.000,9.000,70.000,14.000,9.000,78.570
 aflgo,libtiff_10_1,tiff,tif_lzw.c:LZWDecodeCompat,115.000,19.000,83.480,162.000,19.000,76.540,60.000,19.000,68.330
+aflgo,php_11_2,exif,exif.c:exif_offset_info_try_get,13.000,0.000,100.000,13.000,0.000,100.000,2.000,0.000,100.000
 aflgo,openssl_6_5,client,EVP_EncodeUpdate,33.000,33.000,0.000,53.000,33.000,0.000,20.000,33.000,0.000
 aflgo,openssl_20_3,bignum,,,,0.000,,,0.000,,,0.000
 aflgo,libtiff_9_1,tiff,tif_dirwrite.c:TIFFWriteDirectoryTagTransferfunction,30.000,30.000,0.000,50.000,30.000,0.000,20.000,30.000,0.000
 aflgo,php_16_3,unserialize,phar_parse_zipfile,2442.000,2442.000,0.000,466.000,2442.000,0.000,806.000,2442.000,0.000
+aflgo,openssl_10_5,client,bn_dh.c:bn_expand,14.821,14.571,3.571,0.714,14.571,3.571,0.000,14.571,0.000
 aflgo,openssl_17_2,asn1parse,x509_vfy.c:get_crl_sk,31.000,31.000,0.000,45.000,31.000,0.000,16.000,31.000,0.000
 aflgo,libxml2_10_2,libxml2,xmlStringLenDecodeEntities,206.000,61.000,70.390,153.000,61.000,65.360,126.000,61.000,60.320
 aflgo,openssl_1_5,client,a_int.c:i2c_ibuf,43.000,2.000,95.350,55.000,2.000,92.730,30.000,2.000,86.670

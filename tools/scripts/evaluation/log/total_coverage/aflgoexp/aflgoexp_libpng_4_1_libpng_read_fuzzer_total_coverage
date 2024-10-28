@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Missed_Regions,Cover,Functions,Missed_Functions,Executed,Lines,Missed_Lines,Cover,Branches,Missed_Branches,Cover
+libpng_4_1,libpng_read_fuzzer,0,TOTAL,15516,10803,30.38%,392,221,43.62%,13195,8234,37.60%,5954,3930,33.99%
+libpng_4_1,libpng_read_fuzzer,1,TOTAL,15516,10783,30.50%,392,221,43.62%,13195,8218,37.72%,5954,3924,34.09%
+libpng_4_1,libpng_read_fuzzer,2,TOTAL,15516,10780,30.52%,392,221,43.62%,13195,8213,37.76%,5954,3923,34.11%
+libpng_4_1,libpng_read_fuzzer,3,TOTAL,15516,10804,30.37%,392,221,43.62%,13195,8238,37.57%,5954,3931,33.98%
+libpng_4_1,libpng_read_fuzzer,4,TOTAL,15516,10804,30.37%,392,221,43.62%,13195,8238,37.57%,5954,3931,33.98%
+libpng_4_1,libpng_read_fuzzer,5,TOTAL,15516,10783,30.50%,392,221,43.62%,13195,8218,37.72%,5954,3924,34.09%
+libpng_4_1,libpng_read_fuzzer,6,TOTAL,15516,10804,30.37%,392,221,43.62%,13195,8238,37.57%,5954,3931,33.98%
+libpng_4_1,libpng_read_fuzzer,7,TOTAL,15516,10783,30.50%,392,221,43.62%,13195,8218,37.72%,5954,3924,34.09%
+libpng_4_1,libpng_read_fuzzer,8,TOTAL,15516,10804,30.37%,392,221,43.62%,13195,8238,37.57%,5954,3931,33.98%
+libpng_4_1,libpng_read_fuzzer,9,TOTAL,15516,10783,30.50%,392,221,43.62%,13195,8218,37.72%,5954,3924,34.09%

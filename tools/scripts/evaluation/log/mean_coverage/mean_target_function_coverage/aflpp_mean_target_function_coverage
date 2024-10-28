@@ -1,5 +1,6 @@
 FUZZER,TARGET,PROGRAM,Filename,Regions,Miss,Cover,Lines,Miss,Cover.1,Branches,Miss,Cover.2
 aflpp,poppler_3_1,pdf,_ZN16GfxImageColorMap14getColorSpace2Ev,1.000,1.000,0.000,1.000,1.000,0.000,0.000,1.000,0.000
+aflpp,libsndfile_7_1,sndfile,flac.c:sf_flac_meta_callback,30.000,0.900,97.003,72.000,0.900,96.247,34.000,0.900,97.354
 aflpp,libsndfile_2_1,sndfile,sd2.c:sd2_parse_rsrc_fork,56.000,56.000,0.000,105.000,56.000,0.000,36.000,56.000,0.000
 aflpp,openssl_17_4,server,x509_vfy.c:get_crl_sk,31.000,31.000,0.000,45.000,31.000,0.000,16.000,31.000,0.000
 aflpp,libtiff_9_1,tiff,tif_dirwrite.c:TIFFWriteDirectoryTagTransferfunction,30.000,30.000,0.000,50.000,30.000,0.000,20.000,30.000,0.000
@@ -19,6 +20,7 @@ aflpp,openssl_1_3,bignum,a_int.c:i2c_ibuf,43.000,43.000,0.000,55.000,43.000,0.00
 aflpp,libxml2_1_2,libxml2,xmlSnprintfElementContent,79.000,12.000,84.810,94.000,12.000,86.170,74.000,12.000,72.970
 aflpp,libxml2_14_1,libxml2,HTMLparser.c:htmlParseName,48.000,48.000,0.000,29.000,48.000,0.000,40.000,48.000,0.000
 aflpp,openssl_7_2,asn1parse,MDC2_Update,18.000,18.000,0.000,31.000,18.000,0.000,8.000,18.000,0.000
+aflpp,php_11_2,exif,exif.c:exif_offset_info_try_get,13.000,0.000,100.000,13.000,0.000,100.000,2.000,0.000,100.000
 aflpp,php_15_2,exif,phar.c:phar_parse_pharfile,1471.000,1471.000,0.000,470.000,1471.000,0.000,602.000,1471.000,0.000
 aflpp,openssl_6_6,x509,EVP_EncodeUpdate,33.000,33.000,0.000,53.000,33.000,0.000,20.000,33.000,0.000
 aflpp,libxml2_16_1,libxml2,xmlregexp.c:xmlFAParseCharRange,106.000,106.000,0.000,80.000,106.000,0.000,102.000,106.000,0.000
@@ -42,6 +44,7 @@ aflpp,libxml2_10_2,libxml2,xmlStringLenDecodeEntities,206.000,61.000,70.390,153.
 aflpp,libpng_4_1,libpng,MAGMA_png_combine_row,4529.000,4444.000,1.880,258.000,4444.000,38.370,124.000,4444.000,31.450
 aflpp,libxml2_12_2,libxml2,parser.c:xmlParseNCNameComplex,78.000,3.000,96.150,53.000,3.000,96.230,50.000,3.000,84.000
 aflpp,openssl_6_4,server,EVP_EncodeUpdate,33.000,33.000,0.000,53.000,33.000,0.000,20.000,33.000,0.000
+aflpp,sqlite3_18_1,sqlite3,sqlite3.c:sqlite3ExprAddCollateToken,11.000,0.000,100.000,15.000,0.000,100.000,4.000,0.000,50.000
 aflpp,openssl_5_1,asn1,tls_parse_ctos_status_request,102.000,102.000,0.000,74.000,102.000,0.000,36.000,102.000,0.000
 aflpp,libxml2_2_1,libxml2,xmlValidateOneNamespace,138.000,63.000,54.350,177.000,63.000,45.200,102.000,63.000,48.040
 aflpp,openssl_18_5,client,statem_dtls.c:dtls1_preprocess_fragment,32.000,32.000,0.000,29.000,32.000,0.000,8.000,32.000,0.000

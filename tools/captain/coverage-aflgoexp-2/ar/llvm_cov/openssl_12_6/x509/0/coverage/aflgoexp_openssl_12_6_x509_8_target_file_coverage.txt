@@ -1,0 +1,32 @@
+File '/magma/targets/openssl_12_6/repo/crypto/x509/x509_req.c':
+Name                           Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+----------------------------------------------------------------------------------------------------------
+X509_to_X509_REQ                    30      30   0.00%        34      34   0.00%        12      12   0.00%
+X509_REQ_get_pubkey                  4       4   0.00%         5       5   0.00%         2       2   0.00%
+X509_REQ_get0_pubkey                 4       4   0.00%         5       5   0.00%         2       2   0.00%
+X509_REQ_get_X509_PUBKEY             1       1   0.00%         3       3   0.00%         0       0   0.00%
+X509_REQ_check_private_key          21      21   0.00%        20      20   0.00%        10      10   0.00%
+X509_REQ_extension_nid               9       9   0.00%        10      10   0.00%         4       4   0.00%
+X509_REQ_get_extension_nids          1       1   0.00%         3       3   0.00%         0       0   0.00%
+X509_REQ_set_extension_nids          1       1   0.00%         3       3   0.00%         0       0   0.00%
+X509_REQ_get_extensions             22      22   0.00%        24      24   0.00%        12      12   0.00%
+X509_REQ_add_extensions_nid          9       9   0.00%        12      12   0.00%         2       2   0.00%
+X509_REQ_add_extensions              2       2   0.00%         3       3   0.00%         0       0   0.00%
+X509_REQ_get_attr_count              1       1   0.00%         3       3   0.00%         0       0   0.00%
+X509_REQ_get_attr_by_NID             1       1   0.00%         3       3   0.00%         0       0   0.00%
+X509_REQ_get_attr_by_OBJ             1       1   0.00%         3       3   0.00%         0       0   0.00%
+X509_REQ_get_attr                    1       1   0.00%         3       3   0.00%         0       0   0.00%
+X509_REQ_delete_attr                 1       1   0.00%         3       3   0.00%         0       0   0.00%
+X509_REQ_add1_attr                   4       4   0.00%         5       5   0.00%         2       2   0.00%
+X509_REQ_add1_attr_by_OBJ            4       4   0.00%         6       6   0.00%         2       2   0.00%
+X509_REQ_add1_attr_by_NID            4       4   0.00%         6       6   0.00%         2       2   0.00%
+X509_REQ_add1_attr_by_txt            4       4   0.00%         6       6   0.00%         2       2   0.00%
+X509_REQ_get_version                 1       1   0.00%         3       3   0.00%         0       0   0.00%
+X509_REQ_get_subject_name            1       1   0.00%         3       3   0.00%         0       0   0.00%
+X509_REQ_get0_signature              5       5   0.00%         6       6   0.00%         4       4   0.00%
+X509_REQ_set0_signature              3       3   0.00%         5       5   0.00%         2       2   0.00%
+X509_REQ_set1_signature_algo         1       1   0.00%         3       3   0.00%         0       0   0.00%
+X509_REQ_get_signature_nid           1       1   0.00%         3       3   0.00%         0       0   0.00%
+i2d_re_X509_REQ_tbs                  1       1   0.00%         4       4   0.00%         0       0   0.00%
+----------------------------------------------------------------------------------------------------------
+TOTAL                              138     138   0.00%       187     187   0.00%        58      58   0.00%

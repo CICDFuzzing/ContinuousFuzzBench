@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,7,xmlParseComment,159,7,95.60%,149,24,83.89%,110,17,84.55%
+libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,0,xmlParseComment,159,7,95.60%,149,24,83.89%,110,17,84.55%
+libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,9,xmlParseComment,159,7,95.60%,149,24,83.89%,110,17,84.55%
+libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,4,xmlParseComment,159,7,95.60%,149,24,83.89%,110,17,84.55%
+libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,1,xmlParseComment,159,7,95.60%,149,24,83.89%,110,17,84.55%
+libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,6,xmlParseComment,159,7,95.60%,149,24,83.89%,110,17,84.55%
+libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,5,xmlParseComment,159,7,95.60%,149,24,83.89%,110,17,84.55%
+libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,2,xmlParseComment,159,7,95.60%,149,24,83.89%,110,17,84.55%
+libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,3,xmlParseComment,159,7,95.60%,149,24,83.89%,110,17,84.55%
+libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,8,xmlParseComment,159,7,95.60%,149,24,83.89%,110,17,84.55%

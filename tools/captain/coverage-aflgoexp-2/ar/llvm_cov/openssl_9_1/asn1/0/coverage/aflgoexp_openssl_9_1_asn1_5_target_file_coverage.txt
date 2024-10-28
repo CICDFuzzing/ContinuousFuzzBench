@@ -1,0 +1,35 @@
+File '/magma/targets/openssl_9_1/repo/crypto/x509/v3_addr.c':
+Name                                    Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+-------------------------------------------------------------------------------------------------------------------
+X509v3_addr_get_afi                          11      11   0.00%        14      14   0.00%         6       6   0.00%
+X509v3_addr_add_inherit                      25      25   0.00%        16      16   0.00%        16      16   0.00%
+X509v3_addr_add_prefix                        9       9   0.00%        10      10   0.00%         6       6   0.00%
+X509v3_addr_add_range                        10      10   0.00%        13      13   0.00%         6       6   0.00%
+X509v3_addr_get_range                        21      21   0.00%        10      10   0.00%        16      16   0.00%
+X509v3_addr_is_canonical                     81      81   0.00%        60      60   0.00%        52      52   0.00%
+X509v3_addr_canonize                         19      19   0.00%        16      16   0.00%         8       8   0.00%
+X509v3_addr_inherits                         13      13   0.00%        11      11   0.00%         6       6   0.00%
+X509v3_addr_subset                           27      27   0.00%        21      21   0.00%        16      16   0.00%
+X509v3_addr_validate_path                    10      10   0.00%         9       9   0.00%         6       6   0.00%
+X509v3_addr_validate_resource_set            15      15   0.00%         9       9   0.00%        10      10   0.00%
+v3_addr.c:make_IPAddressFamily               35      35   0.00%        36      36   0.00%        22      22   0.00%
+v3_addr.c:make_prefix_or_range               30      30   0.00%        26      26   0.00%        20      20   0.00%
+v3_addr.c:v4IPAddressOrRange_cmp              1       1   0.00%         3       3   0.00%         0       0   0.00%
+v3_addr.c:IPAddressOrRange_cmp               28      28   0.00%        33      33   0.00%        22      22   0.00%
+v3_addr.c:addr_expand                        13      13   0.00%        16      16   0.00%        10      10   0.00%
+v3_addr.c:v6IPAddressOrRange_cmp              1       1   0.00%         3       3   0.00%         0       0   0.00%
+v3_addr.c:make_addressPrefix                 17      17   0.00%        23      23   0.00%        10      10   0.00%
+v3_addr.c:length_from_afi                     6       6   0.00%        10      10   0.00%         6       6   0.00%
+v3_addr.c:make_addressRange                  48      48   0.00%        46      46   0.00%        34      34   0.00%
+v3_addr.c:extract_min_max                    17      17   0.00%        13      13   0.00%        20      20   0.00%
+v3_addr.c:IPAddressFamily_cmp                 7       7   0.00%         7       7   0.00%         4       4   0.00%
+v3_addr.c:range_should_be_prefix             36      36   0.00%        42      42   0.00%        36      36   0.00%
+v3_addr.c:IPAddressOrRanges_canonize         47      47   0.00%        42      42   0.00%        28      28   0.00%
+v3_addr.c:v2i_IPAddrBlocks                  183     183   0.00%       134     134   0.00%        60      60   0.00%
+v3_addr.c:i2r_IPAddrBlocks                   32      32   0.00%        65      65   0.00%        36      36   0.00%
+v3_addr.c:i2r_IPAddressOrRanges              21      21   0.00%        23      23   0.00%        14      14   0.00%
+v3_addr.c:i2r_address                        39      39   0.00%        32      32   0.00%        30      30   0.00%
+v3_addr.c:addr_contains                      34      34   0.00%        28      28   0.00%        18      18   0.00%
+v3_addr.c:addr_validate_path_internal       154     154   0.00%        84      84   0.00%        84      84   0.00%
+-------------------------------------------------------------------------------------------------------------------
+TOTAL                                       990     990   0.00%       855     855   0.00%       602     602   0.00%

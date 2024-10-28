@@ -1,0 +1,113 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/aflgoexp/bignum/0/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+366
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/aflgoexp/bignum/1/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+366
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/aflgoexp/bignum/2/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+366
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/aflgoexp/bignum/3/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+366
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/aflgoexp/bignum/4/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+366
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/aflgoexp/bignum/5/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+366
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/aflgoexp/bignum/6/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+366
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/aflgoexp/bignum/7/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+366
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/aflgoexp/bignum/8/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+366
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/aflgoexp/bignum/9/findings/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+366
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+libpng_4_1,libpng_read_fuzzer,2,MAGMA_png_combine_row,4529,4444,1.88%,258,159,38.37%,124,85,31.45%
+libpng_4_1,libpng_read_fuzzer,5,MAGMA_png_combine_row,4529,4444,1.88%,258,159,38.37%,124,85,31.45%
+libpng_4_1,libpng_read_fuzzer,0,MAGMA_png_combine_row,4529,4444,1.88%,258,159,38.37%,124,85,31.45%
+libpng_4_1,libpng_read_fuzzer,1,MAGMA_png_combine_row,4529,4444,1.88%,258,159,38.37%,124,85,31.45%
+libpng_4_1,libpng_read_fuzzer,6,MAGMA_png_combine_row,4529,4444,1.88%,258,159,38.37%,124,85,31.45%
+libpng_4_1,libpng_read_fuzzer,4,MAGMA_png_combine_row,4529,4444,1.88%,258,159,38.37%,124,85,31.45%
+libpng_4_1,libpng_read_fuzzer,9,MAGMA_png_combine_row,4529,4444,1.88%,258,159,38.37%,124,85,31.45%
+libpng_4_1,libpng_read_fuzzer,8,MAGMA_png_combine_row,4529,4444,1.88%,258,159,38.37%,124,85,31.45%
+libpng_4_1,libpng_read_fuzzer,7,MAGMA_png_combine_row,4529,4444,1.88%,258,159,38.37%,124,85,31.45%
+libpng_4_1,libpng_read_fuzzer,3,MAGMA_png_combine_row,4529,4444,1.88%,258,159,38.37%,124,85,31.45%

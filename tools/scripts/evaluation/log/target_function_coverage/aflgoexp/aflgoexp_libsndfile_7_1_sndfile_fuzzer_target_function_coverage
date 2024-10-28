@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+libsndfile_7_1,sndfile_fuzzer,6,flac.c:sf_flac_meta_callback,30,1,96.67%,72,3,95.83%,34,1,97.06%
+libsndfile_7_1,sndfile_fuzzer,7,flac.c:sf_flac_meta_callback,30,1,96.67%,72,3,95.83%,34,1,97.06%
+libsndfile_7_1,sndfile_fuzzer,2,flac.c:sf_flac_meta_callback,30,1,96.67%,72,3,95.83%,34,1,97.06%
+libsndfile_7_1,sndfile_fuzzer,3,flac.c:sf_flac_meta_callback,30,1,96.67%,72,3,95.83%,34,1,97.06%
+libsndfile_7_1,sndfile_fuzzer,4,flac.c:sf_flac_meta_callback,30,1,96.67%,72,3,95.83%,34,1,97.06%
+libsndfile_7_1,sndfile_fuzzer,5,flac.c:sf_flac_meta_callback,30,1,96.67%,72,3,95.83%,34,1,97.06%
+libsndfile_7_1,sndfile_fuzzer,1,flac.c:sf_flac_meta_callback,30,1,96.67%,72,3,95.83%,34,1,97.06%
+libsndfile_7_1,sndfile_fuzzer,8,flac.c:sf_flac_meta_callback,30,1,96.67%,72,3,95.83%,34,1,97.06%
+libsndfile_7_1,sndfile_fuzzer,0,flac.c:sf_flac_meta_callback,30,1,96.67%,72,3,95.83%,34,1,97.06%
+libsndfile_7_1,sndfile_fuzzer,9,flac.c:sf_flac_meta_callback,30,1,96.67%,72,3,95.83%,34,1,97.06%

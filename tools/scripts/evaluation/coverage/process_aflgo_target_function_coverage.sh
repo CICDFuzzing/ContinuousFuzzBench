@@ -46,7 +46,7 @@ while IFS=',' read -r function_name file_name; do
                 if [[ ! -f "$result_path" ]]; then
                     echo "TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover" > "$result_path"
                 fi
-                output=$(grep -w "$function_name" "$file" | sed 's/  \+/,/g')
+                output=$(grep -w "$function_name" "$file" | sed -E 's/ +([^ ]+)/,\1/g')
                 echo "$target_name,$program_name,$iter_num,$output" >> "$result_path"
             fi
         done

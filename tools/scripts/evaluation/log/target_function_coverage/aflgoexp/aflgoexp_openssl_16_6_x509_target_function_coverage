@@ -1,0 +1,11 @@
+TARGET,PROGRAM,ITER,Filename,Regions,Miss,Cover,Lines,Miss,Cover,Branches,Miss,Cover
+openssl_16_6,x509,1,bn_gf2m.c:BN_GF2m_mod_inv_vartime,79,8,89.87%,107,9,91.59%,42,10,76.19%
+openssl_16_6,x509,7,bn_gf2m.c:BN_GF2m_mod_inv_vartime,79,8,89.87%,107,9,91.59%,42,10,76.19%
+openssl_16_6,x509,8,bn_gf2m.c:BN_GF2m_mod_inv_vartime,79,8,89.87%,107,9,91.59%,42,10,76.19%
+openssl_16_6,x509,2,bn_gf2m.c:BN_GF2m_mod_inv_vartime,79,8,89.87%,107,9,91.59%,42,10,76.19%
+openssl_16_6,x509,0,bn_gf2m.c:BN_GF2m_mod_inv_vartime,79,8,89.87%,107,9,91.59%,42,10,76.19%
+openssl_16_6,x509,4,bn_gf2m.c:BN_GF2m_mod_inv_vartime,79,8,89.87%,107,9,91.59%,42,10,76.19%
+openssl_16_6,x509,5,bn_gf2m.c:BN_GF2m_mod_inv_vartime,79,8,89.87%,107,9,91.59%,42,10,76.19%
+openssl_16_6,x509,9,bn_gf2m.c:BN_GF2m_mod_inv_vartime,79,8,89.87%,107,9,91.59%,42,10,76.19%
+openssl_16_6,x509,3,bn_gf2m.c:BN_GF2m_mod_inv_vartime,79,8,89.87%,107,9,91.59%,42,10,76.19%
+openssl_16_6,x509,6,bn_gf2m.c:BN_GF2m_mod_inv_vartime,79,8,89.87%,107,9,91.59%,42,10,76.19%

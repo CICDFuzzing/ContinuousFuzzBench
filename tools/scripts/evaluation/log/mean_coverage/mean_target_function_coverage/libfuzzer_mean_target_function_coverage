@@ -1,5 +1,6 @@
 FUZZER,TARGET,PROGRAM,Filename,Regions,Miss,Cover,Lines,Miss,Cover.1,Branches,Miss,Cover.2
 libfuzzer,openssl_7_4,server,MDC2_Update,18.000,18.000,0.000,31.000,18.000,0.000,8.000,18.000,0.000
+libfuzzer,php_11_2,exif,exif.c:exif_offset_info_try_get,13.000,0.000,100.000,13.000,0.000,100.000,2.000,0.000,100.000
 libfuzzer,openssl_6_4,server,EVP_EncodeUpdate,33.000,33.000,0.000,53.000,33.000,0.000,20.000,33.000,0.000
 libfuzzer,libsndfile_15_1,sndfile,alaw.c:i2alaw_array,10.000,10.000,0.000,12.000,10.000,0.000,4.000,10.000,0.000
 libfuzzer,libxml2_16_1,libxml2,xmlregexp.c:xmlFAParseCharRange,106.000,106.000,0.000,80.000,106.000,0.000,102.000,106.000,0.000
@@ -19,6 +20,7 @@ libfuzzer,libxml2_1_2,libxml2,xmlSnprintfElementContent,79.000,12.000,84.810,94.
 libfuzzer,openssl_8_1,asn1,statem_clnt.c:tls_construct_cke_dhe,48.000,48.000,0.000,44.000,48.000,0.000,12.000,48.000,0.000
 libfuzzer,libtiff_9_1,tiff,tif_dirwrite.c:TIFFWriteDirectoryTagTransferfunction,30.000,30.000,0.000,50.000,30.000,0.000,20.000,30.000,0.000
 libfuzzer,sqlite3_20_1,sqlite3,sqlite3.c:exprListAppendList,27.000,9.000,66.670,30.000,9.000,70.000,14.000,9.000,78.570
+libfuzzer,sqlite3_18_1,sqlite3,sqlite3.c:sqlite3ExprAddCollateToken,11.000,0.000,100.000,15.000,0.000,100.000,4.000,0.000,50.000
 libfuzzer,libsndfile_7_1,sndfile,flac.c:sf_flac_meta_callback,30.000,1.000,96.670,72.000,1.000,95.830,34.000,1.000,97.060
 libfuzzer,poppler_9_1,pdf,_ZN6Parser10makeStreamEO6ObjectPKh14CryptAlgorithmiiiib,64.000,4.000,93.750,84.000,4.000,92.860,46.000,4.000,82.610
 libfuzzer,libpng_4_1,libpng,MAGMA_png_combine_row,4529.000,4444.000,1.880,258.000,4444.000,38.370,124.000,4444.000,31.450

@@ -17,6 +17,9 @@ mkdir -p $SHARED/coverage
 pushd $FUZZER
 
 for i in $(seq 0 9); do 
+    export CORPUS="$SEED/aflgoexp/$PROGRAM/$i/findings/queue"
+    ./collect_coverage.sh $i aflgoexp
+
     # export CORPUS="$SEED/aflgo/$PROGRAM/$i/findings/queue"
     # ./collect_coverage.sh $i aflgo
 
@@ -26,11 +29,12 @@ for i in $(seq 0 9); do
     # export CORPUS="$SEED/ffd/$PROGRAM/$i/findings/queue"
     # ./collect_coverage.sh $i ffd
 
-    export CORPUS="$SEED/libfuzzer/$PROGRAM/$i/corpus/seed"
-    ./collect_coverage.sh $i libfuzzer
+    # export CORPUS="$SEED/libfuzzer/$PROGRAM/$i/corpus/seed"
+    # ./collect_coverage.sh $i libfuzzer
 
     # export CORPUS="$SEED/aflpp/$PROGRAM/$i/findings/default/queue"
     # ./collect_coverage.sh $i aflpp
+
 done
 popd
 

@@ -49,7 +49,8 @@ while IFS=',' read -r function_name file_name; do
                 if [[ "$target_name" == *"openssl_10_5"* ]]; then 
                     output=$(tail -n 1 "$file" | sed -r 's/\s+/,/g')
                 else
-                    output=$(grep -w "$function_name" "$file" | sed 's/  \+/,/g')
+                    temp=$(grep -w "$function_name" "$file")
+                    output=$(grep -w "$function_name" "$file" | sed -E 's/ +([^ ]+)/,\1/g')
                 fi
                 echo "$target_name,$program_name,$iter_num,$output" >> "$result_path"
             fi

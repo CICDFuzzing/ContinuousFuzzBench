@@ -1,0 +1,113 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/aflgoexp/x509/0/findings/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+1969
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/aflgoexp/x509/1/findings/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+1974
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/aflgoexp/x509/2/findings/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+1974
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/aflgoexp/x509/3/findings/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+1979
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/aflgoexp/x509/4/findings/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+1978
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/aflgoexp/x509/5/findings/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+1969
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/aflgoexp/x509/6/findings/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+1973
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/aflgoexp/x509/7/findings/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+1981
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/aflgoexp/x509/8/findings/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+1974
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/aflgoexp/x509/9/findings/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+1976
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

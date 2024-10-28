@@ -1,0 +1,113 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_12_6/corpus/seed/aflgoexp/x509/0/findings/queue
+The target is openssl_12_6
+The commit files are crypto/x509/x509_req.c
+The commit paths are /magma/targets/openssl_12_6/repo/crypto/x509/x509_req.c
+Check the number of profdata...
+1937
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_12_6/corpus/seed/aflgoexp/x509/1/findings/queue
+The target is openssl_12_6
+The commit files are crypto/x509/x509_req.c
+The commit paths are /magma/targets/openssl_12_6/repo/crypto/x509/x509_req.c
+Check the number of profdata...
+1937
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_12_6/corpus/seed/aflgoexp/x509/2/findings/queue
+The target is openssl_12_6
+The commit files are crypto/x509/x509_req.c
+The commit paths are /magma/targets/openssl_12_6/repo/crypto/x509/x509_req.c
+Check the number of profdata...
+1937
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_12_6/corpus/seed/aflgoexp/x509/3/findings/queue
+The target is openssl_12_6
+The commit files are crypto/x509/x509_req.c
+The commit paths are /magma/targets/openssl_12_6/repo/crypto/x509/x509_req.c
+Check the number of profdata...
+1937
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_12_6/corpus/seed/aflgoexp/x509/4/findings/queue
+The target is openssl_12_6
+The commit files are crypto/x509/x509_req.c
+The commit paths are /magma/targets/openssl_12_6/repo/crypto/x509/x509_req.c
+Check the number of profdata...
+1937
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_12_6/corpus/seed/aflgoexp/x509/5/findings/queue
+The target is openssl_12_6
+The commit files are crypto/x509/x509_req.c
+The commit paths are /magma/targets/openssl_12_6/repo/crypto/x509/x509_req.c
+Check the number of profdata...
+1937
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_12_6/corpus/seed/aflgoexp/x509/6/findings/queue
+The target is openssl_12_6
+The commit files are crypto/x509/x509_req.c
+The commit paths are /magma/targets/openssl_12_6/repo/crypto/x509/x509_req.c
+Check the number of profdata...
+1937
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_12_6/corpus/seed/aflgoexp/x509/7/findings/queue
+The target is openssl_12_6
+The commit files are crypto/x509/x509_req.c
+The commit paths are /magma/targets/openssl_12_6/repo/crypto/x509/x509_req.c
+Check the number of profdata...
+1937
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_12_6/corpus/seed/aflgoexp/x509/8/findings/queue
+The target is openssl_12_6
+The commit files are crypto/x509/x509_req.c
+The commit paths are /magma/targets/openssl_12_6/repo/crypto/x509/x509_req.c
+Check the number of profdata...
+1937
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_12_6/corpus/seed/aflgoexp/x509/9/findings/queue
+The target is openssl_12_6
+The commit files are crypto/x509/x509_req.c
+The commit paths are /magma/targets/openssl_12_6/repo/crypto/x509/x509_req.c
+Check the number of profdata...
+1937
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

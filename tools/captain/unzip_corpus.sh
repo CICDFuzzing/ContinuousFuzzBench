@@ -1,7 +1,7 @@
 #!/bin/bash
 
 for i in {0..9}; do
-    dir="/home/huicongh/ContinuousFuzzBench/seed/libfuzzer/openssl*/*/$i"
+    dir="/home/huicongh/ContinuousFuzzBench/seed/aflgoexp/poppler*/*/$i"
     # Use a loop to handle multiple matches
     for subdir in $dir; do
         if [[ -f "$subdir/ball.tar" ]]; then
@@ -13,6 +13,7 @@ for i in {0..9}; do
         fi
     done
 done
+
 
 # for i in {0..9}; do
 #     dir="/home/huicongh/ContinuousFuzzBench/seed/afl/php*/*/$i"
