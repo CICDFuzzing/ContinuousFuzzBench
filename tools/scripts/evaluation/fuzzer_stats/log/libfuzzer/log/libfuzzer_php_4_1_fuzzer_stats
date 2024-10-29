@@ -1,0 +1,11 @@
+FUZZER,TARGET,ITER,runtime,execs_done,unique_crashes,oom,timeout
+libfuzzer,php_4_1,0,597,19622,0,0,0
+libfuzzer,php_4_1,1,597,20148,0,0,0
+libfuzzer,php_4_1,2,597,18835,0,0,0
+libfuzzer,php_4_1,3,597,19038,0,0,0
+libfuzzer,php_4_1,4,597,20467,0,0,0
+libfuzzer,php_4_1,5,597,20187,0,0,0
+libfuzzer,php_4_1,6,597,19248,0,0,0
+libfuzzer,php_4_1,7,597,21175,0,0,0
+libfuzzer,php_4_1,8,597,20577,0,0,0
+libfuzzer,php_4_1,9,597,20768,0,0,0

@@ -1,0 +1,10 @@
+afl,libtiff_10_1,tiff_read_rgba_fuzzer,7,1728970239,1728970839,6228543,0
+afl,libtiff_10_1,tiff_read_rgba_fuzzer,4,1728970107,1728970706,2845307,0
+afl,libtiff_10_1,tiff_read_rgba_fuzzer,5,1728970107,1728970706,6544765,0
+afl,libtiff_10_1,tiff_read_rgba_fuzzer,8,1728970240,1728970839,5715445,0
+afl,libtiff_10_1,tiff_read_rgba_fuzzer,1,1728970053,1728970653,6501472,0
+afl,libtiff_10_1,tiff_read_rgba_fuzzer,3,1728970053,1728970653,6394349,0
+afl,libtiff_10_1,tiff_read_rgba_fuzzer,0,1728970053,1728970653,6442490,0
+afl,libtiff_10_1,tiff_read_rgba_fuzzer,6,1728970238,1728970838,6192985,0
+afl,libtiff_10_1,tiff_read_rgba_fuzzer,2,1728970053,1728970653,5266296,0
+afl,libtiff_10_1,tiff_read_rgba_fuzzer,9,1728970241,1728970840,6203222,0

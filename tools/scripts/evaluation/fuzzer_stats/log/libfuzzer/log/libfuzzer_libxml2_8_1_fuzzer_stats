@@ -1,0 +1,11 @@
+FUZZER,TARGET,ITER,runtime,execs_done,unique_crashes,oom,timeout
+libfuzzer,libxml2_8_1,0,568,3471,0,0,0
+libfuzzer,libxml2_8_1,1,568,3521,0,0,0
+libfuzzer,libxml2_8_1,2,568,3350,0,0,0
+libfuzzer,libxml2_8_1,3,568,3493,0,0,0
+libfuzzer,libxml2_8_1,4,568,3452,0,0,0
+libfuzzer,libxml2_8_1,5,568,3379,0,0,0
+libfuzzer,libxml2_8_1,6,568,3538,0,0,0
+libfuzzer,libxml2_8_1,7,568,3485,0,0,0
+libfuzzer,libxml2_8_1,8,568,3433,0,0,0
+libfuzzer,libxml2_8_1,9,568,3492,0,0,0

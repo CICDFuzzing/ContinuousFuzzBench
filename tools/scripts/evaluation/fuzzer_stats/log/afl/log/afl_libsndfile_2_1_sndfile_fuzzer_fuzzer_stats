@@ -1,0 +1,10 @@
+afl,libsndfile_2_1,sndfile_fuzzer,7,1728969035,1728969635,469994,0
+afl,libsndfile_2_1,sndfile_fuzzer,4,1728969034,1728969634,461926,0
+afl,libsndfile_2_1,sndfile_fuzzer,5,1728969035,1728969635,456339,0
+afl,libsndfile_2_1,sndfile_fuzzer,8,1728969036,1728969635,478210,0
+afl,libsndfile_2_1,sndfile_fuzzer,1,1728968902,1728969502,498228,0
+afl,libsndfile_2_1,sndfile_fuzzer,3,1728969034,1728969634,457624,0
+afl,libsndfile_2_1,sndfile_fuzzer,0,1728968902,1728969502,498860,0
+afl,libsndfile_2_1,sndfile_fuzzer,6,1728969035,1728969635,485585,0
+afl,libsndfile_2_1,sndfile_fuzzer,2,1728969034,1728969634,469523,0
+afl,libsndfile_2_1,sndfile_fuzzer,9,1728969037,1728969637,488988,0

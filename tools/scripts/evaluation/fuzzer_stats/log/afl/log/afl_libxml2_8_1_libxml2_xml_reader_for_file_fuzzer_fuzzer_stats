@@ -1,0 +1,10 @@
+afl,libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,7,1728970711,1728971309,1532237,0
+afl,libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,4,1728970675,1728971273,1481044,0
+afl,libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,5,1728970675,1728971273,1474349,0
+afl,libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,8,1728970842,1728971440,1803180,0
+afl,libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,1,1728970675,1728971273,1438822,0
+afl,libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,3,1728970675,1728971273,1475896,0
+afl,libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,0,1728970675,1728971273,1453965,0
+afl,libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,6,1728970711,1728971308,1388074,0
+afl,libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,2,1728970675,1728971273,1471306,0
+afl,libxml2_8_1,libxml2_xml_reader_for_file_fuzzer,9,1728970843,1728971441,1724466,0

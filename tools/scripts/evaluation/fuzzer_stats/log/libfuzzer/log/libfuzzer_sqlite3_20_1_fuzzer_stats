@@ -1,0 +1,11 @@
+FUZZER,TARGET,ITER,runtime,execs_done,unique_crashes,oom,timeout
+libfuzzer,sqlite3_20_1,0,596,15387,0,0,0
+libfuzzer,sqlite3_20_1,1,596,15097,0,0,0
+libfuzzer,sqlite3_20_1,2,597,15057,0,0,0
+libfuzzer,sqlite3_20_1,3,596,15037,0,0,0
+libfuzzer,sqlite3_20_1,4,596,14679,0,0,0
+libfuzzer,sqlite3_20_1,5,596,15450,0,0,0
+libfuzzer,sqlite3_20_1,6,596,15266,0,0,0
+libfuzzer,sqlite3_20_1,7,596,15201,0,0,0
+libfuzzer,sqlite3_20_1,8,596,14949,0,0,0
+libfuzzer,sqlite3_20_1,9,596,14018,0,0,0

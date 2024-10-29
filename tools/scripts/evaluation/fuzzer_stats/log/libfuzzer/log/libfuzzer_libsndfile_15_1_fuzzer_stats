@@ -1,0 +1,11 @@
+FUZZER,TARGET,ITER,runtime,execs_done,unique_crashes,oom,timeout
+libfuzzer,libsndfile_15_1,0,596,47770,0,0,0
+libfuzzer,libsndfile_15_1,1,596,44064,0,0,0
+libfuzzer,libsndfile_15_1,2,596,32295,0,0,0
+libfuzzer,libsndfile_15_1,3,596,57087,0,0,0
+libfuzzer,libsndfile_15_1,4,596,33844,0,0,0
+libfuzzer,libsndfile_15_1,5,596,32402,0,0,0
+libfuzzer,libsndfile_15_1,6,596,41580,0,0,0
+libfuzzer,libsndfile_15_1,7,596,37142,0,0,0
+libfuzzer,libsndfile_15_1,8,596,35892,0,0,0
+libfuzzer,libsndfile_15_1,9,596,40868,0,0,0

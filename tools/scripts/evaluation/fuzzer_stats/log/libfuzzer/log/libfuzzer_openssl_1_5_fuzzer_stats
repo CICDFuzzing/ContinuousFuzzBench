@@ -1,0 +1,11 @@
+FUZZER,TARGET,ITER,runtime,execs_done,unique_crashes,oom,timeout
+libfuzzer,openssl_1_5,0,595,758,0,0,0
+libfuzzer,openssl_1_5,1,595,753,0,0,0
+libfuzzer,openssl_1_5,2,595,757,0,0,0
+libfuzzer,openssl_1_5,3,595,753,0,0,0
+libfuzzer,openssl_1_5,4,595,735,0,0,0
+libfuzzer,openssl_1_5,5,595,735,0,0,0
+libfuzzer,openssl_1_5,6,595,754,0,0,0
+libfuzzer,openssl_1_5,7,595,753,0,0,0
+libfuzzer,openssl_1_5,8,595,753,0,0,0
+libfuzzer,openssl_1_5,9,595,755,0,0,0

@@ -1,0 +1,10 @@
+afl,libxml2_16_2,libxml2_xml_read_memory_fuzzer,7,1728971887,1728972484,146900,0
+afl,libxml2_16_2,libxml2_xml_read_memory_fuzzer,4,1728971881,1728972479,158629,0
+afl,libxml2_16_2,libxml2_xml_read_memory_fuzzer,5,1728971884,1728972482,138181,0
+afl,libxml2_16_2,libxml2_xml_read_memory_fuzzer,8,1728971887,1728972484,137580,0
+afl,libxml2_16_2,libxml2_xml_read_memory_fuzzer,1,1728971833,1728972429,138711,0
+afl,libxml2_16_2,libxml2_xml_read_memory_fuzzer,3,1728971840,1728972437,137863,0
+afl,libxml2_16_2,libxml2_xml_read_memory_fuzzer,0,1728971833,1728972429,138815,0
+afl,libxml2_16_2,libxml2_xml_read_memory_fuzzer,6,1728971887,1728972484,138626,0
+afl,libxml2_16_2,libxml2_xml_read_memory_fuzzer,2,1728971840,1728972437,196603,0
+afl,libxml2_16_2,libxml2_xml_read_memory_fuzzer,9,1728971887,1728972484,153271,0

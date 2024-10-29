@@ -1,0 +1,11 @@
+FUZZER,TARGET,ITER,runtime,execs_done,unique_crashes,oom,timeout
+libfuzzer,poppler_17_1,0,597,558,0,0,0
+libfuzzer,poppler_17_1,1,597,558,0,0,0
+libfuzzer,poppler_17_1,2,597,525,0,0,0
+libfuzzer,poppler_17_1,3,597,516,0,0,0
+libfuzzer,poppler_17_1,4,597,507,0,0,0
+libfuzzer,poppler_17_1,5,597,583,0,0,0
+libfuzzer,poppler_17_1,6,597,563,0,0,0
+libfuzzer,poppler_17_1,7,597,548,0,0,0
+libfuzzer,poppler_17_1,8,597,594,0,0,0
+libfuzzer,poppler_17_1,9,597,574,0,0,0

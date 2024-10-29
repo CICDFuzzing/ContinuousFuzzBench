@@ -1,0 +1,11 @@
+FUZZER,TARGET,ITER,runtime,execs_done,unique_crashes,oom,timeout
+libfuzzer,libpng_4_1,0,596,158874,0,0,0
+libfuzzer,libpng_4_1,1,596,156918,0,0,0
+libfuzzer,libpng_4_1,2,596,142095,0,0,0
+libfuzzer,libpng_4_1,3,596,160939,0,0,0
+libfuzzer,libpng_4_1,4,596,169957,0,0,0
+libfuzzer,libpng_4_1,5,596,158568,0,0,0
+libfuzzer,libpng_4_1,6,596,152242,0,0,0
+libfuzzer,libpng_4_1,7,596,165959,0,0,0
+libfuzzer,libpng_4_1,8,596,154182,0,0,0
+libfuzzer,libpng_4_1,9,596,175640,0,0,0
