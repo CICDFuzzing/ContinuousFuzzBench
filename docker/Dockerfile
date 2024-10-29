@@ -1,5 +1,5 @@
-FROM ubuntu:22.04
-
+# FROM ubuntu:22.04
+FROM ubuntu:18.04
 # TODO remove sudo for user "magma" to avoid unwanted priv escalation from
 # other attack vectors.
 
@@ -82,23 +82,21 @@ ARG seed_path4=seed/ffd/${target_name}
 ARG seed_path5=seed/libfuzzer/${target_name}
 ARG seed_path6=seed/aflgoexp/${target_name}
 
-ENV SEED 	${TARGET}/corpus/seed
-USER root:root
-
+# ENV SEED 	${TARGET}/corpus/seed
+# USER root:root
 # RUN mkdir -p ${SEED}/aflgo && chown magma:magma ${SEED}/aflgo && chown magma:magma ${SEED}
 # RUN mkdir -p ${SEED}/afl && chown magma:magma ${SEED}/afl
 # RUN mkdir -p ${SEED}/aflpp && chown magma:magma ${SEED}/aflpp
 # RUN mkdir -p ${SEED}/ffd && chown magma:magma ${SEED}/ffd
 # RUN mkdir -p ${SEED}/libfuzzer && chown magma:magma ${SEED}/libfuzzer && chown magma:magma ${SEED}
-RUN mkdir -p ${SEED}/aflgoexp && chown magma:magma ${SEED}/aflgoexp && chown magma:magma ${SEED}
-
+# RUN mkdir -p ${SEED}/aflgoexp && chown magma:magma ${SEED}/aflgoexp && chown magma:magma ${SEED}
 # COPY --chown=magma:magma ${magma_root}/${seed_path3} ${SEED}/aflgo
 # COPY --chown=magma:magma ${magma_root}/${seed_path1} ${SEED}/afl
 # COPY --chown=magma:magma ${magma_root}/${seed_path2} ${SEED}/aflpp
 # COPY --chown=magma:magma ${magma_root}/${seed_path4} ${SEED}/ffd
 # COPY --chown=magma:magma ${magma_root}/${seed_path5} ${SEED}/libfuzzer
-COPY --chown=magma:magma ${magma_root}/${seed_path6} ${SEED}/aflgoexp
-USER magma:magma
+# COPY --chown=magma:magma ${magma_root}/${seed_path6} ${SEED}/aflgoexp
+# USER magma:magma
 
 ## Configuration parameters
 ARG isan
