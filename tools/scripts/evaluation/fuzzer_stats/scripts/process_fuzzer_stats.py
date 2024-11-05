@@ -56,7 +56,7 @@ def process_mean_fuzzer_stats(input_directory, output_file):
                 target_name = "_".join(file_name_parts[1:4])      
                 program_name = file_name_parts[4]      
 
-                mean_values['FUZZER'] = 'aflgoexp'
+                mean_values['FUZZER'] = fuzzer_name
                 mean_values['TARGET'] = target_name
                 mean_values['PROGRAM'] = program_name
                 mean_results.append(mean_values)

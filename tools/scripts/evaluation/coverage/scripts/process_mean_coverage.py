@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import os
 
 
@@ -150,7 +151,7 @@ def format_total_coverage(file_name, custom_order):
 
 def format_total_coverage_branch_comparison_table(log_path, file_name, col_name, feature_name, custom_order):
     dfs = {}
-    for fuzzer in ['afl', 'aflpp', 'libfuzzer', 'aflgo', 'aflgoexp', 'ffd']:
+    for fuzzer in ['afl', 'aflpp', 'libfuzzer', 'aflgo', 'ffd']:
         df = pd.read_csv(os.path.join(log_path, '{}_{}'.format(fuzzer, file_name)))
         if 'time' in df.columns:
             df['time'] = df['time'].str.replace('s', '', regex=False)
@@ -207,10 +208,14 @@ def process_bug_analysis_results(log_path, file_name, col_name, custom_order):
             })
     
     combined_df = pd.DataFrame(results)
+    combined_df = combined_df.groupby('target').agg(lambda x: x.dropna().iloc[0] if x.notna().any() else np.nan).reset_index()
     combined_df_trimmed = combined_df.dropna(how='all')
     print(combined_df)
-    print(combined_df_trimmed)
+    print(combined_df_trimmed.columns)
 
+    combined_df_trimmed = combined_df_trimmed[['target', 'R_afl', 'T_afl', 'R_aflpp', 'T_aflpp', 'R_libfuzzer', 'T_libfuzzer', 'R_aflgo', 'T_aflgo',
+       'R_aflgoexp', 'T_aflgoexp', 'R_ffd', 'T_ffd']]
+    print(combined_df_trimmed)
 
     combined_df_trimmed[col_name] = combined_df_trimmed[col_name].str.replace('_', r'\_')
     formatted_rows = combined_df_trimmed.apply(
@@ -224,8 +229,6 @@ def process_bug_analysis_results(log_path, file_name, col_name, custom_order):
         ) + ' \\\\', 
         axis=1
     ).tolist()
-
-
 
     # Print each row fully expanded without the index
     for row in formatted_rows:
@@ -249,5 +252,6 @@ if __name__ == "__main__":
         #format_target_function_coverage('../log/mean_coverage/mean_target_function_coverage/{}_mean_target_function_coverage'.format(fuzzer), custom_order)
  
     #format_total_coverage_branch_comparison_table('/home/huicongh/ContinuousFuzzBench/tools/scripts/evaluation/fuzzer_stats/log', 'fuzzer_stats', 'TARGET', 'runtime', custom_order)
-    #format_total_coverage_branch_comparison_table('/home/huicongh/ContinuousFuzzBench/tools/scripts/evaluation/build_time/log', 'build_time', 'benchmark', 'time', custom_order)
-    process_bug_analysis_results('/home/huicongh/ContinuousFuzzBench/tools/scripts/evaluation/bug_analysis/log', 'survival_analysis', 'target', custom_order)
+    format_total_coverage_branch_comparison_table('/home/huicongh/ContinuousFuzzBench/tools/scripts/evaluation/build_time/log', 'build_time', 'benchmark', 'time', custom_order)
+    #process_bug_analysis_results('/home/huicongh/ContinuousFuzzBench/tools/scripts/evaluation/bug_analysis/log', 'survival_analysis', 'target', custom_order)
+
