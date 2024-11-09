@@ -67,10 +67,12 @@ def p_val_heatmap_for_num_bug(matrix, fig_title, file_name):
     # Set custom axis labels
     ax.set_xticklabels(fuzzers)
     ax.set_yticklabels(fuzzers)
-    plt.xticks(rotation=45)
-    plt.yticks(rotation=45)
+    plt.xticks(rotation=30)
+    plt.yticks(rotation=30)
     # Customize and show the plot
-    plt.title(fig_title)
+    plt.title(fig_title, fontsize=20)
+    plt.xticks(fontsize=16)
+    plt.yticks(fontsize=16)
     # Save the plot locally
     # plt.gca().invert_yaxis()
     # plt.gca().invert_xaxis()
