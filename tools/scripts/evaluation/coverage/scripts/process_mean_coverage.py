@@ -262,17 +262,17 @@ if __name__ == "__main__":
     y_values = df.set_index('benchmark')  
 
     # Plotting
-    fig, ax = plt.subplots(figsize=(22,16))
+    fig, ax = plt.subplots(figsize=(24,30))
     y_values.plot(kind='bar', stacked=True, ax=ax, cmap='viridis')
 
     # Adding labels and title
-    ax.set_xlabel('Benchmark', fontsize=20)
-    ax.set_ylabel('Time (s)', fontsize=20)
-    ax.set_title('Instrumentation Time for each Benchmark', fontsize=20)
-    plt.xticks(rotation=50) 
-    plt.xticks(fontsize=14)
-    plt.yticks(fontsize=14)
-    ax.legend(fontsize=20)
+    ax.set_xlabel('Benchmark', fontsize=26)
+    ax.set_ylabel('Time (s)', fontsize=26)
+    ax.set_title('Instrumentation Time for each Benchmark', fontsize=26)
+    plt.xticks(rotation=90) 
+    plt.xticks(fontsize=26)
+    plt.yticks(fontsize=26)
+    ax.legend(fontsize=26)
     plt.savefig('instrumentation_time_complete_large.png', format="png", dpi=300)
 
 
