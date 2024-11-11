@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import os
+import matplotlib.pyplot as plt
 
 
 def format_target_function(file_path, custom_order):
@@ -170,8 +171,9 @@ def format_total_coverage_branch_comparison_table(log_path, file_name, col_name,
     print(combined_df)
 
     # # Format each row as "x & x & x & x & x \\"
-    combined_df[col_name] = combined_df[col_name].str.replace('_', r'\_')
-    formatted_rows = combined_df.apply(
+    formatted_combined_df = combined_df.copy()
+    formatted_combined_df[col_name] = formatted_combined_df[col_name].str.replace('_', r'\_')
+    formatted_rows = formatted_combined_df.apply(
         lambda row: ' & '.join(
             f"\\textbf{{{x:.0f}}}" if x == max(row[1:]) and isinstance(x, (int, float)) and not all(value == row[1] for value in row[1:]) else f"{x:.0f}" 
             if isinstance(x, (int, float)) else str(x) 
@@ -183,6 +185,7 @@ def format_total_coverage_branch_comparison_table(log_path, file_name, col_name,
     # Print each row fully expanded without the index
     for row in formatted_rows:
         print(row)
+    return combined_df
 
 
 def process_bug_analysis_results(log_path, file_name, col_name, custom_order):
@@ -244,14 +247,44 @@ if __name__ == "__main__":
     # format_target_function(target_function_path, custom_order)
 
     #for fuzzer in ['aflgoexp']:
-    for fuzzer in ['afl', 'aflpp', 'libfuzzer', 'aflgo', 'aflgoexp', 'ffd']:
-        print(fuzzer)
+    # for fuzzer in ['afl', 'aflpp', 'libfuzzer', 'aflgo', 'aflgoexp', 'ffd']:
+    #     print(fuzzer)
         #process_mean_total_coverage("/home/huicongh/ContinuousFuzzBench/tools/scripts/evaluation/log/total_coverage/{}".format(fuzzer), "../log/mean_coverage/mean_total_coverage/{}_mean_total_coverage".format(fuzzer))
         #process_mean_target_function_coverage("/home/huicongh/ContinuousFuzzBench/tools/scripts/evaluation/log/target_function_coverage/{}".format(fuzzer), "../log/mean_coverage/mean_target_function_coverage/{}_mean_target_function_coverage".format(fuzzer))
         #format_total_coverage('../log/mean_coverage/mean_total_coverage/{}_mean_total_coverage'.format(fuzzer), custom_order)
         #format_target_function_coverage('../log/mean_coverage/mean_target_function_coverage/{}_mean_target_function_coverage'.format(fuzzer), custom_order)
  
     #format_total_coverage_branch_comparison_table('/home/huicongh/ContinuousFuzzBench/tools/scripts/evaluation/fuzzer_stats/log', 'fuzzer_stats', 'TARGET', 'runtime', custom_order)
-    format_total_coverage_branch_comparison_table('/home/huicongh/ContinuousFuzzBench/tools/scripts/evaluation/build_time/log', 'build_time', 'benchmark', 'time', custom_order)
+    df = format_total_coverage_branch_comparison_table('/home/huicongh/ContinuousFuzzBench/tools/scripts/evaluation/build_time/log', 'build_time', 'benchmark', 'time', custom_order)
     #process_bug_analysis_results('/home/huicongh/ContinuousFuzzBench/tools/scripts/evaluation/bug_analysis/log', 'survival_analysis', 'target', custom_order)
+
+    x = df['benchmark']
+    y_values = df.set_index('benchmark')  
+
+    # Plotting
+    fig, ax = plt.subplots(figsize=(22,14))
+    y_values.plot(kind='bar', stacked=True, ax=ax, cmap='viridis')
+
+    # Adding labels and title
+    ax.set_xlabel('Benchmark', fontsize=12)
+    ax.set_ylabel('Time (s)', fontsize=12)
+    ax.set_title('Instrumentation Time for each Benchmark', fontsize=12)
+    plt.xticks(rotation=50) 
+    plt.xticks(fontsize=12)
+    plt.yticks(fontsize=12)
+    ax.legend(fontsize=12)
+    plt.savefig('instrumentation_time_complete.png', format="png", dpi=300)
+
+
+    x_values = ['afl', 'aflpp', 'libfuzzer', 'aflgo', 'ffd']
+    y_values = [6.4, 35, 2.2, 228.3, 21.2]
+
+    # Create a bar chart
+    plt.figure(figsize=(8, 6))  
+    plt.bar(x_values, y_values) 
+
+    plt.xlabel('Fuzzers', fontsize=12)
+    plt.ylabel('Time (s)', fontsize=12)
+    plt.title('Build Time for each Fuzzer', fontsize=12)
+    plt.savefig('build_time_complete.png', format="png", dpi=300)
 
