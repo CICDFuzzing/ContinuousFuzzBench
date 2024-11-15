@@ -75,6 +75,6 @@ def process_mean_fuzzer_stats(input_directory, output_file):
 
 
 if __name__ == "__main__":
-    process_mean_fuzzer_stats('/home/huicongh/CICDFuzzingData/temp/aflgo', './temp/aflgoexp_fuzzer_stats')
-    #process_libfuzzer_mean_fuzzer_stats('/home/huicongh/temp/CICDFuzzingData/log/fuzzer_stats/libfuzzer/log', '/home/huicongh/temp/CICDFuzzingData/log/fuzzer_stats/libfuzzer_fuzzer_stats')
+    #process_mean_fuzzer_stats('/home/huicongh/CICDFuzzingData/temp/aflgo', './temp/aflgoexp_fuzzer_stats')
+    process_libfuzzer_mean_fuzzer_stats('/home/huicongh/ContinuousFuzzBench/tools/scripts/evaluation/fuzzer_stats/log/libfuzzer', '/home/huicongh/ContinuousFuzzBench/tools/scripts/evaluation/fuzzer_stats/log/libfuzzer_fuzzer_stats')
 

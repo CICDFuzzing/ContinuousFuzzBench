@@ -229,17 +229,17 @@ if __name__ == "__main__":
         num_bug_results = json.load(json_file)
     print(num_bug_results) 
 
-    p_matrix_reached = get_p_val_for_num_bug(num_bug_results, fuzzers, 'reached', 'greater')
-    p_matrix_triggered = get_p_val_for_num_bug(num_bug_results, fuzzers, 'triggered', 'greater')
-    p_val_heatmap_for_num_bug(p_matrix_reached, 'P Values for the Number of Bugs Reached', 'bug_r_greater.png')
-    p_val_heatmap_for_num_bug(p_matrix_triggered, 'P Values for the Number of Bugs Triggered', 'bug_t_greater.png')
+    # p_matrix_reached = get_p_val_for_num_bug(num_bug_results, fuzzers, 'reached', 'greater')
+    # p_matrix_triggered = get_p_val_for_num_bug(num_bug_results, fuzzers, 'triggered', 'greater')
+    # p_val_heatmap_for_num_bug(p_matrix_reached, 'P Values for the Number of Bugs Reached', 'bug_r_greater.png')
+    # p_val_heatmap_for_num_bug(p_matrix_triggered, 'P Values for the Number of Bugs Triggered', 'bug_t_greater.png')
 
 
     # stats tests for coverage
     # fuzzers2 = ['afl', 'aflpp', 'libfuzzer', 'aflgo', 'aflgoexp', 'ffd']
-    # benchmarks = ['libpng_4_1', 'libsndfile_2_1', 'libsndfile_7_1', 'libsndfile_15_1', 'libtiff_6_1', 'libtiff_7_1', 'libtiff_9_1', 'libtiff_10_1', 'libxml2_1_2', 'libxml2_2_1', 'libxml2_8_1', 'libxml2_10_2', 'libxml2_12_2', 'libxml2_14_1', 'libxml2_15_1', 'libxml2_16_1', 'libxml2_16_2', 'openssl_1_3', 'openssl_1_5', 'openssl_4_4', 'openssl_5_1', 'openssl_6_4', 'openssl_6_5', 'openssl_6_6', 'openssl_7_2', 'openssl_7_4', 'openssl_8_1', 'openssl_9_1', 'openssl_10_5', 'openssl_11_4', 'openssl_11_6', 'openssl_12_6', 'openssl_13_2', 'openssl_16_6', 'openssl_17_2', 'openssl_17_4', 'openssl_18_5', 'openssl_19_1', 'openssl_20_3', 'openssl_20_4', 'php_4_1', 'php_6_2', 'php_11_2', 'php_15_2', 'php_16_3', 'poppler_3_1', 'poppler_9_1', 'poppler_17_1', 'sqlite3_18_1', 'sqlite3_20_1']
+    benchmarks = ['libpng_4_1', 'libsndfile_2_1', 'libsndfile_7_1', 'libsndfile_15_1', 'libtiff_6_1', 'libtiff_7_1', 'libtiff_9_1', 'libtiff_10_1', 'libxml2_1_2', 'libxml2_2_1', 'libxml2_8_1', 'libxml2_10_2', 'libxml2_12_2', 'libxml2_14_1', 'libxml2_15_1', 'libxml2_16_1', 'libxml2_16_2', 'openssl_1_3', 'openssl_1_5', 'openssl_4_4', 'openssl_5_1', 'openssl_6_4', 'openssl_6_5', 'openssl_6_6', 'openssl_7_2', 'openssl_7_4', 'openssl_8_1', 'openssl_9_1', 'openssl_10_5', 'openssl_11_4', 'openssl_11_6', 'openssl_12_6', 'openssl_13_2', 'openssl_16_6', 'openssl_17_2', 'openssl_17_4', 'openssl_18_5', 'openssl_19_1', 'openssl_20_3', 'openssl_20_4', 'php_4_1', 'php_6_2', 'php_11_2', 'php_15_2', 'php_16_3', 'poppler_3_1', 'poppler_9_1', 'poppler_17_1', 'sqlite3_18_1', 'sqlite3_20_1']
     
     # test_and_format_coverage(fuzzers2, benchmarks, 'Cover.2', '../coverage/log/total_coverage')
     # test_and_format_coverage(fuzzers2, benchmarks, 'Cover.2', '../coverage/log/target_function_coverage')
 
-    # test_and_format_fuzzer_stats(fuzzers, benchmarks, 'execs_done', '../fuzzer_stats/log')
+    test_and_format_fuzzer_stats(fuzzers, benchmarks, 'execs_done', '../fuzzer_stats/log')

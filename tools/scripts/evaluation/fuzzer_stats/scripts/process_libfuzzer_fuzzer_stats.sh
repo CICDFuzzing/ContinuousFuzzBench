@@ -30,7 +30,7 @@ for file in $log_dir/*container.log; do
   if [[ ! -f "$result_path" ]]; then 
       echo "FUZZER,TARGET,ITER,runtime,execs_done,unique_crashes,oom,timeout" > "$result_path"
   fi
-  output=$(awk '/^#/{line=$0} /libFuzzer: run interrupted; exiting/{print line; exit}' "$file" | awk -F'[: ]+' '{split($(NF-6), crash, "/"); sub(/s$/, "", $(NF-4)); print $(NF-4) "," $(NF-8) "," crash[3] "," crash[1] "," crash[2]}')
+  output=$(awk '/^#/{line=$0} /libFuzzer: run interrupted; exiting/{print line; exit}' "$file" | awk -F'[: ]+' '{split($(NF-6), crash, "/"); sub(/s$/, "", $(NF-4)); sub(/^#/, "", $(NF-16)); print $(NF-4) "," $(NF-16) "," crash[3] "," crash[1] "," crash[2]}')
   # Check if time is found and write to CSV
   if [ -n "$output" ]; then
     echo "$fuzzer_name,$benchmark_name,$iter_num,$output" >> "$result_path"

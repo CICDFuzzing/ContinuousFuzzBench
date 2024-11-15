@@ -287,4 +287,3 @@ if __name__ == "__main__":
     plt.ylabel('Time (s)', fontsize=12)
     plt.title('Build Time for each Fuzzer', fontsize=12)
     plt.savefig('build_time_complete.png', format="png", dpi=300)
-
