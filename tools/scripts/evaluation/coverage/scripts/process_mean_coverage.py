@@ -261,29 +261,48 @@ if __name__ == "__main__":
     x = df['benchmark']
     y_values = df.set_index('benchmark')  
 
-    # Plotting
-    fig, ax = plt.subplots(figsize=(24,30))
-    y_values.plot(kind='bar', stacked=True, ax=ax, cmap='viridis')
+    plt.figure(figsize=(10, 10))
+    markers = ['o', '*', '^', '+', 's']
+    columns = ['afl', 'aflpp', 'libfuzzer', 'aflgo', 'ffd']
+    for i in range(0, 5):
+        plt.scatter(range(len(df)), df[columns[i]], label=columns[i])  # Scatter points
+        plt.plot(range(len(df)), df[columns[i]], linestyle='-', marker=markers[i])  # Line connecting points
 
-    # Adding labels and title
-    ax.set_xlabel('Benchmark', fontsize=26)
-    ax.set_ylabel('Time (s)', fontsize=26)
-    ax.set_title('Instrumentation Time for each Benchmark', fontsize=26)
+    categories = df['benchmark']
+    category_to_num = {cat: i for i, cat in enumerate(categories)}  # Mapping
+    x_values = df['benchmark'].map(category_to_num)  # Map categories to numerical values
+    plt.xticks(ticks=range(len(categories)), labels=categories)
     plt.xticks(rotation=90) 
-    plt.xticks(fontsize=26)
-    plt.yticks(fontsize=26)
-    ax.legend(fontsize=26)
-    plt.savefig('instrumentation_time_complete_large.png', format="png", dpi=300)
+    plt.title("Instrumentation Time for each Benchmark")
+    plt.xlabel("Benchmark")
+    plt.ylabel("Time (s)")
+    plt.legend()
+    plt.grid(True)
+    plt.savefig('scatter.png', format="png", dpi=300)
+
+    # Plotting
+    # fig, ax = plt.subplots(figsize=(24,30))
+    # y_values.plot(kind='bar', stacked=True, ax=ax, cmap='viridis')
+
+    # # Adding labels and title
+    # ax.set_xlabel('Benchmark', fontsize=26)
+    # ax.set_ylabel('Time (s)', fontsize=26)
+    # ax.set_title('Instrumentation Time for each Benchmark', fontsize=26)
+    # plt.xticks(rotation=90) 
+    # plt.xticks(fontsize=26)
+    # plt.yticks(fontsize=26)
+    # ax.legend(fontsize=26)
+    # plt.savefig('instrumentation_time_complete_large.png', format="png", dpi=300)
 
 
-    x_values = ['afl', 'aflpp', 'libfuzzer', 'aflgo', 'ffd']
-    y_values = [6.4, 35, 2.2, 228.3, 21.2]
+    # x_values = ['afl', 'aflpp', 'libfuzzer', 'aflgo', 'ffd']
+    # y_values = [6.4, 35, 2.2, 228.3, 21.2]
 
-    # Create a bar chart
-    plt.figure(figsize=(8, 6))  
-    plt.bar(x_values, y_values) 
+    # # Create a bar chart
+    # plt.figure(figsize=(8, 6))  
+    # plt.bar(x_values, y_values) 
 
-    plt.xlabel('Fuzzers', fontsize=12)
-    plt.ylabel('Time (s)', fontsize=12)
-    plt.title('Build Time for each Fuzzer', fontsize=12)
-    plt.savefig('build_time_complete.png', format="png", dpi=300)
+    # plt.xlabel('Fuzzers', fontsize=12)
+    # plt.ylabel('Time (s)', fontsize=12)
+    # plt.title('Build Time for each Fuzzer', fontsize=12)
+    # plt.savefig('build_time_complete.png', format="png", dpi=300)
