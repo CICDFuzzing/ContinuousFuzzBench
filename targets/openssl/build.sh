@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+# set -e
 
 ##
 # Pre-requirements:
@@ -22,7 +22,7 @@ CONFIGURE_FLAGS="no-asm"
 #fi
 
 # the config script supports env var LDLIBS instead of LIBS
-export LDLIBS="$LIBS"
+export LDLIBS="$LIBS $FUZZER_LIB"
 
 ./config --debug enable-fuzz-libfuzzer enable-fuzz-afl disable-tests -DPEDANTIC \
     -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION no-shared no-module \

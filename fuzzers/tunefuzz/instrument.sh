@@ -13,16 +13,19 @@ set -e
 export CC="$FUZZER/FishFuzz/afl-clang-fast"
 export CXX="$FUZZER/FishFuzz/afl-clang-fast++"
 
-
 export LLVM_CONFIG=llvm-config
 export PATH="$FUZZER/llvm/build/bin:${PATH}"
 export LD_LIBRARY_PATH="$FUZZER/llvm/build/lib/x86_64-unknown-linux-gnu/"
 
 export LIBS="$LIBS -lc++ -lc++abi"
-export FUZZER_LIB="$FUZZER/FishFuzz/afl_driver.o"
+if [[ "$TARGET" == *openssl* || "$TARGET" == *php* ]]; then 
+    export FUZZER_LIB="$FUZZER/libAFLDriver.a"
+else 
+    export FUZZER_LIB="$FUZZER/FishFuzz/afl_driver.o"
+fi
 export LIB_FUZZING_ENGINE=$FUZZER_LIB
 
-export FUZZ_OUT="$OUT/tunefuzz"
+export FUZZ_OUT="$OUT"
 export LDFLAGS="$LDFLAGS -L$FUZZ_OUT"
 
 export USE_FF_INST=1

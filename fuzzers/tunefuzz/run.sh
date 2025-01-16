@@ -11,7 +11,7 @@
 # - env FUZZARGS: extra arguments to pass to the fuzzer
 ##
 
-if nm "$OUT/tunefuzz/$PROGRAM" | grep -E '^[0-9a-f]+\s+[Ww]\s+main$'; then
+if nm "$OUT/$PROGRAM" | grep -E '^[0-9a-f]+\s+[Ww]\s+main$'; then
     ARGS="-"
 fi
 
@@ -33,16 +33,16 @@ export AFL_IGNORE_UNKNOWN_ENVS=1
 export AFL_DISABLE_TRIM=1
 export AFL_CMPLOG_ONLY_NEW=1
 
-export TMP_DIR="$OUT/tunefuzz/TEMP"
-export FF_TMP_DIR="$OUT/tunefuzz/TEMP"
+export TMP_DIR="$OUT/TEMP"
+export FF_TMP_DIR="$OUT/TEMP"
 
 # export AFL_MAP_SIZE=256000
 # export AFL_DRIVER_DONT_DEFER=1
 
 mkdir -p "$SHARED/findings"
 
-flag_cmplog=(-m none -c "$OUT/cmplog/$PROGRAM")
+flag_cmplog=(-c "$OUT/$PROGRAM")
 
-"$FUZZER/FishFuzz/afl-fuzz" -i "$TARGET/corpus/$PROGRAM" -o "$SHARED/findings" \
+"$FUZZER/FishFuzz/afl-fuzz" -m none -t 10000 -i "$TARGET/corpus/$PROGRAM" -o "$SHARED/findings" \
     "${flag_cmplog[@]}" -d \
-    $FUZZARGS -- "$OUT/tunefuzz/$PROGRAM" $ARGS 2>&1
+    $FUZZARGS -- "$OUT/$PROGRAM" $ARGS 2>&1

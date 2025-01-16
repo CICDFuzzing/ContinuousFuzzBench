@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+# set -e
 
 ##
 # Pre-requirements:
@@ -28,7 +28,7 @@ make install
 $CXX $CXXFLAGS -std=c++11 -I$WORK/include \
     contrib/oss-fuzz/tiff_read_rgba_fuzzer.cc -o $OUT/tiff_read_rgba_fuzzer \
     $WORK/lib/libtiffxx.a $WORK/lib/libtiff.a -lz -ljpeg -Wl,-Bstatic -llzma -Wl,-Bdynamic \
-    $LDFLAGS $LIBS
+    $LDFLAGS $LIBS $FUZZER_LIB
 
 cp $TARGET/repo/tools/tiffcp "$OUT/"
 
