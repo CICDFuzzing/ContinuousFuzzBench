@@ -62,6 +62,7 @@ RUN ${FUZZER}/preinstall.sh
 
 RUN ${FUZZER}/fetch.sh
 RUN ${FUZZER}/build.sh
+# changed the user 
 USER magma:magma
 
 ARG target_name
@@ -76,12 +77,20 @@ RUN ${TARGET}/fetch.sh
 RUN ${MAGMA}/apply_patches.sh
 
 ARG corpus_name
-ARG seed_path1=seed/afl/${target_name}
-ARG seed_path2=seed/aflpp/${target_name}
-ARG seed_path3=seed/aflgo/${target_name}
-ARG seed_path4=seed/ffd/${target_name}
-ARG seed_path5=seed/libfuzzer/${target_name}
-ARG seed_path6=seed/aflgoexp/${target_name}
+ARG seed_path=seed/${corpus_name}
+ENV SEED	${TARGET}/corpus/seed
+USER root:root
+RUN mkdir -p ${SEED} && chown magma:magma ${SEED}
+COPY --chown=magma:magma ${magma_root}/${seed_path} ${SEED}/
+USER magma:magma
+
+# ARG corpus_name
+# ARG seed_path1=seed/afl/${target_name}
+# ARG seed_path2=seed/aflpp/${target_name}
+# ARG seed_path3=seed/aflgo/${target_name}
+# ARG seed_path4=seed/ffd/${target_name}
+# ARG seed_path5=seed/libfuzzer/${target_name}
+# ARG seed_path6=seed/aflgoexp/${target_name}
 
 # ENV SEED 	${TARGET}/corpus/seed
 # USER root:root

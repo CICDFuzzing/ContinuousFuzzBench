@@ -43,6 +43,10 @@ mkdir -p "$SHARED/findings"
 
 flag_cmplog=(-c "$OUT/$PROGRAM")
 
+export AFL_SKIP_CRASHES=1
+export AFL_FAST_CAL=1
+export AFL_CMPLOG_ONLY_NEW=1
+
 "$FUZZER/FishFuzz/afl-fuzz" -m none -t 10000 -i "$TARGET/corpus/$PROGRAM" -o "$SHARED/findings" \
     "${flag_cmplog[@]}" -d \
     $FUZZARGS -- "$OUT/$PROGRAM" $ARGS 2>&1

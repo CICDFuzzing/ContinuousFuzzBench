@@ -18,7 +18,7 @@ export AFL_NO_AFFINITY=1
 
 export AFL_SKIP_CRASHES=1
 export AFL_FAST_CAL=1
-export AFL_CMPLOG_ONLY_NEW=1
 
-"$FUZZER/repo/afl-2.57b/afl-fuzz" -m none -t 10000 -i "$SEED" -o "$SHARED/findings" \
+# time to exploitation set to the default value, i.e., 10 minutes
+"$FUZZER/repo/afl-2.57b/afl-fuzz" -m none -t 10000 -z exp -i "$SEED" -o "$SHARED/findings" \
     $FUZZARGS -- "$OUT/$PROGRAM" $ARGS 2>&1
