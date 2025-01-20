@@ -17,6 +17,8 @@ cd "$TARGET/repo"
 export ONIG_CFLAGS="-I$PWD/oniguruma/src"
 export ONIG_LIBS="-L$PWD/oniguruma/src/.libs -l:libonig.a"
 
+export LIBS="$LIBS $FUZZER_LIB"
+
 # PHP's zend_function union is incompatible with the object-size sanitizer
 export EXTRA_CFLAGS="$CFLAGS -fno-sanitize=object-size"
 export EXTRA_CXXFLAGS="$CXXFLAGS -fno-sanitize=object-size"
@@ -61,7 +63,7 @@ for fuzzerName in $FUZZERS; do
 done
 
 for fuzzerName in `ls sapi/fuzzer/corpus`; do
-    cp sapi/fuzzer/corpus/${fuzzerName}/* "$TARGET/corpus/${fuzzerName}/"
+    # cp sapi/fuzzer/corpus/${fuzzerName}/* "$TARGET/corpus/${fuzzerName}/"
     # Loop through the files that match the pattern
     for file in "sapi/fuzzer/"*"$fuzzerName".0.0.*.bc; do
         if [ -f "$file" ]; then

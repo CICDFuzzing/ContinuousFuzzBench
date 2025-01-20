@@ -14,3 +14,6 @@
 mkdir -p "$SHARED/findings"
 
 sleep 24h
+
+export AFL_SKIP_CRASHES=1
+export AFL_FAST_CAL=1

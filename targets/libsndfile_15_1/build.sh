@@ -16,6 +16,8 @@ fi
 cd "$TARGET/repo"
 ./autogen.sh
 ./configure --disable-shared --enable-ossfuzzers
+
+export LIBS="$LIBS $FUZZER_LIB"
 make -j$(nproc) clean
 make ossfuzz/sndfile_fuzzer
 

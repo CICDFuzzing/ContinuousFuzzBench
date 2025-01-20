@@ -23,7 +23,6 @@ export LIBS="$LIBS $FUZZER_LIB"
 export EXTRA_CFLAGS="$CFLAGS -fno-sanitize=object-size"
 export EXTRA_CXXFLAGS="$CXXFLAGS -fno-sanitize=object-size"
 
-
 unset CFLAGS
 unset CXXFLAGS
 
@@ -64,7 +63,7 @@ for fuzzerName in $FUZZERS; do
 done
 
 for fuzzerName in `ls sapi/fuzzer/corpus`; do
-    cp sapi/fuzzer/corpus/${fuzzerName}/* "$TARGET/corpus/${fuzzerName}/"
+    # cp sapi/fuzzer/corpus/${fuzzerName}/* "$TARGET/corpus/${fuzzerName}/"
     # Loop through the files that match the pattern
     for file in "sapi/fuzzer/"*"$fuzzerName".0.0.*.bc; do
         if [ -f "$file" ]; then
