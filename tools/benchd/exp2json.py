@@ -15,6 +15,7 @@ from tempfile import mkdtemp
 
 import pandas as pd
 
+# python3 exp2json.py --workers 32 -v scratch-dir/log-data/afl/afl-experiments scratch-dir/log/bug_analysis/afl_results.json
 ddr = lambda: defaultdict(ddr)
 
 def parse_args():

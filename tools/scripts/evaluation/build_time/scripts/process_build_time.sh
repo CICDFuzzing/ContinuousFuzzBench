@@ -1,19 +1,19 @@
 #!/bin/bash
 
+# ./process_build_time.sh scratch-dir/log/build_time scratch-dir/log-data
 # Sanity check
 if [ "$#" -ne 2 ]; then
-    echo "Usage: $0 <output_dir> <log_dir>"
+    echo "Usage: $0 <log_dir> <output_dir>"
     exit 1
 fi
 
-# Output CSV file
-output_dir="$1"
-log_dir="$2"
+log_dir="$1"
+output_dir="$2"
 
 mkdir -p $output_dir
 
 # Loop over all log files in the directory
-for file in $log_dir/*build.log; do
+for file in $log_dir/*/*/*/*build.log; do
   # Extract the time using the grep and sed command
   log_name=$(basename $file)
   fuzzer_name="${log_name%%_*}"

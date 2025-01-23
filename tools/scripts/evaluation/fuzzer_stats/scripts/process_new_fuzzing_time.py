@@ -10,7 +10,6 @@ def mann_whitney_u_test(sample1, sample2, alternative):
     return p
 
 
-
 # Define the base pattern to search
 home_dir = os.path.expanduser("~")
 
@@ -67,7 +66,6 @@ for row_idx, row in result_df.iterrows():
 mean_df = result_df.applymap(lambda x: np.mean(x))
 print(mean_df)
 
-# store result_df
 
 # formatting
 for benchmark_name in rows:
@@ -119,4 +117,3 @@ for benchmark_name in rows:
 #     libfuzzer_stats = lib_df.loc[lib_df['TARGET'] == benchmark_name, 'runtime'].iloc[0]
 #     benchmark_name = benchmark_name.replace('_', r'\_')
 #     print(f'{benchmark_name} & {formatted} & {libfuzzer_stats:.0f} \\\\')
-

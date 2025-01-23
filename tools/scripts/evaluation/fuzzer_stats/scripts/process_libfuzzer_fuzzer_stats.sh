@@ -1,19 +1,19 @@
 #!/bin/bash -e
 
+# ./process_libfuzzer_fuzzer_stats.sh scratch-dir/log-data/libfuzzer scratch-dir/log/fuzzer_stats/libfuzzer
 # Sanity check
 if [ "$#" -ne 2 ]; then
-    echo "Usage: $0 <output_dir> <log_dir>"
+    echo "Usage: $0 <log_dir> <output_dir>"
     exit 1
 fi
 
-# Output CSV file
-output_dir="$1"
-log_dir="$2"
+log_dir="$1"
+output_dir="$2"
 
 mkdir -p $output_dir
 
 # Loop over all log files in the directory
-for file in $log_dir/*container.log; do
+for file in $log_dir/*/*/*container.log; do
   # Extract the time using the grep and sed command
   log_name=$(basename $file)
   fuzzer_name=$(echo $log_name | awk -F'_' '{print $1}')

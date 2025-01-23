@@ -22,6 +22,7 @@ from lifelines import KaplanMeierFitter
 from lifelines.utils import restricted_mean_survival_time as rmst
 import pandas as pd
 
+# python3 survival_analysis.py -n 10 -t 600 scratch-dir/log/bug_analysis/afl_results.json > scratch-dir/log/bug_analysis/afl_survival_analysis
 
 METRICS = ('reached', 'triggered')
 ddr = lambda: defaultdict(ddr)

@@ -1,16 +1,19 @@
 #!/bin/bash -e
 shopt -s extglob
 
+# ./process_fuzzer_stats.sh scratch-dir/log-data/aflgoexp scratch-dir/log/fuzzer_stats
 # Sanity check
-if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 <results>"
+if [ "$#" -ne 2 ]; then
+    echo "Usage: $0 <log_dir> <output_dir>"
     exit 1
 fi
-dir_path=$1
 
-output_path="./temp"
+log_dir="$1"
+output_dir="$2"
 
-for log_path in "$dir_path"/*/*/*/
+mkdir -p $output_dir
+
+for log_path in "$log_dir"/*/*/*/
 do
     echo $log_path
     find "$log_path" -type f -name "fuzzer_stats" | while read stats_file; 
@@ -29,7 +32,7 @@ do
         else 
             stats="$fuzzer_name,$target_name,$program_name,$iter_num"
         fi 
-        mkdir -p "$output_path/$fuzzer_name"
-        echo "$stats" >> "$output_path/$fuzzer_name/$fuzzer_name"_"$target_name"_"$program_name"_fuzzer_stats
+        mkdir -p "$output_dir/$fuzzer_name"
+        echo "$stats" >> "$output_dir/$fuzzer_name/$fuzzer_name"_"$target_name"_"$program_name"_fuzzer_stats
     done 
 done
