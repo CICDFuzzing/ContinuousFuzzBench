@@ -1,0 +1,31 @@
+File '/magma/targets/libtiff_6_1/repo/libtiff/tif_pixarlog.c':
+Name                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+----------------------------------------------------------------------------------------------------------------------
+TIFFInitPixarLog                                11       3  72.73%        46       9  80.43%         4       2  50.00%
+tif_pixarlog.c:PixarLogFixupTags                 1       0 100.00%         4       0 100.00%         0       0   0.00%
+tif_pixarlog.c:PixarLogSetupDecode              33       7  78.79%        46       8  82.61%        18       7  61.11%
+tif_pixarlog.c:multiply_ms                       1       0 100.00%         3       0 100.00%         0       0   0.00%
+tif_pixarlog.c:add_ms                           11       2  81.82%         8       2  75.00%         6       3  50.00%
+tif_pixarlog.c:PixarLogGuessDataFmt             44      23  47.73%        27      12  55.56%        30      16  46.67%
+tif_pixarlog.c:PixarLogPreDecode                 7       1  85.71%        15       4  73.33%         2       1  50.00%
+tif_pixarlog.c:PixarLogDecode                   66      33  50.00%       120      72  40.00%        52      32  38.46%
+tif_pixarlog.c:horizontalAccumulateF            22      22   0.00%        58      58   0.00%        16      16   0.00%
+tif_pixarlog.c:horizontalAccumulate16           22      22   0.00%        43      43   0.00%        16      16   0.00%
+tif_pixarlog.c:horizontalAccumulate12           98      98   0.00%        62      62   0.00%        48      48   0.00%
+tif_pixarlog.c:horizontalAccumulate11           22      22   0.00%        41      41   0.00%        16      16   0.00%
+tif_pixarlog.c:horizontalAccumulate8            22      22   0.00%        43      43   0.00%        16      16   0.00%
+tif_pixarlog.c:horizontalAccumulate8abgr        22      22   0.00%        60      60   0.00%        16      16   0.00%
+tif_pixarlog.c:PixarLogSetupEncode              27      27   0.00%        29      29   0.00%        14      14   0.00%
+tif_pixarlog.c:PixarLogPreEncode                 7       7   0.00%        15      15   0.00%         2       2   0.00%
+tif_pixarlog.c:PixarLogPostEncode               17      17   0.00%        27      27   0.00%        14      14   0.00%
+tif_pixarlog.c:PixarLogEncode                   48      48   0.00%        84      84   0.00%        38      38   0.00%
+tif_pixarlog.c:horizontalDifferenceF           189     189   0.00%        49      49   0.00%       118     118   0.00%
+tif_pixarlog.c:horizontalDifference16           36      36   0.00%        43      43   0.00%        16      16   0.00%
+tif_pixarlog.c:horizontalDifference8            36      36   0.00%        43      43   0.00%        16      16   0.00%
+tif_pixarlog.c:PixarLogClose                     6       6   0.00%        12      12   0.00%         0       0   0.00%
+tif_pixarlog.c:PixarLogCleanup                  22       1  95.45%        24       2  91.67%        18       7  61.11%
+tif_pixarlog.c:PixarLogVGetField                 7       5  28.57%        14       7  50.00%         6       3  50.00%
+tif_pixarlog.c:PixarLogVSetField                50      47   6.00%        50      40  20.00%        30      27  10.00%
+tif_pixarlog.c:PixarLogMakeTables               63      13  79.37%        81      14  82.72%        46      18  60.87%
+----------------------------------------------------------------------------------------------------------------------
+TOTAL                                          890     709  20.34%      1047     779  25.60%       558     462  17.20%

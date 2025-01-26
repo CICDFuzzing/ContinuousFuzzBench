@@ -1,0 +1,113 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_6_5/corpus/seed/tunefuzz/client/0/findings/default/queue
+The target is openssl_6_5
+The commit files are crypto/evp/encode.c
+The commit paths are /magma/targets/openssl_6_5/repo/crypto/evp/encode.c
+Check the number of profdata...
+3207
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_6_5/corpus/seed/tunefuzz/client/1/findings/default/queue
+The target is openssl_6_5
+The commit files are crypto/evp/encode.c
+The commit paths are /magma/targets/openssl_6_5/repo/crypto/evp/encode.c
+Check the number of profdata...
+3187
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_6_5/corpus/seed/tunefuzz/client/2/findings/default/queue
+The target is openssl_6_5
+The commit files are crypto/evp/encode.c
+The commit paths are /magma/targets/openssl_6_5/repo/crypto/evp/encode.c
+Check the number of profdata...
+3235
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_6_5/corpus/seed/tunefuzz/client/3/findings/default/queue
+The target is openssl_6_5
+The commit files are crypto/evp/encode.c
+The commit paths are /magma/targets/openssl_6_5/repo/crypto/evp/encode.c
+Check the number of profdata...
+3239
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_6_5/corpus/seed/tunefuzz/client/4/findings/default/queue
+The target is openssl_6_5
+The commit files are crypto/evp/encode.c
+The commit paths are /magma/targets/openssl_6_5/repo/crypto/evp/encode.c
+Check the number of profdata...
+3223
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_6_5/corpus/seed/tunefuzz/client/5/findings/default/queue
+The target is openssl_6_5
+The commit files are crypto/evp/encode.c
+The commit paths are /magma/targets/openssl_6_5/repo/crypto/evp/encode.c
+Check the number of profdata...
+3232
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_6_5/corpus/seed/tunefuzz/client/6/findings/default/queue
+The target is openssl_6_5
+The commit files are crypto/evp/encode.c
+The commit paths are /magma/targets/openssl_6_5/repo/crypto/evp/encode.c
+Check the number of profdata...
+3232
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_6_5/corpus/seed/tunefuzz/client/7/findings/default/queue
+The target is openssl_6_5
+The commit files are crypto/evp/encode.c
+The commit paths are /magma/targets/openssl_6_5/repo/crypto/evp/encode.c
+Check the number of profdata...
+3211
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_6_5/corpus/seed/tunefuzz/client/8/findings/default/queue
+The target is openssl_6_5
+The commit files are crypto/evp/encode.c
+The commit paths are /magma/targets/openssl_6_5/repo/crypto/evp/encode.c
+Check the number of profdata...
+3224
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_6_5/corpus/seed/tunefuzz/client/9/findings/default/queue
+The target is openssl_6_5
+The commit files are crypto/evp/encode.c
+The commit paths are /magma/targets/openssl_6_5/repo/crypto/evp/encode.c
+Check the number of profdata...
+3228
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

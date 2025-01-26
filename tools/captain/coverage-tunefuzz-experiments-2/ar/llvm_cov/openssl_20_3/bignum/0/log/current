@@ -1,0 +1,12 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_20_3/corpus/seed/tunefuzz/bignum/0/findings/default/queue
+The target is openssl_20_3
+The commit files are ssl/t1_lib.c
+The commit paths are /magma/targets/openssl_20_3/repo/ssl/t1_lib.c
+Check the number of profdata...
+425
+Merging profraw files...
+Get the total coverage...

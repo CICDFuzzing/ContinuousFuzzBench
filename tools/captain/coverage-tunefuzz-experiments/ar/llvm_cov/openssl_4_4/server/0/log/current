@@ -1,0 +1,113 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_4_4/corpus/seed/tunefuzz/server/0/findings/default/queue
+The target is openssl_4_4
+The commit files are crypto/x509/x509_obj.c
+The commit paths are /magma/targets/openssl_4_4/repo/crypto/x509/x509_obj.c
+Check the number of profdata...
+1757
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_4_4/corpus/seed/tunefuzz/server/1/findings/default/queue
+The target is openssl_4_4
+The commit files are crypto/x509/x509_obj.c
+The commit paths are /magma/targets/openssl_4_4/repo/crypto/x509/x509_obj.c
+Check the number of profdata...
+1781
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_4_4/corpus/seed/tunefuzz/server/2/findings/default/queue
+The target is openssl_4_4
+The commit files are crypto/x509/x509_obj.c
+The commit paths are /magma/targets/openssl_4_4/repo/crypto/x509/x509_obj.c
+Check the number of profdata...
+1791
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_4_4/corpus/seed/tunefuzz/server/3/findings/default/queue
+The target is openssl_4_4
+The commit files are crypto/x509/x509_obj.c
+The commit paths are /magma/targets/openssl_4_4/repo/crypto/x509/x509_obj.c
+Check the number of profdata...
+1726
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_4_4/corpus/seed/tunefuzz/server/4/findings/default/queue
+The target is openssl_4_4
+The commit files are crypto/x509/x509_obj.c
+The commit paths are /magma/targets/openssl_4_4/repo/crypto/x509/x509_obj.c
+Check the number of profdata...
+1792
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_4_4/corpus/seed/tunefuzz/server/5/findings/default/queue
+The target is openssl_4_4
+The commit files are crypto/x509/x509_obj.c
+The commit paths are /magma/targets/openssl_4_4/repo/crypto/x509/x509_obj.c
+Check the number of profdata...
+1797
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_4_4/corpus/seed/tunefuzz/server/6/findings/default/queue
+The target is openssl_4_4
+The commit files are crypto/x509/x509_obj.c
+The commit paths are /magma/targets/openssl_4_4/repo/crypto/x509/x509_obj.c
+Check the number of profdata...
+1771
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_4_4/corpus/seed/tunefuzz/server/7/findings/default/queue
+The target is openssl_4_4
+The commit files are crypto/x509/x509_obj.c
+The commit paths are /magma/targets/openssl_4_4/repo/crypto/x509/x509_obj.c
+Check the number of profdata...
+1773
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_4_4/corpus/seed/tunefuzz/server/8/findings/default/queue
+The target is openssl_4_4
+The commit files are crypto/x509/x509_obj.c
+The commit paths are /magma/targets/openssl_4_4/repo/crypto/x509/x509_obj.c
+Check the number of profdata...
+1798
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_4_4/corpus/seed/tunefuzz/server/9/findings/default/queue
+The target is openssl_4_4
+The commit files are crypto/x509/x509_obj.c
+The commit paths are /magma/targets/openssl_4_4/repo/crypto/x509/x509_obj.c
+Check the number of profdata...
+1776
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

@@ -1,0 +1,113 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_17_2/corpus/seed/tunefuzz/asn1parse/0/findings/default/queue
+The target is openssl_17_2
+The commit files are crypto/x509/x509_vfy.c
+The commit paths are /magma/targets/openssl_17_2/repo/crypto/x509/x509_vfy.c
+Check the number of profdata...
+447
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_17_2/corpus/seed/tunefuzz/asn1parse/1/findings/default/queue
+The target is openssl_17_2
+The commit files are crypto/x509/x509_vfy.c
+The commit paths are /magma/targets/openssl_17_2/repo/crypto/x509/x509_vfy.c
+Check the number of profdata...
+448
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_17_2/corpus/seed/tunefuzz/asn1parse/2/findings/default/queue
+The target is openssl_17_2
+The commit files are crypto/x509/x509_vfy.c
+The commit paths are /magma/targets/openssl_17_2/repo/crypto/x509/x509_vfy.c
+Check the number of profdata...
+447
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_17_2/corpus/seed/tunefuzz/asn1parse/3/findings/default/queue
+The target is openssl_17_2
+The commit files are crypto/x509/x509_vfy.c
+The commit paths are /magma/targets/openssl_17_2/repo/crypto/x509/x509_vfy.c
+Check the number of profdata...
+449
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_17_2/corpus/seed/tunefuzz/asn1parse/4/findings/default/queue
+The target is openssl_17_2
+The commit files are crypto/x509/x509_vfy.c
+The commit paths are /magma/targets/openssl_17_2/repo/crypto/x509/x509_vfy.c
+Check the number of profdata...
+446
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_17_2/corpus/seed/tunefuzz/asn1parse/5/findings/default/queue
+The target is openssl_17_2
+The commit files are crypto/x509/x509_vfy.c
+The commit paths are /magma/targets/openssl_17_2/repo/crypto/x509/x509_vfy.c
+Check the number of profdata...
+445
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_17_2/corpus/seed/tunefuzz/asn1parse/6/findings/default/queue
+The target is openssl_17_2
+The commit files are crypto/x509/x509_vfy.c
+The commit paths are /magma/targets/openssl_17_2/repo/crypto/x509/x509_vfy.c
+Check the number of profdata...
+447
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_17_2/corpus/seed/tunefuzz/asn1parse/7/findings/default/queue
+The target is openssl_17_2
+The commit files are crypto/x509/x509_vfy.c
+The commit paths are /magma/targets/openssl_17_2/repo/crypto/x509/x509_vfy.c
+Check the number of profdata...
+446
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_17_2/corpus/seed/tunefuzz/asn1parse/8/findings/default/queue
+The target is openssl_17_2
+The commit files are crypto/x509/x509_vfy.c
+The commit paths are /magma/targets/openssl_17_2/repo/crypto/x509/x509_vfy.c
+Check the number of profdata...
+447
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_17_2/corpus/seed/tunefuzz/asn1parse/9/findings/default/queue
+The target is openssl_17_2
+The commit files are crypto/x509/x509_vfy.c
+The commit paths are /magma/targets/openssl_17_2/repo/crypto/x509/x509_vfy.c
+Check the number of profdata...
+449
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

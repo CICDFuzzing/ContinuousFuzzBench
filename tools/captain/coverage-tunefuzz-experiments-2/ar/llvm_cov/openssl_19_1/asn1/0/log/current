@@ -1,0 +1,113 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_19_1/corpus/seed/tunefuzz/asn1/0/findings/default/queue
+The target is openssl_19_1
+The commit files are ssl/record/rec_layer_s3.c
+The commit paths are /magma/targets/openssl_19_1/repo/ssl/record/rec_layer_s3.c
+Check the number of profdata...
+2643
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_19_1/corpus/seed/tunefuzz/asn1/1/findings/default/queue
+The target is openssl_19_1
+The commit files are ssl/record/rec_layer_s3.c
+The commit paths are /magma/targets/openssl_19_1/repo/ssl/record/rec_layer_s3.c
+Check the number of profdata...
+2668
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_19_1/corpus/seed/tunefuzz/asn1/2/findings/default/queue
+The target is openssl_19_1
+The commit files are ssl/record/rec_layer_s3.c
+The commit paths are /magma/targets/openssl_19_1/repo/ssl/record/rec_layer_s3.c
+Check the number of profdata...
+2646
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_19_1/corpus/seed/tunefuzz/asn1/3/findings/default/queue
+The target is openssl_19_1
+The commit files are ssl/record/rec_layer_s3.c
+The commit paths are /magma/targets/openssl_19_1/repo/ssl/record/rec_layer_s3.c
+Check the number of profdata...
+2632
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_19_1/corpus/seed/tunefuzz/asn1/4/findings/default/queue
+The target is openssl_19_1
+The commit files are ssl/record/rec_layer_s3.c
+The commit paths are /magma/targets/openssl_19_1/repo/ssl/record/rec_layer_s3.c
+Check the number of profdata...
+2617
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_19_1/corpus/seed/tunefuzz/asn1/5/findings/default/queue
+The target is openssl_19_1
+The commit files are ssl/record/rec_layer_s3.c
+The commit paths are /magma/targets/openssl_19_1/repo/ssl/record/rec_layer_s3.c
+Check the number of profdata...
+2603
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_19_1/corpus/seed/tunefuzz/asn1/6/findings/default/queue
+The target is openssl_19_1
+The commit files are ssl/record/rec_layer_s3.c
+The commit paths are /magma/targets/openssl_19_1/repo/ssl/record/rec_layer_s3.c
+Check the number of profdata...
+2628
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_19_1/corpus/seed/tunefuzz/asn1/7/findings/default/queue
+The target is openssl_19_1
+The commit files are ssl/record/rec_layer_s3.c
+The commit paths are /magma/targets/openssl_19_1/repo/ssl/record/rec_layer_s3.c
+Check the number of profdata...
+2652
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_19_1/corpus/seed/tunefuzz/asn1/8/findings/default/queue
+The target is openssl_19_1
+The commit files are ssl/record/rec_layer_s3.c
+The commit paths are /magma/targets/openssl_19_1/repo/ssl/record/rec_layer_s3.c
+Check the number of profdata...
+2557
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_19_1/corpus/seed/tunefuzz/asn1/9/findings/default/queue
+The target is openssl_19_1
+The commit files are ssl/record/rec_layer_s3.c
+The commit paths are /magma/targets/openssl_19_1/repo/ssl/record/rec_layer_s3.c
+Check the number of profdata...
+2621
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

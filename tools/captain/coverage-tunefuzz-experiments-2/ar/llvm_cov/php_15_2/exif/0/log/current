@@ -1,0 +1,113 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/tunefuzz/exif/0/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+948
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/tunefuzz/exif/1/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+916
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/tunefuzz/exif/2/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+945
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/tunefuzz/exif/3/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+933
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/tunefuzz/exif/4/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+945
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/tunefuzz/exif/5/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+941
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/tunefuzz/exif/6/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+954
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/tunefuzz/exif/7/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+954
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/tunefuzz/exif/8/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+943
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/php_15_2/corpus/seed/tunefuzz/exif/9/findings/default/queue
+The target is php_15_2
+The commit files are ext/phar/phar.c
+The commit paths are /magma/targets/php_15_2/repo/ext/phar/phar.c
+Check the number of profdata...
+942
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

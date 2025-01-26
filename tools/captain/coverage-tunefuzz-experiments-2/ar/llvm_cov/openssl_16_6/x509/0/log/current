@@ -1,0 +1,78 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/tunefuzz/x509/0/findings/default/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+2162
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/tunefuzz/x509/1/findings/default/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+2162
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/tunefuzz/x509/2/findings/default/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+2174
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/tunefuzz/x509/3/findings/default/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+2135
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/tunefuzz/x509/4/findings/default/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+2170
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/tunefuzz/x509/5/findings/default/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+2154
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+File /magma/targets/openssl_16_6/corpus/seed/tunefuzz/x509/6/findings/default/queue/* does not exist
+The target corpus is /magma/targets/openssl_16_6/corpus/seed/tunefuzz/x509/6/findings/default/queue
+The target is openssl_16_6
+The commit files are crypto/bn/bn_gf2m.c
+The commit paths are /magma/targets/openssl_16_6/repo/crypto/bn/bn_gf2m.c
+Check the number of profdata...
+0
+Merging profraw files...

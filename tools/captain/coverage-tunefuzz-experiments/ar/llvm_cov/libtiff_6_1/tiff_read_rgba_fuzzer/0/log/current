@@ -1,0 +1,113 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libtiff_6_1/corpus/seed/tunefuzz/tiff_read_rgba_fuzzer/0/findings/default/queue
+The target is libtiff_6_1
+The commit files are libtiff/tif_pixarlog.c
+The commit paths are /magma/targets/libtiff_6_1/repo/libtiff/tif_pixarlog.c
+Check the number of profdata...
+4514
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libtiff_6_1/corpus/seed/tunefuzz/tiff_read_rgba_fuzzer/1/findings/default/queue
+The target is libtiff_6_1
+The commit files are libtiff/tif_pixarlog.c
+The commit paths are /magma/targets/libtiff_6_1/repo/libtiff/tif_pixarlog.c
+Check the number of profdata...
+4468
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libtiff_6_1/corpus/seed/tunefuzz/tiff_read_rgba_fuzzer/2/findings/default/queue
+The target is libtiff_6_1
+The commit files are libtiff/tif_pixarlog.c
+The commit paths are /magma/targets/libtiff_6_1/repo/libtiff/tif_pixarlog.c
+Check the number of profdata...
+4455
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libtiff_6_1/corpus/seed/tunefuzz/tiff_read_rgba_fuzzer/3/findings/default/queue
+The target is libtiff_6_1
+The commit files are libtiff/tif_pixarlog.c
+The commit paths are /magma/targets/libtiff_6_1/repo/libtiff/tif_pixarlog.c
+Check the number of profdata...
+4479
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libtiff_6_1/corpus/seed/tunefuzz/tiff_read_rgba_fuzzer/4/findings/default/queue
+The target is libtiff_6_1
+The commit files are libtiff/tif_pixarlog.c
+The commit paths are /magma/targets/libtiff_6_1/repo/libtiff/tif_pixarlog.c
+Check the number of profdata...
+4475
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libtiff_6_1/corpus/seed/tunefuzz/tiff_read_rgba_fuzzer/5/findings/default/queue
+The target is libtiff_6_1
+The commit files are libtiff/tif_pixarlog.c
+The commit paths are /magma/targets/libtiff_6_1/repo/libtiff/tif_pixarlog.c
+Check the number of profdata...
+4476
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libtiff_6_1/corpus/seed/tunefuzz/tiff_read_rgba_fuzzer/6/findings/default/queue
+The target is libtiff_6_1
+The commit files are libtiff/tif_pixarlog.c
+The commit paths are /magma/targets/libtiff_6_1/repo/libtiff/tif_pixarlog.c
+Check the number of profdata...
+4491
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libtiff_6_1/corpus/seed/tunefuzz/tiff_read_rgba_fuzzer/7/findings/default/queue
+The target is libtiff_6_1
+The commit files are libtiff/tif_pixarlog.c
+The commit paths are /magma/targets/libtiff_6_1/repo/libtiff/tif_pixarlog.c
+Check the number of profdata...
+4519
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libtiff_6_1/corpus/seed/tunefuzz/tiff_read_rgba_fuzzer/8/findings/default/queue
+The target is libtiff_6_1
+The commit files are libtiff/tif_pixarlog.c
+The commit paths are /magma/targets/libtiff_6_1/repo/libtiff/tif_pixarlog.c
+Check the number of profdata...
+4470
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libtiff_6_1/corpus/seed/tunefuzz/tiff_read_rgba_fuzzer/9/findings/default/queue
+The target is libtiff_6_1
+The commit files are libtiff/tif_pixarlog.c
+The commit paths are /magma/targets/libtiff_6_1/repo/libtiff/tif_pixarlog.c
+Check the number of profdata...
+4486
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared
