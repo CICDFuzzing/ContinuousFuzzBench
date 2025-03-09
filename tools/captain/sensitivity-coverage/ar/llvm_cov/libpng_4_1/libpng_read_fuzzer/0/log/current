@@ -1,0 +1,333 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/ffd/libpng_read_fuzzer/0/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1844
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgo/libpng_read_fuzzer/0/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1688
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgoexp/libpng_read_fuzzer/0/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1688
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/ffd/libpng_read_fuzzer/1/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1853
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgo/libpng_read_fuzzer/1/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1689
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgoexp/libpng_read_fuzzer/1/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1686
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/ffd/libpng_read_fuzzer/2/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1839
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgo/libpng_read_fuzzer/2/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1681
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgoexp/libpng_read_fuzzer/2/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1691
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/ffd/libpng_read_fuzzer/3/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1842
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgo/libpng_read_fuzzer/3/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1679
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgoexp/libpng_read_fuzzer/3/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1667
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/ffd/libpng_read_fuzzer/4/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1843
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgo/libpng_read_fuzzer/4/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1679
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgoexp/libpng_read_fuzzer/4/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1699
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/ffd/libpng_read_fuzzer/5/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1835
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgo/libpng_read_fuzzer/5/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1686
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgoexp/libpng_read_fuzzer/5/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1689
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/ffd/libpng_read_fuzzer/6/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1848
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgo/libpng_read_fuzzer/6/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1685
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgoexp/libpng_read_fuzzer/6/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1666
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/ffd/libpng_read_fuzzer/7/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1838
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgo/libpng_read_fuzzer/7/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1681
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgoexp/libpng_read_fuzzer/7/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1690
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/ffd/libpng_read_fuzzer/8/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1845
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgo/libpng_read_fuzzer/8/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1688
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgoexp/libpng_read_fuzzer/8/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1683
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/ffd/libpng_read_fuzzer/9/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1839
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgo/libpng_read_fuzzer/9/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1696
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/libpng_4_1/corpus/seed/aflgoexp/libpng_read_fuzzer/9/findings/queue
+The target is libpng_4_1
+The commit files are pngrutil.c
+The commit paths are /magma/targets/libpng_4_1/repo/pngrutil.c
+Check the number of profdata...
+1685
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared

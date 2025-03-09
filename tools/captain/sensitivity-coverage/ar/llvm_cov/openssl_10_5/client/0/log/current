@@ -1,0 +1,333 @@
+No fuzzer included. This is just for building an analysis target.
+/magma/fuzzers/llvm_cov /magma_shared
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/ffd/client/0/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3124
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgo/client/0/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3127
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 0
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgoexp/client/0/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3122
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/ffd/client/1/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3125
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgo/client/1/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3127
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 1
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgoexp/client/1/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3122
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/ffd/client/2/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3131
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgo/client/2/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3127
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 2
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgoexp/client/2/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3122
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/ffd/client/3/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3130
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgo/client/3/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3130
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 3
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgoexp/client/3/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3122
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/ffd/client/4/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3127
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgo/client/4/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3127
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 4
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgoexp/client/4/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3122
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/ffd/client/5/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3129
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgo/client/5/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3134
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 5
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgoexp/client/5/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3122
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/ffd/client/6/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3124
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgo/client/6/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3129
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 6
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgoexp/client/6/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3122
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/ffd/client/7/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3128
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgo/client/7/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3127
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 7
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgoexp/client/7/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3122
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/ffd/client/8/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3128
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgo/client/8/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3127
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 8
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgoexp/client/8/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3122
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/ffd/client/9/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3120
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgo/client/9/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3127
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+iter is set to: 9
+/magma_out /magma/fuzzers/llvm_cov
+The target corpus is /magma/targets/openssl_10_5/corpus/seed/aflgoexp/client/9/findings/queue
+The target is openssl_10_5
+The commit files are crypto/bn/bn_local.h
+The commit paths are /magma/targets/openssl_10_5/repo/crypto/bn/bn_local.h
+Check the number of profdata...
+3122
+Merging profraw files...
+Get the total coverage...
+/magma/fuzzers/llvm_cov
+/magma_shared
